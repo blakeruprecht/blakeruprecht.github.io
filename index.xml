@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blake&#39;s blog</title>
+    <link>https://blakeruprecht.github.io/</link>
+    <description>Recent content on Blake&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2022, Blake Ruprecht.</copyright>
+    <lastBuildDate>Fri, 20 May 2022 14:02:05 -0500</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Risk Research Intro</title>
+      <link>https://blakeruprecht.github.io/ai-risk-research-intro/</link>
+      <pubDate>Fri, 20 May 2022 14:02:05 -0500</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/ai-risk-research-intro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural</title>
+      <link>https://blakeruprecht.github.io/natural/</link>
+      <pubDate>Wed, 20 Apr 2022 16:07:55 -0500</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/natural/</guid>
+      <description>Every object on earth is made up of matter. This matter comes from the universe, and is as old as the reactions that formed it, up to a couple billion or so years ago. It&amp;rsquo;s not new here. Like it or not, humans still can&amp;rsquo;t create matter from nothing. We&amp;rsquo;ve figured out how to split it apart (nuclear fission), but still haven&amp;rsquo;t figured out how to smush it together (nuclear fusion).</description>
+    </item>
+    
+    <item>
+      <title>Interested</title>
+      <link>https://blakeruprecht.github.io/interested/</link>
+      <pubDate>Mon, 11 Apr 2022 17:23:25 -0500</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/interested/</guid>
+      <description>This is a fascinating topic to me because of my experiences in graduate school. Now I don&amp;rsquo;t claim to be a genius, I barely know anything about most things. I mostly see flaws, and as a result, have thought about my own a lot. I see myself failing, it consumes my thoughts. So when I started falling behind my peers in school, I was initially baffled. I&amp;rsquo;ve always had top grades, and it&amp;rsquo;s always been fun for me.</description>
+    </item>
+    
+  </channel>
+</rss>
