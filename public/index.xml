@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Write that Down</title>
-    <link>https://example.com/</link>
-    <description>Recent content on Write that Down</description>
+    <title>Write that Down!</title>
+    <link>https://blakeruprecht.github.io/</link>
+    <description>Recent content on Write that Down!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2023, Blake Ruprecht.</copyright><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2023, Blake Ruprecht.</copyright><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://example.com/</link>
+      <link>https://blakeruprecht.github.io/</link>
       <pubDate>Mon, 24 Jul 2023 15:29:23 -0400</pubDate>
       
-      <guid>https://example.com/</guid>
+      <guid>https://blakeruprecht.github.io/</guid>
       <description>Professional I just finished my MS in Computer Science, during which I honed my passion for researching and developed a new passion for written communication. I&amp;rsquo;m seeking roles where I can combine my love of science and nature with my skills in communication and artificial intelligence to educate.
 Personal Outside of writing and research, a good time involves good music, grilled food/BBQ, local brews, and the great outdoors. I love getting outside, especially to swim, but also to hike and run on trails, shoot bogey disc golf, camp on beaches and by rivers, float trip in rural Missouri, hammock in the mountains, and travel around the world (SE Asia &amp;amp; Europe so far).</description>
     </item>
