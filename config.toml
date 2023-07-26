@@ -20,6 +20,16 @@ ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
   blog = "/:slug/"
 
+
+# Force the menu to include "blog"
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    pageRef = '/'
+  [[menu.main]]
+    name = 'Blog'
+    pageRef = '/blog'
+
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
   description = "Always a work in progress"
