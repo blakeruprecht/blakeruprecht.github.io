@@ -1,14 +1,8 @@
-+++
-title = "Brew_coffee_better"
-date = "2023-07-26T11:10:12-04:00"
-draft = false
-
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
-+++
+---
+title: "Brew Coffee Better"
+date: 2023-07-26
+draft: false
+---
 
 ## Summary of this essay
 1. Why brew yourself?
@@ -68,11 +62,11 @@ The last bit of dialing in your coffee flavor comes down to how you brew it. Thi
 6. **Filter cold-brew from grounds**. You can drink it with the grounds if you like, but I do not, so I remove the coarse filter (with grounds) from the brewed coffee. Next, I bring out the second jar, and place the cheese cloth over the second jar forming a nice valley (opposite of a mountain) to act as a filter for the coffee. I attach the cheese cloth using a rubber band so I don't have to hold it, then I slowly pour my cold-brew though the cheese cloth from the first jar into the second jar. This way, I filter out any fine particles still left in the coffee, resulting in a much cleaner taste. Some even filter the cold-brew again through an even finer coffee filter, but this is far enough for me.
 
 ---
-# References
+## References
 - [^1] I looked up some papers referencing the taste variation in coffee brewing temperatures, and [this one](https://www.mdpi.com/2304-8158/9/7/902)(1.1) discussed decreased acidity, lower concentration of browned compounds, and fewer total dissolved solids in *cold-brew* coffee. [This paper](https://www.nature.com/articles/s41598-018-34392-w)(1.2) stated "the hot brew coffees were found to have higher concentrations of total titratable acids, as well as higher antioxidant activity, than that of their cold brew counterparts." Shoutout to Rao and Fuller for actually studying cold brew coffee and getting published in Nature, one of the top journals in the world. Badass!
 - ^2 Interestingly, [this paper](https://www.nature.com/articles/s41598-020-73341-4)(2.1) argued that a consistent hot-brew temperature wasn't very important, going against the conventional wisdom of coffee brewing certifiers. I love how science sometimes agrees with longstanding conventional wisdom, and sometimes blows it out of the (hot) water.
 
-**Papers**
+### Papers
 1.1. Rao, N.Z.; Fuller, M.; Grim, M.D. Physiochemical Characteristics of Hot and Cold Brew Coffee Chemistry: The Effects of Roast Level and Brewing Temperature on Compound Extraction. _Foods_ **2020**, _9_, 902. https://doi.org/10.3390/foods9070902
 
 1.2. Rao, N.Z., Fuller, M. Acidity and Antioxidant Activity of Cold Brew Coffee. _Sci Rep_ **8**, 16030 (2018). https://doi.org/10.1038/s41598-018-34392-w
