@@ -1,6 +1,6 @@
 ---
-title: "Brew Coffee Better"
-date: 2023-07-26
+title: Brew Coffee Better
+date: 2023-07-27
 draft: false
 ---
 
@@ -24,7 +24,7 @@ Basically, if you want to save $3-5 per cup of coffe, make it yourself. If you r
 ## How to brew well
 
 ### Water: 40% of the flavor
-To make the best tasting coffee, you have to start with water you like. For me, I just use tap water because I don't give a fuck, but if you prefer filtered, by all means, use that. Water is the main ingredient in cold brew, so if you like your water, you will like the taste of the coffee better.
+Water is one of the two ingredients of coffee, so make sure you're using water that tastes good.
 
 ### Fresh beans: 40% of the flavor
 The next most important decision you have to make is which beans you use. Coffee beans come from all over, but the vast majority originate in tropical countries. This means lots of transport time and costs go into each bean, so if you can, find ethical, sustainably harvested beans. The added cost doesn't improve flavor. Otherwise, the roast style may matter to some people, but I generally just buy light or medium roast. Coffee beans begine to lose flavor slowly after they are roasted, I can't remember how fast, but generally, the fresher the roast, the better it will taste.
@@ -39,15 +39,12 @@ The last bit of dialing in your coffee flavor comes down to how you brew it. Thi
 ## The process
 
 0. **Gather tools and ingredients**. Found in the table below. The total cost for the tools should be less than $40. You don't need fancy lids for the jars, or carrying handles, and you can even make do with a different coarse coffee filter.
-
-| name                   | category   | description                                                                                                                                                                                                                             |
-| ---------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| *Brewing Jars*         | tool     | (2) 64 *fl.oz* mason jars                                                                                                                                                                                                               |
-| *Coarse Coffee Filter* | tool     | stainless steel cold brew coffee filter; the trickiest supply to purchase since they're hard to find locally. I've bought mine from amazon, and the first one was terrible and was impossible to clean, the second one has been amazing |
-| *Fine Coffee Filter*   | tool     | cheese cloth works great                                                                                                                                                                                                                |
-| *Rubber Band*          | tool     | to secure cheese cloth to jar                                                                                                                                                                                                           |
-| *Fresh Water*          | ingredient | no salt, potable, tap water is fine                                                                                                                                                                                                     |
-| *Coffee Beans*         | ingredient | freshly roasted, whole or ground is fine                                                                                                                                                                                                |
+	1. *Coffee Beans* (ingredient): Ideally freshly roasted. Whole is ideal if you have a grinder, otherwise ground is good too.
+	2. *Water* (ingredient): Fresh drinking water, no salt.
+	3. *Brewing Jars* (tool): Two 64 fl.oz mason jars.
+	4. *Coarse Coffee Filter* (tool): Stainless steel mesh filter, hard to find locally, I've purchased from Amazon.
+	5. *Fine Coffee Filter* (tool): Cheese cloth from local store.
+	6. *Rubber Band* (tool): Optional, secure cheese cloth to jar for easier filtering.
 
 1. **Grind coffee beans**. (*Skip this step if you bought pre-ground*). Use a blade grinder, burr grinder, or whatever they have at your local grocery store where you buy your beans.
 
