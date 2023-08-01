@@ -1,6 +1,5 @@
 ---
-title: {{title}}
-date: {{date}}
+date: 2023-08-02
 draft: false
 ---
 ## Summary
@@ -66,4 +65,5 @@ SNACKS
 ---
 # References
 - [^1] drink when you are thirsty
+- Spice list from [Ethan Chlebowski](https://ethanchlebowski.notion.site/193d784bc3db43e59cc76188c0b858c2?v=d1989f5ed746444d813c98a158900f0c)
 

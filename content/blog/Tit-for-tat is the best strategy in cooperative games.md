@@ -1,6 +1,5 @@
 ---
-title: {{title}}
-date: {{date}}
+date: 2023-08-02
 draft: false
 ---
 ## Tit-for-tat is the best strategy
