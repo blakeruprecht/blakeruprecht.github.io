@@ -1,5 +1,6 @@
 ---
 date: 2023-07-27
+title: "{{< filename-title >}}"
 ---
 ## Summary of this essay
 1. Why brew yourself?

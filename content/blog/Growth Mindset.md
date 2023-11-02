@@ -1,5 +1,6 @@
 ---
 date: 2023-08-06
+title: "{{< filename-title >}}"
 ---
 
 **SUMMARY**: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don't try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.

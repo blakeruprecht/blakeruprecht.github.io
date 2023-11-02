@@ -1,5 +1,6 @@
 ---
 date: 2023-09-18
+title: "{{< filename-title >}}"
 ---
 
 
