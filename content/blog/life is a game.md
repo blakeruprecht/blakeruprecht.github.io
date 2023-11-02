@@ -1,6 +1,6 @@
 ---
 date: 2023-09-14
-title: "{{< filename-title >}}"
+title: life is a game
 ---
 
 

@@ -1,2 +1,0 @@
-{{ $title := replaceRE ".*?/(.*?).md" .Page.File.Path "$1" }}
-{{ .Inner | default $title }}
