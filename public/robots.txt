@@ -1,2 +1,1 @@
-User-Agent: *
-Sitemap: https://blakeruprecht.github.io/sitemap.xml
+User-agent: *

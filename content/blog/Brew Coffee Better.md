@@ -1,7 +1,5 @@
 ---
-title: Brew Coffee Better
 date: 2023-07-27
-draft: false
 ---
 ## Summary of this essay
 1. Why brew yourself?

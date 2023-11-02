@@ -1,11 +1,8 @@
-+++
-title = "Growth Mindset Is Best"
-date = "2023-08-06"
-description = "Growth mindset blows fixed mindset out of the water in terms of fun and winning."
+---
+date: 2023-08-06
+---
 
-+++
-
-**SUMMARY**: hange your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don't try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.
+**SUMMARY**: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don't try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.
 
 ## 1. What is growth mindset
 A growth mindset is when you believe you can improve at anything with time and effort. Instead of seeing challenges as an internal thing, you see it as a chance to get better and improve. When facing challenges, you get excited about the *learning process*. This mentality makes you less likely to quit, and much more likely to hit your goals. Basically, challenge your beliefs about yourself, and switch your *fixed mindset* (e.g. I'm slow, bad with dating, stupid at writing) to a *growth mindset* (e.g. I can get faster, I try hard at dating, I'm learning how to writing).
@@ -27,7 +24,14 @@ Examples:
 - I'm still single, but I'm putting myself out there.
 - My muscles are weak, but I'm working out hard three times a week.
 
-## 3. Stop trying to be perfect!
+## 3. Stop trying to be perfect
 Fixed mindset people feel like failure is an attack on their identity. Growth people don't mind errors, in fact, *they enjoy them*. They become curious, and start thinking of ways to solve the problem.
 
 Stop beating yourself up. You're not perfect. Engage in *positive self-talk*, where you don't make identity statements about yourself (e.g. never again say "I'm stupid", "I'm incapable", or any other negative bullshit like that), and focus only on solving the problem. You may not get it at first, but since you're now a *growth mindset person* focused on effort and improving, it's only a matter of time until you conquer this challenge.
+
+## 4. Embrace stress
+The final part of growth mindset, and arguably a whole different type of mindset, is the view that "stress is enhancing". Discomfort during effort means that your brain is experiencing neuroplasticity, which literally means your brain will grow and get better. The stressful emotions show that your effort is *paying off*. 
+
+---
+## References
+- I got all of this information from Stanford Neuroscience Professor *Andrew Huberman*. If you haven't heard of him, he makes fantastic podcasts where he interviews other top tier researchers about their research and insights, providing actionable tools to live better. Covering topics like sleep, sunlight, and exercise, they're mostly practical, though don't take it too seriously, otherwise you may find yourself over-optimizing your life.
