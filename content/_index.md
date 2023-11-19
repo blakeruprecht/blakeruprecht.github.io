@@ -20,10 +20,13 @@ Blake
 
 ## FAQ
 > How do I pronounce your name?
+
 Thanks for asking, it's like "lake" with a B on the front.
 
 > How old are you?
+
 It changes every day.
 
 > Do you like to code?
+
 Only as much as I like to think and write.
