@@ -6,7 +6,7 @@ title: growth mindset
 **SUMMARY**: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don't try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.
 
 ## 1. What is growth mindset
-A growth mindset is when you believe you can improve at anything with time and effort. Instead of seeing challenges as an internal thing, you see it as a chance to get better and improve. When facing challenges, you get excited about the *learning process*. This mentality makes you less likely to quit, and much more likely to hit your goals. Basically, challenge your beliefs about yourself, and switch your *fixed mindset* (e.g. I'm slow, bad with dating, stupid at writing) to a *growth mindset* (e.g. I can get faster, I try hard at dating, I'm learning how to writing).
+A growth mindset is when you believe you can improve at anything with time and effort. Instead of seeing challenges as an internal problem, you see them as a chance to get better and improve. When facing challenges, you get excited about the *learning process*. This mentality makes you less likely to quit, and much more likely to hit your goals. Basically, challenge your beliefs about yourself, and switch your *fixed mindset* (e.g. I'm slow, bad with dating, stupid at writing) to a *growth mindset* (e.g. I can get faster, I try hard at dating, I'm learning how to write).
 
 ## 2. Praise effort
 Scientists did a study on kids, and basically split them up into two groups.
@@ -15,7 +15,7 @@ Scientists did a study on kids, and basically split them up into two groups.
 
 They found the second group was more likely to try, to persist, and to succeed. When you get identity-based feedback, you focus on preserving that identity. You keep working to stay smart and talented, so these students chose easier problems to solve. 
 
-When you get effort-based feedback, you attach the praise to the effort itself. You are more willing to work hard and make mistakes. So these children chose harder problems and kept improving.
+When you get effort-based feedback, you attach the praise to the effort itself. You are more willing to work hard and make mistakes. So these children chose harder problems and kept improving over time.
 
 The clear takeaway is to praise *effort* towards goals, and remove thoughts related to identity. I am no longer smart, I am a *hard worker* who *persists* towards my goals and *doesn't give up*, regardless of outcome.
 
@@ -31,7 +31,7 @@ Fixed mindset people feel like failure is an attack on their identity. Growth pe
 Stop beating yourself up. You're not perfect. Engage in *positive self-talk*, where you don't make identity statements about yourself (e.g. never again say "I'm stupid", "I'm incapable", or any other negative bullshit like that), and focus only on solving the problem. You may not get it at first, but since you're now a *growth mindset person* focused on effort and improving, it's only a matter of time until you conquer this challenge.
 
 ## 4. Embrace stress
-The final part of growth mindset, and arguably a whole different type of mindset, is the view that "stress is enhancing". Discomfort during effort means that your brain is experiencing neuroplasticity, which literally means your brain will grow and get better. The stressful emotions show that your effort is *paying off*. 
+The final part of growth mindset, a difficult addition, is the view that "stress is enhancing". Discomfort during effort means that your brain is experiencing neuroplasticity, which literally means your brain will grow and get better. The stressful emotions show that your effort is *paying off*. So instead of quitting anything that feels stressful, remember that stress is proof that you are improving.
 
 ---
 ## References

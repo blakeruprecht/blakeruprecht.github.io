@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Zeitgeist and Zeal</title>
+    <title>Blog on [Zero Comma One]</title>
     <link>https://blakeruprecht.github.io/blog/</link>
-    <description>Recent content in Blog on Zeitgeist and Zeal</description>
+    <description>Recent content in Blog on [Zero Comma One]</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2023, Blake Ruprecht.</copyright>
-    <lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>software i use</title>
+      <link>https://blakeruprecht.github.io/software-i-use/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/software-i-use/</guid>
+      <description>This is mainly a guide to my future self to install this stuff. If you&amp;rsquo;re curious about any of these, find my email on my about page and email me questions, and I&amp;rsquo;ll update this post to be more thorough.
+In order of install, this is all of the software I currently use on my work laptop. In summary:
+OPERATING_SYSTEM: Linux (Debian 12) WINDOW_SYSTEM: Xorg WINDOW_MANAGER: dwm TERMINAL: st SHELL: bash TEXT_EDITOR: nano IMAGE_VIEWER: feh COLORSCHEME: custom black and white with default terminal colors STATUSBAR: custom xsetroot in my .</description>
+    </item>
+    
     <item>
       <title>my memories are stored in melodies</title>
       <link>https://blakeruprecht.github.io/my-memories-are-stored-in-melodies/</link>
@@ -84,7 +95,7 @@ My rational brain tells me to exercise for health. There are numerous long-term 
       
       <guid>https://blakeruprecht.github.io/growth-mindset/</guid>
       <description>SUMMARY: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don&amp;rsquo;t try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.
-1. What is growth mindset A growth mindset is when you believe you can improve at anything with time and effort. Instead of seeing challenges as an internal thing, you see it as a chance to get better and improve.</description>
+1. What is growth mindset A growth mindset is when you believe you can improve at anything with time and effort. Instead of seeing challenges as an internal problem, you see them as a chance to get better and improve.</description>
     </item>
     
     <item>
