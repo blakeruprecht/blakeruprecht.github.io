@@ -5,7 +5,7 @@ title: software i use
 
 This is mainly a guide to my future self to install this stuff. If you're curious about any of these, find my email on my about page and email me questions, and I'll update this post to be more thorough.
 
-![My Linux environment running DWM](unix_pic.png)
+![My Linux environment running DWM](/unix_pic.png)
 
 In order of install, this is all of the software I currently use on my work laptop. In summary:
 - OPERATING_SYSTEM: Linux (Debian 12)
