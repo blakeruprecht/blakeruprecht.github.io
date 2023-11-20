@@ -8,7 +8,7 @@ These are the references to all of my published work, including some PDFs. For r
 Feel free to reach out if you have any questions! I love discussing this stuff and anything related to XAI, AI Alignment, AI in general, and anything related to learning, cognition, behavior, etc.
 
 ### Masters Thesis
-- **B. Ruprecht**. "Explainable Parts-based Reasoning and Concept Modeling". University of Missouri, 2023. [PDF](/thesis.pdf)
+- **B. Ruprecht**. "EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING". University of Missouri, 2023. [PDF](/thesis.pdf)
 
 ### Journal Articles
 - A. Cannaday, C. Davis, G. Scott, **B. Ruprecht**, and D. T. Anderson, "Broad Area Search and Detection of Surface-to-Air Missile Sites Using Spatial Fusion of Component Object Detections from Deep Neural Networks", IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2020.
