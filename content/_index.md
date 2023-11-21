@@ -21,12 +21,6 @@ Blake
 ## FAQ
 > How do I pronounce your name?
 
-Thanks for asking, it's like "lake" with a B on the front.
-
-> How old are you?
-
-It changes every day.
-
-> Do you like to code?
-
-Only as much as I like to think and write.
+My high school teacher said "Roop-ruh-shay", which is hilariously lovely.
+Technically, it comes from the Old High German "Hrothi-bert" (same as Robert) meaning bright flame.
+So it's pronounced "Roo-pwrecked".
