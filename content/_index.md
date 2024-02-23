@@ -4,16 +4,18 @@ date: 2023-07-24T15:29:23-04:00
 draft: false
 ---
 
-Welcome to my blog. Life is confusing, hard, and seemingly pointless.
-I intend to discuss that in agonizing detail, over and over until I get it right.
-We may be here for a while.
+## About
+My name is Blake Ruprecht, and this is my personal website.
+Here you can find my essays and research papers.
 
-## Contact
-I love to learn, write, and teach. I'm currently seeking a sales job
-in the AI industry, specifically focusing on LLMs and Generative AI.
-I hold a Masters degree in the subject, and am not afraid to use it!
-- Email me BlakeCRuprecht [at] gmail [dot] com.
-- Find me on Substack and Medium [at] BlakeRuprecht
+Previously, I was a Computer Science researcher specializing in symbolic Artificial Intelligence.
+I'm still intensely interested in all things AI, especially Reinforcement Learning & Large Language Models.
+Currently, I'm trying to become a Science Communicator, so if you have any tips about my writing & comms style, feel free to contact me.
+
+You can reach me at:
+- email: BlakeCRuprecht[at]gmail[dot]com
+- medium/substack: [at]BlakeRuprecht
+- I use the brackets so robots don't hack me
 
 Cheers!\
 Blake
@@ -21,6 +23,8 @@ Blake
 ## FAQ
 > How do I pronounce your name?
 
-My high school teacher said "Roop-ruh-shay", which is hilariously lovely.
-Technically, it comes from the Old High German "Hrothi-bert" (same as Robert) meaning bright flame.
-So it's pronounced "Roo-pwrecked".
+Similar to "Roo-pwrecked".
+I speak conversational German and I even I can't pronounce it correctly. 
+"-echt" is hard for English speakers, the English equivalent is Robert.
+Ruprecht comes from the Old High German words "hrothi" (meaning flame) and "bert" (meaning bright), which I think is pretty cool.
+Coincidentally, "Blake" is derived from Old English and either means "white, bright" or "black, dark", which seems fitting for a computer scientist :)
