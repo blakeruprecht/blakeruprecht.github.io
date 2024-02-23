@@ -5,12 +5,11 @@ body {
   line-height: 1.5;
   margin: 0 auto;
   min-height: 100%;
-  font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 a {
   text-decoration: none;
-  color: #f00;
+  color: #111;
 }
 
 a:hover {
@@ -22,10 +21,12 @@ a:hover {
   max-width: 45rem;
   padding: 2rem;
   margin: 0 auto;
+  font-family: source-serif-pro, Georgia, "Times New Roman", serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: source-serif-pro, Georgia, "Times New Roman", serif;
+  font-weight: bold;
 }
 
 blockquote {
@@ -34,7 +35,7 @@ blockquote {
 }
 
 footer {
-  font-family: "Courier New", monospace;
+  font-family: "Hack", "Courier New", monospace;
   background-color: #111;
   color: #eee;
   text-align: center;
@@ -60,9 +61,9 @@ img {
 }
 
 .site-nav a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Hack", "Courier New", monospace;
   display: block;
-  padding: 1rem;
+  padding: 1rem 1.2rem;
   color: #eee;
   width: 100%;
 }
@@ -72,7 +73,7 @@ img {
 }
 
 .site-nav .logo {
-  font-family: "Courier New", monospace;
+  font-family: "Hack", "Courier New", monospace;
   font-size: 200%;
   font-weight: bold;
 }
