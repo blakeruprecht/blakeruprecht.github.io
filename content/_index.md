@@ -24,7 +24,7 @@ Blake
 > How do I pronounce your name?
 
 Similar to "Roo-pwrecked".
-I speak conversational German and I even I can't pronounce it correctly. 
+I speak conversational German and I can't even pronounce it correctly. 
 "-echt" is hard for English speakers, the English equivalent is Robert.
 Ruprecht comes from the Old High German words "hrothi" (meaning flame) and "bert" (meaning bright), which I think is pretty cool.
 Coincidentally, "Blake" is derived from Old English and either means "white, bright" or "black, dark", which seems fitting for a computer scientist :)
