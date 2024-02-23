@@ -1,109 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on [Zero Comma One]</title>
+    <title>Blogs on BlakeR</title>
     <link>https://blakeruprecht.github.io/blog/</link>
-    <description>Recent content in Blog on [Zero Comma One]</description>
+    <description>Recent content in Blogs on BlakeR</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright © 2023, Blake Ruprecht.</copyright>
     <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>software i use</title>
-      <link>https://blakeruprecht.github.io/software-i-use/</link>
+      <title>Software I Use</title>
+      <link>https://blakeruprecht.github.io/blog/software-i-use/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/software-i-use/</guid>
+      <guid>https://blakeruprecht.github.io/blog/software-i-use/</guid>
       <description>This is mainly a guide to my future self to install this stuff. If you&amp;rsquo;re curious about any of these, find my email on my about page and email me questions, and I&amp;rsquo;ll update this post to be more thorough.
 In order of install, this is all of the software I currently use on my work laptop. In summary:
-OPERATING_SYSTEM: Linux (Debian 12) WINDOW_SYSTEM: Xorg WINDOW_MANAGER: dwm TERMINAL: st SHELL: bash TEXT_EDITOR: nano IMAGE_VIEWER: feh COLORSCHEME: custom black and white with default terminal colors STATUSBAR: custom xsetroot in my .</description>
+OPERATING_SYSTEM: Linux/Debian_12 WINDOW_SYSTEM: Xorg WINDOW_MANAGER: Suckless/dwm TERMINAL: Suckless/st SHELL: Bash TEXT_EDITOR: Nano MARKDOWN_EDITOR: Obsidian WEBSITE_CREATION: Hugo IMAGE_VIEWER: Feh EPUB_VIEWER: Zathura STATUSBAR: custom xsetroot in my .</description>
     </item>
     
     <item>
-      <title>my memories are stored in melodies</title>
-      <link>https://blakeruprecht.github.io/my-memories-are-stored-in-melodies/</link>
+      <title>My Memories Are Stored in Melodies</title>
+      <link>https://blakeruprecht.github.io/blog/my-memories-are-stored-in-melodies/</link>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/my-memories-are-stored-in-melodies/</guid>
+      <guid>https://blakeruprecht.github.io/blog/my-memories-are-stored-in-melodies/</guid>
       <description>The greatest distance between two places is through time. When I listen to music, occasionally a song will play that instantly transports me back to a specific moment in time, filling me with vivid memories of a moment I&amp;rsquo;ll never forget. When I play through these songs, I relive moments like they just happened.
 Somewhere in the Middle One moment, it&amp;rsquo;s a hot and humid day somewhere in the middle of a damp Missouri summer.</description>
     </item>
     
     <item>
-      <title>something I should say more</title>
-      <link>https://blakeruprecht.github.io/something-i-should-say-more/</link>
+      <title>Sitting Naked in a Snowy Field</title>
+      <link>https://blakeruprecht.github.io/blog/sitting-naked-in-a-snowy-field/</link>
+      <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/sitting-naked-in-a-snowy-field/</guid>
+      <description>The Basics I want to enjoy life as much as possible. I can guarantee that you do too. Everyone I know pretty much wants the same things out of life &amp;ndash; friendships, good food, plenty of sleep, a healthy body, a calm mind. Tons of money? Only insofar as it buys you food, a place to live, plenty of warm clothes, and some beers to share with our friends. Most of the time, we seek things outside of the basics because of what we lack.</description>
+    </item>
+    
+    <item>
+      <title>Something I Should Say More</title>
+      <link>https://blakeruprecht.github.io/blog/something-i-should-say-more/</link>
       <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/something-i-should-say-more/</guid>
+      <guid>https://blakeruprecht.github.io/blog/something-i-should-say-more/</guid>
       <description>The tattoo on my achilles heel is an X. If you squint, it kind of looks like an intersection, or a crossroad. To me, this represents indecision, my biggest weakness, and the thing I regret most in life &amp;ndash; not taking action to pursue love over fear. As I sit here at another crossroad, I can&amp;rsquo;t help but think of the lyrics from the song that inspired the ink:
 I&amp;rsquo;m standing at the crossroad,</description>
     </item>
     
     <item>
-      <title>packing light isn&#39;t hard</title>
-      <link>https://blakeruprecht.github.io/packing-light-isnt-hard/</link>
+      <title>Packing Light is Easy</title>
+      <link>https://blakeruprecht.github.io/blog/packing-light-is-easy/</link>
       <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/packing-light-isnt-hard/</guid>
+      <guid>https://blakeruprecht.github.io/blog/packing-light-is-easy/</guid>
       <description>I recently completed a four month trip around Southeast Asia and Europe lasting from February through June. Prior to this, I traveled around the USA pretty extensively for some months. I&amp;rsquo;ve traveled a lot over the past few years, but this was by far the most travel I&amp;rsquo;ve ever done in a one-year period. I probably spent most of the year living out of my backpack, and I learned a lot of lessons while doing it.</description>
     </item>
     
     <item>
-      <title>how to set grocery shopping PRs</title>
-      <link>https://blakeruprecht.github.io/how-to-set-grocery-shopping-prs/</link>
+      <title>How to Set Grocery Shopping PRs</title>
+      <link>https://blakeruprecht.github.io/blog/how-to-set-grocery-shopping-prs/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/how-to-set-grocery-shopping-prs/</guid>
+      <guid>https://blakeruprecht.github.io/blog/how-to-set-grocery-shopping-prs/</guid>
       <description>I went grocery shopping with my buddy recently and was totally baffled when we did the unthinkable: we backtracked. We went back to the produce section not once, but twice, making three total trips through the same section. Grocery shopping is my least favorite part of the eating experience, yet it seems to be a necessity for most people. My garden is non-existent, and my foraging skills are abysmal, so the next best option is to take my hard-earned cash into the big unwindowed box of fluorescent lighting and try to navigate the dense forest of packaged items.</description>
     </item>
     
     <item>
-      <title>life is a game</title>
-      <link>https://blakeruprecht.github.io/life-is-a-game/</link>
-      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/life-is-a-game/</guid>
-      <description>I studied this topic in graduate school, and it continues to fascinate me. I heard this quote one time, &amp;ldquo;Intelligence is the ability to get what you want.&amp;rdquo; From an artificial intelligence (AI) persepective, I believe this to be true, but is it true from a human perspective?
-To begin, I studied the creation of intelligent agents. The simplest example is giving a computer &amp;ldquo;brain&amp;rdquo; the controls to a video game character, and telling the computer to win the game.</description>
-    </item>
-    
-    <item>
-      <title>I outrun my thoughts</title>
-      <link>https://blakeruprecht.github.io/i-outrun-my-thoughts/</link>
+      <title>I Outrun My Thoughts</title>
+      <link>https://blakeruprecht.github.io/blog/i-outrun-my-thoughts/</link>
       <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/i-outrun-my-thoughts/</guid>
+      <guid>https://blakeruprecht.github.io/blog/i-outrun-my-thoughts/</guid>
       <description>I’m not particularly fast, nor strong, and my physique doesn’t reflect the amount of exercise I do. And that’s okay. I get something far more important from exercise than any of those quantifiable metrics: joy.
 My rational brain tells me to exercise for health. There are numerous long-term benefits from cardio-respiratory training, resistance training, and mobility training. Improve your aerobic fitness and reduce your chance of heart disease. Improve your strength and reduce your age-related muscular decline and associated effects like fall risk.</description>
     </item>
     
     <item>
-      <title>growth mindset</title>
-      <link>https://blakeruprecht.github.io/growth-mindset/</link>
+      <title>Growth Mindset</title>
+      <link>https://blakeruprecht.github.io/blog/growth-mindset/</link>
       <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/growth-mindset/</guid>
+      <guid>https://blakeruprecht.github.io/blog/growth-mindset/</guid>
       <description>SUMMARY: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don&amp;rsquo;t try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.
 1. What is growth mindset A growth mindset is when you believe you can improve at anything with time and effort. Instead of seeing challenges as an internal problem, you see them as a chance to get better and improve.</description>
     </item>
     
     <item>
-      <title>brew coffee better</title>
-      <link>https://blakeruprecht.github.io/brew-coffee-better/</link>
+      <title>Brew Better Coffee</title>
+      <link>https://blakeruprecht.github.io/blog/brew-better-coffee/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/brew-coffee-better/</guid>
-      <description>Summary of this essay Why brew yourself? How to brew well Water: 40% of the flavor Fresh beans: 40% of the flavor Freshly ground: 10% of the flavor Brewing consistency: 10% of the flavor The process References Why brew yourself? Brewing coffee at home can save you quite a bit of money, while achieving the same great taste of the coffee shops. If, like me, you prefer to drink two large cups of coffee per day (equivalent to two medium cold-brews from a shop), that would cost something like $5-10 purchasing from a local coffee shop.</description>
+      <guid>https://blakeruprecht.github.io/blog/brew-better-coffee/</guid>
+      <description>Summary of this essay Why brew yourself? How to brew well Water: 40% of the flavor Fresh beans: 40% of the flavor Freshly ground: 10% of the flavor Brewing consistency: 10% of the flavor The process References 1. Why brew yourself? Brewing coffee at home can save you quite a bit of money, while achieving the same great taste of the coffee shops. If, like me, you prefer to drink two large cups of coffee per day (equivalent to two medium cold-brews from a shop), that would cost something like $5-10 purchasing from a local coffee shop.</description>
     </item>
     
     <item>
-      <title>full flavor, 99 calories</title>
-      <link>https://blakeruprecht.github.io/full-flavor-99-calories/</link>
+      <title>To New AI Alignment Researchers</title>
+      <link>https://blakeruprecht.github.io/blog/to-new-ai-alignment-researchers/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/to-new-ai-alignment-researchers/</guid>
+      <description>If I started over, here&amp;rsquo;s what I would want to get state-of-the-art right away.
+Get a computer with MacOS or some Linux distrubition (a flavor of OS) as the operating system. If you don&amp;rsquo;t know what an OS is, get a Mac (or if you just like them). Linux is great too, but you&amp;rsquo;ll have to do that side quest outside of this post. Windows is plenty workable, but also a few steps harder with every software install.</description>
+    </item>
+    
+    <item>
+      <title>Full Flavor, 99 Calories</title>
+      <link>https://blakeruprecht.github.io/blog/full-flavor-99-calories/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/full-flavor-99-calories/</guid>
-      <description>&amp;ldquo;I&amp;rsquo;ll have to check, we might be out of Bud Select today, what do you want instead — Bud Light?&amp;rdquo;
-You can&amp;rsquo;t replace the best type of Bud&amp;hellip;
+      <guid>https://blakeruprecht.github.io/blog/full-flavor-99-calories/</guid>
+      <description>&amp;ldquo;I&amp;rsquo;ll have to check, we might be out of Bud Select today, what do you want instead — Bud Light?&amp;rdquo; You can&amp;rsquo;t replace the best type of Bud&amp;hellip;
 It seems so impossible before it happens. You see it approaching. You see all of the warning signs, all of the speed bumps preparing you for the abrupt stop ahead. Somber stories are repeated from old friends who are long past the days of sitting on rooftops at 2pm on a Tuesday, skipping class and drinking cold ones out of a squat, plastic cup, deciding that their responsibilities can be pushed off for at least two more hours, until they hit that Ballmer peak of &amp;ldquo;creativity&amp;rdquo; or whatever you&amp;rsquo;re supposed to call drunkenly typing meandering lines of thought and utilizing spell check way too much and re-doing it all the next morning anyway &amp;ndash; but that doesn&amp;rsquo;t matter.</description>
     </item>
     

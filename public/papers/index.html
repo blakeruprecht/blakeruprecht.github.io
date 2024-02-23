@@ -1,237 +1,48 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="https://blakeruprecht.github.io/images/favicon.png" />
-<title>Papers | Write that down!</title>
-<meta name="title" content="Papers" />
-<meta name="description" content="These are the references to all of my published work, including some PDFs. For roughly five years, I studied Artificial Intelligence (AI) with a focus on the AI Alignment problem, which I tried to solve by developing mathematical techniques that align AI behavior with human intentions. Generally, my group researched fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable human feedback loops to improve the model." />
-<meta name="keywords" content="" />
 
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta property="og:title" content="Papers" />
-<meta property="og:description" content="These are the references to all of my published work, including some PDFs. For roughly five years, I studied Artificial Intelligence (AI) with a focus on the AI Alignment problem, which I tried to solve by developing mathematical techniques that align AI behavior with human intentions. Generally, my group researched fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable human feedback loops to improve the model." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://blakeruprecht.github.io/papers/" /><meta property="og:image" content="https://blakeruprecht.github.io/images/share.png"/><meta property="article:section" content="" />
+	<title>PAPERS | BlakeR</title>
 
-<meta property="og:site_name" content="Blake&#39;s website" />
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
-
-
-
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://blakeruprecht.github.io/images/share.png"/>
-
-<meta name="twitter:title" content="Papers"/>
-<meta name="twitter:description" content="These are the references to all of my published work, including some PDFs. For roughly five years, I studied Artificial Intelligence (AI) with a focus on the AI Alignment problem, which I tried to solve by developing mathematical techniques that align AI behavior with human intentions. Generally, my group researched fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable human feedback loops to improve the model."/>
-
-
-
-<meta itemprop="name" content="Papers">
-<meta itemprop="description" content="These are the references to all of my published work, including some PDFs. For roughly five years, I studied Artificial Intelligence (AI) with a focus on the AI Alignment problem, which I tried to solve by developing mathematical techniques that align AI behavior with human intentions. Generally, my group researched fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable human feedback loops to improve the model.">
-
-<meta itemprop="wordCount" content="350"><meta itemprop="image" content="https://blakeruprecht.github.io/images/share.png"/>
-<meta itemprop="keywords" content="" />
-<meta name="referrer" content="no-referrer-when-downgrade" />
-
-  <style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #333;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, sans-serif;
-  }
-
-  strong,
-  b {
-    color: #222;
-  }
-
-  a {
-    color: #3273dc;
-     
-  }
-
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    font-family: "Courier New", monospace;
-    margin-right: 20px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-    overflow-x: auto;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #222;
-      color: #ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
-    }
-  }
-
-</style>
-
-</head>
+	</head>
 
 <body>
-  <header><a href="/" class="title">
-    <h1 style="font-family:'Courier New',monospace">Write that down!</h1>
-  </a>
-  <nav><a href="/">Home</a>
 
-<a href="/papers/">Papers</a>
+<header class="site-header">
+  <nav class="site-nav">
+    <a class="logo" href="https://blakeruprecht.github.io">
+      BlakeR
+    </a>
+    <ul class="main-menu">
+      
+      <li>
+        <a href="/blog">BLOG</a>
+      </li>
+      
+      <li>
+        <a href="/papers/">PAPERS</a>
+      </li>
+      
+    </ul>
+  </nav>
+</header>
 
 
-<a href="/blog">Blog</a>
+<main class="content">
 
-</nav></header>
-  <main>
 
-<content>
-  <p>These are the references to all of my published work, including some PDFs. For roughly five years, I studied Artificial Intelligence (AI) with a focus on the AI Alignment problem, which I tried to solve by developing mathematical techniques that align AI behavior with human intentions. Generally, my group researched fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable human feedback loops to improve the model. Basically, we were trying to create eXplainable AI systems to solve the AI alignment problem. The problem is still unsolved.</p>
+<h1>PAPERS</h1>
+
+<p>These are the references to all of my published work, including some PDFs. For roughly five years, I studied Artificial Intelligence (AI) with a focus on the AI Alignment problem, which I tried to solve by developing mathematical techniques that align AI behavior with human intentions. Generally, my group researched fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable human feedback loops to improve the model. Basically, we were trying to create eXplainable AI systems to solve the AI alignment problem. The problem is still unsolved.</p>
 <p>Feel free to reach out if you have any questions! I love discussing this stuff and anything related to XAI, AI Alignment, AI in general, and anything related to learning, cognition, behavior, etc.</p>
 <h3 id="masters-thesis">Masters Thesis</h3>
 <ul>
-<li><strong>B. Ruprecht</strong>. &ldquo;Explainable Parts-based Reasoning and Concept Modeling&rdquo;. University of Missouri, 2023. <a href="/thesis.pdf">PDF</a></li>
+<li><strong>B. Ruprecht</strong>. &ldquo;EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING&rdquo;. University of Missouri, 2023. <a href="/thesis.pdf">PDF</a></li>
 </ul>
 <h3 id="journal-articles">Journal Articles</h3>
 <ul>
@@ -249,16 +60,13 @@
 <li><strong>B. Ruprecht</strong>, C. Veal, B. Murray, M.A. Islam, D.T. Anderson, F. Petry, J. Keller, G. Scott, and C. Davis, &ldquo;Fuzzy Logic-Based Fusion of Deep Learners in Remote Sensing,&rdquo; FuzzIEEE 2019.</li>
 </ul>
 
-</content>
-<p>
-  
-</p>
 
-  </main>
-  <footer>
+</main>
+	
+<footer>
+	<p>&copy;2024 BlakeR</p>
 </footer>
 
-    
 </body>
-
 </html>
+

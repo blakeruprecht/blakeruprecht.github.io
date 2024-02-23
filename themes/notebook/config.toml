@@ -1,0 +1,5 @@
+# themes/newspaper/config.toml
+baseURL = "/"
+languageCode = "en-us"
+title = "Your Blog Title"
+theme = "notebook"

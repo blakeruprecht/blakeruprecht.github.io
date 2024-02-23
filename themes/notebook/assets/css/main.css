@@ -1,0 +1,23 @@
+/* themes/newspaper/assets/css/main.css */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+}
+
+a {
+    color: #007bff;
+}
+
+/* Add more styles as needed */
