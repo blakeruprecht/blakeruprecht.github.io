@@ -9,7 +9,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #f00;
+  color: #00f;
 }
 
 a:hover {
@@ -21,11 +21,11 @@ a:hover {
   max-width: 45rem;
   padding: 2rem;
   margin: 0 auto;
-  font-family: source-serif-pro, Georgia, "Times New Roman", serif;
+  font-family: Helvetica, serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: source-serif-pro, Georgia, "Times New Roman", serif;
+  font-family: Helvetica, serif;
   font-weight: bold;
 }
 
@@ -38,7 +38,7 @@ footer {
   font-family: "Hack", "Courier New", monospace;
   background-color: #fff;
   color: #111;
-  border-top: 0.25rem solid #111;
+  border-top: 0.25rem solid #888;
   text-align: center;
   width: 100%
   position: relative;
@@ -56,15 +56,15 @@ img {
   display: flex;
   background-color: #fff;
   font-size: 120%;
-  font-weight: bold;
   padding: 0.5rem 1rem;
   align-items: end;
-  border-bottom: 0.25rem solid #111;
+  border-bottom: 0.25rem solid #888;
 }
 
 .site-nav a {
-  font-family: "Hack", "Courier New", monospace;
+  font-family: "Courier", monospace;
   display: block;
+  font-weight: bold;
   padding: 1rem 1.2rem;
   color: #111;
   width: 100%;
@@ -75,7 +75,7 @@ img {
 }
 
 .site-nav .logo {
-  font-family: "Hack", "Courier", monospace;
+  font-family: "Courier", monospace;
   font-size: 200%;
   font-weight: bold;
   color: #111;
