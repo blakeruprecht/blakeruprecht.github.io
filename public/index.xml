@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BlakeR</title>
+    <title>blakeruprecht.github.io</title>
     <link>https://blakeruprecht.github.io/</link>
-    <description>Recent content on BlakeR</description>
+    <description>Recent content on blakeruprecht.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -114,7 +114,7 @@ It seems so impossible before it happens. You see it approaching. You see all of
     </item>
     
     <item>
-      <title>PAPERS</title>
+      <title>/papers</title>
       <link>https://blakeruprecht.github.io/papers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

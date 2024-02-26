@@ -4,21 +4,15 @@
 
 {{ .Content }}
 
-
 {{ range.Data.Pages }}
 
 <article class="post-snippet">
-  <ul class="blog-list">
-    <span>
-      <i>
-        <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
-          {{ .Date.Format "2006-01-02" }}
-        </time>
-      </i>
-    </span>
+  <h3>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </ul>
-
+  </h3>
+	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+		{{ .Date.Format "2006-01-02" }}
+	</time>
 </article>
 
 {{ end }}

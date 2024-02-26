@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on BlakeR</title>
+    <title>Blogs on blakeruprecht.github.io</title>
     <link>https://blakeruprecht.github.io/blog/</link>
-    <description>Recent content in Blogs on BlakeR</description>
+    <description>Recent content in Blogs on blakeruprecht.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
