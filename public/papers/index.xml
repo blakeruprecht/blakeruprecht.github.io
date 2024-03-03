@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Papers on Blake Ruprecht</title>
+    <link>https://blakeruprecht.github.io/papers/</link>
+    <description>Recent content in Papers on Blake Ruprecht</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://blakeruprecht.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>/papers</title>
+      <link>https://blakeruprecht.github.io/papers/papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/papers/papers/</guid>
+      <description>These are the references to all of my published work, including some PDFs. For roughly five years, I studied Artificial Intelligence (AI) with a focus on the AI Alignment problem, which I tried to solve by developing mathematical techniques that align AI behavior with human intentions. Generally, my group researched fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable human feedback loops to improve the model.</description>
+    </item>
+    
+  </channel>
+</rss>
