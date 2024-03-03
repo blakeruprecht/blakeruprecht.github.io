@@ -12,10 +12,9 @@
 body {
   background-color: var(--bg-color);
   color: var(--fg-color);
-  font-size: 100%;
+  font-size: 120%;
   line-height: 1.5;
   margin: 0 auto;
-  height: 100%;
   font-family: var(--body-font);
 }
 
@@ -33,7 +32,7 @@ time {
 
 .content {
   margin-bottom: 0rem;
-  max-width: 45rem;
+  max-width: 40rem;
   padding: 1rem;
   margin: 0 auto;
 }
