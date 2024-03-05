@@ -1,10 +1,10 @@
 /* VARIABLES */
 :root {
-  --fg-color: #222;
+  --fg-color: #220;
   --bg-color: #fff;
   --mg-color: #808080;
-  --body-font: Helvetica, serif;
-  --head-font: Helvetica, serif;
+  --body-font: "Droid Sans", "Helvetica", sans-serif;
+  --head-font: "Droid Sans", "Helvetica", sans-serif";
 }
 
 

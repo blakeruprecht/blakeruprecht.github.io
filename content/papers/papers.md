@@ -3,9 +3,11 @@ title = "/papers"
 menu = "main" 
 +++
 
-These are the references to all of my published work, including some PDFs. For roughly five years, I studied Artificial Intelligence (AI) with a focus on the AI Alignment problem, which I tried to solve by developing mathematical techniques that align AI behavior with human intentions. Generally, my group researched fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable human feedback loops to improve the model. Basically, we were trying to create eXplainable AI systems to solve the AI alignment problem. The problem is still unsolved.
+This is all of my published work from my time as a Research Assistant before and during my stint in graduate school. I linked some PDFs as well.
 
-Feel free to reach out if you have any questions! I love discussing this stuff and anything related to XAI, AI Alignment, AI in general, and anything related to learning, cognition, behavior, etc.
+For roughly five years, I studied the AI Alignment problem, which was basically asking how do we create artificial intelligences that are explainable and trustworthy. My research focused on developing new mathematical techniques to bridge the gap between probabilistic neural networks and symbolic human reasoning. We investigated fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable humans to work in tandem (in-the-loop) with computers to improve the algorithms with feedback. We had multiple rejected papers and multiple accepted papers. 
+
+Feel free to reach out if you have any questions about my work, or anything related to AI, the alignment problem, explainable AI, or anything else related to cognitive science, math, science, and learning -- especially if you are a new researcher.
 
 ### Masters Thesis
 - **B. Ruprecht**. "EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING". University of Missouri, 2023. [PDF](/thesis.pdf)
