@@ -1,31 +1,34 @@
 ---
+title: "Simple Software"
 date: 2023-11-20
-title: Software I Use
 ---
-
-This is mainly a guide to my future self to install this stuff. If you're curious about any of these, find my email on my about page and email me questions, and I'll update this post to be more thorough.
 
 ![My Linux environment running DWM](/unix_pic.png)
 
-In order of install, this is all of the software I currently use on my work laptop. In summary:
-- OPERATING_SYSTEM: Linux/Debian_12
-- WINDOW_SYSTEM: Xorg
-- WINDOW_MANAGER: Suckless/dwm
-- TERMINAL: Suckless/st
-- SHELL: Bash
-- TEXT_EDITOR: Nano
-- MARKDOWN_EDITOR: Obsidian
-- WEBSITE_CREATION: Hugo
-- IMAGE_VIEWER: Feh
-- EPUB_VIEWER: Zathura
-- STATUSBAR: custom xsetroot in my .xinitrc
-- COLORSCHEME: custom black and white with default terminal colors
+This software guide tries to follow the Unix Philosophy, summarized here by Peter H. Salus in *A Quarter-Century of Unix* (1994).
+1. Write programs that do one thing and do it well. (DOTADIW)
+2. Write programs to work together.
+3. Write programs to handle text streams, because that is a universal interface.
+Otherwise, Keep It Simple Stupid! I've spent enought time frustrated at software to realize the benefits of small programs that do one thing, rather than huge programs that do many things. Computers are really complex and hard to work with, so breaking up programs into modular parts makes a lot of sense to me, but I have a lot of software knowledge. Don't get me wrong, Windows and Mac are great OS's as well, but they are not free and open source, so I do not support them. Plus, they won't let me remove programs I don't need, which I find annoying. Bloat!
+
+In order of install, this is all of the software I currently use on my laptop.
+- Operating System: LINUX (specifically DEBIAN 12)
+- Window System: XORG
+- Window Manager: SUCKLESS/DWM
+- Terminal Emulator: SUCKLESS/ST
+- Shell Language: BASH
+- Text Editor: NANO
+- Image Viewer: FEH
+- File Viewer: ZATHURA
+- File Browser: none (just use cd/ls)
+- Languages: PYTHON (for data viz), HUGO (for website creation)
+- Statusbar: .xinitrc script with "xsetroot" variable
 
 1. Install an operating system (Linux, the Debian 12 distribution)
-	1. Download the Debian .iso for your system (mine is a Dell XPS 13 9370). Follow the steps from Ubuntu's [tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop#3-create-a-bootable-usb-stick) to create a bootable flash drive using balenaEtcher on Windows 11.
-	2. Change BIOS settings to enable booting from flash drive. I forget what I had to change, but it was mainly allowing the system to boot from flash drives and .iso files, and then changing the boot order to boot from flash drive before Windows.
-	3. Plug in flash drive and follow the Debian installer. Keep all basic options, they are fine. Don't install any extra software at the end except for "standard system utilites". A desktop environment is not needed.
-	4. This step is finished when you can turn on your PC and it does the funny startup stuff until you get to a simple black terminal with "debian login: " and you put in your username and password. After this, it just says "username@hostname" (for me, blake@debian) in the top left corner of a terminal. Simple, no extra crap, perfect.
+	1. Download the Linux .iso for your system (mine is a Dell XPS 13 9370). You'll need a working computer to create a bootable flash drive, and it changes depending on what system you have, so DuckDuckGo it, or email me and I'll be happy to help you with specifics.
+	2. Change BIOS settings to enable booting from flash drive. This is highly dependent on what BIOS version you have from the factory, so look it up for your specific computer. Yes, these first few steps are by far the hardest because they change depending on the machine you have. I had to enable booting from flash drive, and then change the boot order since my laptop came with windows (I since deleted windows, you don't have to, dual-booting is a great option if you just want to test out Linux).
+	3. Plug in flash drive and follow the Debian installer (if you're on a different distro, follow their instructions). Keep all basic options, they are fine. Don't install any extra software at the end except for "standard system utilites". A desktop environment is not needed and comes with a lot of bloat, but if you're used to MacOS or Windows, keep GNOME or something.
+	4. This step is finished when you can turn on your PC and it does the funny startup stuff until you get to a simple black terminal with "debian login: " and you put in your username and password. After this, it just says "username@hostname" (for me, blake@deb, I named both) in the top left corner of a terminal. Simple, no extra crap, perfect.
 2. Once a clean version of Linux is on your system with no extra bloat, you have a working computer. I didn't want to live in the tty (the default terminal that comes with the OS), so I installed a window system (xorg and dependent packages) using `sudo apt install xorg`.
 3. I installed xorg so that I could install a window manager. I chose dwm from dwm.suckless.org, a lightweight window manager written in C. I chose this because it is small and simple with no stupid features. I git cloned the repo straight from that website, and ran "sudo make clean install" to install the window manager. Then, create the file ".xinitrc" in your home directory (typically ``~`` or ``/home/username``) with the line ``exec dwm`` at the end (or start since it's a new file). Then, run ``startx`` in the tty, and you should see dwm pop up.
 4. I also installed st and dmenu from suckless.org to have a terminal and menu launcher. These were easy, same process, ``sudo make clean install``. After this, your system is good to go. I patched my dwm and st installs with the following patches:

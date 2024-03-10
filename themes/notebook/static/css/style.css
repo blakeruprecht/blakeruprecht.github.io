@@ -1,10 +1,11 @@
 /* VARIABLES */
 :root {
-  --fg-color: #220;
-  --bg-color: #fff;
+  --fg-color: #ddd;
+  --bg-color: #111;
   --mg-color: #808080;
-  --body-font: "Droid Sans", "Helvetica", sans-serif;
-  --head-font: "Droid Sans", "Helvetica", sans-serif";
+  --accent-color: #00bb00;
+  --body-font: "Times New Roman", serif;
+  --head-font: monospace;
 }
 
 
@@ -23,7 +24,7 @@ a {
 }
 
 a:hover {
-  color: #f00;
+  color: var(--accent-color);
 }
 
 time {
@@ -106,7 +107,7 @@ ul.blog-list {
 }
 
 ul.blog-list span {
-  flex: 0 0 7rem;
+  flex: 0 0 10rem;
 }
   
 

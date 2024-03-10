@@ -1,5 +1,6 @@
 +++
-title = "sleep"
+title = "Simple Sleep"
+date = "2024-02-11"
 +++
 
 ## General notes

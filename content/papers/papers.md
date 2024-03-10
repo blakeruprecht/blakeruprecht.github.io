@@ -5,7 +5,7 @@ menu = "main"
 
 This is all of my published work from my time as a Research Assistant before and during my stint in graduate school. I linked some PDFs as well.
 
-For roughly five years, I studied the AI Alignment problem, which was basically asking how do we create artificial intelligences that are explainable and trustworthy. My research focused on developing new mathematical techniques to bridge the gap between probabilistic neural networks and symbolic human reasoning. We investigated fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable humans to work in tandem (in-the-loop) with computers to improve the algorithms with feedback. We had multiple rejected papers and multiple accepted papers. 
+For roughly five years, I studied the AI Alignment problem and created more eXplainable (XAI) and trustworthy AI algorithms to solve this problem. It is still unsolved. My research specifically focused on developing new mathematical techniques to bridge the gap between probabilistic neural networks and symbolic human reasoning. We investigated fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable humans to work in tandem (human-in-the-loop) with computers to improve the algorithms with feedback. We had multiple rejected papers and multiple accepted papers. 
 
 Feel free to reach out if you have any questions about my work, or anything related to AI, the alignment problem, explainable AI, or anything else related to cognitive science, math, science, and learning -- especially if you are a new researcher.
 

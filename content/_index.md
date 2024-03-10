@@ -5,12 +5,13 @@ draft: false
 ---
 
 # Me
-Writer, researcher.
+Writer/researcher. 
 
-Deep ecology, open-source AI, simple living, ...
+Open-source AI, deep ecology, simple living, ...
 
+BlakeCRuprecht[at]gmail.com
 
-blakecruprecht[at]gmail.com • [github](https://github.com/blakeruprecht) • [instagram](https://instagram.com/blakeruprecht) • [medium](https://medium.com/@blakeruprecht) • [substack](https://blakeruprecht.substack.com/)
+[github](https://github.com/blakeruprecht) • [instagram](https://instagram.com/blakeruprecht) • [medium](https://medium.com/@blakeruprecht) • [substack](https://blakeruprecht.substack.com/)
 
 
 

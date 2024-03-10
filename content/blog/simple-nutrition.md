@@ -1,5 +1,6 @@
 +++
-title = "nutrition"
+title = "Simple Nutrition"
+date = "2024-02-24"
 +++
 
 ## Eat as much energy as you burn, roughly

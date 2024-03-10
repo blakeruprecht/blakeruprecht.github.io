@@ -1,5 +1,6 @@
 +++
-title = "hygiene"
+title = "Simple Hygiene"
+date = "2024-02-28"
 +++
 
 ## A note on taking a random person's medical advice: don't

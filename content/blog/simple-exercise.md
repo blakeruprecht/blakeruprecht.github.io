@@ -1,5 +1,6 @@
 +++
-title = "exercise"
+title = "Simple Exercise"
+date = "2024-02-25"
 +++
 
 ## Summary
