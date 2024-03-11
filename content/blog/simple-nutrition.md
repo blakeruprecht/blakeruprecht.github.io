@@ -7,30 +7,14 @@ date = "2024-02-24"
 Food is energy for the body. Without enough energy, the body will slowly starve, leading to early death. With too much energy, the body will store the excess as body fat. Excess amounts of body fat can lead to many serious health problems, including early death. Neither of these are recommended. However, there is a range of weight for any given person in which they can be perfectly healthy, and any minor differences within that range have nothing to do with nutrition, so that discussion falls outside the scope of these notes.
 
 ## Follow Mediterranean guidelines to get all the right nutrients
-Besides energy, food also contains many essential nutrients for bodily processes, of which water, the 10 essential amino acids, unsaturated & saturated fats, 15-25 chemical elements (previously called minerals), 13 vitamins, and fiber must be eaten and cannot be produced by the body. Carbs aren't technically necessary nutrient wise, but provide a great source of energy for the body and are nothing to be afraid of.
+Besides energy, food also contains many essential nutrients for bodily processes, of which water, the 10 essential amino acids, unsaturated & saturated fats, 15-25 chemical elements (previously called minerals), 13 vitamins, and fiber must be eaten and cannot be produced by the body. Carbs aren't technically necessary nutrient wise, but provide a great source of energy for the body and are not bad in any way
 
-To eat the right proportion of nutrients, follow the Mediterranean eating plan (otherwise called "diet", which is technically accurate, but that word carries a lot of stigma). The emphasis on eating a variety of vegetables, fruits, beans, legumes, nuts, seeds, and whole-grains plus plenty of olive oil helps ensure you receive all essential vitamins, minerals, fiber, carbs, fats, and proteins. Beans + whole-grains ensure adequate amino acid intake, chicken, poultry, fish, and other meats can be added as you please, but not necessary. Avoid all trans fats, avoid processed sugars, basically avoid food that comes out of a package or drive-thru. Of course, you can make concessions for convenience, but it will only be at the expense of your long-term health, which you trade for more time now. Eat wisely.
+To eat the right proportion of nutrients, follow the Mediterranean eating plan. Basically, trying to track all of the specific "minerals" and vitamins is very difficult, and requires a full biochemical breakdown of each ingredient. This is possible through food tracking apps like MyFitnessPal, but may be more work than you want to put in. The Mediterranean diet emphasizes plenty of olive oil and other fat sources, along with all amino acids through the consumption of whole-grains and legumes, and attempts to ensure adequate vitamin/mineral intake through a wide variety of vegetables, fruits, nuts, seeds, and natural foods. The relative proportion of meat isn't very important, as long as protein consumption is adequate (>0.7g/lb of bodyweight).
 
-## Learn to cook
+## Learn to cook & gather ingredients
 - Read *Salt, Fat, Acid, Heat* by Samin Nosrat
-  - Add salt to bring out flavor, stop just before it tastes too salty. You'll have to train your taste buds on this one.
-  - Fat brings out flavor, so don't ever skimp on fat.
-  - Acid makes the mouth water, if you already have salt and fat, you'll probably need to add some acid to get your food to taste good
-  - Heat: there are many methods to cook food, it's important to choose the right one.
-- Practice cooking meals you enjoy. Just like with everything, the secret to getting good at cooking is practice, practice, practice. Personally, I only cook my absolute favorite meals so that I'm excited to make them. Luckily, I have a ton of favorites.
-- Remember that recipes are just suggestions, and most of them are very similar.
-- Learn to recreate a TexMex burrito bowl, and you'll master basically all parts of cooking, e.g.
-  - Grains are typically pretty easy and just require a pot of boiling water (brown rice, pasta)
-  - It's great to know how to make tasty beans, in this case, black or refried with some jalapeno and spices
-  - Making delicious grilled chicken is easy if you marinate it in yogurt/mayo and salt 30mins or more before you cook it. Cook it on a cast-iron (or equivalent) to really get some charred skin.
-  - Chop up tomatoes, onions, garlic, jalapenos, cilantro, and limes to create a fresh pico de gallo salsa. Once you can nail the salt/acid ratio on this, you'll be set to cook most anything.
-  - Top with avocado, cheese, yogurt, tortillas.
-    - Bonus: learn to make masa tortillas by hand, it's easy and delicious
-
-## Learn to grocery shop, garden, & forage
 - The goal is to find fresh, high quality, whole foods
 - The absolute best produce comes from local gardens, local farmers markets, etc.
-- The best meat and eggs come from neighbor's chicken coops, or local farms
 - Cicero said "if you have a library and a garden, you have all you need"
 
 
