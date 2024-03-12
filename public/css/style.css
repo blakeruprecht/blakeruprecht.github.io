@@ -3,8 +3,9 @@
   --fg-color: #222;
   --bg-color: #fff;
   --mg-color: #808080;
-  --body-font: Helvetica, serif;
-  --head-font: Helvetica, serif;
+  --accent-color: #00dd00;
+  --body-font: "Helvetica", sans-serif;
+  --head-font: "Helvetica", sans-serif;
 }
 
 
@@ -12,10 +13,19 @@
 body {
   background-color: var(--bg-color);
   color: var(--fg-color);
-  font-size: 120%;
+  font-size: 100%;
   line-height: 1.5;
   margin: 0 auto;
+  padding-top: 1rem;
   font-family: var(--body-font);
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 120%;
 }
 
 a {
@@ -23,7 +33,11 @@ a {
 }
 
 a:hover {
-  color: #f00;
+  color: var(--accent-color);
+}
+
+ul, li {
+  margin-bottom: 0.5rem;
 }
 
 time {
@@ -32,13 +46,13 @@ time {
 
 .content {
   margin-bottom: 0rem;
-  max-width: 40rem;
+  max-width: 36rem;
   padding: 1rem;
   margin: 0 auto;
 }
 
 blockquote {
-  border-left: 0.25rem solid #666;
+  border-left: 0.25rem solid var(--mg-color);
   padding: 0rem 1rem;
 }
 
@@ -58,28 +72,32 @@ img {
 /* NAVIGATION */
 
 .site-nav {
-  display: flex;
-  background-color: var(--bg-color);
-  color: var(--fg-color);
+  /*background-color: var(--bg-color);*/
+  /*color: var(--fg-color);*/
   font-size: 120%;
-  padding: 1rem 1rem;
-  align-items: end;
   font-weight: bold;
+  max-width: 36rem;
+  padding: 1rem;
+  margin: 0 auto;
+  float: right;
+}
+
+.site-nav ul {
+  list-style-type: none;
 }
 
 .site-nav a {
-  display: block;
+  list-style: none;
   padding: 1rem 1.2rem;
   width: 100%;
-  text-decoration: none;
 }
 
 .site-nav .logo {
-  font-size: 150%;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
 }
 
 .main-menu {
-  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -106,7 +124,7 @@ ul.blog-list {
 }
 
 ul.blog-list span {
-  flex: 0 0 7rem;
+  flex: 0 0 8rem;
 }
   
 

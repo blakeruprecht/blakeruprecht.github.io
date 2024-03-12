@@ -1,14 +1,28 @@
 <header class="site-header">
   <nav class="site-nav">
+
+<!--
     <a class="logo" href="{{ .Site.BaseURL }}">
       {{ .Site.Title }}
     </a>
+
     <ul class="main-menu">
+-->
+
+    <ul>
+      <li>
+        <a class="logo" href="{{ .Site.BaseURL }}">
+          {{ .Site.Title }}
+        </a>
+      </li>
+
       {{ range.Site.Menus.main }}
       <li>
-        <a href="{{ .URL }}">{{ .Name }}</a>
+        <a class="main-menu" href="{{ .URL }}">{{ .Name }}</a>
       </li>
       {{ end }}
     </ul>
+
+
   </nav>
 </header>

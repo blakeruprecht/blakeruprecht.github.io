@@ -7,14 +7,60 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Software I Use</title>
-      <link>https://blakeruprecht.github.io/blog/software-i-use/</link>
+      <title>Simple Tools</title>
+      <link>https://blakeruprecht.github.io/blog/simple-tools/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/simple-tools/</guid>
+      <description> Clothes (as few as possible to stay warm and clean) Work Backpack Hiking Backpack (getting outside is essential) Bicycle for transportation Car/Train/Plane if you have to go far Home Bed &amp;amp; Bathroom (very simple) Kitchen: probably requires the most tools here Cutting board, Chef&amp;rsquo;s knife Cast iron pan, Enamel dutch oven, Carbon wok Dishes and utensils </description>
+    </item>
+    
+    <item>
+      <title>Simple Hygiene</title>
+      <link>https://blakeruprecht.github.io/blog/simple-hygiene/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/simple-hygiene/</guid>
+      <description>A note on taking a random person&amp;rsquo;s medical advice: don&amp;rsquo;t So much related to general health and hygiene should come from your personal doctors who gives you checkups, so I don&amp;rsquo;t have much more advice to give, besides listen to the professionals. Sure, some of them are in the pockets of big-pharma, but for the most part, they have good advice. Get a second opinion if you want, but this is not really the area to &amp;ldquo;do your own research&amp;rdquo;, since the field of medicine is legitimately insanely complex and difficult to understand.</description>
+    </item>
+    
+    <item>
+      <title>Simple Exercise</title>
+      <link>https://blakeruprecht.github.io/blog/simple-exercise/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/simple-exercise/</guid>
+      <description>Summary Focus on proper technique for all movement, from breathing and standing, to running and lifting. Build strength thru training pushing, pulling, and squatting movements. Train Zone 2 cardio a lot each week. Train Zone 4/5 cardio some each week.
+Physiological Adaptations of the Body to Exercise [1] Anaerobic endurance: max heart rate, how much work you can do at max effort Aerobic endurance: bodies ability to efficiently use oxygen during exercise Long-duration endurance: how long your body can perform sub-maximal work Technique: learning to move more effectively, efficiently, smoothly, and reducing risk of injury Muscular Endurance: how many reps in a row you can do Strength: how effectively you can move something Speed: moving at a higher velocity or with more accelaration Power: speed multiplied by force Size: how big the muscle is Training Pillars [2] Stability Proper technique in all things, this is the most complicated topic here by far, it&amp;rsquo;s basically &amp;ldquo;good form&amp;rdquo;, which changes from exercise to exercise, and needs to be evaluated for each joint and each muscle individually.</description>
+    </item>
+    
+    <item>
+      <title>Simple Nutrition</title>
+      <link>https://blakeruprecht.github.io/blog/simple-nutrition/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/simple-nutrition/</guid>
+      <description>Eat as much energy as you burn, roughly Food is energy for the body. Without enough energy, the body will slowly starve, leading to early death. With too much energy, the body will store the excess as body fat. Excess amounts of body fat can lead to many serious health problems, including early death. Neither of these are recommended. However, there is a range of weight for any given person in which they can be perfectly healthy, and any minor differences within that range have nothing to do with nutrition, so that discussion falls outside the scope of these notes.</description>
+    </item>
+    
+    <item>
+      <title>Simple Sleep</title>
+      <link>https://blakeruprecht.github.io/blog/simple-sleep/</link>
+      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/simple-sleep/</guid>
+      <description>General notes Notes from Huberman&amp;rsquo;s &amp;ldquo;Toolkit for Sleep&amp;rdquo;
+Most humans need anywhere from 6-9 hours per night, you can tell based on if you are tired the next day lol Ideally, sleep in a dark place Temperature should be cool, regulate temp with multiples layers e.g. blankets It&amp;rsquo;s more important to keep wakeup time consistent, and sleep whenever you get tired at night Light Sunlight immediately upon waking for 10-30 mins is hugely beneficial Don&amp;rsquo;t look directly at the sun obviously, but don&amp;rsquo;t wear sunglasses, and windows block sunlight Avoid artifical light after dark if possible, if not, block blue light after dark Blue light keeps you awake during the day, so don&amp;rsquo;t block it during daytime Viewing sunlight in the evening is beneficial as well Bright lights between 10 p.</description>
+    </item>
+    
+    <item>
+      <title>Simple Software</title>
+      <link>https://blakeruprecht.github.io/blog/simple-software/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/software-i-use/</guid>
-      <description>This is mainly a guide to my future self to install this stuff. If you&amp;rsquo;re curious about any of these, find my email on my about page and email me questions, and I&amp;rsquo;ll update this post to be more thorough.
-In order of install, this is all of the software I currently use on my work laptop. In summary:
-OPERATING_SYSTEM: Linux/Debian_12 WINDOW_SYSTEM: Xorg WINDOW_MANAGER: Suckless/dwm TERMINAL: Suckless/st SHELL: Bash TEXT_EDITOR: Nano MARKDOWN_EDITOR: Obsidian WEBSITE_CREATION: Hugo IMAGE_VIEWER: Feh EPUB_VIEWER: Zathura STATUSBAR: custom xsetroot in my .</description>
+      <guid>https://blakeruprecht.github.io/blog/simple-software/</guid>
+      <description>This software guide tries to follow the Unix Philosophy, summarized here by Peter H. Salus in A Quarter-Century of Unix (1994).
+Write programs that do one thing and do it well. (DOTADIW) Write programs to work together. Write programs to handle text streams, because that is a universal interface. Otherwise, Keep It Simple Stupid! I&amp;rsquo;ve spent enought time frustrated at software to realize the benefits of small programs that do one thing, rather than huge programs that do many things.</description>
     </item>
     
     <item>
@@ -114,72 +160,26 @@ It seems so impossible before it happens. You see it approaching. You see all of
     </item>
     
     <item>
-      <title>/notes</title>
-      <link>https://blakeruprecht.github.io/notes/notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/notes/notes/</guid>
-      <description>Simple living is the goal.
-After all,
-If minimum wasn&amp;rsquo;t good enough, it wouldn&amp;rsquo;t be the minimum.
-Col. Brian Whetstone, U.S.M.C.
-sleep hygiene nutrition exercise tools and home </description>
-    </item>
-    
-    <item>
       <title>/papers</title>
       <link>https://blakeruprecht.github.io/papers/papers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/papers/papers/</guid>
-      <description>These are the references to all of my published work, including some PDFs. For roughly five years, I studied Artificial Intelligence (AI) with a focus on the AI Alignment problem, which I tried to solve by developing mathematical techniques that align AI behavior with human intentions. Generally, my group researched fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable human feedback loops to improve the model.</description>
+      <description>This is all of my published work from my time as a Research Assistant before and during my stint in graduate school. I linked some PDFs as well.
+For roughly five years, I studied the AI Alignment problem and created more eXplainable (XAI) and trustworthy AI algorithms to solve this problem. It is still unsolved. My research specifically focused on developing new mathematical techniques to bridge the gap between probabilistic neural networks and symbolic human reasoning.</description>
     </item>
     
     <item>
-      <title>exercise</title>
-      <link>https://blakeruprecht.github.io/notes/exercise/</link>
+      <title>/simple</title>
+      <link>https://blakeruprecht.github.io/simple/simple/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/notes/exercise/</guid>
-      <description>Summary Focus on proper technique for all movement, from breathing and standing, to running and lifting. Build strength thru training pushing, pulling, and squatting movements. Train Zone 2 cardio a lot each week. Train Zone 4/5 cardio some each week.
-Physiological Adaptations of the Body to Exercise [1] Anaerobic endurance: max heart rate, how much work you can do at max effort Aerobic endurance: bodies ability to efficiently use oxygen during exercise Long-duration endurance: how long your body can perform sub-maximal work Technique: learning to move more effectively, efficiently, smoothly, and reducing risk of injury Muscular Endurance: how many reps in a row you can do Strength: how effectively you can move something Speed: moving at a higher velocity or with more accelaration Power: speed multiplied by force Size: how big the muscle is Training Pillars [2] Stability Proper technique in all things, this is the most complicated topic here by far, it&amp;rsquo;s basically &amp;ldquo;good form&amp;rdquo;, which changes from exercise to exercise, and needs to be evaluated for each joint and each muscle individually.</description>
-    </item>
-    
-    <item>
-      <title>hygiene</title>
-      <link>https://blakeruprecht.github.io/notes/hygiene/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/notes/hygiene/</guid>
-      <description>A note on taking a random person&amp;rsquo;s medical advice: don&amp;rsquo;t So much related to general health and hygiene should come from your personal doctors who gives you checkups, so I don&amp;rsquo;t have much more advice to give, besides listen to the professionals. Sure, some of them are in the pockets of big-pharma, but for the most part, they have good advice. Get a second opinion if you want, but this is not really the area to &amp;ldquo;do your own research&amp;rdquo;, since the field of medicine is legitimately insanely complex and difficult to understand.</description>
-    </item>
-    
-    <item>
-      <title>nutrition</title>
-      <link>https://blakeruprecht.github.io/notes/nutrition/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/notes/nutrition/</guid>
-      <description>Eat as much energy as you burn, roughly Food is energy for the body. Without enough energy, the body will slowly starve, leading to early death. With too much energy, the body will store the excess as body fat. Excess amounts of body fat can lead to many serious health problems, including early death. Neither of these are recommended. However, there is a range of weight for any given person in which they can be perfectly healthy, and any minor differences within that range have nothing to do with nutrition, so that discussion falls outside the scope of these notes.</description>
-    </item>
-    
-    <item>
-      <title>sleep</title>
-      <link>https://blakeruprecht.github.io/notes/sleep/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/notes/sleep/</guid>
-      <description>General notes Notes from Huberman&amp;rsquo;s &amp;ldquo;Toolkit for Sleep&amp;rdquo;
-Most humans need anywhere from 6-9 hours per night, you can tell based on if you are tired the next day lol Ideally, sleep in a dark place Temperature should be cool, regulate temp with multiples layers e.g. blankets It&amp;rsquo;s more important to keep wakeup time consistent, and sleep whenever you get tired at night Light Sunlight immediately upon waking for 10-30 mins is hugely beneficial Don&amp;rsquo;t look directly at the sun obviously, but don&amp;rsquo;t wear sunglasses, and windows block sunlight Avoid artifical light after dark if possible, if not, block blue light after dark Blue light keeps you awake during the day, so don&amp;rsquo;t block it during daytime Viewing sunlight in the evening is beneficial as well Bright lights between 10 p.</description>
-    </item>
-    
-    <item>
-      <title>tools and home</title>
-      <link>https://blakeruprecht.github.io/notes/tools-and-home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/notes/tools-and-home/</guid>
-      <description> Clothes Work backpack Ultralight hiking backpack Bicycle Car (if no public transportation is available) Home Kitchen Living area Bed Bathroom </description>
+      <guid>https://blakeruprecht.github.io/simple/simple/</guid>
+      <description>Simple living is natural, easy, frugal, spiritual, sustainable, economical, healthy, fun, connected, and anarchist. All of the great teachers of the world have advocated for simple living: Pooh Bear, Hobbes (not Calvin), dogs &amp;amp; cats, Baloo, all trees, Uncle Iroh, Lao Tzu, the Lorax.
+Who doesn&amp;rsquo;t want to be kynikos?
+Simple Exercise Simple Nutrition Simple Sleep Simple Hygiene Simple Tools Simple Software Fun Quotes
+&amp;ldquo;Keep it simple, stupid!&amp;rdquo;
+&amp;ldquo;If minimum wasn&amp;rsquo;t good enough, it wouldn&amp;rsquo;t be the minimum&amp;rdquo; -Col.</description>
     </item>
     
   </channel>

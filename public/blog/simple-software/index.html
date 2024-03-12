@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>Simple Software | Blake Ruprecht</title>
+
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+	</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+
+
+
+    <ul>
+      <li>
+        <a class="logo" href="https://blakeruprecht.github.io">
+          Blake Ruprecht
+        </a>
+      </li>
+
+      
+      <li>
+        <a class="main-menu" href="/blog">/blog</a>
+      </li>
+      
+      <li>
+        <a class="main-menu" href="/papers/papers/">/papers</a>
+      </li>
+      
+      <li>
+        <a class="main-menu" href="/simple/simple/">/simple</a>
+      </li>
+      
+    </ul>
+
+
+  </nav>
+</header>
+
+
+<main class="content">
+
+
+<h1>Simple Software</h1>
+
+<p><img src="/unix_pic.png" alt="My Linux environment running DWM"></p>
+<p>This software guide tries to follow the Unix Philosophy, summarized here by Peter H. Salus in <em>A Quarter-Century of Unix</em> (1994).</p>
+<ol>
+<li>Write programs that do one thing and do it well. (DOTADIW)</li>
+<li>Write programs to work together.</li>
+<li>Write programs to handle text streams, because that is a universal interface.
+Otherwise, Keep It Simple Stupid! I&rsquo;ve spent enought time frustrated at software to realize the benefits of small programs that do one thing, rather than huge programs that do many things. Computers are really complex and hard to work with, so breaking up programs into modular parts makes a lot of sense to me, but I have a lot of software knowledge. Don&rsquo;t get me wrong, Windows and Mac are great OS&rsquo;s as well, but they are not free and open source, so I do not support them. Plus, they won&rsquo;t let me remove programs I don&rsquo;t need, which I find annoying. Bloat!</li>
+</ol>
+<p>In order of install, this is all of the software I currently use on my laptop.</p>
+<ul>
+<li>Operating System: LINUX (specifically DEBIAN 12)</li>
+<li>Window System: XORG</li>
+<li>Window Manager: SUCKLESS/DWM</li>
+<li>Terminal Emulator: SUCKLESS/ST</li>
+<li>Shell Language: BASH</li>
+<li>Text Editor: NANO</li>
+<li>Image Viewer: FEH</li>
+<li>File Viewer: ZATHURA</li>
+<li>File Browser: none (just use cd/ls)</li>
+<li>Languages: PYTHON (for data viz), HUGO (for website creation)</li>
+<li>Statusbar: .xinitrc script with &ldquo;xsetroot&rdquo; variable</li>
+</ul>
+<ol>
+<li>Install an operating system (Linux, the Debian 12 distribution)
+<ol>
+<li>Download the Linux .iso for your system (mine is a Dell XPS 13 9370). You&rsquo;ll need a working computer to create a bootable flash drive, and it changes depending on what system you have, so DuckDuckGo it, or email me and I&rsquo;ll be happy to help you with specifics.</li>
+<li>Change BIOS settings to enable booting from flash drive. This is highly dependent on what BIOS version you have from the factory, so look it up for your specific computer. Yes, these first few steps are by far the hardest because they change depending on the machine you have. I had to enable booting from flash drive, and then change the boot order since my laptop came with windows (I since deleted windows, you don&rsquo;t have to, dual-booting is a great option if you just want to test out Linux).</li>
+<li>Plug in flash drive and follow the Debian installer (if you&rsquo;re on a different distro, follow their instructions). Keep all basic options, they are fine. Don&rsquo;t install any extra software at the end except for &ldquo;standard system utilites&rdquo;. A desktop environment is not needed and comes with a lot of bloat, but if you&rsquo;re used to MacOS or Windows, keep GNOME or something.</li>
+<li>This step is finished when you can turn on your PC and it does the funny startup stuff until you get to a simple black terminal with &ldquo;debian login: &quot; and you put in your username and password. After this, it just says &ldquo;username@hostname&rdquo; (for me, blake@deb, I named both) in the top left corner of a terminal. Simple, no extra crap, perfect.</li>
+</ol>
+</li>
+<li>Once a clean version of Linux is on your system with no extra bloat, you have a working computer. I didn&rsquo;t want to live in the tty (the default terminal that comes with the OS), so I installed a window system (xorg and dependent packages) using <code>sudo apt install xorg</code>.</li>
+<li>I installed xorg so that I could install a window manager. I chose dwm from dwm.suckless.org, a lightweight window manager written in C. I chose this because it is small and simple with no stupid features. I git cloned the repo straight from that website, and ran &ldquo;sudo make clean install&rdquo; to install the window manager. Then, create the file &ldquo;.xinitrc&rdquo; in your home directory (typically <code>~</code> or <code>/home/username</code>) with the line <code>exec dwm</code> at the end (or start since it&rsquo;s a new file). Then, run <code>startx</code> in the tty, and you should see dwm pop up.</li>
+<li>I also installed st and dmenu from suckless.org to have a terminal and menu launcher. These were easy, same process, <code>sudo make clean install</code>. After this, your system is good to go. I patched my dwm and st installs with the following patches:
+<ol>
+<li>dwm: &ldquo;alttagsdecoration&rdquo;, &ldquo;alwayscenter&rdquo;, &ldquo;truecenteredtitle&rdquo;, &ldquo;underlinetags&rdquo;, and &ldquo;uselessgap&rdquo;</li>
+<li>st: &ldquo;font2&rdquo;</li>
+</ol>
+</li>
+<li>The rest of the time was spent editing my dwm and st &ldquo;config.h&rdquo; files to make the windows look how I wanted, mainly by adding black backgrounds, white borders, and customizing little things here and there.</li>
+<li>To set a wallpaper, <code>sudo apt install feh</code>, the use <code>feh --bg-fill wallpaper_name.jpg</code> to apply your wallpaper, then add <code>~/.fehbg &amp;</code> to your .xinitrc to run feh everytime you startx. Change the wallpaper at any time by using the <code>feh bg-fill new_wall.jpg</code> command.</li>
+<li>Install the Obsidian AppImage and figure out to run it on your machine. I won&rsquo;t do this again, and will switch to QOwnNotes or NeoVim to edit Markdown files in the future, since I don&rsquo;t need backlinking in Obsidian. I do like the minimal UI though. I don&rsquo;t use graph view or any other plugins. Obsidian supports wikilinks in the style <code>[[File_Name]]</code> as well as <code>[File_Name](File_Name.md)</code></li>
+<li>Install hugo and git clone your website from github/gitlab or make a new one. This is how I choose to build a website, it&rsquo;s pretty straightforward if you follow the tutorial on Hugo&rsquo;s website and build a Github Pages site. I will eventually switch to a custom HTML/CSS/JS website once I get around to learning JavaScript, but that&rsquo;s not today.</li>
+<li>Connect to WiFi. Yes, seriously, there is no default way to do this in dwm (that I know of). Debian setup established my original home WiFi connection. To check if your system recognizes your WiFi card, type <code>lspci | grep Network</code>, then type <code>sudo ip link</code> to check its status. Add more WiFi ssid/psk pairs to the <code>/etc/wpa_supplicant/wpa_supplicant.conf</code> file in order of preference. Your laptop will automatically connect to the first network it can find. Yes, kinda janky, but it works, and I have internet now.</li>
+</ol>
+
+
+</main>
+	
+<footer>
+	<p>&copy;2024 Blake Ruprecht</p>
+</footer>
+
+</body>
+</html>
+
