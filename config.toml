@@ -1,6 +1,6 @@
 # Basic parameters
 baseURL = "https://blakeruprecht.github.io"
-title = "Blake Ruprecht"
+title = "Blake"
 theme = "notebook"
 
 [menu]
