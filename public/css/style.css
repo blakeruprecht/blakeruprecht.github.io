@@ -79,10 +79,11 @@ img {
   max-width: 36rem;
   padding: 1rem;
   margin: 0 auto;
-  float: right;
+  float: center;
 }
 
-.site-nav ul {
+.site-nav ul, li {
+  display: inline;
   list-style-type: none;
 }
 
