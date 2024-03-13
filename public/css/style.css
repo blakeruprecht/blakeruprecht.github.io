@@ -4,8 +4,8 @@
   --bg-color: #fff;
   --mg-color: #808080;
   --accent-color: #00dd00;
-  --body-font: "Helvetica", sans-serif;
-  --head-font: "Helvetica", sans-serif;
+  --body-font: "Times New Roman", serif;
+  --head-font: "Courier New", monospace;
 }
 
 
@@ -22,10 +22,12 @@ body {
 
 h1 {
   font-size: 150%;
+  font-variant: small-caps;
 }
 
 h2, h3, h4, h5, h6 {
   font-size: 120%;
+  font-variant: small-caps;
 }
 
 a {
@@ -76,7 +78,6 @@ img {
   /*color: var(--fg-color);*/
   font-size: 120%;
   font-weight: bold;
-  max-width: 36rem;
   padding: 1rem;
   margin: 0 auto;
   float: center;
@@ -91,6 +92,7 @@ img {
   list-style: none;
   padding: 1rem 1.2rem;
   width: 100%;
+  font-family: var(--head-font);
 }
 
 .site-nav .logo {

@@ -1,5 +1,5 @@
 +++
-title = "/simple"
+title = "/Simple"
 menu = "main"
 +++
 
@@ -34,7 +34,7 @@ re is nothing left to take away."* -Antoine de St. Exupery
 re complex, the sooner dead."* -Northcote Parkinson
 
 
-![[Pasted image 20240311114000.png]]
+![Image of a log curve](log-curve.png)
 
 Why simple living? Well, life is tough, and everyone wants to be happy. The "happiness curve" probably looks logarithmic, like the image above. As you spend more time/money/energy/attention (x-axis) towards improving it, the results (happiness, y-axis) start to taper off. Not having food can make you so unhappy you die, whereas having 10 million hamburgers doesn't make you much happier than having two (unless you get the chance to share them). Many people around the world do not have access to clean water and proper nutrition.
 
