@@ -2,6 +2,12 @@
 
 <h1>{{ .Title }}</h1>
 
+<span>
+	{{ range .Param "authors" }}
+		{{ . }}
+	{{ end }}
+</span>
+
 {{ .Content }}
 
 {{ partial "footer.html" . }}

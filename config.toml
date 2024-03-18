@@ -2,13 +2,11 @@
 baseURL = "https://blakeruprecht.github.io"
 title = "Blake Ruprecht"
 theme = "notebook"
+description = "My personal website discussing open source artificial intelligence, deep ecology, and simple living."
 
 [menu]
   [[menu.main]]
     identifier = "blog"
-    name = "/Blog"
+    name = "Blog"
     url = "/blog"
     weight = 10
-
-
-

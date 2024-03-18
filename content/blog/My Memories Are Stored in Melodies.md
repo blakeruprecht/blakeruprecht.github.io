@@ -1,6 +1,7 @@
 ---
 date: 2023-11-09
 title: My Memories Are Stored in Melodies
+author: ["Blake Ruprecht"]
 ---
 The greatest distance between two places is through time. When I listen to music, occasionally a song will play that instantly transports me back to a specific moment in time, filling me with vivid memories of a moment I'll never forget. When I play through these songs, I relive moments like they just happened.
 

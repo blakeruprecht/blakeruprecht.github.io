@@ -2,8 +2,8 @@
 :root {
   --fg-color: #222;
   --bg-color: #fff;
-  --mg-color: #808080;
-  --accent-color: #00dd00;
+  --mg-color: #555;
+  --accent-color: #dd0000;
   --body-font: "Times New Roman", serif;
   --head-font: "Courier New", monospace;
 }
@@ -83,20 +83,16 @@ img {
   float: center;
 }
 
-.site-nav ul, li {
-  display: inline;
+.site-nav * {
   list-style-type: none;
-}
-
-.site-nav a {
-  list-style: none;
+  display: inline;
   padding: 1rem 1.2rem;
   width: 100%;
   font-family: var(--head-font);
 }
 
 .site-nav .logo {
-  margin-bottom: 0.5rem;
+  font-size: 150%;
   text-decoration: none;
 }
 

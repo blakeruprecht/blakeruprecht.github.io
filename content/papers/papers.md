@@ -1,5 +1,5 @@
 +++ 
-title = "/Papers" 
+title = "Papers" 
 menu = "main" 
 +++
 
@@ -17,8 +17,11 @@ Feel free to reach out if you have any questions about my work, or anything rela
 
 ### Conference Articles
 - B. Young, D. T. Anderson, J. Keller, F. Petry, C. Michael and **B. Ruprecht**, "Human-Oriented Fuzzy Set Based Explanations of  Spatial Concepts," WCCI 2023.
+
 - **B. Ruprecht**, D. T. Anderson, F. Petry, J. M. Keller, C. Michael, A. Buck, G. Scott, C. Davis, "Concept Learning Based on Human Interaction and Explainable AI," SPIE 2021. [PDF](/spie_2021.pdf)
+
 - **B. Ruprecht**, W. Wu, M. Islam, D. T. Anderson, J. Keller, G. Scott, C. Davis, F. Petry, P. Elmore, K. Nock, E. Gilmour, “Possibilistic Clustering Enabled Neuro Fuzzy Logic,” WCCI 2020. [PDF](/wcci_2020.pdf)
+
 - **B. Ruprecht**, C. Veal, A. Cannaday, D. T. Anderson, F. Petry, J. Keller, G. Scott, C. Davis, C. Norsworthy, P. Elmore, K. Nock, E. Gilmour, “Neuro-fuzzy logic for parts-based reasoning about complex scenes in remotely sensed data”, SPIE 2020. [PDF](/spie_2020.pdf)
 
 ### Poster Presentations
