@@ -3,9 +3,10 @@
   --fg-color: #222;
   --bg-color: #fff;
   --mg-color: #555;
-  --accent-color: #dd0000;
-  --body-font: "Times New Roman", serif;
-  --head-font: "Courier New", monospace;
+  --accent-color: #0864c7;
+  --body-font: "Helvetica", sans-serif;
+  --head-font: "Helvetica", sans-serif;
+  --logo-font: "Helvetica", sans-serif;
 }
 
 
@@ -13,25 +14,15 @@
 body {
   background-color: var(--bg-color);
   color: var(--fg-color);
-  font-size: 100%;
+  font-size: 110%;
   line-height: 1.5;
   margin: 0 auto;
   padding-top: 1rem;
   font-family: var(--body-font);
 }
 
-h1 {
-  font-size: 150%;
-  font-variant: small-caps;
-}
-
-h2, h3, h4, h5, h6 {
-  font-size: 120%;
-  font-variant: small-caps;
-}
-
 a {
-  color: var(--fg-color);
+  color: var(--accent-color);
 }
 
 a:hover {
@@ -74,25 +65,22 @@ img {
 /* NAVIGATION */
 
 .site-nav {
-  /*background-color: var(--bg-color);*/
-  /*color: var(--fg-color);*/
   font-size: 120%;
   font-weight: bold;
-  padding: 1rem;
-  margin: 0 auto;
   float: center;
 }
 
 .site-nav * {
   list-style-type: none;
+  margin-right: 1rem;
   display: inline;
-  padding: 1rem 1.2rem;
-  width: 100%;
   font-family: var(--head-font);
 }
 
 .site-nav .logo {
-  font-size: 150%;
+  font-family: var(--logo-font);
+  color: var(--fg-color);
+  font-size: 120%;
   text-decoration: none;
 }
 
@@ -109,7 +97,7 @@ img {
   }
 
   .site-nav a {
-    padding: 0.5rem;
+    padding: 0rem;
     padding-left: 0;
   }
 }
