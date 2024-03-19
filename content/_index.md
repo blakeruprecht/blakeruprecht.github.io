@@ -10,7 +10,7 @@ Freelance writer & researcher. Passionate about eXplainable Artificial Intellige
 
 Previously an XAI researcher at Mizzou, my published works are [here](/papers/papers).
 
-[github](https://github.com/blakeruprecht) • [instagram](https://instagram.com/blakeruprecht) • [medium](https://medium.com/@blakeruprecht) • [substack](https://blakeruprecht.substack.com/)
+blakecruprecht[at]gmail[dot]com • [github](https://github.com/blakeruprecht) • [instagram](https://instagram.com/blakeruprecht) • [medium](https://medium.com/@blakeruprecht) • [substack](https://blakeruprecht.substack.com/)
 
 
 
