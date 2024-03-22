@@ -4,7 +4,7 @@ title: KISS Unix is difficult to learn but makes software problems simple to dea
 description: '"The Unix philosophy of computer software is difficult to learn, but once you do, the rewards are well worth it because it makes using a computer much simpler."'
 ---
 
-![Screenshot of my Linux env running DWM](/unix_pic.png)
+![Screenshot of my Linux env running DWM](/linux-setup.png)
 
 ## Unix philosophy
 This software guide tries to follow the Unix Philosophy, summarized here by Peter H. Salus in *A Quarter-Century of Unix* (1994).

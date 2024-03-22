@@ -4,6 +4,7 @@ title: Artificial Intelligence research is the best way to Learn Python
 description: '"In this essay I take readers on a journey from Noob to Python master, the same journey I undertook during my Masters degree to study AI."'
 ---
 ![The python logo is cool](/python-logo.png)
+
 Let me guess, you want to learn Python, but there is a disconnect between practicing it on your web browser and actually getting programs to run on your machine locally? Well, maybe not, but this was the case for me, and I dented the wall next to my desk with the amount of times I banged my head in frustration trying to get software to work on my computer.
 
 I started my Python journey as a mechanical engineering student with lots of math and some coding knowledge, or so I thought. Things were still pretty rough in the beginning, to say the least. Who knew how complicated computers were? No wonder there's an entire major dedicated to them. I had some previous Matlab coding experience, but this barely scratched the surface of what I would need to learn to get up to speed with AI developments. Everything I found and read online seemed to be tailored towards people with bachelor's degrees in CS already. I wished there was something to explain everything to me simply, so I'm writing that now. You can get pretty far in AI without knowing any math, but you can't really get anywhere without knowing coding, and specifically, knowing Python. Here's what you need to know, from five long years of banging my head against a wall trying to figure all of this stuff out.
