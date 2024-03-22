@@ -1,12 +1,23 @@
 /* VARIABLES */
 :root {
+  
+  /* LIGHT MODE */
   --fg-color: #222;
   --bg-color: #fff;
   --mg-color: #555;
   --accent-color: #0864c7;
+  
+  /* DARK MODE (figure out how to add a sun/moon toggle to the top right eventually)
+  --fg-color: #ddd;
+  --bg-color: #000;
+  --mg-color: #aaa;
+  --accent-color: #dd0000;
+  */
+
+  /* FONTS - all the same right now */
   --body-font: "Helvetica", sans-serif;
-  --head-font: "Helvetica", sans-serif;
-  --logo-font: "Helvetica", sans-serif;
+  --head-font: var(--body-font);
+  --logo-font: var(--body-font);
 }
 
 
@@ -45,7 +56,7 @@ time {
 }
 
 blockquote {
-  border-left: 0.25rem solid var(--mg-color);
+  border-left: 0.25rem solid var(--accent-color);
   padding: 0rem 1rem;
 }
 
@@ -90,35 +101,15 @@ img {
   padding: 0;
 }
 
-@media screen and (max-width: 48rem) {
-  .site-nav,
-  .main-menu {
-    flex-direction: column;
-  }
-
-  .site-nav a {
-    padding: 0rem;
-    padding-left: 0;
-  }
-}
-
 /* LISTS */
 
 ul.blog-list {
   list-style-type: none;
-  padding: unset;
   display: flex;
+  flex: 0 0 8rem;
 }
 
 ul.blog-list span {
   flex: 0 0 8rem;
-}
-  
+}  
 
-.post-snippet {
-  margin-left: 1rem;
-}
-
-.post-snippet h3 {
-  margin-right: 1rem;
-}

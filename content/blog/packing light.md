@@ -1,6 +1,7 @@
 ---
 date: 2023-09-18
-title: Packing Light is Easy
+title: Packing light for world travel is easy
+description: "\"I traveled around the world for three and a half months and only brought one small backpack, and it wasn't difficult.\""
 ---
 
 

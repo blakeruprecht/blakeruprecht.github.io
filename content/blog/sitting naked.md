@@ -1,6 +1,7 @@
 ---
-title: Sitting Naked in a Snowy Field
 date: 2023-11-09
+title: Sitting naked in a snowy field
+description: '"Survival scenarios are a great metaphor for life priorities, since they become painfully obvious."'
 ---
 ## The Basics
 I want to enjoy life as much as possible. I can guarantee that you do too. Everyone I know pretty much wants the same things out of life -- friendships, good food, plenty of sleep, a healthy body, a calm mind. Tons of money? Only insofar as it buys you food, a place to live, plenty of warm clothes, and some beers to share with our friends. Most of the time, we seek things outside of the basics because of what we lack. If we lack emotional connection, we seek out social media. If we lack mental calm, we seek out drugs to placate ourselves. If we lack social status and importance within our own tribes, we pursue success and wealth in the hopes that everyone will finally say "you are enough". This is all basic psychology, I'm not here to convince you of this. If you don't believe me, go talk to a licensed therapist, or write honestly in a journal. So what are these basics that we need?
@@ -20,7 +21,7 @@ This is Maslow's hierachy of needs. I'm not reinventing the wheel here, it's Psy
 This stuff is obvious, but what's the issue? We fill our lives with junk that takes the place of all of this, whether by choice or by force. If you're unhappy with your life, and don't know how to fix it, here's a little thought experiment for you. Imagine you're sitting naked in a snowy field in the dead of winter.
 
 Here's you:
-[ picture ]
+[ ]
 
 The sun is shining down on your beautiful skin. Your bare legs and ass are touching the cold snow, but the ground underneath is radiating heat upwards. You begin to shiver. You no longer have any friends. You don't have a house, you don't have a job. You don't have any money. You don't have any food, or clothing, and no water besides the snow you're sitting on. Screw all that.
 

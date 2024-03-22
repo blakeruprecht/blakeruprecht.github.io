@@ -1,6 +1,7 @@
 ---
 date: 2023-07-27
-title: Brew Better Coffee
+title: Cold brew coffee is easy to brew, I don't understand why it's so expensive
+description: "\"You wouldn't think that the simplest, least energy intensive way to brew coffee would be the most expensive at coffee shops, but it is, and I'm trying to fix that.\""
 ---
 ## Summary of this essay
 1. Why brew yourself?

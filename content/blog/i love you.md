@@ -1,6 +1,7 @@
 ---
 date: 2023-10-06
-title: Something I Should Say More
+title: Something I should say more
+description: '"An explanation of my tattoos, basically just a love letter to the people that I care about."'
 ---
 The tattoo on my achilles heel is an X. If you squint, it kind of looks like an intersection, or a crossroad. To me, this represents indecision, my biggest weakness, and the thing I regret most in life -- not taking action to pursue love over fear. As I sit here at another crossroad, I can't help but think of the lyrics from the song that inspired the ink:
 

@@ -1,6 +1,7 @@
 ---
 date: 2021-09-21
 title: Full Flavor, 99 Calories
+description: "\"I was in college and a lot of my friends were leaving, but on this day, I went out to the local bar and chilled with two of my best friends for hours. At the time, I never wanted it to end, and I still don't.\""
 ---
 
 

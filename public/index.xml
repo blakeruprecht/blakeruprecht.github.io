@@ -7,60 +7,109 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Memories Are Stored in Melodies</title>
-      <link>https://blakeruprecht.github.io/blog/my-memories-are-stored-in-melodies/</link>
+      <title>Speed is the inverse of time</title>
+      <link>https://blakeruprecht.github.io/blog/speed-kills/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/speed-kills/</guid>
+      <description>Physics Primer Work is equal to force times distance. Squatting your own weight plus 100 kilograms accomplishes the same amount of work regardless of how fast you do it. If you go really slow, let&amp;rsquo;s say it takes you 100 seconds, and you travel a vertical distance of 1 meter down and 1 meter back up. Technically this accomplishes zero work, but we&amp;rsquo;ll take the absolute value for fun.
+W = |fd| f = ma (more precisely, f = (d/dt)(mv)) W = |mad| W = |(100 kgs)(10 m/s^2)(2 m)| = 2000 Joules = 478 cal = 0.</description>
+    </item>
+    
+    <item>
+      <title>Artificial Intelligence research is the best way to Learn Python</title>
+      <link>https://blakeruprecht.github.io/blog/ai-to-learn-python/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/ai-to-learn-python/</guid>
+      <description>Let me guess, you want to learn Python, but there is a disconnect between practicing it on your web browser and actually getting programs to run on your machine locally? Well, maybe not, but this was the case for me, and I dented the wall next to my desk with the amount of times I banged my head in frustration trying to get software to work on my computer.</description>
+    </item>
+    
+    <item>
+      <title>KISS Calisthenics makes exercise easy</title>
+      <link>https://blakeruprecht.github.io/blog/kiss-exercise/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/kiss-exercise/</guid>
+      <description>Check out K Boges on Youtube, he explains this exercise theory better than I possibly could. All of his videos are very short, and he gets right to the point each time. A modern day youtube hero.
+Training Cardio &amp;amp; Muscles My takeaway from his extensive knowledge is summarized here, I don&amp;rsquo;t want to explain further because I&amp;rsquo;m not an expert, so look to Boges for more info if you are curious.</description>
+    </item>
+    
+    <item>
+      <title>KISS The Mediterranean diet is the simplest path to good nutrition</title>
+      <link>https://blakeruprecht.github.io/blog/kiss-nutrition/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/kiss-nutrition/</guid>
+      <description>Summary Let&amp;rsquo;s get something out of the way &amp;ndash; there is no magic diet, pill you can take, or one-stop solution to nutrition &amp;ndash; at least not yet. If you expect to find an easy solution, find someone trying to sell you something. The hard truth is that human nutrition is complicated, there are a lot of essential nutrients we need, and there aren&amp;rsquo;t many shortcuts to eating natural, whole food.</description>
+    </item>
+    
+    <item>
+      <title>KISS Unix is difficult to learn but makes software problems simple to deal with</title>
+      <link>https://blakeruprecht.github.io/blog/kiss-software/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/kiss-software/</guid>
+      <description>Unix philosophy This software guide tries to follow the Unix Philosophy, summarized here by Peter H. Salus in A Quarter-Century of Unix (1994).
+Write programs that do one thing and do it well. (DOTADIW) Write programs to work together. Write programs to handle text streams, because that is a universal interface. Otherwise, Keep It Simple Stupid! I&amp;rsquo;ve spent enought time frustrated at software to realize the benefits of small programs that do one thing, rather than huge programs that do many things.</description>
+    </item>
+    
+    <item>
+      <title>My memories are stored in melodies</title>
+      <link>https://blakeruprecht.github.io/blog/my-memories-in-melodies/</link>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/my-memories-are-stored-in-melodies/</guid>
+      <guid>https://blakeruprecht.github.io/blog/my-memories-in-melodies/</guid>
       <description>The greatest distance between two places is through time. When I listen to music, occasionally a song will play that instantly transports me back to a specific moment in time, filling me with vivid memories of a moment I&amp;rsquo;ll never forget. When I play through these songs, I relive moments like they just happened.
 Somewhere in the Middle One moment, it&amp;rsquo;s a hot and humid day somewhere in the middle of a damp Missouri summer.</description>
     </item>
     
     <item>
-      <title>Sitting Naked in a Snowy Field</title>
-      <link>https://blakeruprecht.github.io/blog/sitting-naked-in-a-snowy-field/</link>
+      <title>Sitting naked in a snowy field</title>
+      <link>https://blakeruprecht.github.io/blog/sitting-naked/</link>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/sitting-naked-in-a-snowy-field/</guid>
+      <guid>https://blakeruprecht.github.io/blog/sitting-naked/</guid>
       <description>The Basics I want to enjoy life as much as possible. I can guarantee that you do too. Everyone I know pretty much wants the same things out of life &amp;ndash; friendships, good food, plenty of sleep, a healthy body, a calm mind. Tons of money? Only insofar as it buys you food, a place to live, plenty of warm clothes, and some beers to share with our friends. Most of the time, we seek things outside of the basics because of what we lack.</description>
     </item>
     
     <item>
-      <title>Something I Should Say More</title>
-      <link>https://blakeruprecht.github.io/blog/something-i-should-say-more/</link>
+      <title>KISS Keep it simple sexy</title>
+      <link>https://blakeruprecht.github.io/blog/kiss-philosophy/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/kiss-philosophy/</guid>
+      <description>Simple living is natural, easy, frugal, spiritual, sustainable, economical, healthy, fun, connected, and anarchist. All of the great teachers of the world have advocated for simple living: Pooh Bear, Hobbes (not Calvin), dogs &amp;amp; cats, Baloo, all trees, Uncle Iroh, Lao Tzu, the Lorax. Simple living is sexy!
+Post Series I dive into simple living in more detail covering some essential parts of life, like:
+Nutrition Exercise Software Fun Quotes about simplicity &amp;ldquo;Keep it simple, stupid!</description>
+    </item>
+    
+    <item>
+      <title>Something I should say more</title>
+      <link>https://blakeruprecht.github.io/blog/i-love-you/</link>
       <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/something-i-should-say-more/</guid>
+      <guid>https://blakeruprecht.github.io/blog/i-love-you/</guid>
       <description>The tattoo on my achilles heel is an X. If you squint, it kind of looks like an intersection, or a crossroad. To me, this represents indecision, my biggest weakness, and the thing I regret most in life &amp;ndash; not taking action to pursue love over fear. As I sit here at another crossroad, I can&amp;rsquo;t help but think of the lyrics from the song that inspired the ink:
 I&amp;rsquo;m standing at the crossroad,</description>
     </item>
     
     <item>
-      <title>Packing Light is Easy</title>
-      <link>https://blakeruprecht.github.io/blog/packing-light-is-easy/</link>
+      <title>Packing light for world travel is easy</title>
+      <link>https://blakeruprecht.github.io/blog/packing-light/</link>
       <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/packing-light-is-easy/</guid>
+      <guid>https://blakeruprecht.github.io/blog/packing-light/</guid>
       <description>I recently completed a four month trip around Southeast Asia and Europe lasting from February through June. Prior to this, I traveled around the USA pretty extensively for some months. I&amp;rsquo;ve traveled a lot over the past few years, but this was by far the most travel I&amp;rsquo;ve ever done in a one-year period. I probably spent most of the year living out of my backpack, and I learned a lot of lessons while doing it.</description>
     </item>
     
     <item>
-      <title>How to Set Grocery Shopping PRs</title>
-      <link>https://blakeruprecht.github.io/blog/how-to-set-grocery-shopping-prs/</link>
+      <title>Sprint through the grocery store</title>
+      <link>https://blakeruprecht.github.io/blog/grocery-shopping/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/how-to-set-grocery-shopping-prs/</guid>
+      <guid>https://blakeruprecht.github.io/blog/grocery-shopping/</guid>
       <description>I went grocery shopping with my buddy recently and was totally baffled when we did the unthinkable: we backtracked. We went back to the produce section not once, but twice, making three total trips through the same section. Grocery shopping is my least favorite part of the eating experience, yet it seems to be a necessity for most people. My garden is non-existent, and my foraging skills are abysmal, so the next best option is to take my hard-earned cash into the big unwindowed box of fluorescent lighting and try to navigate the dense forest of packaged items.</description>
-    </item>
-    
-    <item>
-      <title>I Outrun My Thoughts</title>
-      <link>https://blakeruprecht.github.io/blog/i-outrun-my-thoughts/</link>
-      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/blog/i-outrun-my-thoughts/</guid>
-      <description>I’m not particularly fast, nor strong, and my physique doesn’t reflect the amount of exercise I do. And that’s okay. I get something far more important from exercise than any of those quantifiable metrics: joy.
-My rational brain tells me to exercise for health. There are numerous long-term benefits from cardio-respiratory training, resistance training, and mobility training. Improve your aerobic fitness and reduce your chance of heart disease. Improve your strength and reduce your age-related muscular decline and associated effects like fall risk.</description>
     </item>
     
     <item>
@@ -74,22 +123,12 @@ My rational brain tells me to exercise for health. There are numerous long-term 
     </item>
     
     <item>
-      <title>Brew Better Coffee</title>
-      <link>https://blakeruprecht.github.io/blog/brew-better-coffee/</link>
+      <title>Cold brew coffee is easy to brew, I don&#39;t understand why it&#39;s so expensive</title>
+      <link>https://blakeruprecht.github.io/blog/brew-coffee-cold/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/brew-better-coffee/</guid>
+      <guid>https://blakeruprecht.github.io/blog/brew-coffee-cold/</guid>
       <description>Summary of this essay Why brew yourself? How to brew well Water: 40% of the flavor Fresh beans: 40% of the flavor Freshly ground: 10% of the flavor Brewing consistency: 10% of the flavor The process References 1. Why brew yourself? Brewing coffee at home can save you quite a bit of money, while achieving the same great taste of the coffee shops. If, like me, you prefer to drink two large cups of coffee per day (equivalent to two medium cold-brews from a shop), that would cost something like $5-10 purchasing from a local coffee shop.</description>
-    </item>
-    
-    <item>
-      <title>To New AI Alignment Researchers</title>
-      <link>https://blakeruprecht.github.io/blog/to-new-ai-alignment-researchers/</link>
-      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/blog/to-new-ai-alignment-researchers/</guid>
-      <description>If I started over, here&amp;rsquo;s what I would want to get state-of-the-art right away.
-Get a computer with MacOS or some Linux distrubition (a flavor of OS) as the operating system. If you don&amp;rsquo;t know what an OS is, get a Mac (or if you just like them). Linux is great too, but you&amp;rsquo;ll have to do that side quest outside of this post. Windows is plenty workable, but also a few steps harder with every software install.</description>
     </item>
     
     <item>
