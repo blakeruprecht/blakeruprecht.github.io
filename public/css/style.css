@@ -1,23 +1,54 @@
+/* FONTS */
+@font-face {
+  font-family: Hack;
+  font-style: normal;
+  src: url(fonts/Hack-Regular.ttf);
+}
+
+@font-face {
+  font-family: SourceSerif;
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/SourceSerif4-Regular.ttf);
+}
+
+@font-face {
+  font-family: SourceSerif;
+  font-style: normal;
+  font-weight: bold;
+  src: url(fonts/SourceSerif4-Bold.ttf);
+}
+
+@font-face {
+  font-family: SourceSerif;
+  font-style: italic;
+  font-weight: normal;
+  src: url(fonts/SourceSerif4-It.ttf);
+}
+
+@font-face {
+  font-family: SourceSerif;
+  font-style: italic;
+  font-weight: bold;
+  src: url(fonts/SourceSerif4-BoldIt.ttf);
+}
+
+
+
+
 /* VARIABLES */
 :root {
   
-  /* LIGHT MODE */
-  --fg-color: #222;
+  --fg-color: #111;
   --bg-color: #fff;
   --mg-color: #555;
   --accent-color: #0864c7;
   
-  /* DARK MODE (figure out how to add a sun/moon toggle to the top right eventually)
-  --fg-color: #ddd;
-  --bg-color: #000;
-  --mg-color: #aaa;
-  --accent-color: #dd0000;
-  */
 
   /* FONTS - all the same right now */
-  --body-font: "Helvetica", sans-serif;
-  --head-font: var(--body-font);
-  --logo-font: var(--body-font);
+  --logo-font: "Hack", monospace;
+  --head-font: "Hack", monospace;
+  --body-font: "SourceSerif", serif;
 }
 
 
@@ -26,18 +57,22 @@ body {
   background-color: var(--bg-color);
   color: var(--fg-color);
   font-size: 110%;
-  line-height: 1.5;
+  line-height: 1.3;
   margin: 0 auto;
   padding-top: 1rem;
   font-family: var(--body-font);
 }
 
 a {
-  color: var(--accent-color);
+  color: var(--fg-color);
 }
 
 a:hover {
   color: var(--accent-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--head-font);
 }
 
 ul, li {
@@ -62,11 +97,16 @@ blockquote {
 
 footer {
   color: var(--mg-color);
+  font-family: var(--logo-font);
   text-align: center;
   width: 100%
   position: relative;
   bottom: 0;
   padding: 1rem;
+}
+
+footer a {
+  color: var(--mg-color);
 }
 
 img {
@@ -82,6 +122,7 @@ img {
 }
 
 .site-nav * {
+  text-decoration-color: var(--accent-color);
   list-style-type: none;
   margin-right: 1rem;
   display: inline;
@@ -90,7 +131,7 @@ img {
 
 .site-nav .logo {
   font-family: var(--logo-font);
-  color: var(--fg-color);
+  color: var(--accent-color);
   font-size: 120%;
   text-decoration: none;
 }

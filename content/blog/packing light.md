@@ -4,6 +4,7 @@ title: Packing light for world travel is easy
 description: "\"I traveled around the world for three and a half months and only brought one small backpack, and it wasn't difficult.\""
 ---
 
+![My ten-year-old 28L Patagonia Refugio](/light-backpack.jpg)
 
 I recently completed a four month trip around Southeast Asia and Europe lasting from February through June. Prior to this, I traveled around the USA pretty extensively for some months. I've traveled a lot over the past few years, but this was by far the most travel I've ever done in a one-year period. I probably spent most of the year living out of my backpack, and I learned a lot of lessons while doing it. The main one being, it's a hell of a lot simpler than what the majority of things I see on the internet claim it to be. As with most things in life, the phrase "Keep it simple, stupid" (KISS) helps a lot when determining what to bring! So much of the information that's currently out there is based on consumerism and consumption first and foremost, and actual travel wisdom sometimes doesn't even make it into the recommendations. That being said, there were some resources I found that actually inspired me, so thank you to Rob Greenfield and his earth-first minimal possessions list, Kenny Flannery from HoboLifestyle.com, and anybody else who espouses the classic wisdom of KISS and use what you have. There's already enough waste in this world, no need to buy some stupid plastic knick-knack that you won't ever really need. 
 
