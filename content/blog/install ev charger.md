@@ -1,5 +1,5 @@
 ---
-date: 2025-03-27
+date: 2024-03-27
 title: Do it yourself EV charger installation
 description: '"EV Chargers are typically installed by professionals, but if you understand the electricity requirements of the charger, you can calculate the power requirements of your own home and install it yourself."'
 ---
@@ -8,7 +8,7 @@ Charging your car at your own home is just plain convenient. You won't have to g
 ## 120 Volts versus 240 Volts
 If you don't know, all of the electricity coming into residential houses in the United States has an electric potential of 240 V. Some large electric appliances in the home like dryers, ranges, and water heaters run off 240 V, whereas all of the other electric appliances in the home run off 120 V, like refrigerators, toasters, light bulbs, and televisions. You're probably familiar with the 120 V outlet, shown on the (right) in the image below. If you've ever seen the two outlets on the left, those are the new four-prong 240 V (left) and old three-prong 240 V (middle) outlets common in houses all over the US.
 
-![](wall-outlets-USA.png)
+![Example of four-prong 240V, three-prong 240V, and 120V USA outlets](/wall-outlets-USA.png)
 
 ## Electrical Load Capacity
 Electricity comes into a house from the main power lines at 240 V. When we talk about electricity, it's important to remember that electricity is measured in two main ways: voltage and current, which when multiplied together, give you the total power output of the electricity.

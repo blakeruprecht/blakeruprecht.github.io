@@ -1,5 +1,5 @@
 ---
-date: 2024-03-22
+date: 2024-03-23
 title: Insects are a great source of nutrients
 description: '"Insects are a great source of amino acids, fatty acids, vitamins, minerals, and fiber, while also being sustainable to grow because they require less land and water. They also taste great!"'
 ---
