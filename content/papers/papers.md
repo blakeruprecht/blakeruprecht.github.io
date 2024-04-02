@@ -1,5 +1,5 @@
 +++ 
-title = "Papers" 
+title = "PAPERS" 
 menu = "main" 
 +++
 

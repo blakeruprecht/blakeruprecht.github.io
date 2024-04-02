@@ -1,46 +1,15 @@
-/* Hack Font */
-@font-face {
-  font-family: Hack;
-  font-style: normal;
-  font-weight: normal;
-  src: url(fonts/Hack-Regular.ttf);
-}
-
-@font-face {
-  font-family: Hack;
-  font-style: normal;
-  font-weight: bold;
-  src: url(fonts/Hack-Bold.ttf);
-}
-
-@font-face {
-  font-family: Hack;
-  font-style: italic;
-  font-weight: normal;
-  src: url(fonts/Hack-Italic.ttf);
-}
-
-@font-face {
-  font-family: Hack;
-  font-style: italic;
-  font-weight: bold;
-  src: url(fonts/Hack-BoldItalic.ttf);
-}
-
-
 /* VARIABLES */
 :root {
   
-  --fg-color: #4c4c4c;
+  --fg-color: #333;
   --bg-color: #fff;
-  --mg-color: #555;
   --accent-color: #F5000B;
   /*--accent-color: #0864c7;*/  
 
   /* FONTS - all the same right now */
   --logo-font: "Hack", monospace;
-  --head-font: "Hack", monospace;
-  --body-font: "Helvetica", sans-serif;
+  --head-font: "Helvetica", sans-serif;
+  --body-font: SourceSerif;
 }
 
 
@@ -49,7 +18,7 @@ body {
   background-color: var(--bg-color);
   color: var(--fg-color);
   font-family: var(--body-font);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.5;
   margin: 0 auto;
   padding-top: 1rem;
@@ -81,10 +50,6 @@ ul, li {
   margin-bottom: 0.5rem;
 }
 
-time {
-  color: var(--mg-color);
-}
-
 .content {
   margin-bottom: 0rem;
   max-width: 36rem;
@@ -93,22 +58,19 @@ time {
 }
 
 blockquote {
-  border-left: 0.25rem solid var(--accent-color);
+  border-left: 0.25rem solid #000;
   padding: 0rem 1rem;
+  font-style: italic;
 }
 
 footer {
-  color: var(--mg-color);
+  color: var(--fg-color);
   font-family: var(--logo-font);
   text-align: center;
   width: 100%
   position: relative;
   bottom: 0;
   padding: 1rem;
-}
-
-footer a {
-  color: var(--mg-color);
 }
 
 img {
@@ -129,11 +91,10 @@ img {
   list-style-type: none;
   margin-right: 1rem;
   display: inline;
-  font-family: var(--head-font);
+  font-family: var(--logo-font);
 }
 
 .site-nav .logo {
-  font-family: var(--logo-font);
   color: var(--accent-color);
   font-size: 120%;
   text-decoration: none;
@@ -142,7 +103,7 @@ img {
 .main-menu {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
 }
 
 /* LISTS */
@@ -162,55 +123,55 @@ ul.blog-list span {
   font-family: Hack;
   font-style: normal;
   font-weight: normal;
-  src: url(fonts/Hack-Regular.ttf);
+  src: url("/fonts/Hack-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Hack;
   font-style: normal;
   font-weight: bold;
-  src: url(fonts/Hack-Bold.ttf);
+  src: url("/fonts/Hack-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Hack;
   font-style: italic;
   font-weight: normal;
-  src: url(fonts/Hack-Italic.ttf);
+  src: url("/fonts/Hack-Italic.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Hack;
   font-style: italic;
   font-weight: bold;
-  src: url(fonts/Hack-BoldItalic.ttf);
+  src: url("/fonts/Hack-BoldItalic.ttf") format("truetype");
 }
 
 /* SourceSerif Font */
 @font-face {
-  font-family: SourceSerif;
+  font-family: "SourceSerif";
   font-style: normal;
   font-weight: normal;
-  src: url(fonts/SourceSerif4-Regular.ttf);
+  src: url("/fonts/SourceSerif4-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: SourceSerif;
+  font-family: "SourceSerif";
   font-style: normal;
   font-weight: bold;
-  src: url(fonts/SourceSerif4-Bold.ttf);
+  src: url("/fonts/SourceSerif4-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: SourceSerif;
+  font-family: "SourceSerif";
   font-style: italic;
   font-weight: normal;
-  src: url(fonts/SourceSerif4-It.ttf);
+  src: url("/fonts/SourceSerif4-It.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: SourceSerif;
+  font-family: "SourceSerif";
   font-style: italic;
   font-weight: bold;
-  src: url(fonts/SourceSerif4-BoldIt.ttf);
+  src: url("/fonts/SourceSerif4-BoldIt.ttf") format("truetype");
 }
