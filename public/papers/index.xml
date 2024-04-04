@@ -6,13 +6,13 @@
     <description>Recent content in Papers on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://blakeruprecht.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>PAPERS</title>
+      <title>Papers</title>
       <link>https://blakeruprecht.github.io/papers/papers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/papers/papers/</guid>
-      <description>This is all of my published work from my time as a Research Assistant before and during my stint in graduate school. I linked some PDFs as well.
-For roughly five years, I studied the AI Alignment problem and created more eXplainable (XAI) and trustworthy AI algorithms to solve this problem. It is still unsolved. My research specifically focused on developing new mathematical techniques to bridge the gap between probabilistic neural networks and symbolic human reasoning.</description>
+      <description>Previously, I was an Artificial Intelligence researcher at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.
+I was trying to make headway on the AI Alignment problem, which basically means make an AI that is safe and trustworthy. XAI is one broad set of techniques to develop AI systems that explain their reasoning using formal methods.</description>
     </item>
     
   </channel>

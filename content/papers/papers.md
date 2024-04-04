@@ -1,13 +1,13 @@
 +++ 
-title = "PAPERS" 
+title = "Papers" 
 menu = "main" 
 +++
 
-This is all of my published work from my time as a Research Assistant before and during my stint in graduate school. I linked some PDFs as well.
+Previously, I was an Artificial Intelligence researcher at the University of Missouri (MIZ-ZOU!) working with [Derek Anderson](https://derektanderson.com/) and the [Center for Geospatial Intelligence](https://engineering.missouri.edu/research/featured/center-for-geospatial-intelligence-cgi/). Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.
 
-For roughly five years, I studied the AI Alignment problem and created more eXplainable (XAI) and trustworthy AI algorithms to solve this problem. It is still unsolved. My research specifically focused on developing new mathematical techniques to bridge the gap between probabilistic neural networks and symbolic human reasoning. We investigated fuzzy logic techniques to build neuro-fuzzy algorithms that could model and reason about concepts, as well as enable humans to work in tandem (human-in-the-loop) with computers to improve the algorithms with feedback. We had multiple rejected papers and multiple accepted papers. 
+I was trying to make headway on the AI Alignment problem, which basically means make an AI that is safe and trustworthy. XAI is one broad set of techniques to develop AI systems that explain their reasoning using formal methods. For us, this meant adding a layer of fuzzy logic at the end of a Neural Network (NN) to explain the last few steps in the computation process. This technique did not explain the NN, but can be thought of as adding one layer of explanation. Eventually, maybe we add more of these layers, who knows!
 
-Feel free to reach out if you have any questions about my work, or anything related to AI, the alignment problem, explainable AI, or anything else related to cognitive science, math, science, and learning -- especially if you are a new researcher.
+Here I've listed my published work, along with a few of the PDFs of the papers. Some of my code is up on Github as free open-source software, but not all of it is. If you have any questions, feel free to reach out (contact info on my home page [here](/)).
 
 ### Masters Thesis
 - **B. Ruprecht**. "EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING". University of Missouri, 2023. [PDF](/thesis.pdf)

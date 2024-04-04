@@ -1,37 +1,36 @@
-/* VARIABLES */
+/* ########################################################## */
+/* GLOBAL VARIABLES */
 :root {
-  
-  --fg-color: #333;
+  --fg-color: #000;
+  --mg-color: #444;
   --bg-color: #fff;
   --accent-color: #F00;
-  /*--accent-color: #0864c7;*/  
-
-  /* FONTS - all the same right now */
-  --logo-font: "Hack", monospace;
+  --logo-font: "Helvetica", sans-serif;
   --head-font: "Helvetica", sans-serif;
-  --body-font: SourceSerif;
+  --body-font: SourceSerif, serif;
 }
 
 
-/* STYLE */
+/* GENERAL STYLE */
 body {
   background-color: var(--bg-color);
   color: var(--fg-color);
   font-family: var(--body-font);
   font-size: 1.1rem;
   line-height: 1.5;
-  margin: 0 auto;
-  padding-top: 1rem;
+  margin-top: 1rem;
+  padding: 0;
 }
 
 a {
-  color: var(--fg-color);
+  color: var(--mg-color);
   text-decoration-color: #000;
-  text-decoration-thickness: 0.1rem;
+  text-decoration-thickness: 2px;
 }
 
 a:hover {
   color: var(--accent-color);
+  text-decoration-color: var(--accent-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,10 +50,14 @@ ul, li {
 }
 
 .content {
-  margin-bottom: 0rem;
   max-width: 36rem;
   padding: 1rem;
   margin: 0 auto;
+}
+
+time {
+  font-style: italic;
+  color: var(--mg-color);
 }
 
 blockquote {
@@ -64,60 +67,62 @@ blockquote {
 }
 
 footer {
-  color: var(--fg-color);
+  color: var(--mg-color);
   font-family: var(--logo-font);
   text-align: center;
   width: 100%
   position: relative;
   bottom: 0;
   padding: 1rem;
+  line-height: 1rem;
 }
 
 img {
   width: 100%;
 }
 
-/* NAVIGATION */
-
-.site-nav {
-  font-size: 120%;
-  font-weight: bold;
-  float: center;
-}
+/* ################################################## */
+/* NAVBAR */
 
 .site-nav * {
-  text-decoration-color: var(--accent-color);
-  text-decoration-thickness: 0.2rem;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+  text-decoration: none;
   list-style-type: none;
-  margin-right: 1rem;
   display: inline;
-  font-family: var(--logo-font);
+  margin: 0 1rem;
 }
 
 .site-nav .logo {
-  color: var(--accent-color);
-  font-size: 120%;
-  text-decoration: none;
+  font-family: var(--logo-font);
+  font-weight: bold;
+  float: left;
 }
 
-.main-menu {
-  list-style: none;
-  margin: 0;
-  padding: 1rem;
+.site-nav .menu {
+  float: right;
+  font-family: var(--head-font);
 }
 
+/* ################################################### */
 /* LISTS */
 
 ul.blog-list {
   list-style-type: none;
   display: flex;
-  flex: 0 0 8rem;
+  color: #000;
+}
+
+ul.blog-list a {
+  font-family: var(--head-font);
+  color: var(--fg-color);
 }
 
 ul.blog-list span {
-  flex: 0 0 8rem;
+  flex: 0 0 7rem;
 }  
 
+/* #################################################### */
 /* Hack Font */
 @font-face {
   font-family: Hack;

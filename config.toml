@@ -7,6 +7,6 @@ description = "My personal website discussing open source artificial intelligenc
 [menu]
   [[menu.main]]
     identifier = "blog"
-    name = "BLOG"
+    name = "Blog"
     url = "/blog"
     weight = 10
