@@ -7,12 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>My quest for the perfect bowl of Noodle Soup</title>
+      <link>https://blakeruprecht.github.io/blog/noodle-soup/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/noodle-soup/</guid>
+      <description>Holy shit, it&amp;rsquo;s all coming together. After watching Kung Fu Panda as a kid, I&amp;rsquo;ve been craving a delicious Asian nooodle-soup dish. Instant ramen is a good solution for $1 and a heart attack, but I want something fresh, wholesome, and delicious. Before this journey, ramen never did it for me, and other dishes like Pad Thai and Lo Mein just didn&amp;rsquo;t hit the spot.
+I never liked Thai food, and I&amp;rsquo;m a serious food explorer.</description>
+    </item>
+    
+    <item>
       <title>Do it yourself EV charger installation</title>
       <link>https://blakeruprecht.github.io/blog/install-ev-charger/</link>
       <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/install-ev-charger/</guid>
-      <description>Charging your car at your own home is just plain convenient. You won&amp;rsquo;t have to go find a charger that may be blocked by other cars, or is out of your way. Of course, you can plug your car into the standard 120 Volt outlet common around most houses and businesses, but installing a 240 Volt fast charger could have your charging time at home. When a typical full charge takes 10 hours on 120 V, cutting that down to 5 hours means the difference between a full or partial charge at night.</description>
+      <description>For the record, I wouldn&amp;rsquo;t recommend you install an EV charger yourself if you have no electrical experience. It&amp;rsquo;s extremely dangerous, and if you mess up, you can very easily catch your house on fire, or worse. However, it&amp;rsquo;s cool to at least now the process in theory, and this way, you can see if your electrician is doing it properly as well.
+How much does it cost? If it was free, everyone would do it.</description>
     </item>
     
     <item>
@@ -41,7 +52,7 @@ W = |fd| f = ma (more precisely, f = (d/dt)(mv)) W = |mad| W = |(100 kgs)(10 m/s
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/ai-to-learn-python/</guid>
-      <description>Let me guess, you want to learn Python, but there is a disconnect between practicing it on your web browser and actually getting programs to run on your machine locally? Well, maybe not, but this was the case for me, and I dented the wall next to my desk with the amount of times I banged my head in frustration trying to get software to work on my computer.</description>
+      <description>I learned Python as an AI researcher, since Python is the industry standard for open-source AI software. Python isn&amp;rsquo;t particularly good at any one thing language wise, but it&amp;rsquo;s pretty much the jack-of-all-trades, can do anything language, so it&amp;rsquo;s great for prototyping algorithms that don&amp;rsquo;t make any sense. It took me forever to realize that most of what people were doing with Python wasn&amp;rsquo;t that complicated. Even though there are a million different packages to learn, each package basically does one thing, and does it well.</description>
     </item>
     
     <item>
@@ -51,7 +62,7 @@ W = |fd| f = ma (more precisely, f = (d/dt)(mv)) W = |mad| W = |(100 kgs)(10 m/s
       
       <guid>https://blakeruprecht.github.io/blog/kiss-exercise/</guid>
       <description>Check out K Boges on Youtube, he explains this exercise theory better than I possibly could. All of his videos are very short, and he gets right to the point each time. A modern day youtube hero.
-Traininc Cardio Perhaps the single most important thing to train for overall health is cardiovascular endurance, the ability of your heart and lungs to provide oxygen and energy to the entire body. There are three metabolic pathways: anaerobic, aerobic, and long-duration.</description>
+Training Cardio Perhaps the single most important thing to train for overall health is cardiovascular endurance, the ability of your heart and lungs to provide oxygen and energy to the entire body. There are three metabolic pathways: anaerobic, aerobic, and long-duration.</description>
     </item>
     
     <item>
@@ -69,8 +80,7 @@ Traininc Cardio Perhaps the single most important thing to train for overall hea
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/kiss-software/</guid>
-      <description>Unix philosophy This software guide tries to follow the Unix Philosophy, summarized here by Peter H. Salus in A Quarter-Century of Unix (1994).
-Write programs that do one thing and do it well. (DOTADIW) Write programs to work together. Write programs to handle text streams, because that is a universal interface. Otherwise, Keep It Simple Stupid! I&amp;rsquo;ve spent enought time frustrated at software to realize the benefits of small programs that do one thing, rather than huge programs that do many things.</description>
+      <description>Why bother? I come from an engineering and coding background, so take everything I say here with a grain of salt &amp;ndash; I&amp;rsquo;ve spent way too much time tinkering and fiddling with this stuff to get it all to work, but I think it&amp;rsquo;s been worth it. Why? To take back control of my stuff. In case you want to do it to, I can point you in the right direction -&amp;gt; FOSS.</description>
     </item>
     
     <item>
@@ -94,10 +104,10 @@ Somewhere in the Middle One moment, it&amp;rsquo;s a hot and humid day somewhere
     
     <item>
       <title>KISS Keep it simple sexy</title>
-      <link>https://blakeruprecht.github.io/blog/kiss-philosophy/</link>
+      <link>https://blakeruprecht.github.io/blog/kiss/</link>
       <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/kiss-philosophy/</guid>
+      <guid>https://blakeruprecht.github.io/blog/kiss/</guid>
       <description>Simple living is natural, easy, frugal, spiritual, sustainable, economical, healthy, fun, connected, and anarchist. All of the great teachers of the world have advocated for simple living: Pooh Bear, Hobbes (not Calvin), dogs &amp;amp; cats, Baloo, all trees, Uncle Iroh, Lao Tzu, the Lorax. Simple living is sexy!
 Post Series I dive into simple living in more detail covering some essential parts of life, like:
 Nutrition Exercise Software Fun Quotes about simplicity &amp;ldquo;Keep it simple, stupid!</description>
@@ -147,7 +157,7 @@ I&amp;rsquo;m standing at the crossroad,</description>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/brew-coffee-cold/</guid>
-      <description>Summary of this essay Why brew yourself? How to brew well Water: 40% of the flavor Fresh beans: 40% of the flavor Freshly ground: 10% of the flavor Brewing consistency: 10% of the flavor The process References 1. Why brew yourself? Brewing coffee at home can save you quite a bit of money, while achieving the same great taste of the coffee shops. If, like me, you prefer to drink two large cups of coffee per day (equivalent to two medium cold-brews from a shop), that would cost something like $5-10 purchasing from a local coffee shop.</description>
+      <description>Summary of this essay Why brew yourself? How to brew well Water: 40% of the flavor Fresh beans: 40% of the flavor Freshly ground: 10% of the flavor Brewing consistency: 10% of the flavor The process References Why brew yourself? I go to coffee shops and do not understand how cold brew coffee costs significantly more than hot brew. It must be down to marketing, and the fact that people who don&amp;rsquo;t give a hoot typically aren&amp;rsquo;t going to coffee shops.</description>
     </item>
     
     <item>

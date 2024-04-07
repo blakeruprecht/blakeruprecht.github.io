@@ -7,7 +7,7 @@ Previously, I was an Artificial Intelligence researcher at the University of Mis
 
 I was trying to make headway on the AI Alignment problem, which basically means make an AI that is safe and trustworthy. XAI is one broad set of techniques to develop AI systems that explain their reasoning using formal methods. For us, this meant adding a layer of fuzzy logic at the end of a Neural Network (NN) to explain the last few steps in the computation process. This technique did not explain the NN, but can be thought of as adding one layer of explanation. Eventually, maybe we add more of these layers, who knows!
 
-Here I've listed my published work, along with a few of the PDFs of the papers. Some of my code is up on Github as free open-source software, but not all of it is. If you have any questions, feel free to reach out (contact info on my home page [here](/)).
+Here I've listed my published work, along with a few of the PDFs of the papers. Some of my code is up on Github as free open-source software, but not all of it is. If you have any questions, feel free to reach out (contact info on [my home page](/)).
 
 ### Masters Thesis
 - **B. Ruprecht**. "EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING". University of Missouri, 2023. [PDF](/thesis.pdf)

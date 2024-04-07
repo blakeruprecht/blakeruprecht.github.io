@@ -7,6 +7,7 @@
   --accent-color: #F00;
   --logo-font: "Helvetica", sans-serif;
   --head-font: "Helvetica", sans-serif;
+  --code-font: "Hack", monospace;
   --body-font: SourceSerif, serif;
 }
 
@@ -24,8 +25,8 @@ body {
 
 a {
   color: var(--mg-color);
-  text-decoration-color: #000;
-  text-decoration-thickness: 2px;
+  text-decoration-color: var(--mg-color);
+  text-decoration-thickness: 1px;
 }
 
 a:hover {
@@ -35,7 +36,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--head-font);
-  color: #000;
+  color: var(--fg-color);
 }
 
 h1 { font-size: 2rem; }
@@ -56,19 +57,26 @@ ul, li {
 }
 
 time {
+  font-family: var(--code-font);
   font-style: italic;
   color: var(--mg-color);
 }
 
+code {
+  font-family: "Hack", monospace;
+  color: var(--mg-color);
+  background: #eee;
+}
+
 blockquote {
-  border-left: 0.25rem solid #000;
+  border-left: 0.25rem solid var(--mg-color);
   padding: 0rem 1rem;
   font-style: italic;
 }
 
 footer {
   color: var(--mg-color);
-  font-family: var(--logo-font);
+  font-family: var(--code-font);
   text-align: center;
   width: 100%
   position: relative;
@@ -118,8 +126,12 @@ ul.blog-list a {
   color: var(--fg-color);
 }
 
+ul.blog-list a:hover{
+  color: var(--accent-color);
+}
+
 ul.blog-list span {
-  flex: 0 0 7rem;
+  flex: 0 0 8rem;
 }  
 
 /* #################################################### */

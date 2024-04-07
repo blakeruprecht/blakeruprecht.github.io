@@ -3,61 +3,84 @@ date: 2023-11-20
 title: KISS Unix is difficult to learn but makes software problems simple to deal with
 description: '"The Unix philosophy of computer software is difficult to learn, but once you do, the rewards are well worth it because it makes using a computer much simpler."'
 ---
-
+ 
 ![Screenshot of my Linux env running DWM](/linux-setup.png)
 
+## Why bother?
+I come from an engineering and coding background, so take everything I say here with a grain of salt -- I've spent *way* too much time tinkering and fiddling with this stuff to get it all to work, but I think it's been worth it. Why? To take back control of my stuff. In case you want to do it to, I can point you in the right direction -> FOSS. Let me explain.
+
+*The Social Dilemna* is a great documentary summing up the path the internet has taken the past two-decades. It went from a place built by nerds, for nerds, to a place now mostly run by large corporations harvesting our collective attention for profit. This is great for the companies, but devastating for the average person. I don't believe that the average person benefits from social media and the internet at large. It's turned into a distraction economy that profits from keeping people as engaged as possible, tuned into crap. The television's distracting powers have been amplified tenfold, since the computer now rests in everyone's pockets, just a click away from insane content.
+
+There's a solution besides abstension -- and don't get me wrong, I think the Mennonites are doing much better with modern technology than the majority of western society because they have intentionally chosen to reject most modern computing in favor of maintaining their local communities.
+
+Free and Open Source Software (FOSS) is software distributed by one or multiple people entirely for free, with all of the source code readily available for anyone to look at, and propose changes to, or change themselves. It's yours to do what you want with. If you buy a new laptop or phone today, chances are it runs a proprietary operating system like Windows/MacOS/Android/iOS. These are all good operating systems from a technical standpoint, but they are closed source and cost money. But wait, doesn't every product cost money?
+
+Not in the software world. I know, it's weird. Back in 1983 a wacky programmer named Richard Stallman set out to create an entire computing environment and make it free for every one to obtain and modify, called GNU (Gnu's Not Unix). In 1991, Linus Torvalds wrote the Linux kernel, and ever since, we've had the totally FOSS combination of GNU and Linux to provide free software to the world.
+
+Since then, GNU & Linux have been an integral part of coding culture. Free software isn't just the cheap alternative to good paid software, it's actually better in many scenarios. Open-source means more eyes are looking at the code, finding bugs, and improving it. Linux is a much safer operating system than Windows for this reason. Most of the tools work exceptionally well because they've been refined by thousands of people over the course of decades. The wheel hasn't been reinvented over and over by private companies, it's just been made rounder by thousands of people.
+
+FOSS has been an integral part of coding culture. Many programmers willingly choose to give away their work. Often done as a way to gain influence and following, build resumes, and just contribute cool stuff to the wider community, it's an anomaly in the modern world that I rarely see elsewhere. The FOSS spirit is stronger in some than others, but most programmers use free & open-source software in parts of their workflow. Even those who develop on Mac (closed source) computers often use VS Code (a FOSS text editor distributed by Microsoft of all people). 
+
 ## Unix philosophy
-This software guide tries to follow the Unix Philosophy, summarized here by Peter H. Salus in *A Quarter-Century of Unix* (1994).
+GNU, Linux, and most Free & Open-source Software follows the Unix philosophy, summarized here by Peter H. Salus in *A Quarter-Century of Unix* (1994).
 1. Write programs that do one thing and do it well. (DOTADIW)
 2. Write programs to work together.
 3. Write programs to handle text streams, because that is a universal interface.
-
-Otherwise, Keep It Simple Stupid! I've spent enought time frustrated at software to realize the benefits of small programs that do one thing, rather than huge programs that do many things. Computers are really complex and hard to work with, so breaking up programs into modular parts makes a lot of sense to me, but I have a lot of software knowledge. Don't get me wrong, Windows and Mac are great OS's as well, but they are not free and open source, so I do not support them. Plus, they won't let me remove programs I don't need, which I find annoying. Bloat!
-
-The other important consideration for software is the Attention (Distraction, really) Economy. Watch *The Social Dilemna*, or just open your eyes to see that the internet is unregulated, and destroying valuable parts of our minds and society as a whole. One way to maintain the benefits of software without all of the bad parts is to do as many computing tasks offline as possible, and remember that anything done over the internet is sketchy/suspect.
-
 ## My Software List
-In order of install, this is all of the software I currently use on my laptop.
-- Operating System: LINUX (specifically DEBIAN 12)
+In order of install, this is all of the major software I currently use on my laptop. I have not included the countless packages that are installed concurrently with these programs as necessary binaries and utilities, since I don't know what the heck those are. For reference, I have hardly anything installed on my laptop (seriously, less than 1GB of software), and still have around 1000 software packages.
+
+In order of install:
+- Operating System: LINUX, barebones DEBIAN 12 distribution
 - Window System: XORG
-- Window Manager: SUCKLESS/DWM
+- Window Manager: DWM
+- Terminal Emulator: ST
 - Statusbar: .xinitrc script with "xsetroot" variable
-- Terminal Emulator: SUCKLESS/ST
 - Shell Language: BASH
-- Text Editor: NANO
+- Text Editor: NANO and NEOVIM (Still learning vim)
+- File Browser: none (I just use cd/ls/mv unix utilities)
 - Image Viewer: FEH
-- File Viewer: ZATHURA
-- File Browser: none (just use cd/ls)
-- Markup Language: MARKDOWN (compiled into HTML using HUGO)
-- Scripting Language: PYTHON
-- Website Language: GO (for using with HUGO)
-- Design Language: CSS (used with HUGO)
-- Web Browser: MOZILLA FIREFOX (just trying to use a non-chromium one, will probably switch later)
+- Video Viewer: MPV
+- PDF/EPUB Viewer: ZATHURA
+- Scripting Language: PYTHON (My main language for all things coding)
+- Markup Language: MARKDOWN
+- Markdown Editor: OBSIDIAN (I use it just as a text editor)
+- Website Language: GO (HUGO compiles Markdown into HTML)
+- Design Language: CSS (used for Obsidian and Hugo)
+- Web Browser: MOZILLA FIREFOX (this is the only alternative to Chromium (FOSS) browsers, trying to keep it alive)
 
 ## Installation
-1. Install an operating system (Linux, the Debian 12 distribution)
-	1. Download the Linux .iso for your system (mine is a Dell XPS 13 9370). You'll need a working computer to create a bootable flash drive, and it changes depending on what system you have, so DuckDuckGo it, or email me and I'll be happy to help you with specifics.
-	2. Change BIOS settings to enable booting from flash drive. This is highly dependent on what BIOS version you have from the factory, so look it up for your specific computer. Yes, these first few steps are by far the hardest because they change depending on the machine you have. I had to enable booting from flash drive, and then change the boot order since my laptop came with windows (I since deleted windows, you don't have to, dual-booting is a great option if you just want to test out Linux).
-	3. Plug in flash drive and follow the Debian installer (if you're on a different distro, follow their instructions). Keep all basic options, they are fine. Don't install any extra software at the end except for "standard system utilites". A desktop environment is not needed and comes with a lot of bloat, but if you're used to MacOS or Windows, keep GNOME or something.
-	4. This step is finished when you can turn on your PC and it does the funny startup stuff until you get to a simple black terminal with "debian login: " and you put in your username and password. After this, it just says "username@hostname" (for me, blake@deb, I named both) in the top left corner of a terminal. Simple, no extra crap, perfect.
-2. Once a clean version of Linux is on your system with no extra bloat, you have a working computer. I didn't want to live in the tty (the default terminal that comes with the OS), so I installed a window system (xorg and dependent packages) using `sudo apt install xorg`.
-3. I installed xorg so that I could install a window manager. I chose dwm from dwm.suckless.org, a lightweight window manager written in C. I chose this because it is small and simple with no stupid features. I git cloned the repo straight from that website, and ran "sudo make clean install" to install the window manager. Then, create the file ".xinitrc" in your home directory (typically ``~`` or ``/home/username``) with the line ``exec dwm`` at the end (or start since it's a new file). Then, run ``startx`` in the tty, and you should see dwm pop up.
-4. I also installed st and dmenu from suckless.org to have a terminal and menu launcher. These were easy, same process, ``sudo make clean install``. After this, your system is good to go. I patched my dwm and st installs with the following patches:
-	1. dwm: "alttagsdecoration", "alwayscenter", "truecenteredtitle", "underlinetags", and "uselessgap" 
-	2. st: "font2"
-5. The rest of the time was spent editing my dwm and st "config.h" files to make the windows look how I wanted, mainly by adding black backgrounds, white borders, and customizing little things here and there.
-6. To set a wallpaper, ``sudo apt install feh``, the use ``feh --bg-fill wallpaper_name.jpg`` to apply your wallpaper, then add ``~/.fehbg &`` to your .xinitrc to run feh everytime you startx. Change the wallpaper at any time by using the ``feh bg-fill new_wall.jpg`` command.
-7. Install the Obsidian AppImage and figure out to run it on your machine. I won't do this again, and will switch to QOwnNotes or NeoVim to edit Markdown files in the future, since I don't need backlinking in Obsidian. I do like the minimal UI though. I don't use graph view or any other plugins. Obsidian supports wikilinks in the style `[[File_Name]]` as well as `[File_Name](File_Name.md)`
-8. Install hugo and git clone your website from github/gitlab or make a new one. This is how I choose to build a website, it's pretty straightforward if you follow the tutorial on Hugo's website and build a Github Pages site. I will eventually switch to a custom HTML/CSS/JS website once I get around to learning JavaScript, but that's not today.
-9. Connect to WiFi. Yes, seriously, there is no default way to do this in dwm (that I know of). Debian setup established my original home WiFi connection. To check if your system recognizes your WiFi card, type `lspci | grep Network`, then type `sudo ip link` to check its status. Add more WiFi ssid/psk pairs to the `/etc/wpa_supplicant/wpa_supplicant.conf` file in order of preference. Your laptop will automatically connect to the first network it can find. Yes, kinda janky, but it works, and I have internet now.
+Installing Debian, DWM, and ST are really the only tricky things to do here, once you have those, installing all of the other programs is as easy as `sudo apt install neovim`. If you need help with any of this, please email me, I'm happy to help set you free!
+
+**Install Debian 12**
+1. Download the Debian .iso from Debian's website for your computer architecture. You need to put this .iso file on a flash drive, but the trick here is you have to make it "bootable", which means you can plug it into a computer and the computer recognizes that the flash drive has an operating system on it.
+	1. I followed the [Ubuntu Tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) to create a bootable flash drive using Balena Etcher. Of course, I downloaded the Debian .iso rather than the Ubuntu .iso, but the process is the same for either. Ubuntu is a fork of the Debian project with a bunch of extra crap included that I would just delete anyways, so I went with Debian because it has an installer and allows you to install nothing besides the OS (similar to Arch, which is another good option, but more labor intensive during install. The big difference is choosing between the "pacman" rolling-release package manager (bleeding edge, more likely to fail) and the "apt" stable debian package manager (fewer updates, more, well, stable)).
+2. If your computer already has another OS installed (mine had windows), you'll have to go into your BIOS settings and fiddle with some stuff. This is a very tricky part of the process, and unique to every computer, so you'll probably have to look up "Boot from flash drive on Dell XPS 9370" (that's what I did). I had to enable booting from flash drive, and then change the default boot order to boot from flash drive before booting from windows.
+3. Once I got the computer to actually boot from the flash drive, the rest of the Debian install is a piece of cake -- just follow the installer instructions. Make your passwords, don't install GNOME or any other crappy software, and wipe Windows from your hard drive for good! Woohoo! At the end of this process, you should be able to log into Debian using your credentials (username and password), and then it goes to a totally black screen with something like `blake@debian $` in the top left. This is now a fully functional computer, you can do anything you need on it. This almost blank screen is called the "tty", the default terminal emulator on a Linux system. Every time you start the computer, you'll enter the tty, log in with your username and password, and then run the "startx" command to start your X window system which uses DWM to draw windows on the screen (you see where Windows OS got it's name?). We don't have X or DWM yet, so follow the next step.
+
+**Install DWM & ST**
+NOTE: You'll have to learn how to operate dwm, st, and dmenu, which are mostly keyboard driven. Don't be afraid, it's pretty simple once you get the hang of it.
+1. Okay, you probably want it to look pretty, which means we need to install a Window Manager to enable the computer to draw little boxes on the screen, like a box for your text editor, terminal, or web browser. Cool, to do this, first install Xorg window system by running `sudo apt install xorg`. Easy as pie.
+2. Then, install dwm from dwm.suckless.org by running `git clone https://git.suckless.org/dwm`. If you need to install git first, run `sudo apt install git`. This will clone the dwm folder into `~/dwm` on your computer. Add the line `exec dwm` into your .xinitrc file. If you don't have one, run `nano ~/.xinitrc` to create and open the file in nano, then add the exec dwm line to the top of the file. Close the file. Now you can run `startx`, and it should run the dwm window manager.
+3. You could have done this at the same time as the first git clone, but now run `git clone https://git.suckless.org/st` to install a terminal emulator and `git clone https://git.suckless.org/dmenu` to install a menu thingy to launch firefox and other apps (I literally only use it for firefox). I used ChatGPT to help me patch dwm and st, which is a bit of a tricky process if you're not used to C. If you're having trouble figuring out to patch dwm/st like I did (there are seriously no tutorials online), email me.
+	1. dwm pathces: "alttagsdecoration", "alwayscenter", "truecenteredtitle", "underlinetags", "uselessgap"
+	2. st patches: "font2"
+	3. dmenu patches: none
+4. I spent a lot of time editing the "config.h" files for dwm and st to make them pretty (aka making it all black and white).
+
+**Install Everything Else**
+1. Install a web browser using `sudo apt install firefox`. 
+2. `sudo apt install feh`, then add `~/.fehbg` to your .xinitrc file, then run `feh --bg-fill wallpaper_name.jpg` using whatever jpg or png you've donwloaded from the internet to set your wallpaper. Yeah, not super simple.
+3. `sudo apt install neovim, mpv, zathura, hugo` and whatever other pieces of software you need.
+4. I created the statusbar in the top right of my screen to display the time and my current battery percentage, the only two things I care about using a little script in my .xinitrc file that utilizes the "xsetroot" variable. Ask ChatGPT how to do this.
+5. You connected to your default WiFi during Debian install, but if you ever want to go anywhere else and use WiFi, it's a little tricky on Debian. Sure, you can install some program to manage wifi for you, but I'm too lazy, so I just add new SSIDs and passwords to the `/etc/wpa_supplicant/wpa_supplicant.conf` file and restart my computer every time I switch wifi networks. Elegant? No. Easy? Yes. Use `lspci | grep Network` to make sure Debian recognizes your laptop's wifi card, if it doesn't, GGs laptop. `sudo ip link` or `ping google.com` is a good way to check if your internet is working.
+
+**Congrats, you're a computer scientist now!**
+Okay, not technically, but if you can go through all of these steps and fill in the gaps that I didn't explain, you'll easily be as skilled as me at Linux. The trickiest part of following software tutorials is nobody ever explains every single step, so please email me if you need help and I'll expand this page to cover everything, it's just hard to remember since I'm writing this after the fact.
 
 ## Next Steps
 Following the info from [Luke Smith](https://lukesmith.xyz/programs/)
-- [ ] neovim for text editing
-- [ ] mpd w/ncmpcpp for audio library
-- [ ] mpv for audio/video playback
+- [ ] mpd w/ncmpcpp for audio/music library
 - [ ] neomutt for offline email
 - [ ] newsboat for rss feeds
 - [ ] ffmpeg for video/audio recording
-- [ ] sxiv for image viewing
 - [ ] gimp for image editing

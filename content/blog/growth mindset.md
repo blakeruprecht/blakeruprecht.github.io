@@ -34,6 +34,17 @@ Stop beating yourself up. You're not perfect. Engage in *positive self-talk*, wh
 ## 4. Embrace stress
 The final part of growth mindset, a difficult addition, is the view that "stress is enhancing". Discomfort during effort means that your brain is experiencing neuroplasticity, which literally means your brain will grow and get better. The stressful emotions show that your effort is *paying off*. So instead of quitting anything that feels stressful, remember that stress is proof that you are improving.
 
+There are some great techniques to embrace and deal with stress in the moment to keep moving forward, many gleaned from the Navy SEALs.
+
+- **Breathwork** allows us to control our mental state using physical tricks. We can hack our brains to reduce anxiety and calm ourselves down by doing breathing techniques like *deep physiological sighs*, which are shown to be just as effective as meditation for calming down the mind.
+- **Visualization** is a great way to generate instant motivation by vividly visualizing where you want to get there, and then contrasting it with where you are now. This mental contrasting should generate motivation to take action to improve.
+- **Positive self-talk** is crucial. What we tell our selves often becomes our reality. If you say you will fail, it's pretty damn hard to succeed. I see it time and time again, it's almost like that crazy attitude of confidence is part of the trick to winning at stuff. It's the American meme, but there's a reason Americans are so good at doing crazy stuff -- we win the mental battle of self-talk. Every negative can be reframed as a lesson. Don't quit on yourself. Find the love in what you're doing to do it properly, or don't waste time doing it.
+- **Micro-goals** are a great trick to keep moving forward. Instead of looking at the big picture, break your goals down into the smallest possible chunks to focus only on what's right in front of you.
+
+
 ---
 ## References
-- I got all of this information from Stanford Neuroscience Professor *Andrew Huberman*. If you haven't heard of him, he makes fantastic podcasts where he interviews other top tier researchers about their research and insights, providing actionable tools to live better. Covering topics like sleep, sunlight, and exercise, they're mostly practical, though don't take it too seriously, otherwise you may find yourself over-optimizing your life.
+- Navy SEALs define the big four of handling stress: breathwork, visualization, positive self talk, and micro goals.
+- Jigoro Kano, the founder of Judo, requested that he be buried in his white-belt, as a way to signify that he was not done learning, and ready to enter the next life, whatever that may be, with a beginner's mindset.
+- Brene Brown says vulnerability is the highest form of courage.
+- Hindu wisdom advocates for dealing with emotions *in order*: starting by facing your fear, and choosing to act when you want to. Next, address shame, and channel your energy into creative outlets rather than addictions. Next, teach your mind to overcome impulse by accomplishing small wins.

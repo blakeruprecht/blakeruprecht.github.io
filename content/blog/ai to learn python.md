@@ -5,6 +5,62 @@ description: '"In this essay I take readers on a journey from Noob to Python mas
 ---
 ![The python logo is cool](/python-logo.png)
 
+
+
+
+I learned Python as an AI researcher, since Python is the industry standard for open-source AI software. Python isn't particularly good at any one thing language wise, but it's pretty much the jack-of-all-trades, can do anything language, so it's great for prototyping algorithms that don't make any sense. It took me forever to realize that most of what people were doing with Python wasn't that complicated. Even though there are a million different packages to learn, each package basically does one thing, and does it well.
+
+A huge misconception I had was that I had to "learn" Pandas, and Numpy, and Matplotlib. Not really. I'll teach you those three packages real quick.
+
+## Install Python
+First, you have to install Python onto your computer. If you're running a Linux OS, you'll already have Python. 
+
+## Learn Python
+Of course, you'll have to learn the basic syntax of Python. My best recommendation is to find some cheat sheets on the internet and reference those until the syntax becomes second nature. I've written a ton of Python and I still occasionally forget where to put colons and the specific words for less-used functions. It's programming, you don't have to memorize it all, you have a computer at your disposal.
+
+As for the packages, I thought for a long time that I would have to spend months trying to learn each one, but they're not that complicated. Each package basically does one thing, and there's not that much you have to learn for each one. I'll go over a few packages to show you what I mean.
+
+**PANDAS** is a package that "provides fast, flexible, and expressive data structures designed to make working with relational and labeled data both easy and intuitive." In laymans terms, you use pandas to import a data file, for example a .csv taken from a spreadsheet, and turn it into a "data frame". It does some fancy stuff like clean and organize data too, but it mostly is just used to import the data into your python script so you can use numpy and matplotlib on the data. Here's an example:
+
+``import pandas as pd``
+``df1 = pd.read_csv("my_file.csv")``
+``mydata = { 'red': [1, 2, 5], 'blue': [9, 4, 1] }
+``df2 = pd.DataFrame(mydata)``
+
+Comments
+- Everyone imports pandas as "pd", it seems to be a specific trait of coders to be as lazy as possible and I love it.
+- ``df1`` is just a variable name, because lazy, you can call it whatever you want
+- Here we use the ``read_csv()`` function to load in our file. This is the bread and butter of pandas. Whatever your Python script is called, e.g. ``test_pandas.py``, make sure that python script is in the same folder as ``my_file.csv``. If it's not, you can tell python the absolute file path of ``my_file.csv`` instead, for example ``df = pd.read_csv("/home/blake/Downloads/my_file.csv")``. Getting the file path correct is essential so Python can actually find the file you want to use.
+- Here, I create a dictionary of arrays, just to show that Python dictionaries can be turned into DataFrames. I would recommend just getting comfortable with dicts & arrays, but PD is helpful too.
+
+**NUMPY** is the numerical package for Python. Numpy is pretty much just used for working with numerical arrays. Instead of using the built-in python arrays, we use Numpy because it's way faster. This is where we really get to see that Python was not built for numeric computing, since Numpy is a massive headache of parentheses and brackets. Coming from MATLAB, I was pissed learning this, and there's really no good solution. It's just a bummer that Python doesn't handle array data natively, but maybe it's a good thing and I just don't know why yet.
+
+``import numpy as np``
+``arr_0d = np.array( 42 )``
+``arr_1d = np.array( [1, 2] )``
+``arr_2d = np.array( [5, 6, 7], [8, 9, 10] )
+``print(arr_1d[0])`` -> "[1,2]"
+``print(arr_2d[1])`` -> "[8,9,10]"
+``print(arr_2d[1][0])`` -> "8"
+
+
+- Again, import using an alias because lazy.
+- First we create a 0-dimension array, otherwise known as a scalar. Should it really be a 1-d array? No. That's the next one.
+- Here we create a 1-d array (only x-axis) from a Python array.
+- Now a 2-d array, made from two lists
+
+
+
+
+## Make a Project
+
+
+
+
+
+
+
+
 Let me guess, you want to learn Python, but there is a disconnect between practicing it on your web browser and actually getting programs to run on your machine locally? Well, maybe not, but this was the case for me, and I dented the wall next to my desk with the amount of times I banged my head in frustration trying to get software to work on my computer.
 
 I started my Python journey as a mechanical engineering student with lots of math and some coding knowledge, or so I thought. Things were still pretty rough in the beginning, to say the least. Who knew how complicated computers were? No wonder there's an entire major dedicated to them. I had some previous Matlab coding experience, but this barely scratched the surface of what I would need to learn to get up to speed with AI developments. Everything I found and read online seemed to be tailored towards people with bachelor's degrees in CS already. I wished there was something to explain everything to me simply, so I'm writing that now. You can get pretty far in AI without knowing any math, but you can't really get anywhere without knowing coding, and specifically, knowing Python. Here's what you need to know, from five long years of banging my head against a wall trying to figure all of this stuff out.

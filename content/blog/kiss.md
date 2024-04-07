@@ -32,9 +32,9 @@ I dive into simple living in more detail covering some essential parts of life, 
 
 > *"~~Simplify~~, ~~simplify~~, simplify."* -Steve Jobs
 
-> *"Expansion means complexity and complexity, decay; or to put it even more plainly—the mo
-re complex, the sooner dead."* -Northcote Parkinson
+> *"Expansion means complexity and complexity, decay; or to put it even more plainly—the more complex, the sooner dead."* -Northcote Parkinson
 
+> "*Beautiful things don't ask for attention*." -Walter Mitty, *The Secret Life of Walter Mitty*
 ---
 ## REFERENCES
 - Dogs. Look at them. They lick their balls in public. They pee wherever they want. The enjoy the hell out of some loafing and loping. They let their emotions go, not dwelling on the past or future. The philosophy of Cynicism is named after them (Ancient Greek *kynikos* meant dog).
