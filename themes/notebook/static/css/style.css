@@ -1,14 +1,14 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #000;
-  --mg-color: #555;
+  --fg-color: #111;
+  --mg-color: #666;
   --bg-color: #fff;
-  --accent-color: #F00;
+  --accent-color: #22bb22;
   --logo-font: "Helvetica", sans-serif;
   --head-font: "Helvetica", sans-serif;
   --code-font: "Hack", monospace;
-  --body-font: SourceSerif, serif;
+  --body-font: SourceSerif, Georgia, Cambria, "Times New Roman", serif;
 }
 
 
@@ -25,13 +25,14 @@ body {
 
 a {
   color: var(--mg-color);
-  text-decoration-color: var(--mg-color);
-  text-decoration-thickness: 1px;
+  text-decoration-color: var(--accent-color);
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
 }
 
 a:hover {
   color: var(--accent-color);
-  text-decoration-color: var(--accent-color);
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,7 +52,7 @@ ul, li {
 }
 
 .content {
-  max-width: 36rem;
+  max-width: 34rem;
   padding: 1rem;
   margin: 0 auto;
 }
@@ -64,8 +65,8 @@ time {
 
 code {
   font-family: "Hack", monospace;
-  color: var(--mg-color);
-  background: #eee;
+  color: var(--accent-color);
+  background: #222;
 }
 
 blockquote {
@@ -118,7 +119,9 @@ img {
 ul.blog-list {
   list-style-type: none;
   display: flex;
-  color: #000;
+  color: #0f0;
+  font-size: 1.2em;
+  width: 36rem;
 }
 
 ul.blog-list a {
@@ -131,7 +134,7 @@ ul.blog-list a:hover{
 }
 
 ul.blog-list span {
-  flex: 0 0 8rem;
+  flex: 0 0 9.5rem;
 }  
 
 /* #################################################### */

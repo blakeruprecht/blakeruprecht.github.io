@@ -171,11 +171,11 @@ It seems so impossible before it happens. You see it approaching. You see all of
     </item>
     
     <item>
-      <title>Papers</title>
-      <link>https://blakeruprecht.github.io/papers/papers/</link>
+      <title>Research</title>
+      <link>https://blakeruprecht.github.io/research/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/papers/papers/</guid>
+      <guid>https://blakeruprecht.github.io/research/research/</guid>
       <description>Previously, I was an Artificial Intelligence researcher at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.
 I was trying to make headway on the AI Alignment problem, which basically means make an AI that is safe and trustworthy. XAI is one broad set of techniques to develop AI systems that explain their reasoning using formal methods.</description>
     </item>
