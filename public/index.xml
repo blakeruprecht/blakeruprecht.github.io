@@ -176,8 +176,8 @@ It seems so impossible before it happens. You see it approaching. You see all of
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/research/research/</guid>
-      <description>Previously, I was an Artificial Intelligence researcher at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.
-I was trying to make headway on the AI Alignment problem, which basically means make an AI that is safe and trustworthy. XAI is one broad set of techniques to develop AI systems that explain their reasoning using formal methods.</description>
+      <description>Previously, I was an Artificial Intelligence research assistant at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.
+I researched the AI Alignment problem, which is in the same category as AI safety research, risk research, etc., alignment is the modern term used to describe developing artificial intelligences that have the same goals as humans and are trustworthy and safe to use.</description>
     </item>
     
   </channel>
