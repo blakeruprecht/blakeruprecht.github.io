@@ -13,9 +13,12 @@ Facts:
 - Batted .625 in major league research
 - Once offered demigod status, refused it for the mortality
 
+## About this website
+I built this site using Hugo (a static-site generator) and Github Pages (a free website host). I built my own theme using HTML/CSS to learn the basics of web design and more importantly, SEO optimization. So far, this site is blazing fast (~1s load times), mobile enabled, accessible, technically optimized for search, and on-page optimized for search. The next step is keyword research to create useful content and eventually build links to be 100% SEO.
+
+
 ## Contact
 Email me at BlakeCRuprecht[at]gmail[dot]com to chat, or find me on the socials below.
-
 
 
 
