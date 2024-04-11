@@ -20,9 +20,9 @@ Here, I've listed the references to my published work. If you have any questions
 
 - **B. Ruprecht**, D. T. Anderson, F. Petry, J. M. Keller, C. Michael, A. Buck, G. Scott, C. Davis, "Concept Learning Based on Human Interaction and Explainable AI," SPIE 2021. [PDF](/spie_2021.pdf)
 
-- **B. Ruprecht**, W. Wu, M. Islam, D. T. Anderson, J. Keller, G. Scott, C. Davis, F. Petry, P. Elmore, K. Nock, E. Gilmour, “Possibilistic Clustering Enabled Neuro Fuzzy Logic,” WCCI 2020. [PDF](/wcci_2020.pdf). [CODE](https://github.com/blakeruprecht/ANFIS-SP1M).
+- **B. Ruprecht**, W. Wu, M. Islam, D. T. Anderson, J. Keller, G. Scott, C. Davis, F. Petry, P. Elmore, K. Nock, E. Gilmour, “Possibilistic Clustering Enabled Neuro Fuzzy Logic,” WCCI 2020. [PDF](/wcci_2020.pdf). [code](https://github.com/blakeruprecht/ANFIS-SP1M).
 
-- **B. Ruprecht**, C. Veal, A. Cannaday, D. T. Anderson, F. Petry, J. Keller, G. Scott, C. Davis, C. Norsworthy, P. Elmore, K. Nock, E. Gilmour, “Neuro-fuzzy logic for parts-based reasoning about complex scenes in remotely sensed data”, SPIE 2020. [PDF](/spie_2020.pdf). [CODE](https://github.com/blakeruprecht/Fuzzy-Fusion).
+- **B. Ruprecht**, C. Veal, A. Cannaday, D. T. Anderson, F. Petry, J. Keller, G. Scott, C. Davis, C. Norsworthy, P. Elmore, K. Nock, E. Gilmour, “Neuro-fuzzy logic for parts-based reasoning about complex scenes in remotely sensed data”, SPIE 2020. [PDF](/spie_2020.pdf). [code](https://github.com/blakeruprecht/Fuzzy-Fusion).
 
 ### Poster Presentations
 - **B. Ruprecht**, C. Veal, B. Murray, M.A. Islam, D.T. Anderson, F. Petry, J. Keller, G. Scott, and C. Davis, "Fuzzy Logic-Based Fusion of Deep Learners in Remote Sensing," FuzzIEEE 2019.
