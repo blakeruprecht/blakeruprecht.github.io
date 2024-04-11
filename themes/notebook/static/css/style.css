@@ -1,7 +1,7 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #111;
+  --fg-color: #333;
   --mg-color: #666;
   --bg-color: #fff;
   --accent-color: #22bb22;
@@ -24,8 +24,8 @@ body {
 }
 
 a {
-  color: var(--mg-color);
-  text-decoration-color: var(--accent-color);
+  color: var(--fg-color);
+  text-decoration-color: #000;
   text-underline-offset: 5px;
   text-decoration-thickness: 2px;
 }

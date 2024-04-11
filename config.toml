@@ -2,7 +2,7 @@
 baseURL = "https://blakeruprecht.github.io"
 title = "Blake Ruprecht"
 theme = "notebook"
-description = "My personal website discussing open source artificial intelligence, deep ecology, and simple living."
+enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
