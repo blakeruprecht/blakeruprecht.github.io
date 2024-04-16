@@ -11,7 +11,7 @@ Facts:
 - Bogey disc golf player (shot below par once though)
 - Ate the spiciest chip in the world and didn't even cry
 - Batted .625 in major league research
-- Once offered demigod status, refused it for the mortality
+- Mortal
 
 ## About this website
 I built this site using Hugo (a static-site generator) and Github Pages (a free website host). I built my own theme using HTML/CSS to learn the basics of web design and more importantly, SEO optimization. So far, this site is blazing fast (~1s load times), mobile enabled, accessible, technically optimized for search, and on-page optimized for search. The next step is keyword research to create useful content and eventually build links to be 100% SEO.

@@ -1,7 +1,7 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #333;
+  --fg-color: #666;
   --mg-color: #696969;
   --bg-color: #fff;
   --accent-color: #f00;
@@ -37,7 +37,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--head-font);
-  color: var(--fg-color);
+  color: #222;
 }
 
 h1 { font-size: 2rem; }
