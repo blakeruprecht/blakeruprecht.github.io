@@ -1,7 +1,7 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #666;
+  --fg-color: #333;
   --mg-color: #696969;
   --bg-color: #fff;
   --accent-color: #f00;
@@ -86,6 +86,11 @@ footer {
   line-height: 1rem;
 }
 
+footer a {
+  color: var(--mg-color);
+  text-decoration-color: var(--mg-color);
+}
+
 img {
   width: 100%;
 }
@@ -127,7 +132,8 @@ ul.blog-list {
 
 ul.blog-list a {
   font-family: var(--head-font);
-  color: var(--fg-color);
+  color: #000;
+  text-decoration: none;
 }
 
 ul.blog-list a:hover{
