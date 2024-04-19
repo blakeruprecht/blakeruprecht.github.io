@@ -26,8 +26,11 @@ My favorite art forms are black-ink drawings and woodworking. Here are a few of 
 ![A doodle of a ship](/drawing-ship.jpg)
 ^ "There are good ships and wood ships, ships that sail the sea, but the best ships are friendships, may they always be!"
 
+![CAD drawing of a RC helicopter](/drawing-helicopter.jpg)
+^ Okay, a computer-aided drawing, but it looks dope.
+
 ---
-## Redecorating my college bedroom
+## Sharpie on the Walls 
 I always used to get waves of creativity during finals week in college. This time, me and two of my best friends broke out some sharpies and redecorated my room. I needed some artwork and posters.
 
 ![Doodles on my college bedroom wall](/drawing-frat-walls.jpg)
