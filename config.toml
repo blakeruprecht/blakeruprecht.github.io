@@ -10,3 +10,7 @@ enableRobotsTXT = true
     name = "Blog"
     url = "/blog"
     weight = 10
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-3TL1K0T2Y4'
