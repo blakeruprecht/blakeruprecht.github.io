@@ -1,7 +1,7 @@
 ---
-title: ""
+title: "About me"
 date: 2023-07-24T15:29:23-04:00
-description: "Blake Ruprecht's personal website. Here, I blog about topics that I find interesting, test website development, and link my academic research."
+description: "Blake Ruprecht's personal website. Here, I write about topics that I find interesting like artificial intelligence, test website development and marketing, link my academic research, and display some of my black ink drawings and woodworking."
 ---
 
 # About me
