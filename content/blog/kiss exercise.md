@@ -1,6 +1,6 @@
 ---
 date: 2024-03-17
-title: KISS Calisthenics makes exercise easy
+title: KISS exercise is Calisthenics
 descript: '"There are many complicated exercise plans out there, but focusing on the fundamental movement patterns and nailing the basics is a timeless good idea."'
 ---
 ![A screenshot of K Boges youtube channel](/k-boges-pullup.png)

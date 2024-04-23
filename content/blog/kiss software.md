@@ -1,6 +1,6 @@
 ---
 date: 2023-11-20
-title: KISS Unix is difficult to learn but makes software problems simple to deal with
+title: KISS software is Unix
 description: '"The Unix philosophy of computer software is difficult to learn, but once you do, the rewards are well worth it because it makes using a computer much simpler."'
 ---
  
@@ -76,6 +76,9 @@ NOTE: You'll have to learn how to operate dwm, st, and dmenu, which are mostly k
 
 **Congrats, you're a computer scientist now!**
 Okay, not technically, but if you can go through all of these steps and fill in the gaps that I didn't explain, you'll easily be as skilled as me at Linux. The trickiest part of following software tutorials is nobody ever explains every single step, so please email me if you need help and I'll expand this page to cover everything, it's just hard to remember since I'm writing this after the fact.
+
+## About this website
+I built this site using Hugo, a static site generator written in Go. I write custom HTML and CSS for this site to learn the basics of web design and search engine optimization. This site is blazing fast (~1s load times), designed mobile-first, accessible, technically optimized, and on-page optimized. I host it on Github Pages, and use Github Actions to deploy the site locally from the command line.
 
 ## Next Steps
 Following the info from [Luke Smith](https://lukesmith.xyz/programs/)

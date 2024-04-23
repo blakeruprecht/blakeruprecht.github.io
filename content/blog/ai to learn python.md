@@ -1,6 +1,6 @@
 ---
 date: 2024-03-17
-title: Artificial Intelligence research is the best way to Learn Python
+title: I learned Python through AI research
 description: '"In this essay I take readers on a journey from Noob to Python master, the same journey I undertook during my Masters degree to study AI."'
 ---
 ![The python logo is cool](/python-logo.png)

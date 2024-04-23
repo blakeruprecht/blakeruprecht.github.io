@@ -1,6 +1,6 @@
 ---
 date: 2024-02-24
-title: KISS The Mediterranean diet is the simplest path to good nutrition
+title: KISS nutrition is Mediterranean diet
 description: '"Nutrition is a complicated and difficult topic for many people to understand, whereas the Mediterranean diet is very simple and easy to follow, so just stick with that."'
 ---
 

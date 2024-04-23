@@ -1,6 +1,6 @@
 ---
 date: 2023-07-27
-title: Cold brew coffee is easy to brew, I don't understand why it's so expensive
+title: Easy cold brew method
 description: "\"You wouldn't think that the simplest, least energy intensive way to brew coffee would be the most expensive at coffee shops, but it is, and I'm trying to fix that.\""
 ---
 ## Summary of this essay

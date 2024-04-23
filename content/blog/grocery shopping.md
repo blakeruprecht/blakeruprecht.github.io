@@ -1,6 +1,6 @@
 ---
 date: 2023-09-15
-title: Sprint through the grocery store
+title: Set grocery shopping PRs
 description: '"An essay about how to get grocery shopping done as quickly as possible."'
 ---
 
