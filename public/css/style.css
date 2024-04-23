@@ -5,10 +5,10 @@
   --mg-color: #696969;
   --bg-color: #fff;
   --accent-color: #f00;
-  --logo-font: "Helvetica", sans-serif;
-  --head-font: "Helvetica", sans-serif;
+  --logo-font: "NotoSans", sans-serif;
+  --head-font: "SourceSerif", serif;
+  --body-font: "NotoSans", sans-serif;
   --code-font: "Hack", monospace;
-  --body-font: SourceSerif, Georgia, Cambria, "Times New Roman", serif;
 }
 
 
@@ -111,12 +111,13 @@ img {
 .site-nav .logo {
   font-family: var(--logo-font);
   font-weight: bold;
+  color: #f00;
   float: left;
 }
 
 .site-nav .menu {
   float: right;
-  font-family: var(--head-font);
+  font-family: var(--logo-font);
 }
 
 /* ################################################### */
@@ -131,7 +132,7 @@ ul.blog-list {
 }
 
 ul.blog-list a {
-  font-family: var(--head-font);
+  font-family: var(--body-font);
   color: #000;
   text-decoration: none;
 }
@@ -201,4 +202,33 @@ ul.blog-list span {
   font-style: italic;
   font-weight: bold;
   src: url("/fonts/SourceSerif4-BoldIt.ttf") format("truetype");
+}
+
+/* NotoSans Font */
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/NotoSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/NotoSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: italic;
+  font-weight: normal;
+  src: url("/fonts/NotoSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: italic;
+  font-weight: bold;
+  src: url("/fonts/NotoSans-BoldItalic.ttf") format("truetype");
 }

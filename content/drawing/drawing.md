@@ -3,7 +3,7 @@ title = "Art"
 menu = "main"
 +++
 
-My favorite art forms are black-ink drawings and woodworking. Here are a few of my best pieces from over the years.
+My favorite media are ink drawing and woodworking, here are a few of my best pieces from over the years. 
 
 ![Drawing of a log cabin I made up](/drawing-log-cabin.jpg)
 ^ Done using sharpie on paper, based on the houses from *Your Cabin in the Woods* by Conrad Meinecke.
@@ -37,20 +37,20 @@ I always used to get waves of creativity during finals week in college. This tim
 ^ Can you tell what my priorities were back then?
 
 ![Doodles on my college bedroom wall](/drawing-frat-walls3.jpg)
-^ This wasn't me, but Biggs is hilarious. The uke was me, you can see the real one in the bottom right.
+^ The pennants were done by Biggs.
 
 ![Doodles on my college bedroom wall](/drawing-frat-walls2.jpg)
-^ Hadn't even graduated yet, but was already checked out. My sophomore year was my first "Senior year" since one of my best buddies was a senior, and every year after someone else was a senior, so I stopped taking college seriously after exactly one year. Coincidentally, I never bought a textbook after first semester, and it only hurt my grades one time.
+^ Why study when you can just give yourself the diploma already?
 
 ---
 ## Bday card series
-I love handmade everything, especially gifts. Excuse the black borders and poor white balance, I am a drawer, not photographer. I've tried colors before in my drawings, don't like them, except for red, inspired by old Japanese sumi ink drawings. I have copic ink markers, but prefer pen shading to marker/water color shading.
+Ink on paper, doesn't get better than that.
 
 ![Bday card doodle with balloon](/drawing-bday-balloon.jpg)
 ^ Red balloons only
 
 ![Bday card of a beer can](/drawing-bday-beer.jpg)
-^ Bud Select is a family heirloom for us, my dad worked for A-B for 24 years, so you could say beer is in my blood. Bud Select is only brewed and distributed in St. Louis, so it holds a special place in my heart, and it conveniently has the right color scheme ;)
+^ Bud Select is a family heirloom.
 
 ![Bday card of flowers](/drawing-bday-flowers.jpg)
 ^ One line, then three more in red.
@@ -87,9 +87,7 @@ I love building furniture out of wood because I can make it exactly how I want i
 ^ Built this squat rack to use with my barbell and weights. Inspector Mikey does not care one bit about squatting.
 
 ![Wooden framing](/wood-framing.jpg)
-^ I can frame, do some light plumbing & electrical, drywall, etc. Not as fun as furniture.
-
-
+^ Framing is mostly just building boxes. Hell, most woodworking is just building boxes. Great skill.
 
 
 
