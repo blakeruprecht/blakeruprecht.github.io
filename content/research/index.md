@@ -14,20 +14,21 @@ I went to grad school to research the AI Alignment problem, which is similar to 
 
 Here, I've listed the references to my published work. If you have any questions, feel free to reach out (contact info on [my home page](/)).
 
-### Masters Thesis
-- **B. Ruprecht**. "EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING". University of Missouri, 2023. [PDF](/thesis.pdf)
+## Master of Science in Computer Science Thesis
+I did a research M.S., which is different from a class-based M.S. Instead of just taking 60 credit hours of classes, I took 30 credit hours and performed research, submitting a final thesis and defending it with a 45min presentation. It's basically a mini-doctorate, I would estimate I did somewhere between 1/3 to 1/2 of a full PhD. Hey, six publications ain't bad (and three failed publications!).
+- **B. Ruprecht**. "EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING". University of Missouri, 2023. [PDF](ruprecht_ms_thesis.pdf)
 
-### Journal Articles
-- A. Cannaday, C. Davis, G. Scott, **B. Ruprecht**, and D. T. Anderson, "Broad Area Search and Detection of Surface-to-Air Missile Sites Using Spatial Fusion of Component Object Detections from Deep Neural Networks", IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2020.
+## Journal Articles
+- A. Cannaday, C. Davis, G. Scott, **B. Ruprecht**, and D. T. Anderson, "Broad Area Search and Detection of Surface-to-Air Missile Sites Using Spatial Fusion of Component Object Detections from Deep Neural Networks", IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2020. [PDF](cannaday_aeors2020.pdf)
 
-### Conference Articles
-- B. Young, D. T. Anderson, J. Keller, F. Petry, C. Michael and **B. Ruprecht**, "Human-Oriented Fuzzy Set Based Explanations of  Spatial Concepts," WCCI 2023.
+## Conference Articles
+- B. Young, D. T. Anderson, J. Keller, F. Petry, C. Michael and **B. Ruprecht**, "Human-Oriented Fuzzy Set Based Explanations of  Spatial Concepts," WCCI 2023. [PDF](young_wcci2023.pdf)
 
-- **B. Ruprecht**, D. T. Anderson, F. Petry, J. M. Keller, C. Michael, A. Buck, G. Scott, C. Davis, "Concept Learning Based on Human Interaction and Explainable AI," SPIE 2021. [PDF](/spie_2021.pdf)
+- **B. Ruprecht**, D. T. Anderson, F. Petry, J. M. Keller, C. Michael, A. Buck, G. Scott, C. Davis, "Concept Learning Based on Human Interaction and Explainable AI," SPIE 2021. [PDF](ruprecht_spie2021.pdf)
 
-- **B. Ruprecht**, W. Wu, M. Islam, D. T. Anderson, J. Keller, G. Scott, C. Davis, F. Petry, P. Elmore, K. Nock, E. Gilmour, “Possibilistic Clustering Enabled Neuro Fuzzy Logic,” WCCI 2020. [PDF](/wcci_2020.pdf). [code](https://github.com/blakeruprecht/ANFIS-SP1M).
+- **B. Ruprecht**, W. Wu, M. Islam, D. T. Anderson, J. Keller, G. Scott, C. Davis, F. Petry, P. Elmore, K. Nock, E. Gilmour, “Possibilistic Clustering Enabled Neuro Fuzzy Logic,” WCCI 2020. [PDF](ruprecht_wcci2020.pdf). [code](https://github.com/blakeruprecht/ANFIS-SP1M).
 
-- **B. Ruprecht**, C. Veal, A. Cannaday, D. T. Anderson, F. Petry, J. Keller, G. Scott, C. Davis, C. Norsworthy, P. Elmore, K. Nock, E. Gilmour, “Neuro-fuzzy logic for parts-based reasoning about complex scenes in remotely sensed data”, SPIE 2020. [PDF](/spie_2020.pdf). [code](https://github.com/blakeruprecht/Fuzzy-Fusion).
+- **B. Ruprecht**, C. Veal, A. Cannaday, D. T. Anderson, F. Petry, J. Keller, G. Scott, C. Davis, C. Norsworthy, P. Elmore, K. Nock, E. Gilmour, “Neuro-fuzzy logic for parts-based reasoning about complex scenes in remotely sensed data”, SPIE 2020. [PDF](ruprecht_spie2020.pdf). [code](https://github.com/blakeruprecht/Fuzzy-Fusion).
 
-### Poster Presentations
+## Poster Presentations
 - **B. Ruprecht**, C. Veal, B. Murray, M.A. Islam, D.T. Anderson, F. Petry, J. Keller, G. Scott, and C. Davis, "Fuzzy Logic-Based Fusion of Deep Learners in Remote Sensing," FuzzIEEE 2019.
