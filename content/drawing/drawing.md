@@ -50,7 +50,7 @@ Ink on paper, doesn't get better than that.
 ^ Red balloons only
 
 ![Bday card of a beer can](/drawing-bday-beer.jpg)
-^ Bud Select is a family heirloom.
+^ Bud Select is a family tradition, and STL staple.
 
 ![Bday card of flowers](/drawing-bday-flowers.jpg)
 ^ One line, then three more in red.
