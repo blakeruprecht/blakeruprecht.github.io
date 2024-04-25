@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Arts on Blake Ruprecht</title>
+    <title>Art on Blake Ruprecht</title>
     <link>https://blakeruprecht.github.io/art/</link>
-    <description>Recent content in Arts on Blake Ruprecht</description>
+    <description>Recent content in Art on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://blakeruprecht.github.io/art/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Art</title>
-      <link>https://blakeruprecht.github.io/art/art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/art/art/</guid>
-      <description>My favorite media are ink drawing and woodworking, here are a few of my best pieces from over the years.
-^ Done using sharpie on paper, based on the houses from Your Cabin in the Woods by Conrad Meinecke.
-^ Done using a dip pen and black india ink. This is Fallingwater, a house designed by Frank Lloyd Wright in 1935.
-^ &amp;hellip;enough, it wouldn&amp;rsquo;t be the minimum. From KISS</description>
-    </item>
-    
   </channel>
 </rss>
