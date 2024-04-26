@@ -14,9 +14,7 @@ Facts:
 - Mortal by choice
 
 ## Contact
-Email me: BlakeCRuprecht[at]gmail.com
-
-Find me on the socials below.
+Email me: BlakeCRuprecht[at]gmail.com. Find me on the socials below.
 
 
 
