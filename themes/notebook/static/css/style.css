@@ -4,10 +4,10 @@
   --fg-color: #333;
   --mg-color: #696969;
   --bg-color: #fff;
-  --accent-color: #69c;
-  --logo-font: "NotoSans", sans-serif;
-  --head-font: "SourceSerif", serif;
-  --body-font: "NotoSans", sans-serif;
+  --accent-color: #f00;
+  
+  --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
+  --head-font: "SourceSerif", "Georgia", "Times New Roman", serif;
   --code-font: "Hack", monospace;
 }
 
@@ -17,7 +17,7 @@ body {
   background-color: var(--bg-color);
   color: var(--fg-color);
   font-family: var(--body-font);
-  font-size: 1.1rem;
+  font-size: 16px;
   line-height: 1.5;
   margin-top: 1rem;
   padding: 0;
@@ -25,19 +25,18 @@ body {
 
 a {
   color: var(--fg-color);
-  text-decoration-color: #000;
-  text-underline-offset: 5px;
-  text-decoration-thickness: 2px;
+  text-decoration: underline 2px;
+  text-underline-offset: 4px;
 }
 
 a:hover {
   color: var(--accent-color);
   text-decoration: none;
+  text-underline-offset: 4px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--head-font);
-  color: #222;
 }
 
 h1 { font-size: 2rem; }
@@ -59,20 +58,19 @@ ul, li {
 
 time {
   font-family: var(--code-font);
-  font-style: italic;
   color: var(--mg-color);
 }
 
 code {
   font-family: "Hack", monospace;
-  color: var(--accent-color);
-  background: #222;
+  color: var(--bg-color);
+  background: var(--fg-color);
 }
 
 blockquote {
   border-left: 0.25rem solid var(--mg-color);
   padding: 0rem 1rem;
-  font-style: italic;
+  font-family: var(--head-font);
 }
 
 footer {
@@ -100,11 +98,10 @@ img {
 
 .site-nav * {
   font-size: 1.4rem;
-  margin: 0 1rem;
+  margin: 1rem 2rem;
   text-decoration: none;
   list-style-type: none;
   display: inline;
-  margin: 0 1rem;
   color: var(--mg-color);
 }
 
@@ -127,19 +124,19 @@ img {
 ul.blog-list {
   list-style-type: none;
   display: flex;
-  color: #0f0;
   font-size: 1.2em;
   width: 42rem;
 }
 
-ul.blog-list a {
-  font-family: var(--body-font);
-  color: #000;
-  text-decoration: none;
+ul.blog-list a:link{
+  color: var(--fg-color);
+  text-decoration: underline 2px;
+  text-underline-offset: 4px;
 }
 
 ul.blog-list a:hover{
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 ul.blog-list span {
