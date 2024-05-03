@@ -171,7 +171,7 @@ It seems so impossible before it happens. You see it approaching. You see all of
     </item>
     
     <item>
-      <title>art</title>
+      <title>art/</title>
       <link>https://blakeruprecht.github.io/art/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -183,7 +183,17 @@ It seems so impossible before it happens. You see it approaching. You see all of
     </item>
     
     <item>
-      <title>research</title>
+      <title>peace</title>
+      <link>https://blakeruprecht.github.io/peace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/peace/</guid>
+      <description>Thanks for reading! Now it&amp;rsquo;s time to go play outside.
+xo, Blake</description>
+    </item>
+    
+    <item>
+      <title>research/</title>
       <link>https://blakeruprecht.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

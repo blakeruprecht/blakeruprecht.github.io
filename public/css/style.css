@@ -2,14 +2,17 @@
 /* GLOBAL VARIABLES */
 :root {
   --fg-color: #222;
-  --mg-color: #777;
   --bg-color: #fff;
-  --ul-color: #999;
+
+  --mg-color: #777;
+  --ul-color: #aaa;
   --hr-color: #ddd;
+  
   --accent-color: #f00;
+  
+  
   --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
-  --head-font: "SourceSerif", "Georgia", serif;
-  --code-font: "Hack", monospace;
+  --head-font: "Hack", "SourceSerif", "Georgia", serif;
 }
 
 
@@ -36,7 +39,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--head-font);
+  font-family: var(--body-font);
   line-height: 1.5em;
 }
 
@@ -58,14 +61,15 @@ ul, li {
 }
 
 time {
-  font-family: var(--code-font);
+  font-family: var(--head-font);
   color: var(--mg-color);
+  font-style: normal;
 }
 
 code {
-  font-family: "Hack", monospace;
+  font-family: var(--head-font);
   color: var(--fg-color);
-  background: #ddd;
+  background: var(--hr-color);
 }
 
 blockquote {
@@ -74,24 +78,23 @@ blockquote {
 }
 
 hr {
-  border: 1px dashed var(--ul-color);
+  border: 1px solid var(--hr-color);
 }
 
 footer {
   text-size: 18px;
   color: var(--mg-color);
-  font-family: var(--code-font);
+  font-family: var(--head-font);
   text-align: center;
   width: 100%
   position: relative;
   bottom: 0;
-  padding: 1rem;
   line-height: 1rem;
 }
 
 footer a {
   color: var(--mg-color);
-  text-decoration-color: var(--ul-color);
+  text-decoration: none;
 }
 
 img {
@@ -105,14 +108,11 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 1rem;
-  padding-bottom: 2rem;
   justify-content: space-between;
-  border-bottom: 1px solid #ddd;	
 }
 
 .site-nav a {
-  font-family: var(--code-font);
+  font-family: var(--head-font);
   font-size: 18px;
   color: var(--mg-color);
   text-decoration: none;
@@ -123,11 +123,7 @@ img {
 }
 
 .logo {
-  margin: 0 40px;
-}
-
-.logo a {
-  color: var(--fg-color);
+  margin: 0 20px;
 }
 
 .menu {
@@ -152,30 +148,6 @@ img {
   text-decoration: underline 2px var(--accent-color);
   text-underline-offset: 4px;
 }
-
-/*
-.site-nav * {
-  font-size: 1.4rem;
-  margin: 1rem 2rem;
-  text-decoration: none;
-  list-style-type: none;
-  display: inline;
-  color: var(--mg-color);
-}
-
-.site-nav .logo {
-  font-family: var(--head-font);
-  font-weight: bold;
-  font-style: italic;
-  font-size: 1.6rem;
-  float: left;
-}
-
-.site-nav .menu {
-  font-family: var(--logo-font);
-  float: right;
-}
-*/
 
 /* ################################################### */
 /* LISTS */

@@ -1,5 +1,5 @@
 +++ 
-title = "research" 
+title = "research/" 
 menu = "main" 
 +++
 
