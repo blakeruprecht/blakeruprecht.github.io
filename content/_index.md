@@ -13,5 +13,5 @@ I'm Blake. I [write](/blog) about cool stuff. I used to [research](/research) AI
 
 *email:* BlakeCRuprecht@gmail.com
 
-*socials:* [linkedin]("https://www.linkedin.com/in/blakeruprecht/") :: [github]("https://github.com/blakeruprecht") :: [instagram]("https://instagram.com/blakeruprecht") :: [medium]("https://medium.com/@blakeruprecht") :: [substack]("https://blakeruprecht.substack.com/")
+*socials:* [linkedin](https://www.linkedin.com/in/blakeruprecht/) :: [github](https://github.com/blakeruprecht) :: [instagram](https://instagram.com/blakeruprecht) :: [medium](https://medium.com/@blakeruprecht) :: [substack](https://blakeruprecht.substack.com/)
 
