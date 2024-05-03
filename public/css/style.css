@@ -1,13 +1,14 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #333;
-  --mg-color: #696969;
+  --fg-color: #222;
+  --mg-color: #777;
   --bg-color: #fff;
+  --ul-color: #999;
+  --hr-color: #ddd;
   --accent-color: #f00;
-  
   --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
-  --head-font: "SourceSerif", "Georgia", "Times New Roman", serif;
+  --head-font: "SourceSerif", "Georgia", serif;
   --code-font: "Hack", monospace;
 }
 
@@ -25,23 +26,23 @@ body {
 
 a {
   color: var(--fg-color);
-  text-decoration: underline 2px;
+  text-decoration: underline 1px var(--ul-color);
   text-underline-offset: 4px;
 }
 
 a:hover {
   color: var(--accent-color);
-  text-decoration: none;
-  text-underline-offset: 4px;
+  text-decoration: underline 2px var(--accent-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--head-font);
+  line-height: 1.5em;
 }
 
-h1 { font-size: 2rem; }
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.3rem; }
+h1 { font-size: 1.6rem; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.2rem; }
 h4 { font-size: 1rem; }
 h5 { font-size: 0.8rem; }
 h6 { font-size: 0.7rem; }
@@ -51,7 +52,7 @@ ul, li {
 }
 
 .content {
-  max-width: 42rem;
+  max-width: 36rem;
   padding: 1rem;
   margin: 0 auto;
 }
@@ -63,17 +64,21 @@ time {
 
 code {
   font-family: "Hack", monospace;
-  color: var(--bg-color);
-  background: var(--fg-color);
+  color: var(--fg-color);
+  background: #ddd;
 }
 
 blockquote {
-  border-left: 0.25rem solid var(--mg-color);
+  border-left: 1px solid var(--ul-color);
   padding: 0rem 1rem;
-  font-family: var(--head-font);
+}
+
+hr {
+  border: 1px dashed var(--ul-color);
 }
 
 footer {
+  text-size: 18px;
   color: var(--mg-color);
   font-family: var(--code-font);
   text-align: center;
@@ -86,7 +91,7 @@ footer {
 
 footer a {
   color: var(--mg-color);
-  text-decoration-color: var(--mg-color);
+  text-decoration-color: var(--ul-color);
 }
 
 img {
@@ -96,6 +101,59 @@ img {
 /* ################################################## */
 /* NAVBAR */
 
+.site-nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;	
+}
+
+.site-nav a {
+  font-family: var(--code-font);
+  font-size: 18px;
+  color: var(--mg-color);
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: var(--accent-color);
+}
+
+.logo {
+  margin: 0 40px;
+}
+
+.logo a {
+  color: var(--fg-color);
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.right a {
+  color: var(--accent-color);
+  margin: 0 40px;
+}
+
+.right a:hover {
+  color: var(--accent-color);
+  text-decoration: underline 2px var(--accent-color);
+  text-underline-offset: 4px;
+}
+
+/*
 .site-nav * {
   font-size: 1.4rem;
   margin: 1rem 2rem;
@@ -114,9 +172,10 @@ img {
 }
 
 .site-nav .menu {
-  float: right;
   font-family: var(--logo-font);
+  float: right;
 }
+*/
 
 /* ################################################### */
 /* LISTS */
@@ -126,17 +185,6 @@ ul.blog-list {
   display: flex;
   font-size: 1.2em;
   width: 42rem;
-}
-
-ul.blog-list a:link{
-  color: var(--fg-color);
-  text-decoration: underline 2px;
-  text-underline-offset: 4px;
-}
-
-ul.blog-list a:hover{
-  color: var(--accent-color);
-  text-decoration: none;
 }
 
 ul.blog-list span {

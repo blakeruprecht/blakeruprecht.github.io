@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Out of the Box</title>
+    <title>Blogs on outside the box</title>
     <link>https://blakeruprecht.github.io/blog/</link>
-    <description>Recent content in Blogs on Out of the Box</description>
+    <description>Recent content in Blogs on outside the box</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>

@@ -1,5 +1,5 @@
 +++ 
-title = "Research" 
+title = "research" 
 menu = "main" 
 +++
 
@@ -12,10 +12,13 @@ I went to grad school to research the AI Alignment problem, which is similar to 
 
 **What did we do?** We approached this problem by adding an additional layer of fuzzy math at the end of the NN that attempts to explain some of the reasoning (if you can call it that) steps used by the AI. These new techniques do not explain every step along the NN, but mainly the final decision-making step. Eventually, this research direction may attempt to add more layers of math to explain the NNs, but we showed state-of-the-art improvements in explainability and human-in-the-loop interaction to create more trustworthy, and better-performing AI algorithms.
 
+**What degree did you get?** I received a Master of Science in Computer Science. I did a research-based Masters, which is different from a class-based Masters. Class-based Masters take 60 credit hours of continuing education, the point is to take more classes. Research-based Masters take 30 credit hours of education and perform 30 hours of thesis research, submit a final thesis, and defend it with an hour-long oral presentation. The point of this Masters is training to become a scientist, which is why I did so much research.
+
 Here, I've listed the references to my published work. If you have any questions, feel free to reach out (contact info on [my home page](/)).
 
-## Master of Science in Computer Science Thesis
-I did a research M.S., which is different from a class-based M.S. Instead of just taking 60 credit hours of classes, I took 30 credit hours and performed research, submitting a final thesis and defending it with a 45min presentation. It's basically a mini-doctorate, I would estimate I did somewhere between 1/3 to 1/2 of a full PhD. Hey, six publications ain't bad (and three failed publications!).
+---
+
+## M.S. Thesis
 - **B. Ruprecht**. "EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING". University of Missouri, 2023. [PDF](ruprecht_ms_thesis.pdf)
 
 ## Journal Articles
