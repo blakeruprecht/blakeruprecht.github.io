@@ -113,7 +113,7 @@ img {
 
 .site-nav a {
   font-family: var(--head-font);
-  font-size: 18px;
+  font-size: 16px;
   color: var(--mg-color);
   text-decoration: none;
 }
