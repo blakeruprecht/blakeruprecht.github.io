@@ -1,6 +1,7 @@
 +++ 
 title = "research" 
-menu = "main" 
+date = 2023-05-18
+menu = "main"
 +++
 
 Previously, I was an Artificial Intelligence research assistant at the University of Missouri (MIZ-ZOU!) working with [Derek Anderson](https://derektanderson.com/) and the [Center for Geospatial Intelligence](https://engineering.missouri.edu/research/featured/center-for-geospatial-intelligence-cgi/). Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.

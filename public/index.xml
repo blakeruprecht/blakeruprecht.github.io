@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About me on outside the box</title>
+    <title>About me on OUTSIDE THE BOX</title>
     <link>https://blakeruprecht.github.io/</link>
-    <description>Recent content in About me on outside the box</description>
+    <description>Recent content in About me on OUTSIDE THE BOX</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exercise</title>
+      <link>https://blakeruprecht.github.io/blog/exercise/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/exercise/</guid>
+      <description> Train every muscle 5 sets per week to maintain performance
+Generally, group the muscles into four categories: Pushers: upper/middle/lower chest, front deltoid, triceps Pullers: upper/middle/lower traps, lattisimus dorsi, rear deltoid, biceps Hinge: back core, glutes, hamstrings, front calfs Squat: front core, side core, glutes, quads, back calfs Remember, performance is based on:
+Technique/Skill: how well the joints moves through space Strength: how much mass you can lift Speed: how fast you can contract your muscles Power: strength times speed Endurance: how many reps of a given exercise you can do Hypertrophy: the size of the muscle </description>
+    </item>
+    
     <item>
       <title>My quest for the perfect bowl of Noodle Soup</title>
       <link>https://blakeruprecht.github.io/blog/noodle-soup/</link>
@@ -161,6 +172,28 @@ I&amp;rsquo;m standing at the crossroad,</description>
     </item>
     
     <item>
+      <title>research</title>
+      <link>https://blakeruprecht.github.io/research/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/research/</guid>
+      <description>Previously, I was an Artificial Intelligence research assistant at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.
+What did I research? I went to grad school to research the AI Alignment problem, which is similar to AI safety, AI risk research, etc. Alignment is more specific than safety because it doesn&amp;rsquo;t just mean trustworthy and harmless, it also means beneficial.</description>
+    </item>
+    
+    <item>
+      <title>art</title>
+      <link>https://blakeruprecht.github.io/art/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/art/</guid>
+      <description>My favorite media are ink drawing and woodworking, here are a few of my best pieces from over the years.
+^ Done using sharpie on paper, based on the houses from Your Cabin in the Woods by Conrad Meinecke.
+^ Done using a dip pen and black india ink. This is Fallingwater, a house designed by Frank Lloyd Wright in 1935.
+^ &amp;hellip;enough, it wouldn&amp;rsquo;t be the minimum. From KISS</description>
+    </item>
+    
+    <item>
       <title>Full Flavor, 99 Calories</title>
       <link>https://blakeruprecht.github.io/blog/full-flavor-99-calories/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
@@ -171,18 +204,6 @@ It seems so impossible before it happens. You see it approaching. You see all of
     </item>
     
     <item>
-      <title>art</title>
-      <link>https://blakeruprecht.github.io/art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/art/</guid>
-      <description>My favorite media are ink drawing and woodworking, here are a few of my best pieces from over the years.
-^ Done using sharpie on paper, based on the houses from Your Cabin in the Woods by Conrad Meinecke.
-^ Done using a dip pen and black india ink. This is Fallingwater, a house designed by Frank Lloyd Wright in 1935.
-^ &amp;hellip;enough, it wouldn&amp;rsquo;t be the minimum. From KISS</description>
-    </item>
-    
-    <item>
       <title>peace</title>
       <link>https://blakeruprecht.github.io/peace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -190,16 +211,6 @@ It seems so impossible before it happens. You see it approaching. You see all of
       <guid>https://blakeruprecht.github.io/peace/</guid>
       <description>Thanks for reading! Now it&amp;rsquo;s time to go play outside.
 xo, Blake</description>
-    </item>
-    
-    <item>
-      <title>research</title>
-      <link>https://blakeruprecht.github.io/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/research/</guid>
-      <description>Previously, I was an Artificial Intelligence research assistant at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.
-What did I research? I went to grad school to research the AI Alignment problem, which is similar to AI safety, AI risk research, etc. Alignment is more specific than safety because it doesn&amp;rsquo;t just mean trustworthy and harmless, it also means beneficial.</description>
     </item>
     
   </channel>

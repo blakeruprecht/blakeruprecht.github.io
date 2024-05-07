@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on outside the box</title>
+    <title>Blogs on OUTSIDE THE BOX</title>
     <link>https://blakeruprecht.github.io/blog/</link>
-    <description>Recent content in Blogs on outside the box</description>
+    <description>Recent content in Blogs on OUTSIDE THE BOX</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exercise</title>
+      <link>https://blakeruprecht.github.io/blog/exercise/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/exercise/</guid>
+      <description> Train every muscle 5 sets per week to maintain performance
+Generally, group the muscles into four categories: Pushers: upper/middle/lower chest, front deltoid, triceps Pullers: upper/middle/lower traps, lattisimus dorsi, rear deltoid, biceps Hinge: back core, glutes, hamstrings, front calfs Squat: front core, side core, glutes, quads, back calfs Remember, performance is based on:
+Technique/Skill: how well the joints moves through space Strength: how much mass you can lift Speed: how fast you can contract your muscles Power: strength times speed Endurance: how many reps of a given exercise you can do Hypertrophy: the size of the muscle </description>
+    </item>
+    
     <item>
       <title>My quest for the perfect bowl of Noodle Soup</title>
       <link>https://blakeruprecht.github.io/blog/noodle-soup/</link>

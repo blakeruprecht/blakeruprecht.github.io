@@ -1,16 +1,15 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #222;
+  --fg-color: #000;
   --bg-color: #fff;
 
   --mg-color: #777;
   --ul-color: #aaa;
   --hr-color: #ddd;
   
-  --accent-color: #f00;
-  
-  
+  --accent-color: #0a84ff;
+    
   --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
   --head-font: "Hack", "SourceSerif", "Georgia", serif;
 }
@@ -21,14 +20,15 @@ body {
   background-color: var(--bg-color);
   color: var(--fg-color);
   font-family: var(--body-font);
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.3em;
   margin-top: 1rem;
   padding: 0;
 }
 
 a {
   color: var(--fg-color);
+  /*box-shadow: inset 0 -.2rem 0 var(--ul-color);*/
   text-decoration: underline 1px var(--ul-color);
   text-underline-offset: 4px;
 }
@@ -41,14 +41,15 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--body-font);
   line-height: 1.5em;
+  margin-bottom: 0;
 }
 
-h1 { font-size: 1.6rem; }
-h2 { font-size: 1.4rem; }
-h3 { font-size: 1.2rem; }
-h4 { font-size: 1rem; }
-h5 { font-size: 0.8rem; }
-h6 { font-size: 0.7rem; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1.2rem; }
+h5 { font-size: 1.0rem; }
+h6 { font-size: 0.8rem; }
 
 ul, li {
   margin-bottom: 0.5rem;
@@ -64,6 +65,11 @@ time {
   font-family: var(--head-font);
   color: var(--mg-color);
   font-style: normal;
+}
+
+.byblake * {
+  font-family: var(--head-font);
+  color: var(--mg-color);
 }
 
 code {
@@ -113,7 +119,7 @@ img {
 
 .site-nav a {
   font-family: var(--head-font);
-  font-size: 16px;
+  font-size: 1.2rem;
   color: var(--mg-color);
   text-decoration: none;
 }
@@ -124,6 +130,9 @@ img {
 
 .logo {
   margin: 0 20px;
+}
+
+.logo a {
 }
 
 .menu {
