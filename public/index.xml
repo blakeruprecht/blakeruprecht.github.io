@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About me on OUTSIDE THE BOX</title>
+    <title>About me on Blake Ruprecht</title>
     <link>https://blakeruprecht.github.io/</link>
-    <description>Recent content in About me on OUTSIDE THE BOX</description>
+    <description>Recent content in About me on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exercise</title>
-      <link>https://blakeruprecht.github.io/blog/exercise/</link>
-      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <title>now</title>
+      <link>https://blakeruprecht.github.io/now/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/exercise/</guid>
-      <description> Train every muscle 5 sets per week to maintain performance
-Generally, group the muscles into four categories: Pushers: upper/middle/lower chest, front deltoid, triceps Pullers: upper/middle/lower traps, lattisimus dorsi, rear deltoid, biceps Hinge: back core, glutes, hamstrings, front calfs Squat: front core, side core, glutes, quads, back calfs Remember, performance is based on:
-Technique/Skill: how well the joints moves through space Strength: how much mass you can lift Speed: how fast you can contract your muscles Power: strength times speed Endurance: how many reps of a given exercise you can do Hypertrophy: the size of the muscle </description>
+      <guid>https://blakeruprecht.github.io/now/</guid>
+      <description> Trying to tackle perfectionism </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.github.io/notes/eat-following-the-mediterranean-diet/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/notes/eat-following-the-mediterranean-diet/</guid>
+      <description>cook using whole ingredients as much as possible eat tons of vegetables and fruits (every meal) eat tons of nuts, seeds, legumes, beans (every meal) eat tons of olive oil (every meal) eat whole grains (every meal) eat moderate amounts of yogurt, parmesan, mozzarella, feta, cheddar, oaxaca (1x-3x/day) eat light amounts of white-meat: chicken, fish (1x/day-1x/wk) eat very light amounts of red-meat: beef, pork (&amp;gt;=1x/wk) Yeah honestly, this could pretty much just be called the &amp;ldquo;frugal farmers diet&amp;rdquo;, seems applicable to anywhere on earth where people subsistence farm, or at least grow a vegetable garden.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.github.io/notes/eat-high-protein/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/notes/eat-high-protein/</guid>
+      <description>If you&amp;rsquo;re trying to grow muscle (which is possible during weight-gain or weight-loss, probably as long as it&amp;rsquo;s not rapid)</description>
     </item>
     
     <item>
@@ -201,16 +217,6 @@ What did I research? I went to grad school to research the AI Alignment problem,
       <guid>https://blakeruprecht.github.io/blog/full-flavor-99-calories/</guid>
       <description>&amp;ldquo;I&amp;rsquo;ll have to check, we might be out of Bud Select today, what do you want instead — Bud Light?&amp;rdquo; You can&amp;rsquo;t replace the best type of Bud&amp;hellip;
 It seems so impossible before it happens. You see it approaching. You see all of the warning signs, all of the speed bumps preparing you for the abrupt stop ahead. Somber stories are repeated from old friends who are long past the days of sitting on rooftops at 2pm on a Tuesday, skipping class and drinking cold ones out of a squat, plastic cup, deciding that their responsibilities can be pushed off for at least two more hours, until they hit that Ballmer peak of &amp;ldquo;creativity&amp;rdquo; or whatever you&amp;rsquo;re supposed to call drunkenly typing meandering lines of thought and utilizing spell check way too much and re-doing it all the next morning anyway &amp;ndash; but that doesn&amp;rsquo;t matter.</description>
-    </item>
-    
-    <item>
-      <title>peace</title>
-      <link>https://blakeruprecht.github.io/peace/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/peace/</guid>
-      <description>Thanks for reading! Now it&amp;rsquo;s time to go play outside.
-xo, Blake</description>
     </item>
     
   </channel>

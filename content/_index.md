@@ -5,16 +5,23 @@ description: "Blake Ruprecht's personal website. Here I write about topics that 
 ---
 
 
-# Yo!
+# [blake](/) ruprecht
 
-I'm Blake. I [write](/blog) about cool stuff. I make [art](/art), mainly black-ink drawings and woodworkings. I [researched](/research) the AI Alignment problem for five years.
+### [blog](/blog)
 
+### [art](/art)
 
-#### Contact me:
+### [research](/research)
 
-*newsletter:* I haven't set this up yet, but it's coming soon.
+### [now](/now)
 
-*email:* BlakeCRuprecht@gmail.com
+&nbsp;
 
-*socials:* [linkedin](https://www.linkedin.com/in/blakeruprecht/) :: [github](https://github.com/blakeruprecht) :: [instagram](https://instagram.com/blakeruprecht) :: [medium](https://medium.com/@blakeruprecht) :: [substack](https://blakeruprecht.substack.com/)
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+BlakeCRuprecht@gmail.com • [linkedin](https://www.linkedin.com/in/blakeruprecht/) • [github](https://github.com/blakeruprecht) • [medium](https://medium.com/@blakeruprecht) • [substack](https://blakeruprecht.substack.com/)
 
