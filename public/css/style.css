@@ -11,7 +11,7 @@
   --accent-color: #0a84ff;
     
   --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
-  --head-font: "Hack", "SourceSerif", "Georgia", serif;
+  --code-font: Consolas, "Hack", monospace;
 }
 
 
@@ -68,18 +68,13 @@ ul, li {
 }
 
 time {
-  font-family: var(--head-font);
+  font-family: var(--code-font);
   color: var(--mg-color);
   font-style: normal;
 }
 
-.byblake * {
-  font-family: var(--head-font);
-  color: var(--mg-color);
-}
-
 code {
-  font-family: var(--head-font);
+  font-family: var(--code-font);
   color: var(--fg-color);
   background: var(--hr-color);
 }
@@ -113,21 +108,32 @@ img {
   width: 100%;
 }
 
+img + em {
+  font-family: var(--code-font);
+  color: var(--mg-color);
+  font-style: normal;
+}
+
+img + em a {
+  color: var(--mg-color);
+}
+
 /* ################################################## */
 /* NAVBAR */
 
 .site-nav {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align: right;
 }
 
 .site-nav a {
-  font-family: var(--head-font);
-  font-size: 1.2rem;
-  color: var(--mg-color);
-  text-decoration: none;
+  font-family: var(--body-font);
+  font-size: 1rem;
+  color: var(--fg-color);
+  line-height: 1.5rem;
+  list-style-type: none;
 }
 
 .site-nav a:hover {
@@ -139,14 +145,14 @@ img {
 }
 
 .logo a {
+  color: var(--fg-color);
 }
 
 .menu {
-  display: flex;
-  list-style-type: none;
-  align-items: center;
+  display: inlineblock;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .menu li {

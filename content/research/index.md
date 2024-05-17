@@ -1,19 +1,21 @@
 +++ 
-title = "research" 
-date = 2023-05-18
+title = "Research" 
 menu = "main"
 +++
 
 Previously, I was an Artificial Intelligence research assistant at the University of Missouri (MIZ-ZOU!) working with [Derek Anderson](https://derektanderson.com/) and the [Center for Geospatial Intelligence](https://engineering.missouri.edu/research/featured/center-for-geospatial-intelligence-cgi/). Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.
 
 **What did I research?**
-I went to grad school to research the AI Alignment problem, which is similar to AI safety, AI risk research, etc. Alignment is more specific than safety because it doesn't just mean trustworthy and harmless, it also means beneficial. We want to create AI that is *aligned* with our socioeconomic goals of creating a better world. 
+I went to grad school to research the AI Alignment problem, which is similar to AI safety, AI risk research, etc. Alignment is more specific than safety because it doesn't just mean trustworthy and harmless, it also means beneficial. We want to create AI that is *aligned* with our goals of creating a better world. 
 
 **How do we create aligned AIs?** Great question, it's really hard. There are many techniques that attempt to align AI actions with human desires, and there are a myriad of problems that come along with every technique. eXplainable AI (XAI) is one broad set of techniques used to develop AIs that explain their mathematical reasoning using more math. Remember, all AIs are just computer algorithms that perform a series of computations on inputs (a vector of scalars) to generate outputs (a vector of scalars). Neural Networks (NNs) are the dominant algorithm in AI right now, and they are composed of many layers of math that get really confusing because of the depth and breadth of the layers, which means the sheer number of computations can be mind-boggling for one person to try to understand. Any technique to explain what a NN is doing could be helpful. 
 
 **What did we do?** We approached this problem by adding an additional layer of fuzzy math at the end of the NN that attempts to explain some of the reasoning (if you can call it that) steps used by the AI. These new techniques do not explain every step along the NN, but mainly the final decision-making step. Eventually, this research direction may attempt to add more layers of math to explain the NNs, but we showed state-of-the-art improvements in explainability and human-in-the-loop interaction to create more trustworthy, and better-performing AI algorithms.
 
 **What degree did you get?** I received a Master of Science in Computer Science. I did a research-based Masters, which is different from a class-based Masters. Class-based Masters take 60 credit hours of continuing education, the point is to take more classes. Research-based Masters take 30 credit hours of education and perform 30 hours of thesis research, submit a final thesis, and defend it with an hour-long oral presentation. The point of this Masters is training to become a scientist, which is why I did so much research.
+
+**Why?**
+This seems to be a secret for no good reason, but engineer graduate school doesn't cost money. I was a Research Assistant for a lab, which means they paid me cash money to work part time, and they paid for my part time tuition. Nobody should pay for engineering graduate school. I wanted a part-time job to focus on my writing career, and this was a good option.
 
 Here, I've listed the references to my published work. If you have any questions, feel free to reach out (contact info on [my home page](/)).
 

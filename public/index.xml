@@ -7,15 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>now</title>
-      <link>https://blakeruprecht.github.io/now/</link>
-      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/now/</guid>
-      <description> Trying to tackle perfectionism </description>
-    </item>
-    
-    <item>
       <title>My quest for the perfect bowl of Noodle Soup</title>
       <link>https://blakeruprecht.github.io/blog/noodle-soup/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
@@ -70,8 +61,8 @@ W = |fd| f = ma (more precisely, f = (d/dt)(mv)) W = |mad| W = |(100 kgs)(10 m/s
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/kiss-exercise/</guid>
-      <description>Check out K Boges on Youtube, he explains this exercise theory better than I possibly could. All of his videos are very short, and he gets right to the point each time. A modern day youtube hero.
-Training Cardio Perhaps the single most important thing to train for overall health is cardiovascular endurance, the ability of your heart and lungs to provide oxygen and energy to the entire body. There are three metabolic pathways: anaerobic, aerobic, and long-duration.</description>
+      <description>Check out K Boges on Youtube
+Training Cardio Perhaps the single most important thing to train for overall health is cardiovascular endurance, the ability of your heart and lungs to provide oxygen and energy to the entire body. There are three metabolic pathways: anaerobic, aerobic, and long-duration. These are also discussed as Zones, where (1=resting, 2-4=aerobic/long-duration, 5=anaerobic). I break it down into aerobic training and sprinting. Aerobic is anything faster than walking that elevates your heart rate, and sprinting is all-out.</description>
     </item>
     
     <item>
@@ -138,7 +129,8 @@ I&amp;rsquo;m standing at the crossroad,</description>
       <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/packing-light/</guid>
-      <description>I recently completed a four month trip around Southeast Asia and Europe lasting from February through June. Prior to this, I traveled around the USA pretty extensively for some months. I&amp;rsquo;ve traveled a lot over the past few years, but this was by far the most travel I&amp;rsquo;ve ever done in a one-year period. I probably spent most of the year living out of my backpack, and I learned a lot of lessons while doing it.</description>
+      <description>Since I became an adult, I&amp;rsquo;ve always set out to travel with just one backpack so I never have to wait at that stupid baggage carousel thing. It&amp;rsquo;s never been a problem.
+I recently completed a four month trip around Southeast Asia and Europe lasting from February through June. Prior to this, I traveled around the USA pretty extensively for some months. I&amp;rsquo;ve traveled a lot over the past few years, but this was by far the most travel I&amp;rsquo;ve ever done in a one-year period.</description>
     </item>
     
     <item>
@@ -170,25 +162,26 @@ I&amp;rsquo;m standing at the crossroad,</description>
     </item>
     
     <item>
-      <title>research</title>
-      <link>https://blakeruprecht.github.io/research/</link>
-      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      <title>Drawing</title>
+      <link>https://blakeruprecht.github.io/drawing/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/research/</guid>
-      <description>Previously, I was an Artificial Intelligence research assistant at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.
-What did I research? I went to grad school to research the AI Alignment problem, which is similar to AI safety, AI risk research, etc. Alignment is more specific than safety because it doesn&amp;rsquo;t just mean trustworthy and harmless, it also means beneficial.</description>
+      <guid>https://blakeruprecht.github.io/drawing/</guid>
+      <description>My favorite media are ink drawing and woodworking, here are a few of my best pieces from over the years.
+Done using sharpie on paper, based on the houses from Your Cabin in the Woods by Conrad Meinecke.
+Done using a dip pen and black india ink. This is Fallingwater, a house designed by Frank Lloyd Wright in 1935.
+&amp;hellip;enough, it wouldn&amp;rsquo;t be the minimum. From KISS
+I particularly like black ink drawings with that bold, all-black shading style, though it&amp;rsquo;s very hard to get right.</description>
     </item>
     
     <item>
-      <title>art</title>
-      <link>https://blakeruprecht.github.io/art/</link>
+      <title>Woodwork</title>
+      <link>https://blakeruprecht.github.io/woodwork/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/art/</guid>
-      <description>My favorite media are ink drawing and woodworking, here are a few of my best pieces from over the years.
-^ Done using sharpie on paper, based on the houses from Your Cabin in the Woods by Conrad Meinecke.
-^ Done using a dip pen and black india ink. This is Fallingwater, a house designed by Frank Lloyd Wright in 1935.
-^ &amp;hellip;enough, it wouldn&amp;rsquo;t be the minimum. From KISS</description>
+      <guid>https://blakeruprecht.github.io/woodwork/</guid>
+      <description>I love building stuff out of wood. I love natural materials, and wood is special because it&amp;rsquo;s perfectly imperfect. Getting a naturally curvy material to make 90 degree corners and straight lines is tough, especially with limited tools (most of this was done with a drill, circ saw, and palm sander). Like with any DIY, I love how I can custom design everything to fit my needs.
+Not very complicated, but hey, that&amp;rsquo;s the joy of doing it yourself.</description>
     </item>
     
     <item>
@@ -199,6 +192,16 @@ What did I research? I went to grad school to research the AI Alignment problem,
       <guid>https://blakeruprecht.github.io/blog/full-flavor-99-calories/</guid>
       <description>&amp;ldquo;I&amp;rsquo;ll have to check, we might be out of Bud Select today, what do you want instead — Bud Light?&amp;rdquo; You can&amp;rsquo;t replace the best type of Bud&amp;hellip;
 It seems so impossible before it happens. You see it approaching. You see all of the warning signs, all of the speed bumps preparing you for the abrupt stop ahead. Somber stories are repeated from old friends who are long past the days of sitting on rooftops at 2pm on a Tuesday, skipping class and drinking cold ones out of a squat, plastic cup, deciding that their responsibilities can be pushed off for at least two more hours, until they hit that Ballmer peak of &amp;ldquo;creativity&amp;rdquo; or whatever you&amp;rsquo;re supposed to call drunkenly typing meandering lines of thought and utilizing spell check way too much and re-doing it all the next morning anyway &amp;ndash; but that doesn&amp;rsquo;t matter.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://blakeruprecht.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/research/</guid>
+      <description>Previously, I was an Artificial Intelligence research assistant at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.
+What did I research? I went to grad school to research the AI Alignment problem, which is similar to AI safety, AI risk research, etc. Alignment is more specific than safety because it doesn&amp;rsquo;t just mean trustworthy and harmless, it also means beneficial.</description>
     </item>
     
   </channel>

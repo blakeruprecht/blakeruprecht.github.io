@@ -7,7 +7,7 @@ enableRobotsTXT = true
 [menu]
   [[menu.main]]
     identifier = "blog"
-    name = "blog"
+    name = "Blog"
     url = "/blog"
     weight = 10
 

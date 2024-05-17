@@ -5,15 +5,18 @@ description: "Blake Ruprecht's personal website. Here I write about topics that 
 ---
 
 
-# [blake](/) ruprecht
+# What's up
 
-### [blog](/blog)
 
-### [art](/art)
+I want to learn more. 
 
-### [research](/research)
+Read my stuff.
 
-### [now](/now)
+Email me if you learned something, want to know more about a specific point, or have new information to bring to light.
+
+Thank you.
+
+&nbsp;
 
 &nbsp;
 

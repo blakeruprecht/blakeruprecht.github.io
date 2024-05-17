@@ -4,8 +4,8 @@ title: KISS exercise is Calisthenics
 descript: '"There are many complicated exercise plans out there, but focusing on the fundamental movement patterns and nailing the basics is a timeless good idea."'
 ---
 ![A screenshot of K Boges youtube channel](/k-boges-pullup.png)
+*Check out [K Boges](https://www.youtube.com/@kboges) on Youtube*
 
-Check out [K Boges](https://www.youtube.com/@kboges) on Youtube, he explains this exercise theory better than I possibly could. All of his videos are very short, and he gets right to the point each time. A modern day youtube hero.
 
 
 ## Training Cardio
