@@ -14,9 +14,6 @@ I went to grad school to research the AI Alignment problem, which is similar to 
 
 **What degree did you get?** I received a Master of Science in Computer Science. I did a research-based Masters, which is different from a class-based Masters. Class-based Masters take 60 credit hours of continuing education, the point is to take more classes. Research-based Masters take 30 credit hours of education and perform 30 hours of thesis research, submit a final thesis, and defend it with an hour-long oral presentation. The point of this Masters is training to become a scientist, which is why I did so much research.
 
-**Why?**
-This seems to be a secret for no good reason, but engineer graduate school doesn't cost money. I was a Research Assistant for a lab, which means they paid me cash money to work part time, and they paid for my part time tuition. Nobody should pay for engineering graduate school. I wanted a part-time job to focus on my writing career, and this was a good option.
-
 Here, I've listed the references to my published work. If you have any questions, feel free to reach out (contact info on [my home page](/)).
 
 ---
