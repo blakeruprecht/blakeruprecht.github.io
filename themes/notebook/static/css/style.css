@@ -35,7 +35,7 @@ a {
 
 a:hover {
   color: var(--accent-color);
-  text-decoration: none 2px var(--accent-color);
+  text-decoration: underline 1px var(--accent-color);
 }
 
 h1 a {

@@ -5,16 +5,15 @@ description: "Blake Ruprecht's personal website. Here I write about topics that 
 ---
 
 
-# What's up
+# What's up!
+
+Writer, Researcher, Generalist AI Engineer.
+
+Welcome to my digital home! This place is a constant work in progress, but you can find some helpful links on the right to some of my best art work, stuff I've made out of wood, and my academic research into artificial intelligence.
+
+I constantly want to learn more, so read through my stuff and email me any thoughts or comments you have. Thanks!
 
 
-I want to learn more. 
-
-Read my stuff.
-
-Email me if you learned something, want to know more about a specific point, or have new information to bring to light.
-
-Thank you.
 
 &nbsp;
 
