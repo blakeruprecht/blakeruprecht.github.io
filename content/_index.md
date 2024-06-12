@@ -7,13 +7,11 @@ description: "Blake Ruprecht's personal website. Here I write about topics that 
 
 # What's up!
 
-Writer, Researcher, Generalist AI Engineer.
+Computer Scientist | Researcher | Writer
 
-Welcome to my digital home! This place is a constant work in progress, but you can find some helpful links on the right to some of my best art work, stuff I've made out of wood, and my academic research into artificial intelligence.
+Currently looking for new challenges in the AI/ML space.
 
-I constantly want to learn more, so read through my stuff and email me any thoughts or comments you have. Thanks!
-
-
+Check out some of my art and research in the nav bar. Find links to contact me below. Email me if you want to discuss anything found on this website.
 
 &nbsp;
 

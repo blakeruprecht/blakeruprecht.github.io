@@ -27,21 +27,15 @@ body {
 }
 
 a {
-  color: var(--fg-color);
+  color: var(--accent-color);
   /*box-shadow: inset 0 -.2rem 0 var(--accent-color);*/
-  text-decoration: underline 1px var(--ul-color);
+  text-decoration: none 1px var(--ul-color);
   text-underline-offset: 4px;
 }
 
 a:hover {
   color: var(--accent-color);
   text-decoration: underline 1px var(--accent-color);
-}
-
-h1 a {
-  text-decoration: none;
-  color: var(--mg-color);
-  font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -131,7 +125,7 @@ img + em a {
 .site-nav a {
   font-family: var(--body-font);
   font-size: 1rem;
-  color: var(--fg-color);
+  color: var(--accent-color);
   line-height: 1.5rem;
   list-style-type: none;
 }
