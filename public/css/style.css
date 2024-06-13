@@ -139,7 +139,8 @@ img + em a {
 }
 
 .logo a {
-  color: var(--fg-color);
+  color: var(--accent-color);
+  font-weight: bold;
 }
 
 .menu {
