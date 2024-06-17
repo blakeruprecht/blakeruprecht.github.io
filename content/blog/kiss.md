@@ -7,6 +7,7 @@ Simple living is natural, easy, frugal, spiritual, sustainable, economical, heal
 
 ## Post Series
 I dive into simple living in more detail covering some essential parts of life, like:
+
 - [Nutrition](/blog/kiss-nutrition)
 - [Exercise](/blog/kiss-exercise)
 - [Software](/blog/kiss-software)

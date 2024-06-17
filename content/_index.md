@@ -4,24 +4,18 @@ date: 2023-07-24T15:29:23-04:00
 description: "Blake Ruprecht's personal website. Here I write about topics that interest me, link my academic research, display some art, and draw some pictures. My contact info is on the home page."
 ---
 
+# **blake**
 
-# What's up!
+AI/ML Engineer | Writer | Artist
 
-Computer Scientist | Researcher | Writer
+Read about my [AI/ML research](/research)
 
-Currently looking for new challenges in the AI/ML space.
+Read my [writing](/blog)
 
-Check out some of my art and research in the nav bar. Find links to contact me below. Email me if you want to discuss anything found on this website.
-
-&nbsp;
-
-&nbsp;
+Or check out my [drawing](/drawing) and [woodwork](/woodwork)
 
 &nbsp;
 
-&nbsp;
+Contact me:
 
-&nbsp;
-
-BlakeCRuprecht@gmail.com • [linkedin](https://www.linkedin.com/in/blakeruprecht/) • [github](https://github.com/blakeruprecht) • [medium](https://medium.com/@blakeruprecht) • [substack](https://blakeruprecht.substack.com/)
-
+BlakeCRuprecht@gmail.com / [Github](https://github.com/blakeruprecht) / [LinkedIn](https://www.linkedin.com/in/blakeruprecht) / [Medium](https://medium.com/@blakeruprecht) / [Substack](https://blakeruprecht.substack.com/)

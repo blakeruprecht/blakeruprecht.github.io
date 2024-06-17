@@ -1,5 +1,5 @@
 +++
-title = "Drawing"
+title = "drawing"
 date = 2023-04-10
 menu = "main"
 +++
@@ -107,5 +107,5 @@ Ink on paper, doesn't get better than that.
 &nbsp;
 
 ![Bday card hbd](drawing-bday-hbd.jpg)
-*I mean c'mon, I'm a minimalist, this one is my favorite.*
+*Keep it simple :)*
 

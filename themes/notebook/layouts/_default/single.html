@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 
-<h1></a>{{ .Title }}</h1>
+<h1><a href="/">blake</a>: <strong>{{ .Title }}</strong></h1>
 
 <span>
 	{{ range .Param "authors" }}
@@ -9,6 +9,6 @@
 	{{ end }}
 </span>
 
-{{ .Content }}
+{{ .Content | replaceRE "\\[\\[([^/]+)\\]\\]" "<a href=\"${1}.html\">$1</a>" |safeHTML }}
 
 {{ partial "footer.html" . }}

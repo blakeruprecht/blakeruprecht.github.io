@@ -162,7 +162,7 @@ I recently completed a four month trip around Southeast Asia and Europe lasting 
     </item>
     
     <item>
-      <title>Drawing</title>
+      <title>drawing</title>
       <link>https://blakeruprecht.github.io/drawing/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -175,7 +175,7 @@ I particularly like black ink drawings with that bold, all-black shading style, 
     </item>
     
     <item>
-      <title>Woodwork</title>
+      <title>woodwork</title>
       <link>https://blakeruprecht.github.io/woodwork/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -195,45 +195,24 @@ It seems so impossible before it happens. You see it approaching. You see all of
     </item>
     
     <item>
-      <title>exercise</title>
-      <link>https://blakeruprecht.github.io/notes/exercise/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>I am not a brewer</title>
+      <link>https://blakeruprecht.github.io/blog/brew/</link>
+      <pubDate>Thu, 27 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/notes/exercise/</guid>
-      <description>All movement counts as exercise. If you walk enough, that&amp;rsquo;s exercise.
-Good exercise starts with nose-breathing.
-Barefoot footwear is important for stability, balance, and foot strength.
-Train cardio.
-Train muscles.</description>
+      <guid>https://blakeruprecht.github.io/blog/brew/</guid>
+      <description>(This post is from mnmlist.com/brew/)
+By Leo Babauta
+I’ve been learning a bit about beers lately (and enjoying the learning process) and on the top beer ratings sites a beer from the Westvleteren Brewery tops the rankings.
+It’s a Belgium beer brewed by monks who absolutely fascinate me. They brew the best beer in the world and yet seem to care nothing about business. As their beer has gained fame they refuse to raise production to meet demand.</description>
     </item>
     
     <item>
-      <title>nutrition</title>
-      <link>https://blakeruprecht.github.io/notes/nutrition/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/notes/nutrition/</guid>
-      <description>Eat enough calories &amp;amp; nutrients Food fuels the body in the form of chemical energy, measured in calories. Eat as much as your burn, and you&amp;rsquo;ll maintain weight. Eat more, gain weight. Eat less, lose weight. You can tell if you&amp;rsquo;re eating enough by tracking bodyweight.
-Food builds the body in the form of nutrients. The reason a thousand different diets exist is because humans naturally want to eat the most rewarding foots &amp;ndash; fatty, salty, sugary stuff.</description>
-    </item>
-    
-    <item>
-      <title>recovery</title>
-      <link>https://blakeruprecht.github.io/notes/recovery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/notes/recovery/</guid>
-      <description>Sleep
-Hygiene</description>
-    </item>
-    
-    <item>
-      <title>Research</title>
+      <title>research</title>
       <link>https://blakeruprecht.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/research/</guid>
-      <description>Previously, I was an Artificial Intelligence research assistant at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems.
+      <description>Previously, I was an Artificial Intelligence research assistant at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems that explain their own decision-making steps.
 What did I research? I went to grad school to research the AI Alignment problem, which is similar to AI safety, AI risk research, etc. Alignment is more specific than safety because it doesn&amp;rsquo;t just mean trustworthy and harmless, it also means beneficial.</description>
     </item>
     
