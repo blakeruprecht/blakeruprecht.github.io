@@ -114,6 +114,10 @@ img {
   width: 100%;
 }
 
+img[alt=headshot] {
+  width: 250px;
+}
+
 img + em {
   font-family: var(--code-font);
   color: var(--fg-color);
