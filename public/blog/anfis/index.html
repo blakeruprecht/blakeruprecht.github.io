@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>ANFIS has gradient problems | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="&#34;The Adaptive Neuro Fuzzy Inference System (ANFIS) suffers from dead, zero, and non-changing gradients during neural network style machine learning.&#34;">
+
+  <link rel="canonical" href="https://blakeruprecht.github.io/blog/anfis/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+<main class="content">
+
+  
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+</script>
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [['$$', '$$']],
+      processEscapes: true
+    }
+  };
+</script>
+
+<h1><a href="/">blake</a>: <strong>ANFIS has gradient problems</strong></h1>
+
+<span>
+	
+</span>
+
+<p>See my <a href="/research">research</a> for more info!</p>
+<p>ANFIS has gradient problems during backpropagation. ANFIS is a type of <a href="neural networks.html">neural networks</a> trying to learn logical fuzzy rules. It is completely described using the three following equations. These equations are differentiable (mostly), so can be learned using neural techniques. The ws represent antecedents, the zs represent consequents, and the ys represent rule outputs.</p>
+<p>$$ w_n^r = \prod_{k=1}^K A_k^r (x_n(k)) $$
+$$ z_n^r = \rho_{bias}^r + \sum_{k=1}^K \rho_k^r (x_n(k)) $$
+$$ y^r = \frac{\sum_{n=1}^N w_n^r \cdot z_n^r}{\sum_{n=1}^N w_n^r} $$</p>
+<p>Gradient problems:
+- once dead, always dead
+- if only one rule fires, zero gradient
+- once big, no way to get smaller</p>
+<hr>
+<h1 id="references">References</h1>
+<ul>
+<li>Me</li>
+</ul>
+
+
+</main>
+	
+<footer>
+  <a href="/">home</a> :: <a href="/blog">blog</a>
+</footer>
+
+</body>
+</html>
+

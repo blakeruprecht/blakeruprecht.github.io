@@ -3,13 +3,19 @@
   <nav class="site-nav">
 
     <div class="logo">
-      <a href="/">{{ .Site.Title }}</a>
+      <li> <a href="/">{{ .Site.Title }}</a> </li>
     </div>
 
     <ul class="menu">
-      {{ range.Site.Menus.main }}
+      <li> <a href="/research">research</a> </li>
+      <li> <a href="/blog">blog</a> </li>
+      <li> <a href="/drawing">drawing</a> </li>
+      <li> <a href="/woodwork">woodwork</a> </li>
+
+      <!--{{ range.Site.Menus.main }}
       <li> <a href="{{.URL}}">{{ .Name }}</a> </li>
-      {{ end }}
+      {{ end }}-->
+
     </ul>
 
   </nav>

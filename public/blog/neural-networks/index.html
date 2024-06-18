@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Neural Networks (NNs) approximate any function | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.github.io/blog/neural-networks/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+<main class="content">
+
+  
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+</script>
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [['$$', '$$']],
+      processEscapes: true
+    }
+  };
+</script>
+
+<h1><a href="/">blake</a>: <strong>Neural Networks (NNs) approximate any function</strong></h1>
+
+<span>
+	
+</span>
+
+<p>Neural networks are universal function approximators, according to the Universal function approximation theorem. <a href="multilayer perceptrons.html">multilayer perceptrons</a>. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.</p>
+<h2 id="activation-functions">Activation Functions</h2>
+<ul>
+<li>ReLU</li>
+<li>TanH</li>
+<li>Sigmoid</li>
+</ul>
+<h2 id="loss-functions">Loss Functions</h2>
+<ul>
+<li>(1/2)e^2</li>
+<li>Softmax
+<ul>
+<li>$$
+\sigma(z)<em>i = \frac{\exp{z_i}}{\Sigma</em>{j=1}^K \exp{z_j}}
+$$</li>
+<li>$z$ is the input vector, $\in {-\infty,\infty}$, can be pos, neg, zero.</li>
+<li>$\exp{z}$ is applied to each element of the input vector, gives a pos. value above 0, which will be small if the input was neg., large if the input was large. Still not in (0,1)</li>
+<li>$\Sigma$ on bottom is the normalization term, ensures the output will sum to 1 in the range (0,1), making this a valid <a href="Probability distribution.html">Probability distribution</a>.</li>
+</ul>
+</li>
+<li>Cross-entropy
+<ul>
+<li>The cross-entropy between two probability distributions $p$ and $q$ over the same underlying set of events measures the average number of <a href="https://en.wikipedia.org/wiki/Bit" title="Bit">bits</a> needed to identify an event drawn from the set if a coding scheme used for the set is optimized for an estimated probability distribution $q$, rather than the true distribution, $p$.</li>
+<li>Basically, we want to figure out the true value, or label, $P$, and the predicted value, $Q$, multiply them together. (P,Q) = (1,1) -&gt; loss is 0, it really penalizes the values when P gets low based on (-log(x)).</li>
+<li>Has a linear gradient</li>
+<li>$$H(p,q) = - \sum_{X} P(x) log(Q(x))$$</li>
+<li>$$H(p,q) = - \int_{X} P(x) log(Q(x)) dr(x)$$</li>
+</ul>
+</li>
+<li>Regularization
+<ul>
+<li>A technique that adds terms on to the end of a Neural networks Loss function to include more emphasis on the weight terms.</li>
+<li>Similar to Lagrangian optimization in Microeconomics, where you maximize a <em>utility function</em> according to a <em>constraint</em></li>
+<li>max(<em>utility function</em>) + $\lambda$(constraint)</li>
+<li>Typically, add a LP-Norm to the loss function</li>
+<li>$$||x||<em>p = \left( \sum</em>{i=1}^n |x_i|^p \right)^{\frac{1}{p}}$$</li>
+</ul>
+</li>
+</ul>
+<h2 id="variations">Variations</h2>
+<p>Autoencoder</p>
+<ul>
+<li>A type of NN that attempts to learn a sparse representation of the data. This accomplishes dimensionality reduction.</li>
+<li>Takes in input vector x, turns it into reduced output y, and encodes y to return x as output.</li>
+<li>Useful for VAEs and GANs</li>
+</ul>
+<p>Generative Adversarial Network</p>
+<ul>
+<li>A type of NN that trains two networks in tandem: a generator and a discriminator. Random inputs are passed to the generator, which creates new samples. The discriminator has to determine if input images are real data or fake (from the generator).</li>
+<li>CycleGANs add in a full cycle from input $x$ to output $y$ back to recovered input $\hat{x}$ with a loss term hoping that $y$ and $x$ can be recovered by passing backwards thru the net.</li>
+</ul>
+<p>Extreme Learning</p>
+<ul>
+<li>A type of NN. In high-enough dimension space, any given vector can be mapped down to low-dimension (but still high) space, and generally the distances between points is preserved. This is because in large dimensions, most vectors are quasi-orthogonal with small inner products. Any two random vectors will be approximately orthogonal with probability $\approxeq$ 1</li>
+<li>Simply put:
+<ul>
+<li>Input Layer: $X$, dimension 1xN</li>
+<li>Hidden Layer: random weight matrix $W$, dimension NxL</li>
+<li>Output Layer: MLP learning linear decisions on dimension L</li>
+</ul>
+</li>
+<li>This shows that just using random projects of $X$ from N onto L leads to great learning performance. Really interesting.</li>
+</ul>
+<p>Convolution Neural Network</p>
+<ul>
+<li>A type of NN that uses convolution</li>
+</ul>
+<p>U-Net</p>
+<ul>
+<li>A type of CNN with skip connections</li>
+</ul>
+<p>Residual Net</p>
+<ul>
+<li>A type of NN that uses skip connections to deal with vanishing gradient problems. Made popular by the U-Net.</li>
+<li>How?
+<ul>
+<li>$x$ = input vector</li>
+<li>$W$ = input scalar to match $R(x)$</li>
+<li>$R(x)$ = residual component (activation before input is added)</li>
+<li>$y$ = $H(x)$ = output</li>
+<li>$$ y = H(x) = R(x) + Wx $$</li>
+<li>newState = fx(oldState, input)</li>
+</ul>
+</li>
+</ul>
+<p>Fractionally Strided Convolution
+A type of NN similar to CNNs. Convolution typically uses a filter to go from larger image (e.g. 4x4) to a smaller image (e.g. 2x2). Convolution acts as a good filter across the image. This technique tries to go UP rather than down. The problem is we&rsquo;re trying to GAIN information (normally, more pixels). Basically, for any region of the initial image, we need to find the resulting image that would &ldquo;convolve&rdquo; to the initial image. You can set up the series of equations to basically make this all make sense. Aka run convolution in reverse.</p>
+<ul>
+<li>$$ Y&rsquo; = W X&rsquo; $$</li>
+<li>$$ Z = W^T Y&rsquo;$$</li>
+</ul>
+<p>Recurrent Network</p>
+<ul>
+<li>A type of NN that is temporal rather than feed-forward like an <a href="multilayer perceptrons.html">multilayer perceptrons</a>.</li>
+<li>The output from one moment of time becomes the input to the next state.</li>
+<li>This is called &ldquo;feedback&rdquo;. The feedback can be weighted. Unity weights mean the output is directly passed to the inputs.</li>
+</ul>
+<hr>
+<h1 id="references">References</h1>
+
+
+</main>
+	
+<footer>
+  <a href="/">home</a> :: <a href="/blog">blog</a>
+</footer>
+
+</body>
+</html>
+

@@ -1,17 +1,23 @@
 ---
 date: 2023-11-20
-title: KISS software is Unix
+title: Simple software follows Unix principles
 description: '"The Unix philosophy of computer software is difficult to learn, but once you do, the rewards are well worth it because it makes using a computer much simpler."'
 ---
  
 ![Screenshot of my Linux env running DWM](/linux-setup.png)
 
-## Why bother?
-I come from an engineering and coding background, so take everything I say here with a grain of salt -- I've spent *way* too much time tinkering and fiddling with this stuff to get it all to work, but I think it's been worth it. Why? To take back control of my stuff. In case you want to do it to, I can point you in the right direction -> FOSS. Let me explain.
 
-*The Social Dilemna* is a great documentary summing up the path the internet has taken the past two-decades. It went from a place built by nerds, for nerds, to a place now mostly run by large corporations harvesting our collective attention for profit. This is great for the companies, but devastating for the average person. I don't believe that the average person benefits from social media and the internet at large. It's turned into a distraction economy that profits from keeping people as engaged as possible, tuned into crap. The television's distracting powers have been amplified tenfold, since the computer now rests in everyone's pockets, just a click away from insane content.
 
-There's a solution besides abstension -- and don't get me wrong, I think the Mennonites are doing much better with modern technology than the majority of western society because they have intentionally chosen to reject most modern computing in favor of maintaining their local communities.
+
+## Software is hard
+I just want to say that I find software quite difficult to work with, and I in theory have a masters degree in computer science. My argument against that is my degree focuses on math, not programming, so anything to do with turning on a computer and getting it to work makes me feel like a monkey. Eventually, I learned that software is a lot like building Lego sets -- the instructions tell you everything you need to know.
+
+After years of banging my head against the wall trying to get different computer programs to work with each other, I've settled on using just a few essential programs to get all of my computing done. What does this mean for you?
+
+If you're a fellow computer scientist, AI researcher, or engineer who likes to dive into the weeds, read on! If you're an average person, I only recommend diving into this stuff if you love to tinker. It's rewarding and cool to learn, but all of the others spent learning how to do this could otherwise be spent drinking beer on a beach, so up to you.
+
+## First Principles
+As with anything, let's break it down to the bare requirements -- why do I have a computer in the first place? For my requirements, it's basically 50% browsing the internet, and 50% editing text and code files and syncing those to the cloud. I don't need hardly anything on my laptop. Weather app? Nah, just go to weather.com. Excel? I just use Google Sheets. Texting? Hell no. I had a Mac, which came with a bunch of default crap that I didn't need on my computer. For example, the file manager -- on MacOS, that thing is terrible, it never tells you your absolute file path, confuses different drives, etc. Windows and MacOS are great operating systems, but they also come with a lot of crap and bloat that every user doesn't need.
 
 Free and Open Source Software (FOSS) is software distributed by one or multiple people entirely for free, with all of the source code readily available for anyone to look at, and propose changes to, or change themselves. It's yours to do what you want with. If you buy a new laptop or phone today, chances are it runs a proprietary operating system like Windows/MacOS/Android/iOS. These are all good operating systems from a technical standpoint, but they are closed source and cost money. But wait, doesn't every product cost money?
 
@@ -26,6 +32,19 @@ GNU, Linux, and most Free & Open-source Software follows the Unix philosophy, su
 1. Write programs that do one thing and do it well. (DOTADIW)
 2. Write programs to work together.
 3. Write programs to handle text streams, because that is a universal interface.
+
+## A Note on Social Media
+*The Social Dilemna* is a great documentary summing up the path the internet has taken the past two-decades. It went from a place built by nerds, for nerds, to a place now mostly run by large corporations harvesting our collective attention for profit. This is great for the companies, but devastating for the average person. I don't believe that the average person benefits from social media and the internet at large. It's turned into a distraction economy that profits from keeping people as engaged as possible, tuned into crap. The television's distracting powers have been amplified tenfold, since the computer now rests in everyone's pockets, just a click away from insane content.
+
+There's a solution besides abstension -- and don't get me wrong, I think the Mennonites are doing much better with modern technology than the majority of western society because they have intentionally chosen to reject most modern computing in favor of maintaining their local communities.
+
+## What I need
+The absolute basic requirements are an operating system to manage system resources, a window manager to draw pretty boxes on the screen, and a command prompt to navigate my file directories and perform basic scripting commands like viewing files (`ls -la`), deleting files (`rm`), moving files (`mv`), etc. Mac and Windows both achieve this excellently, but they come with a bunch of extra junk, so I installed a Linux distribution instead. A barebones Debian install comes with -- an OS. I installed a window manager (dwm) and a command prompt/terminal (st), and boom, I'm setup to computer.
+
+Beyond the core necessities, I need a few programming languages installed on my computer (C, Python, Go, HTML, CSS), all of which come on a normal Linux install except for Go, so I had to download that, as well as a few packages like "git". After that, using the default text editors (Nano and Vim (okay, upgraded that to Neovim)), I can edit all of the code I want to my heart's content. Cool.
+
+And I installed a *web browser* (Firefox). Now, I can do everything I want on a computer -- edit text, edit code, browse the web. That's it. I don't need a million other programs to do who knows what, just those few.
+
 ## My Software List
 In order of install, this is all of the major software I currently use on my laptop. I have not included the countless packages that are installed concurrently with these programs as necessary binaries and utilities, since I don't know what the heck those are. For reference, I have hardly anything installed on my laptop (seriously, less than 1GB of software), and still have around 1000 software packages.
 
@@ -87,3 +106,7 @@ Following the info from [Luke Smith](https://lukesmith.xyz/programs/)
 - [ ] newsboat for rss feeds
 - [ ] ffmpeg for video/audio recording
 - [ ] gimp for image editing
+
+## References
+- http://catb.org/~esr/writings/unix-koans/
+- 

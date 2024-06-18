@@ -4,15 +4,10 @@ date: 2023-07-24T15:29:23-04:00
 description: "Blake Ruprecht's personal website. Here I write about topics that interest me, link my academic research, display some art, and draw some pictures. My contact info is on the home page."
 ---
 
-# **blake**
+# **blake ruprecht**
 
-AI/ML Engineer | Writer | Artist
+[AI/ML Engineer](/research) | [Writer](/blog) | [Drawer](/drawing) | [Woodworker](/woodwork)
 
-Read about my [AI/ML research](/research)
-
-Read my [writing](/blog)
-
-Or check out my [drawing](/drawing) and [woodwork](/woodwork)
 
 &nbsp;
 

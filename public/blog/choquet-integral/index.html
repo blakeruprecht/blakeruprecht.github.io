@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>The Choquet Integral generalizes many metric functions. | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="&#34;The Choquet Integral generalizes many metric functions, include maximum, minimum, order weighted average (OWA), linear-order statistics (LOS), and more.&#34;">
+
+  <link rel="canonical" href="https://blakeruprecht.github.io/blog/choquet-integral/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+<main class="content">
+
+  
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+</script>
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [['$$', '$$']],
+      processEscapes: true
+    }
+  };
+</script>
+
+<h1><a href="/">blake</a>: <strong>The Choquet Integral generalizes many metric functions.</strong></h1>
+
+<span>
+	
+</span>
+
+<p>Where $\pi(j)$ sorts the inputs based on their output values, $h_{\pi(j)}$, which is the output for input $x_j$. Little g is a measure such that $g(A) &lt; g(B)$ if $A \subseteq B$, $g(\emptyset) = 0$, $g(\mathbf{X}) = 1$. ChI adheres to monotonicity, idempotency, subcontinuity, etc. This includes the Linear Order Statistic (LOS) the Order Weighted Average (OWA), Maximum, Minimum, etc.
+$$ \int h \odot g = C_g(h) = \sum_{j=1}^N h_{\pi(i)} \left( g(A_{\pi(j)}) - g(A_{\pi(j-1)}) \right) $$
+$\pi$ is the function that sorts the inputs according to their values $h(x_j)$
+$A_{\pi(j)}$ is the sorted vector = ${x_{\pi(1)}, x_{\pi(2)}, &hellip;}$
+$g$ is the learned measure (subsumes LOS, OWA, etc.)</p>
+<h2 id="losowa">LOS/OWA</h2>
+<p>Also known as LOS or Ordered Weighted Average (OWA), LOS sorts the inputs based on their magnitude, and has a vector of weights the same dimension as the input. Inputs are sorted in descending order, and all the weights sum to 1. This is differntiable, can use <em>Pytorch</em>, and is basically a <a href="Perceptron.html">Perceptron</a>.</p>
+<p>Example with three inputs (sort them first in descending order, largest first)
+$w = [1,0,0]$ is the maximum operator
+$w = [0,0,1]$ is minimum
+$w = [0,1,0]$ is median
+$w=[\frac{1}{3},\frac{1}{3},\frac{1}{3}]$ is average
+$w = [0.7,0.3,0]$ is a soft-max</p>
+<hr>
+<h1 id="references">References</h1>
+
+
+</main>
+	
+<footer>
+  <a href="/">home</a> :: <a href="/blog">blog</a>
+</footer>
+
+</body>
+</html>
+

@@ -14,3 +14,14 @@ enableRobotsTXT = true
 [services]
   [services.googleAnalytics]
     ID = 'G-3TL1K0T2Y4'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\$', '\$']]
+[params]
+  math = true

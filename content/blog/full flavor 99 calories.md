@@ -1,11 +1,11 @@
 ---
-date: 2021-09-21
+date: 2020-02-19
 title: Full Flavor, 99 Calories
 description: "\"I was in college and a lot of my friends were leaving, but on this day, I went out to the local bar and chilled with two of my best friends for hours. At the time, I never wanted it to end, and I still don't.\""
 ---
 
 
-*"I'll have to check, we might be out of Bud Select today, what do you want instead — Bud Light?"* You can't replace the best type of Bud...
+*"I'll have to check, we might be out of Bud Select today, what do you want instead —- Bud Light?"* No, you can't replace the best type of Bud...
 
 It seems so impossible before it happens. You see it approaching. You see all of the warning signs, all of the speed bumps preparing you for the abrupt stop ahead. Somber stories are repeated from old friends who are long past the days of sitting on rooftops at 2pm on a Tuesday, skipping class and drinking cold ones out of a squat, plastic cup, deciding that their responsibilities can be pushed off for at least two more hours, until they hit that Ballmer peak of "creativity" or whatever you're supposed to call drunkenly typing meandering lines of thought and utilizing spell check way too much and re-doing it all the next morning anyway -- but that doesn't matter.
 

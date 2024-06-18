@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Neural gas learns a self-organizing map | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="&#34;This algorithm learns a self-organizing map using neural network techniques. They&#39;re really cool to look at in simulation.&#34;">
+
+  <link rel="canonical" href="https://blakeruprecht.github.io/blog/neural-gas/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+<main class="content">
+
+  
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+</script>
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [['$$', '$$']],
+      processEscapes: true
+    }
+  };
+</script>
+
+<h1><a href="/">blake</a>: <strong>Neural gas learns a self-organizing map</strong></h1>
+
+<span>
+	
+</span>
+
+<p>Similar to <a href="Kohonen map.html">Kohonen map</a>, a Self-organing Map, but the topology is <em>learned</em>. Goal is to learn a topological structure to relate &ldquo;close&rdquo; datapoints to each other. Winner-takes-<em>most</em>. Growing neural gas starts with two-neurons and keeps adding a bisecting neuron until the stopping criteria is met (e.g. performance measure below threshold)</p>
+<h2 id="algorithm">Algorithm</h2>
+<ul>
+<li>Given an input dataset $x \in \mathbb{R}^n$</li>
+<li>Init &ldquo;weights&rdquo; $w_i \in \mathbb{R}^n$</li>
+<li>Pick a datapoint $v$ from $x$,
+<ul>
+<li>For each weight $w_i$, calculate the distance to $v$</li>
+<li>For each weight, determine the number (cardinality?) of how many other weights are closer to $v$ than $w_i$, which is $k_i$ -&gt; closest weight is $w_{i0}$</li>
+<li>Then, update the weights to better match the data
+<ul>
+<li>$w^{new}_i = w^{old}_i + (\epsilon) (exp(-k_i/\lambda)(v-w^{old}_i )$</li>
+<li>basically, the new position is the old position moved closer to $v$, decreased by $\epsilon$, decreased by the number of weights ahead of it in line, $\exp(-k_i/\lambda)$, in the direction of the point$v$, -&gt; $(v-w_i^{old})$</li>
+</ul>
+</li>
+<li>Create an edge between the two closest points to $v$, $C_{i0,i1} = 1$ set the timer to 0 for this edge
+<ul>
+<li>If the edge is already there, reset the timer to 0</li>
+</ul>
+</li>
+<li>Add 1 to each timer of all connections to $w_{i0}$</li>
+<li>Remove old connections with time over threshold $T$</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="references">References</h1>
+<ul>
+<li>Fritzke, B. <em>A Growing Neural Gas Network Learns Topologies</em>. NeurIPS. 1994.</li>
+<li>T. Martinetz, S. Berkovich, and K. Schulten. <em>&ldquo;Neural-gas&rdquo; Network for Vector Quantization and its Application to Time-Series Prediction</em>. IEEE-Transactions on Neural Networks, 4(4):558-569, 1993.</li>
+</ul>
+
+
+</main>
+	
+<footer>
+  <a href="/">home</a> :: <a href="/blog">blog</a>
+</footer>
+
+</body>
+</html>
+

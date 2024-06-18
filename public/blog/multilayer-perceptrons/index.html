@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Multilayer Perceptrons are the basic unit of a NN | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="&#34;Multilayer Perceptrons are the foundational algorithm at the basis of all modern neural networks. Here, I describe them simply using a few basic equations.&#34;">
+
+  <link rel="canonical" href="https://blakeruprecht.github.io/blog/multilayer-perceptrons/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+<main class="content">
+
+  
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+</script>
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [['$$', '$$']],
+      processEscapes: true
+    }
+  };
+</script>
+
+<h1><a href="/">blake</a>: <strong>Multilayer Perceptrons are the basic unit of a NN</strong></h1>
+
+<span>
+	
+</span>
+
+<p>A type of NN that implements multiple layers of the <a href="Perceptron.html">Perceptron</a>.</p>
+<ul>
+<li>
+<p>$\mathbf{x}$ = input vector of length $N$</p>
+</li>
+<li>
+<p>$\mathbf{w}$ = weight vector of length $N$</p>
+</li>
+<li>
+<p>$\sigma$ = activation function (typically ReLU, tanh, sigmoid, etc.)</p>
+</li>
+<li>
+<p>$y$ = output scalar</p>
+</li>
+<li>
+<p>$\hat{y}$ = label scalar</p>
+</li>
+<li>
+<p>$e$ = error or loss scalar function (typically 1/2e^2)</p>
+</li>
+</ul>
+<p>$$ y = \sigma(w^T \cdot x) $$
+$$ e = \frac{1}{2}(\hat{y} - y)^2$$</p>
+
+
+</main>
+	
+<footer>
+  <a href="/">home</a> :: <a href="/blog">blog</a>
+</footer>
+
+</body>
+</html>
+
