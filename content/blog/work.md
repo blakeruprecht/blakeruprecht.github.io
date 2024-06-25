@@ -6,11 +6,11 @@ description: "\"I don't just mean jobs, I mean anything kind of action that prod
 There is no purpose or meaning to life, that we know of. Many people have come up with their own philosophies, which I see divided into three main categories.
 - Pleasure-seekers. Hedonists. Druggies. Whatever you want to call them, these people pursue pleasure above all else. Short term pleasure, here and now, instant gratification. These people want to chill and relax all day, doing nothing, soaking up the sunshine.
 - Ascetics. Avoiders. These people see the suffering and pain in the world and want no part in it. They try to distance themselves from anything dangerous, fun, difficult, or challenging, instead living a life of meditative bliss.
-- Workers. Players. Poetics. Hermetics. These people accept the pain of action and move forward to create a better world. You can clearly see which one is better. They experience the pain of pursuit, and the pleasure of success, until eventually, the pursuit is what brings pleasure.
+- Workers. Players. Poetics. Hermetics. The people don't just pursue pleasure or pain, but both, and apply some meaning to the process. THey strive to create for the sake of creation itself.
 
-When I say "work", I mean really just mean taking action to change the world. Work includes stuff like cooking meals, gathering groceries, cleaning your body, training your cardio, doing pullups, doing the laundry, making someone a card, calling your mom, planning out a vacation, earning money to support yourself and others. I want to leave the narrow view of "work" as economic activity done to benefit some rich fuck's business, and remember that "work" is all of the action we take to improve our own lives and those around us.
+When I say "work", I really just mean taking action to change the world. Doing anything productive, not just wage jobs. Work includes stuff like cooking meals, gathering groceries, cleaning your body, training your cardio, doing pullups, doing the laundry, making someone a card, calling your mom, planning out a vacation, earning money to support yourself and others. Not just economic activity to earn money, but all work done to benefit your own and other's lives. Technically, it doesn't have to be beneficial either.
 
-Building relationships is some of the most important work any of us will ever do in our lives.
+Side note, building relationships is some of the most important work any of us will ever do in our lives.
 
 ---
 ## References

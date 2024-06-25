@@ -6,7 +6,7 @@ description: '"The Adaptive Neuro Fuzzy Inference System (ANFIS) suffers from de
 ## A Fuzzy Neural Network
 The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in Python, specifically utilizing the PyTorch package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn't you know it, PyTorch knows what it's doing. 
 
-ANFIS is a type of artificial [neural network](/neural networks) that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of [multilayer perceptrons](/multilayer perceptrons). Similar to a typical neural network, the input, $x_n(k)$, is a vector of scalars of length $n$ with features $k$. 
+ANFIS is a type of artificial [neural network](/blog/neural-networks) that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of [multilayer perceptrons](/blog/multilayer-perceptrons). Similar to a typical neural network, the input, $x_n(k)$, is a vector of scalars of length $n$ with features $k$. 
 
 ## It's only three equations
 The antecedent, $w$, represents the fuzzy logic statement "If $x$ fits this rule well, then the rule matching strength, $w$, should be high." In this equation, the $A$ term is a function that takes in $x$ and returns $A(x)$, the membership value of the fuzzy set, which I called the rule-matching strength. ANFIS learns the $A(x)$ membership functions.

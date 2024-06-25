@@ -20,6 +20,25 @@ Soak Cashews in water for 30 min Prep Habaneros, Yellow Bell Pepper, Garlic, Oni
     </item>
     
     <item>
+      <title>Meditation teaches the Way</title>
+      <link>https://blakeruprecht.github.io/blog/meditation/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/meditation/</guid>
+      <description>Meditation is the art of inaction. It&amp;rsquo;s the practice of doing nothing. While there are numerous benefits of meditation for overall health and well-being, and often neglected benefit of meditation is how it helps you do everything else. Since you learn to quiet your thoughts about the past and future and focus totally on the present, meditation develops the quality of mind that is necessary for success in almost every other endeavor &amp;ndash; attention.</description>
+    </item>
+    
+    <item>
+      <title>Perfectionism is tough to recognize</title>
+      <link>https://blakeruprecht.github.io/blog/perfectionism/</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/perfectionism/</guid>
+      <description>What is it?
+Procrastination Fear of failure leads to procrastination Creates a vicious cycle All-or-nothing thinking Strive for perfect or flawless, almost perfect is seen as a failure Focused only on results High achievers can enjoy the process of chasing a goal as much or more than the actual reaching of the goal itself. Conversely, perfectionists see the goal and nothing else. They’re so concerned with hitting the goal and avoiding failure that they can’t enjoy the process of growing and striving.</description>
+    </item>
+    
+    <item>
       <title>My quest for the perfect bowl of Noodle Soup</title>
       <link>https://blakeruprecht.github.io/blog/noodle-soup/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
@@ -193,7 +212,7 @@ Unsupervised Different techniques are used to learn structure from data. Problem
       
       <guid>https://blakeruprecht.github.io/blog/anfis/</guid>
       <description>A Fuzzy Neural Network The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in Python, specifically utilizing the PyTorch package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn&amp;rsquo;t you know it, PyTorch knows what it&amp;rsquo;s doing.
-ANFIS is a type of artificial [neural network](/neural networks) that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of [multilayer perceptrons](/multilayer perceptrons).</description>
+ANFIS is a type of artificial neural network that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of multilayer perceptrons.</description>
     </item>
     
     <item>
