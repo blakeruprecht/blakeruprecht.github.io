@@ -30,7 +30,7 @@ a {
 
 a:hover {
   color: var(--fg-color);
-  text-decoration: underline 2px #333;
+  text-decoration: underline 2px var(--fg-color);
   transition: all .3s linear;
 }
 
@@ -82,16 +82,16 @@ time {
 code {
   font-family: var(--code-font);
   color: var(--fg-color);
-  background: var(--hr-color);
+  border: solid 1px var(--mg-color);
 }
 
 blockquote {
-  border-left: 1px solid var(--ul-color);
+  border-left: 2px solid #e2e2e2;
   padding: 0rem 1rem;
 }
 
 hr {
-  border: 1px solid var(--hr-color);
+  border: 1px solid var(--mg-color);
 }
 
 footer {

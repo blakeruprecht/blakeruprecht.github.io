@@ -7,6 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Delicious Creamy Brah Sauce recipe</title>
+      <link>https://blakeruprecht.github.io/blog/dcbs/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/dcbs/</guid>
+      <description>INGREDIENTS
+Fresh
+1/2 cup Cashews soaked 25 Habaneros roughly chopped 1 Yellow Bell Pepper roughly chopped 10 Garlic Cloves smashed 1 Onion roughly chopped 1/2 Lemon juiced Pantry
+1 quart White Vinegar 2 Tbsp Apple Cider Vinegar 2 Tbsp Maple Syrup 2 Tbsp Soy Sauce 2 Tbsp Olive Oil 1 Tbsp Sesame Oil 4 tsp Mustard Powder 1 tsp Turmeric Powder INSTRUCTIONS
+Soak Cashews in water for 30 min Prep Habaneros, Yellow Bell Pepper, Garlic, Onion Saute Olive Oil, Onion, Garlic until softened Add Habaneros, Yellow Bell Pepper Add White Vinegar, Apple Cider Vinegar, Maple Syrup, Soy Sauce, Sesame Oil, Mustard Powder, Turmeric Powder Bring to a boil, then reduce to a simmer, simmer for 30-45 min (longer is less spicy) Taste and adjust for seasoning Blend in a food processor/blender Pour into sauce jars About Originally invented by James S.</description>
+    </item>
+    
+    <item>
       <title>My quest for the perfect bowl of Noodle Soup</title>
       <link>https://blakeruprecht.github.io/blog/noodle-soup/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
@@ -43,6 +56,26 @@ I also ate grasshoppers, crickets, mealworms, and bamboo worms. I liked them all
       
       <guid>https://blakeruprecht.github.io/blog/ai-to-learn-python/</guid>
       <description>I learned Python as an AI researcher, since Python is the industry standard for open-source AI software. Python isn&amp;rsquo;t particularly good at any one thing language wise, but it&amp;rsquo;s pretty much the jack-of-all-trades, can do anything language, so it&amp;rsquo;s great for prototyping algorithms that don&amp;rsquo;t make any sense. It took me forever to realize that most of what people were doing with Python wasn&amp;rsquo;t that complicated. Even though there are a million different packages to learn, each package basically does one thing, and does it well.</description>
+    </item>
+    
+    <item>
+      <title>Do work you enjoy</title>
+      <link>https://blakeruprecht.github.io/blog/work/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/work/</guid>
+      <description>There is no purpose or meaning to life, that we know of. Many people have come up with their own philosophies, which I see divided into three main categories.
+Pleasure-seekers. Hedonists. Druggies. Whatever you want to call them, these people pursue pleasure above all else. Short term pleasure, here and now, instant gratification. These people want to chill and relax all day, doing nothing, soaking up the sunshine. Ascetics. Avoiders. These people see the suffering and pain in the world and want no part in it.</description>
+    </item>
+    
+    <item>
+      <title>A collection of thoughts on Solarpunk</title>
+      <link>https://blakeruprecht.github.io/blog/solarpunk/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/solarpunk/</guid>
+      <description>Basically Deep ecology, Anarcho communism, but seemingly more hopeful.
+Solarpunk Current knowledge of human happiness Deep ecology, sustainability taken farther Engineering green energy, composite wood buildings, green architecture, water? Permaculture Bicycling, Public transportation Walkable cities Peace The &amp;ldquo;Hierarchy&amp;rdquo; of Needs is really a circle Peace and Love, I&amp;rsquo;m a dirty hippie Clocks are a capitalist invention to keep the common man down The rhythms of the natural world are forgotten We are not robots, we are large mammals who want to finish up work by noon to go surf and dance Wage-slavery.</description>
     </item>
     
     <item>
@@ -100,6 +133,16 @@ I recently completed a four month trip around Southeast Asia and Europe lasting 
       
       <guid>https://blakeruprecht.github.io/blog/grocery-shopping/</guid>
       <description>I went grocery shopping with my buddy recently and was totally baffled when we did the unthinkable: we backtracked. We went back to the produce section not once, but twice, making three total trips through the same section. Grocery shopping is my least favorite part of the eating experience, yet it seems to be a necessity for most people. My garden is non-existent, and my foraging skills are abysmal, so the next best option is to take my hard-earned cash into the big unwindowed box of fluorescent lighting and try to navigate the dense forest of packaged items.</description>
+    </item>
+    
+    <item>
+      <title>Game Theory applies math to behavior</title>
+      <link>https://blakeruprecht.github.io/blog/game-theory/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/game-theory/</guid>
+      <description>&amp;ldquo;Intelligence is the ability to get what you want.&amp;rdquo;
+As agents, we set goals and figure out how to achieve them. That&amp;rsquo;s what being smart is. Being intelligent is not the ability to learn 100 digits of Pi. That&amp;rsquo;s just pure computation. Being intelligent is reciting those digits to a girl you have a crush on, but only if it works. If she gets the ick, then that behavior was dumb, unless you were purely competing with yourself, in which case it&amp;rsquo;s back to being smart.</description>
     </item>
     
     <item>
@@ -172,9 +215,29 @@ Unsupervised Different techniques are used to learn structure from data. Problem
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/anfis/</guid>
-      <description>See my research for more info!
-ANFIS has gradient problems during backpropagation. ANFIS is a type of [[neural networks]] trying to learn logical fuzzy rules. It is completely described using the three following equations. These equations are differentiable (mostly), so can be learned using neural techniques. The ws represent antecedents, the zs represent consequents, and the ys represent rule outputs.
-$$ w_n^r = \prod_{k=1}^K A_k^r (x_n(k)) $$ $$ z_n^r = \rho_{bias}^r + \sum_{k=1}^K \rho_k^r (x_n(k)) $$ $$ y^r = \frac{\sum_{n=1}^N w_n^r \cdot z_n^r}{\sum_{n=1}^N w_n^r} $$</description>
+      <description>A Fuzzy Neural Network The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in Python, specifically utilizing the PyTorch package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn&amp;rsquo;t you know it, PyTorch knows what it&amp;rsquo;s doing.
+ANFIS is a type of artificial [neural network](/neural networks) that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of [multilayer perceptrons](/multilayer perceptrons).</description>
+    </item>
+    
+    <item>
+      <title>Action or entropy</title>
+      <link>https://blakeruprecht.github.io/blog/action-or-entropy/</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/action-or-entropy/</guid>
+      <description>A meditation to myself.
+Responsibility is literally my &amp;ldquo;response ability&amp;rdquo;. I cannot choose my circumstances, or what the people around me are doing. All I can choose is how I respond. Previously I called this &amp;ldquo;hell yes or no&amp;rdquo;, but that can be a little confusing. This doesn&amp;rsquo;t mean you have to love every decision you make, or be in love with what you&amp;rsquo;re doing. It just means that taking action is a choice.</description>
+    </item>
+    
+    <item>
+      <title>Reward drives behavior</title>
+      <link>https://blakeruprecht.github.io/blog/reward-drives-behavior/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/reward-drives-behavior/</guid>
+      <description>It&amp;rsquo;s all about sex. Or money. Or good food.
+Reward.
+If you want to win a game, you should reward yourself only for winning. Not for time spent practicing, not for time spent reading, not for anything else besides winning. Don&amp;rsquo;t reward yourself for &amp;ldquo;playing hard&amp;rdquo;, or &amp;ldquo;trying&amp;rdquo;, or for &amp;ldquo;having fun&amp;rdquo;, or doing one aspect of the game well. Sure, these tricks may be helpful to keep you playing, but they don&amp;rsquo;t necessarily help you win.</description>
     </item>
     
     <item>
@@ -185,6 +248,16 @@ $$ w_n^r = \prod_{k=1}^K A_k^r (x_n(k)) $$ $$ z_n^r = \rho_{bias}^r + \sum_{k=1}
       <guid>https://blakeruprecht.github.io/blog/neural-gas/</guid>
       <description>Similar to [[Kohonen map]], a Self-organing Map, but the topology is learned. Goal is to learn a topological structure to relate &amp;ldquo;close&amp;rdquo; datapoints to each other. Winner-takes-most. Growing neural gas starts with two-neurons and keeps adding a bisecting neuron until the stopping criteria is met (e.g. performance measure below threshold)
 Algorithm Given an input dataset $x \in \mathbb{R}^n$ Init &amp;ldquo;weights&amp;rdquo; $w_i \in \mathbb{R}^n$ Pick a datapoint $v$ from $x$, For each weight $w_i$, calculate the distance to $v$ For each weight, determine the number (cardinality?</description>
+    </item>
+    
+    <item>
+      <title>Algorithm to beat procrastination</title>
+      <link>https://blakeruprecht.github.io/blog/algorithm-to-beat-procrastination/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/algorithm-to-beat-procrastination/</guid>
+      <description>$$ Motivation = \frac{Expectancy \cdot Value}{Impulsiveness \cdot Delay} $$
+Step 1: Notice I&amp;rsquo;m procrastinating I know I should do a task Step 2: Guess which unattacked part of the equation is causing me the most trouble. Low Expectancy: am I likely to succeed? Is the task within my capabilities? Will I actually get the reward? Low Value: am I bored and distracted? Uncomfortable, onerous, or painful? Am I nervous or afraid of the outcome?</description>
     </item>
     
     <item>
