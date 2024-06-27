@@ -1,11 +1,9 @@
 ---
 date: 2024-03-17
-title: I learned Python through AI research
+title: How to Install Python
 description: '"In this essay I take readers on a journey from Noob to Python master, the same journey I undertook during my Masters degree to study AI."'
 ---
 ![The python logo is cool](/python-logo.png)
-
-
 
 
 I learned Python as an AI researcher, since Python is the industry standard for open-source AI software. Python isn't particularly good at any one thing language wise, but it's pretty much the jack-of-all-trades, can do anything language, so it's great for prototyping algorithms that don't make any sense. It took me forever to realize that most of what people were doing with Python wasn't that complicated. Even though there are a million different packages to learn, each package basically does one thing, and does it well.

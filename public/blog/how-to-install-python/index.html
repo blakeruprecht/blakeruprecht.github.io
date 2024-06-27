@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>How to Install Python | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="&#34;In this essay I take readers on a journey from Noob to Python master, the same journey I undertook during my Masters degree to study AI.&#34;">
+
+  <link rel="canonical" href="https://blakeruprecht.github.io/blog/how-to-install-python/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+<main class="content">
+
+  
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+</script>
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [['$$', '$$']],
+      processEscapes: true
+    }
+  };
+</script>
+
+<h1><a href="/">blake</a>: <strong>How to Install Python</strong></h1>
+
+<span>
+	
+</span>
+
+<p><img src="/python-logo.png" alt="The python logo is cool"></p>
+<p>I learned Python as an AI researcher, since Python is the industry standard for open-source AI software. Python isn&rsquo;t particularly good at any one thing language wise, but it&rsquo;s pretty much the jack-of-all-trades, can do anything language, so it&rsquo;s great for prototyping algorithms that don&rsquo;t make any sense. It took me forever to realize that most of what people were doing with Python wasn&rsquo;t that complicated. Even though there are a million different packages to learn, each package basically does one thing, and does it well.</p>
+<p>A huge misconception I had was that I had to &ldquo;learn&rdquo; Pandas, and Numpy, and Matplotlib. Not really. I&rsquo;ll teach you those three packages real quick.</p>
+<h2 id="install-python">Install Python</h2>
+<p>First, you have to install Python onto your computer. If you&rsquo;re running a Linux OS, you&rsquo;ll already have Python.</p>
+<h2 id="learn-python">Learn Python</h2>
+<p>Of course, you&rsquo;ll have to learn the basic syntax of Python. My best recommendation is to find some cheat sheets on the internet and reference those until the syntax becomes second nature. I&rsquo;ve written a ton of Python and I still occasionally forget where to put colons and the specific words for less-used functions. It&rsquo;s programming, you don&rsquo;t have to memorize it all, you have a computer at your disposal.</p>
+<p>As for the packages, I thought for a long time that I would have to spend months trying to learn each one, but they&rsquo;re not that complicated. Each package basically does one thing, and there&rsquo;s not that much you have to learn for each one. I&rsquo;ll go over a few packages to show you what I mean.</p>
+<p><strong>PANDAS</strong> is a package that &ldquo;provides fast, flexible, and expressive data structures designed to make working with relational and labeled data both easy and intuitive.&rdquo; In laymans terms, you use pandas to import a data file, for example a .csv taken from a spreadsheet, and turn it into a &ldquo;data frame&rdquo;. It does some fancy stuff like clean and organize data too, but it mostly is just used to import the data into your python script so you can use numpy and matplotlib on the data. Here&rsquo;s an example:</p>
+<p><code>import pandas as pd</code>
+<code>df1 = pd.read_csv(&quot;my_file.csv&quot;)</code>
+<code>mydata = { 'red': [1, 2, 5], 'blue': [9, 4, 1] } </code>df2 = pd.DataFrame(mydata)``</p>
+<p>Comments</p>
+<ul>
+<li>Everyone imports pandas as &ldquo;pd&rdquo;, it seems to be a specific trait of coders to be as lazy as possible and I love it.</li>
+<li><code>df1</code> is just a variable name, because lazy, you can call it whatever you want</li>
+<li>Here we use the <code>read_csv()</code> function to load in our file. This is the bread and butter of pandas. Whatever your Python script is called, e.g. <code>test_pandas.py</code>, make sure that python script is in the same folder as <code>my_file.csv</code>. If it&rsquo;s not, you can tell python the absolute file path of <code>my_file.csv</code> instead, for example <code>df = pd.read_csv(&quot;/home/blake/Downloads/my_file.csv&quot;)</code>. Getting the file path correct is essential so Python can actually find the file you want to use.</li>
+<li>Here, I create a dictionary of arrays, just to show that Python dictionaries can be turned into DataFrames. I would recommend just getting comfortable with dicts &amp; arrays, but PD is helpful too.</li>
+</ul>
+<p><strong>NUMPY</strong> is the numerical package for Python. Numpy is pretty much just used for working with numerical arrays. Instead of using the built-in python arrays, we use Numpy because it&rsquo;s way faster. This is where we really get to see that Python was not built for numeric computing, since Numpy is a massive headache of parentheses and brackets. Coming from MATLAB, I was pissed learning this, and there&rsquo;s really no good solution. It&rsquo;s just a bummer that Python doesn&rsquo;t handle array data natively, but maybe it&rsquo;s a good thing and I just don&rsquo;t know why yet.</p>
+<p><code>import numpy as np</code>
+<code>arr_0d = np.array( 42 )</code>
+<code>arr_1d = np.array( [1, 2] )</code>
+<code>arr_2d = np.array( [5, 6, 7], [8, 9, 10] ) </code>print(arr_1d[0])<code>-&gt; &quot;[1,2]&quot;</code>print(arr_2d[1])<code>-&gt; &quot;[8,9,10]&quot;</code>print(arr_2d[1][0])`` -&gt; &ldquo;8&rdquo;</p>
+<ul>
+<li>Again, import using an alias because lazy.</li>
+<li>First we create a 0-dimension array, otherwise known as a scalar. Should it really be a 1-d array? No. That&rsquo;s the next one.</li>
+<li>Here we create a 1-d array (only x-axis) from a Python array.</li>
+<li>Now a 2-d array, made from two lists</li>
+</ul>
+<p>Let me guess, you want to learn Python, but there is a disconnect between practicing it on your web browser and actually getting programs to run on your machine locally? Well, maybe not, but this was the case for me, and I dented the wall next to my desk with the amount of times I banged my head in frustration trying to get software to work on my computer.</p>
+<p>I started my Python journey as a mechanical engineering student with lots of math and some coding knowledge, or so I thought. Things were still pretty rough in the beginning, to say the least. Who knew how complicated computers were? No wonder there&rsquo;s an entire major dedicated to them. I had some previous Matlab coding experience, but this barely scratched the surface of what I would need to learn to get up to speed with AI developments. Everything I found and read online seemed to be tailored towards people with bachelor&rsquo;s degrees in CS already. I wished there was something to explain everything to me simply, so I&rsquo;m writing that now. You can get pretty far in AI without knowing any math, but you can&rsquo;t really get anywhere without knowing coding, and specifically, knowing Python. Here&rsquo;s what you need to know, from five long years of banging my head against a wall trying to figure all of this stuff out.</p>
+<h2 id="hardware-and-operating-systems">Hardware and Operating Systems</h2>
+<p>Okay, first things first, you need a computer. Assuming you&rsquo;re reading this online, step one (probably) done. What computer? Any. You can learn and code on basically any functioning computer. Sure, training large AI models requires some pretty intense computing power, but if you&rsquo;re just interested in learning like I was, you won&rsquo;t need anything powerful. A used $100 Lenovo Thinkpad X220 is a great option if you need something cheap. I have a used $300 Dell XPS 13 9370 that came with Windows 11 and is now running Linux, and an old 2015 Macbook Pro running MacOS. I also have a dedicated desktop with a fancy GPU, mainly for gaming. If you want to keep up with OpenAI/Google/Meta, you&rsquo;ll need hundreds of millions of dollars worth of computing power. I was never interested in running massive experiments, so I just use what I have. You could probably figure out how to run code on a cellphone, but Android and iOS are both annoying to use, so I wouldn&rsquo;t recommend it unless you know more than me.</p>
+<p>As for operating systems, the vast majority of research and online code I found was setup for people running MacOS or Ubuntu/Debian Linux. Windows is fine, especially if you install Windows Subsystem for Linux. Microsoft has made some impressive strides recently to support Linux and open-source software, it&rsquo;ll just be slightly trickier since all of the tutorials will be tailored for Unix-based systems (MacOS, Linux-variants, BSD-variants). I personally love Linux because it gives me total control over my laptop, and I&rsquo;m a big proponent of free and open source software, but if you don&rsquo;t care about this, use Mac or Windows.</p>
+<h2 id="directory-structure">Directory Structure</h2>
+<p>What the hell is a directory? This is some secret CS juju I learned later, but a &ldquo;directory&rdquo; is the fancy computer term for a folder. Like the &ldquo;Documents&rdquo;, &ldquo;Downloads&rdquo;, and &ldquo;Pictures&rdquo; folder that are probably on your computer already. So much of coding is figuring out where you currently are in the overall computer directory structure. Regardless of what OS you have, you likely have a user directory specific to your profile.</p>
+<p>I&rsquo;m a literal <em>master of computer science</em> and have been working with computers for 20+ years, I have two degrees in engineering, and yet, all of this stuff is still confusing as fuck to me. Trust me, it&rsquo;s not you, it&rsquo;s computers that are confusing, they&rsquo;re so damn complicated with archaic software tacked on top of and under new software, and the whole thing is resting on a precarious foundation.</p>
+<ul>
+<li>Directories
+<ul>
+<li>All computer files are stored on the &ldquo;disk&rdquo;, aka your hard drive, could be a solid state drive. This is separate from &ldquo;memory&rdquo;, which refers to RAM.</li>
+<li>&ldquo;Directory&rdquo; means the same thing as &ldquo;folder&rdquo; but is preferred in computer speak for who knows what reason.</li>
+<li>Every single drive follows the same structure
+<ul>
+<li>Using Unix terminology, the entire drive is labeled <code>/</code>, slash, which refers to the &ldquo;root&rdquo; of the directory &ldquo;tree&rdquo;, aka it&rsquo;s the entire drive, it contains everything.</li>
+<li>Example using bullet points to display directory depth
+<ul>
+<li><code>/</code> (this is the top-most level, often called &ldquo;root&rdquo;, but as you can see, it doesn&rsquo;t have a name, and is just represented by the forward slash. Dunno why.)
+<ul>
+<li><code>/folder1</code>
+<ul>
+<li><code>/subfolder1</code>
+<ul>
+<li><code>/subsubfolder1</code>
+<ul>
+<li><code>file1.txt</code> (full path is `/folder1/subfolder1/subsubfolder1/file1.txt)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>/subfolder2</code>
+<ul>
+<li><code>file2.txt</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>/folder2</code>
+<ul>
+<li><code>/subfolder1</code>
+<ul>
+<li><code>file3.txt</code></li>
+<li><code>file4.txt</code></li>
+</ul>
+</li>
+<li><code>/subfolder2</code>
+<ul>
+<li>(empty, no files yet)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Terminal / Command Line
+<ul>
+<li>Some good commands to know
+<ul>
+<li><code>cd</code> (current directory)
+<ul>
+<li><code>cd ..</code> (<code>..</code> is a special variable name referring to the directory immediately above you, so regardless of where you are in the tree, it will take you one layer higher)</li>
+<li><code>cd /</code> change directory to your unnamed root</li>
+<li><code>cd ~</code> change directory to your current user&rsquo;s home directory (for me, <code>/home/blake/</code>) (remember <code>/home</code> lives in the unnamed root directory, <code>/</code>)</li>
+<li><code>cd /new/directory/path/</code></li>
+</ul>
+</li>
+<li><code>ls</code> (list)
+<ul>
+<li><code>ls -la</code></li>
+</ul>
+</li>
+<li><code>mv</code> (move a file/folder from one location to another)
+<ul>
+<li><code>mv /old/example.py /new/example.py</code></li>
+<li><code>mv /old/example.py /new/</code>
+<ul>
+<li>these two are equivalent</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>cp</code> (copy, first argument is the file that already exists and you want to make a copy of, second argument is the place you want to put the new file)
+<ul>
+<li><code>cp name.txt newname.txt</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>OS Package Manager
+<ul>
+<li>MacOS - homebrew</li>
+<li>Windows - chocolatey</li>
+<li>Linux - distro dependent (pacman, apt, etc.)</li>
+</ul>
+</li>
+<li>Python Package Manager
+<ul>
+<li>Conda vs. Pip</li>
+<li>Packages to <code>pip install</code>
+<ul>
+<li>numpy (for dealing with numbers and arrays)</li>
+<li>pandas (for importing data)</li>
+<li>matplotlib (for making graphs &amp; graphics)</li>
+<li>pytorch (the major AI/ML package, along with tensorflow)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li>
+<p>Figure out how to use the Terminal (oftentimes an Application on modern computers, but originally the only way you talked to a computer) and the basic Shell commands, e.g. <code>cd</code>, <code>ls</code>, <code>mv</code></p>
+<ol>
+<li>SideQuest: dive deep into learning Bash as scripting language, using it for all sorts of useful things and fast programming, data sorting, etc. I&rsquo;ve done a bit, and it&rsquo;s really useful. Think of Bash as just another useful programming language in your tool box.</li>
+</ol>
+</li>
+<li>
+<p>Download a text editor like VSCode to edit code and text.</p>
+<ol>
+<li>SideQuest: learn about Vim (and Vi), the original Unix text editors which still work amazing, are lightweight, free, have modern extensions for easier coding (e.g. NeoVim), and are almost entirely keyboard based. You don&rsquo;t need to use the mouse, like ever. Downside, it doesn&rsquo;t make you a better coder and takes a while to learn. Most pros just use VSCode.</li>
+</ol>
+<ul>
+<li>SideQuest: learn about Emacs and the wonders of elisp, the super fancy Linux/GNU text editor that can do some really magical stuff. LISP is crazy cool, but difficult and not practical right off the bat. Of course, the more programming languages you learn, the better programmer you will be, so get familiar with all of the languages and what they&rsquo;re good for.</li>
+</ul>
+</li>
+<li>
+<p>Download Conda, Python, and relevant Python packages into your software environment. You&rsquo;ll have to get good at installing different software packages and setting up the right Environments for testing using the $PATH variable. This took me years to figure out, and is much more difficult than the actual writing of python.</p>
+<ol>
+<li>Pip is the default Python package manager and works well. Learn how to use it, as well as Miniconda. If you absolutely hate the command line, look at installing Anaconda which comes with a IDE. Also, follow the <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html">Docs</a></li>
+</ol>
+</li>
+<li>
+<p>Start writing AI/ML/NN/RL code in Python! As with all coding related endeavors, the most important part of this process is learning how to read documentation yourself. Everything you need to know is in the &ldquo;man&rdquo; pages and online documentation, plus there is Stack Overflow for when you get stuck.</p>
+</li>
+</ol>
+<p>Now you can never touch this lame software stuff again, and just get right to working through OpenAI&rsquo;s <a href="https://spinningup.openai.com/en/latest/">Spinning Up in Deep RL</a> to become a dope AI Alignment researcher! Haha, I kid, all of this stuff is super cool, and are the tools that you will be building your tools on top of. Sure, you can evaluate math algorithms in any software environment technically, but this is basically the industry standard that will help you play the game a lot easier.</p>
+<p>After those six ez pz software steps, we&rsquo;ll move on to actually learning AI. I read the following books as introductions to the field:</p>
+<ul>
+<li><em>Artificial Intelligence: A Modern Approach</em> by Russell &amp; Norvig</li>
+<li><em>Deep Learning</em> by Ian Goodfellow</li>
+<li><em>Reinforcement Learning</em> by Sutton &amp; Barto</li>
+</ul>
+<p>I got a great foundation from those. Next, jump into a neural networks class or book and code up all of the ones you find. If you didn&rsquo;t already know Python, <em>learn here</em>. You can learn everything you need from Github and Stack Exchange, it just takes a while. I never <em>really</em> learned Python any other way but practice. I felt like an imposter for a long time (I still do, with an M.S.). Relax, trust the process, and with practice, you&rsquo;ll improve, just like every other skill in life.</p>
+<p>Finally, go to OpenAI&rsquo;s <a href="https://spinningup.openai.com/en/latest/">Spinning Up in Deep RL</a> to see some modern papers and implementations of Deep Reinforcement Learning, a great start for learning about AI Alignment. Try to code up some DRL stuff, and get as far as you can using Intro packages like <em>Stable Baselines 3</em> (look it up, fascinating stuff).</p>
+
+
+</main>
+	
+<footer>
+  <a href="/">home</a> :: <a href="/blog">blog</a>
+</footer>
+
+</body>
+</html>
+

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on Blake Ruprecht</title>
+    <title>Blogs on Blake Ruprecht</title>
     <link>https://blakeruprecht.github.io/blog/</link>
-    <description>Recent content in blog on Blake Ruprecht</description>
+    <description>Recent content in Blogs on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use Reinforcement Learning</title>
+      <link>https://blakeruprecht.github.io/blog/reinforcement-learning/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/reinforcement-learning/</guid>
+      <description>RL is a learning paradigm Reinforcement Learning (RL) is a machine learning paradigm. By that I mean it&amp;rsquo;s the way we tell the computer ML agent if it won or lost. Or if it&amp;rsquo;s right or wrong.
+You know how agents are run on computers, right? The computers are calculating a bunch of equations. These equations determine the totality of what the agent perceives in the real world, as well as the decision-making process to choose actions.</description>
+    </item>
+    
     <item>
       <title>Delicious Creamy Brah Sauce recipe</title>
       <link>https://blakeruprecht.github.io/blog/dcbs/</link>
@@ -69,11 +79,11 @@ I also ate grasshoppers, crickets, mealworms, and bamboo worms. I liked them all
     </item>
     
     <item>
-      <title>I learned Python through AI research</title>
-      <link>https://blakeruprecht.github.io/blog/ai-to-learn-python/</link>
+      <title>How to Install Python</title>
+      <link>https://blakeruprecht.github.io/blog/how-to-install-python/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/ai-to-learn-python/</guid>
+      <guid>https://blakeruprecht.github.io/blog/how-to-install-python/</guid>
       <description>I learned Python as an AI researcher, since Python is the industry standard for open-source AI software. Python isn&amp;rsquo;t particularly good at any one thing language wise, but it&amp;rsquo;s pretty much the jack-of-all-trades, can do anything language, so it&amp;rsquo;s great for prototyping algorithms that don&amp;rsquo;t make any sense. It took me forever to realize that most of what people were doing with Python wasn&amp;rsquo;t that complicated. Even though there are a million different packages to learn, each package basically does one thing, and does it well.</description>
     </item>
     
