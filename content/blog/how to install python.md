@@ -3,12 +3,17 @@ date: 2024-03-17
 title: How to Install Python
 description: '"In this essay I take readers on a journey from Noob to Python master, the same journey I undertook during my Masters degree to study AI."'
 ---
-![The python logo is cool](/python-logo.png)
+
+I entered the software field as a mechanical engineer. Even with technical experience and some coding experience, I found the entire software world quite daunting. All of the documentation I read assumed I already knew stuff like what this `~` symbol meant, or how to input something like `$ cd home` into my computer. Where is the money application on my computer?
+
+If you're as fresh and new as I was, you'll probably appreciate a step-by-step guide to figuring all of this out. There's so much more to coding than actually typing code. You have to know where your files are stored, where your software is stored, where your packages are stored, and how they all talk to eachother. Let's break it down.
+
+## Step 1: Figure out the Command Line
 
 
-I learned Python as an AI researcher, since Python is the industry standard for open-source AI software. Python isn't particularly good at any one thing language wise, but it's pretty much the jack-of-all-trades, can do anything language, so it's great for prototyping algorithms that don't make any sense. It took me forever to realize that most of what people were doing with Python wasn't that complicated. Even though there are a million different packages to learn, each package basically does one thing, and does it well.
 
-A huge misconception I had was that I had to "learn" Pandas, and Numpy, and Matplotlib. Not really. I'll teach you those three packages real quick.
+
+
 
 ## Install Python
 First, you have to install Python onto your computer. If you're running a Linux OS, you'll already have Python. 
