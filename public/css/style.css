@@ -1,9 +1,14 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #333;
-  --bg-color: #fff;
+  --fg-color: #000;
+  --link-color: #333;
+  --ul-color: #e2e2e2;
   --mg-color: #888;
+
+  --bg-color: #fff;
+
+  --accent-color: #fff200;
       
   --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
   --code-font: Consolas, "Hack", monospace;
@@ -22,19 +27,21 @@ body {
 }
 
 a {
-  color: #333;
+  color: var(--link-color);
   /*box-shadow: inset 0 -.2rem 0 var(--accent-color);*/
-  text-decoration: underline 2px #e2e2e2;
+  text-decoration: underline 1px var(--mg-color);
   text-underline-offset: 3px;
 }
 
 a:hover {
   color: var(--fg-color);
-  text-decoration: underline 2px var(--fg-color);
-  transition: all .3s linear;
+  box-shadow: inset 0 -.5rem 0 var(--accent-color);
+  text-decoration: none;
+  /*transition: all .3s linear;*/
 }
 
 h1 {
+  font-family: var(--code-font);
   font-size: 1.6rem;
   line-height: 2rem;
   font-weight: normal;
@@ -86,7 +93,7 @@ code {
 }
 
 blockquote {
-  border-left: 2px solid #e2e2e2;
+  border-left: 2px solid var(--ul-color);
   padding: 0rem 1rem;
 }
 
