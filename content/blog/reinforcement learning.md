@@ -3,6 +3,9 @@ date: 2024-06-24
 title: How to use Reinforcement Learning
 description: '"Reinforcement learning is a paradigm for teaching machine learning models the right answers through trial and error, where they are only rewarded upon successful completion of a game, not at any previous step. It requires lots of computer, but finds fascinating solutions."'
 ---
+
+NOTE: This post is still a W.I.P.
+
 ## RL is a learning *paradigm*
 Reinforcement Learning (RL) is a machine learning paradigm. By that I mean it's the way we tell the computer ML agent if it won or lost. Or if it's right or wrong. 
 
