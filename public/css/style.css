@@ -89,7 +89,8 @@ time {
 code {
   font-family: var(--code-font);
   color: var(--fg-color);
-  border: solid 1px var(--mg-color);
+  background-color: #fff;
+  border: solid 1px #f00;
 }
 
 blockquote {

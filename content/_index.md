@@ -8,7 +8,7 @@ description: "Blake Ruprecht's personal website. Here I write about topics that 
 
 ![headshot](headshot.jpg)
 
-[AI/ML Research](/research) | [Blog](/blog) | [Drawings](/drawing) | [Woodwork](/woodwork)
+[AI/ML Research](/research) | [Blog](/blog) | [Drawing](/drawing) | [Woodwork](/woodwork)
 
 Check out the links above to my AI/ML research, my blog about AI/ML and other random topics, and some of my artwork.
 

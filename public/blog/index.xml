@@ -12,7 +12,8 @@
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/reinforcement-learning/</guid>
-      <description>RL is a learning paradigm Reinforcement Learning (RL) is a machine learning paradigm. By that I mean it&amp;rsquo;s the way we tell the computer ML agent if it won or lost. Or if it&amp;rsquo;s right or wrong.
+      <description>NOTE: This post is still a W.I.P.
+RL is a learning paradigm Reinforcement Learning (RL) is a machine learning paradigm. By that I mean it&amp;rsquo;s the way we tell the computer ML agent if it won or lost. Or if it&amp;rsquo;s right or wrong.
 You know how agents are run on computers, right? The computers are calculating a bunch of equations. These equations determine the totality of what the agent perceives in the real world, as well as the decision-making process to choose actions.</description>
     </item>
     
@@ -84,7 +85,7 @@ I also ate grasshoppers, crickets, mealworms, and bamboo worms. I liked them all
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/how-to-install-python/</guid>
-      <description>I entered the software field as a mechanical engineer. Even with technical experience and some coding experience, I found the entire software world quite daunting. All of the documentation I read assumed I already knew stuff like what this ~ symbol meant, or how to input something like $ cd home into my computer. Where is the money application on my computer?
+      <description>I entered the software field as a mechanical engineer. Even with technical experience and some coding experience, I found the entire software world quite daunting. All of the documentation I read assumed I already knew stuff like what this ~ symbol meant, or how to input something like $ cd home into my computer. I didn&amp;rsquo;t even understand why the text looks different with a little box around it.
 If you&amp;rsquo;re as fresh and new as I was, you&amp;rsquo;ll probably appreciate a step-by-step guide to figuring all of this out.</description>
     </item>
     
