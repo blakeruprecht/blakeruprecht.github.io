@@ -3,7 +3,6 @@ date: 2024-03-17
 title: How to Install Python
 description: '"In this essay I take readers on a journey from Noob to Python master, the same journey I undertook during my Masters degree to study AI."'
 ---
-
 I entered the software field as a mechanical engineer. Even with technical experience and some coding experience, I found the entire software world quite daunting. All of the documentation I read assumed I already knew stuff like what this `~` symbol meant, or how to input something like `$ cd home` into my computer. I didn't even understand why the text looks different with a little box around it.
 
 If you're as fresh and new as I was, you'll probably appreciate a step-by-step guide to figuring all of this out. There's so much more to coding than actually typing code. You have to know where your files are stored, where your software is stored, where your packages are stored, and how they all talk to eachother. Let's break it down.
@@ -33,13 +32,15 @@ Here's what you'll typically see, as concisely as possible
 - On Mac, you'll typically see something like `Blake@MyMac ~ $`. The `$` is the prompt, `Blake` is your username, `MyMac` is the name of your computer, and `~` represents the folder you're currently in. In this case, the tilde `~` is shorthand for `/home/Blake`, your home directory. Those two things are equivalent in this case.
 - On Windows, you'll typically just see the current folder, `C:\Users\Blake>` with the prompt touching the folder name. In PowerShell, you'll see the PS attached to the front for no good reason, e.g. `PS C:\Users\Blake>`
 
-**What is a command?** Typically, anything that you do in a terminal is called a "command", rather ambiguously. These commands are mostly shell scripts, programs, and executables. You can directly open applications through the terminal, as well as manipulate files and folders through commands.
+**What is a command?** Typically, anything that you do in a terminal is called a "command", rather ambiguously. These commands are mostly shell scripts, programs, and executables. You can use commands to directly open applications through the terminal, as well as manipulate files and folders.
 
-**What is the shell?** The terminal comes with a "shell" interpreter that lets you use a shell scripting language, like Bash. Bash is a language that includes things like `cd`, `ls`, `mv`, `grep`, and many more "commands" that you can run in a terminal. These do things like change your directory, list files in the current directory, move files and folders around, and many more tasks.
+**What is the shell?** The terminal comes with a "shell" interpreter that lets you use a shell scripting language, like Bash. Bash is a language that includes commands like `cd`, `ls`, `mv`, `grep`, and many more that you can run in a terminal. These do actions like change the current directory, list files in the current directory, move files and folders around, and many more.
 
-**The `python` command didn't work?** There's a chance you have to type `python3 --version` to run Python. Otherwise, if it's not working, you may not have the location of the Python executable in your PATH.
+**The** `python` **command didn't work?** There's a chance you have to type `python3` to run Python. Otherwise, if it's not working, you may not have the folder/directory location of the Python executable in your PATH.
 
-**I'm on Mac and don't have the brew command?** If you download Homebrew for MacOS, you can use the command `brew install python` in your terminal to make this whole process easier.
-
+## References
+As always, the best way to learn about a piece of software -- read the docs!
+- For more Windows info: [Python 3.12.4 Documentation >> Python Setup and Usage >> 5. Using Python on Windows](https://docs.python.org/3/using/windows.html)
+- For more MacOS info: [Python 3.12.4 Documentation >> Python Setup and Usage >> 5. Using Python on a Mac](https://docs.python.org/3/using/mac.html)
 
 
