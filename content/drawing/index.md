@@ -1,5 +1,5 @@
 +++
-title = "drawing"
+title = "Drawing"
 date = 2023-04-10
 menu = "main"
 +++

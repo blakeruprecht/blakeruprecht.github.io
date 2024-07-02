@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About me on blakeruprecht</title>
+    <title>About me on BlakeRuprecht</title>
     <link>https://blakeruprecht.github.io/</link>
-    <description>Recent content in About me on blakeruprecht</description>
+    <description>Recent content in About me on BlakeRuprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -206,7 +206,7 @@ The first sigmoid is the &amp;ldquo;forget-gate&amp;rdquo; $f_t$, the second sig
     </item>
     
     <item>
-      <title>drawing</title>
+      <title>Drawing</title>
       <link>https://blakeruprecht.github.io/drawing/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -219,7 +219,7 @@ I particularly like black ink drawings with that bold, all-black shading style, 
     </item>
     
     <item>
-      <title>woodwork</title>
+      <title>Woodwork</title>
       <link>https://blakeruprecht.github.io/woodwork/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -336,7 +336,7 @@ It seems so impossible before it happens. You see it approaching. You see all of
     </item>
     
     <item>
-      <title>research</title>
+      <title>Research</title>
       <link>https://blakeruprecht.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

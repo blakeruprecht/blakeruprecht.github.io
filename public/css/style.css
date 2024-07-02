@@ -32,7 +32,7 @@ a {
 
 a:hover {
   color: var(--accent-color);
-  text-decoration: underline 1px var(--accent-color);
+  text-decoration: underline 2px var(--accent-color);
   background-color: var(--bg-color);
   /*transition: all .3s linear;*/
 }
@@ -120,10 +120,11 @@ img[alt=headshot] {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid var(--ul-color);
 }
 
 .site-nav a {
-  font-family: var(--code-font);
+  font-family: var(--body-font);
   color: var(--fg-color);
   text-decoration: none;  
 }
@@ -144,8 +145,8 @@ img[alt=headshot] {
 }
 
 .logo a {
-  text-transform: lowercase;
-  font-weight: bold;
+  text-transform: bold;
+  font-weight: normal;
   font-size: 1.5rem;
 }
 
@@ -159,7 +160,7 @@ img[alt=headshot] {
 }
 
 .menu a {
-  text-transform: lowercase;
+  text-transform: capitalize;
   align-items: center;
 }
 
@@ -219,15 +220,26 @@ ul.blog-list {
   list-style-type: none;
   display: flex;
   font-size: 1.2em;
-  width: 42rem;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+ul.blog-list li {
+  display: flex;
+  align-items: flex-start;
 }
 
 ul.blog-list a {
   text-decoration: none;
 }
 
+ul.blog-list time {
+  font-size: 0.8em;
+}
+
 ul.blog-list span {
-  flex: 0 2 9rem;
+  flex: 0 0 7rem;
+  /*flex: 0 2 9rem;*/
 }  
 
 /* #################################################### */

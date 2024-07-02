@@ -1,13 +1,13 @@
 # Basic parameters
 baseURL = "https://blakeruprecht.github.io"
-title = "blakeruprecht"
+title = "BlakeRuprecht"
 theme = "notebook"
 enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "blog"
-    name = "blog"
+    identifier = "Blog"
+    name = "Blog"
     url = "/blog"
     weight = 10
 
