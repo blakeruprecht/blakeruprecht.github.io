@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>LSTM units incorporate temporal data into NNs | Blake Ruprecht</title>
+  <title>LSTM units incorporate temporal data into NNs | BlakeRuprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -39,6 +39,35 @@ if (!doNotTrack) {
 
 <body>
 
+<header class="site-header">
+  
+  <nav class="site-nav">
+    <div class="logo">
+      <li> <a href="/">BlakeRuprecht<span class="dots">.com</span>  </a> </li>
+    </div>
+    <button class="menu-toggle">☰</button>
+
+    <ul class="menu">
+      <li> <a href="/research">research</a> </li>
+      <li> <a href="/blog">blog</a> </li>
+      <li> <a href="/drawing">drawing</a> </li>
+      <li> <a href="/woodwork">woodwork</a> </li>
+    </ul>
+
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.site-nav').classList.toggle('expanded');
+        });
+    </script>
+
+
+
+      
+
+  </nav>
+
+</header>
 
 
 <main class="content">
@@ -56,14 +85,13 @@ if (!doNotTrack) {
   };
 </script>
 
-<h1><a href="/">blake</a>: <strong>LSTM units incorporate temporal data into NNs</strong></h1>
+<h1>LSTM units incorporate temporal data into NNs</h1>
 
 <span>
 	
 </span>
 
 <p>Utilizes temporal data, aka LSTM units can use previous information in their determination of current state.</p>
-<p>!<a href="transformer diagram.png.html">transformer diagram.png</a></p>
 <p>The first sigmoid is the &ldquo;forget-gate&rdquo; $f_t$, the second sigmoid is the &ldquo;input-gate&rdquo;, $i_t$, the tanh is the &ldquo;cell-update&rdquo;, $\tilde{C}_t$. Forget-gate will determine how much of the previous cell-state we need to remember, input-gate determines how much of the new cell-state we need to remember, and cell-update gate normalizes the cell-state between [-1,1] because of the tanh. The final sigmoid produces the &ldquo;output-gate&rdquo;, $O_t$, which is combined with the tanh of the new cell-state to produce the next hidden-state, $h_t$.</p>
 <p>$$C_t = f_t * C_{t-1} + i_t * \tilde{C}_t$$
 $$ h_t = O_t * tanh(C_t)$$
@@ -78,7 +106,7 @@ Variants include:</p>
 </main>
 	
 <footer>
-  <a href="/">home</a> :: <a href="/blog">blog</a>
+  <a href="/blog">blog</a> :: <a href="/uncopyright">uncopyright</a> :: <a href="/">home</a>
 </footer>
 
 </body>

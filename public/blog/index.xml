@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on Blake Ruprecht</title>
+    <title>blog on BlakeRuprecht</title>
     <link>https://blakeruprecht.github.io/blog/</link>
-    <description>Recent content in blog on Blake Ruprecht</description>
+    <description>Recent content in blog on BlakeRuprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -202,7 +202,6 @@ As agents, we set goals and figure out how to achieve them. That&amp;rsquo;s wha
       
       <guid>https://blakeruprecht.github.io/blog/long-short-term-memory/</guid>
       <description>Utilizes temporal data, aka LSTM units can use previous information in their determination of current state.
-![[transformer diagram.png]]
 The first sigmoid is the &amp;ldquo;forget-gate&amp;rdquo; $f_t$, the second sigmoid is the &amp;ldquo;input-gate&amp;rdquo;, $i_t$, the tanh is the &amp;ldquo;cell-update&amp;rdquo;, $\tilde{C}_t$. Forget-gate will determine how much of the previous cell-state we need to remember, input-gate determines how much of the new cell-state we need to remember, and cell-update gate normalizes the cell-state between [-1,1] because of the tanh.</description>
     </item>
     

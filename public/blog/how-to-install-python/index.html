@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>How to Install Python | Blake Ruprecht</title>
+  <title>How to Install Python | BlakeRuprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -39,6 +39,35 @@ if (!doNotTrack) {
 
 <body>
 
+<header class="site-header">
+  
+  <nav class="site-nav">
+    <div class="logo">
+      <li> <a href="/">BlakeRuprecht<span class="dots">.com</span>  </a> </li>
+    </div>
+    <button class="menu-toggle">☰</button>
+
+    <ul class="menu">
+      <li> <a href="/research">research</a> </li>
+      <li> <a href="/blog">blog</a> </li>
+      <li> <a href="/drawing">drawing</a> </li>
+      <li> <a href="/woodwork">woodwork</a> </li>
+    </ul>
+
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.site-nav').classList.toggle('expanded');
+        });
+    </script>
+
+
+
+      
+
+  </nav>
+
+</header>
 
 
 <main class="content">
@@ -56,7 +85,7 @@ if (!doNotTrack) {
   };
 </script>
 
-<h1><a href="/">blake</a>: <strong>How to Install Python</strong></h1>
+<h1>How to Install Python</h1>
 
 <span>
 	
@@ -86,16 +115,21 @@ if (!doNotTrack) {
 <li>On Mac, you&rsquo;ll typically see something like <code>Blake@MyMac ~ $</code>. The <code>$</code> is the prompt, <code>Blake</code> is your username, <code>MyMac</code> is the name of your computer, and <code>~</code> represents the folder you&rsquo;re currently in. In this case, the tilde <code>~</code> is shorthand for <code>/home/Blake</code>, your home directory. Those two things are equivalent in this case.</li>
 <li>On Windows, you&rsquo;ll typically just see the current folder, <code>C:\Users\Blake&gt;</code> with the prompt touching the folder name. In PowerShell, you&rsquo;ll see the PS attached to the front for no good reason, e.g. <code>PS C:\Users\Blake&gt;</code></li>
 </ul>
-<p><strong>What is a command?</strong> Typically, anything that you do in a terminal is called a &ldquo;command&rdquo;, rather ambiguously. These commands are mostly shell scripts, programs, and executables. You can directly open applications through the terminal, as well as manipulate files and folders through commands.</p>
-<p><strong>What is the shell?</strong> The terminal comes with a &ldquo;shell&rdquo; interpreter that lets you use a shell scripting language, like Bash. Bash is a language that includes things like <code>cd</code>, <code>ls</code>, <code>mv</code>, <code>grep</code>, and many more &ldquo;commands&rdquo; that you can run in a terminal. These do things like change your directory, list files in the current directory, move files and folders around, and many more tasks.</p>
-<p><strong>The <code>python</code> command didn&rsquo;t work?</strong> There&rsquo;s a chance you have to type <code>python3 --version</code> to run Python. Otherwise, if it&rsquo;s not working, you may not have the location of the Python executable in your PATH.</p>
-<p><strong>I&rsquo;m on Mac and don&rsquo;t have the brew command?</strong> If you download Homebrew for MacOS, you can use the command <code>brew install python</code> in your terminal to make this whole process easier.</p>
+<p><strong>What is a command?</strong> Typically, anything that you do in a terminal is called a &ldquo;command&rdquo;, rather ambiguously. These commands are mostly shell scripts, programs, and executables. You can use commands to directly open applications through the terminal, as well as manipulate files and folders.</p>
+<p><strong>What is the shell?</strong> The terminal comes with a &ldquo;shell&rdquo; interpreter that lets you use a shell scripting language, like Bash. Bash is a language that includes commands like <code>cd</code>, <code>ls</code>, <code>mv</code>, <code>grep</code>, and many more that you can run in a terminal. These do actions like change the current directory, list files in the current directory, move files and folders around, and many more.</p>
+<p><strong>The</strong> <code>python</code> <strong>command didn&rsquo;t work?</strong> There&rsquo;s a chance you have to type <code>python3</code> to run Python. Otherwise, if it&rsquo;s not working, you may not have the folder/directory location of the Python executable in your PATH.</p>
+<h2 id="references">References</h2>
+<p>As always, the best way to learn about a piece of software &ndash; read the docs!</p>
+<ul>
+<li>For more Windows info: <a href="https://docs.python.org/3/using/windows.html">Python 3.12.4 Documentation &raquo; Python Setup and Usage &raquo; 5. Using Python on Windows</a></li>
+<li>For more MacOS info: <a href="https://docs.python.org/3/using/mac.html">Python 3.12.4 Documentation &raquo; Python Setup and Usage &raquo; 5. Using Python on a Mac</a></li>
+</ul>
 
 
 </main>
 	
 <footer>
-  <a href="/">home</a> :: <a href="/blog">blog</a>
+  <a href="/blog">blog</a> :: <a href="/uncopyright">uncopyright</a> :: <a href="/">home</a>
 </footer>
 
 </body>

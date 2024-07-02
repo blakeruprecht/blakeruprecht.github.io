@@ -2,11 +2,10 @@
 /* GLOBAL VARIABLES */
 :root {
   --fg-color: #333;
-  --link-color: #333;
   --mg-color: #888;
   --ul-color: #b2b2b2;
-  --bg-color: #fff;
 
+  --bg-color: #fff;
   --accent-color: #f00;
       
   --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
@@ -21,7 +20,7 @@ body {
   font-family: var(--body-font);
   font-size: 16px;
   line-height: 1.4em;
-  margin: 0 1rem;
+  margin: 1rem 1rem;
   padding: 0;
 }
 
@@ -32,9 +31,9 @@ a {
 }
 
 a:hover {
-  color: var(--fg-color);
-  text-decoration: underline 1px var(--fg-color);
-  background-color: #f0f0f0;
+  color: var(--accent-color);
+  text-decoration: underline 1px var(--accent-color);
+  background-color: var(--bg-color);
   /*transition: all .3s linear;*/
 }
 
@@ -94,6 +93,7 @@ footer {
 }
 
 footer a {
+  font-family: var(--code-font);
   color: var(--mg-color);
   text-decoration: none;
 }
@@ -122,16 +122,18 @@ img[alt=headshot] {
 }
 
 .site-nav a {
-  color: var(--mg-color);
+  font-family: var(--code-font);
+  color: var(--fg-color);
   text-decoration: none;  
 }
 
 .site-nav a:hover{
-  color: var(--fg-color);
-  background: var(--bg-color);
+  color: var(--accent-color);
 }
 
 .logo {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -142,21 +144,68 @@ img[alt=headshot] {
 
 .logo a {
   text-transform: lowercase;
-  color: var(--mg-color);
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .menu {
+  margin: 0;
+  padding: 0;
   display: flex;
+  flex-direction: row;
   list-style-type: none;
+  gap: 2rem;
 }
 
 .menu a {
   text-transform: lowercase;
+  align-items: center;
 }
 
-.menu li {
-  padding-left: 2rem;
+.menu-toggle {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .site-nav, .menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .logo {
+      align-self: flex-start;
+      padding-top: 0.5rem;
+    }
+
+    .menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      gap: 0;
+    }
+
+    .menu a {
+      text-align: right;
+    }
+
+    .menu-toggle {
+      font-size: 1.2rem;
+      display: flex;
+      cursor: pointer;  
+      display: initial;
+      align-self: flex-end;   
+      position: absolute;
+      margin: 0.5rem;    
+    }
+
+    .site-nav.expanded .menu {
+      display: flex;
+    }
 }
 
 /* ################################################### */

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About me on Blake Ruprecht</title>
+    <title>About me on BlakeRuprecht</title>
     <link>https://blakeruprecht.github.io/</link>
-    <description>Recent content in About me on Blake Ruprecht</description>
+    <description>Recent content in About me on BlakeRuprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -202,7 +202,6 @@ As agents, we set goals and figure out how to achieve them. That&amp;rsquo;s wha
       
       <guid>https://blakeruprecht.github.io/blog/long-short-term-memory/</guid>
       <description>Utilizes temporal data, aka LSTM units can use previous information in their determination of current state.
-![[transformer diagram.png]]
 The first sigmoid is the &amp;ldquo;forget-gate&amp;rdquo; $f_t$, the second sigmoid is the &amp;ldquo;input-gate&amp;rdquo;, $i_t$, the tanh is the &amp;ldquo;cell-update&amp;rdquo;, $\tilde{C}_t$. Forget-gate will determine how much of the previous cell-state we need to remember, input-gate determines how much of the new cell-state we need to remember, and cell-update gate normalizes the cell-state between [-1,1] because of the tanh.</description>
     </item>
     
@@ -344,6 +343,16 @@ It seems so impossible before it happens. You see it approaching. You see all of
       <guid>https://blakeruprecht.github.io/research/</guid>
       <description>Previously, I was an Artificial Intelligence research assistant at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems that explain their own decision-making steps.
 What did I research? I went to grad school to research the AI Alignment problem, which is similar to AI safety, AI risk research, etc. Alignment is more specific than safety because it doesn&amp;rsquo;t just mean trustworthy and harmless, it also means beneficial.</description>
+    </item>
+    
+    <item>
+      <title>uncopyright</title>
+      <link>https://blakeruprecht.github.io/uncopyright/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/uncopyright/</guid>
+      <description>This website was created by me and is freely and openly available at this Github Repo under the MIT license. If you want to learn more about free software, read about FOSS on wiki. FOSS is punk, anti-capitalist, anti-ownership, anti-privatiziation, pro-freedom, pro-sharing economy, post-scarcity, and pro commons-based peer production.
+This website uses the static site generator Hugo to create pages. The theme is my own custom one, made using HTML/CSS. I&amp;rsquo;ve SEO optimized this site for technical and local search.</description>
     </item>
     
   </channel>

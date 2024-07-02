@@ -5,8 +5,6 @@ description: '"Long Short-Term Memory (LSTM) units incorporate temporal data int
 ---
 Utilizes temporal data, aka LSTM units can use previous information in their determination of current state.
 
-![[transformer diagram.png]]
-
 The first sigmoid is the "forget-gate" $f_t$, the second sigmoid is the "input-gate", $i_t$, the tanh is the "cell-update", $\tilde{C}_t$. Forget-gate will determine how much of the previous cell-state we need to remember, input-gate determines how much of the new cell-state we need to remember, and cell-update gate normalizes the cell-state between [-1,1] because of the tanh. The final sigmoid produces the "output-gate", $O_t$, which is combined with the tanh of the new cell-state to produce the next hidden-state, $h_t$.  
 
 $$C_t = f_t * C_{t-1} + i_t * \tilde{C}_t$$

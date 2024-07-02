@@ -1,21 +1,30 @@
 <header class="site-header">
   
   <nav class="site-nav">
-
     <div class="logo">
       <li> <a href="/">{{ .Site.Title }}<span class="dots">.com</span>  </a> </li>
     </div>
+    <button class="menu-toggle">☰</button>
+
     <ul class="menu">
       <li> <a href="/research">research</a> </li>
       <li> <a href="/blog">blog</a> </li>
       <li> <a href="/drawing">drawing</a> </li>
       <li> <a href="/woodwork">woodwork</a> </li>
+    </ul>
+
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.site-nav').classList.toggle('expanded');
+        });
+    </script>
+
+
 
       <!--{{ range.Site.Menus.main }}
       <li> <a href="{{.URL}}">{{ .Name }}</a> </li>
       {{ end }}-->
-
-    </ul>
 
   </nav>
 

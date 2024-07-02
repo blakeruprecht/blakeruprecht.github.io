@@ -5,16 +5,16 @@ description: '"An explanation of my tattoos, basically just a love letter to the
 ---
 The tattoo on my achilles heel is an X. If you squint, it kind of looks like an intersection, or a crossroad. To me, this represents indecision, my biggest weakness, and the thing I regret most in life -- not taking action to pursue love over fear. As I sit here at another crossroad, I can't help but think of the lyrics from the song that inspired the ink:
 
-> *I'm standing at the crossroad,  
+> I'm standing at the crossroad,  
 > There are many roads to take,  
 > But I stand here so silently,  
 > For fear of a mistake,  
 > One path leads to paradise,  
 > One path leads to pain,  
 > One path leads to freedom,  
-> They all look the same*,  
+> They all look the same,  
 > 
-> "Crossroad" by Calvin Russell
+> -**Calvin Russel**, "Crossroad"
 
 The past few days, I haven't felt quite right. Hell, the past year I've felt off. I, like many of you, have made some hard choices in my life. Some have brought laughs, some have brought tears, and all of them have brought lessons. Whether or not I've paid attention to those lessons remains to be seen. It's a long and windy path we walk down, branching into many different eternities, but we'll only ever know the one we choose. Life is choice, and there are a thousand tradeoffs we have to consider as we move forward through it. Luckily for me, I'm quite simple-minded. I tend to oversimplify all of my decisions into either/ors. Otherwise known as black or white decisions, on or off, 1 or 0. I mean c'mon, I'm a computer scientist by training; it's what I'm programmed to do! Unfortunately, I hate being a computer scientist, and I want to tell you why. This is one part explanation, one part apology. Mostly to myself. When I'm living my authentic life, big decisions come easy to me. Recently, decisions have been hard. I apologize for convincing you that I was ever doing stuff for "logical" or "career-oriented" reasons. As I'll show you, every big decision I've made has been to pursue relationships rather than career, and I've just used career success as a way to get people off my back. Recently, I've lost sight of that, for reasons I will discuss. I've always been grateful for the people in my life, and never felt like I needed anything more. Sure, a stable income or a house of my own would be *nice*, but not at the expense of being around the people I love. Recently, I've felt like I can't be around all of the people that I love, and it's tearing me up inside.
 
