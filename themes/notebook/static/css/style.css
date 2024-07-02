@@ -198,12 +198,13 @@ img[alt=headshot] {
     }
 
     .menu-toggle {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       display: flex;
       cursor: pointer;  
       display: initial;
       align-self: flex-end;   
       position: absolute;
+      color: var(--mg-color);
     }
 
     .site-nav.expanded .menu {

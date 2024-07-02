@@ -1,7 +1,7 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #333;
+  --fg-color: #000;
   --mg-color: #888;
   --ul-color: #b2b2b2;
 
@@ -18,14 +18,14 @@ body {
   background-color: var(--bg-color);
   color: var(--fg-color);
   font-family: var(--body-font);
-  font-size: 16px;
-  line-height: 1.4em;
+  font-size: 1em;
+  line-height: 1.5em;
   margin: 1rem 1rem;
   padding: 0;
 }
 
 a {
-  color: var(--fg-color);
+  color: #333;
   text-decoration: underline 1px var(--ul-color);
   text-underline-offset: 4px;
 }
@@ -90,6 +90,7 @@ footer {
   width: 100%
   position: relative;
   bottom: 0;
+  padding-top: 1rem;
 }
 
 footer a {
@@ -175,11 +176,14 @@ img[alt=headshot] {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      padding: 0;
+      margin: 0;
     }
 
     .logo {
       align-self: flex-start;
-      padding-top: 0.5rem;
+      padding: 0;
+      margin: 0;
     }
 
     .menu {
@@ -194,13 +198,13 @@ img[alt=headshot] {
     }
 
     .menu-toggle {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       display: flex;
       cursor: pointer;  
       display: initial;
       align-self: flex-end;   
       position: absolute;
-      margin: 0.5rem;    
+      color: var(--mg-color);
     }
 
     .site-nav.expanded .menu {
