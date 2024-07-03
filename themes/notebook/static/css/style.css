@@ -1,11 +1,13 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #000;
-  --mg-color: #888;
-  --ul-color: #b2b2b2;
-
+  --fg-color: #111;
+  --mg-color: #777;
+  --ul-color: #a9a9a9;
   --bg-color: #fff;
+
+  --hover-color: #f00;
+
   --accent-color: #f00;
       
   --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
@@ -18,49 +20,46 @@ body {
   background-color: var(--bg-color);
   color: var(--fg-color);
   font-family: var(--body-font);
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.5em;
   margin: 1rem 1rem;
   padding: 0;
 }
 
+.content {
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+/* LINKS */
 a {
-  color: #333;
+  color: var(--fg-color);
   text-decoration: underline 1px var(--ul-color);
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
 }
 
 a:hover {
-  color: var(--accent-color);
-  text-decoration: underline 2px var(--accent-color);
-  background-color: var(--bg-color);
+  color: var(--fg-color);
+  text-decoration: underline 2px var(--hover-color);
   /*transition: all .3s linear;*/
 }
 
-h1 {
-  font-size: 1.6rem;
-  line-height: 2rem;
-}
-
-h2, h3, h4, h5, h6 {
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
   line-height: 1.5em;
   margin-bottom: 0;
 }
 
+h1 { font-size: 1.6rem; }
 h2 { font-size: 1.4rem; }
 h3 { font-size: 1.2rem; }
 h4 { font-size: 1.0rem; }
 h5 { font-size: 0.8rem; }
 h6 { font-size: 0.6rem; }
 
+/* MISC */
 ul, li {
   margin-bottom: 0.5rem;
-}
-
-.content {
-  max-width: 36rem;
-  padding: 0;
-  margin: 0 auto;
 }
 
 time {
@@ -75,13 +74,13 @@ code {
 }
 
 blockquote {
-  border-left: 1px solid var(--ul-color);
-  padding: 0 1rem;
+  border-left: 1px solid var(--fg-color);
+  padding: 0 2rem;
   margin: 0;
 }
 
 hr {
-  border: 1px solid var(--ul-color);
+  border: 1px solid var(--fg-color);
 }
 
 footer {
@@ -94,7 +93,6 @@ footer {
 }
 
 footer a {
-  font-family: var(--code-font);
   color: var(--mg-color);
   text-decoration: none;
 }
@@ -124,13 +122,13 @@ img[alt=headshot] {
 }
 
 .site-nav a {
+  color: var(--mg-color);
   font-family: var(--body-font);
-  color: var(--fg-color);
   text-decoration: none;  
 }
 
 .site-nav a:hover{
-  color: var(--accent-color);
+  color: var(--fg-color);
 }
 
 .logo {
@@ -145,8 +143,7 @@ img[alt=headshot] {
 }
 
 .logo a {
-  text-transform: bold;
-  font-weight: normal;
+  color: var(--mg-color);
   font-size: 1.5rem;
 }
 
@@ -160,8 +157,12 @@ img[alt=headshot] {
 }
 
 .menu a {
-  text-transform: capitalize;
-  align-items: center;
+  text-transform: lowercase;
+}
+
+.menu a.active, 
+.logo a.active {
+  color: var(--fg-color);
 }
 
 .menu-toggle {
@@ -230,7 +231,11 @@ ul.blog-list li {
 }
 
 ul.blog-list a {
-  text-decoration: none;
+  text-decoration: none
+}
+
+ul.blog-list a:hover {
+  text-decoration: underline 2px var(--accent-color);
 }
 
 ul.blog-list time {
@@ -270,35 +275,6 @@ ul.blog-list span {
   font-style: italic;
   font-weight: bold;
   src: url("/fonts/Hack-BoldItalic.ttf") format("truetype");
-}
-
-/* SourceSerif Font */
-@font-face {
-  font-family: "SourceSerif";
-  font-style: normal;
-  font-weight: normal;
-  src: url("/fonts/SourceSerif4-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "SourceSerif";
-  font-style: normal;
-  font-weight: bold;
-  src: url("/fonts/SourceSerif4-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "SourceSerif";
-  font-style: italic;
-  font-weight: normal;
-  src: url("/fonts/SourceSerif4-It.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "SourceSerif";
-  font-style: italic;
-  font-weight: bold;
-  src: url("/fonts/SourceSerif4-BoldIt.ttf") format("truetype");
 }
 
 /* NotoSans Font */

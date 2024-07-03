@@ -30,9 +30,9 @@ I never liked Thai food, and I'm a serious food explorer. I force myself to like
 
 ![Tantanmen ramen from Menya Rui](/menya-rui.jpeg)
 
-*Tantanmen Ramen* from Menya Rui in St. Louis, MO. One of the all time best dishes I've ever had. After standing in line for 2.5 hours in the middle of Missouri winter, I took one bite and was instantly transported back to the 95 degree swamp heat of Laos. Except this version was even better (at 10x the price). Time seemed to stop ticking as I slurped up the noodles and soup. It doesn't say it on the menu, but this dish also had Sichuan peppercorns. Menya Rui is ridiculous. A hole in the wall ramen shop seemingly imported from Japan, with the red lanterns and paper walls to match, situated in a random strip mall in the St. Louis suburbs. Ten months after traveling around the world, I find the best noodle soup ever in my own backyard. Isn't that just the way? 
+*Tantanmen Ramen* from [Menya Rui](https://www.menyarui.com/) in St. Louis, MO. One of the all time best dishes I've ever had. After standing in line for 2.5 hours in the middle of Missouri winter, I took one bite and was instantly transported back to the 95 degree swamp heat of Laos. Except this version was even better (at 10x the price). Time seemed to stop ticking as I slurped up the noodles and soup. It doesn't say it on the menu, but this dish also had Sichuan peppercorns. Menya Rui is ridiculous. A hole in the wall ramen shop seemingly imported from Japan, with the red lanterns and paper walls to match, situated in a random strip mall in the St. Louis suburbs. Ten months after traveling around the world, I find the best noodle soup ever in my own backyard. Isn't that just the way? 
 
-## Do it myself (I'm DIM)
+## Do it myself
 So I found it, at least until I try Pho and reevalute. But for now, it's Tantanmen Ramen, and I just need to learn how to make it. Luckily for me, ramen is one of the hardest dishes to make, so this shouldn't be easy.
 
 ## Dan-dan Noodles

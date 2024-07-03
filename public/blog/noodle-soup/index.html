@@ -46,28 +46,56 @@ if (!doNotTrack) {
       <li> <a href="/">BlakeRuprecht<span class="dots">.com</span>  </a> </li>
     </div>
     <button class="menu-toggle">☰</button>
-
+    
+    
     <ul class="menu">
-      <li> <a href="/research">research</a> </li>
-      <li> <a href="/blog">blog</a> </li>
-      <li> <a href="/drawing">drawing</a> </li>
-      <li> <a href="/woodwork">woodwork</a> </li>
+      <li> <a href="/research/">research</a> </li>
+      <li> <a href="/blog/">blog</a> </li>
+      <li> <a href="/drawing/">drawing</a> </li>
+      <li> <a href="/woodwork/">woodwork</a> </li>
     </ul>
 
 
+    
     <script>
         document.querySelector('.menu-toggle').addEventListener('click', function() {
             document.querySelector('.site-nav').classList.toggle('expanded');
         });
     </script>
 
-
-
-      
-
   </nav>
 
 </header>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const currentPath = window.location.pathname;
+    console.log('Current Path:', currentPath);  
+
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+
+    
+    const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
+
+    
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href');
+        console.log('Checking Menu Item:', itemPath);  
+
+        if (itemPath === currentPath) {
+            console.log('Match Found:', itemPath);  
+            item.classList.add('active');
+        }
+    });
+
+    
+    if (homePaths.includes(currentPath)) {
+        console.log('Highlighting Logo for Home Page');  
+        logo.classList.add('active');
+    }
+});
+</script>
 
 
 <main class="content">
@@ -104,8 +132,8 @@ if (!doNotTrack) {
 <p><img src="/sichuan-ramen.jpg" alt="Sichuan ramen from a stall at the Luang Prabang night market"></p>
 <p><em>Mala Ramen</em> from Noodle Station in Luang Prabang, Laos. This is the dish I have taken back with me in my heart. I want to eat it everyday, which is what I did after discovery, eating it 10 times in the eight-days I was around. I found a <a href="https://www.youtube.com/watch?v=UOrtUFHEWcE">video</a> of the night market stand. I asked the owner for his recipe, and all he did was laugh and say it was made with &ldquo;love&rdquo;, and by god he is right. What&rsquo;s in ramen? I have no idea, but this soup was umami, salty, savory, with a punch of spice, and my favorite, Szechuan/Sichuan peppercorns for that tingly feeling. The pork wasn&rsquo;t even that good in here, but the broth and noodles more than made up for it. After eating this, the light bulb for ramen went off in my head &ndash; I get it now.</p>
 <p><img src="/menya-rui.jpeg" alt="Tantanmen ramen from Menya Rui"></p>
-<p><em>Tantanmen Ramen</em> from Menya Rui in St. Louis, MO. One of the all time best dishes I&rsquo;ve ever had. After standing in line for 2.5 hours in the middle of Missouri winter, I took one bite and was instantly transported back to the 95 degree swamp heat of Laos. Except this version was even better (at 10x the price). Time seemed to stop ticking as I slurped up the noodles and soup. It doesn&rsquo;t say it on the menu, but this dish also had Sichuan peppercorns. Menya Rui is ridiculous. A hole in the wall ramen shop seemingly imported from Japan, with the red lanterns and paper walls to match, situated in a random strip mall in the St. Louis suburbs. Ten months after traveling around the world, I find the best noodle soup ever in my own backyard. Isn&rsquo;t that just the way?</p>
-<h2 id="do-it-myself-im-dim">Do it myself (I&rsquo;m DIM)</h2>
+<p><em>Tantanmen Ramen</em> from <a href="https://www.menyarui.com/">Menya Rui</a> in St. Louis, MO. One of the all time best dishes I&rsquo;ve ever had. After standing in line for 2.5 hours in the middle of Missouri winter, I took one bite and was instantly transported back to the 95 degree swamp heat of Laos. Except this version was even better (at 10x the price). Time seemed to stop ticking as I slurped up the noodles and soup. It doesn&rsquo;t say it on the menu, but this dish also had Sichuan peppercorns. Menya Rui is ridiculous. A hole in the wall ramen shop seemingly imported from Japan, with the red lanterns and paper walls to match, situated in a random strip mall in the St. Louis suburbs. Ten months after traveling around the world, I find the best noodle soup ever in my own backyard. Isn&rsquo;t that just the way?</p>
+<h2 id="do-it-myself">Do it myself</h2>
 <p>So I found it, at least until I try Pho and reevalute. But for now, it&rsquo;s Tantanmen Ramen, and I just need to learn how to make it. Luckily for me, ramen is one of the hardest dishes to make, so this shouldn&rsquo;t be easy.</p>
 <h2 id="dan-dan-noodles">Dan-dan Noodles</h2>
 <p>Since <em>Tantanmen</em> is the Japanese version of the Chinese <em>Dan Dan Mian</em> dish, let&rsquo;s take a quick look at what the original mainland dish is.</p>
