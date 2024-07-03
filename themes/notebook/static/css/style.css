@@ -155,6 +155,10 @@ img[alt=headshot] {
   color: var(--accent-color);
 }
 
+.logo .com {
+  color: var(--mg-color);
+}
+
 .menu {
   margin: 0;
   padding: 0;
