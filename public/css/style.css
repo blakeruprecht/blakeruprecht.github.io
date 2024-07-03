@@ -6,8 +6,6 @@
   --ul-color: #545454;
   --bg-color: #000;
 
-  --hover-color: #f00;
-
   --accent-color: #f00;
       
   --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
@@ -40,7 +38,7 @@ a {
 
 a:hover {
   color: var(--fg-color);
-  text-decoration: underline 2px var(--hover-color);
+  text-decoration: underline 2px var(--accent-color);
   /*transition: all .3s linear;*/
 }
 
@@ -91,7 +89,7 @@ blockquote {
 }
 
 hr {
-  border: 1px solid var(--fg-color);
+  border: 1px solid var(--ul-color);
 }
 
 footer {
@@ -134,7 +132,7 @@ img[alt=headshot] {
 
 .site-nav a {
   color: var(--mg-color);
-  font-family: var(--body-font);
+  font-family: var(--code-font);
   text-decoration: none;  
 }
 
@@ -211,7 +209,7 @@ img[alt=headshot] {
     }
 
     .menu-toggle {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       display: flex;
       cursor: pointer;  
       display: initial;
