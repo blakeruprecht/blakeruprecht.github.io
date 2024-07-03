@@ -206,7 +206,17 @@ The first sigmoid is the &amp;ldquo;forget-gate&amp;rdquo; $f_t$, the second sig
     </item>
     
     <item>
-      <title>Drawing</title>
+      <title>A Box Topology Meditation</title>
+      <link>https://blakeruprecht.github.io/woodwork/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/woodwork/</guid>
+      <description>I love building stuff out of wood. I love natural materials, and wood is special because it&amp;rsquo;s perfectly imperfect. Getting a naturally curvy material to make 90 degree corners and straight lines is tough, especially with limited tools (most of this was done with a drill, circ saw, and palm sander). Like with any DIY, I love how I can custom design everything to fit my needs.
+Not very complicated, but hey, that&amp;rsquo;s the joy of doing it yourself.</description>
+    </item>
+    
+    <item>
+      <title>Totally Random Ink Distributions</title>
       <link>https://blakeruprecht.github.io/drawing/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -216,16 +226,6 @@ Done using sharpie on paper, based on the houses from Your Cabin in the Woods by
 Done using a dip pen and black india ink. This is Fallingwater, a house designed by Frank Lloyd Wright in 1935.
 &amp;hellip;enough, it wouldn&amp;rsquo;t be the minimum. From KISS
 I particularly like black ink drawings with that bold, all-black shading style, though it&amp;rsquo;s very hard to get right.</description>
-    </item>
-    
-    <item>
-      <title>Woodwork</title>
-      <link>https://blakeruprecht.github.io/woodwork/</link>
-      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/woodwork/</guid>
-      <description>I love building stuff out of wood. I love natural materials, and wood is special because it&amp;rsquo;s perfectly imperfect. Getting a naturally curvy material to make 90 degree corners and straight lines is tough, especially with limited tools (most of this was done with a drill, circ saw, and palm sander). Like with any DIY, I love how I can custom design everything to fit my needs.
-Not very complicated, but hey, that&amp;rsquo;s the joy of doing it yourself.</description>
     </item>
     
     <item>
@@ -336,7 +336,7 @@ It seems so impossible before it happens. You see it approaching. You see all of
     </item>
     
     <item>
-      <title>Research</title>
+      <title>Can we build Safe Artificial Intelligences?</title>
       <link>https://blakeruprecht.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -351,8 +351,8 @@ What did I research? I went to grad school to research the AI Alignment problem,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/uncopyright/</guid>
-      <description>This website was created by me and is freely and openly available at this Github Repo under the MIT license. If you want to learn more about free software, read about FOSS on wiki. FOSS is punk, anti-capitalist, anti-ownership, anti-privatiziation, pro-freedom, pro-sharing economy, post-scarcity, and pro commons-based peer production.
-This website uses the static site generator Hugo to create pages. The theme is my own custom one, made using HTML/CSS. I&amp;rsquo;ve SEO optimized this site for technical and local search.</description>
+      <description>This website was created by me and is freely and openly available at this Github Repo under the MIT license. It&amp;rsquo;s made using the Hugo static site generator. The theme is custom made by me using HTML5, CSS3, and JavaScript.
+Free and Open Source Software (FOSS) is punk, anti-capitalist, anti-ownership, anti-privatiziation, pro-freedom, pro-sharing economy, post-scarcity, and pro commons-based peer production.</description>
     </item>
     
   </channel>

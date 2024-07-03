@@ -1,10 +1,10 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #111;
-  --mg-color: #777;
-  --ul-color: #a9a9a9;
-  --bg-color: #fff;
+  --fg-color: #eee;
+  --mg-color: #999;
+  --ul-color: #545454;
+  --bg-color: #000;
 
   --hover-color: #f00;
 
@@ -58,6 +58,17 @@ h5 { font-size: 0.8rem; }
 h6 { font-size: 0.6rem; }
 
 /* MISC */
+
+.far, .fab {
+  color: var(--mg-color);
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.far:hover, .fab:hover {
+  color: var(--fg-color);
+}
+
 ul, li {
   margin-bottom: 0.5rem;
 }
@@ -157,12 +168,12 @@ img[alt=headshot] {
 }
 
 .menu a {
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
 
 .menu a.active, 
 .logo a.active {
-  color: var(--fg-color);
+  color: var(--accent-color);
 }
 
 .menu-toggle {

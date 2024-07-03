@@ -1,5 +1,5 @@
 +++
-title = "Woodwork"
+title = "A Box Topology Meditation"
 date = 2023-04-10
 menu = "main"
 +++
