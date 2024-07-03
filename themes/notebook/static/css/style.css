@@ -132,7 +132,6 @@ img[alt=headshot] {
 
 .site-nav a {
   color: var(--mg-color);
-  font-family: var(--code-font);
   text-decoration: none;  
 }
 
@@ -146,14 +145,14 @@ img[alt=headshot] {
   list-style-type: none;
 }
 
-.logo .dots {
-  color: var(--mg-color);
-  font-weight: normal;
-}
-
 .logo a {
+  font-family: var(--code-font);
   color: var(--mg-color);
   font-size: 1.5rem;
+}
+
+.logo .dot {
+  color: var(--accent-color);
 }
 
 .menu {
@@ -169,9 +168,12 @@ img[alt=headshot] {
   text-transform: capitalize;
 }
 
-.menu a.active, 
+.menu a.active {
+  color: var(--fg-color);
+} 
+
 .logo a.active {
-  color: var(--accent-color);
+  color: var(--fg-color);
 }
 
 .menu-toggle {

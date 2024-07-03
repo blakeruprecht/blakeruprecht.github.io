@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ExpLog on BlakeRuprecht</title>
+    <title>blog on BlakeRuprecht</title>
     <link>https://blakeruprecht.github.io/blog/</link>
-    <description>Recent content in ExpLog on BlakeRuprecht</description>
+    <description>Recent content in blog on BlakeRuprecht</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes on creativity</title>
+      <link>https://blakeruprecht.github.io/blog/notes-on-creativity/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/notes-on-creativity/</guid>
+      <description>&amp;ldquo;Work&amp;rdquo; refers to anything related to gathering and defending resources. Originally, this meant hunting &amp;amp; fighting with spears and bows. It evolved into farming, craftsmanship, mercantilism, industry, and now full-on capitalism. Many people now spend 40+ hours per week doing something seemingly random to earn resources.
+Leo Babauta I am not a blogger. I am no author. I am a simple man who enjoys a simple life with his family. I write to be able to afford living that simple life.</description>
+    </item>
+    
     <item>
       <title>How to use Reinforcement Learning</title>
       <link>https://blakeruprecht.github.io/blog/reinforcement-learning/</link>

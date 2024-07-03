@@ -1,3 +1,3 @@
-+++
-title = "ExpLog"
-+++
+---
+title: blog
+---
