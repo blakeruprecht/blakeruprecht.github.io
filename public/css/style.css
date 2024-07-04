@@ -168,11 +168,15 @@ img[alt=headshot] {
   text-transform: capitalize;
 }
 
-.menu a.active,
-.logo a.active {
+.menu a.active {
   color: var(--fg-color);
   text-decoration: underline 2px var(--accent-color);
 } 
+
+.logo a.active {
+  color: var(--fg-color);
+  text-decoration: none;
+}
 
 .menu-toggle {
   display: none;
