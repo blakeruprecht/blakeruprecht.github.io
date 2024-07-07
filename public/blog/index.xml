@@ -48,6 +48,55 @@ If you&amp;rsquo;re as fresh and new as I was, you&amp;rsquo;ll probably appreci
     </item>
     
     <item>
+      <title>How to Install Python</title>
+      <link>https://blakeruprecht.github.io/blog/how-to-python/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/how-to-python/</guid>
+      <description>I entered the software field as a mechanical engineer. Even with technical experience and some coding experience, I found the entire software world quite daunting. All of the documentation I read assumed I already knew stuff like what this ~ symbol meant, or how to input something like $ cd home into my computer. I didn&amp;rsquo;t even understand why the text looks different with a little box around it.
+If you&amp;rsquo;re as fresh and new as I was, you&amp;rsquo;ll probably appreciate a step-by-step guide to figuring all of this out.</description>
+    </item>
+    
+    <item>
+      <title>How to use Python scientific computing packages</title>
+      <link>https://blakeruprecht.github.io/blog/how-to-python-scientific-computing/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/how-to-python-scientific-computing/</guid>
+      <description>I&amp;rsquo;ve done 5 years of science research and development using mainly Python, and have used the major scientific computing libraries. While this topic may seem intimidating, the actual usage of each library is typically pretty brief (a few lines of code), so you don&amp;rsquo;t need to be an expert in each library, you just need to generally know what they do so you can use them when you need to. Here&amp;rsquo;s a brief overview with some of the most common code explained.</description>
+    </item>
+    
+    <item>
+      <title>What is the terminal?</title>
+      <link>https://blakeruprecht.github.io/blog/how-to-terminal/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/how-to-terminal/</guid>
+      <description>SUMMARY
+Note: I use {curly brackets} to represent variables where you replace the text inside the brackets, and don&amp;rsquo;t type the brackets themselves. This is often used in documentation, but not explained, so be on the lookout. ls lists files; ls -la lists all files the long way cd changes directory mv {dir1/old} {dir2/new} moves a file from the first dir position to the second dir position mkdir {dirname} creates a new directory touch {filename} creates a new file simply grep [options] pattern {files} searchs all the files in {files} for the &amp;ldquo;pattern&amp;rdquo; specified, e.</description>
+    </item>
+    
+    <item>
+      <title>How to select an Operating System</title>
+      <link>https://blakeruprecht.github.io/blog/how-to-operating-system/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/how-to-operating-system/</guid>
+      <description>Okay, so you now have a computer (honestly you probably had one already and skipped [How to select a good computer](How to computer)), what OS? Kidding, I know that most computers already come with an Operating System, so good news &amp;ndash; it&amp;rsquo;s probably fine to just stick with what you&amp;rsquo;ve got, they&amp;rsquo;re all pretty good these days.
+MacOS - a good Unix-style OS If you buy a Macbook and it comes with MacOS, keep it.</description>
+    </item>
+    
+    <item>
+      <title>How to select a good computer</title>
+      <link>https://blakeruprecht.github.io/blog/how-to-computer/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/how-to-computer/</guid>
+      <description>I&amp;rsquo;m trained as a computer scientist, so technically I know nothing about computer hardware. That&amp;rsquo;s the domain of computer engineers. Still, I have a lot of experience with computers and can give some general recommendations. This is probably most applicable to people in the USA, but not too sure.
+I recommend Apple Macbooks, Dell XPS 13s, and Lenovo Thinkpads in this article. There are many more good computers out there, but I don&amp;rsquo;t have personal experience with others, so I won&amp;rsquo;t recommend them.</description>
+    </item>
+    
+    <item>
       <title>Simple software follows Unix principles</title>
       <link>https://blakeruprecht.github.io/blog/simple-software/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
