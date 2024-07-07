@@ -7,7 +7,7 @@ menu = "main"
 I love building stuff out of wood. I love natural materials, and wood is special because it's perfectly imperfect. Getting a naturally curvy material to make 90 degree corners and straight lines is tough, especially with limited tools (most of this was done with a drill, circ saw, and palm sander). Like with any DIY, I love how I can custom design everything to fit my needs.
 
 ![Handmade coffee and console table](wood-living-room.jpg)
-*Not very complicated, but hey, that's the joy of doing it yourself. I custom build that console to fit my speakers, and designed it so that I could get the Home Depot dudes to cut it for me (notice the cut ends stick out, so they don't need to be perfect) and the coffee table has some custom "artwork" made by wood burning and such.*
+*A simple design. I bought the black iron legs online. I built the coffee table using a plank of wood. I had the Home Depot person custom cut the console table so that the 2x12s would lay such that the 11.5" measurement was the crucial one for this box.*
 
 &nbsp;
 

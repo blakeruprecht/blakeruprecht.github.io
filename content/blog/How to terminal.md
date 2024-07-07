@@ -3,8 +3,6 @@ title: What is the terminal?
 date: 2024-02-27
 description: '"The terminal is an essential tool of the modern computer scientist, up there with the text editor and ChatGPT. Haha, at least the terminal has been around since the dawn of computing."'
 ---
-
-
 The terminal, command line, prompt, command prompt -- what's going on there? I'm sure most of you remember or have seen pictures of the old computers -- big metal frames, tiny curved screens, probably black with green text or something. Old school, hacker looking stuff. Those computers were all text-based -- there were no pictures. No graphics. No images. Well, except for the words used to give the computer commands. The whole word concept has stuck around since the very beginning, and is still the main way that computer scientists communicate with the computer. Text.
 
 Why text? It's pretty simple, and easy for us humans to remember key words that actually relate to what's going on. At least, that's the idea. The terminal is the place we give the computer commands. That's why it's also called the command line, or command prompt. The most minimal representation of the terminal/command line/command prompt is a special symbol that changes, I don't know why. Typically, the symbol is `$`, `>`, `%`, `#`, or something like that. I particularly like `>` because it looks like an arrow.

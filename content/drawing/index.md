@@ -4,7 +4,7 @@ date = 2023-04-10
 menu = "main"
 +++
 
-My favorite media are ink drawing and woodworking, here are a few of my best pieces from over the years. 
+Black ink on white paper.
 
 ![Drawing of a log cabin I made up](drawing-log-cabin.jpg)
 *Done using sharpie on paper, based on the houses from *Your Cabin in the Woods* by Conrad Meinecke.*
