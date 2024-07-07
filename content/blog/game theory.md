@@ -10,6 +10,9 @@ As **agents**, we set goals and figure out how to achieve them. That's what bein
 
 Hence, computers cannot become intelligent until they start choosing their own goals and achieving them.
 ## Tit-for-tat is the best strategy in infinite cooperative games
+
+Mathematics calls it *tit-for-tat*. Biology calls it *reciprocal altruism*. Philosophy calls it the *categorical imperative*. My teachers called it the *golden rule*. 
+
 Game Theory has shown us that cooperation is the best default strategy in infinite, cooperative games. If your fellow player also cooperates, continue cooperating. As soon as the other player cheats against you, you cheat against them next time. Then keep cheating until they go back to cooperating, then you go back. This is called *tit-for-tat*, and it beats all other strategies. It drove the other strategies to extinction. It's retaliatory, it's clear-cut, easy to understand, and it's forgiving. It's perfect!
 
 It may lose an immediate battle, but it wins all the wars. It has a *vulnerability*. Forgiving tit-for-tat has a vulnerability against players who do not forgive so easily. A better strategy became apparent.
@@ -19,6 +22,7 @@ I heard a speech about business being an infinitely cooperative game. The time h
 Stickleback fish, a notoriously dumb type of fish, are capable of applying tit-for-tat strategy in cooperative/competitive games. All animals incorporate this strategy.
 
 ## Stickleback fish display tit-for-tat behavior
+Even the dumbest, oldest, most basic lifeforms -- fish -- apply tit-for-tat. They will cooperate with eachother until they get burned. Incredible.
 
 ## Strategic dominance makes decisions easier
 > *In game theory, **strategic dominance** occurs when one strategy is better than another strategy for one player, no matter how that player's opponents may play.*
