@@ -79,11 +79,11 @@ time {
 
 code {
   font-family: var(--code-font);
-  border: solid 1px var(--ul-color);
+  border: solid 1px var(--accent-color);
 }
 
 blockquote {
-  border-left: 1px solid var(--fg-color);
+  border-left: 1px solid var(--ul-color);
   padding: 0 2rem;
   margin: 0;
 }
@@ -126,7 +126,7 @@ img[alt=headshot] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--ul-color);
+  border-bottom: 0px solid var(--ul-color);
 }
 
 .site-nav a {
@@ -175,7 +175,7 @@ img[alt=headshot] {
 
 .logo a.active {
   color: var(--fg-color);
-  text-decoration: none;
+  text-decoration: underline 2px var(--accent-color);
 }
 
 .menu-toggle {
