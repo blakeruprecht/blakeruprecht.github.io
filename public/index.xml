@@ -7,6 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>How to Get Better Responses from ChatGPT by Working Backwards</title>
+      <link>https://blakeruprecht.github.io/blog/chatgpt-work-backwards/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/chatgpt-work-backwards/</guid>
+      <description>Modern generative AIs are getting very, very good at responding to questions. Generative AI Large Language Models (LLMs) like ChatGPT, Claude, Gemini, and LLama all respond to language prompts excellently. We are collectively starting to realize the benefits of using AI for work and play. But how do you get the most out of your interactions with these new weird machines?
+Suppose you want to learn how to code. Five years ago, this was very difficult, even with Google.</description>
+    </item>
+    
+    <item>
+      <title>Pay Close Attention to Compatibility When Building a Computer</title>
+      <link>https://blakeruprecht.github.io/blog/build-a-computer/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/build-a-computer/</guid>
+      <description>Building a computer is a fun journey, especially with the plethora of YouTube tutorials at your fingertips, but the real challenge lies in ensuring your chosen components are compatible. Get this wrong and you may end up with a black screen or, worse, fried components. Here&amp;rsquo;s what you need to know about compatibility to avoid disaster.
+Motherboard and CPU. Your motherboard is the cornerstone of your build. Think of it as the backbone that connects and supports all other components.</description>
+    </item>
+    
+    <item>
       <title>How to use Reinforcement Learning</title>
       <link>https://blakeruprecht.github.io/blog/reinforcement-learning/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
@@ -43,8 +63,8 @@ I also ate grasshoppers, crickets, mealworms, and bamboo worms. I liked them all
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/how-to-python/</guid>
-      <description>I entered the software field as a mechanical engineer. Even with technical experience and some coding experience, I found the entire software world quite daunting. All of the documentation I read assumed I already knew stuff like what this ~ symbol meant, or how to input something like $ cd home into my computer. I didn&amp;rsquo;t even understand why the text looks different with a little box around it.
-If you&amp;rsquo;re as fresh and new as I was, you&amp;rsquo;ll probably appreciate a step-by-step guide to figuring all of this out.</description>
+      <description>I entered the software field as a mechanical engineer. Even with technical experience and some coding experience, I found the entire software world quite daunting. All the documentation I read assumed I already knew stuff like what this ~ symbol meant, or how to input something like $ cd home into my computer. I didn&amp;rsquo;t even understand why the text looks different with a little box around it.
+If you&amp;rsquo;re as new as I was, you&amp;rsquo;ll probably appreciate a step-by-step guide to figuring all of this out.</description>
     </item>
     
     <item>
@@ -103,6 +123,17 @@ I recommend Apple Macbooks, Dell XPS 13s, and Lenovo Thinkpads in this article. 
       <guid>https://blakeruprecht.github.io/blog/game-theory/</guid>
       <description>&amp;ldquo;Intelligence is the ability to get what you want.&amp;rdquo;
 As agents, we set goals and figure out how to achieve them. That&amp;rsquo;s what being smart is. Being intelligent is not the ability to learn 100 digits of Pi. That&amp;rsquo;s just pure computation. Being intelligent is reciting those digits to a girl you have a crush on, but only if it works. If she gets the ick, then that behavior was dumb, unless you were purely competing with yourself, in which case it&amp;rsquo;s back to being smart.</description>
+    </item>
+    
+    <item>
+      <title>Growth Mindset</title>
+      <link>https://blakeruprecht.github.io/blog/growth-mindset/</link>
+      <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/growth-mindset/</guid>
+      <description>Table of Contents
+Summary What is growth mindset? Praise effort, not identity Stop trying to be perfect Embrace stress References SUMMARY: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don&amp;rsquo;t try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.
+1. What is growth mindset A growth mindset is when you believe you can improve at anything with time and effort.</description>
     </item>
     
     <item>

@@ -8,9 +8,13 @@ description: "Blake Ruprecht's personal website. Here I write about topics that 
 
 Hi, my name is Blake.
 
-I'm an AI Research Engineer & Advocate of Safe AI.
+I'm a writer and researcher with a focus on Safe AI. Here are a few samples of my writing:
+- [How to Install Python](blog/how-to-python)
+- [How to Get Better Responses from ChatGPT by Working Backwards](blog/chatgpt-work-backwards)
+- [Pay Close Attention to Compatibility When Building a Computer](blog/build-a-computer)
+- [Do it yourself EV charger installation](blog/install-an-ev-charger)
 
-Check out my past research up top. My blog is dedicated to some technical and some random topics. Please send feedback to me at the links below, I appreciate it!
+Check out my research, writing, and art up top. Please send feedback to me at the links below, I would love to hear from you!
 
 [<i class="far fa-envelope"></i>](mailto:blakecruprecht@gmail.com)
 [<i class="fab fa-github"></i>](https://github.com/blakeruprecht)

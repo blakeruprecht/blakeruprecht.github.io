@@ -3,16 +3,16 @@ date: 2024-03-17
 title: How to Install Python
 description: '"In this essay I take readers on a journey from Noob to Python master, the same journey I undertook during my Masters degree to study AI."'
 ---
-I entered the software field as a mechanical engineer. Even with technical experience and some coding experience, I found the entire software world quite daunting. All of the documentation I read assumed I already knew stuff like what this `~` symbol meant, or how to input something like `$ cd home` into my computer. I didn't even understand why the text looks different with a little box around it.
+I entered the software field as a mechanical engineer. Even with technical experience and some coding experience, I found the entire software world quite daunting. All the documentation I read assumed I already knew stuff like what this `~` symbol meant, or how to input something like `$ cd home` into my computer. I didn't even understand why the text looks different with a little box around it.
 
-If you're as fresh and new as I was, you'll probably appreciate a step-by-step guide to figuring all of this out. There's so much more to coding than actually typing code. You have to know where your files are stored, where your software is stored, where your packages are stored, and how they all talk to eachother. Let's break it down.
+If you're as new as I was, you'll probably appreciate a step-by-step guide to figuring all of this out. There's so much more to coding than typing code. You must know where your files are stored, where your software is stored, where your packages are stored, and how they all talk to each other. Let's break it down.
 
 ## Installation instructions
-Here's what you'll typically see, as concisely as possible
+Here's what you'll typically see, as concisely as possible. Bold terms are explained in the FAQ.
 
-1. Download the latest version of Python from the [official website](https://www.python.org/downloads/) for your operating system (Mac, Windows, Linux, etc.)
-2. Follow the installer, making sure to "add python.exe to PATH"
-3. Open up a Terminal app and type the command `python --version` to verify you have Python installed correctly. It should print out something like `Python 3.11.2`
+1. Download the latest **version** of Python from the [official website](https://www.python.org/downloads/) for your operating system (Mac, Windows, Linux, etc.)
+2. Follow the installer, making sure to "add python.exe to **PATH**"
+3. Open up a **Terminal** app and type the command `python --version` to verify you have Python installed correctly. It should print out something like `Python 3.11.2`
 
 ## FAQ
 
@@ -20,13 +20,13 @@ Here's what you'll typically see, as concisely as possible
 
 **What is 32-bit versus 64-bit?** This refers to a specific detail about your CPU architecture. Most modern computers use 64-bit, so you'll probably never need to use 32-bit.
 
-**What is PATH?** Environment variables store data about a system's environment so the system knows where to look for certain information. The PATH variable is used in Windows, Mac, and Linux. In actuality, it's just a text string of folders that tell your system where to look for programs, executables, etc. If you don't add the location of your Python installation to your PATH variable, every time you try to type in `python` in the terminal, your system won't know where to look for it. Usually, when you install an application, the application folder is added to yoru PATH variable automatically.
+**What is PATH?** Environment variables store data about a system's environment, so the system knows where to look for certain information. The PATH variable is used in Windows, Mac, and Linux as the main user environment variable. It's simply a group of folders represented as a string that tell your system where to look for programs, executables, etc. If you don't add the folder where you installed Python to your path, your computer won't know where to look for the Python executable. Usually, when you install an application, it's automatically added to your path. In the case of installing Python, you have to make sure to check the box to add Python to your PATH.
 
 **What is a directory?** Computer nerds use a secret word called directory instead of just saying folder. I have no idea why we do this.
 
-**What is a terminal?** --> [How to terminal](How to terminal).
+**What is a terminal?** --> [How to terminal](How to terminal). On MacOS or Linux, it's the app called "Terminal." On Windows, the default is Command Prompt, but you can download PowerShell or Windows Terminal, or even Windows Subsystem for Linux, which runs native Linux commands and tools.
 
-**The** `python` **command didn't work?** There's a chance you have to type `python3` to run Python. Otherwise, if it's not working, you may not have the folder/directory location of the Python executable in your PATH.
+**The** `python` **command didn't work?** There's a chance you must type `python3` to run Python. Otherwise, if it's not working, you may not have the folder/directory location of the Python executable in your PATH.
 
 ## References
 As always, the best way to learn about a piece of software -- read the docs!
