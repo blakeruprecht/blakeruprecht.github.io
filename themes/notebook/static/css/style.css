@@ -145,7 +145,12 @@ img[alt=headshot] {
   list-style-type: none;
 }
 
-.logo a, .com {
+.logo a {
+  color: var(--fg-color);
+  font-size: 1.5rem;
+}
+
+.logo .com {
   color: var(--mg-color);
   font-size: 1.5rem;
 }
