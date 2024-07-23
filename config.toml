@@ -1,6 +1,6 @@
 # Basic parameters
 baseURL = "https://blakeruprecht.github.io"
-title = "BlakeRuprecht"
+title = "Blake Ruprecht"
 theme = "notebook"
 enableRobotsTXT = true
 

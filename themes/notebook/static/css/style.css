@@ -6,10 +6,40 @@
   --ul-color: #aaa;
   --bg-color: #fff;
 
-  --accent-color: #c00;
+  --accent-color: #29E01F;
       
   --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
   --code-font: "Hack", Consolas,  monospace;
+}
+
+body.light-theme {
+  --fg-color: #111;
+  --mg-color: #999;
+  --ul-color: #aaa;
+  --bg-color: #fff;
+  --accent-color: #DD0000;
+}
+
+body.dark-theme {
+  --fg-color: #eee;
+  --mg-color: #888;
+  --ul-color: #777;
+  --bg-color: #000;
+  --accent-color: #DD0000;
+}
+
+button {
+  display: flex;
+  align-self: start;
+  flex-direction: column;
+  background: none;
+  color: var(--accent-color);
+  border: none;
+  cursor: pointer;
+}
+
+.fa-sun, .fa-moon {
+  font-size: 24px;
 }
 
 
@@ -108,6 +138,7 @@ footer a {
 
 footer a:hover {
   background: var(--bg-color);
+  text-decoration: none;
 }
 
 img {
@@ -136,10 +167,11 @@ img[alt=headshot] {
 
 .site-nav a:hover{
   color: var(--fg-color);
-  text-decoration: underline 2px var(--accent-color);
+  text-decoration: none 2px var(--accent-color);
 }
 
 .logo {
+  justify-content: start;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -147,16 +179,8 @@ img[alt=headshot] {
 
 .logo a {
   color: var(--fg-color);
-  font-size: 1.5rem;
-}
-
-.logo .com {
-  color: var(--mg-color);
-  font-size: 1.5rem;
-}
-
-.logo .dot {
-  color: var(--accent-color);
+  font-weight: bold;
+  font-style: italic;
   font-size: 1.5rem;
 }
 
@@ -170,17 +194,17 @@ img[alt=headshot] {
 }
 
 .menu a {
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 
 .menu a.active {
   color: var(--fg-color);
-  text-decoration: underline 2px var(--accent-color);
+  text-decoration: none 2px var(--accent-color);
 } 
 
 .logo a.active {
   color: var(--fg-color);
-  text-decoration: underline 2px var(--accent-color);
+  text-decoration: none 2px var(--accent-color);
 }
 
 .menu-toggle {
@@ -221,7 +245,6 @@ img[alt=headshot] {
       font-size: 1.5rem;
       display: flex;
       cursor: pointer;  
-      display: initial;
       align-self: flex-end;   
       position: absolute;
       color: var(--mg-color);

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>BlakeRuprecht</title>
+  <title>Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
-  <link rel="alternate" type="application/rss+xml" href="https://blakeruprecht.github.io/index.xml" title="BlakeRuprecht" />
+  <link rel="alternate" type="application/rss+xml" href="https://blakeruprecht.github.io/index.xml" title="Blake Ruprecht" />
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
 <script>
@@ -49,8 +49,11 @@ if (!doNotTrack) {
   
   <nav class="site-nav">
     <div class="logo">
-      <li> <a href="/">BlakeRuprecht</a><span class="dot">.</span><span class="com">com</span></li>
+      <li> <a href="/">Blake Ruprecht</a></li>
     </div>
+    
+    
+
     <button class="menu-toggle">☰</button>
     
     
@@ -68,6 +71,28 @@ if (!doNotTrack) {
             document.querySelector('.site-nav').classList.toggle('expanded');
         });
     </script>
+
+    
+    <script>
+      function toggleTheme() {
+        const body = document.body;
+        const themeIcon = document.getElementById('theme-icon');
+    
+        if (body.classList.contains('dark-theme')) {
+          body.classList.remove('dark-theme');
+          body.classList.add('light-theme');
+          themeIcon.classList.remove('fa-moon');
+          themeIcon.classList.add('fa-sun');
+        } else {
+          body.classList.remove('light-theme');
+          body.classList.add('dark-theme');
+          themeIcon.classList.remove('fa-sun');
+          themeIcon.classList.add('fa-moon');
+        }
+      }
+    </script>
+
+
 
   </nav>
 
@@ -108,15 +133,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 <p><img src="headshot.jpg" alt="headshot"></p>
-<p>Hi, my name is Blake.</p>
-<p>I&rsquo;m a writer and researcher with a focus on Safe AI. Here are a few samples of my writing:</p>
+<p>Hey, that&rsquo;s me ^</p>
+<p>I&rsquo;m a writer and researcher.</p>
+<p>I&rsquo;m focused on AI and computers.</p>
 <ul>
 <li><a href="blog/how-to-python">How to Install Python</a></li>
 <li><a href="blog/chatgpt-work-backwards">How to Get Better Responses from ChatGPT by Working Backwards</a></li>
 <li><a href="blog/build-a-computer">Pay Close Attention to Compatibility When Building a Computer</a></li>
 <li><a href="blog/install-an-ev-charger">Do it yourself EV charger installation</a></li>
 </ul>
-<p>Check out my research, writing, and art up top. Please send feedback to me at the links below, I would love to hear from you!</p>
+<p>Check out my research, blog, and more up top. Please send feedback to me at the links below, I would love to hear from you!</p>
 <p><a href="mailto:blakecruprecht@gmail.com"><i class="far fa-envelope"></i></a>
 <a href="https://github.com/blakeruprecht"><i class="fab fa-github"></i></a>
 <a href="https://www.linkedin.com/in/blakeruprecht"><i class="fab fa-linkedin"></i></a>

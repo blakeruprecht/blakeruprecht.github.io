@@ -6,15 +6,20 @@ description: "Blake Ruprecht's personal website. Here I write about topics that 
 
 ![headshot](headshot.jpg)
 
-Hi, my name is Blake.
+Hey, that's me ^
 
-I'm a writer and researcher with a focus on Safe AI. Here are a few samples of my writing:
+I'm a writer and researcher.
+
+I'm focused on AI and computers.
+
+
+
 - [How to Install Python](blog/how-to-python)
 - [How to Get Better Responses from ChatGPT by Working Backwards](blog/chatgpt-work-backwards)
 - [Pay Close Attention to Compatibility When Building a Computer](blog/build-a-computer)
 - [Do it yourself EV charger installation](blog/install-an-ev-charger)
 
-Check out my research, writing, and art up top. Please send feedback to me at the links below, I would love to hear from you!
+Check out my research, blog, and more up top. Please send feedback to me at the links below, I would love to hear from you!
 
 [<i class="far fa-envelope"></i>](mailto:blakecruprecht@gmail.com)
 [<i class="fab fa-github"></i>](https://github.com/blakeruprecht)

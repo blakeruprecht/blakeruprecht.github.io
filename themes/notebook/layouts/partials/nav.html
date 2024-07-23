@@ -2,8 +2,15 @@
   
   <nav class="site-nav">
     <div class="logo">
-      <li> <a href="/">{{ .Site.Title }}</a><span class="dot">.</span><span class="com">com</span></li>
+      <li> <a href="/">{{ .Site.Title }}</a></li>
     </div>
+    
+    <!--
+    <button onclick="toggleTheme()">
+      <i id="theme-icon" class="fa fa-sun"></i>
+    </button>
+    -->
+
     <button class="menu-toggle">☰</button>
     
     <!--Instead of looping, I hard coded the order-->
@@ -21,6 +28,28 @@
             document.querySelector('.site-nav').classList.toggle('expanded');
         });
     </script>
+
+    <!--ADD A DAY/NIGHT THEME BUTTON-->
+    <script>
+      function toggleTheme() {
+        const body = document.body;
+        const themeIcon = document.getElementById('theme-icon');
+    
+        if (body.classList.contains('dark-theme')) {
+          body.classList.remove('dark-theme');
+          body.classList.add('light-theme');
+          themeIcon.classList.remove('fa-moon');
+          themeIcon.classList.add('fa-sun');
+        } else {
+          body.classList.remove('light-theme');
+          body.classList.add('dark-theme');
+          themeIcon.classList.remove('fa-sun');
+          themeIcon.classList.add('fa-moon');
+        }
+      }
+    </script>
+
+
 
   </nav>
 

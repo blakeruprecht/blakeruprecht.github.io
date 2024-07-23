@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>How to select an Operating System | BlakeRuprecht</title>
+  <title>How to select an Operating System | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -47,8 +47,11 @@ if (!doNotTrack) {
   
   <nav class="site-nav">
     <div class="logo">
-      <li> <a href="/">BlakeRuprecht</a><span class="dot">.</span><span class="com">com</span></li>
+      <li> <a href="/">Blake Ruprecht</a></li>
     </div>
+    
+    
+
     <button class="menu-toggle">☰</button>
     
     
@@ -66,6 +69,28 @@ if (!doNotTrack) {
             document.querySelector('.site-nav').classList.toggle('expanded');
         });
     </script>
+
+    
+    <script>
+      function toggleTheme() {
+        const body = document.body;
+        const themeIcon = document.getElementById('theme-icon');
+    
+        if (body.classList.contains('dark-theme')) {
+          body.classList.remove('dark-theme');
+          body.classList.add('light-theme');
+          themeIcon.classList.remove('fa-moon');
+          themeIcon.classList.add('fa-sun');
+        } else {
+          body.classList.remove('light-theme');
+          body.classList.add('dark-theme');
+          themeIcon.classList.remove('fa-sun');
+          themeIcon.classList.add('fa-moon');
+        }
+      }
+    </script>
+
+
 
   </nav>
 
