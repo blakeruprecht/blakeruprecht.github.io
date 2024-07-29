@@ -2,46 +2,16 @@
 /* GLOBAL VARIABLES */
 :root {
   --fg-color: #111;
+  --a-color:  #333;
   --mg-color: #999;
   --ul-color: #aaa;
   --bg-color: #fff;
 
-  --accent-color: #29E01F;
+  --accent-color: #dd0000;
       
   --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
   --code-font: "Hack", Consolas,  monospace;
 }
-
-body.light-theme {
-  --fg-color: #111;
-  --mg-color: #999;
-  --ul-color: #aaa;
-  --bg-color: #fff;
-  --accent-color: #DD0000;
-}
-
-body.dark-theme {
-  --fg-color: #eee;
-  --mg-color: #888;
-  --ul-color: #777;
-  --bg-color: #000;
-  --accent-color: #DD0000;
-}
-
-button {
-  display: flex;
-  align-self: start;
-  flex-direction: column;
-  background: none;
-  color: var(--accent-color);
-  border: none;
-  cursor: pointer;
-}
-
-.fa-sun, .fa-moon {
-  font-size: 24px;
-}
-
 
 /* GENERAL STYLE */
 body {
@@ -62,13 +32,13 @@ body {
 /* LINKS */
 a {
   color: var(--fg-color);
-  text-decoration: underline 1px solid var(--ul-color);
+  text-decoration: underline 1px solid var(--mg-color);
   text-underline-offset: 5px;
 }
 
 a:hover {
   color: var(--fg-color);
-  text-decoration: underline 2px var(--accent-color);
+  text-decoration: underline 2px solid var(--accent-color);
   /*transition: all .3s linear;*/
 }
 
