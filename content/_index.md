@@ -8,8 +8,9 @@ description: "Blake Ruprecht's personal website. Here I write about topics that 
 
 ![headshot](headshot.jpg)
 
-I'm a writer and researcher from Missouri.
+Writer. Researcher. Generalist. 
 
+From St. Louis, currently in Denver.
 
 - Check out my writings on my [blog](/blog)
 - Previously I was an A.I. safety [researcher](/research)

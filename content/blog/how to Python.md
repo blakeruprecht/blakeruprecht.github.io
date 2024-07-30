@@ -24,7 +24,7 @@ Here's what you'll typically see, as concisely as possible. Bold terms are expla
 
 **What is a directory?** Computer nerds use a secret word called directory instead of just saying folder. I have no idea why we do this.
 
-**What is a terminal?** --> [How to terminal](How to terminal). On MacOS or Linux, it's the app called "Terminal." On Windows, the default is Command Prompt, but you can download PowerShell or Windows Terminal, or even Windows Subsystem for Linux, which runs native Linux commands and tools.
+**What is a terminal?** Check out [How to terminal](/blog/how-to-terminal). On MacOS or Linux, it's the app called "Terminal." On Windows, the default is Command Prompt, but you can download PowerShell or Windows Terminal, or even Windows Subsystem for Linux, which runs native Linux commands and tools.
 
 **The** `python` **command didn't work?** There's a chance you must type `python3` to run Python. Otherwise, if it's not working, you may not have the folder/directory location of the Python executable in your PATH.
 
