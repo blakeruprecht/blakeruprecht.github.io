@@ -1,5 +1,5 @@
 ---
-title: How to Get Better Responses from ChatGPT by Working Backwards
+title: How to Get Better Responses from ChatGPT
 date: 2024-07-16
 description: '"Generative AI Large Language Models are great at filling in the gaps from input to output. The best way to use a LLM is to describe the output you want as clearly as possible."'
 ---
