@@ -6,11 +6,11 @@ description: "Blake Ruprecht's personal website. Here I write about topics that 
 
 # Hi, I'm Blake Ruprecht
 
+(roo-pwrecked)
+
 ![headshot](headshot.jpg)
 
-Writer. Researcher. Generalist. 
-
-From St. Louis, currently in Denver.
+*Homo sapiens*. Questioner. Generalist.
 
 - Check out my writings on my [blog](/blog)
 - Previously I was an A.I. safety [researcher](/research)
