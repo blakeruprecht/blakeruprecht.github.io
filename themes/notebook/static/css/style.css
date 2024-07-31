@@ -30,15 +30,15 @@ body {
 
 /* LINKS */
 a {
-  color: var(--aa-color);
+  color: var(--fg-color);
   text-decoration: underline 1px solid var(--ul-color);
   text-underline-offset: 5px;
 }
 
 a:hover {
   color: var(--fg-color);
-  text-decoration: underline 2px solid var(--ul-color);
-  /*transition: all .3s linear;*/
+  text-decoration: underline 1px solid var(--ul-color);
+  background: #f0f0f0;
 }
 
 /* HEADERS */
