@@ -1,13 +1,13 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #111;
-  --aa-color: #444;
+  --fg-color: #333;
+  --aa-color: #666;
   --mg-color: #808080;
-  --ul-color: #a8a8a8;
+  --ul-color: #bbbbbb;
   --bg-color: #fff;
 
-  --accent-color: #dd0000;
+  --accent-color: #223B57;
       
   --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
   --code-font: "Hack", Consolas,  monospace;
@@ -37,8 +37,9 @@ a {
 
 a:hover {
   color: var(--fg-color);
-  text-decoration: underline 1px solid var(--ul-color);
+  text-decoration: underline 1px solid var(--fg-color);
   background: #f0f0f0;
+  transition: all .3s linear;
 }
 
 /* HEADERS */
@@ -104,7 +105,7 @@ code {
 }
 
 blockquote {
-  border-left: 1px solid var(--ul-color);
+  border-left: 2px solid var(--ul-color);
   padding: 0 2rem;
   margin: 0;
 }

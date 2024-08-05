@@ -5,7 +5,7 @@ description: "\"Modern operating systems are all pretty good, but only Linux is 
 ---
 Okay, so you now have a computer (honestly you probably had one already and skipped [How to select a good computer](How to computer)), what OS? Kidding, I know that most computers already come with an Operating System, so good news -- it's probably fine to just stick with what you've got, they're all pretty good these days.
 
-# MacOS - a good Unix-style OS
+## MacOS - a good Unix-style OS
 If you buy a Macbook and it comes with MacOS, keep it. Otherwise it's pretty hard to get MacOS. It's nothing special compared to Linux, it's actually just very similar. It's a great operating system for most people. You can always dual-boot Windows or Linux later, for free, if you choose to. Or switch completely to one of the other two.
 
 Really the only way to get MacOS is to buy an Apple laptop. You could try to make a Hackintosh, but this guide isn't for that. Just think of MacOS as very similar to Linux (they're both from the Unix family of OSs for the history nerds), so they're practically interchangeable. At least as far as software goes.

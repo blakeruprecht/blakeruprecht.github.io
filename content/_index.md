@@ -5,16 +5,16 @@ description: "Blake Ruprecht's personal website. Here I write about topics that 
 ---
 
 # Blake **Ruprecht**
-(roo-pwrecked)
 
 ![headshot](headshot.jpg)
 
+Writer | Researcher | Artist
 
 - Check out my writings on my [blog](/blog)
 - Previously I was an A.I. safety [researcher](/research)
 - I make black ink [drawings](/drawing)
 - I make boxes out of [wood](/woodwork)
 
-Don't hesitate to reach out and connect, I would love to chat!
+Connect with me at one of the links below, I would love to hear from you!
 
 [email](mailto:blakecruprecht@gmail.com) • [github](https://github.com/blakeruprecht) • [linkedin](https://www.linkedin.com/in/blakeruprecht) • [instagram](https://www.instagram.com/blakeruprecht)
