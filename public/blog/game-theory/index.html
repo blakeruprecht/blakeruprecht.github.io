@@ -43,6 +43,57 @@ if (!doNotTrack) {
 
 <body>
 
+<header class="site-header">
+  
+  <nav class="site-nav">
+    <div class="logo">
+      <li> <a href="/">Blake Ruprecht</a></li>
+    </div>
+    
+    
+    
+    
+
+    
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.site-nav').classList.toggle('expanded');
+        });
+    </script>
+
+  </nav>
+
+</header>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const currentPath = window.location.pathname;
+    console.log('Current Path:', currentPath);  
+
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+
+    
+    const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
+
+    
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href');
+        console.log('Checking Menu Item:', itemPath);  
+
+        if (itemPath === currentPath) {
+            console.log('Match Found:', itemPath);  
+            item.classList.add('active');
+        }
+    });
+
+    
+    if (homePaths.includes(currentPath)) {
+        console.log('Highlighting Logo for Home Page');  
+        logo.classList.add('active');
+    }
+});
+</script>
 
 
 <main class="content">
@@ -60,7 +111,7 @@ if (!doNotTrack) {
   };
 </script>
 
-<h1><a href="/">Blake</a>: <span class="title">Game Theory applies math to behavior</span></h1>
+<h1>Game Theory applies math to behavior</h1>
 
 <span>
 	

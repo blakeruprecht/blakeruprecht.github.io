@@ -1,5 +1,5 @@
 +++ 
-title = "Can we build Safe Artificial Intelligences?" 
+title = "Can we build Safe AI?" 
 menu = "main"
 +++
 

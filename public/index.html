@@ -45,12 +45,62 @@ if (!doNotTrack) {
 
 <body>
 
+<header class="site-header">
+  
+  <nav class="site-nav">
+    <div class="logo">
+      <li> <a href="/">Blake Ruprecht</a></li>
+    </div>
+    
+    
+    
+    
+
+    
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.site-nav').classList.toggle('expanded');
+        });
+    </script>
+
+  </nav>
+
+</header>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const currentPath = window.location.pathname;
+    console.log('Current Path:', currentPath);  
+
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+
+    
+    const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
+
+    
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href');
+        console.log('Checking Menu Item:', itemPath);  
+
+        if (itemPath === currentPath) {
+            console.log('Match Found:', itemPath);  
+            item.classList.add('active');
+        }
+    });
+
+    
+    if (homePaths.includes(currentPath)) {
+        console.log('Highlighting Logo for Home Page');  
+        logo.classList.add('active');
+    }
+});
+</script>
 
 
 <main class="content">
 
 
-<h1 id="blake-ruprecht">Blake <strong>Ruprecht</strong></h1>
 <p><img src="headshot.jpg" alt="headshot"></p>
 <p>Writer | Researcher | Artist</p>
 <ul>
@@ -59,8 +109,7 @@ if (!doNotTrack) {
 <li>I make black ink <a href="/drawing">drawings</a></li>
 <li>I make boxes out of <a href="/woodwork">wood</a></li>
 </ul>
-<p>Connect with me at one of the links below, I would love to hear from you!</p>
-<p><a href="mailto:blakecruprecht@gmail.com">email</a> • <a href="https://github.com/blakeruprecht">github</a> • <a href="https://www.linkedin.com/in/blakeruprecht">linkedin</a> • <a href="https://www.instagram.com/blakeruprecht">instagram</a></p>
+<p>Connect with me at one of the links below, I would love to hear from you! <a href="mailto:blakecruprecht@gmail.com">email</a> • <a href="https://github.com/blakeruprecht">github</a> • <a href="https://www.linkedin.com/in/blakeruprecht">linkedin</a> • <a href="https://www.instagram.com/blakeruprecht">instagram</a></p>
 
 
 </main>
