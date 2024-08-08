@@ -4,12 +4,12 @@
   --fg-color: #333;
   --mg-color: #808080;
   --ul-color: #e2e2e2;
-  --bg-color: #fff;
+  --bg-color: #f2efe7;
 
   --accent-color: #00DD55;
       
-  --body-font: "NotoSans", "Helvetica", "Arial", sans-serif;
-  --code-font: "Hack", Consolas,  monospace;
+  --body-font: "NotoSans", "Helvetica", sans-serif;
+  --code-font: "Hack", monospace;
 }
 
 body {
@@ -30,23 +30,21 @@ body {
 /* LINKS */
 
 a {
-  color: #36c;
-  text-decoration: none 2px solid var(--ul-color);
-  text-underline-offset: 5px;
+  color: var(--fg-color);
 }
 
 a:hover {
-  color: #69f;
-  text-decoration: underline;
+  color: var(--mg-color);
 }
 
 /* HEADERS */
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--code-font);
   line-height: 1.5em;
   margin-bottom: 0;
 }
 
-h1 { font-size: 1.8rem; }
+h1 { font-size: 1.9rem; }
 h2 { font-size: 1.2rem; }
 h3 { font-size: 1.0rem; }
 h4 { font-size: 0.8rem; }
@@ -63,6 +61,7 @@ footer {
 }
 
 footer a {
+  font-family: var(--code-font);
   color: var(--mg-color);
   text-decoration: none;
 }
@@ -123,16 +122,16 @@ img[alt=headshot] {
 }
 
 .logo a {
-  font-family: Baskerville, "Times New Roman", serif;
-  color: var(--fg-color);
-  font-weight: bold;
+  font-family: var(--code-font);
+  color: var(--mg-color);
+  font-weight: normal;
   font-style: normal;
   font-size: 1.5rem;
   text-decoration: none;
-  text-transform: none;
 }
 
 .logo a:hover {
+  color: var(--fg-color);
   text-decoration: underline;
 }
 
