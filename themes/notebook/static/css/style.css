@@ -28,16 +28,16 @@ body {
 }
 
 /* LINKS */
+
 a {
-  color: var(--fg-color);
-  text-decoration: underline 2px solid var(--ul-color);
+  color: #36c;
+  text-decoration: none 2px solid var(--ul-color);
   text-underline-offset: 5px;
 }
 
 a:hover {
-  color: var(--fg-color);
-  text-decoration: underline 2px solid var(--fg-color);
-  transition: all .3s linear;
+  color: #69f;
+  text-decoration: underline;
 }
 
 /* HEADERS */
@@ -68,7 +68,8 @@ footer a {
 }
 
 footer a:hover {
-  text-decoration: underline 2px solid var(--accent-color);
+  color: var(--fg-color);
+  text-decoration: underline;
 }
 
 /* MISC */
@@ -122,16 +123,17 @@ img[alt=headshot] {
 }
 
 .logo a {
-  color: var(--mg-color);
+  font-family: Baskerville, "Times New Roman", serif;
+  color: var(--fg-color);
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
   font-size: 1.5rem;
   text-decoration: none;
   text-transform: none;
 }
 
 .logo a:hover {
-  text-decoration: underline 2px solid var(--accent-color);
+  text-decoration: underline;
 }
 
 .menu {
@@ -152,7 +154,7 @@ img[alt=headshot] {
 
 .menu a:hover {
   color: var(--fg-color);
-  text-decoration: underline 2px solid var(--accent-color);
+  text-decoration: underline;
 }
 
 .menu-toggle {
