@@ -250,8 +250,8 @@ Activation Functions ReLU TanH Sigmoid Loss Functions (1/2)e^2 Softmax $$ \sigma
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/research/</guid>
-      <description>Previously, I was an Artificial Intelligence research assistant at the University of Missouri (MIZ-ZOU!) working with Derek Anderson and the Center for Geospatial Intelligence. Our work focused on eXplainable AI (XAI), specifically developing new neuro-fuzzy systems that explain their own decision-making steps.
-What did I research? I went to grad school to research the AI Alignment problem, which is similar to AI safety, AI risk research, etc. Alignment is more specific than safety because it doesn&amp;rsquo;t just mean trustworthy and harmless, it also means beneficial.</description>
+      <description>I&amp;rsquo;ve worked on the AI Alignment/Safety/Risk/Responsibility problem for five years now. I was a Research Assistant @Mizzou advised by Derek Anderson and the Center for Geospatial Intelligence. In our work, we developed novel neuro-symbolic systems that explain their decision-making steps to improve state of the art object detection performance while enhancing AI alignment/safety/etc.
+What is the problem? There are many names for the process of creating AIs that don&amp;rsquo;t take over the world and kill us.</description>
     </item>
     
     <item>
