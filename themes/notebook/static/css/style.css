@@ -4,7 +4,7 @@
   --fg-color: #333;
   --mg-color: #808080;
   --ul-color: #e2e2e2;
-  --bg-color: #f2efe7;
+  --bg-color: #fff;
 
   --accent-color: #00DD55;
       
@@ -45,10 +45,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { font-size: 1.9rem; }
-h2 { font-size: 1.2rem; }
-h3 { font-size: 1.0rem; }
-h4 { font-size: 0.8rem; }
-h5 { font-size: 0.7rem; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.2rem; }
+h4 { font-size: 1.0rem; }
+h5 { font-size: 0.8rem; }
 h6 { font-size: 0.6rem; }
 
 /* FOOTER */
