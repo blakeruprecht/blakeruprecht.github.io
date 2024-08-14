@@ -9,6 +9,7 @@
   --accent-color: #00DD55;
       
   --body-font: "NotoSans", "Helvetica", sans-serif;
+  --head-font: "Times New Roman", serif;
   --code-font: "Hack", monospace;
 }
 
@@ -39,7 +40,7 @@ a:hover {
 
 /* HEADERS */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--code-font);
+  font-family: var(--head-font);
   line-height: 1.5em;
   margin-bottom: 0;
 }
@@ -61,7 +62,7 @@ footer {
 }
 
 footer a {
-  font-family: var(--code-font);
+  font-family: var(--head-font);
   color: var(--mg-color);
   text-decoration: none;
 }
@@ -122,7 +123,7 @@ img[alt=headshot] {
 }
 
 .logo a {
-  font-family: var(--code-font);
+  font-family: var(--head-font);
   color: var(--mg-color);
   font-weight: normal;
   font-style: normal;
@@ -145,9 +146,9 @@ img[alt=headshot] {
 }
 
 .menu a {
-  font-family: var(--code-font);
+  font-family: var(--head-font);
   color: var(--mg-color);
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
 }
 
