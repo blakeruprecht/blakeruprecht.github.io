@@ -9,7 +9,7 @@
   --accent-color: #00DD55;
       
   --body-font: "NotoSans", "Helvetica", sans-serif;
-  --head-font: "Times New Roman", serif;
+  --head-font: "NotoSans", "Helvetica", sans-serif;
   --code-font: "Hack", monospace;
 }
 
@@ -128,6 +128,7 @@ img[alt=headshot] {
   font-weight: normal;
   font-style: normal;
   font-size: 1.5rem;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -148,7 +149,7 @@ img[alt=headshot] {
 .menu a {
   font-family: var(--head-font);
   color: var(--mg-color);
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
