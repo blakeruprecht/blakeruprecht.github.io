@@ -1,5 +1,5 @@
 ---
-title: Pay Close Attention to Compatibility When Building a Computer
+title: Pay close attention to compatibility when building a computer
 date: 2024-07-12
 description: '"The actual building of your own DIY computer is the easy part. The hard part is picking parts that are all compatible with each other."'
 ---

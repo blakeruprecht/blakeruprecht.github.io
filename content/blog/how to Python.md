@@ -1,6 +1,6 @@
 ---
 date: 2024-03-17
-title: How to Install Python
+title: How to install Python
 description: '"In this essay I take readers on a journey from Noob to Python master, the same journey I undertook during my Masters degree to study AI."'
 ---
 I entered the software field as a mechanical engineer. Even with technical experience and some coding experience, I found the entire software world quite daunting. All the documentation I read assumed I already knew stuff like what this `~` symbol meant, or how to input something like `$ cd home` into my computer. I didn't even understand why the text looks different with a little box around it.
@@ -24,7 +24,7 @@ Here's what you'll typically see, as concisely as possible. Bold terms are expla
 
 **What is a directory?** Computer nerds use a secret word called directory instead of just saying folder. I have no idea why we do this.
 
-**What is a terminal?** Check out [How to terminal](/blog/how-to-terminal). On MacOS or Linux, it's the app called "Terminal." On Windows, the default is Command Prompt, but you can download PowerShell or Windows Terminal, or even Windows Subsystem for Linux, which runs native Linux commands and tools.
+**What is a terminal?** --> [How to terminal](blog/how-to-terminal). On MacOS or Linux, it's the app called "Terminal." On Windows, the default is Command Prompt, but you can download PowerShell or Windows Terminal, or even Windows Subsystem for Linux, which runs native Linux commands and tools.
 
 **The** `python` **command didn't work?** There's a chance you must type `python3` to run Python. Otherwise, if it's not working, you may not have the folder/directory location of the Python executable in your PATH.
 

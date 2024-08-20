@@ -23,8 +23,8 @@ Why text? It's pretty simple, and easy for us humans to remember key words that 
 - On Windows, the default app is called "Command Prompt", but you can and should download "PowerShell", a newer, better version.
 
 **What does this text mean when I open a terminal?** If you're in a terminal, the key thing to know is the terminal prompt: this is a symbol like `$`, `%`, `>` or something else, and it is just a random symbol that tells you to type your commands after the symbol. All of the text before the "prompt" is just for display.
-- On Mac, you'll typically see something like `Blake@MyMac ~ $`. The `$` is the prompt, `Blake` is your username, `MyMac` is the name of your computer, and `~` represents the folder you're currently in. In this case, the tilde `~` is shorthand for `/home/Blake`, your home directory. Those two things are equivalent in this case.
-- On Windows, you'll typically just see the current folder, `C:\Users\Blake>` with the prompt touching the folder name. In PowerShell, you'll see the PS attached to the front for no good reason, e.g. `PS C:\Users\Blake>`
+- On Mac, you'll typically see something like `Blake@MyMac ~ $`. The `$` is the prompt, `Blake` is your username, `MyMac` is the name of your computer, and `~` represents the folder you're currently in. In this case, the tilde `~` is shorthand for `/home/Blake`, your home directory. Those two addresses take you to the same spot.
+- On Windows, you'll typically just see the current folder, `C:\Users\Blake>` with the prompt touching the folder name. In PowerShell, you'll see a "PS" attached to the front for no good reason, e.g. `PS C:\Users\Blake>`
 
 **What is a command?** Typically, anything that you do in a terminal is called a "command", rather ambiguously. These commands are mostly shell scripts, programs, and executables. You can use commands to directly open applications through the terminal, as well as manipulate files and folders.
 

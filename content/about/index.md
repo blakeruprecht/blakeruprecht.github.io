@@ -1,5 +1,5 @@
 +++
-title = "uncopyright"
+title = "about"
 +++
 
 The source code of this website is freely and openly availably at [this Github Repo](https://github.com/blakeruprecht/blakeruprecht.github.io) under the MIT license. It's made using the [Hugo](https://gohugo.io/) static site generator. The theme is custom made by me using HTML5, CSS3, and JavaScript.
