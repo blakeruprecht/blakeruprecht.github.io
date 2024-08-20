@@ -1,10 +1,10 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #333;
+  --fg-color: #303030;
   --mg-color: #808080;
-  --ul-color: #e2e2e2;
-  --bg-color: #fff;
+  --ul-color: #c0c0c0;
+  --bg-color: #ffffff
 
   --accent-color: #00DD55;
       
@@ -32,6 +32,8 @@ body {
 
 a {
   color: var(--fg-color);
+  text-decoration: underline 1px var(--ul-color);
+  text-underline-offset: 5px;
 }
 
 a:hover {
