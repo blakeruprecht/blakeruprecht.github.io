@@ -33,7 +33,9 @@ body {
 a {
   color: var(--fg-color);
   text-decoration: underline 1px var(--ul-color);
+  -webkit-text-decoration: underline 1px var(--ul-color);
   text-underline-offset: 5px;
+  -webkit-text-underline-offset: 5px;
 }
 
 a:hover {
