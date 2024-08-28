@@ -105,9 +105,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <h1>LSTM units incorporate temporal data into NNs</h1>
 
-<span>
-	
-</span>
+<time datetime='2023-04-24T00:00:00Z'>
+  April 24, 2023
+</time>
 
 <p>Utilizes temporal data, aka LSTM units can use previous information in their determination of current state.</p>
 <p>The first sigmoid is the &ldquo;forget-gate&rdquo; $f_t$, the second sigmoid is the &ldquo;input-gate&rdquo;, $i_t$, the tanh is the &ldquo;cell-update&rdquo;, $\tilde{C}_t$. Forget-gate will determine how much of the previous cell-state we need to remember, input-gate determines how much of the new cell-state we need to remember, and cell-update gate normalizes the cell-state between [-1,1] because of the tanh. The final sigmoid produces the &ldquo;output-gate&rdquo;, $O_t$, which is combined with the tanh of the new cell-state to produce the next hidden-state, $h_t$.</p>
@@ -124,7 +124,7 @@ Variants include:</p>
 </main>
 
 <footer>
-  <a href="/">home</a> :: <a href="/about">about</a> :: <a href="/blog">blog</a>
+  <a href="/">home</a> :: <a href="/blog">blog</a> :: <a href="/about">about</a>
 
 </footer>
 

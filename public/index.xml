@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About me on Blake Ruprecht</title>
+    <title>Blake Ruprecht&#39;s Home Page on Blake Ruprecht</title>
     <link>https://blakeruprecht.github.io/</link>
-    <description>Recent content in About me on Blake Ruprecht</description>
+    <description>Recent content in Blake Ruprecht&#39;s Home Page on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Black and white thinking</title>
+      <link>https://blakeruprecht.github.io/drawing/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/drawing/</guid>
+      <description>Black ink on white paper, mostly.
+Shadow is the big question with this medium &amp;ndash; how do you represent shades of gray?
+You only have two colors, usually limited at the minimum in line thickness by the width of your pen nib (I typically use 0.5 mm).
+You can use hasing, stippling, and other techniques to create texture and the appearance of shadow. The denser the ink in a given area, the darker the area will appear from afar.</description>
+    </item>
+    
+    <item>
+      <title>Can we build Safe AI?</title>
+      <link>https://blakeruprecht.github.io/research/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/research/</guid>
+      <description>I&amp;rsquo;ve worked on the AI Alignment/Safety/Risk/Responsibility problem for five years now. I was a Research Assistant @Mizzou advised by Derek Anderson and the Center for Geospatial Intelligence. In our work, we developed novel neuro-symbolic systems that explain their decision-making steps to improve state of the art object detection performance while enhancing AI alignment/safety/etc.
+What is the problem? There are many names for the process of creating AIs that don&amp;rsquo;t take over the world and kill us.</description>
+    </item>
+    
+    <item>
+      <title>Inside-the-box thinking</title>
+      <link>https://blakeruprecht.github.io/woodwork/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/woodwork/</guid>
+      <description>If you can build a box, you can build almost anything out of wood. Heck, a lot of the challenge in woodworking is making the most right right angles possible (yeah, you read that right).
+I took shop in middle school and it taught me three things: how to not cut off my finger (unlike my teacher), how to sand for hours by hand, and how to build boxes.
+For example, furniture.</description>
+    </item>
+    
     <item>
       <title>How to get better responses from ChatGPT</title>
       <link>https://blakeruprecht.github.io/blog/chatgpt-work-backwards/</link>
@@ -155,29 +188,6 @@ The first sigmoid is the &amp;ldquo;forget-gate&amp;rdquo; $f_t$, the second sig
     </item>
     
     <item>
-      <title>A Box Topology Meditation</title>
-      <link>https://blakeruprecht.github.io/woodwork/</link>
-      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/woodwork/</guid>
-      <description>I love building stuff out of wood. I love natural materials, and wood is special because it&amp;rsquo;s perfectly imperfect. Getting a naturally curvy material to make 90 degree corners and straight lines is tough, especially with limited tools (most of this was done with a drill, circ saw, and palm sander). Like with any DIY, I love how I can custom design everything to fit my needs.
-A simple design. I bought the black iron legs online.</description>
-    </item>
-    
-    <item>
-      <title>Totally Random Ink Distributions</title>
-      <link>https://blakeruprecht.github.io/drawing/</link>
-      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/drawing/</guid>
-      <description>Black ink on white paper. Mostly.
-Done using sharpie on paper, based on the houses from Your Cabin in the Woods by Conrad Meinecke.
-Done using a dip pen and black india ink. This is Fallingwater, a house designed by Frank Lloyd Wright in 1935.
-&amp;hellip;enough, it wouldn&amp;rsquo;t be the minimum. From KISS
-I particularly like black ink drawings with that bold, all-black shading style, though it&amp;rsquo;s very hard to get right.</description>
-    </item>
-    
-    <item>
       <title>AIs learn through a variety of learning paradigms.</title>
       <link>https://blakeruprecht.github.io/blog/machine-learning-paradigms/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
@@ -244,23 +254,13 @@ Activation Functions ReLU TanH Sigmoid Loss Functions (1/2)e^2 Softmax $$ \sigma
     </item>
     
     <item>
-      <title>about</title>
+      <title>About this site</title>
       <link>https://blakeruprecht.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/about/</guid>
-      <description>The source code of this website is freely and openly availably at this Github Repo under the MIT license. It&amp;rsquo;s made using the Hugo static site generator. The theme is custom made by me using HTML5, CSS3, and JavaScript.
-Free and Open Source Software (FOSS) is punk, anti-capitalist, anti-ownership, anti-privatiziation, pro-freedom, pro-sharing economy, post-scarcity, and pro commons-based peer production.</description>
-    </item>
-    
-    <item>
-      <title>Can we build Safe AI?</title>
-      <link>https://blakeruprecht.github.io/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/research/</guid>
-      <description>I&amp;rsquo;ve worked on the AI Alignment/Safety/Risk/Responsibility problem for five years now. I was a Research Assistant @Mizzou advised by Derek Anderson and the Center for Geospatial Intelligence. In our work, we developed novel neuro-symbolic systems that explain their decision-making steps to improve state of the art object detection performance while enhancing AI alignment/safety/etc.
-What is the problem? There are many names for the process of creating AIs that don&amp;rsquo;t take over the world and kill us.</description>
+      <description>Hand made. I coded this website by hand using HTML, CSS, and JavaScript (the basics). The content is managed by a static site generator called Hugo that converts markdown (.md) files to HTML (.html). I previously made a lot more features like menus, day/night mode, etc, but I like websites that are as simple as possible.
+Minimal design. Grayscale, minimal, and using the font NotoSans so that &amp;ldquo;AI&amp;rdquo; looks like two uppercase letters and not the name Al.</description>
     </item>
     
   </channel>

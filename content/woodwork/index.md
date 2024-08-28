@@ -1,39 +1,47 @@
 +++
-title = "A Box Topology Meditation"
-date = 2023-04-10
+title = "Inside-the-box thinking"
 menu = "main"
+date = "2024-08-15"
 +++
 
-I love building stuff out of wood. I love natural materials, and wood is special because it's perfectly imperfect. Getting a naturally curvy material to make 90 degree corners and straight lines is tough, especially with limited tools (most of this was done with a drill, circ saw, and palm sander). Like with any DIY, I love how I can custom design everything to fit my needs.
+If you can build a box, you can build almost anything out of wood. Heck, a lot of the challenge in woodworking is making the most right right angles possible (yeah, you read that right).
+
+I took shop in middle school and it taught me three things: how to not cut off my finger (unlike my teacher), how to sand for hours by hand, and how to build boxes.
+
+For example, furniture. Most pieces of furniture, besides seating, are boxes. Bed frames, dressers, tables, coffee tables, media consoles, desks, shelves -- all boxes.
+
+What changes from piece to piece then?
+
+- **Size of the box**: length, width, height (X, Y, Z)
+- **Number of boxes**: Pay attention in my photos to the arrangement of smaller boxes that comprise bigger boxes.
+- **Arrangement**: One box on top of another? Side by side? Perhaps a more complex arrangement?
 
 ![Handmade coffee and console table](wood-living-room.jpg)
-*A simple design. I bought the black iron legs online. I built the coffee table using a plank of wood. I had the Home Depot person custom cut the console table so that the 2x12s would lay such that the 11.5" measurement was the crucial one for this box.*
+**Bud Select approved**. In the front, a two-layer box on top of some metal legs. In the back, two boxes side-by-side that share the same top, middle, and bottom pieces to save on cutting/screwing.
 
 &nbsp;
 
 ![Handmade wood desk top](wood-desk.jpg)
-*I carried this plywood home from the lumber yard across the street. Even 200 meters of walking with plywood is a major PITA. I built that microwave too, it's actually a high-performance Deep Learning rig (mainly used for gaming).*
+**Actual 1-D Box**. Cut out of a sheet of 3/4" thick plywood.
 
 &nbsp;
 
 ![Handmade wood nightstand](wood-nightstand.jpg)
-*Built this out of plywood after looking up cool nightstands, saw one similar to this for $400 from Australia, figured I could do it myself. It's a box, with a smaller box that slides out! Very cool.*
+**Vertical Side by Side**. Other names aside, see the boxes? One box pulls out of the other box.
 
 &nbsp;
 
 ![Handmade wood & concrete & bucket squat rack](wood-squat-rack.jpg)
-*Finally, not a box! Built this squat rack to use with my barbell and weights. Inspector Mikey does not care one bit about squatting.*
+**What in tarnation?**. A "deconstructed" box. Feels like a definite artistic gray area to call these two boxes, but I'll leave that up to you to figure out.
 
 &nbsp;
 
 ![A large wooden sculpture](wood-housedecks.jpg)
-*This is a massive wooden sculpture, 16ft (4.9m) tall, 32ft (9.8m) wide. I was lead creative builder, I cut all that wood out by hand using a pencil and jig saw.*
+**This is a massive wooden sculpture**. 16ft (4.9m) tall, 32ft (9.8m) wide. I had a team on this one.
 
 &nbsp;
 
 ![Wooden framing](wood-framing.jpg)
-*Seeing as most woodworking is just building boxes, I'm also pretty good at framing.*
-
-
+**Framing is boxes as well**. Don't feel intimidated by construction framing, once you see all of the boxes, anything is possible.
 
 

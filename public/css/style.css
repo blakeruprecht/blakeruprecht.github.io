@@ -24,7 +24,7 @@ body {
 }
 
 .content {
-  max-width: 36rem;
+  max-width: 42rem;
   margin: 0 auto;
 }
 
@@ -83,7 +83,7 @@ ul, li {
 }
 
 time {
-  font-family: var(--code-font);
+  color: var(--mg-color);
 }
 
 code {
@@ -228,10 +228,6 @@ ul.blog-list li {
 ul.blog-list a {
   text-decoration: none;
 }*/
-
-ul.blog-list time {
-  font-size: 0.8em;
-}
 
 ul.blog-list span {
   flex: 0 0 9rem;

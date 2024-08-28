@@ -1,8 +1,10 @@
 ---
-title: "About me"
+title: "Blake Ruprecht's Home Page"
 date: 2023-07-24T15:29:23-04:00
-description: "Blake Ruprecht's personal website. Here I write about topics that interest me, link my academic research, display some art, and draw some pictures. My contact info is on the home page."
+description: "Blake Ruprecht's personal website and portfolio, where I write a blog, and show off my AI research, pen and ink drawings, and woodworking." 
 ---
+
+## Yo!
 
 ![headshot](headshot.jpg)
 

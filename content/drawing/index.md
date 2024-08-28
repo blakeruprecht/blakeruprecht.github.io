@@ -1,10 +1,22 @@
 +++
-title = "Totally Random Ink Distributions"
-date = 2023-04-10
+title = "Black and white thinking"
 menu = "main"
+date = "2024-08-15"
 +++
 
-Black ink on white paper. Mostly.
+Black ink on white paper, mostly.
+
+Shadow is the big question with this medium -- how do you represent shades of gray?
+
+You only have two colors, usually limited at the minimum in line thickness by the width of your pen nib (I typically use 0.5 mm).
+
+You can use hasing, stippling, and other techniques to create texture and the appearance of shadow. The denser the ink in a given area, the darker the area will appear from afar. 
+
+You can go all in on solid-black.
+
+You can cheat and use pencil. Or chalk, or computer. Or colors.
+
+But I always come back to the same two extremes, yin and yang.
 
 ![Drawing of a log cabin I made up](drawing-log-cabin.jpg)
 *Done using sharpie on paper, based on the houses from *Your Cabin in the Woods* by Conrad Meinecke.*

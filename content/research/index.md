@@ -1,6 +1,7 @@
 +++ 
 title = "Can we build Safe AI?" 
 menu = "main"
+date = "2024-08-15"
 +++
 
 I've worked on the AI Alignment/Safety/Risk/Responsibility problem for five years now. I was a Research Assistant @Mizzou advised by [Derek Anderson](https://derektanderson.com/) and the [Center for Geospatial Intelligence](https://engineering.missouri.edu/research/featured/center-for-geospatial-intelligence-cgi/). In our work, we developed novel neuro-symbolic systems that explain their decision-making steps to improve state of the art object detection performance while enhancing AI alignment/safety/etc.
