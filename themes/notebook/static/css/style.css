@@ -1,15 +1,15 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #303030;
-  --mg-color: #808080;
+  --fg-color: #333;
+  --mg-color: #909090;
   --ul-color: #c0c0c0;
-  --bg-color: #ffffff
+  --bg-color: #fff;
 
-  --accent-color: #00DD55;
+  --accent-color: #DD0000;
       
   --body-font: "NotoSans", "Helvetica", sans-serif;
-  --head-font: "NotoSans", "Helvetica", sans-serif;
+  --head-font: ui-serif, "Georgia", "Times New Roman", serif;
   --code-font: "Hack", monospace;
 }
 
@@ -43,18 +43,24 @@ a:hover {
 }
 
 /* HEADERS */
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: var(--head-font);
   line-height: 1.5em;
   margin-bottom: 0;
 }
 
-h1 { font-size: 1.9rem; }
-h2 { font-size: 1.4rem; }
-h3 { font-size: 1.2rem; }
-h4 { font-size: 1.0rem; }
-h5 { font-size: 0.8rem; }
-h6 { font-size: 0.6rem; }
+h3, h4, h5, h6 {
+  font-family: var(--head-font);
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1.2rem; }
+h5 { font-size: 1.0rem; }
+h6 { font-size: 0.8rem; }
 
 /* FOOTER */
 footer {
@@ -66,7 +72,7 @@ footer {
 }
 
 footer a {
-  font-family: var(--head-font);
+  font-family: var(--body-font);
   color: var(--mg-color);
   text-decoration: none;
 }
@@ -127,14 +133,16 @@ img[alt=headshot] {
 
 .logo a {
   font-family: var(--head-font);
-  color: var(--mg-color);
+  color: var(--accent-color);
   font-size: 1.5rem;
-  text-transform: uppercase;
+  font-weight: bold;
+  font-style: none;
+  text-transform: none;
   text-decoration: none;
 }
 
 .logo a:hover {
-  color: var(--fg-color);
+  color: var(--mg-color);
   text-decoration: underline;
 }
 /*

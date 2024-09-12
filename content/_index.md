@@ -13,4 +13,6 @@ description: "Blake Ruprecht's personal website and portfolio, where I write a b
 - I [draw](/drawing) with pen and ink
 - I [build](/woodwork) boxes out of wood
 
-**Connect with me** through one of these links, I would love to hear from you! [email](mailto:blakecruprecht@gmail.com) • [github](https://github.com/blakeruprecht) • [linkedin](https://www.linkedin.com/in/blakeruprecht) • [instagram](https://www.instagram.com/blakeruprecht)
+**Connect with me** through one of these links, I would love to hear from you! 
+
+[email](mailto:blakecruprecht@gmail.com) • [github](https://github.com/blakeruprecht) • [linkedin](https://www.linkedin.com/in/blakeruprecht) • [instagram](https://www.instagram.com/blakeruprecht)

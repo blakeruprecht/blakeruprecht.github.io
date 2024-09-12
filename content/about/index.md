@@ -11,3 +11,41 @@ title = "About this site"
 **Github Pages hosting**. I host this website for free on Github as part of their Github Pages service, which enables anybody with an account to host one website for free. Pretty sweet!
 
 **Squarespace domain**. I got the domain from Squarespace Domains (formerly Google), and hooked it up to Github Pages using DNS records.
+
+**Test HTML/CSS**. This is also where I test my web design, so ignore everything else below this line!
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+This is some body text with **bold** and *italic* items.
+
+Here is some more.
+
+A list:
+- example 1
+- example 2
+- example 3
+
+And then an hr
+
+---
+
+Follow by a lovely quote.
+
+> "If minimum wasn't good enough, it wouldn't be the minimum."
+
+And just to round it out, some `code` and LaTex inline $y=x^2$ and centered
+$$1 = 0.999999999\ldots$$
+$$a^2 + b^2 = c^2$$
+$$\log{xy} = \log{x} + \log{y}$$
+$$\frac{d{f}}{d{t}} = \lim_{h\to0} \frac{f(t+h)-f(t)}{h}$$
+$$F = G \frac{m_1 m_2}{r^2}$$
+$$i^2 = -1$$
+$$\Phi(x) = \frac{1}{\sigma \sqrt{2 \pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}} $$
+$$\int_a^b f'(x) dx = f(b) - f(a)$$
+$$d(S) \geq 0$$
+$$H = -\sum{p(x) \log(p(x))}$$
