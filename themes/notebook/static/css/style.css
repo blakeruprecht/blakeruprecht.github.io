@@ -4,12 +4,12 @@
   --fg-color: #333;
   --mg-color: #909090;
   --ul-color: #c0c0c0;
-  --bg-color: #f0f0f0;
+  --bg-color: #fff;
 
   --accent-color: #DD0000;
       
   --body-font: "NotoSans", "Helvetica", sans-serif;
-  --head-font: "NotoSans", "Helvetica", sans-serif;
+  --head-font: var(--code-font);
   --code-font: "Hack", monospace;
 }
 
@@ -44,17 +44,13 @@ a:hover {
 
 /* HEADERS */
 h1 {
-  font-family: var(--code-font);
+  font-family: var(--head-font);
   font-weight: bold;
-  line-height: 1.5em;
-  margin-bottom: 0;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: var(--code-font);
-  font-weight: normal;
-  line-height: 1.5em;
-  margin-bottom: 0;
+  font-family: var(--head-font);
+  font-weight: bold;
 }
 
 h1 { font-size: 1.8rem; }
@@ -74,7 +70,7 @@ footer {
 }
 
 footer a {
-  font-family: var(--body-font);
+  font-family: var(--head-font);
   color: var(--mg-color);
   text-decoration: none;
 }
@@ -134,7 +130,7 @@ img[alt=headshot] {
 }
 
 .logo a {
-  font-family: var(--code-font);
+  font-family: var(--head-font);
   color: var(--fg-color);
   font-size: 1.4rem;
   font-weight: normal;
@@ -158,7 +154,7 @@ img[alt=headshot] {
 }
 
 .menu a {
-  font-family: var(--code-font);
+  font-family: var(--head-font);
   color: var(--fg-color);
   text-transform: capitalize;
   text-decoration: none;
