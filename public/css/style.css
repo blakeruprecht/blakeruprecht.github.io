@@ -136,9 +136,9 @@ img[alt=headshot] {
 .logo a {
   font-family: var(--code-font);
   color: var(--fg-color);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: normal;
-  font-style: none;
+  font-style: normal;
   text-transform: none;
   text-decoration: none;
 }
