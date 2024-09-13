@@ -4,15 +4,12 @@ date: 2023-07-24T15:29:23-04:00
 description: "Blake Ruprecht's personal website and portfolio, where I write a blog, and show off my AI research, pen and ink drawings, and woodworking." 
 ---
 
-## Yo!
+# About
 
-![headshot](headshot.jpg)
+I am a writer and researcher from Eureka/Columbia, MO, USA.
 
-- I write a [blog](/blog)
-- I [research](/research) safe AI
-- I [draw](/drawing) with pen and ink
-- I [build](/woodwork) boxes out of wood
+Reach out and connect with me, I would love to hear from you.
 
-**Connect with me** through one of these links, I would love to hear from you! 
+[BlakeCRuprecht@gmail.com](mailto:blakecruprecht@gmail.com)
 
-[email](mailto:blakecruprecht@gmail.com) • [github](https://github.com/blakeruprecht) • [linkedin](https://www.linkedin.com/in/blakeruprecht) • [instagram](https://www.instagram.com/blakeruprecht)
+or [linkedin](https://linkedin.com/in/blakeruprecht) / [github](https://github.com/blakeruprecht) / [insta](https://instagram.com/blakeruprecht)

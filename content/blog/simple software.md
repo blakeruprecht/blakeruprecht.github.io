@@ -99,14 +99,6 @@ Okay, not technically, but if you can go through all of these steps and fill in 
 ## About this website
 I built this site using Hugo, a static site generator written in Go. I write custom HTML and CSS for this site to learn the basics of web design and search engine optimization. This site is blazing fast (~1s load times), designed mobile-first, accessible, technically optimized, and on-page optimized. I host it on Github Pages, and use Github Actions to deploy the site locally from the command line.
 
-## Next Steps
-Following the info from [Luke Smith](https://lukesmith.xyz/programs/)
-- [ ] mpd w/ncmpcpp for audio/music library
-- [ ] neomutt for offline email
-- [ ] newsboat for rss feeds
-- [ ] ffmpeg for video/audio recording
-- [ ] gimp for image editing
-
 ## References
 - http://catb.org/~esr/writings/unix-koans/
-- 
+- https://lukesmith.xyz/programs/

@@ -1,8 +1,8 @@
 +++
-title = "About this site"
+title = "I made this"
 +++
 
-**Hand made**. I coded this website by hand using HTML, CSS, and JavaScript (the basics). The content is managed by a static site generator called [Hugo](https://gohugo.io/) that converts markdown (.md) files to HTML (.html). I previously made a lot more features like menus, day/night mode, etc, but I like websites that are as simple as possible.
+**Hand made**. I coded this website by hand using HTML, CSS, and JavaScript (the basics). The content is managed by a static site generator called [Hugo](https://gohugo.io/) that converts markdown (.md) files to HTML (.html). Over time, I've added and removed many features of this site, like navigation menus, day/night mode, etc., but I like clean websites. Email me if you want to argue this!
 
 **Minimal design**. Grayscale, minimal, and using the font NotoSans so that "AI" looks like two uppercase letters and not the name Al.
 

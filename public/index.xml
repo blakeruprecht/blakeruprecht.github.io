@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>How to go barefoot</title>
+      <link>https://blakeruprecht.github.io/blog/barefoot/</link>
+      <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/barefoot/</guid>
+      <description> Take off your shoes and socks </description>
+    </item>
+    
+    <item>
       <title>Black and white thinking</title>
       <link>https://blakeruprecht.github.io/drawing/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
@@ -254,12 +263,12 @@ Activation Functions ReLU TanH Sigmoid Loss Functions (1/2)e^2 Softmax $$ \sigma
     </item>
     
     <item>
-      <title>About this site</title>
-      <link>https://blakeruprecht.github.io/about/</link>
+      <title>I made this</title>
+      <link>https://blakeruprecht.github.io/site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/about/</guid>
-      <description>Hand made. I coded this website by hand using HTML, CSS, and JavaScript (the basics). The content is managed by a static site generator called Hugo that converts markdown (.md) files to HTML (.html). I previously made a lot more features like menus, day/night mode, etc, but I like websites that are as simple as possible.
+      <guid>https://blakeruprecht.github.io/site/</guid>
+      <description>Hand made. I coded this website by hand using HTML, CSS, and JavaScript (the basics). The content is managed by a static site generator called Hugo that converts markdown (.md) files to HTML (.html). Over time, I&amp;rsquo;ve added and removed many features of this site, like navigation menus, day/night mode, etc., but I like clean websites. Email me if you want to argue this!
 Minimal design. Grayscale, minimal, and using the font NotoSans so that &amp;ldquo;AI&amp;rdquo; looks like two uppercase letters and not the name Al.</description>
     </item>
     
