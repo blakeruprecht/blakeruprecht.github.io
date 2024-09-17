@@ -9,7 +9,7 @@
   --accent-color: #DD0000;
       
   --body-font: "NotoSans", "Helvetica", sans-serif;
-  --head-font: var(--code-font);
+  --head-font: var(--body-font);
   --code-font: "Hack", monospace;
 }
 
@@ -24,14 +24,15 @@ body {
 }
 
 .content {
-  max-width: 42rem;
+  max-width: 38rem;
   margin: 0 auto;
 }
 
 /* LINKS */
 
+
 a {
-  color: var(--fg-color);
+  color: #333;
   text-decoration: underline;
   text-decoration-color: var(--ul-color);
   text-underline-offset: 5px;
@@ -42,15 +43,15 @@ a:hover {
   color: var(--mg-color);
 }
 
+
 /* HEADERS */
 h1 {
   font-family: var(--head-font);
-  font-weight: bold;
+  line-height: 1.5em;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: var(--head-font);
-  font-weight: bold;
 }
 
 h1 { font-size: 1.8rem; }
@@ -131,10 +132,10 @@ img[alt=headshot] {
 
 .logo a {
   font-family: var(--head-font);
-  color: var(--fg-color);
+  color: var(--accent-color);
   font-size: 1.4rem;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: bold;
+  font-style: italic;
   text-transform: none;
   text-decoration: none;
 }
@@ -155,8 +156,8 @@ img[alt=headshot] {
 
 .menu a {
   font-family: var(--head-font);
-  color: var(--fg-color);
-  text-transform: capitalize;
+  color: var(--mg-color);
+  text-transform: none;
   text-decoration: none;
 }
 

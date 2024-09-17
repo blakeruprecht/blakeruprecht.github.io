@@ -275,15 +275,5 @@ $$ y = \sigma(w^T \cdot x) $$ $$ e = \frac{1}{2}(\hat{y} - y)^2$$</description>
 Activation Functions ReLU TanH Sigmoid Loss Functions (1/2)e^2 Softmax $$ \sigma(z)i = \frac{\exp{z_i}}{\Sigma{j=1}^K \exp{z_j}} $$ $z$ is the input vector, $\in {-\infty,\infty}$, can be pos, neg, zero. $\exp{z}$ is applied to each element of the input vector, gives a pos.</description>
     </item>
     
-    <item>
-      <title>I made this</title>
-      <link>https://blakeruprecht.github.io/site/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/site/</guid>
-      <description>Hand made. I coded this website by hand using HTML, CSS, and JavaScript (the basics). The content is managed by a static site generator called Hugo that converts markdown (.md) files to HTML (.html). Over time, I&amp;rsquo;ve added and removed many features of this site, like navigation menus, day/night mode, etc., but I like clean websites. Email me if you want to argue this!
-Minimal design. Grayscale, minimal, and using the font NotoSans so that &amp;ldquo;AI&amp;rdquo; looks like two uppercase letters and not the name Al.</description>
-    </item>
-    
   </channel>
 </rss>
