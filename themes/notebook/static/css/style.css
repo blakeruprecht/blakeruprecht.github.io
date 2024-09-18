@@ -2,8 +2,7 @@
 /* GLOBAL VARIABLES */
 :root {
   --fg-color: #333;
-  --mg-color: #909090;
-  --ul-color: #c0c0c0;
+  --mg-color: #808080;
   --bg-color: #fff;
 
   --accent-color: #DD0000;
@@ -32,11 +31,7 @@ body {
 
 
 a {
-  color: #333;
-  text-decoration: underline;
-  text-decoration-color: var(--ul-color);
-  text-underline-offset: 5px;
-  -webkit-text-underline-offset: 5px;
+  color: var(--fg-color);
 }
 
 a:hover {
@@ -97,13 +92,13 @@ code {
 }
 
 blockquote {
-  border-left: 2px solid var(--ul-color);
+  border-left: 1px solid var(--mg-color);
   margin: 1em 0;
-  padding: 0.1em 2em;
+  padding: 0em 1em;
 }
 
 hr {
-  border: 1px solid var(--ul-color);
+  border: 1px solid var(--mg-color);
 }
 
 img {
