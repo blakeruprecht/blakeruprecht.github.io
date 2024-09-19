@@ -7,15 +7,15 @@
 
   --accent-color: #DD0000;
       
-  --body-font: "NotoSans", "Helvetica", sans-serif;
-  --head-font: var(--body-font);
-  --code-font: "Hack", monospace;
+  --font-serif: "Georgia", "Times", serif;
+  --font-sans: "NotoSans", "Helvetica", sans-serif;
+  --font-mono: "Hack", monospace;
 }
 
 body {
   background-color: var(--bg-color);
   color: var(--fg-color);
-  font-family: var(--body-font);
+  font-family: var(--font-sans);
   font-size: 16px;
   line-height: 1.5em;
   margin: 1rem 1rem;
@@ -40,17 +40,13 @@ a:hover {
 
 
 /* HEADERS */
-h1 {
-  font-family: var(--head-font);
-  line-height: 1.5em;
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  font-weight: normal;
 }
 
-h2, h3, h4, h5, h6 {
-  font-family: var(--head-font);
-}
-
-h1 { font-size: 1.8rem; }
-h2 { font-size: 1.6rem; }
+h1 { font-size: 1.8rem; line-height: 1.5em; font-weight: bold; }
+h2 { font-size: 1.6rem; font-weight: bold; }
 h3 { font-size: 1.4rem; }
 h4 { font-size: 1.2rem; }
 h5 { font-size: 1.0rem; }
@@ -63,10 +59,11 @@ footer {
   position: relative;
   bottom: 0;
   padding-top: 1rem;
+  color: var(--mg-color);
 }
 
 footer a {
-  font-family: var(--head-font);
+  font-family: var(--font-sans);
   color: var(--mg-color);
   text-decoration: none;
 }
@@ -87,14 +84,14 @@ time {
 }
 
 code {
-  font-family: var(--code-font);
+  font-family: var(--font-mono);
   border: solid 1px var(--fg-color);
 }
 
 blockquote {
   border-left: 1px solid var(--mg-color);
-  margin: 1em 0;
-  padding: 0em 1em;
+  margin: 0;
+  padding: 0em 1em 0em 1em;
 }
 
 hr {
@@ -126,9 +123,10 @@ img[alt=headshot] {
 }
 
 .logo a {
-  font-family: var(--head-font);
+  font-family: var(--font-sans);
+  font-variant: small-caps;
   color: var(--accent-color);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: bold;
   font-style: italic;
   text-transform: none;
@@ -150,14 +148,16 @@ img[alt=headshot] {
 }
 
 .menu a {
-  font-family: var(--head-font);
+  font-family: var(--font-sans);
+  font-size: 1.2em;
+  font-variant: small-caps;
   color: var(--mg-color);
-  text-transform: none;
+  text-transform: capitalize;
   text-decoration: none;
 }
 
 .menu a:hover {
-  color: var(--mg-color);
+  color: var(--fg-color);
   text-decoration: underline;
 }
 
