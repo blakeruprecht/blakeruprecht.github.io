@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Notes</title>
+      <link>https://blakeruprecht.github.io/notes/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/notes/</guid>
+      <description> self-love relationships craft science of winning games play metagame exercise nutrition recovery breathe </description>
+    </item>
+    
+    <item>
       <title>How to go barefoot</title>
       <link>https://blakeruprecht.github.io/blog/barefoot/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
@@ -49,61 +58,39 @@ For example, furniture.</description>
     </item>
     
     <item>
-      <title>How to get better responses from ChatGPT</title>
-      <link>https://blakeruprecht.github.io/blog/chatgpt-work-backwards/</link>
-      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/blog/chatgpt-work-backwards/</guid>
-      <description>Modern generative AIs are getting very, very good at responding to questions. Generative AI Large Language Models (LLMs) like ChatGPT, Claude, Gemini, and LLama all respond to language prompts excellently. We are collectively starting to realize the benefits of using AI for work and play. But how do you get the most out of your interactions with these new weird machines?
-Suppose you want to learn how to code. Five years ago, this was very difficult, even with Google.</description>
-    </item>
-    
-    <item>
-      <title>Pay close attention to compatibility when building a computer</title>
-      <link>https://blakeruprecht.github.io/blog/build-a-computer/</link>
+      <title>How to build your own computer</title>
+      <link>https://blakeruprecht.github.io/blog/build-your-own-computer/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/build-a-computer/</guid>
+      <guid>https://blakeruprecht.github.io/blog/build-your-own-computer/</guid>
       <description>Building a computer is a fun journey, especially with the plethora of YouTube tutorials at your fingertips, but the real challenge lies in ensuring your chosen components are compatible. Get this wrong and you may end up with a black screen or, worse, fried components. Here&amp;rsquo;s what you need to know about compatibility to avoid disaster.
 Motherboard and CPU. Your motherboard is the cornerstone of your build. Think of it as the backbone that connects and supports all other components.</description>
     </item>
     
     <item>
-      <title>How to use Reinforcement Learning</title>
-      <link>https://blakeruprecht.github.io/blog/reinforcement-learning/</link>
-      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/blog/reinforcement-learning/</guid>
-      <description>NOTE: This post is still a W.I.P.
-RL is a learning paradigm Reinforcement Learning (RL) is a machine learning paradigm. By that I mean it&amp;rsquo;s the way we tell the computer ML agent if it won or lost. Or if it&amp;rsquo;s right or wrong.
-You know how agents are run on computers, right? The computers are calculating a bunch of equations. These equations determine the totality of what the agent perceives in the real world, as well as the decision-making process to choose actions.</description>
-    </item>
-    
-    <item>
-      <title>Delicious Creamy Brah Sauce recipe</title>
+      <title>DCBS hot sauce recipe</title>
       <link>https://blakeruprecht.github.io/blog/dcbs/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/dcbs/</guid>
-      <description>INGREDIENTS
-Fresh
-1/2 cup Cashews soaked 25 Habaneros roughly chopped 1 Yellow Bell Pepper roughly chopped 10 Garlic Cloves smashed 1 Onion roughly chopped 1/2 Lemon juiced Pantry
-1 quart White Vinegar 2 Tbsp Apple Cider Vinegar 2 Tbsp Maple Syrup 2 Tbsp Soy Sauce 2 Tbsp Olive Oil 1 Tbsp Sesame Oil 4 tsp Mustard Powder 1 tsp Turmeric Powder INSTRUCTIONS
-Soak Cashews in water for 30 min Prep Habaneros, Yellow Bell Pepper, Garlic, Onion Saute Olive Oil, Onion, Garlic until softened Add Habaneros, Yellow Bell Pepper Add White Vinegar, Apple Cider Vinegar, Maple Syrup, Soy Sauce, Sesame Oil, Mustard Powder, Turmeric Powder Bring to a boil, then reduce to a simmer, simmer for 30-45 min (longer is less spicy) Taste and adjust for seasoning Blend in a food processor/blender Pour into sauce jars About Flavor: This is a spicy hot sauce that pretty much goes on anything.</description>
+      <description>Fresh Ingredients
+1/2 cup Cashews soaked 25 Habaneros roughly chopped 1 Yellow Bell Pepper roughly chopped 10 Garlic Cloves smashed 1 Onion roughly chopped 1/2 Lemon juiced Pantry Ingredients
+1 quart White Vinegar 2 Tbsp Apple Cider Vinegar 2 Tbsp Maple Syrup 2 Tbsp Soy Sauce 2 Tbsp Olive Oil 1 Tbsp Sesame Oil 4 tsp Mustard Powder 1 tsp Turmeric Powder Algorithm
+Soak Cashews in water for 30 min Prep Habaneros, Yellow Bell Pepper, Garlic, Onion Saute Olive Oil, Onion, Garlic until softened Add Habaneros, Yellow Bell Pepper Add White Vinegar, Apple Cider Vinegar, Maple Syrup, Soy Sauce, Sesame Oil, Mustard Powder, Turmeric Powder Bring to a boil, then reduce to a simmer, simmer for 30-45 min (longer is less spicy) Taste and adjust for seasoning Blend in a food processor/blender Pour into sauce jars About Quantity: This makes a ton of hot sauce, like a big pots worth.</description>
     </item>
     
     <item>
-      <title>Do it yourself EV charger installation</title>
-      <link>https://blakeruprecht.github.io/blog/install-an-ev-charger/</link>
+      <title>EV charger installation</title>
+      <link>https://blakeruprecht.github.io/blog/ev-charger-install/</link>
       <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/install-an-ev-charger/</guid>
+      <guid>https://blakeruprecht.github.io/blog/ev-charger-install/</guid>
       <description>For the record, I wouldn&amp;rsquo;t recommend you install an EV charger yourself if you have no electrical experience. It&amp;rsquo;s extremely dangerous, and if you mess up, you can very easily catch your house on fire, or worse. However, it&amp;rsquo;s cool to at least now the process in theory, and this way, you can see if your electrician is doing it properly as well.
 How much does it cost? If it was free, everyone would do it.</description>
     </item>
     
     <item>
-      <title>Insects are a great source of nutrients</title>
+      <title>Insect farming</title>
       <link>https://blakeruprecht.github.io/blog/insect-farming/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -113,50 +100,51 @@ I also ate grasshoppers, crickets, mealworms, and bamboo worms. I liked them all
     </item>
     
     <item>
-      <title>How to install Python</title>
-      <link>https://blakeruprecht.github.io/blog/how-to-python/</link>
+      <title>Python scientific computing packages</title>
+      <link>https://blakeruprecht.github.io/blog/python-scipy/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/how-to-python/</guid>
-      <description>I entered the software field as a mechanical engineer. Even with technical experience and some coding experience, I found the entire software world quite daunting. All the documentation I read assumed I already knew stuff like what this ~ symbol meant, or how to input something like $ cd home into my computer. I didn&amp;rsquo;t even understand why the text looks different with a little box around it.
-If you&amp;rsquo;re as new as I was, you&amp;rsquo;ll probably appreciate a step-by-step guide to figuring all of this out.</description>
-    </item>
-    
-    <item>
-      <title>How to use Python scientific computing packages</title>
-      <link>https://blakeruprecht.github.io/blog/how-to-python-scientific-computing/</link>
-      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/blog/how-to-python-scientific-computing/</guid>
+      <guid>https://blakeruprecht.github.io/blog/python-scipy/</guid>
       <description>I&amp;rsquo;ve done 5 years of science research and development using mainly Python, and have used the major scientific computing libraries. While this topic may seem intimidating, the actual usage of each library is typically pretty brief (a few lines of code), so you don&amp;rsquo;t need to be an expert in each library, you just need to generally know what they do so you can use them when you need to. Here&amp;rsquo;s a brief overview with some of the most common code explained.</description>
     </item>
     
     <item>
-      <title>What is the terminal?</title>
-      <link>https://blakeruprecht.github.io/blog/how-to-terminal/</link>
+      <title>How to install Python</title>
+      <link>https://blakeruprecht.github.io/blog/python/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/python/</guid>
+      <description>Python is the most useful general purpose programming language, probably because it is easy to use. Don&amp;rsquo;t let that fool you, it&amp;rsquo;s still difficult to get this anaconda up and running on your own computer.
+Installation instructions Here&amp;rsquo;s what you&amp;rsquo;ll typically see, as concisely as possible. Bold terms are explained in the FAQ.
+Download the latest version of Python from the official website for your operating system (Mac, Windows, Linux, etc.</description>
+    </item>
+    
+    <item>
+      <title>The terminal can do almost everything</title>
+      <link>https://blakeruprecht.github.io/blog/terminal/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/how-to-terminal/</guid>
+      <guid>https://blakeruprecht.github.io/blog/terminal/</guid>
       <description>SUMMARY
-Note: I use {curly brackets} to represent variables where you replace the text inside the brackets, and don&amp;rsquo;t type the brackets themselves. This is often used in documentation, but not explained, so be on the lookout. ls lists files; ls -la lists all files the long way cd changes directory mv {dir1/old} {dir2/new} moves a file from the first dir position to the second dir position mkdir {dirname} creates a new directory touch {filename} creates a new file simply grep [options] pattern {files} searchs all the files in {files} for the &amp;ldquo;pattern&amp;rdquo; specified, e.</description>
+Note: I use {curly brackets} to represent variables where you replace the text inside the brackets, and don&amp;rsquo;t type the brackets themselves. This is often used in documentation, but not explained, so be on the lookout. Note: I use code text to represent code that should be typed into the terminal command line. ls lists files; ls -la lists all files the long way cd changes directory, cd .. goes up one dir, cd {dir} takes you to the &amp;ldquo;dir&amp;rdquo; folder mv {dir1/old} {dir2/new} moves a file from the first dir position to the second dir position mv {dir1} {dir2} changes the name of the folder mkdir {dirname} creates a new directory touch {filename} creates a new empty file grep [options] pattern {files} searchs all the files in {files} for the &amp;ldquo;pattern&amp;rdquo; specified, e.</description>
     </item>
     
     <item>
-      <title>How to select an Operating System</title>
-      <link>https://blakeruprecht.github.io/blog/how-to-operating-system/</link>
+      <title>Linux, MacOS, and Windows are all good</title>
+      <link>https://blakeruprecht.github.io/blog/os/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/how-to-operating-system/</guid>
-      <description>Okay, so you now have a computer (honestly you probably had one already and skipped [How to select a good computer](How to computer)), what OS? Kidding, I know that most computers already come with an Operating System, so good news &amp;ndash; it&amp;rsquo;s probably fine to just stick with what you&amp;rsquo;ve got, they&amp;rsquo;re all pretty good these days.
-MacOS - a good Unix-style OS If you buy a Macbook and it comes with MacOS, keep it.</description>
+      <guid>https://blakeruprecht.github.io/blog/os/</guid>
+      <description>I recently posted about my Linux setup, and I&amp;rsquo;ve come to a shocking realization &amp;ndash; any OS is fine. Strengths and drawbacks, right?
+Linux: Cost: FREE Ease of use: ADVANCED USERS, MOSTLY Coding: OTIMAL MacOS: Cost: EXPENSIVE (requires an expensive macbook) Ease of use: EASY TO USE Coding: EASY Windows: Cost: EXPENSIVE (requires a $100 license) Ease of use: FINE Coding: ANNOYING If you already have Windows, my recommendation is to just keep it until you get annoyed enough to need to switch, which could be never.</description>
     </item>
     
     <item>
-      <title>How to select a good computer</title>
-      <link>https://blakeruprecht.github.io/blog/how-to-computer/</link>
+      <title>Good computers to buy</title>
+      <link>https://blakeruprecht.github.io/blog/computer-hardware/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/how-to-computer/</guid>
+      <guid>https://blakeruprecht.github.io/blog/computer-hardware/</guid>
       <description>I&amp;rsquo;m trained as a computer scientist, so technically I know nothing about computer hardware. That&amp;rsquo;s the domain of computer engineers. Still, I have a lot of experience with computers and can give some general recommendations. This is probably most applicable to people in the USA, but not too sure.
 I recommend Apple Macbooks, Dell XPS 13s, and Lenovo Thinkpads in this article. There are many more good computers out there, but I don&amp;rsquo;t have personal experience with others, so I won&amp;rsquo;t recommend them.</description>
     </item>
@@ -167,11 +155,12 @@ I recommend Apple Macbooks, Dell XPS 13s, and Lenovo Thinkpads in this article. 
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/simple-software/</guid>
-      <description>Software is hard I just want to say that I find software quite difficult to work with, and I in theory have a masters degree in computer science. My argument against that is my degree focuses on math, not programming, so anything to do with turning on a computer and getting it to work makes me feel like a monkey. Eventually, I learned that software is a lot like building Lego sets &amp;ndash; the instructions tell you everything you need to know.</description>
+      <description>Update 2024-09-27 Of course, I did this as a fun experiment to see if Linux was worth it. It&amp;rsquo;s been a few months of daily driving this setup on my computer, and I can confidently say that it works great. Maybe I&amp;rsquo;ll do it again, maybe I&amp;rsquo;ll install Linux Mint next, maybe I&amp;rsquo;ll go back to MacOS.
+I appreciate being able to do this, I&amp;rsquo;m not sure I ever personally want to dedicate the time to this much coding again.</description>
     </item>
     
     <item>
-      <title>Game Theory applies math to behavior</title>
+      <title>Game Theory calculates optimal strategies</title>
       <link>https://blakeruprecht.github.io/blog/game-theory/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       
@@ -186,38 +175,38 @@ As agents, we set goals and figure out how to achieve them. That&amp;rsquo;s wha
       <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/growth-mindset/</guid>
-      <description>Summary What is growth mindset? Praise effort, not identity Stop trying to be perfect Embrace stress References SUMMARY: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don&amp;rsquo;t try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.
-Growth mindset is when you believe you can improve at anything with time and effort.</description>
+      <description>Summary: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don&amp;rsquo;t try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.
+Growth mindset is when you believe you can improve at anything with time and effort. Instead of seeing challenges as an internal problem, you see them as a chance to get better and improve.</description>
     </item>
     
     <item>
-      <title>Easy cold brew method</title>
-      <link>https://blakeruprecht.github.io/blog/brew-coffee-cold/</link>
+      <title>How to make cold brew</title>
+      <link>https://blakeruprecht.github.io/blog/cold-brew/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/brew-coffee-cold/</guid>
-      <description>Summary of this essay Why brew yourself? How to brew well Water: 40% of the flavor Fresh beans: 40% of the flavor Freshly ground: 10% of the flavor Brewing consistency: 10% of the flavor The process References Why brew yourself? I go to coffee shops and do not understand how cold brew coffee costs significantly more than hot brew. It must be down to marketing, and the fact that people who don&amp;rsquo;t give a hoot typically aren&amp;rsquo;t going to coffee shops.</description>
+      <guid>https://blakeruprecht.github.io/blog/cold-brew/</guid>
+      <description>I normally pay \$5-6 for cold brew out at a coffee shop. That&amp;rsquo;s about \$0.45/oz of coffee! I&amp;rsquo;m all for supporting local business, but I am also a local business and need to support myself, so here&amp;rsquo;s how to do it at home. The secrets won&amp;rsquo;t surprise you!
+The Process Gather ingredients and tools. The total cost for the tools should be less than $40. Two big jars and a metal filter.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning paradigms</title>
+      <link>https://blakeruprecht.github.io/blog/ml-paradigms/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/ml-paradigms/</guid>
+      <description>At the highest level, machines learn very similarly to how humans learn. Data is given to the neural network, and then the robot does some calculations and tests it&amp;rsquo;s performance against the environment.
+Supervised Learning (SL) Data comes with labels. The network makes an initial random guess at what the labels should be. Then, it compares the guesses to the actual labels, and determines how off it was (total error). It updates the network according to this error.</description>
     </item>
     
     <item>
       <title>LSTM units incorporate temporal data into NNs</title>
-      <link>https://blakeruprecht.github.io/blog/long-short-term-memory/</link>
+      <link>https://blakeruprecht.github.io/blog/lstm/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/long-short-term-memory/</guid>
+      <guid>https://blakeruprecht.github.io/blog/lstm/</guid>
       <description>Utilizes temporal data, aka LSTM units can use previous information in their determination of current state.
 The first sigmoid is the &amp;ldquo;forget-gate&amp;rdquo; $f_t$, the second sigmoid is the &amp;ldquo;input-gate&amp;rdquo;, $i_t$, the tanh is the &amp;ldquo;cell-update&amp;rdquo;, $\tilde{C}_t$. Forget-gate will determine how much of the previous cell-state we need to remember, input-gate determines how much of the new cell-state we need to remember, and cell-update gate normalizes the cell-state between [-1,1] because of the tanh.</description>
-    </item>
-    
-    <item>
-      <title>AIs learn through a variety of learning paradigms.</title>
-      <link>https://blakeruprecht.github.io/blog/machine-learning-paradigms/</link>
-      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/blog/machine-learning-paradigms/</guid>
-      <description>date +++
-Supervised Data comes with labels. The network learns the labels associated with the data. It works pretty well, given the labels actually fit the data, otherwise you get lots of False Positives and False Negatives, semantically.
-Unsupervised Different techniques are used to learn structure from data. Problem, is there any true underlying structure to data? Do clusters actually exist? It&amp;rsquo;s useful to cluster often, but hard to prove validity.</description>
     </item>
     
     <item>
@@ -226,7 +215,7 @@ Unsupervised Different techniques are used to learn structure from data. Problem
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/anfis/</guid>
-      <description>A Fuzzy Neural Network The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in Python, specifically utilizing the PyTorch package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn&amp;rsquo;t you know it, PyTorch knows what it&amp;rsquo;s doing.
+      <description>It&amp;rsquo;s a Neural Network that incorporates Fuzzy Sets The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in Python, specifically utilizing the PyTorch package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn&amp;rsquo;t you know it, PyTorch knows what it&amp;rsquo;s doing.
 ANFIS is a type of artificial neural network that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of multilayer perceptrons.</description>
     </item>
     
@@ -236,43 +225,150 @@ ANFIS is a type of artificial neural network that combines the antecedent and co
       <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/neural-gas/</guid>
-      <description>Similar to [[Kohonen map]], a Self-organing Map, but the topology is learned. Goal is to learn a topological structure to relate &amp;ldquo;close&amp;rdquo; datapoints to each other. Winner-takes-most. Growing neural gas starts with two-neurons and keeps adding a bisecting neuron until the stopping criteria is met (e.g. performance measure below threshold)
+      <description>Similar to a Kohonen map, another self-organing map, but this time the topology is learned. Goal is to learn a topological structure to relate &amp;ldquo;close&amp;rdquo; datapoints to each other. Winner-takes-most. Growing neural gas starts with two-neurons and keeps adding a bisecting neuron until the stopping criteria is met (e.g. performance measure below threshold)
 Algorithm Given an input dataset $x \in \mathbb{R}^n$ Init &amp;ldquo;weights&amp;rdquo; $w_i \in \mathbb{R}^n$ Pick a datapoint $v$ from $x$, For each weight $w_i$, calculate the distance to $v$ For each weight, determine the number (cardinality?</description>
     </item>
     
     <item>
-      <title>The Choquet Integral generalizes many metric functions.</title>
+      <title>The Choquet Integral generalizes metric functions</title>
       <link>https://blakeruprecht.github.io/blog/choquet-integral/</link>
       <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/choquet-integral/</guid>
-      <description>Where $\pi(j)$ sorts the inputs based on their output values, $h_{\pi(j)}$, which is the output for input $x_j$. Little g is a measure such that $g(A) &amp;lt; g(B)$ if $A \subseteq B$, $g(\emptyset) = 0$, $g(\mathbf{X}) = 1$. ChI adheres to monotonicity, idempotency, subcontinuity, etc. This includes the Linear Order Statistic (LOS) the Order Weighted Average (OWA), Maximum, Minimum, etc. $$ \int h \odot g = C_g(h) = \sum_{j=1}^N h_{\pi(i)} \left( g(A_{\pi(j)}) - g(A_{\pi(j-1)}) \right) $$ $\pi$ is the function that sorts the inputs according to their values $h(x_j)$ $A_{\pi(j)}$ is the sorted vector = ${x_{\pi(1)}, x_{\pi(2)}, &amp;hellip;}$ $g$ is the learned measure (subsumes LOS, OWA, etc.</description>
+      <description>This is a really cool integral that basically maps any metric function on sets like the MAXIMUM, MINIMUM, MEDIAN
+Choquet Integral: The Math Where $\pi(j)$ sorts the inputs based on their output values, $h_{\pi(j)}$, which is the output for input $x_j$. Little g is a measure such that $g(A) &amp;lt; g(B)$ if $A \subseteq B$, $g(\emptyset) = 0$, $g(\mathbf{X}) = 1$. ChI adheres to monotonicity, idempotency, subcontinuity, etc. This includes the Linear Order Statistic (LOS) the Order Weighted Average (OWA), Maximum, Minimum, etc.</description>
     </item>
     
     <item>
       <title>Multilayer Perceptrons are the basic unit of a NN</title>
-      <link>https://blakeruprecht.github.io/blog/multilayer-perceptrons/</link>
+      <link>https://blakeruprecht.github.io/blog/multilayer-perceptron/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/multilayer-perceptrons/</guid>
-      <description>A type of NN that implements multiple layers of the [[Perceptron]].
-$\mathbf{x}$ = input vector of length $N$
-$\mathbf{w}$ = weight vector of length $N$
+      <guid>https://blakeruprecht.github.io/blog/multilayer-perceptron/</guid>
+      <description>A type of NN that implements multiple layers of the basic perceptron.
+$\mathbf{x}$ = input vector (e.g. $\mathbf{x}=[0.3, 5.4, 156.1]$) of length $N$ ($N=3$ in this e.g.), $\mathbf{x} \in [-\infty,\infty]$, can be normalized to [-1,1]$ or $[0,1]$
+$\mathbf{w}$ = weight vector of length $N$ in the range $[0,1]$
 $\sigma$ = activation function (typically ReLU, tanh, sigmoid, etc.)
 $y$ = output scalar
 $\hat{y}$ = label scalar
-$e$ = error or loss scalar function (typically 1/2e^2)
-$$ y = \sigma(w^T \cdot x) $$ $$ e = \frac{1}{2}(\hat{y} - y)^2$$</description>
+$e$ = error or loss function (typically Mean Squared Error as shown here)</description>
     </item>
     
     <item>
-      <title>Neural Networks (NNs) approximate any function</title>
-      <link>https://blakeruprecht.github.io/blog/neural-networks/</link>
+      <title>Neural Networks approximate any function</title>
+      <link>https://blakeruprecht.github.io/blog/neural-network/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/blog/neural-networks/</guid>
+      <guid>https://blakeruprecht.github.io/blog/neural-network/</guid>
       <description>Neural networks are universal function approximators, according to the Universal function approximation theorem. [[multilayer perceptrons]]. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.
 Activation Functions ReLU TanH Sigmoid Loss Functions (1/2)e^2 Softmax $$ \sigma(z)i = \frac{\exp{z_i}}{\Sigma{j=1}^K \exp{z_j}} $$ $z$ is the input vector, $\in {-\infty,\infty}$, can be pos, neg, zero. $\exp{z}$ is applied to each element of the input vector, gives a pos.</description>
+    </item>
+    
+    <item>
+      <title>An ode to magicians</title>
+      <link>https://blakeruprecht.github.io/blog/to-brewers/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/blog/to-brewers/</guid>
+      <description>An Ode to:
+Magicians Witches Wizards Alchemists and mostly &amp;ndash; Brewers It&amp;rsquo;s a magical little potion, so simple and sweet, Made out of barley, hops, and sometimes wheat. Drink it out of a can, a bottle, or a algass, A little loosens you up, a lot puts you on your ass. It takes lives, it makes lives, sometimes it makes you whole, But you don&amp;rsquo;t know when to stop, you don&amp;rsquo;t know when to slow.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.github.io/craft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/craft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.github.io/play/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/play/</guid>
+      <description>Play is important for everyone.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.github.io/relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/relationships/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.github.io/science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.github.io/self-love/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/self-love/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>breathe</title>
+      <link>https://blakeruprecht.github.io/breathe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/breathe/</guid>
+      <description>I want to give you a sword. You can&amp;rsquo;t hold it, nor can I, yet you can use it. This sword enables you to slash your thoughts to pieces. With it, you can leave all of your worries behind, and forget about the past.
+The sword = doing absolutely nothing.
+Well, except for breathing.
+Doing absolutely nothing but breathing is non-action.
+Not thinking, not wondering, not planning, not moving. Just purely focusing on the sensation of your breath, in and out.</description>
+    </item>
+    
+    <item>
+      <title>exercise</title>
+      <link>https://blakeruprecht.github.io/exercise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/exercise/</guid>
+      <description>Exercise causes physical adaptations in the body, of which there are 9 identified ones. Anaerobic endurance: ability of heart &amp;amp; lungs to use glycogen for fuel Aerobic endurance: ability of heart &amp;amp; lungs to use oxygen for fuel Long-duration endurance: ability of heart &amp;amp; lungs to use fat for fuel Muscular Technique: ability of a muscle to move properly through full Range of Motion Muscular Strength: force output of a muscle Muscular Speed: contraction speed of a muscle Muscular Power: strength x speed Muscular Hypertrophy: size of a muscle Muscular Endurance: ability of a muscle to perform many contractions So it&amp;rsquo;s pretty darn smart to train your Muscles and your Cardio To train muscles, improve your mobility using yoga and stretches, then improve the strength/power/speed/size of your muscles using calisthenics and/or weight lifting.</description>
+    </item>
+    
+    <item>
+      <title>LOVE</title>
+      <link>https://blakeruprecht.github.io/love/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/love/</guid>
+      <description>Love is all you need.
+Stop whatever else you are doing. Stop thinking. Stop moving. Shut off your ears. Keep breathing, and close your eyes.
+Pay attention to your breath. Notice your heartbeat.
+Do you hear that? You are alive and breathing.</description>
+    </item>
+    
+    <item>
+      <title>nutrition</title>
+      <link>https://blakeruprecht.github.io/nutrition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/nutrition/</guid>
+      <description>Eat as many calories as you burn each day, a TDEE Calculator can help you figure this out. Otherwise, a scale will tell you if you&amp;rsquo;re storing energy (gaining weight) or losing energy (losing weight). Eat protein, close to 0.7-1 gram per pound of bodyweight if you&amp;rsquo;re exercising. Drink as much water as you are thirsty for each day. Follow the Mediterranean diet. Why? On top of caloric energy, humans need five macronutrients (proteins, fats, fiber, water) and a ton of micronutrients (vitamins, minerals) to survive, because the human body is made of proteins, vitamins, etc.</description>
+    </item>
+    
+    <item>
+      <title>recovery</title>
+      <link>https://blakeruprecht.github.io/recovery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/recovery/</guid>
+      <description> Sleep every night as much as your body needs Clean your teeth twice daily (morning and night) by brushing, ask your Dentist (visit every 6 months) for brushing advice Floss once per day as well Take care of your eyes by distancing them from screens Shower as often as you wish, use organic basic soap Cut your hair whenever you want Use sunscreen if you have light skin Use moiturizer morning and night for skin health </description>
     </item>
     
   </channel>

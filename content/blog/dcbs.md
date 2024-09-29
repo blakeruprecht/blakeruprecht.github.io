@@ -1,13 +1,10 @@
 ---
 date: 2024-06-20
-title: Delicious Creamy Brah Sauce recipe
+title: DCBS hot sauce recipe
 description: "\"My friend invented a hot sauce made from 25 habaneros. It's delicious, creamy, and full of brah.\""
 ---
----
 
-**INGREDIENTS**
-
-*Fresh*
+*Fresh Ingredients*
 - 1/2 cup **Cashews** soaked
 - 25 **Habaneros** roughly chopped
 - 1 **Yellow Bell Pepper** roughly chopped
@@ -15,7 +12,7 @@ description: "\"My friend invented a hot sauce made from 25 habaneros. It's deli
 - 1 **Onion** roughly chopped
 - 1/2 **Lemon** juiced
 
-*Pantry*
+*Pantry Ingredients*
 - 1 quart **White Vinegar**
 - 2 Tbsp **Apple Cider Vinegar**
 - 2 Tbsp **Maple Syrup**
@@ -26,7 +23,7 @@ description: "\"My friend invented a hot sauce made from 25 habaneros. It's deli
 - 1 tsp **Turmeric Powder**
 
 
-**INSTRUCTIONS**
+*Algorithm*
 
 1. Soak **Cashews** in water for 30 min
 2. Prep **Habaneros, Yellow Bell Pepper, Garlic, Onion**
@@ -38,15 +35,16 @@ description: "\"My friend invented a hot sauce made from 25 habaneros. It's deli
 9. Blend in a food processor/blender
 10. Pour into sauce jars
 
----
 ## About
-**Flavor**: This is a spicy hot sauce that pretty much goes on anything. The dominant flavor is habanero, which is my favorite chile pepper flavor. The cashews add some creaminess, and the vinegar and other ingredients balance out the flavor, adding acidity and sweetness.
+- **Quantity**: This makes a ton of hot sauce, like a big pots worth.
 
-**Name**: Yes, it's a unique name, but we can't mess with *tradition*.
+- **Flavor**: This is a spicy hot sauce that pretty much goes on anything. The dominant flavor is habanero, which is my favorite chile pepper flavor. The cashews add some creaminess, and the vinegar and other ingredients balance out the flavor, adding acidity and sweetness.
 
-**Origins**: Originally invented by James S. Further iterated upon by Nick B.
+- **Name**: It was originally called Delicious Creamy Bro Sauce, hence DCBS, but honestly, the first name is pretty cumbersome to say.
 
-**Reviews**:
+- **Origins**: Originally invented by James S. Further iterated upon by Nick B.
+
+## Reviews
 > "This is my all time favorite hot sauce. Sure, I'm biased, but there's a lot to be biased for. It's the spiciest, tastiest, creamiest sauce, good for all food, and it's made from my favorite pepper -- the habanero." -**Me**
 
 > "It's delicious. It's creamy. It's by bros, for bros and bras everywhere." -**Nick B**

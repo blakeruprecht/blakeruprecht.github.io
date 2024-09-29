@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>nutrition | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.github.io/nutrition/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  
+  <nav class="site-nav">
+    <div class="logo">
+      <li> <a href="/">Blake Ruprecht</a></li>
+    </div>
+
+    
+
+        
+
+
+  </nav>
+
+</header>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const currentPath = window.location.pathname;
+    console.log('Current Path:', currentPath);  
+
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+
+    
+    const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
+
+    
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href');
+        console.log('Checking Menu Item:', itemPath);  
+
+        if (itemPath === currentPath) {
+            console.log('Match Found:', itemPath);  
+            item.classList.add('active');
+        }
+    });
+
+    
+    if (homePaths.includes(currentPath)) {
+        console.log('Highlighting Logo for Home Page');  
+        logo.classList.add('active');
+    }
+});
+</script>
+
+
+<main class="content">
+
+  
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+</script>
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [['$$', '$$']],
+      processEscapes: true
+    }
+  };
+</script>
+
+<h1>nutrition</h1>
+
+<ul>
+<li>Eat as many calories as you burn each day, a TDEE Calculator can help you figure this out. Otherwise, a scale will tell you if you&rsquo;re storing energy (gaining weight) or losing energy (losing weight).</li>
+<li>Eat protein, close to 0.7-1 gram per pound of bodyweight if you&rsquo;re exercising.</li>
+<li>Drink as much water as you are thirsty for each day.</li>
+<li>Follow the Mediterranean diet. Why? On top of caloric energy, humans need five macronutrients (proteins, fats, fiber, water) and a ton of micronutrients (vitamins, minerals) to survive, because the human body is made of proteins, vitamins, etc. and doesn&rsquo;t have a factory for producing that stuff, so we need to eat it.</li>
+<li>The Mediterranean diet places heavy emphasis on eating tons of whole, locally-grown Vegetables, Fruits, Nuts, Seeds, Beans, and Whole Grains, which are all great sources of vitamins, minerals, etc.</li>
+<li>Meat is great to eat from a nutrition standpoint. People used to hate red meat, but that was dumb, it won&rsquo;t hurt you.</li>
+</ul>
+
+
+</main>
+
+<footer>
+  <a href="/blog">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
+
+</footer>
+
+</body>
+</html>
+

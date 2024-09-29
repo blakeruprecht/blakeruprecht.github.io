@@ -3,10 +3,11 @@ date: 2022-12-15
 title: ANFIS has gradient problems
 description: '"The Adaptive Neuro Fuzzy Inference System (ANFIS) suffers from dead, zero, and non-changing gradients during neural network style machine learning."'
 ---
-## A Fuzzy Neural Network
-The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in Python, specifically utilizing the PyTorch package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn't you know it, PyTorch knows what it's doing. 
 
-ANFIS is a type of artificial [neural network](/blog/neural-networks) that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of [multilayer perceptrons](/blog/multilayer-perceptrons). Similar to a typical neural network, the input, $x_n(k)$, is a vector of scalars of length $n$ with features $k$. 
+## It's a Neural Network that incorporates Fuzzy Sets
+The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in [Python](/blog/python), specifically utilizing the [PyTorch](/python-scipy) package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn't you know it, PyTorch knows what it's doing. 
+
+ANFIS is a type of artificial [neural network](/blog/neural-network) that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of [multilayer perceptrons](/blog/multilayer-perceptron). Similar to a typical neural network, the input, $x_n(k)$, is a vector of scalars of length $n$ with features $k$. 
 
 ## It's only three equations
 The antecedent, $w$, represents the fuzzy logic statement "If $x$ fits this rule well, then the rule matching strength, $w$, should be high." In this equation, the $A$ term is a function that takes in $x$ and returns $A(x)$, the membership value of the fuzzy set, which I called the rule-matching strength. ANFIS learns the $A(x)$ membership functions.
@@ -36,3 +37,4 @@ Gradient problems:
 - **B. Ruprecht**. “EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING”. University of Missouri, 2023. [PDF](https://blakeruprecht.com/research/ruprecht_ms_thesis.pdf)
 - **B. Ruprecht**, W. Wu, M. Islam, D. T. Anderson, J. Keller, G. Scott, C. Davis, F. Petry, P. Elmore, K. Nock, E. Gilmour, “Possibilistic Clustering Enabled Neuro Fuzzy Logic,” WCCI 2020. [PDF](https://blakeruprecht.com/research/ruprecht_wcci2020.pdf). [code](https://github.com/blakeruprecht/ANFIS-SP1M).
 - **B. Ruprecht**, C. Veal, A. Cannaday, D. T. Anderson, F. Petry, J. Keller, G. Scott, C. Davis, C. Norsworthy, P. Elmore, K. Nock, E. Gilmour, “Neuro-fuzzy logic for parts-based reasoning about complex scenes in remotely sensed data”, SPIE 2020. [PDF](https://blakeruprecht.com/research/ruprecht_spie2020.pdf). [code](https://github.com/blakeruprecht/Fuzzy-Fusion).
+- *Note*: It always feels nice to be recognized for your work, especially by such as esteemed blogger as yourself.

@@ -6,8 +6,8 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "ExpLog"
-    name = "ExpLog"
+    identifier = "blog"
+    name = "blog"
     url = "/blog"
     weight = 10
 
