@@ -33,6 +33,7 @@ body {
 a {
   color: var(--fg-color);
   text-decoration: underline 1px #c0c0c0;
+  -webkit-text-decoration: underline 1px #c0c0c0;
   text-underline-offset: 5px;
   -webkit-text-underline-offset: 5px;
 }
