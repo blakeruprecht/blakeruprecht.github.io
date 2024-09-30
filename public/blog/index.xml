@@ -222,15 +222,5 @@ $e$ = error or loss function (typically Mean Squared Error as shown here)</descr
 Activation Functions ReLU TanH Sigmoid Loss Functions (1/2)e^2 Softmax $$ \sigma(z)i = \frac{\exp{z_i}}{\Sigma{j=1}^K \exp{z_j}} $$ $z$ is the input vector, $\in {-\infty,\infty}$, can be pos, neg, zero. $\exp{z}$ is applied to each element of the input vector, gives a pos.</description>
     </item>
     
-    <item>
-      <title>An ode to magicians</title>
-      <link>https://blakeruprecht.github.io/blog/to-brewers/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/blog/to-brewers/</guid>
-      <description>An Ode to:
-Magicians Witches Wizards Alchemists and mostly &amp;ndash; Brewers It&amp;rsquo;s a magical little potion, so simple and sweet, Made out of barley, hops, and sometimes wheat. Drink it out of a can, a bottle, or a algass, A little loosens you up, a lot puts you on your ass. It takes lives, it makes lives, sometimes it makes you whole, But you don&amp;rsquo;t know when to stop, you don&amp;rsquo;t know when to slow.</description>
-    </item>
-    
   </channel>
 </rss>

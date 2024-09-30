@@ -4,6 +4,8 @@ date: 2023-07-24T15:29:23-04:00
 description: "The personal website of Blake Ruprecht. Here, I write a blog, showcase my safe artificial intelligence research, display some ink drawings and woodworking, and generally give the web information about me."
 ---
 
+&#x16CF;
+
 I am a writer/researcher from Missouri, currently in Colorado.
 - I write a [blog](/blog)
 - I previously [researched](/research) safe AI @Mizzou

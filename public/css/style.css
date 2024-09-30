@@ -5,11 +5,14 @@
   --mg-color: #808080;
   --bg-color: #fff;
 
-  --accent-color: #1177cc;
+  --ul-color: #c0c0c0;
+  --link-color: var(--fg-color);
+  --blue-color: #1177cc;
+  --red-color: #dd0000;
       
   --font-serif: "Georgia", "Times", serif;
   --font-sans: "NotoSans", "Helvetica", sans-serif;
-  --font-mono: "Hack", monospace;
+  --font-mono: "Hack", mono;
 }
 
 body {
@@ -31,9 +34,9 @@ body {
 
 
 a {
-  color: var(--fg-color);
-  text-decoration: underline 1px #c0c0c0;
-  -webkit-text-decoration: underline 1px #c0c0c0;
+  color: var(--link-color);
+  text-decoration: underline 1px var(--ul-color);
+  -webkit-text-decoration: underline 1px var(--ul-color);
   text-underline-offset: 5px;
   -webkit-text-underline-offset: 5px;
 }
@@ -42,24 +45,23 @@ a:hover {
   color: var(--mg-color);
 }
 
-
 /* HEADERS */
-h1, h2 {
+h1 {
   font-family: var(--font-serif);
   font-weight: normal;
 }
 
-h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: var(--font-sans);
   font-weight: bold;
 }
 
 h1 { font-size: 2.0rem; line-height: 1.5em;}
-h2 { font-size: 1.6rem; }
-h3 { font-size: 1.4rem; }
-h4 { font-size: 1.2rem; }
-h5 { font-size: 1.0rem; }
-h6 { font-size: 0.8rem; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.2rem; }
+h4 { font-size: 1.0rem; }
+h5 { font-size: 0.8rem; }
+h6 { font-size: 0.6rem; }
 
 /* FOOTER */
 footer {
@@ -81,6 +83,10 @@ footer a {
 footer a:hover {
   color: var(--fg-color);
   text-decoration: underline;
+}
+
+footer a:visited {
+  color: var(--mg-color);
 }
 
 /* MISC */
@@ -129,12 +135,14 @@ img[alt=headshot] {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 
 .logo a {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-variant: small-caps;
-  color: var(--accent-color);
+  color: var(--blue-color);
   font-size: 1.6rem;
   font-weight: normal;
   font-style: italic;
@@ -145,6 +153,7 @@ img[alt=headshot] {
   color: var(--mg-color);
   text-decoration: underline;
 }
+
 /*
 .menu {
   margin: 0;
