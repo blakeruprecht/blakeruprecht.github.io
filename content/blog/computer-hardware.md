@@ -7,11 +7,11 @@ I'm trained as a computer scientist, so technically I know nothing about compute
 
 I recommend Apple Macbooks, Dell XPS 13s, and Lenovo Thinkpads in this article. There are many more good computers out there, but I don't have personal experience with others, so I won't recommend them.
 
-**Under $100 - old Lenovo**. If you're going for cheap, I would recommend a Lenovo Thinkpad X220. As long as it has Windows on it, you'll probably be fine. They're old and kinda slow, so I recommend using Linux as you're operating system instead of Windows.
+**Under $100 - old Lenovo Thinkpad**. If you're going for cheap, I would recommend a Lenovo Thinkpad X220. As long as it has Windows on it, you'll probably be fine. They're old and kinda slow, so I recommend using Linux as you're operating system instead of Windows.
 
-**\$100-300 - old Dell XPS 13**. The one I'm typing on was just under, it's a five year old Dell XPS 13 9370. I got it from ebay. Would recommend. It came with Windows 11 already. You probably don't need anything faster than what $300 or so could get you. Would recommend.
+**\$100-\\$300 - old Dell XPS 13**. The one I'm typing on was just under \\$300, it's a five year old Dell XPS 13 9370. I got it from ebay. Would recommend. It came with Windows 11 already. You probably don't need anything faster than what \\$300 or so could get you. Would recommend.
 
-**\$300-1000 - newer Dell XPS 13 / old Macbook Air**. The cheapest Apple Macbook Air you can get new. Better yet, get one used on ebay for way cheaper. My Macbook Pro is still going strong after 10 years. Would recommend.
+**\$300-\\$1000 - newer Dell XPS 13 / old Macbook Air**. The cheapest Apple Macbook Air you can get new. Better yet, get one used on ebay for way cheaper. My Macbook Pro is still going strong after 10 years. Would recommend.
 
 **Something powerful.** If you need a laptop, I can't help you. Maybe the newest M3 macbook? I custom built a PC. It's not much harder than putting together a Lego set. Watch a tutorial or three on Youtube and you'll be fine. The hard part is picking the parts and making sure they all work together. Custom pick the parts using pcpartpicker. Here are some specific recommendations for modern-day AI work:
 

@@ -5,7 +5,7 @@ description: '"The Adaptive Neuro Fuzzy Inference System (ANFIS) suffers from de
 ---
 
 ## It's a Neural Network that incorporates Fuzzy Sets
-The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in [Python](/blog/python), specifically utilizing the [PyTorch](/python-scipy) package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn't you know it, PyTorch knows what it's doing. 
+The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in [Python](/blog/python), specifically utilizing the [PyTorch](/blog/python-scipy) package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn't you know it, PyTorch knows what it's doing. 
 
 ANFIS is a type of artificial [neural network](/blog/neural-network) that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of [multilayer perceptrons](/blog/multilayer-perceptron). Similar to a typical neural network, the input, $x_n(k)$, is a vector of scalars of length $n$ with features $k$. 
 
@@ -25,7 +25,7 @@ $$e = \frac{1}{2}(\hat{y} - y)^2$$
 
 
 ## Gradient Problems
-For more technical details, see my [research](~/research). Basically, after setting up this system, we found that ANFIS doesn't do it's job very well. It's supposed to learn using backpropagation of gradients, but there are many scenarios where the gradient is close to 0, causing no learning to happen. So wherever ANFIS gets initialized, it will often stay.
+For more technical details, see my [research](/research). Basically, after setting up this system, we found that ANFIS doesn't do it's job very well. It's supposed to learn using backpropagation of gradients, but there are many scenarios where the gradient is close to 0, causing no learning to happen. So wherever ANFIS gets initialized, it will often stay.
 
 Gradient problems:
 - Once dead, always dead

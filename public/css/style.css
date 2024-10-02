@@ -127,8 +127,8 @@ img[alt=headshot] {
 
 .site-nav {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
 }
 
 .logo {
@@ -136,14 +136,14 @@ img[alt=headshot] {
   padding: 0;
   list-style-type: none;
   display: flex;
-  align-items: center;
+  align-items: start;
 }
 
 .logo a {
   font-family: var(--font-sans);
   font-variant: small-caps;
   color: var(--blue-color);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: normal;
   font-style: normal;
   text-decoration: none;

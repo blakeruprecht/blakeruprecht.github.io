@@ -218,8 +218,11 @@ $e$ = error or loss function (typically Mean Squared Error as shown here)</descr
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blakeruprecht.github.io/blog/neural-network/</guid>
-      <description>Neural networks are universal function approximators, according to the Universal function approximation theorem. [[multilayer perceptrons]]. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.
-Activation Functions ReLU TanH Sigmoid Loss Functions (1/2)e^2 Softmax $$ \sigma(z)i = \frac{\exp{z_i}}{\Sigma{j=1}^K \exp{z_j}} $$ $z$ is the input vector, $\in {-\infty,\infty}$, can be pos, neg, zero. $\exp{z}$ is applied to each element of the input vector, gives a pos.</description>
+      <description>The Universal Function Approximation theorem states that Neural Networks of increasing size and depth can approximate any function in the world. This is amazing.
+NNs start as multilayer perceptrons and add MLPs side-by-side to create layers, and add more layers to create depth.
+Activation Functions ReLU TanH Sigmoid Loss Functions $\frac{1}{2}e^2$ Softmax $\sigma(z) = e^{z_i} (\Sigma^K_{j=1}e^{z_j})^{-1}$
+$z$ is the input vector, $\in {-\infty,\infty}$, can be pos, neg, zero.
+$\exp{z}$ is applied to each element of the input vector, gives a pos.</description>
     </item>
     
   </channel>

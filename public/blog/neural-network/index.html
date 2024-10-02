@@ -108,7 +108,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <h1>Neural Networks approximate any function</h1>
 
-<p>Neural networks are universal function approximators, according to the Universal function approximation theorem. <a href="multilayer perceptrons.html">multilayer perceptrons</a>. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.</p>
+<p>The Universal Function Approximation theorem states that Neural Networks of increasing size and depth can approximate any function in the world. This is amazing.</p>
+<p>NNs start as <a href="/blog/multilayer-perceptron">multilayer perceptrons</a> and add MLPs side-by-side to create layers, and add more layers to create depth.</p>
 <h2 id="activation-functions">Activation Functions</h2>
 <ul>
 <li>ReLU</li>
@@ -117,15 +118,21 @@ document.addEventListener('DOMContentLoaded', () => {
 </ul>
 <h2 id="loss-functions">Loss Functions</h2>
 <ul>
-<li>(1/2)e^2</li>
+<li>$\frac{1}{2}e^2$</li>
 <li>Softmax
 <ul>
-<li>$$
-\sigma(z)<em>i = \frac{\exp{z_i}}{\Sigma</em>{j=1}^K \exp{z_j}}
-$$</li>
-<li>$z$ is the input vector, $\in {-\infty,\infty}$, can be pos, neg, zero.</li>
-<li>$\exp{z}$ is applied to each element of the input vector, gives a pos. value above 0, which will be small if the input was neg., large if the input was large. Still not in (0,1)</li>
-<li>$\Sigma$ on bottom is the normalization term, ensures the output will sum to 1 in the range (0,1), making this a valid <a href="Probability distribution.html">Probability distribution</a>.</li>
+<li>
+<p>$\sigma(z) = e^{z_i} (\Sigma^K_{j=1}e^{z_j})^{-1}$</p>
+</li>
+<li>
+<p>$z$ is the input vector, $\in {-\infty,\infty}$, can be pos, neg, zero.</p>
+</li>
+<li>
+<p>$\exp{z}$ is applied to each element of the input vector, gives a pos. value above 0, which will be small if the input was neg., large if the input was large. Still not in (0,1)</p>
+</li>
+<li>
+<p>$\Sigma$ on bottom is the normalization term, ensures the output will sum to 1 in the range (0,1), making this a valid probability distribution.</p>
+</li>
 </ul>
 </li>
 <li>Cross-entropy
@@ -133,8 +140,8 @@ $$</li>
 <li>The cross-entropy between two probability distributions $p$ and $q$ over the same underlying set of events measures the average number of <a href="https://en.wikipedia.org/wiki/Bit" title="Bit">bits</a> needed to identify an event drawn from the set if a coding scheme used for the set is optimized for an estimated probability distribution $q$, rather than the true distribution, $p$.</li>
 <li>Basically, we want to figure out the true value, or label, $P$, and the predicted value, $Q$, multiply them together. (P,Q) = (1,1) -&gt; loss is 0, it really penalizes the values when P gets low based on (-log(x)).</li>
 <li>Has a linear gradient</li>
-<li>$$H(p,q) = - \sum_{X} P(x) log(Q(x))$$</li>
-<li>$$H(p,q) = - \int_{X} P(x) log(Q(x)) dr(x)$$</li>
+<li>$H(p,q) = - \sum_{X} P(x) log(Q(x))$</li>
+<li>$H(p,q) = - \int_{X} P(x) log(Q(x)) dr(x)$</li>
 </ul>
 </li>
 <li>Regularization
@@ -143,7 +150,6 @@ $$</li>
 <li>Similar to Lagrangian optimization in Microeconomics, where you maximize a <em>utility function</em> according to a <em>constraint</em></li>
 <li>max(<em>utility function</em>) + $\lambda$(constraint)</li>
 <li>Typically, add a LP-Norm to the loss function</li>
-<li>$$||x||<em>p = \left( \sum</em>{i=1}^n |x_i|^p \right)^{\frac{1}{p}}$$</li>
 </ul>
 </li>
 </ul>
@@ -188,25 +194,23 @@ $$</li>
 <li>$W$ = input scalar to match $R(x)$</li>
 <li>$R(x)$ = residual component (activation before input is added)</li>
 <li>$y$ = $H(x)$ = output</li>
-<li>$$ y = H(x) = R(x) + Wx $$</li>
+<li>$ y = H(x) = R(x) + Wx $</li>
 <li>newState = fx(oldState, input)</li>
 </ul>
 </li>
 </ul>
-<p>Fractionally Strided Convolution
-A type of NN similar to CNNs. Convolution typically uses a filter to go from larger image (e.g. 4x4) to a smaller image (e.g. 2x2). Convolution acts as a good filter across the image. This technique tries to go UP rather than down. The problem is we&rsquo;re trying to GAIN information (normally, more pixels). Basically, for any region of the initial image, we need to find the resulting image that would &ldquo;convolve&rdquo; to the initial image. You can set up the series of equations to basically make this all make sense. Aka run convolution in reverse.</p>
+<p>Fractionally Strided Convolution</p>
 <ul>
-<li>$$ Y&rsquo; = W X&rsquo; $$</li>
-<li>$$ Z = W^T Y&rsquo;$$</li>
+<li>A type of NN similar to CNNs. Convolution typically uses a filter to go from larger image (e.g. 4x4) to a smaller image (e.g. 2x2). Convolution acts as a good filter across the image. This technique tries to go UP rather than down. The problem is we&rsquo;re trying to GAIN information (normally, more pixels). Basically, for any region of the initial image, we need to find the resulting image that would &ldquo;convolve&rdquo; to the initial image. You can set up the series of equations to basically make this all make sense. Aka run convolution in reverse.</li>
+<li>$ Y&rsquo; = W X&rsquo; $</li>
+<li>$ Z = W^T Y'$</li>
 </ul>
 <p>Recurrent Network</p>
 <ul>
-<li>A type of NN that is temporal rather than feed-forward like an <a href="multilayer perceptrons.html">multilayer perceptrons</a>.</li>
+<li>A type of NN that is temporal rather than feed-forward like an <a href="/blog/multilayer-perceptron">multilayer perceptron</a>.</li>
 <li>The output from one moment of time becomes the input to the next state.</li>
 <li>This is called &ldquo;feedback&rdquo;. The feedback can be weighted. Unity weights mean the output is directly passed to the inputs.</li>
 </ul>
-<hr>
-<h1 id="references">References</h1>
 
 
 </main>

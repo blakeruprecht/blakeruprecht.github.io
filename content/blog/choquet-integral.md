@@ -24,5 +24,3 @@ $w = [0,1,0]$ is median
 $w=[\frac{1}{3},\frac{1}{3},\frac{1}{3}]$ is average
 $w = [0.7,0.3,0]$ is a soft-max
 
----
-# References
