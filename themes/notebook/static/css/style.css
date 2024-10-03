@@ -35,15 +35,15 @@ body {
 
 a {
   color: var(--link-color);
-  text-decoration: underline 1px var(--ul-color);
-  -webkit-text-decoration: underline 1px var(--ul-color);
-  text-underline-offset: 2px;
-  -webkit-text-underline-offset: 2px;
+  text-decoration: underline 1px var(--fg-color);
+  -webkit-text-decoration: underline 1px var(--fg-color);
+  text-underline-offset: 1px;
+  -webkit-text-underline-offset: 1px;
 }
 
 a:hover {
   color: var(--mg-color);
-  text-decoration-color: var(--red-color);
+  text-decoration-color: var(--mg-color);
 }
 
 /* HEADERS */
