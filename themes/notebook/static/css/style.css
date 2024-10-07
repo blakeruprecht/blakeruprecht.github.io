@@ -47,20 +47,21 @@ a:hover {
 /* HEADERS */
 h1 {
   font-family: var(--font-sans);
-  font-weight: bold;
+  font-weight: normal;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: var(--font-sans);
   font-weight: bold;
+  text-transform: uppercase
 }
 
-h1 { font-size: 1.8rem; line-height: 1.5em;}
-h2 { font-size: 1.4rem; }
+h1 { font-size: 1.8rem; line-height: 2.0em;}
+h2 { font-size: 1.2rem; }
 h3 { font-size: 1.2rem; }
-h4 { font-size: 0.8rem; }
-h5 { font-size: 0.7rem; }
-h6 { font-size: 0.6rem; }
+h4 { font-size: 1.0rem; }
+h5 { font-size: 1.0rem; }
+h6 { font-size: 1.0rem; }
 
 /* FOOTER */
 footer {
@@ -138,11 +139,11 @@ img[alt=headshot] {
 }
 
 .logo a {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   /*font-variant: small-caps;*/
   color: var(--fg-color);
-  font-size: 1.6rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: normal;
   font-style: normal;
   text-decoration: none;
 }

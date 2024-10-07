@@ -5,7 +5,8 @@ title = "My Blogshelf"
 I want a place where I can recommend my favorite blogs for others to go read. Oh, look, here it is!
 
 
-## BLOGS: I linked my favorite article of theirs
+## Blogs
+*NOTE: I linked my favorite article from each blog.*
 - [mnmlist](https://mnmlist.com/brew): by Leo Babauata, great blog about minimalism, this post really hits home for me.
 - [zen habits](https://zenhabits.net/no-goal): also by Leo B., covers zen and applying it to life, e.g. having no goals is fun!
 - [Wait But Why](https://waitbutwhy.com/2014/05/life-weeks.html): Tim Urban does long-form better than anybody, and visualizes important things in fascinating ways.
