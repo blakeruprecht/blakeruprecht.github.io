@@ -23,7 +23,7 @@ In other areas of life, I'm passionate about:
 
 &nbsp;
 
-## CONTACT ME
+## Contact Me
 IF you read this and have thoughts in your brain (be honest)
 
 THEN you send me your thoughts [@email](mailto:blakecruprecht@gmail.com)

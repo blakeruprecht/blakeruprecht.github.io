@@ -1,7 +1,7 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #bbb;
+  --fg-color: #ddd;
   --mg-color: #808080;
   --bg-color: #000;
 
@@ -48,8 +48,9 @@ a:hover {
 
 /* HEADERS */
 h1 {
-  font-family: var(--font-serif);
-  font-weight: normal;
+  font-family: var(--font-sans);
+  font-weight: bold;
+  font-variant: small-caps;
 }
 
 h2, h3, h4, h5, h6 {
@@ -57,9 +58,9 @@ h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-h1 { font-size: 2.0rem; line-height: 1.5em;}
-h2 { font-size: 1.2rem; }
-h3 { font-size: 1.0rem; }
+h1 { font-size: 1.8rem; line-height: 1.5em;}
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.2rem; }
 h4 { font-size: 0.8rem; }
 h5 { font-size: 0.7rem; }
 h6 { font-size: 0.6rem; }
@@ -141,11 +142,11 @@ img[alt=headshot] {
 }
 
 .logo a {
-  font-family: var(--font-sans);
-  font-variant: small-caps;
-  color: var(--red-color);
-  font-size: 1.4rem;
-  font-weight: normal;
+  font-family: var(--font-serif);
+  /*font-variant: small-caps;*/
+  color: var(--fg-color);
+  font-size: 1.6rem;
+  font-weight: bold;
   font-style: normal;
   text-decoration: none;
 }
@@ -243,6 +244,10 @@ ul.blog-list {
 ul.blog-list li {
   display: flex;
   align-items: flex-start;
+}
+
+ul.blog-list a {
+  font-variant: small-caps;
 }
 
 /*
