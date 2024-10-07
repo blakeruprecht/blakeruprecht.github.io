@@ -1,19 +1,23 @@
 /* ########################################################## */
 /* GLOBAL VARIABLES */
 :root {
-  --fg-color: #ddd;
+  --fg-color: #333;
   --mg-color: #808080;
-  --bg-color: #000;
+  --bg-color: #fff;
 
-  --ul-color: #888;
-  --link-color: var(--fg-color);
-  --blue-color: #aaccff;
-  --red-color: #dd0000;
-      
   --font-serif: "Georgia", "Times", serif;
   --font-sans: "NotoSans", "Helvetica", sans-serif;
   --font-mono: "Hack", mono;
 }
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000;
+    --fg-color: #ddd;
+  }
+}
+
 
 body {
   background-color: var(--bg-color);
@@ -31,10 +35,8 @@ body {
 }
 
 /* LINKS */
-
-
 a {
-  color: var(--link-color);
+  color: var(--fg-color);
 }
 
 a:hover {
@@ -68,7 +70,6 @@ footer {
   bottom: 0;
   padding-top: 1rem;
   color: var(--mg-color);
-  font-variant: small-caps;
 }
 
 footer a {
@@ -102,7 +103,7 @@ code {
 }
 
 blockquote {
-  border-left: 2px solid var(--ul-color);
+  border-left: 1px solid var(--fg-color);
   margin: 0;
   padding: 0 1em 0 1em;
 }
@@ -185,6 +186,7 @@ img[alt=headshot] {
 */
 
 /* Media query for mobile screens */ 
+/*
 @media (max-width: 768px) {
     .site-nav, .menu {
       display: flex;
@@ -224,6 +226,8 @@ img[alt=headshot] {
       display: flex;
     }
 } 
+*/
+
 
 /* ################################################### */
 /* LISTS (MAINLY THE BLOG LIST) */
