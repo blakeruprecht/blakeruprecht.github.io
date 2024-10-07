@@ -7,7 +7,7 @@
 
   --ul-color: #888;
   --link-color: var(--fg-color);
-  --blue-color: #1177cc;
+  --blue-color: #aaccff;
   --red-color: #dd0000;
       
   --font-serif: "Georgia", "Times", serif;
@@ -35,10 +35,6 @@ body {
 
 a {
   color: var(--link-color);
-  text-decoration: underline 1px var(--fg-color);
-  -webkit-text-decoration: underline 1px var(--fg-color);
-  text-underline-offset: 1px;
-  -webkit-text-underline-offset: 1px;
 }
 
 a:hover {
@@ -50,7 +46,6 @@ a:hover {
 h1 {
   font-family: var(--font-sans);
   font-weight: bold;
-  font-variant: small-caps;
 }
 
 h2, h3, h4, h5, h6 {
@@ -244,10 +239,6 @@ ul.blog-list {
 ul.blog-list li {
   display: flex;
   align-items: flex-start;
-}
-
-ul.blog-list a {
-  font-variant: small-caps;
 }
 
 /*
