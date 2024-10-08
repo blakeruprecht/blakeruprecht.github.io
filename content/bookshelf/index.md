@@ -8,18 +8,17 @@ This isn't a definitive list, and is nowhere near exhaustive, but I want to shou
 - **The Sun Also Rises - Ernest Hemingway** (fiction) The book where I finally got it. Hemingway takes you on this journey, and at no point tells you what to feel, but gives you all the raw material. What happens in this book? What happens in life, everything and nothing. Definitively, for all time, this book is about the journey, not the destination.
 - **Braiding Sweetgrass - Robin Wall Kimmerer** (nonfiction) A fantastic look at reciprocity from the perspective of a plant scientist, native Potawatomi, and mother. This book almost singularly describes me view of living naturally on this Earth, an absolute tour de force.
 - **Calvin and Hobbes - Bill Watterson** (comic_strip) Watterson transcended the panes of the comic strip and entered rarefied air with the likes of Nobel writers, great scientists, and prophets.
+- **East of Eden - John Steinbeck** (fiction) This took me a year to read, w>
 - **Candide - Voltaire** (fiction) Written in the 18th century, yet made me crack up. Relateable, chaotic, and just plain funny. What a ride, what a book.
 - **The Things They Carried - Tim O'Brien** (fiction) This could have been me, bright future, having to go to war, writing about it. Fuck.
+- **Slaughterhouse-Five - Kurt Vonnegut** (fiction) Didn't know what to expe>
 - **Siddhartha - Herman Hesse** (fiction) Made me realize what ohm was.
-- **On the Road - Jack Keruoac** (fiction) Introduced me to unconventional writing style and narrative, one big scroll.
 - **Animal Farm - George Orwell** (fiction) On the Rushmore of political commentary novels. Political satire done right, allegory of a farm is simple and perfect. Snowball and Napoleon are iconic swines.
 - **The Righetous Mind - Jonathan Haidt** (nonfiction) The book I wish I wrote, the science I wish I could do, Haidt introduces the elephant and rider concept, which explains who we really are -- not the conscious mind explaining the action, but the unconscious elephant actually driving all of the action.
-- **The Tao of Pooh - Benjamin Hoff** (fiction) Introduces most of the essential concepts of Taoism thru the lens of my first fictional teacher, Pooh the Bear.
 
 ## Books 11-?
+- **The Tao of Pooh - Benjamin Hoff**: This book teaches essential concepts of Taoism thru the lens of my first fictional teacher, Pooh Bear.
 - **Sacred Journey of the Peaceful Warrior - Dan Millman** (fiction) Somehow this man manages to summarize most of the core concepts of Taoism and Zen Buddhism, while ignoring some of the cultural and traditional aspects of those disciplines.
-- **East of Eden - John Steinbeck** (fiction) This took me a year to read, what a pain in the ass. Ended up being one of my favorite books ever, even if it's slow. Steinbeck took me on a journey that I'll never forget. You may read it, you may not, up to you.
-- **Slaughterhouse-Five - Kurt Vonnegut** (fiction) Didn't know what to expect going in. Narrative structure all over the place. Feels like how I would write something, one chapter at a time, jumping around the timeline, not telling anyone the secret. Works flawlessly. Best anti-war book ever?
 - **Maus - Art Spiegelman** (graphic novel) Amazing visual description of the Holocaust and the complexities surrounding the perpetrators and the victims.
 - **The Myth of Sisyphus - Albert Camus** (fiction) *not done yet*
 - **The Cartoon History of the Universe, Vol. 1 - Larry Gonick** (nonfiction) The comprehensive history book I would recommend to everyone I know, and it doesn't hurt that the cartoons are fire.
@@ -47,15 +46,16 @@ This isn't a definitive list, and is nowhere near exhaustive, but I want to shou
 - **The Fall - Albert Camus** (fiction) My favorite Camus book so far, a fascinating look at a man as he descends into entropy while recounting stories at a dusky bar.
 - **Resistance - Steven Pressfield** (nonfiction) Pressfield puts words to the feelings every creative knows about. The soul crushing procrastination that is the result of resistance. The war of art is finding the ability to turn pro and actually do the work, like someone who does it for money, day in and day out.
 - **Flowers for Algernon - Daniel Keyes** (fiction) A heart-wrenching story, I won't spoil it for you, but let's just say this one made me feel all sorts of ways. Tragic, depressing, uplifting, I dunno man, it's a lot.
+- **Walden - Henry David Thoreau** (nonfiction) In the 1840s some white dude>
 - **The Stranger - Albert Camus** (fiction) Mersault is depressed, or messed up in some other way. I get it, I feel it, this is nihilism taken to the extreme, and Camus shoves it down your throat. I love Camus as a philosopher, and this book did something, but it wasn't everything.
 - **The Way Home: Tales from a life without technology - Mark Boyle** (memoir) Boyle writes a fascinating account of his life giving up money, giving up modern society, and ultimately, giving up some of what makes him happy. A tragic book told like a heroic journey, this book showed me the folly of chasing what I think is right with no compromise. While I agree with his lifestyle, I can't give up my tribe. What to do?
 - **Stuck - Oliver Jeffers** (fiction) A children's book that cracked me up so hard I cried. Everyone should read this, this should be on everyone's bookshelf it's that good.
 - **The Alchemist - Paulo Coelho** (fiction) One of the best allegories for life being one big journey. Such a beautiful journey and reminder about what life is all about, and it's not the destination.
 - **Walden on Wheels - Ken Ilgunas** (nonfiction) More relevant than the original, Ilgunas takes us through his story of living cheaply to pay off debt and get educated in the modern world, illustrating what its like to live against the grain in the modern day.
-- **Walden - Henry David Thoreau** (nonfiction) In the 1840s some white dude goes to live in a self-built hut by a pond. It goes well. He farms the land (apparently, it's pretty easy). He lives naturally and out-of-doors. I see no issues here. Why doesn't he continue? Political disobedience. Read it for that reason. Living off the land isn't just a personal choice, it's a political statement against authoritarianism and tyranny.
 - **One World Ready or Not: The Manic Logic of Global Capitalism - William Greider** (nonfiction) A book to set the stage for the modern world, explaining the craziness of this little experiment called globalization. The capitalist machine will eat us all!
 - **Things Fall Apart - Chinua Achebe** (fiction) I think about this book, the title, and the overall vibe often. Not sure why, it just seems serenely sad.
 - **So Good They Can't Ignore You - Cal Newport** (nonfiction) Among other books like *Deep Work*, Newport gives some of the best modern advice about getting a career, namely, that it requires a lot of work no matter which way you slice it.
 - **Fahrenheit 451 - Ray Bradbury** (fiction) On the Rushmore of political commentary novels. Discusses book burnings, and general apathy towards knowledge and oppressive governments.
 - **Outliers: The Story of Success - Malcolm Gladwell** (nonfiction) The book that revolutionized the idea of long-form journalism to me. Gladwell isn't a scientist (it shows), but he's more than a journalist. Take what he says with a grain of salt, but don't be afraid to go along for the ride -- it's well worth it.
 - **Your Cabin in the Woods - Conrad Meinecke** (nonfiction) A book about building a cabin in the woods from logs. I don't know what else you need, but the drawings are superb.
+- **On the Road - Jack Keruoac** (fiction) Introduced me to unconventional w>
