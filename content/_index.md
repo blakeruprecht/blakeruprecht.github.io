@@ -4,8 +4,8 @@ date: 2023-07-24T15:29:23-04:00
 description: "The personal website of Blake Ruprecht. Here, I write a blog, showcase my safe artificial intelligence research, display some ink drawings and woodworking, and generally give the web information about me."
 ---
 
-Writer | Researcher | Generalist
-- I write a [blog](/blog)
+## About
+- I'm a writer, this is my [blog](/blog)
 - I previously [researched](/research) safe AI @Mizzou
 - I code, mainly HTML/CSS/JS for [this site](https://github.com/blakeruprecht/blakeruprecht.github.io) (it's free and open-source, punk!)
 

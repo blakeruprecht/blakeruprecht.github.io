@@ -1,5 +1,5 @@
 ---
-title: Linux, MacOS, and Windows are all good
+title: Any modern operating system is fine
 date: 2024-02-18
 description: "\"Modern operating systems are all pretty good, but only Linux is free, open-source, and fastest. While you may have to DIY some software, it's not hard if you use ChatGPT and Youtube to guide you.\""
 ---

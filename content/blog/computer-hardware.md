@@ -1,5 +1,5 @@
 ---
-title: Good computers to buy
+title: Buy used computers
 date: 2024-02-12
 description: "\"I've purchased a wide range of computers over the years, and have a few simple recommendations for finding a good one.\""
 ---

@@ -1,5 +1,5 @@
 ---
-title: Python scientific computing packages
+title: Useful Python packages for science
 date: 2024-03-17
 description: '"The core useful Python packages for scientific computing are Numpy to make arrays, Scipy for math equations, Pandas for data manipulation, and Matplotlib for visualizations. I go over briefly the basic usage of each."'
 ---

@@ -33,7 +33,7 @@ Gradient problems:
 - Once big, no way to get smaller
 
 ---
-# References
+## References
 - **B. Ruprecht**. “EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING”. University of Missouri, 2023. [PDF](https://blakeruprecht.com/research/ruprecht_ms_thesis.pdf)
 - **B. Ruprecht**, W. Wu, M. Islam, D. T. Anderson, J. Keller, G. Scott, C. Davis, F. Petry, P. Elmore, K. Nock, E. Gilmour, “Possibilistic Clustering Enabled Neuro Fuzzy Logic,” WCCI 2020. [PDF](https://blakeruprecht.com/research/ruprecht_wcci2020.pdf). [code](https://github.com/blakeruprecht/ANFIS-SP1M).
 - **B. Ruprecht**, C. Veal, A. Cannaday, D. T. Anderson, F. Petry, J. Keller, G. Scott, C. Davis, C. Norsworthy, P. Elmore, K. Nock, E. Gilmour, “Neuro-fuzzy logic for parts-based reasoning about complex scenes in remotely sensed data”, SPIE 2020. [PDF](https://blakeruprecht.com/research/ruprecht_spie2020.pdf). [code](https://github.com/blakeruprecht/Fuzzy-Fusion).

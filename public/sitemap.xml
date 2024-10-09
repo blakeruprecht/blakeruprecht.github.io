@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blakeruprecht.github.io/notes/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blakeruprecht.github.io/blog/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -83,33 +80,11 @@
     <loc>https://blakeruprecht.github.io/blog/neural-network/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/craft/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blakeruprecht.github.io/play/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blakeruprecht.github.io/relationships/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blakeruprecht.github.io/science/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blakeruprecht.github.io/breathe/</loc>
-  </url><url>
     <loc>https://blakeruprecht.github.io/categories/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.github.io/exercise/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.github.io/love/</loc>
   </url><url>
     <loc>https://blakeruprecht.github.io/blogshelf/</loc>
   </url><url>
     <loc>https://blakeruprecht.github.io/bookshelf/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.github.io/nutrition/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.github.io/recovery/</loc>
   </url><url>
     <loc>https://blakeruprecht.github.io/tags/</loc>
   </url>

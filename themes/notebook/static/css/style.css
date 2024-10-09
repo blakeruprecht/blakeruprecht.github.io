@@ -5,19 +5,12 @@
   --mg-color: #808080;
   --bg-color: #fff;
 
+  --logo-color: #333;
+
   --font-serif: "Georgia", "Times", serif;
   --font-sans: "NotoSans", "Helvetica", sans-serif;
   --font-mono: "Hack", mono;
 }
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #000;
-    --fg-color: #ddd;
-  }
-}
-
 
 body {
   background-color: var(--bg-color);
@@ -37,28 +30,34 @@ body {
 /* LINKS */
 a {
   color: var(--fg-color);
+  text-decoration: none;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 a:hover {
-  color: var(--mg-color);
-  text-decoration-color: var(--mg-color);
+  color: var(--fg-color);
+  text-decoration: none;
+  border-bottom: 2px solid var(--fg-color);
 }
 
 /* HEADERS */
 h1 {
   font-family: var(--font-sans);
-  font-weight: normal;
+  font-weight: bold;
+  font-variant: normal;
+  text-align: start;
+  margin: 1em 0em;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: var(--font-sans);
   font-weight: bold;
-  text-transform: uppercase
+  margin: 2em 0em 1em 0em;
 }
 
-h1 { font-size: 1.8rem; line-height: 1.5em; margin: 1.5em 0em;}
+h1 { font-size: 2.0rem; line-height: 1.5em;}
 h2 { font-size: 1.2rem; }
-h3 { font-size: 1.2rem; }
+h3 { font-size: 1.0rem; }
 h4 { font-size: 1.0rem; }
 h5 { font-size: 1.0rem; }
 h6 { font-size: 1.0rem; }
@@ -81,11 +80,6 @@ footer a {
 
 footer a:hover {
   color: var(--fg-color);
-  text-decoration: underline;
-}
-
-footer a:visited {
-  color: var(--mg-color);
 }
 
 /* MISC */
@@ -140,17 +134,17 @@ img[alt=headshot] {
 
 .logo a {
   font-family: var(--font-sans);
-  /*font-variant: small-caps;*/
+  font-variant: small-caps;
   color: var(--fg-color);
   font-size: 1.2rem;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   text-decoration: none;
+  border-bottom: none;
 }
 
 .logo a:hover {
   color: var(--mg-color);
-  text-decoration: underline;
 }
 
 /*
