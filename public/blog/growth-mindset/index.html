@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Growth Mindset | Blake Ruprecht</title>
+  <title>Growth is the result of effort | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -44,27 +44,60 @@ if (!doNotTrack) {
 <body>
 
 <header class="site-header">
-  
   <nav class="site-nav">
     <div class="logo">
       <li>
         <a href="/">Blake Ruprecht</a>
       </li>
     </div>
+
+    <div class="menu-container">
+      <ul class="menu">
+        <li><a href="/blog/">blog</a></li>
+        <li><a href="/research/">research</a></li>
+        <li><a href="/drawing/">drawing</a></li>
+        <li><a href="/woodwork/">woodwork</a></li>
+        <li>
+          <button class="toggle-theme" onclick="toggleTheme()">
+            <i id="theme-icon" class="fa fa-sun"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <button class="menu-toggle">☰</button>
   </nav>
-
-
 </header>
 
-    
 
-      
+<script>
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+  document.querySelector('.site-nav').classList.toggle('expanded'); 
+});
+</script>
+
+
+ <script>
+  function toggleTheme() {
+  const body = document.body;
+  const themeIcon = document.getElementById("theme-icon");
+
+  
+  if (body.classList.toggle("dark-mode")) {
+    themeIcon.classList.remove("fa-sun"); 
+    themeIcon.classList.add("fa-moon");
+  } else {
+    themeIcon.classList.remove("fa-moon"); 
+    themeIcon.classList.add("fa-sun");
+  }
+}
+
+ </script>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    const currentPath = window.location.pathname;
-    console.log('Current Path:', currentPath);  
-
+    const currentPath = window.location.pathname.replace(/\/$/, ''); 
     const menuItems = document.querySelectorAll('.menu a');
     const logo = document.querySelector('.logo a');
 
@@ -73,23 +106,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     menuItems.forEach(item => {
-        const itemPath = item.getAttribute('href');
-        console.log('Checking Menu Item:', itemPath);  
-
-        if (itemPath === currentPath) {
-            console.log('Match Found:', itemPath);  
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
             item.classList.add('active');
         }
     });
 
     
     if (homePaths.includes(currentPath)) {
-        console.log('Highlighting Logo for Home Page');  
         logo.classList.add('active');
     }
 });
 </script>
-
 
 <main class="content">
 
@@ -106,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 </script>
 
-<h1>Growth Mindset</h1>
+<h1>Growth is the result of effort</h1>
 
 <p><strong>Summary</strong>: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don&rsquo;t try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.</p>
 <p><strong>Growth mindset</strong> is when you believe you can improve at anything with time and effort.

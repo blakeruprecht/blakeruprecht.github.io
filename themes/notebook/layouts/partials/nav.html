@@ -1,29 +1,53 @@
 <header class="site-header">
   <nav class="site-nav">
     <div class="logo">
-      <a href="/">{{ .Site.Title }}</a>
+      <li>
+        <a href="/">{{ .Site.Title }}</a>
+      </li>
     </div>
-    <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
-    <ul class="menu">
-      <li><a href="/blog/">Blog</a></li>
-      <li><a href="/research/">Research</a></li>
-      <li><a href="/drawing/">Drawing</a></li>
-      <li><a href="/woodwork/">Woodwork</a></li>
-    </ul>
+
+    <div class="menu-container">
+      <ul class="menu">
+        <li><a href="/blog/">blog</a></li>
+        <li><a href="/research/">research</a></li>
+        <li><a href="/drawing/">drawing</a></li>
+        <li><a href="/woodwork/">woodwork</a></li>
+        <li>
+          <button class="toggle-theme" onclick="toggleTheme()">
+            <i id="theme-icon" class="fa fa-sun"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <button class="menu-toggle">☰</button>
   </nav>
 </header>
 
-<!-- Theme Toggle Button -->
-<button onclick="toggleTheme()" aria-label="Toggle Theme">
-  <i id="theme-icon" class="fa fa-sun"></i>
-</button>
-
 <!-- JavaScript for Menu Toggling -->
 <script>
-  document.querySelector('.menu-toggle').addEventListener('click', function() {
-    document.querySelector('.menu').classList.toggle('expanded');
-  });
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+  document.querySelector('.site-nav').classList.toggle('expanded'); // Change this to toggle the site-nav
+});
 </script>
+
+<!-- JavaScript for Theme Toggling -->
+ <script>
+  function toggleTheme() {
+  const body = document.body;
+  const themeIcon = document.getElementById("theme-icon");
+
+  // Toggle between light and dark theme
+  if (body.classList.toggle("dark-mode")) {
+    themeIcon.classList.remove("fa-sun"); // Change to moon icon
+    themeIcon.classList.add("fa-moon");
+  } else {
+    themeIcon.classList.remove("fa-moon"); // Change to sun icon
+    themeIcon.classList.add("fa-sun");
+  }
+}
+
+ </script>
 
 <!-- JavaScript for Active Link Highlighting -->
 <script>
