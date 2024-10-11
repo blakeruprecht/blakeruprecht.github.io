@@ -52,13 +52,12 @@ h1 {
 h2, h3, h4, h5, h6 {
   font-family: var(--font-sans);
   font-weight: bold;
-  margin: 2em 0em 1em 0em;
 }
 
 h1 { font-size: 2.0rem; line-height: 1.5em;}
-h2 { font-size: 1.2rem; }
-h3 { font-size: 1.0rem; }
-h4 { font-size: 1.0rem; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.3rem; }
+h4 { font-size: 1.2rem; }
 h5 { font-size: 1.0rem; }
 h6 { font-size: 1.0rem; }
 
@@ -120,8 +119,9 @@ img[alt=headshot] {
 
 .site-nav {
   display: flex;
-  align-items: start;
-  justify-content: start;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .logo {
@@ -129,7 +129,7 @@ img[alt=headshot] {
   padding: 0;
   list-style-type: none;
   display: flex;
-  align-items: start;
+  align-items: center;
 }
 
 .logo a {
@@ -147,7 +147,6 @@ img[alt=headshot] {
   color: var(--mg-color);
 }
 
-/*
 .menu {
   margin: 0;
   padding: 0;
@@ -172,16 +171,14 @@ img[alt=headshot] {
 }
 
 .menu-toggle {
-  color: var(--fg-color);
+  color: var(--mg-color);
   display: none;
   border: none;
   background: none;
   cursor: pointer;
 }
-*/
 
 /* Media query for mobile screens */ 
-/*
 @media (max-width: 768px) {
     .site-nav, .menu {
       display: flex;
@@ -221,7 +218,6 @@ img[alt=headshot] {
       display: flex;
     }
 } 
-*/
 
 
 /* ################################################### */
