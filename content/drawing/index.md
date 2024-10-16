@@ -29,7 +29,7 @@ But I always come back to the same two extremes, yin and yang.
 &nbsp;
 
 ![Calligraphy done on a chalkboard](drawing-chalkboard.jpg)
-*...enough, it wouldn't be the minimum. From [KISS](/blog/kiss)*
+*...enough, it wouldn't be the minimum.*
 
 &nbsp;
 

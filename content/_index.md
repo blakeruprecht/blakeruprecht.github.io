@@ -5,7 +5,7 @@ description: "The personal website of Blake Ruprecht. Here, I write a blog, show
 ---
 
 ## About
-- I'm a writer, this is my [blog](/blog)
+- I'm a writer, this is my [blog](/notes)
 - I previously [researched](/research) safe AI @Mizzou
 - I code, mainly HTML/CSS/JS for [this site](https://github.com/blakeruprecht/blakeruprecht.github.io) (it's free and open-source, punk!)
 
@@ -17,7 +17,7 @@ In other areas of life, I'm passionate about:
 - **Reading**: my [blogshelf](/blogshelf) and my [bookshelf](/bookshelf)
 - **Local community**: To promote serendipitous encounters, don't plan stuff and live close to those you love.
 - **Natural lifestyle**: Getting outside, running, calisthenics, fishing, backpacking, deep ecology, solarpunk, etc.
-- **Spicy food**: I make [Hot Sauce](/dcbs) and love cooking salsa.
+- **Spicy food**: I make [Hot Sauce](/notes/dcbs) and love cooking salsa.
 - **Craft beer**: Especially [Logboat](https://www.logboatbrewing.com/) (MO) and [Cherry Street](https://cherrystreetbrewing.com/) (GA). Right now it's Oktoberfest season, break out the M&auml;rzens!
 - **Outlaw music**: Zach Bryan, Matt Maeson, Morgan Wallen, Tyler Childers, Koe Wetzl, Led Zeppelin, Muscadine Bloodline, AC/DC
 

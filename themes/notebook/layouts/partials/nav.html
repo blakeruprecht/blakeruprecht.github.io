@@ -8,8 +8,8 @@
 
     <div class="menu-container">
       <ul class="menu">
-        <li><a href="/blog/">blog</a></li>
-        <li><a href="/research/">research</a></li>
+        <li><a href="/notes/">notes</a></li>
+        <li><a href="/research/">AI</a></li>
         <li><a href="/drawing/">drawing</a></li>
         <li><a href="/woodwork/">woodwork</a></li>
         <li>
@@ -32,22 +32,40 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
 </script>
 
 <!-- JavaScript for Theme Toggling -->
- <script>
+<script>
+  // On page load, check localStorage for the theme preference and apply it
+  document.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('theme');
+    const body = document.body;
+    const themeIcon = document.getElementById("theme-icon");
+
+    if (savedTheme === 'dark') {
+      body.classList.add('dark-mode');
+      themeIcon.classList.remove('fa-sun');
+      themeIcon.classList.add('fa-moon');
+    } else {
+      body.classList.remove('dark-mode');
+      themeIcon.classList.remove('fa-moon');
+      themeIcon.classList.add('fa-sun');
+    }
+  });
+
+  // Toggle theme and save the preference to localStorage
   function toggleTheme() {
-  const body = document.body;
-  const themeIcon = document.getElementById("theme-icon");
+    const body = document.body;
+    const themeIcon = document.getElementById("theme-icon");
 
-  // Toggle between light and dark theme
-  if (body.classList.toggle("dark-mode")) {
-    themeIcon.classList.remove("fa-sun"); // Change to moon icon
-    themeIcon.classList.add("fa-moon");
-  } else {
-    themeIcon.classList.remove("fa-moon"); // Change to sun icon
-    themeIcon.classList.add("fa-sun");
+    if (body.classList.toggle("dark-mode")) {
+      themeIcon.classList.remove("fa-sun"); // Switch to moon icon
+      themeIcon.classList.add("fa-moon");
+      localStorage.setItem('theme', 'dark'); // Save dark mode preference
+    } else {
+      themeIcon.classList.remove("fa-moon"); // Switch to sun icon
+      themeIcon.classList.add("fa-sun");
+      localStorage.setItem('theme', 'light'); // Save light mode preference
+    }
   }
-}
-
- </script>
+</script>
 
 <!-- JavaScript for Active Link Highlighting -->
 <script>

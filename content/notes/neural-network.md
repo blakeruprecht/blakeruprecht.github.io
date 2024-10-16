@@ -6,7 +6,7 @@ descript: '"Probably the main underlying reason behind the success of neural net
 
 The Universal Function Approximation theorem states that Neural Networks of increasing size and depth can approximate any function in the world. This is amazing.
 
-NNs start as [multilayer perceptrons](/blog/multilayer-perceptron) and add MLPs side-by-side to create layers, and add more layers to create depth.
+[Multilayer perceptrons](/notes/multilayer-perceptron) (MLP) are the fundamental buildings blocks of a NN. NNs add MLPs side-by-side to create layers, and add more layers to create depth.
 
 ## Activation Functions
 - ReLU
