@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blakeruprecht.github.io/blog/</loc>
+    <loc>https://blakeruprecht.github.io/notes/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/barefoot/</loc>
+    <loc>https://blakeruprecht.github.io/notes/barefoot/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.github.io/drawing/</loc>
@@ -17,67 +17,67 @@
     <loc>https://blakeruprecht.github.io/woodwork/</loc>
     <lastmod>2024-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/build-your-own-computer/</loc>
+    <loc>https://blakeruprecht.github.io/notes/build-your-own-computer/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/dcbs/</loc>
+    <loc>https://blakeruprecht.github.io/notes/dcbs/</loc>
     <lastmod>2024-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/ev-charger-install/</loc>
+    <loc>https://blakeruprecht.github.io/notes/ev-charger-install/</loc>
     <lastmod>2024-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/insect-farming/</loc>
+    <loc>https://blakeruprecht.github.io/notes/insect-farming/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/python-scipy/</loc>
+    <loc>https://blakeruprecht.github.io/notes/python-scipy/</loc>
     <lastmod>2024-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/python/</loc>
+    <loc>https://blakeruprecht.github.io/notes/python/</loc>
     <lastmod>2024-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/terminal/</loc>
+    <loc>https://blakeruprecht.github.io/notes/terminal/</loc>
     <lastmod>2024-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/os/</loc>
+    <loc>https://blakeruprecht.github.io/notes/os/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/computer-hardware/</loc>
+    <loc>https://blakeruprecht.github.io/notes/computer-hardware/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/simple-software/</loc>
+    <loc>https://blakeruprecht.github.io/notes/simple-software/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/game-theory/</loc>
+    <loc>https://blakeruprecht.github.io/notes/game-theory/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/growth-mindset/</loc>
+    <loc>https://blakeruprecht.github.io/notes/growth-mindset/</loc>
     <lastmod>2023-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/cold-brew/</loc>
+    <loc>https://blakeruprecht.github.io/notes/cold-brew/</loc>
     <lastmod>2023-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.github.io/</loc>
     <lastmod>2023-07-24T15:29:23-04:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/ml-paradigms/</loc>
+    <loc>https://blakeruprecht.github.io/notes/ml-paradigms/</loc>
     <lastmod>2023-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/lstm/</loc>
+    <loc>https://blakeruprecht.github.io/notes/lstm/</loc>
     <lastmod>2023-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/anfis/</loc>
+    <loc>https://blakeruprecht.github.io/notes/anfis/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/neural-gas/</loc>
+    <loc>https://blakeruprecht.github.io/notes/neural-gas/</loc>
     <lastmod>2022-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/choquet-integral/</loc>
+    <loc>https://blakeruprecht.github.io/notes/choquet-integral/</loc>
     <lastmod>2021-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/multilayer-perceptron/</loc>
+    <loc>https://blakeruprecht.github.io/notes/multilayer-perceptron/</loc>
     <lastmod>2020-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.github.io/blog/neural-network/</loc>
+    <loc>https://blakeruprecht.github.io/notes/neural-network/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.github.io/categories/</loc>

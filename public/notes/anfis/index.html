@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>ANFIS has gradient problems | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="&#34;The Adaptive Neuro Fuzzy Inference System (ANFIS) suffers from dead, zero, and non-changing gradients during neural network style machine learning.&#34;">
+
+  <link rel="canonical" href="https://blakeruprecht.github.io/notes/anfis/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <li>
+        <a href="/">Blake Ruprecht</a>
+      </li>
+    </div>
+
+    <div class="menu-container">
+      <ul class="menu">
+        <li><a href="/notes/">notes</a></li>
+        <li><a href="/research/">AI</a></li>
+        <li><a href="/drawing/">drawing</a></li>
+        <li><a href="/woodwork/">woodwork</a></li>
+        <li>
+          <button class="toggle-theme" onclick="toggleTheme()">
+            <i id="theme-icon" class="fa fa-sun"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <button class="menu-toggle">☰</button>
+  </nav>
+</header>
+
+
+<script>
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+  document.querySelector('.site-nav').classList.toggle('expanded'); 
+});
+</script>
+
+
+<script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('theme');
+    const body = document.body;
+    const themeIcon = document.getElementById("theme-icon");
+
+    if (savedTheme === 'dark') {
+      body.classList.add('dark-mode');
+      themeIcon.classList.remove('fa-sun');
+      themeIcon.classList.add('fa-moon');
+    } else {
+      body.classList.remove('dark-mode');
+      themeIcon.classList.remove('fa-moon');
+      themeIcon.classList.add('fa-sun');
+    }
+  });
+
+  
+  function toggleTheme() {
+    const body = document.body;
+    const themeIcon = document.getElementById("theme-icon");
+
+    if (body.classList.toggle("dark-mode")) {
+      themeIcon.classList.remove("fa-sun"); 
+      themeIcon.classList.add("fa-moon");
+      localStorage.setItem('theme', 'dark'); 
+    } else {
+      themeIcon.classList.remove("fa-moon"); 
+      themeIcon.classList.add("fa-sun");
+      localStorage.setItem('theme', 'light'); 
+    }
+  }
+</script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const currentPath = window.location.pathname.replace(/\/$/, ''); 
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+
+    
+    const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
+
+    
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    
+    if (homePaths.includes(currentPath)) {
+        logo.classList.add('active');
+    }
+});
+</script>
+
+<main class="content">
+
+  
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+</script>
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [['$$', '$$']],
+      processEscapes: true
+    }
+  };
+</script>
+
+<h1>ANFIS has gradient problems</h1>
+
+<h2 id="its-a-neural-network-that-incorporates-fuzzy-sets">It&rsquo;s a Neural Network that incorporates Fuzzy Sets</h2>
+<p>The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in <a href="/blog/python">Python</a>, specifically utilizing the <a href="/blog/python-scipy">PyTorch</a> package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn&rsquo;t you know it, PyTorch knows what it&rsquo;s doing.</p>
+<p>ANFIS is a type of artificial <a href="/blog/neural-network">neural network</a> that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of <a href="/blog/multilayer-perceptron">multilayer perceptrons</a>. Similar to a typical neural network, the input, $x_n(k)$, is a vector of scalars of length $n$ with features $k$.</p>
+<h2 id="its-only-three-equations">It&rsquo;s only three equations</h2>
+<p>The antecedent, $w$, represents the fuzzy logic statement &ldquo;If $x$ fits this rule well, then the rule matching strength, $w$, should be high.&rdquo; In this equation, the $A$ term is a function that takes in $x$ and returns $A(x)$, the membership value of the fuzzy set, which I called the rule-matching strength. ANFIS learns the $A(x)$ membership functions.
+$$ w_n^r = \prod_{k=1}^K A_k^r (x_n(k)) $$</p>
+<p>The next part of ANFIS is the consequent step, $z$, which can be run in parallel with the antecedent step. This is a simple first-order linear equation with a bias term that fits a line to all of the $x$ input values. ANFIS learns the $\rho$ values.
+$$ z_n^r = \rho_{bias}^r + \sum_{k=1}^K \rho_k^r (x_n(k)) $$</p>
+<p>The final step is called aggregation. This performs the fuzzy logic. As you can see, it&rsquo;s a weighted sum of all the consequent terms, weighted and normalized by the antecedent terms. So for each rule, how well did the inputs match that rule, $w$, and what was the consequent of that rule, $z$. There is a unique output, $y^r$, for every rule, $r$, in the system
+$$ y^r = \frac{\sum_{n=1}^N w_n^r \cdot z_n^r}{\sum_{n=1}^N w_n^r} $$</p>
+<h2 id="learning">Learning</h2>
+<p>ANFIS learns the functions $A(x)$ and the values $\rho$ using backpropagation from the error. The error function can be anything you choose, but let&rsquo;s just use mean-squared error.
+$$e = \frac{1}{2}(\hat{y} - y)^2$$</p>
+<h2 id="gradient-problems">Gradient Problems</h2>
+<p>For more technical details, see my <a href="/research">research</a>. Basically, after setting up this system, we found that ANFIS doesn&rsquo;t do it&rsquo;s job very well. It&rsquo;s supposed to learn using backpropagation of gradients, but there are many scenarios where the gradient is close to 0, causing no learning to happen. So wherever ANFIS gets initialized, it will often stay.</p>
+<p>Gradient problems:</p>
+<ul>
+<li>Once dead, always dead</li>
+<li>If only one rule fires, zero gradient</li>
+<li>Once big, no way to get smaller</li>
+</ul>
+<hr>
+<h2 id="references">References</h2>
+<ul>
+<li><strong>B. Ruprecht</strong>. “EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING”. University of Missouri, 2023. <a href="https://blakeruprecht.com/research/ruprecht_ms_thesis.pdf">PDF</a></li>
+<li><strong>B. Ruprecht</strong>, W. Wu, M. Islam, D. T. Anderson, J. Keller, G. Scott, C. Davis, F. Petry, P. Elmore, K. Nock, E. Gilmour, “Possibilistic Clustering Enabled Neuro Fuzzy Logic,” WCCI 2020. <a href="https://blakeruprecht.com/research/ruprecht_wcci2020.pdf">PDF</a>. <a href="https://github.com/blakeruprecht/ANFIS-SP1M">code</a>.</li>
+<li><strong>B. Ruprecht</strong>, C. Veal, A. Cannaday, D. T. Anderson, F. Petry, J. Keller, G. Scott, C. Davis, C. Norsworthy, P. Elmore, K. Nock, E. Gilmour, “Neuro-fuzzy logic for parts-based reasoning about complex scenes in remotely sensed data”, SPIE 2020. <a href="https://blakeruprecht.com/research/ruprecht_spie2020.pdf">PDF</a>. <a href="https://github.com/blakeruprecht/Fuzzy-Fusion">code</a>.</li>
+<li><em>Note</em>: It always feels nice to be recognized for your work, especially by such as esteemed blogger as yourself.</li>
+</ul>
+
+
+</main>
+
+<footer>
+  <a href="/blog">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
+
+</footer>
+
+</body>
+</html>
+

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blake Ruprecht&#39;s Home Page on Blake Ruprecht</title>
-    <link>https://blakeruprecht.github.io/</link>
-    <description>Recent content in Blake Ruprecht&#39;s Home Page on Blake Ruprecht</description>
+    <title>Blog on Blake Ruprecht</title>
+    <link>https://blakeruprecht.github.io/notes/</link>
+    <description>Recent content in Blog on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blakeruprecht.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to go barefoot</title>
       <link>https://blakeruprecht.github.io/notes/barefoot/</link>
@@ -13,39 +13,6 @@
       
       <guid>https://blakeruprecht.github.io/notes/barefoot/</guid>
       <description> Take off your shoes and socks </description>
-    </item>
-    
-    <item>
-      <title>Black and white thinking</title>
-      <link>https://blakeruprecht.github.io/drawing/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/drawing/</guid>
-      <description>Black ink on white paper, mostly.
-Shadow is the big question with this medium &amp;ndash; how do you represent shades of gray?
-You only have two colors, usually limited at the minimum in line thickness by the width of your pen nib (I typically use 0.5 mm).
-You can use hasing, stippling, and other techniques to create texture and the appearance of shadow. The denser the ink in a given area, the darker the area will appear from afar.</description>
-    </item>
-    
-    <item>
-      <title>Can we build Safe AI?</title>
-      <link>https://blakeruprecht.github.io/research/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/research/</guid>
-      <description>I&amp;rsquo;ve worked on the AI Alignment/Safety/Risk/Responsibility problem for five years now. I was a Research Assistant @Mizzou advised by Derek Anderson and the Center for Geospatial Intelligence. In our work, we developed novel neuro-symbolic systems that explain their decision-making steps to improve state of the art object detection performance while enhancing AI alignment/safety/etc.
-What is the problem? There are many names for the process of creating AIs that don&amp;rsquo;t take over the world and kill us.</description>
-    </item>
-    
-    <item>
-      <title>Inside-the-box thinking</title>
-      <link>https://blakeruprecht.github.io/woodwork/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/woodwork/</guid>
-      <description>If you can build a box, you can build almost anything out of wood. Heck, a lot of the challenge in woodworking is making the most right right angles possible (yeah, you read that right).
-I took shop in middle school and it taught me three things: how to not cut off my finger (unlike my teacher), how to sand for hours by hand, and how to build boxes.
-For example, furniture.</description>
     </item>
     
     <item>
@@ -255,27 +222,6 @@ $e$ = error or loss function (typically Mean Squared Error as shown here)</descr
 Multilayer perceptrons (MLP) are the fundamental buildings blocks of a NN. NNs add MLPs side-by-side to create layers, and add more layers to create depth.
 Activation Functions ReLU TanH Sigmoid Loss Functions $\frac{1}{2}e^2$ Softmax $\sigma(z) = e^{z_i} (\Sigma^K_{j=1}e^{z_j})^{-1}$
 $z$ is the input vector, $\in {-\infty,\infty}$, can be pos, neg, zero.</description>
-    </item>
-    
-    <item>
-      <title>My Blogshelf</title>
-      <link>https://blakeruprecht.github.io/blogshelf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/blogshelf/</guid>
-      <description>I want a place where I can recommend my favorite blogs for others to go read. Oh, look, here it is!
-Blogs NOTE: I linked my favorite article from each blog.
-mnmlist: by Leo Babauata, great blog about minimalism, this post really hits home for me. zen habits: also by Leo B., covers zen and applying it to life, e.g. having no goals is fun! Wait But Why: Tim Urban does long-form better than anybody, and visualizes important things in fascinating ways.</description>
-    </item>
-    
-    <item>
-      <title>My Bookshelf</title>
-      <link>https://blakeruprecht.github.io/bookshelf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/bookshelf/</guid>
-      <description>This isn&amp;rsquo;t a definitive list, and is nowhere near exhaustive, but I want to shoutout so many different books that I have to start somewhere. I ranked them, but suffice to say if I took time to write about it and put it on this list, it&amp;rsquo;s very important to me in some way.
-Books 1-10 The Sun Also Rises - Ernest Hemingway (fiction) The book where I finally got it.</description>
     </item>
     
   </channel>

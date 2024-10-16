@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Notes | Blake Ruprecht</title>
+  <title>Blog | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
+  <link rel="alternate" type="application/rss+xml" href="https://blakeruprecht.github.io/notes/index.xml" title="Blake Ruprecht" />
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
 <script>
@@ -44,27 +45,78 @@ if (!doNotTrack) {
 <body>
 
 <header class="site-header">
-  
   <nav class="site-nav">
     <div class="logo">
       <li>
         <a href="/">Blake Ruprecht</a>
       </li>
     </div>
+
+    <div class="menu-container">
+      <ul class="menu">
+        <li><a href="/notes/">notes</a></li>
+        <li><a href="/research/">AI</a></li>
+        <li><a href="/drawing/">drawing</a></li>
+        <li><a href="/woodwork/">woodwork</a></li>
+        <li>
+          <button class="toggle-theme" onclick="toggleTheme()">
+            <i id="theme-icon" class="fa fa-sun"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <button class="menu-toggle">☰</button>
   </nav>
-
-
 </header>
 
-    
 
-      
+<script>
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+  document.querySelector('.site-nav').classList.toggle('expanded'); 
+});
+</script>
+
+
+<script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('theme');
+    const body = document.body;
+    const themeIcon = document.getElementById("theme-icon");
+
+    if (savedTheme === 'dark') {
+      body.classList.add('dark-mode');
+      themeIcon.classList.remove('fa-sun');
+      themeIcon.classList.add('fa-moon');
+    } else {
+      body.classList.remove('dark-mode');
+      themeIcon.classList.remove('fa-moon');
+      themeIcon.classList.add('fa-sun');
+    }
+  });
+
+  
+  function toggleTheme() {
+    const body = document.body;
+    const themeIcon = document.getElementById("theme-icon");
+
+    if (body.classList.toggle("dark-mode")) {
+      themeIcon.classList.remove("fa-sun"); 
+      themeIcon.classList.add("fa-moon");
+      localStorage.setItem('theme', 'dark'); 
+    } else {
+      themeIcon.classList.remove("fa-moon"); 
+      themeIcon.classList.add("fa-sun");
+      localStorage.setItem('theme', 'light'); 
+    }
+  }
+</script>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    const currentPath = window.location.pathname;
-    console.log('Current Path:', currentPath);  
-
+    const currentPath = window.location.pathname.replace(/\/$/, ''); 
     const menuItems = document.querySelectorAll('.menu a');
     const logo = document.querySelector('.logo a');
 
@@ -73,62 +125,339 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     menuItems.forEach(item => {
-        const itemPath = item.getAttribute('href');
-        console.log('Checking Menu Item:', itemPath);  
-
-        if (itemPath === currentPath) {
-            console.log('Match Found:', itemPath);  
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
             item.classList.add('active');
         }
     });
 
     
     if (homePaths.includes(currentPath)) {
-        console.log('Highlighting Logo for Home Page');  
         logo.classList.add('active');
     }
 });
 </script>
 
-
 <main class="content">
 
-  
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
-</script>
-<script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$']],
-      processEscapes: true
-    }
-  };
-</script>
 
-<h1>Notes</h1>
 
-<ul>
-<li><a href="/self-love">self-love</a></li>
-<li><a href="/relationships">relationships</a></li>
-</ul>
-<p> </p>
-<ul>
-<li><a href="/craft">craft</a></li>
-<li><a href="/science">science of winning games</a></li>
-<li><a href="/play">play</a></li>
-<li><a href="/metagame">metagame</a></li>
-</ul>
-<p> </p>
-<ul>
-<li><a href="/exercise">exercise</a></li>
-<li><a href="/nutrition">nutrition</a></li>
-<li><a href="/recovery">recovery</a></li>
-</ul>
-<p> </p>
-<ul>
-<li><a href="/breathe">breathe</a></li>
-</ul>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2024-08-22T00:00:00Z'>
+          2024-08-22
+        </time>
+      </i>
+    </span>
+    <a href="/notes/barefoot/">How to go barefoot</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2024-07-12T00:00:00Z'>
+          2024-07-12
+        </time>
+      </i>
+    </span>
+    <a href="/notes/build-your-own-computer/">How to build your own computer</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2024-06-20T00:00:00Z'>
+          2024-06-20
+        </time>
+      </i>
+    </span>
+    <a href="/notes/dcbs/">DCBS hot sauce recipe</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2024-03-27T00:00:00Z'>
+          2024-03-27
+        </time>
+      </i>
+    </span>
+    <a href="/notes/ev-charger-install/">EV charger installation</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2024-03-23T00:00:00Z'>
+          2024-03-23
+        </time>
+      </i>
+    </span>
+    <a href="/notes/insect-farming/">Insect farming is sustainable</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2024-03-17T00:00:00Z'>
+          2024-03-17
+        </time>
+      </i>
+    </span>
+    <a href="/notes/python-scipy/">Useful Python packages for science</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2024-03-04T00:00:00Z'>
+          2024-03-04
+        </time>
+      </i>
+    </span>
+    <a href="/notes/python/">How to install Python</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2024-02-27T00:00:00Z'>
+          2024-02-27
+        </time>
+      </i>
+    </span>
+    <a href="/notes/terminal/">The terminal can do almost everything</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2024-02-18T00:00:00Z'>
+          2024-02-18
+        </time>
+      </i>
+    </span>
+    <a href="/notes/os/">Any modern operating system is fine</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2024-02-12T00:00:00Z'>
+          2024-02-12
+        </time>
+      </i>
+    </span>
+    <a href="/notes/computer-hardware/">Buy used computers</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2023-11-20T00:00:00Z'>
+          2023-11-20
+        </time>
+      </i>
+    </span>
+    <a href="/notes/simple-software/">Simple software follows Unix principles</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2023-09-01T00:00:00Z'>
+          2023-09-01
+        </time>
+      </i>
+    </span>
+    <a href="/notes/game-theory/">Game Theory calculates optimal strategies</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2023-08-06T00:00:00Z'>
+          2023-08-06
+        </time>
+      </i>
+    </span>
+    <a href="/notes/growth-mindset/">Growth is the result of effort</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2023-07-27T00:00:00Z'>
+          2023-07-27
+        </time>
+      </i>
+    </span>
+    <a href="/notes/cold-brew/">How to make cold brew</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2023-05-15T00:00:00Z'>
+          2023-05-15
+        </time>
+      </i>
+    </span>
+    <a href="/notes/ml-paradigms/">Machine Learning paradigms</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2023-04-24T00:00:00Z'>
+          2023-04-24
+        </time>
+      </i>
+    </span>
+    <a href="/notes/lstm/">LSTM units incorporate temporal data into NNs</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2022-12-15T00:00:00Z'>
+          2022-12-15
+        </time>
+      </i>
+    </span>
+    <a href="/notes/anfis/">ANFIS has gradient problems</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2022-02-27T00:00:00Z'>
+          2022-02-27
+        </time>
+      </i>
+    </span>
+    <a href="/notes/neural-gas/">Neural gas learns a self-organizing map</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2021-08-04T00:00:00Z'>
+          2021-08-04
+        </time>
+      </i>
+    </span>
+    <a href="/notes/choquet-integral/">The Choquet Integral generalizes metric functions</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2020-08-29T00:00:00Z'>
+          2020-08-29
+        </time>
+      </i>
+    </span>
+    <a href="/notes/multilayer-perceptron/">Multilayer Perceptrons are the basic unit of a NN</a>
+  </ul>
+</article>
+
+
+
+<article class="post-snippet">
+  <ul class="blog-list">
+    <span>
+      <i>
+        <time datetime='2020-08-11T00:00:00Z'>
+          2020-08-11
+        </time>
+      </i>
+    </span>
+    <a href="/notes/neural-network/">Neural Networks approximate any function</a>
+  </ul>
+</article>
+
 
 
 </main>

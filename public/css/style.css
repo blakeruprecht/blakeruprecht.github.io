@@ -5,8 +5,8 @@
   --fg-color: #333;      /* Text color */
   --bg-color: #fff;      /* Background color */
   --mg-color: #777;   /* Miscellaneous color (default) */
-  --ul-color: #c0c0c0;   /* Underline color */
-  --logo-color: #dd5511; /* Fire accent color */
+  --ul-color: #e2e2e2;   /* Underline color */
+  --logo-color: #dd0000; /* Fire accent color */
 
   /* Dark Mode Colors */
   --dark-fg-color: #ccc; /* Text color for dark mode */
@@ -16,7 +16,7 @@
   --dark-logo-color: #6699cc; /* Ice accent color */
 
   /* Fonts */
-  --font-serif: "Georgia", "Times", serif;
+  --font-serif: "Times New Roman", serif;
   --font-sans: "NotoSans", "Helvetica", sans-serif;
   --font-mono: "Hack", mono;
 }
@@ -42,24 +42,24 @@ body.dark-mode {
   --bg-color: var(--dark-bg-color);
   --mg-color: var(--dark-mg-color);
   --ul-color: var(--dark-ul-color);
-  --logo-color: var(--dark-logo-color);
+  --logo-color: var(--logo-color);
 }
 
 /* LINKS */
 a {
-  color: var(--fg-color);
+  color: #36c;
   text-decoration: none;
-  border-bottom: 1px solid var(--ul-color); /* Using the same variable */
+  border-bottom: none 2px var(--ul-color); /* Using the same variable */
 }
 
 a:hover {
-  color: var(--fg-color);
-  border-bottom: 1px solid var(--fg-color); /* Color shifts to fg-color on hover */
+  color: #36c;
+  text-decoration: underline;
+  border-bottom: none 2px var(--fg-color); /* Color shifts to fg-color on hover */
 }
 
 /* HEADERS */
 h1 {
-  font-family: var(--font-serif);
   font-weight: bold;
   margin: 1em 0;
   font-size: 2rem;
@@ -67,7 +67,6 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: var(--font-serif);
   font-weight: bold;
 }
 
@@ -138,7 +137,7 @@ img[alt=headshot] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 .logo {
@@ -151,8 +150,8 @@ img[alt=headshot] {
 
 .logo a {
   font-family: var(--font-sans);
+  color: var(--fg-color);
   font-variant: small-caps;
-  color: var(--logo-color);
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
@@ -182,8 +181,6 @@ img[alt=headshot] {
   font-family: var(--font-sans);
   font-size: 1em;
   color: var(--mg-color);
-  text-transform: capitalize;
-  font-variant: small-caps;
   text-decoration: none;
   border-bottom: none;
 }
@@ -230,6 +227,9 @@ img[alt=headshot] {
       margin: 0;
     }
 
+    .menu-container {
+    }
+
     .menu {
       display: none;
       flex-direction: column;
@@ -239,7 +239,7 @@ img[alt=headshot] {
     }
 
     .menu a {
-      text-align: right;
+      text-align: left;
     }
 
     .menu-toggle {
@@ -253,6 +253,7 @@ img[alt=headshot] {
 
     .site-nav.expanded .menu {
       display: flex;
+      align-items: left;
     }
 } 
 

@@ -53,8 +53,8 @@ if (!doNotTrack) {
 
     <div class="menu-container">
       <ul class="menu">
-        <li><a href="/blog/">blog</a></li>
-        <li><a href="/research/">research</a></li>
+        <li><a href="/notes/">notes</a></li>
+        <li><a href="/research/">AI</a></li>
         <li><a href="/drawing/">drawing</a></li>
         <li><a href="/woodwork/">woodwork</a></li>
         <li>
@@ -77,22 +77,40 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
 </script>
 
 
- <script>
-  function toggleTheme() {
-  const body = document.body;
-  const themeIcon = document.getElementById("theme-icon");
+<script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('theme');
+    const body = document.body;
+    const themeIcon = document.getElementById("theme-icon");
+
+    if (savedTheme === 'dark') {
+      body.classList.add('dark-mode');
+      themeIcon.classList.remove('fa-sun');
+      themeIcon.classList.add('fa-moon');
+    } else {
+      body.classList.remove('dark-mode');
+      themeIcon.classList.remove('fa-moon');
+      themeIcon.classList.add('fa-sun');
+    }
+  });
 
   
-  if (body.classList.toggle("dark-mode")) {
-    themeIcon.classList.remove("fa-sun"); 
-    themeIcon.classList.add("fa-moon");
-  } else {
-    themeIcon.classList.remove("fa-moon"); 
-    themeIcon.classList.add("fa-sun");
-  }
-}
+  function toggleTheme() {
+    const body = document.body;
+    const themeIcon = document.getElementById("theme-icon");
 
- </script>
+    if (body.classList.toggle("dark-mode")) {
+      themeIcon.classList.remove("fa-sun"); 
+      themeIcon.classList.add("fa-moon");
+      localStorage.setItem('theme', 'dark'); 
+    } else {
+      themeIcon.classList.remove("fa-moon"); 
+      themeIcon.classList.add("fa-sun");
+      localStorage.setItem('theme', 'light'); 
+    }
+  }
+</script>
 
 
 <script>
@@ -150,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <em>Done using a dip pen and black india ink. This is <a href="https://en.wikipedia.org/wiki/Fallingwater">Fallingwater</a>, a house designed by Frank Lloyd Wright in 1935.</em></p>
 <p> </p>
 <p><img src="drawing-chalkboard.jpg" alt="Calligraphy done on a chalkboard">
-<em>&hellip;enough, it wouldn&rsquo;t be the minimum. From <a href="/blog/kiss">KISS</a></em></p>
+<em>&hellip;enough, it wouldn&rsquo;t be the minimum.</em></p>
 <p> </p>
 <p><img src="drawing-relativity.jpg" alt="A doodle I did in class">
 <em>I particularly like black ink drawings with that bold, all-black shading style, though it&rsquo;s very hard to get right.</em></p>

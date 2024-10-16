@@ -6,16 +6,16 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>My Blogshelf | Blake Ruprecht</title>
+  <title>How to build your own computer | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <meta name="description" content="">
+  <meta name="description" content="&#34;The actual building of your own DIY computer is the easy part. The hard part is picking parts that are all compatible with each other.&#34;">
 
-  <link rel="canonical" href="https://blakeruprecht.github.io/blogshelf/" />  
+  <link rel="canonical" href="https://blakeruprecht.github.io/notes/build-your-own-computer/" />  
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
@@ -152,32 +152,15 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 </script>
 
-<h1>My Blogshelf</h1>
+<h1>How to build your own computer</h1>
 
-<p>I want a place where I can recommend my favorite blogs for others to go read. Oh, look, here it is!</p>
-<h2 id="blogs">Blogs</h2>
-<p><em>NOTE: I linked my favorite article from each blog.</em></p>
-<ul>
-<li><a href="https://mnmlist.com/brew">mnmlist</a>: by Leo Babauata, great blog about minimalism, this post really hits home for me.</li>
-<li><a href="https://zenhabits.net/no-goal">zen habits</a>: also by Leo B., covers zen and applying it to life, e.g. having no goals is fun!</li>
-<li><a href="https://waitbutwhy.com/2014/05/life-weeks.html">Wait But Why</a>: Tim Urban does long-form better than anybody, and visualizes important things in fascinating ways.</li>
-<li><a href="https://www.mrmoneymustache.com/2016/11/24/efficiency-is-the-highest-form-of-beauty/">Mr Money Mustache</a>: Pete writes about saving money, but for the purpose of living a better life.</li>
-<li><a href="https://xkcd.com/162/">xkcd</a> The best online comic strip to ever come out.</li>
-<li><a href="https://www.themarginalian.org/2016/08/16/life-on-a-mobius-janna-levin-moth/">The Marginalian</a>: Maria Popova features some amazing stuff, this one made me cry when I first read it.</li>
-<li><a href="https://paulgraham.com/hwh.html">Paul Graham</a>: entrepreneur turned essayist, this post about working hard is better than most career advice.</li>
-<li><a href="https://sive.rs/confab">Derek Sivers</a>: Derek has some pure gold, especially his stuff about &ldquo;useful not true&rdquo; and &ldquo;hell yeah or no.&rdquo;</li>
-<li><a href="https://guzey.com">Alexey Guzey</a>: Alexey&rsquo;s ## Advice section is really good, I wish I could tell my college self some of this.</li>
-<li><a href="https://speakerdeck.com/talraviv/more-constraints-please">Tal Raviv</a>: More constraints can actually be better, I&rsquo;m shocked. Tal&rsquo;s blog is currently down.</li>
-<li><a href="https://www.lesswrong.com/tag/the-science-of-winning-at-life-sequence">LessWrong</a>: love this sequence about applying rationality to life</li>
-<li><a href="https://rkg.blog/water.php">Ravi Gupta</a>: Ravi&rsquo;s got a quick blog, but most of the posts on the left are really good.</li>
-<li><a href="https://www.profgalloway.com/">No Mercy No Malice</a>: marketer Scott Galloway, I like the design</li>
-</ul>
-<h2 id="individual-articles">Individual Articles</h2>
-<ul>
-<li><a href="https://worrydream.com/refs/Lockhart_2002_-_A_Mathematician's_Lament.pdf">A Mathematician&rsquo;s Lament</a>: by Paul Lockhart, the best essay I&rsquo;ve ever read about math as art.</li>
-<li><a href="https://absoluteirony.wordpress.com/wp-content/uploads/2014/09/talking-in-circles-20161.pdf">Talking in Circles</a>: Ryan Simonelli explains how all philosophy eventually ends up in paradox</li>
-<li><a href="https://worrydream.com/LadderOfAbstraction/">Up and Down the Ladder of Abstraction</a>: Bret Victor does an amazing job explaining mathematical abstraction using some super cool online visuals.</li>
-</ul>
+<p>Building a computer is a fun journey, especially with the plethora of YouTube tutorials at your fingertips, but the real challenge lies in ensuring your chosen components are compatible. Get this wrong and you may end up with a black screen or, worse, fried components. Here&rsquo;s what you need to know about compatibility to avoid disaster.</p>
+<p><strong>Motherboard and CPU</strong>. Your motherboard is the cornerstone of your build. Think of it as the backbone that connects and supports all other components. The key aspect to get right is the CPU socket interface. You&rsquo;ll need a motherboard that matches your CPU socket, so choosing these first makes the most sense. Get this pairing wrong and your computer won&rsquo;t even turn on. The industry standard size is ATX, but for my simple gaming needs, I went with the smaller micro-ATX form factor to fit a smaller case later.</p>
+<p><strong>Memory and Storage</strong>. Once you’ve chosen a motherboard, look at its specifications to determine the type of memory it uses (e.g., DDR4), the number of memory slots, and compatible memory speeds. When I built my first PC I overlooked memory speed compatibility, ending up with RAM my system couldn’t fully utilize. I recommend using online tools like <a href="https://pcpartpicker.com/list/">PCPartPicker</a> to verify compatibility. As for storage, check the motherboard’s hard drive interfaces (e.g., M.2, SATA). I chose an M.2 SSD for its faster boot-up speeds, sacrificing some storage space compared to a SATA SSD.</p>
+<p><strong>GPU</strong>. If your CPU includes integrated graphics you’re good to go for basic tasks. But for gaming or video editing, a discrete GPU is essential. Modern motherboards generally support PCIE slots, ensuring compatibility with most modern GPUs. However, it’s always a good idea to double-check this before purchasing a GPU.</p>
+<p><strong>Power Supply</strong>. After selecting all computing parts it’s time to choose a power supply unit (PSU). Calculate the power usage of all components combined and then pick a PSU with a bit more wattage for safety. Mine totaled 274W, so I opted for a 500W PSU. Look for an 80 PLUS certified PSU for better efficiency and reliability. Modular PSUs may be worth the extra cost for tidiness and ease of cable management. I chose an SFX (smaller than an ATX) PSU to fit in an 11-liter case.</p>
+<p><strong>Case</strong>. In the end, your choice of case is about more than fitting all components — it’s about ensuring they all work together harmoniously. Check, and then recheck, the maximum dimensions for the motherboard, power supply, GPU, and CPU cooler. Good airflow and proper cable management are critical for maintaining optimal temperatures, and thereby performance.</p>
+<p>Building a PC is a rewarding experience that combines technical know-how with a bit of creativity. Embrace the process, and don’t hesitate to reach out if you hit a snag. Happy building!</p>
 
 
 </main>
