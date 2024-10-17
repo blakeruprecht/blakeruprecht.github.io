@@ -1,10 +1,34 @@
 +++
 title = "My Bookshelf"
+menu = "main"
+date = "2024-10-17"
 +++
 
-This isn't a definitive list, and is nowhere near exhaustive, but I want to shoutout so many different books that I have to start somewhere. I ranked them, but suffice to say if I took time to write about it and put it on this list, it's very important to me in some way.
+Below is an incomplete catalog of the blogs and books that I love. They are generally sorted in order of passion, but that's harder to do than it seems.
 
-## Books 1-10
+
+## Blogs
+*NOTE: I linked my favorite article from each blog.*
+- [mnmlist](https://mnmlist.com/brew): by Leo Babauata, great blog about minimalism, this post really hits home for me.
+- [zen habits](https://zenhabits.net/no-goal): also by Leo B., covers zen and applying it to life, e.g. having no goals is fun!
+- [Wait But Why](https://waitbutwhy.com/2014/05/life-weeks.html): Tim Urban does long-form better than anybody, and visualizes important things in fascinating ways.
+- [Mr Money Mustache](https://www.mrmoneymustache.com/2016/11/24/efficiency-is-the-highest-form-of-beauty/): Pete writes about saving money, but for the purpose of living a better life.
+- [xkcd](https://xkcd.com/162/) The best online comic strip to ever come out.
+- [The Marginalian](https://www.themarginalian.org/2016/08/16/life-on-a-mobius-janna-levin-moth/): Maria Popova features some amazing stuff, this one made me cry when I first read it.
+- [Paul Graham](https://paulgraham.com/hwh.html): entrepreneur turned essayist, this post about working hard is better than most career advice.
+- [Derek Sivers](https://sive.rs/confab): Derek has some pure gold, especially his stuff about "useful not true" and "hell yeah or no."
+- [Alexey Guzey](https://guzey.com): Alexey's ## Advice section is really good, I wish I could tell my college self some of this.
+- [Tal Raviv](https://speakerdeck.com/talraviv/more-constraints-please): More constraints can actually be better, I'm shocked. Tal's blog is currently down.
+- [LessWrong](https://www.lesswrong.com/tag/the-science-of-winning-at-life-sequence): love this sequence about applying rationality to life
+- [Ravi Gupta](https://rkg.blog/water.php): Ravi's got a quick blog, but most of the posts on the left are really good.
+- [No Mercy No Malice](https://www.profgalloway.com/): marketer Scott Galloway, I like the design
+
+## Articles
+- [A Mathematician's Lament](https://worrydream.com/refs/Lockhart_2002_-_A_Mathematician's_Lament.pdf): by Paul Lockhart, the best essay I've ever read about math as art.
+- [Talking in Circles](https://absoluteirony.wordpress.com/wp-content/uploads/2014/09/talking-in-circles-20161.pdf): Ryan Simonelli explains how all philosophy eventually ends up in paradox
+- [Up and Down the Ladder of Abstraction](https://worrydream.com/LadderOfAbstraction/): Bret Victor does an amazing job explaining mathematical abstraction using some super cool online visuals.
+
+## Books
 - **The Sun Also Rises - Ernest Hemingway** (fiction) The book where I finally got it. Hemingway takes you on this journey, and at no point tells you what to feel, but gives you all the raw material. What happens in this book? What happens in life, everything and nothing. Definitively, for all time, this book is about the journey, not the destination.
 - **Braiding Sweetgrass - Robin Wall Kimmerer** (nonfiction) A fantastic look at reciprocity from the perspective of a plant scientist, native Potawatomi, and mother. This book almost singularly describes me view of living naturally on this Earth, an absolute tour de force.
 - **Calvin and Hobbes - Bill Watterson** (comic_strip) Watterson transcended the panes of the comic strip and entered rarefied air with the likes of Nobel writers, great scientists, and prophets.
@@ -15,8 +39,6 @@ This isn't a definitive list, and is nowhere near exhaustive, but I want to shou
 - **Siddhartha - Herman Hesse** (fiction) Made me realize what ohm was.
 - **Animal Farm - George Orwell** (fiction) On the Rushmore of political commentary novels. Political satire done right, allegory of a farm is simple and perfect. Snowball and Napoleon are iconic swines.
 - **The Righetous Mind - Jonathan Haidt** (nonfiction) The book I wish I wrote, the science I wish I could do, Haidt introduces the elephant and rider concept, which explains who we really are -- not the conscious mind explaining the action, but the unconscious elephant actually driving all of the action.
-
-## Books 11-?
 - **The Tao of Pooh - Benjamin Hoff**: This book teaches essential concepts of Taoism thru the lens of my first fictional teacher, Pooh Bear.
 - **Sacred Journey of the Peaceful Warrior - Dan Millman** (fiction) Somehow this man manages to summarize most of the core concepts of Taoism and Zen Buddhism, while ignoring some of the cultural and traditional aspects of those disciplines.
 - **Maus - Art Spiegelman** (graphic novel) Amazing visual description of the Holocaust and the complexities surrounding the perpetrators and the victims.

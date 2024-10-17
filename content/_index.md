@@ -1,31 +1,21 @@
 ---
 title: "Blake Ruprecht's Home Page"
 date: 2023-07-24T15:29:23-04:00
-description: "The personal website of Blake Ruprecht. Here, I write a blog, showcase my safe artificial intelligence research, display some ink drawings and woodworking, and generally give the web information about me."
+description: "My name is Blake Ruprecht. I'm a content writer and computer generalist. On this site, I display some of my past work, including articles I've written and academic research I have done."
 ---
 
-## About
-- I'm a writer, this is my [blog](/notes)
-- I previously [researched](/research) safe AI @Mizzou
-- I code, mainly HTML/CSS/JS for [this site](https://github.com/blakeruprecht/blakeruprecht.github.io) (it's free and open-source, punk!)
+## Hi, I'm Blake
 
-&nbsp;
+![headshot](/headshot.jpg)
 
-In other areas of life, I'm passionate about:
-- [**Drawing**](/drawing)
-- [**Woodworking**](/woodwork)
-- **Reading**: my [blogshelf](/blogshelf) and my [bookshelf](/bookshelf)
-- **Local community**: To promote serendipitous encounters, don't plan stuff and live close to those you love.
-- **Natural lifestyle**: Getting outside, running, calisthenics, fishing, backpacking, deep ecology, solarpunk, etc.
-- **Spicy food**: I make [Hot Sauce](/notes/dcbs) and love cooking salsa.
-- **Craft beer**: Especially [Logboat](https://www.logboatbrewing.com/) (MO) and [Cherry Street](https://cherrystreetbrewing.com/) (GA). Right now it's Oktoberfest season, break out the M&auml;rzens!
-- **Outlaw music**: Zach Bryan, Matt Maeson, Morgan Wallen, Tyler Childers, Koe Wetzl, Led Zeppelin, Muscadine Bloodline, AC/DC
+I'm a writer and computer generalist focused on digital marketing, artificial intelligence, and web design. Some samples of my writing can be found in the [notes](/notes) section of this website, which includes [some](/notes/build-your-own-computer) [samples](/notes/insect-farming) [of](/notes/python) [content](/notes/growth-mindset) writing across domains and a lot of notes about AI/computers.
 
-&nbsp;
+Previously I [researched](/research) safe artificial intelligence @Mizzou. During this time, I published five scientific articles in international venues. You may not know, but communication is just as important to the scientific process as research, so this experience taught me a ton about efficient and persuasive writing.
 
-## Contact Me
-IF you read this and have thoughts in your brain (be honest)
+I'm new to making websites, but I love coding, so I made this one using HTML, CSS, JavaScript, Git/Github, and the Hugo static site generator (like WordPress but faster and more coding). The source code for this site lives at [this Github repo](https://github.com/blakeruprecht/blakeruprecht.github.io) (it's free and open-source, punk!). Web design is the digital version of [woodworking](/woodwork) -- it's all boxes!
 
-THEN you send me your thoughts [@email](mailto:blakecruprecht@gmail.com)
+Offline, you can find me playing in the great outdoors, cooking [spicy](/notes/dcbs) food, drinking craft beer (it's Oktoberfest season!), and hanging out with my friends and family. Send me an email, I would love to hear from you!
 
-BECAUSE the most loving thing you can do for me is help me learn and grow
+
+## Contact Info
+[Email](mailto:blakecruprecht@gmail.com) :: [LinkedIn](https://linkedin.com/in/blakeruprecht) :: [Github](https://github.com/blakeruprecht) :: [Instagram](https://instagram.com/blakeruprecht)
