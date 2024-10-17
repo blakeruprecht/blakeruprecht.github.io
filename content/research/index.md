@@ -1,24 +1,30 @@
 +++ 
-title = "Can we build Safe AI?" 
+title = "What research taught me" 
 menu = "main"
-date = "2024-08-15"
+date = "2024-10-17"
 +++
 
-I've worked on the AI Alignment/Safety/Risk/Responsibility problem for five years now. I was a Research Assistant @Mizzou advised by [Derek Anderson](https://derektanderson.com/) and the [Center for Geospatial Intelligence](https://engineering.missouri.edu/research/featured/center-for-geospatial-intelligence-cgi/). In our work, we developed novel neuro-symbolic systems that explain their decision-making steps to improve state of the art object detection performance while enhancing AI alignment/safety/etc.
+> "*I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I only love that which they defend.*" -J.R.R. Tolkien
 
-**What is the problem?** There are many names for the process of creating AIs that don't take over the world and kill us. AI cannot currently harm humans, but it will likely be the most powerful technology humans ever create. The obvious answer to keep us safe is to just not build AI, but this obviously isn't an option. There is no next best option, since nobody has built powerful enough AI yet. All of the techniques to build safer AIs are just the current best guesses, albeit guesses made by very smart people.
+I'm pretty good at math and computers, but much like the quote above, I do not care about tech or numbers or code, like *at all* -- I only researched AI Risk because I truly care about humanity and nature.
 
-**What did I do?** First, I got up to speed with the state of the art in AI -- modern machine learning techniques, deep learning, neural networks, reinforcement learning, fuzzy logic, evolutionary algorithms, natural language processing, computer vision, all of it.
+I leanred six years ago that AI has the potential to destory humanity, so I buckled down and spent the next half-decade doing everything I could to fight this threat, until I burned out.
 
-Next, I started working on developing high-performing neural networks with an added layer of fuzzy math on top to represent the decision-making process used by the AI. 
+During this *Process*, I learned a lot about AI, but I learned even more about the *Process* of science and what it takes to solve a massive problem. My half-decade of research and five gray hairs culminated in a 73 page thesis that will inevitably fade into obscurity.
 
-**Did it work?** Yes, I was able to successfully code up new neuro-symbolic models in Python/PyTorch and experiment on simulated and real datasets. We achieved state of the art object detection performance, and improved explainability.
+Science is awesome.
 
-**Is AI Safety solved?** Hell no! All I did was scratch the surface of AI safety, it by no means solves the problem. Does it add one very specific technique that might help? Yup! And at the end of the day, that's a W in science.
+**I learned how to take a huge problem and break it down into the smallest actionable steps possible**. You can't solve something as big as AI in one step. The most influential science papers in the world are just a slightly bigger step forward than most other papers. That's all that is needed, a bunch of people making miniscule amounts of shareable, verifiable progress at a time. Then all of a sudden, boom, we've got Large Language Models living in our cellphones that are smarter than anyone I've ever met.
 
-**What degree did you get?** I was originally going for my PhD, but stopped about halfway through, so I presented my M.S. thesis and defended it, receiving a Masters of Science. Technically, I did *way* more work than needed for a MS and published a lot of papers, but I'm not a full-fledged scientist yet :)
+**I learned how to get my cartoons published**. It's pretty easy when you pair them with months of extensive experiments testing new math, excruciating attention to detail and sources, and effective copy that conveys the correct ideas -- mainly, the idea that cartoons are cool! I'll leave it up to you to find them in my Thesis. ;)
 
-Here, I've listed the references to my published work. If you have any questions, feel free to reach out (contact info on [my home page](/)).
+**I learned how to convey technical math concepts using *no* equations**, just pretty colors and cool diagrams. Hey, even us enginerds love to be entertained during presentations, not bored out of our minds.
+
+**I learned how to write**. I've always found science papers extremely boring, but it's actually quite the skill to make them that boring -- you have to be very accurate, thorough, attentive, and logical in your storytelling, to create the effect that everyone knows what is being said and the result is the most obvious thing in the world!
+
+**Oh yeah, I guess I learned about computer science too.** But really, coding is the easy part of AI research. Hell, I barely learned Python, and had tons of trouble just getting experiments running. But now I know how to use a computer from the bottom-up (okay, from the [Terminal](/notes/terminal) and C up, I don't "assemble" anything).
+
+**I'm a Master of science, muahaha!** I wouldn't call myself a computer scientist, nor an engineer. I'm more just a nature lover who pays really close attention to details, and is unemotional about my personal connection to the fickle ideas I currently hold in my head. I'm a learner, I'm probably wrong about everything I currently know, and I'm 100% okay with that because I know the *Process* of science, and thus, can learn more about anything in this universe.
 
 ---
 
