@@ -16,7 +16,7 @@ Science is awesome.
 
 **I learned how to take a huge problem and break it down into the smallest actionable steps possible**. You can't solve something as big as AI in one step. The most influential science papers in the world are just a slightly bigger step forward than most other papers. That's all that is needed, a bunch of people making miniscule amounts of shareable, verifiable progress at a time. Then all of a sudden, boom, we've got Large Language Models living in our cellphones that are smarter than anyone I've ever met.
 
-**I learned how to get my cartoons published**. It's pretty easy when you pair them with months of extensive experiments testing new math, excruciating attention to detail and sources, and effective copy that conveys the correct ideas -- mainly, the idea that cartoons are cool! I'll leave it up to you to find them in my Thesis. ;)
+**I learned how to get my cartoons published**. It's pretty easy when you pair them with months of extensive experiments testing new math, excruciating attention to detail and sources, and effective copy that conveys the correct ideas -- mainly, the idea that cartoons are cool!  I'll leave it up to you to find them in my Thesis. ;)
 
 **I learned how to convey technical math concepts using *no* equations**, just pretty colors and cool diagrams. Hey, even us enginerds love to be entertained during presentations, not bored out of our minds.
 

@@ -7,12 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Jul 2023 15:29:23 -0400</lastBuildDate><atom:link href="https://blakeruprecht.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to go barefoot</title>
-      <link>https://blakeruprecht.github.io/notes/barefoot/</link>
-      <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
+      <title>My Bookshelf</title>
+      <link>https://blakeruprecht.github.io/bookshelf/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blakeruprecht.github.io/notes/barefoot/</guid>
-      <description> Take off your shoes and socks </description>
+      <guid>https://blakeruprecht.github.io/bookshelf/</guid>
+      <description>Below is an incomplete catalog of the blogs and books that I love. They are generally sorted in order of passion, but that&amp;rsquo;s harder to do than it seems.
+Blogs NOTE: I linked my favorite article from each blog.
+mnmlist: by Leo Babauata, great blog about minimalism, this post really hits home for me. zen habits: also by Leo B., covers zen and applying it to life, e.g. having no goals is fun!</description>
+    </item>
+    
+    <item>
+      <title>What research taught me</title>
+      <link>https://blakeruprecht.github.io/research/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blakeruprecht.github.io/research/</guid>
+      <description>&amp;ldquo;I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I only love that which they defend.&amp;rdquo; -J.R.R. Tolkien
+I&amp;rsquo;m pretty good at math and computers, but much like the quote above, I do not care about tech or numbers or code, like at all &amp;ndash; I only researched AI Risk because I truly care about humanity and nature.</description>
     </item>
     
     <item>
@@ -25,16 +37,6 @@
 Shadow is the big question with this medium &amp;ndash; how do you represent shades of gray?
 You only have two colors, usually limited at the minimum in line thickness by the width of your pen nib (I typically use 0.5 mm).
 You can use hasing, stippling, and other techniques to create texture and the appearance of shadow. The denser the ink in a given area, the darker the area will appear from afar.</description>
-    </item>
-    
-    <item>
-      <title>Can we build Safe AI?</title>
-      <link>https://blakeruprecht.github.io/research/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/research/</guid>
-      <description>I&amp;rsquo;ve worked on the AI Alignment/Safety/Risk/Responsibility problem for five years now. I was a Research Assistant @Mizzou advised by Derek Anderson and the Center for Geospatial Intelligence. In our work, we developed novel neuro-symbolic systems that explain their decision-making steps to improve state of the art object detection performance while enhancing AI alignment/safety/etc.
-What is the problem? There are many names for the process of creating AIs that don&amp;rsquo;t take over the world and kill us.</description>
     </item>
     
     <item>
@@ -255,27 +257,6 @@ $e$ = error or loss function (typically Mean Squared Error as shown here)</descr
 Multilayer perceptrons (MLP) are the fundamental buildings blocks of a NN. NNs add MLPs side-by-side to create layers, and add more layers to create depth.
 Activation Functions ReLU TanH Sigmoid Loss Functions $\frac{1}{2}e^2$ Softmax $\sigma(z) = e^{z_i} (\Sigma^K_{j=1}e^{z_j})^{-1}$
 $z$ is the input vector, $\in {-\infty,\infty}$, can be pos, neg, zero.</description>
-    </item>
-    
-    <item>
-      <title>My Blogshelf</title>
-      <link>https://blakeruprecht.github.io/blogshelf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/blogshelf/</guid>
-      <description>I want a place where I can recommend my favorite blogs for others to go read. Oh, look, here it is!
-Blogs NOTE: I linked my favorite article from each blog.
-mnmlist: by Leo Babauata, great blog about minimalism, this post really hits home for me. zen habits: also by Leo B., covers zen and applying it to life, e.g. having no goals is fun! Wait But Why: Tim Urban does long-form better than anybody, and visualizes important things in fascinating ways.</description>
-    </item>
-    
-    <item>
-      <title>My Bookshelf</title>
-      <link>https://blakeruprecht.github.io/bookshelf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blakeruprecht.github.io/bookshelf/</guid>
-      <description>This isn&amp;rsquo;t a definitive list, and is nowhere near exhaustive, but I want to shoutout so many different books that I have to start somewhere. I ranked them, but suffice to say if I took time to write about it and put it on this list, it&amp;rsquo;s very important to me in some way.
-Books 1-10 The Sun Also Rises - Ernest Hemingway (fiction) The book where I finally got it.</description>
     </item>
     
   </channel>

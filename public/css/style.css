@@ -6,14 +6,14 @@
   --bg-color: #fff;      /* Background color */
   --mg-color: #777;   /* Miscellaneous color (default) */
   --ul-color: #e2e2e2;   /* Underline color */
-  --logo-color: #dd0000; /* Fire accent color */
+  --link-color: #36c;
 
   /* Dark Mode Colors */
   --dark-fg-color: #ccc; /* Text color for dark mode */
   --dark-bg-color: #000; /* Background color for dark mode */
   --dark-mg-color: #999;  /* Miscellaneous color for dark mode */
   --dark-ul-color: #666;  /* Underline color for dark mode */
-  --dark-logo-color: #6699cc; /* Ice accent color */
+  --dark-link-color: #69f;
 
   /* Fonts */
   --font-serif: "Times New Roman", serif;
@@ -42,18 +42,18 @@ body.dark-mode {
   --bg-color: var(--dark-bg-color);
   --mg-color: var(--dark-mg-color);
   --ul-color: var(--dark-ul-color);
-  --logo-color: var(--logo-color);
+  --link-color: var(--dark-link-color);
 }
 
 /* LINKS */
 a {
-  color: #36c;
+  color: var(--link-color);
   text-decoration: none;
   border-bottom: none 2px var(--ul-color); /* Using the same variable */
 }
 
 a:hover {
-  color: #36c;
+  color: var(--link-color);
   text-decoration: underline;
   border-bottom: none 2px var(--fg-color); /* Color shifts to fg-color on hover */
 }
