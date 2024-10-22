@@ -6,9 +6,9 @@ date = "2024-10-17"
 
 > "*I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I only love that which they defend.*" -J.R.R. Tolkien
 
-I'm pretty good at math and computers, but much like the quote above, I do not care about tech or numbers or code, like *at all* -- I only researched AI Risk because I truly care about humanity and nature.
+I'm pretty good at math and computers, but much like the quote above, I don't really care too much about code or computers, I mainly care about humanity and nature.
 
-I leanred six years ago that AI has the potential to destory humanity, so I buckled down and spent the next half-decade doing everything I could to fight this threat, until I burned out.
+I learned six years ago that AI has the potential to destroy humanity, so I buckled down and spent the next half-decade doing everything I could to fight this threat, until I burned out.
 
 During this *Process*, I learned a lot about AI, but I learned even more about the *Process* of science and what it takes to solve a massive problem. My half-decade of research and five gray hairs culminated in a 73 page thesis that will inevitably fade into obscurity.
 
