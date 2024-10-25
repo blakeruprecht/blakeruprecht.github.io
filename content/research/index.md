@@ -4,9 +4,9 @@ menu = "main"
 date = "2024-10-17"
 +++
 
-> "*I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I only love that which they defend.*" -J.R.R. Tolkien
+I worked on the AI Risk problem with [Derek Anderson](derektanderson.com) @Mizzou (Columbia, MO) with the [Center for Geospatial Intelligence](https://engineering.missouri.edu/research/featured/center-for-geospatial-intelligence-cgi/), and we worked closely with the [Naval Research Laboratory](https://www.nrl.navy.mil/). Shoutout to Derek, Jim, Fred, Chris, Grant, Curt, Charlie, Bryce, Jeff, Matt, and many more who helped me along the way.
 
-I'm pretty good at math and computers, but much like the quote above, I don't really care too much about code or computers, I mainly care about humanity and nature.
+> "*I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I only love that which they defend.*" -J.R.R. Tolkien
 
 I learned six years ago that AI has the potential to destroy humanity, so I buckled down and spent the next half-decade doing everything I could to fight this threat, until I burned out.
 
