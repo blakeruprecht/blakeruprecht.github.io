@@ -18,4 +18,4 @@ Offline, you can find me playing in the great outdoors, cooking [spicy](/notes/d
 
 
 ## Contact Info
-[Email](mailto:blakecruprecht@gmail.com) :: [LinkedIn](https://linkedin.com/in/blakeruprecht) :: [Github](https://github.com/blakeruprecht) :: [Instagram](https://instagram.com/blakeruprecht)
+[email](mailto:blakecruprecht@gmail.com) :: [linkedin](https://linkedin.com/in/blakeruprecht) :: [github](https://github.com/blakeruprecht) :: [instagram](https://instagram.com/blakeruprecht)
