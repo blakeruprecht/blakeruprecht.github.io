@@ -6,7 +6,7 @@ If you're new to websites, here's the explanation:
 - CSS (.css) is the language used to *style* the text, to make it pretty colors, change fonts, and to place the text on the page in specific places
 - JavaScript (.js) is the language used to make pages "dynamic", which means moving/changing elements, like day/night switches, pages that change format for mobile view, and all of the other junk you typically see on websites that make them slow.
 - A static-site generator takes in the HTML/CSS/JS that I wrote, and adds a little bit of code to put it all together. They're very simple.
-- WordPress and other content management systems (CMS) take plain-text and do a bunch of crazy magic to keep people from writing their own code. Since I'm a C.S. Master, I don't need this junk.
+- WordPress and other content management systems (CMS) take plain-text and do a bunch of crazy magic to keep people from writing their own code. Since I'm a C.S. Magician, I don't need this junk.
 
 How this website works:
 - I write posts in Markdown (.md), which is similar to HTML but way easier to write in.
@@ -16,4 +16,4 @@ How this website works:
 - I used Squarespace Domains to buy "blakeruprecht.com"
 - I setup the DNS records between Squarespace and this Github Repo to host the site
 - Github Pages allows you to host one website per Github account *for free* -- this is mine
-- MIT License: do what you want with this code.
+- GPL License: all of this code is Free and Open Source Software (FOSS)
