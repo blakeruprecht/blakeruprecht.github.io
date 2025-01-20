@@ -183,6 +183,8 @@ img[alt=headshot] {
   color: var(--mg-color);
   text-decoration: none;
   border-bottom: none;
+  text-transform: capitalize;
+  font-variant: small-caps;
 }
 
 .menu a:hover {
