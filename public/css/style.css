@@ -3,14 +3,14 @@
 :root {
   /* Light Mode Colors */
   --fg-color: #333;      /* Text color */
-  --bg-color: #fff;      /* Background color */
+  --bg-color: #eee;      /* Background color */
   --mg-color: #777;   /* Miscellaneous color (default) */
   --ul-color: #e2e2e2;   /* Underline color */
   --link-color: #36c;
 
   /* Dark Mode Colors */
   --dark-fg-color: #ccc; /* Text color for dark mode */
-  --dark-bg-color: #000; /* Background color for dark mode */
+  --dark-bg-color: #111; /* Background color for dark mode */
   --dark-mg-color: #999;  /* Miscellaneous color for dark mode */
   --dark-ul-color: #666;  /* Underline color for dark mode */
   --dark-link-color: #69f;
@@ -60,6 +60,7 @@ a:hover {
 
 /* HEADERS */
 h1 {
+  font-family: var(--font-mono);
   font-weight: bold;
   margin: 1em 0;
   font-size: 2rem;
@@ -149,9 +150,9 @@ img[alt=headshot] {
 }
 
 .logo a {
-  font-family: var(--font-sans);
+  font-family: var(--font-mono);
   color: var(--fg-color);
-  font-variant: small-caps;
+  /*font-variant: small-caps;*/
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
@@ -178,12 +179,12 @@ img[alt=headshot] {
 }
 
 .menu a {
-  font-family: var(--font-sans);
+  font-family: var(--font-mono);
   font-size: 1em;
   color: var(--mg-color);
   text-decoration: none;
   border-bottom: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-variant: small-caps;
 }
 
