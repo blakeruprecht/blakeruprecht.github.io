@@ -1,5 +1,5 @@
 ---
-title: Useful Python packages for science
+title: Python scientific computing packages
 date: 2024-03-17
 description: '"The core useful Python packages for scientific computing are Numpy to make arrays, Scipy for math equations, Pandas for data manipulation, and Matplotlib for visualizations. I go over briefly the basic usage of each."'
 ---
@@ -22,7 +22,6 @@ Creating Arrays
 - An `ndarray` is processed much faster than a normal `list`
 - An array holds one type of data, e.g. floats, so it can't store stuff like words and numbers together. For that, use a Pandas dataframe.
 - Once created, the size of the array can't change, but the items within the array are mutable i.e. you can change them
-  - WIP: The bracket formatting got messed up, I will fix this later...
 - `a1D = np.array([1, 2, 3, 4])` # Creates a 1D array... and so on
 - `a2D = np.array([[1, 2], [3, 4]])` # Create a 2D array
 - `a3D = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])` # Create a 3D array

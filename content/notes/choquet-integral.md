@@ -15,7 +15,7 @@ $A_{\pi(j)}$ is the sorted vector = $\{x_{\pi(1)}, x_{\pi(2)}, ...\}$
 $g$ is the learned measure (subsumes LOS, OWA, etc.)
 
 ## LOS/OWA
-Also known as LOS or Ordered Weighted Average (OWA), LOS sorts the inputs based on their magnitude, and has a vector of weights the same dimension as the input. Inputs are sorted in descending order, and all the weights sum to 1. This is differentiable, so we can use *Pytorch*, and the integral basically acts as a [Multilayer perceptron](/blog/multilayer-perceptron) (another thing that can represent linear statistics on data). 
+Also known as LOS or Ordered Weighted Average (OWA), LOS sorts the inputs based on their magnitude, and has a vector of weights the same dimension as the input. Inputs are sorted in descending order, and all the weights sum to 1. This is differentiable, so we can use *Pytorch*, and the integral basically acts as a [Multilayer perceptron](multilayer-perceptron.md) (another thing that can represent linear statistics on data). 
 
 Example with three inputs (sort them first in descending order, largest first)
 $w = [1,0,0]$ is the maximum operator
@@ -24,3 +24,5 @@ $w = [0,1,0]$ is median
 $w=[\frac{1}{3},\frac{1}{3},\frac{1}{3}]$ is average
 $w = [0.7,0.3,0]$ is a soft-max
 
+---
+# References

@@ -1,6 +1,6 @@
 ---
 date: 2023-08-06
-title: Growth is the result of effort
+title: Growth Mindset
 description: '"Growth mindset is a great way to re-frame problems and incorporate some of the most useful parts of Stoicism and other philosophies to keep moving forward and growing in life."'
 ---
 
