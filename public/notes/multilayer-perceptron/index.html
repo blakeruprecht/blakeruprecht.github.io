@@ -56,8 +56,6 @@ if (!doNotTrack) {
         <li><a href="/notes/">notes</a></li>
         <li><a href="/research/">AI</a></li>
         <li><a href="/bookshelf/">bookshelf</a></li>
-        <li><a href="/drawing/">drawing</a></li>
-        <li><a href="/woodwork/">woodwork</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -140,20 +138,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <main class="content">
 
-  
+
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
 </script>
 <script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$']],
-      processEscapes: true
-    }
-  };
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']],
+    processEscapes: true
+  }
+};
 </script>
 
 <h1>Multilayer Perceptrons are the basic unit of a NN</h1>
+
+
+  <aside class="toc">
+    <nav id="TableOfContents"></nav>
+  </aside>
+
 
 <p>A type of NN that implements multiple layers of the basic perceptron.</p>
 <ul>
@@ -183,10 +187,9 @@ $$ e = \frac{1}{2}(\hat{y} - y)^2$$</p>
 </main>
 
 <footer>
-  <a href="/blog">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
+  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
 
 </footer>
 
 </body>
 </html>
-

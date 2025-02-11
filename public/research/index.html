@@ -56,8 +56,6 @@ if (!doNotTrack) {
         <li><a href="/notes/">notes</a></li>
         <li><a href="/research/">AI</a></li>
         <li><a href="/bookshelf/">bookshelf</a></li>
-        <li><a href="/drawing/">drawing</a></li>
-        <li><a href="/woodwork/">woodwork</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -140,20 +138,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <main class="content">
 
-  
+
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
 </script>
 <script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$']],
-      processEscapes: true
-    }
-  };
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']],
+    processEscapes: true
+  }
+};
 </script>
 
 <h1>What research taught me</h1>
+
+
+  <aside class="toc">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#ms-thesis">M.S. Thesis</a></li>
+    <li><a href="#journal-articles">Journal Articles</a></li>
+    <li><a href="#conference-articles">Conference Articles</a></li>
+    <li><a href="#poster-presentations">Poster Presentations</a></li>
+  </ul>
+</nav>
+  </aside>
+
 
 <p>I worked on the AI Risk problem with <a href="derektanderson.com">Derek Anderson</a> @Mizzou (Columbia, MO) with the <a href="https://engineering.missouri.edu/research/featured/center-for-geospatial-intelligence-cgi/">Center for Geospatial Intelligence</a>, and we worked closely with the <a href="https://www.nrl.navy.mil/">Naval Research Laboratory</a>. Shoutout to Derek, Jim, Fred, Chris, Grant, Curt, Charlie, Bryce, Jeff, Matt, and many more who helped me along the way.</p>
 <blockquote>
@@ -166,9 +177,8 @@ document.addEventListener('DOMContentLoaded', () => {
 <p><strong>I learned how to get my cartoons published</strong>. It&rsquo;s pretty easy when you pair them with months of extensive experiments testing new math, excruciating attention to detail and sources, and effective copy that conveys the correct ideas &ndash; mainly, the idea that cartoons are cool!  I&rsquo;ll leave it up to you to find them in my Thesis. ;)</p>
 <p><strong>I learned how to convey technical math concepts using <em>no</em> equations</strong>, just pretty colors and cool diagrams. Hey, even us enginerds love to be entertained during presentations, not bored out of our minds.</p>
 <p><strong>I learned how to write</strong>. I&rsquo;ve always found science papers extremely boring, but it&rsquo;s actually quite the skill to make them that boring &ndash; you have to be very accurate, thorough, attentive, and logical in your storytelling, to create the effect that everyone knows what is being said and the result is the most obvious thing in the world!</p>
-<p><strong>Oh yeah, I guess I learned about computer science too.</strong> But really, coding is the easy part of AI research. Hell, I barely learned Python, and had tons of trouble just getting experiments running. But now I know how to use a computer from the bottom-up (okay, from the <a href="/notes/terminal">Terminal</a> and C up, I don&rsquo;t &ldquo;assemble&rdquo; anything).</p>
+<p><strong>Oh yeah, I guess I learned about computer science too.</strong> But really, coding is the easy part of AI research. Hell, I barely learned Python, and had tons of trouble just getting experiments running. But now I know how to use a computer from the bottom-up (okay, from the <a href="/blog/terminal">Terminal</a> and C up, I don&rsquo;t &ldquo;assemble&rdquo; anything).</p>
 <p><strong>I&rsquo;m a Master of science, muahaha!</strong> I wouldn&rsquo;t call myself a computer scientist, nor an engineer. I&rsquo;m more just a nature lover who pays really close attention to details, and is unemotional about my personal connection to the fickle ideas I currently hold in my head. I&rsquo;m a learner, I&rsquo;m probably wrong about everything I currently know, and I&rsquo;m 100% okay with that because I know the <em>Process</em> of science, and thus, can learn more about anything in this universe.</p>
-<hr>
 <h2 id="ms-thesis">M.S. Thesis</h2>
 <ul>
 <li><strong>B. Ruprecht</strong>. &ldquo;EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING&rdquo;. University of Missouri, 2023. <a href="ruprecht_ms_thesis.pdf">PDF</a></li>
@@ -201,10 +211,9 @@ document.addEventListener('DOMContentLoaded', () => {
 </main>
 
 <footer>
-  <a href="/blog">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
+  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
 
 </footer>
 
 </body>
 </html>
-

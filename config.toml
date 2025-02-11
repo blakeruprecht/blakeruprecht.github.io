@@ -5,30 +5,39 @@ theme = "notebook"
 enableRobotsTXT = true
 
 [menu]
-  [[menu.main]]
+  [[menu.main]] 
     identifier = "notes"
     name = "notes"
     url = "/notes"
     weight = 10
 
-[services]
-  [services.googleAnalytics]
-    ID = 'G-3TL1K0T2Y4'
-
-[markup.goldmark.renderer]
-  unsafe = true
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\$', '\$']]
 [params]
   math = true
 
+[params.blog]
+  toc = true
+  
+
+[services]
+  [services.googleAnalytics] 
+    ID = 'G-3TL1K0T2Y4'
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false 
+    startLevel = 2
+ 
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [["[", "]"], ["$$", "$$"]]
+        inline = [["$", "$"]]
+
 [module]
-  [[imports]]
-    path = "github.com/milafrerichs/hugo-wikilinks"
+ [[imports]]
+   path = "github.com/milafrerichs/hugo-wikilinks"

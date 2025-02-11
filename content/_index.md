@@ -1,14 +1,16 @@
 ---
 title: "Blake Ruprecht's Home Page"
 date: 2023-07-24T15:29:23-04:00
-description: "My name is Blake Ruprecht. I'm a content writer and computer generalist. On this site, I display some of my past work, including articles I've written and academic research I have done."
+description: "I'm Blake, I write about A.I., open-source science, and nature."
 ---
 
 ## Hi, I'm Blake
 
 ![headshot](/headshot.jpg)
 
-I'm a writer and computer generalist focused on digital marketing, artificial intelligence, and web design. Some samples of my writing can be found in the [notes](/notes) section of this website, which includes [some](/notes/build-your-own-computer) [samples](/notes/insect-farming) [of](/notes/python) [content](/notes/growth-mindset) writing across domains and a lot of notes about AI/computers.
+I'm currently learning about open-source AI, practical science, and nature.
+
+Some samples of my writing can be found in the [notes](/notes) section of this website, which includes [some](/notes/build-your-own-computer) [samples](/notes/insect-farming) [of](/notes/python) [content](/notes/growth-mindset) writing across domains and a lot of notes about AI/computers.
 
 Previously I [researched](/research) safe artificial intelligence @Mizzou. During this time, I published five scientific articles in international venues. You may not know, but communication is just as important to the scientific process as research, so this experience taught me a ton about efficient and persuasive writing.
 

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title> | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/notes/neural-networks/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <li>
+        <a href="/">Blake Ruprecht</a>
+      </li>
+    </div>
+
+    <div class="menu-container">
+      <ul class="menu">
+        <li><a href="/notes/">notes</a></li>
+        <li><a href="/research/">AI</a></li>
+        <li><a href="/bookshelf/">bookshelf</a></li>
+        <li>
+          <button class="toggle-theme" onclick="toggleTheme()">
+            <i id="theme-icon" class="fa fa-sun"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <button class="menu-toggle">☰</button>
+  </nav>
+</header>
+
+
+<script>
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+  document.querySelector('.site-nav').classList.toggle('expanded'); 
+});
+</script>
+
+
+<script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('theme');
+    const body = document.body;
+    const themeIcon = document.getElementById("theme-icon");
+
+    if (savedTheme === 'dark') {
+      body.classList.add('dark-mode');
+      themeIcon.classList.remove('fa-sun');
+      themeIcon.classList.add('fa-moon');
+    } else {
+      body.classList.remove('dark-mode');
+      themeIcon.classList.remove('fa-moon');
+      themeIcon.classList.add('fa-sun');
+    }
+  });
+
+  
+  function toggleTheme() {
+    const body = document.body;
+    const themeIcon = document.getElementById("theme-icon");
+
+    if (body.classList.toggle("dark-mode")) {
+      themeIcon.classList.remove("fa-sun"); 
+      themeIcon.classList.add("fa-moon");
+      localStorage.setItem('theme', 'dark'); 
+    } else {
+      themeIcon.classList.remove("fa-moon"); 
+      themeIcon.classList.add("fa-sun");
+      localStorage.setItem('theme', 'light'); 
+    }
+  }
+</script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const currentPath = window.location.pathname.replace(/\/$/, ''); 
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+
+    
+    const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
+
+    
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    
+    if (homePaths.includes(currentPath)) {
+        logo.classList.add('active');
+    }
+});
+</script>
+
+<main class="content">
+
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+</script>
+<script type="text/javascript">
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']],
+    processEscapes: true
+  }
+};
+</script>
+
+<h1></h1>
+
+
+  <aside class="toc">
+    <nav id="TableOfContents"></nav>
+  </aside>
+
+
+
+
+</main>
+
+<footer>
+  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
+
+</footer>
+
+</body>
+</html>

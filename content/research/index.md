@@ -22,11 +22,9 @@ Science is awesome.
 
 **I learned how to write**. I've always found science papers extremely boring, but it's actually quite the skill to make them that boring -- you have to be very accurate, thorough, attentive, and logical in your storytelling, to create the effect that everyone knows what is being said and the result is the most obvious thing in the world!
 
-**Oh yeah, I guess I learned about computer science too.** But really, coding is the easy part of AI research. Hell, I barely learned Python, and had tons of trouble just getting experiments running. But now I know how to use a computer from the bottom-up (okay, from the [Terminal](/notes/terminal) and C up, I don't "assemble" anything).
+**Oh yeah, I guess I learned about computer science too.** But really, coding is the easy part of AI research. Hell, I barely learned Python, and had tons of trouble just getting experiments running. But now I know how to use a computer from the bottom-up (okay, from the [Terminal](/blog/terminal) and C up, I don't "assemble" anything).
 
 **I'm a Master of science, muahaha!** I wouldn't call myself a computer scientist, nor an engineer. I'm more just a nature lover who pays really close attention to details, and is unemotional about my personal connection to the fickle ideas I currently hold in my head. I'm a learner, I'm probably wrong about everything I currently know, and I'm 100% okay with that because I know the *Process* of science, and thus, can learn more about anything in this universe.
-
----
 
 ## M.S. Thesis
 - **B. Ruprecht**. "EXPLAINABLE PARTS-BASED CONCEPT MODELING AND REASONING". University of Missouri, 2023. [PDF](ruprecht_ms_thesis.pdf)

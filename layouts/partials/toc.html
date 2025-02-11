@@ -1,0 +1,6 @@
+{{ if and .TableOfContents (or (default true .Params.toc) (default true .Site.Params.blog.toc)) }}
+<aside class="toc">
+    <h2>Table of Contents</h2>
+    {{ .TableOfContents }}
+</aside>
+{{ end }} 

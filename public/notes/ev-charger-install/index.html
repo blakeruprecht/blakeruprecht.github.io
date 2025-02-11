@@ -56,8 +56,6 @@ if (!doNotTrack) {
         <li><a href="/notes/">notes</a></li>
         <li><a href="/research/">AI</a></li>
         <li><a href="/bookshelf/">bookshelf</a></li>
-        <li><a href="/drawing/">drawing</a></li>
-        <li><a href="/woodwork/">woodwork</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -140,20 +138,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <main class="content">
 
-  
+
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
 </script>
 <script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$']],
-      processEscapes: true
-    }
-  };
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']],
+    processEscapes: true
+  }
+};
 </script>
 
 <h1>EV charger installation</h1>
+
+
+  <aside class="toc">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-much-does-it-cost">How much does it cost?</a></li>
+    <li><a href="#load-and-capacity">Load and Capacity</a></li>
+    <li><a href="#breaker-capacity">Breaker Capacity</a></li>
+    <li><a href="#distance-between-the-charger-and-panel">Distance between the charger and panel</a></li>
+    <li><a href="#power-of-the-charger">Power of the charger</a></li>
+  </ul>
+</nav>
+  </aside>
+
 
 <p>For the record, I wouldn&rsquo;t recommend you install an EV charger yourself if you have no electrical experience. It&rsquo;s extremely dangerous, and if you mess up, you can very easily catch your house on fire, or worse. However, it&rsquo;s cool to at least now the process in theory, and this way, you can see if your electrician is doing it properly as well.</p>
 <h2 id="how-much-does-it-cost">How much does it cost?</h2>
@@ -183,10 +195,9 @@ document.addEventListener('DOMContentLoaded', () => {
 </main>
 
 <footer>
-  <a href="/blog">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
+  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
 
 </footer>
 
 </body>
 </html>
-

@@ -56,8 +56,6 @@ if (!doNotTrack) {
         <li><a href="/notes/">notes</a></li>
         <li><a href="/research/">AI</a></li>
         <li><a href="/bookshelf/">bookshelf</a></li>
-        <li><a href="/drawing/">drawing</a></li>
-        <li><a href="/woodwork/">woodwork</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -140,20 +138,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <main class="content">
 
-  
+
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
 </script>
 <script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$']],
-      processEscapes: true
-    }
-  };
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']],
+    processEscapes: true
+  }
+};
 </script>
 
 <h1>Game Theory calculates optimal strategies</h1>
+
+
+  <aside class="toc">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#tit-for-tat-is-the-best-strategy-in-infinite-cooperative-games">Tit-for-tat is the best strategy in infinite cooperative games</a></li>
+    <li><a href="#stickleback-fish-display-tit-for-tat-behavior">Stickleback fish display tit-for-tat behavior</a></li>
+    <li><a href="#strategic-dominance-makes-decisions-easier">Strategic dominance makes decisions easier</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+  </aside>
+
 
 <blockquote>
 <p>&ldquo;Intelligence is the ability to get what you want.&rdquo;</p>
@@ -184,10 +195,9 @@ document.addEventListener('DOMContentLoaded', () => {
 </main>
 
 <footer>
-  <a href="/blog">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
+  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
 
 </footer>
 
 </body>
 </html>
-

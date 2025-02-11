@@ -56,8 +56,6 @@ if (!doNotTrack) {
         <li><a href="/notes/">notes</a></li>
         <li><a href="/research/">AI</a></li>
         <li><a href="/bookshelf/">bookshelf</a></li>
-        <li><a href="/drawing/">drawing</a></li>
-        <li><a href="/woodwork/">woodwork</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -140,36 +138,49 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <main class="content">
 
-  
+
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
 </script>
 <script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$']],
-      processEscapes: true
-    }
-  };
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']],
+    processEscapes: true
+  }
+};
 </script>
 
 <h1>Machine Learning paradigms</h1>
 
-<p>At the highest level, machines learn very similarly to how humans learn. Data is given to the <a href="neural-network">neural network</a>, and then the robot does some calculations and tests it&rsquo;s performance against the environment.</p>
+
+  <aside class="toc">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#supervised-learning-sl">Supervised Learning (SL)</a></li>
+    <li><a href="#unsupervised-learning-ul">Unsupervised Learning (UL)</a></li>
+    <li><a href="#self-supervised-learning-ssl">Self-supervised Learning (SSL)</a></li>
+    <li><a href="#reinforcement-learning-rl">Reinforcement Learning (RL)</a></li>
+  </ul>
+</nav>
+  </aside>
+
+
+<p>At the highest level, machines learn very similarly to how humans learn. Data is given to the <a href="neural-network.md">neural network</a>, and then the robot does some calculations and tests it&rsquo;s performance against the environment.</p>
 <h2 id="supervised-learning-sl">Supervised Learning (SL)</h2>
 <p>Data comes with labels. The network makes an initial random guess at what the labels should be. Then, it compares the guesses to the actual labels, and determines how off it was (total error). It updates the network according to this error. If it&rsquo;s really wrong, it updates a lot; similarly, if it&rsquo;s close, not so much update. Every time it makes a guess, it updates the network. Well, roughly, but that&rsquo;s TMI.</p>
 <p>The network in times learns correlations between the data and the labels. This is why NNs are statistical in nature &ndash; they&rsquo;re just making guesses based on averages. The more data, the better. It works pretty well if you actually cover all of the possible scenarios with your data and labels. Otherwise, expect a lot of false positives (FP) and false negatives (FN).</p>
-<p><em>Examples</em>: The o.g. GOAT <a href="/blog/multilayer-perceptron">Multilayer Perceptron</a>, Linear Regression, Logistic Regression, Decision Trees (there are a lot of methods of each of these that are much more efficient and easier to get running than Neural Networks, so don&rsquo;t start thinking NNs are the end-all be-all of math/stats)</p>
+<p><em>Examples</em>: The o.g. GOAT <a href="multilayer-perceptron.md">Multilayer Perceptron</a>, Linear Regression, Logistic Regression, Decision Trees (there are a lot of methods of each of these that are much more efficient and easier to get running than Neural Networks, so don&rsquo;t start thinking NNs are the end-all be-all of math/stats)</p>
 <h2 id="unsupervised-learning-ul">Unsupervised Learning (UL)</h2>
 <p>This is basically a whole different branch of math. These include a bunch of different algorithms that use some crazy math to guess at the underlying structure of the data. That is, if the data has multiple different variables (like height, position, mass, intensity, etc.), which could be coming from sensors, all of the variables are treated mathematically as different axis, or dimensions. So sometimes we&rsquo;re talking about data that has an input of length 50, and you&rsquo;re doing high-dimensional math to try to figure out its structure.</p>
 <p>The problem with this is true underlying structure probably doesn&rsquo;t exist, so we&rsquo;re still just correlating to data.</p>
-<p><em>Examples</em>: K-Means Clustering, Autoencoders, Hidden Markov Models, <a href="/blog/neural-gas">Neural Gas</a></p>
+<p><em>Examples</em>: K-Means Clustering, Autoencoders, Hidden Markov Models, <a href="neural-gas.md">Neural Gas</a></p>
 <h2 id="self-supervised-learning-ssl">Self-supervised Learning (SSL)</h2>
 <p>This is a great combo of the two above. SSL enables a NN to learn from the data itself about the data by using some creative methods. For example, with an image dataset, you can &ldquo;mask off&rdquo;, or cover up, parts of the image, and have the network try to predict what is covered up. If you can imagine, after viewing thousands of images of similar scenes, the network gets pretty good at predicting missing parts from images.</p>
 <p>Similarly, modern large language models (LLM) do something similar. Big ones like ChatGPT go through huge collections of text, like all of <a href="https://wikipedia.org">Wikipedia</a>, and try to predict missing words from sentences (knowing all along what the words are, just quizzin itself on the data it has).</p>
 <p><em>Examples</em>: ChatGPT, Claude, BERT (2018)</p>
 <h2 id="reinforcement-learning-rl">Reinforcement Learning (RL)</h2>
-<p>I saved the best for last. This one is awesome, and is literally about learning from your experiences (<a href="/blog/growth-mindset">growth mindset!</a>).</p>
+<p>I saved the best for last. This one is awesome, and is literally about learning from your experiences (<a href="growth-mindset.md">growth mindset!</a>).</p>
 <p>This paradigm considers:</p>
 <ul>
 <li>an Agent: e.g. a neural network controlling a robot</li>
@@ -186,10 +197,9 @@ document.addEventListener('DOMContentLoaded', () => {
 </main>
 
 <footer>
-  <a href="/blog">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
+  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
 
 </footer>
 
 </body>
 </html>
-

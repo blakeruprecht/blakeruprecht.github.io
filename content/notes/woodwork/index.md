@@ -2,6 +2,7 @@
 title = "Inside-the-box thinking"
 menu = "main"
 date = "2024-08-15"
+toc = "false"
 +++
 
 If you can build a box, you can build almost anything out of wood. Heck, a lot of the challenge in woodworking is making the most right right angles possible (yeah, you read that right).

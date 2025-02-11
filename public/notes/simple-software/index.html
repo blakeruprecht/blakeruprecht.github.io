@@ -56,8 +56,6 @@ if (!doNotTrack) {
         <li><a href="/notes/">notes</a></li>
         <li><a href="/research/">AI</a></li>
         <li><a href="/bookshelf/">bookshelf</a></li>
-        <li><a href="/drawing/">drawing</a></li>
-        <li><a href="/woodwork/">woodwork</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -140,20 +138,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <main class="content">
 
-  
+
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
 </script>
 <script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$']],
-      processEscapes: true
-    }
-  };
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']],
+    processEscapes: true
+  }
+};
 </script>
 
 <h1>Simple software follows Unix principles</h1>
+
+
+  <aside class="toc">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#update-2024-09-27">Update 2024-09-27</a></li>
+    <li><a href="#software-is-hard">Software is hard</a></li>
+    <li><a href="#first-principles">First Principles</a></li>
+    <li><a href="#unix-philosophy">Unix philosophy</a></li>
+    <li><a href="#a-note-on-social-media">A Note on Social Media</a></li>
+    <li><a href="#what-i-need">What I need</a></li>
+    <li><a href="#my-software-list">My Software List</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#about-this-website">About this website</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+  </aside>
+
 
 <p><img src="/linux-setup.png" alt="Screenshot of my Linux env running DWM"></p>
 <h2 id="update-2024-09-27">Update 2024-09-27</h2>
@@ -253,10 +270,9 @@ Okay, not technically, but if you can go through all of these steps and fill in 
 </main>
 
 <footer>
-  <a href="/blog">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
+  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
 
 </footer>
 
 </body>
 </html>
-

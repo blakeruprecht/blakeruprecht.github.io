@@ -3,10 +3,11 @@
 :root {
   /* Light Mode Colors */
   --fg-color: #333;      /* Text color */
-  --bg-color: #eee;      /* Background color */
+  --bg-color: #fff;      /* Background color */
   --mg-color: #777;   /* Miscellaneous color (default) */
-  --ul-color: #e2e2e2;   /* Underline color */
+  --ul-color: #c2c2c2;   /* Underline color */
   --link-color: #36c;
+  --visited-color: #84a;
 
   /* Dark Mode Colors */
   --dark-fg-color: #ccc; /* Text color for dark mode */
@@ -16,7 +17,7 @@
   --dark-link-color: #69f;
 
   /* Fonts */
-  --font-serif: "Times New Roman", serif;
+  --font-serif: "Georgia", "Times New Roman", serif;
   --font-sans: "NotoSans", "Helvetica", sans-serif;
   --font-mono: "Hack", mono;
 }
@@ -58,24 +59,91 @@ a:hover {
   border-bottom: none 2px var(--fg-color); /* Color shifts to fg-color on hover */
 }
 
+a:visited {
+  color: var(--visited-color);
+  text-decoration: underline;
+  border-bottom: none 2px var(--fg-color); /* Color shifts to fg-color on hover */
+}
+
 /* HEADERS */
 h1 {
-  font-family: var(--font-mono);
+  font-family: var(--font-serif);
   font-weight: bold;
-  margin: 1em 0;
   font-size: 2rem;
   line-height: 1.5em;
+  margin: 1em 0 0.5em 0;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid var(--ul-color);
 }
 
-h2, h3, h4, h5, h6 {
+h2 {
+  font-family: var(--font-serif);
   font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1em 0 0.5em 0;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid var(--ul-color);
 }
 
-h2 { font-size: 1.4rem; }
+h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  font-weight: bold;
+  margin: 1em 0 0.5em 0;
+}
+
 h3 { font-size: 1.3rem; }
 h4 { font-size: 1.2rem; }
-h5, h6 { font-size: 1rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
 
+/* TABLE OF CONTENTS */
+.toc {
+  background: var(--bg-color);
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+}
+
+.toc ul {
+  list-style-type: none;
+  padding-left: 0.5rem;
+  margin: 0.25rem 0;
+}
+
+.toc li {
+  margin: 0.25rem 0;
+  line-height: 1.2;
+}
+
+.toc a {
+  color: var(--mg-color);
+  text-decoration: none;
+  border-bottom: none;
+  transition: color 0.2s ease;
+}
+
+.toc a:hover {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.toc > ul:first-child {
+  padding-left: 0;
+}
+
+/* Style for different heading levels */
+.toc ul ul {
+  margin-left: 0.5rem;
+}
+
+/* Optional: Add a title to the TOC */
+.toc::before {
+  content: "Contents";
+  display: block;
+  font-weight: bold;
+  font-family: var(--font-mono);
+  margin-bottom: 0.5rem;
+  color: var(--fg-color);
+}
 
 /* FOOTER */
 footer {
@@ -150,7 +218,7 @@ img[alt=headshot] {
 }
 
 .logo a {
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
   color: var(--fg-color);
   /*font-variant: small-caps;*/
   font-size: 1.2rem;
@@ -179,13 +247,13 @@ img[alt=headshot] {
 }
 
 .menu a {
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
   font-size: 1em;
   color: var(--mg-color);
   text-decoration: none;
   border-bottom: none;
-  text-transform: uppercase;
-  font-variant: small-caps;
+  text-transform: none;
+  font-variant: none;
 }
 
 .menu a:hover {
