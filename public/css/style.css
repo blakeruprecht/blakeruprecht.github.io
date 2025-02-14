@@ -6,7 +6,7 @@
   --bg-color: #fff;      /* Background color */
   --mg-color: #777;   /* Miscellaneous color (default) */
   --ul-color: #c2c2c2;   /* Underline color */
-  --link-color: #36c;
+  --link-color: #d00;
   --visited-color: #84a;
 
   /* Dark Mode Colors */
@@ -48,41 +48,39 @@ body.dark-mode {
 
 /* LINKS */
 a {
-  color: var(--link-color);
-  text-decoration: none;
+  color: var(--fg-color);
+  text-decoration: underline 1px var(--fg-color);
   border-bottom: none 2px var(--ul-color); /* Using the same variable */
 }
 
 a:hover {
-  color: var(--link-color);
-  text-decoration: underline;
+  color: var(--fg-color);
+  text-decoration: underline 2px var(--link-color);
   border-bottom: none 2px var(--fg-color); /* Color shifts to fg-color on hover */
 }
 
 a:visited {
   color: var(--visited-color);
-  text-decoration: underline;
+  text-decoration: underline 1px var(--link-color);
   border-bottom: none 2px var(--fg-color); /* Color shifts to fg-color on hover */
 }
 
 /* HEADERS */
 h1 {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.5em;
   margin: 1em 0 0.5em 0;
   padding-bottom: 0.25em;
-  border-bottom: 1px solid var(--ul-color);
 }
 
 h2 {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-weight: bold;
   font-size: 1.5rem;
   margin: 1em 0 0.5em 0;
   padding-bottom: 0.25em;
-  border-bottom: 1px solid var(--ul-color);
 }
 
 h3, h4, h5, h6 {
@@ -178,7 +176,7 @@ time {
 
 code {
   font-family: var(--font-mono);
-  border: dashed 1px var(--fg-color);
+  border: dashed 1px var(--mg-color);
 }
 
 blockquote {
