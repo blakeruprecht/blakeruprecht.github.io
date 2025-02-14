@@ -171,14 +171,18 @@ window.MathJax = {
 <p>ANFIS is a type of artificial <a href="neural-network.md">neural network</a> that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of <a href="multilayer-perceptron.md">multilayer perceptrons</a>. Similar to a typical neural network, the input, $x_n(k)$, is a vector of scalars of length $n$ with features $k$.</p>
 <h2 id="its-only-three-equations">It&rsquo;s only three equations</h2>
 <p>The antecedent, $w$, represents the fuzzy logic statement &ldquo;If $x$ fits this rule well, then the rule matching strength, $w$, should be high.&rdquo; In this equation, the $A$ term is a function that takes in $x$ and returns $A(x)$, the membership value of the fuzzy set, which I called the rule-matching strength. ANFIS learns the $A(x)$ membership functions.
-$$ w_n^r = \prod_{k=1}^K A_k^r (x_n(k)) $$</p>
+</p>
+$$ w_n^r = \prod_{k=1}^K A_k^r (x_n(k)) $$
 <p>The next part of ANFIS is the consequent step, $z$, which can be run in parallel with the antecedent step. This is a simple first-order linear equation with a bias term that fits a line to all of the $x$ input values. ANFIS learns the $\rho$ values.
-$$ z_n^r = \rho_{bias}^r + \sum_{k=1}^K \rho_k^r (x_n(k)) $$</p>
+</p>
+$$ z_n^r = \rho_{bias}^r + \sum_{k=1}^K \rho_k^r (x_n(k)) $$
 <p>The final step is called aggregation. This performs the fuzzy logic. As you can see, it&rsquo;s a weighted sum of all the consequent terms, weighted and normalized by the antecedent terms. So for each rule, how well did the inputs match that rule, $w$, and what was the consequent of that rule, $z$. There is a unique output, $y^r$, for every rule, $r$, in the system
-$$ y^r = \frac{\sum_{n=1}^N w_n^r \cdot z_n^r}{\sum_{n=1}^N w_n^r} $$</p>
+</p>
+$$ y^r = \frac{\sum_{n=1}^N w_n^r \cdot z_n^r}{\sum_{n=1}^N w_n^r} $$
 <h2 id="learning">Learning</h2>
 <p>ANFIS learns the functions $A(x)$ and the values $\rho$ using backpropagation from the error. The error function can be anything you choose, but let&rsquo;s just use mean-squared error.
-$$e = \frac{1}{2}(\hat{y} - y)^2$$</p>
+</p>
+$$e = \frac{1}{2}(\hat{y} - y)^2$$
 <h2 id="gradient-problems">Gradient Problems</h2>
 <p>For more technical details, see my <a href="~/research">research</a>. Basically, after setting up this system, we found that ANFIS doesn&rsquo;t do it&rsquo;s job very well. It&rsquo;s supposed to learn using backpropagation of gradients, but there are many scenarios where the gradient is close to 0, causing no learning to happen. So wherever ANFIS gets initialized, it will often stay.</p>
 <p>Gradient problems:</p>

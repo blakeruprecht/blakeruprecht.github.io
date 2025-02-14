@@ -178,9 +178,9 @@ window.MathJax = {
 <li>Softmax
 <ul>
 <li>$$
-\sigma(z)<em>i = \frac{\exp{z_i}}{\Sigma</em>{j=1}^K \exp{z_j}}
+\sigma(z)_i = \frac{\exp{z_i}}{\Sigma_{j=1}^K \exp{z_j}}
 $$</li>
-<li>$z$ is the input vector, $\in {-\infty,\infty}$, can be pos, neg, zero.</li>
+<li>$z$ is the input vector, $\in \{-\infty,\infty\}$, can be pos, neg, zero.</li>
 <li>$\exp{z}$ is applied to each element of the input vector, gives a pos. value above 0, which will be small if the input was neg., large if the input was large. Still not in (0,1)</li>
 <li>$\Sigma$ on bottom is the normalization term, ensures the output will sum to 1 in the range (0,1), making this a valid <a href="Probability distribution.html">Probability distribution</a>.</li>
 </ul>
@@ -200,7 +200,7 @@ $$</li>
 <li>Similar to Lagrangian optimization in Microeconomics, where you maximize a <em>utility function</em> according to a <em>constraint</em></li>
 <li>max(<em>utility function</em>) + $\lambda$(constraint)</li>
 <li>Typically, add a LP-Norm to the loss function</li>
-<li>$$||x||<em>p = \left( \sum</em>{i=1}^n |x_i|^p \right)^{\frac{1}{p}}$$</li>
+<li>$$||x||_p = \left( \sum_{i=1}^n |x_i|^p \right)^{\frac{1}{p}}$$</li>
 </ul>
 </li>
 </ul>
@@ -253,8 +253,8 @@ $$</li>
 <p>Fractionally Strided Convolution
 A type of NN similar to CNNs. Convolution typically uses a filter to go from larger image (e.g. 4x4) to a smaller image (e.g. 2x2). Convolution acts as a good filter across the image. This technique tries to go UP rather than down. The problem is we&rsquo;re trying to GAIN information (normally, more pixels). Basically, for any region of the initial image, we need to find the resulting image that would &ldquo;convolve&rdquo; to the initial image. You can set up the series of equations to basically make this all make sense. Aka run convolution in reverse.</p>
 <ul>
-<li>$$ Y&rsquo; = W X&rsquo; $$</li>
-<li>$$ Z = W^T Y&rsquo;$$</li>
+<li>$$ Y' = W X' $$</li>
+<li>$$ Z = W^T Y'$$</li>
 </ul>
 <p>Recurrent Network</p>
 <ul>
