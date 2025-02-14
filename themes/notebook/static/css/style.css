@@ -7,14 +7,13 @@
   --mg-color: #777;   /* Miscellaneous color (default) */
   --ul-color: #c2c2c2;   /* Underline color */
   --link-color: #d00;
-  --visited-color: #84a;
 
   /* Dark Mode Colors */
   --dark-fg-color: #ccc; /* Text color for dark mode */
   --dark-bg-color: #111; /* Background color for dark mode */
   --dark-mg-color: #999;  /* Miscellaneous color for dark mode */
   --dark-ul-color: #666;  /* Underline color for dark mode */
-  --dark-link-color: #69f;
+  --dark-link-color: #d00;
 
   /* Fonts */
   --font-serif: "Georgia", "Times New Roman", serif;
@@ -49,19 +48,13 @@ body.dark-mode {
 /* LINKS */
 a {
   color: var(--fg-color);
-  text-decoration: underline 1px var(--fg-color);
-  border-bottom: none 2px var(--ul-color); /* Using the same variable */
+  text-decoration: underline 1px var(--ul-color);
+  border-bottom: none 2px var(--fg-color); /* Using the same variable */
 }
 
 a:hover {
   color: var(--fg-color);
   text-decoration: underline 2px var(--link-color);
-  border-bottom: none 2px var(--fg-color); /* Color shifts to fg-color on hover */
-}
-
-a:visited {
-  color: var(--visited-color);
-  text-decoration: underline 1px var(--link-color);
   border-bottom: none 2px var(--fg-color); /* Color shifts to fg-color on hover */
 }
 
