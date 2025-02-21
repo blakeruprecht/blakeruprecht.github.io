@@ -5,18 +5,18 @@
   --fg-color: #333;      /* Text color */
   --bg-color: #fff;      /* Background color */
   --mg-color: #777;   /* Miscellaneous color (default) */
-  --ul-color: #c2c2c2;   /* Underline color */
+  --ul-color: #777;   /* Underline color */
   --link-color: #d00;
 
   /* Dark Mode Colors */
   --dark-fg-color: #ccc; /* Text color for dark mode */
   --dark-bg-color: #111; /* Background color for dark mode */
-  --dark-mg-color: #999;  /* Miscellaneous color for dark mode */
-  --dark-ul-color: #666;  /* Underline color for dark mode */
+  --dark-mg-color: #888;  /* Miscellaneous color for dark mode */
+  --dark-ul-color: #888;  /* Underline color for dark mode */
   --dark-link-color: #d00;
 
   /* Fonts */
-  --font-serif: "Georgia", "Times New Roman", serif;
+  --font-serif: "Georgia", serif;
   --font-sans: "NotoSans", "Helvetica", sans-serif;
   --font-mono: "Hack", mono;
 }
@@ -48,8 +48,8 @@ body.dark-mode {
 /* LINKS */
 a {
   color: var(--fg-color);
-  text-decoration: underline 1px var(--ul-color);
-  border-bottom: none 2px var(--fg-color); /* Using the same variable */
+  text-decoration: underline 1px var(--mg-color);
+  border-bottom: none 2px var(--mg-color); /* Using the same variable */
 }
 
 a:hover {
@@ -60,7 +60,7 @@ a:hover {
 
 /* HEADERS */
 h1 {
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.5em;
@@ -103,6 +103,7 @@ h6 { font-size: 1rem; }
 .toc li {
   margin: 0.25rem 0;
   line-height: 1.2;
+  font-family: var(--font-mono);
 }
 
 .toc a {
@@ -113,8 +114,8 @@ h6 { font-size: 1rem; }
 }
 
 .toc a:hover {
-  color: var(--link-color);
-  text-decoration: none;
+  color: var(--fg-color);
+  text-decoration: underline 2px var(--fg-color);
 }
 
 .toc > ul:first-child {
@@ -133,7 +134,7 @@ h6 { font-size: 1rem; }
   font-weight: bold;
   font-family: var(--font-mono);
   margin-bottom: 0.5rem;
-  color: var(--fg-color);
+  color: var(--mg-color);
 }
 
 /* FOOTER */
@@ -154,6 +155,7 @@ footer a {
 
 footer a:hover {
   color: var(--fg-color);
+  text-decoration: underline 2px var(--fg-color);
 }
 
 
@@ -168,12 +170,13 @@ time {
 }
 
 code {
+  color: var(--fg-color);
   font-family: var(--font-mono);
-  border: dashed 1px var(--mg-color);
+  border: solid 1px var(--mg-color);
 }
 
 blockquote {
-  border-left: 1px solid var(--fg-color);
+  border-left: 1px solid var(--link-color);
   margin: 0;
   padding: 0 1em;
 }
@@ -210,7 +213,7 @@ img[alt=headshot] {
 
 .logo a {
   font-family: var(--font-sans);
-  color: var(--fg-color);
+  color: #1874b1;
   /*font-variant: small-caps;*/
   font-size: 1.2rem;
   font-weight: bold;
@@ -219,7 +222,8 @@ img[alt=headshot] {
 }
 
 .logo a:hover {
-  color: var(--fg-color);
+  color: var(--link-color);
+  text-decoration: underline 2px var(--link-color);
 }
 
 .menu-container {
@@ -243,12 +247,13 @@ img[alt=headshot] {
   color: var(--mg-color);
   text-decoration: none;
   border-bottom: none;
-  text-transform: none;
+  text-transform: capitalize;
   font-variant: none;
 }
 
 .menu a:hover {
   color: var(--fg-color);
+  text-decoration: underline 2px var(--fg-color);
 }
 
 .toggle-theme {

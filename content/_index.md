@@ -16,7 +16,7 @@ Previously I [researched](/research) safe artificial intelligence @Mizzou. Durin
 
 I'm new to making websites, but I love coding, so I made this one using HTML, CSS, JavaScript, Git/Github, and the Hugo static site generator (like WordPress but faster and more coding). The source code for this site lives at [this Github repo](https://github.com/blakeruprecht/blakeruprecht.github.io) (it's free and open-source, punk!). Web design is the digital version of [woodworking](/woodwork) -- it's all boxes!
 
-Offline, you can find me playing in the great outdoors, cooking [spicy](/notes/dcbs) food, drinking craft beer (it's Oktoberfest season!), and hanging out with my friends and family. Send me an email, I would love to hear from you!
+Offline, you can find me playing in the great outdoors, cooking [spicy](/notes/dcbs) food, drinking good beer, and hanging out with my friends and family. Send me an email, I would love to hear from you!
 
 
 ## Contact Info
