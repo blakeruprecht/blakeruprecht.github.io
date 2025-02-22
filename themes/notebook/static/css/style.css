@@ -117,8 +117,7 @@ figure img {
 }
 
 figcaption {
-  color: var(--red-color);
-  margin-top: 0.5em;
+  color: var(--mg-color);
   font-size: 0.9em;     /* Slightly smaller text */
   line-height: 1.4;     /* Better readability for captions */
 }
