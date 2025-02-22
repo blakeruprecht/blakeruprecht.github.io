@@ -42,86 +42,49 @@ if (!doNotTrack) {
 
 <header class="site-header">
   <nav class="site-nav">
-    <div class="logo">
-      <a href="/">Blake Ruprecht</a>
-    </div>
-
-    <div class="menu-container">
-      <ul class="menu">
-        <li><a href="/notes/">Notes</a></li>
-        <li><a href="/bookshelf/">Bookshelf</a></li>
-        <li>
-          <button class="toggle-theme" onclick="toggleTheme()">
-            <i id="theme-icon" class="fa fa-sun"></i>
-          </button>
-        </li>
-      </ul>
-    </div>
-
-    <button class="menu-toggle">☰</button>
+  <div class="logo">
+  <a href="/">Blake Ruprecht</a>
+  </div>
+  <div class="menu-container">
+  <ul class="menu">
+  <li><a href="/notes/">Notes</a></li>
+  <li><a href="/bookshelf/">Bookshelf</a></li>
+  </ul>
+  </div>
+  <button class="menu-toggle">☰</button>
   </nav>
-</header>
-
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    
-    initializeTheme();
-    
-    
-    initializeMenuToggle();
-    
-    
-    initializeActiveLinks();
-  });
-
-  
-  function initializeTheme() {
-    const savedTheme = localStorage.getItem('theme');
-    const body = document.body;
-    const themeIcon = document.getElementById("theme-icon");
-    
-    updateTheme(savedTheme === 'dark');
-  }
-
-  function toggleTheme() {
-    const isDarkMode = document.body.classList.toggle("dark-mode");
-    updateTheme(isDarkMode);
-  }
-
-  function updateTheme(isDarkMode) {
-    const themeIcon = document.getElementById("theme-icon");
-    themeIcon.classList.remove(isDarkMode ? "fa-sun" : "fa-moon");
-    themeIcon.classList.add(isDarkMode ? "fa-moon" : "fa-sun");
-    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-  }
-
-  
-  function initializeMenuToggle() {
-    document.querySelector('.menu-toggle').addEventListener('click', () => {
-      document.querySelector('.site-nav').classList.toggle('expanded');
-    });
-  }
-
-  
-  function initializeActiveLinks() {
-    const currentPath = window.location.pathname.replace(/\/$/, '');
-    const menuItems = document.querySelectorAll('.menu a');
-    const logo = document.querySelector('.logo a');
-    const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
-
-    menuItems.forEach(item => {
-      const itemPath = item.getAttribute('href').replace(/\/$/, '');
-      if (currentPath.startsWith(itemPath)) {
-        item.classList.add('active');
-      }
-    });
-
-    if (homePaths.includes(currentPath)) {
-      logo.classList.add('active');
-    }
-  }
-</script>
+ </header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+ });
+ 
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+   const currentPath = window.location.pathname.replace(/\/$/, '');
+   const menuItems = document.querySelectorAll('.menu a');
+   const logo = document.querySelector('.logo a');
+   const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
+   
+   menuItems.forEach(item => {
+     const itemPath = item.getAttribute('href').replace(/\/$/, '');
+     if (currentPath.startsWith(itemPath)) {
+       item.classList.add('active');
+     }
+   });
+   
+   if (homePaths.includes(currentPath)) {
+     logo.classList.add('active');
+   }
+ }
+ </script>
 
 <main class="content">
 
@@ -644,13 +607,16 @@ if (!doNotTrack) {
 
 <footer>
   <div class="main-links">
-    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="/less">Less</a>
+    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="https://substack.com/@BlakeRuprecht">Newsletter</a>
   </div>
   <div class="social-links">
     <a href="mailto:blakecruprecht@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
     <a href="https://github.com/BlakeRuprecht" title="GitHub"><i class="fab fa-github"></i></a>
     <a href="https://linkedin.com/in/BlakeRuprecht" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     <a href="https://instagram.com/BlakeRuprecht" title="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
+  <div class="subscribe">
+    <a href="https://substack.com/@BlakeRuprecht" class="newsletter-button">Subscribe</a>
   </div>
 </footer>
 

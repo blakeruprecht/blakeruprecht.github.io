@@ -6,18 +6,22 @@
   --mg-color: #666;
   --red-color: #dd0000;
   --blue-color: #1874b1;
-
-  /* Dark Mode Colors */
-  --dark-fg-color: #ccc;
-  --dark-bg-color: #111;
-  --dark-mg-color: #999;
-  --dark-red-color: #dd0000;
-  --dark-blue-color: #1874b1;
-
+  
   /* Fonts */
   --font-serif: "Georgia", serif;
   --font-sans: "NotoSans", "Helvetica", sans-serif;
   --font-mono: "Hack", mono;
+}
+
+/* AUTO LIGHT/DARK MODE DETECTION */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg-color: #ccc;
+    --bg-color: #111;
+    --mg-color: #999;
+    --red-color: #dd0000;
+    --blue-color: #1874b1;
+  }
 }
 
 /* BASE ELEMENTS */
@@ -29,14 +33,6 @@ body {
   line-height: 1.5;
   margin: 1rem;
   padding: 1rem;
-}
-
-/* Dark Mode */
-body.dark-mode {
-  --fg-color: var(--dark-fg-color);
-  --bg-color: var(--dark-bg-color);
-  --mg-color: var(--dark-mg-color);
-  --link-color: var(--dark-link-color);
 }
 
 /* TYPOGRAPHY */
@@ -111,15 +107,27 @@ img[src="/headshot.jpg"] {
 }
 
 figure {
-  margin: 1em 0;
+  margin: 0 0 1.5em 0;
   text-align: center;
 }
 
-figcaption {
-  color: var(--mg-color);
-  font-size: 0.9em;
-  margin-top: 0.5em;
+figure img {
+  max-width: 100%;      /* Responsive images */
+  height: auto;
 }
+
+figcaption {
+  color: var(--red-color);
+  margin-top: 0.5em;
+  font-size: 0.9em;     /* Slightly smaller text */
+  line-height: 1.4;     /* Better readability for captions */
+}
+
+
+
+
+
+
 
 /* NAVIGATION */
 .site-header {
@@ -165,9 +173,11 @@ figcaption {
 }
 
 .menu a {
+  text-transform: none;
+  font-weight: bold;
   font-family: var(--font-sans);
   color: var(--mg-color);
-  text-decoration: underline 1px var(--mg-color);
+  text-decoration: none 1px var(--mg-color);
   transition: all 0.2s ease;
 }
 
@@ -241,7 +251,7 @@ ul.blog-list span {
 footer {
   text-align: center;
   width: 100%;
-  padding: 2rem 0;
+  padding-top: 2rem;
   margin-top: 1rem;
   border-top: 1px solid var(--mg-color);
   color: var(--mg-color);
@@ -287,6 +297,26 @@ footer .social-links i {
   line-height: 1.5rem;
 }
 
+footer .subscribe {
+  margin-top: 1.5rem;
+}
+
+footer .newsletter-button {
+  background-color: var(--bg-color);
+  color: var(--mg-color) !important;
+  border: solid 1px var(--red-color);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  text-decoration: none !important;
+  transition: all 0.1s;
+  display: inline-block;  /* Ensure proper button sizing */
+}
+
+footer .newsletter-button:hover {
+  background-color: var(--red-color);
+  color: var(--bg-color) !important;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
     main {
@@ -305,14 +335,20 @@ footer .social-links i {
         display: none;
         flex-direction: column;
         width: 100%;
-        gap: 0;
+        gap: 1rem;
+    }
+
+    .menu a {
+        font-size: 1.2rem;
+        padding: 0.5rem 0;
     }
 
     /* Show menu toggle in mobile view */
     .menu-toggle {
         display: block;
         cursor: pointer;
-        padding: 0.5rem;
+        padding: 1rem;
+        margin: 0.5rem 0;
         background: none;
         border: none;
         font-size: 1.5rem;
@@ -321,7 +357,7 @@ footer .social-links i {
     .site-nav.expanded .menu {
         display: flex;
     }
-} 
+}
 
 /* FONT FACES */
 /* Hack Font */

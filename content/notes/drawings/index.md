@@ -18,47 +18,54 @@ You can cheat and use pencil. Or chalk, or computer. Or colors.
 
 But I always come back to the same two extremes, yin and yang.
 
-![Drawing of a log cabin I made up](drawing-log-cabin.jpg)
-*Done using sharpie on paper, based on the houses from *Your Cabin in the Woods* by Conrad Meinecke.*
+{{< figure 
+  src="drawing-log-cabin.jpg" 
+  caption="Done using sharpie on paper, based on the houses from *Your Cabin in the Woods* by Conrad Meinecke." 
+  alt="Drawing of a log cabin I made up" 
+>}}
 
-&nbsp;
+{{< figure 
+  src="drawing-fallingwater.jpg" 
+  caption="Done using a dip pen and black india ink. This is [Fallingwater](https://en.wikipedia.org/wiki/Fallingwater), a house designed by Frank Lloyd Wright in 1935." 
+  alt="Ink dip pen drawing of Frank Lloyd Wright's Fallingwater" 
+>}}
 
-![Ink dip pen drawing of Frank Lloyd Wright's Fallingwater](drawing-fallingwater.jpg)
-*Done using a dip pen and black india ink. This is [Fallingwater](https://en.wikipedia.org/wiki/Fallingwater), a house designed by Frank Lloyd Wright in 1935.*
+{{< figure 
+  src="drawing-chalkboard.jpg" 
+  caption="...enough, it wouldn't be the minimum." 
+  alt="Calligraphy done on a chalkboard" 
+>}}
 
-&nbsp;
+{{< figure 
+  src="drawing-relativity.jpg" 
+  caption="I particularly like black ink drawings with that bold, all-black shading style, though it's very hard to get right." 
+  alt="A doodle I did in class" 
+>}}
 
-![Calligraphy done on a chalkboard](drawing-chalkboard.jpg)
-*...enough, it wouldn't be the minimum.*
+{{< figure 
+  src="drawing-eagle.jpg" 
+  caption="On the flip side of that other doodle, I tried some pencil drawing, HB mechanicals don't get very dark..." 
+  alt="A doodle of an eagle" 
+>}}
 
-&nbsp;
+{{< figure 
+  src="drawing-spartan.jpg" 
+  caption="Digital logic class was getting boring." 
+  alt="A doodle of a spartan warrior" 
+>}}
 
-![A doodle I did in class](drawing-relativity.jpg)
-*I particularly like black ink drawings with that bold, all-black shading style, though it's very hard to get right.*
+{{< figure 
+  src="drawing-ship.jpg" 
+  caption="\"There are good ships and wood ships, ships that sail the sea, but the best ships are friendships, may they always be!\"" 
+  alt="A doodle of a ship" 
+>}}
 
-&nbsp;
+{{< figure 
+  src="drawing-helicopter.jpg" 
+  caption="Okay, a computer-aided drawing, but it looks dope." 
+  alt="CAD drawing of a RC helicopter" 
+>}}
 
-![A doodle of an eagle](drawing-eagle.jpg)
-*On the flip side of that other doodle, I tried some pencil drawing, HB mechanicals don't get very dark...*
-
-&nbsp;
-
-![A doodle of a spartan warrior](drawing-spartan.jpg)
-*Digital logic class was getting boring.*
-
-&nbsp;
-
-![A doodle of a ship](drawing-ship.jpg)
-*"There are good ships and wood ships, ships that sail the sea, but the best ships are friendships, may they always be!"*
-
-&nbsp;
-
-![CAD drawing of a RC helicopter](drawing-helicopter.jpg)
-*Okay, a computer-aided drawing, but it looks dope.*
-
-&nbsp;
-
----
 ## Sharpie on the Walls
 Something about finals week always gave me bursts of creative energy. This time, two of my best friends and I decorated my frat house bedroom walls.
 
@@ -69,55 +76,65 @@ Fun anecdotes about that house:
 - The house apparently didn't have heat, my bedroom stayed a cool 55 degF during the winter.
 - During the summer, there was obviously no air conditioning, so the dudes that stayed there filled up a truck bed with ice, water, and natural lights to survive. 
 
-![Doodles on my college bedroom wall](drawing-frat-walls.jpg)
-*Can you tell what my priorities were back then?*
+{{< figure 
+  src="drawing-frat-walls.jpg" 
+  caption="Can you tell what my priorities were back then?" 
+  alt="Doodles on my college bedroom wall" 
+>}}
 
-&nbsp;
+{{< figure 
+  src="drawing-frat-walls3.jpg" 
+  caption="The pennants were done by Biggs." 
+  alt="Doodles on my college bedroom wall" 
+>}}
 
-![Doodles on my college bedroom wall](drawing-frat-walls3.jpg)
-*The pennants were done by Biggs.*
+{{< figure 
+  src="drawing-frat-walls2.jpg" 
+  caption="Why study when you can just give yourself the diploma already?" 
+  alt="Doodles on my college bedroom wall" 
+>}}
 
-&nbsp;
-
-![Doodles on my college bedroom wall](drawing-frat-walls2.jpg)
-*Why study when you can just give yourself the diploma already?*
-
-&nbsp;
-
----
 ## Bday card series
 Ink on paper, doesn't get better than that.
 
-![Bday card doodle with balloon](drawing-bday-balloon.jpg)
-*Red balloons only*
+{{< figure 
+  src="drawing-bday-balloon.jpg" 
+  caption="Red balloons only" 
+  alt="Bday card doodle with balloon" 
+>}}
 
-&nbsp;
+{{< figure 
+  src="drawing-bday-beer.jpg" 
+  caption="Bud Select is a family tradition, and STL staple." 
+  alt="Bday card of a beer can" 
+>}}
 
-![Bday card of a beer can](drawing-bday-beer.jpg)
-*Bud Select is a family tradition, and STL staple.*
+{{< figure 
+  src="drawing-bday-flowers.jpg" 
+  caption="One line, then three more in red." 
+  alt="Bday card of flowers" 
+>}}
 
-&nbsp;
+{{< figure 
+  src="drawing-bday-fishing.jpg" 
+  caption="I need a boat." 
+  alt="Bday card of dude fishing" 
+>}}
 
-![Bday card of flowers](drawing-bday-flowers.jpg)
-*One line, then three more in red.*
+{{< figure 
+  src="drawing-bday-cat.jpg" 
+  caption="I copied a tattoo artist and added color, never making that mistake again." 
+  alt="Bday card of a hooded cat" 
+>}}
 
-&nbsp;
+{{< figure 
+  src="drawing-bday-spotify.jpg" 
+  caption="Haha, get it? Like spotify..." 
+  alt="Bday card of a spotify song" 
+>}}
 
-![Bday card of dude fishing](drawing-bday-fishing.jpg)
-*I need a boat.*
-
-&nbsp;
-
-![Bday card of a hooded cat](drawing-bday-cat.jpg)
-*I copied a tattoo artist and added color, never making that mistake again.*
-
-&nbsp;
-
-![Bday card of a spotify song](drawing-bday-spotify.jpg)
-*Haha, get it? Like spotify...*
-
-&nbsp;
-
-![Bday card hbd](drawing-bday-hbd.jpg)
-*Keep it simple :)*
-
+{{< figure 
+  src="drawing-bday-hbd.jpg" 
+  caption="Keep it simple :)" 
+  alt="Bday card hbd" 
+>}}

@@ -41,86 +41,49 @@ if (!doNotTrack) {
 
 <header class="site-header">
   <nav class="site-nav">
-    <div class="logo">
-      <a href="/">Blake Ruprecht</a>
-    </div>
-
-    <div class="menu-container">
-      <ul class="menu">
-        <li><a href="/notes/">Notes</a></li>
-        <li><a href="/bookshelf/">Bookshelf</a></li>
-        <li>
-          <button class="toggle-theme" onclick="toggleTheme()">
-            <i id="theme-icon" class="fa fa-sun"></i>
-          </button>
-        </li>
-      </ul>
-    </div>
-
-    <button class="menu-toggle">☰</button>
+  <div class="logo">
+  <a href="/">Blake Ruprecht</a>
+  </div>
+  <div class="menu-container">
+  <ul class="menu">
+  <li><a href="/notes/">Notes</a></li>
+  <li><a href="/bookshelf/">Bookshelf</a></li>
+  </ul>
+  </div>
+  <button class="menu-toggle">☰</button>
   </nav>
-</header>
-
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    
-    initializeTheme();
-    
-    
-    initializeMenuToggle();
-    
-    
-    initializeActiveLinks();
-  });
-
-  
-  function initializeTheme() {
-    const savedTheme = localStorage.getItem('theme');
-    const body = document.body;
-    const themeIcon = document.getElementById("theme-icon");
-    
-    updateTheme(savedTheme === 'dark');
-  }
-
-  function toggleTheme() {
-    const isDarkMode = document.body.classList.toggle("dark-mode");
-    updateTheme(isDarkMode);
-  }
-
-  function updateTheme(isDarkMode) {
-    const themeIcon = document.getElementById("theme-icon");
-    themeIcon.classList.remove(isDarkMode ? "fa-sun" : "fa-moon");
-    themeIcon.classList.add(isDarkMode ? "fa-moon" : "fa-sun");
-    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-  }
-
-  
-  function initializeMenuToggle() {
-    document.querySelector('.menu-toggle').addEventListener('click', () => {
-      document.querySelector('.site-nav').classList.toggle('expanded');
-    });
-  }
-
-  
-  function initializeActiveLinks() {
-    const currentPath = window.location.pathname.replace(/\/$/, '');
-    const menuItems = document.querySelectorAll('.menu a');
-    const logo = document.querySelector('.logo a');
-    const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
-
-    menuItems.forEach(item => {
-      const itemPath = item.getAttribute('href').replace(/\/$/, '');
-      if (currentPath.startsWith(itemPath)) {
-        item.classList.add('active');
-      }
-    });
-
-    if (homePaths.includes(currentPath)) {
-      logo.classList.add('active');
-    }
-  }
-</script>
+ </header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+ });
+ 
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+   const currentPath = window.location.pathname.replace(/\/$/, '');
+   const menuItems = document.querySelectorAll('.menu a');
+   const logo = document.querySelector('.logo a');
+   const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
+   
+   menuItems.forEach(item => {
+     const itemPath = item.getAttribute('href').replace(/\/$/, '');
+     if (currentPath.startsWith(itemPath)) {
+       item.classList.add('active');
+     }
+   });
+   
+   if (homePaths.includes(currentPath)) {
+     logo.classList.add('active');
+   }
+ }
+ </script>
 
 <main class="content">
 
@@ -160,31 +123,54 @@ window.MathJax = {
 <p>You can go all in on solid-black.</p>
 <p>You can cheat and use pencil. Or chalk, or computer. Or colors.</p>
 <p>But I always come back to the same two extremes, yin and yang.</p>
-<p><img src="drawing-log-cabin.jpg" alt="Drawing of a log cabin I made up">
-<em>Done using sharpie on paper, based on the houses from <em>Your Cabin in the Woods</em> by Conrad Meinecke.</em></p>
-<p> </p>
-<p><img src="drawing-fallingwater.jpg" alt="Ink dip pen drawing of Frank Lloyd Wright&rsquo;s Fallingwater">
-<em>Done using a dip pen and black india ink. This is <a href="https://en.wikipedia.org/wiki/Fallingwater">Fallingwater</a>, a house designed by Frank Lloyd Wright in 1935.</em></p>
-<p> </p>
-<p><img src="drawing-chalkboard.jpg" alt="Calligraphy done on a chalkboard">
-<em>&hellip;enough, it wouldn&rsquo;t be the minimum.</em></p>
-<p> </p>
-<p><img src="drawing-relativity.jpg" alt="A doodle I did in class">
-<em>I particularly like black ink drawings with that bold, all-black shading style, though it&rsquo;s very hard to get right.</em></p>
-<p> </p>
-<p><img src="drawing-eagle.jpg" alt="A doodle of an eagle">
-<em>On the flip side of that other doodle, I tried some pencil drawing, HB mechanicals don&rsquo;t get very dark&hellip;</em></p>
-<p> </p>
-<p><img src="drawing-spartan.jpg" alt="A doodle of a spartan warrior">
-<em>Digital logic class was getting boring.</em></p>
-<p> </p>
-<p><img src="drawing-ship.jpg" alt="A doodle of a ship">
-<em>&ldquo;There are good ships and wood ships, ships that sail the sea, but the best ships are friendships, may they always be!&rdquo;</em></p>
-<p> </p>
-<p><img src="drawing-helicopter.jpg" alt="CAD drawing of a RC helicopter">
-<em>Okay, a computer-aided drawing, but it looks dope.</em></p>
-<p> </p>
-<hr>
+<figure><img src="/notes/drawings/drawing-log-cabin.jpg"
+    alt="Drawing of a log cabin I made up"><figcaption>
+      <p>Done using sharpie on paper, based on the houses from <em>Your Cabin in the Woods</em> by Conrad Meinecke.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-fallingwater.jpg"
+    alt="Ink dip pen drawing of Frank Lloyd Wright&#39;s Fallingwater"><figcaption>
+      <p>Done using a dip pen and black india ink. This is <a href="https://en.wikipedia.org/wiki/Fallingwater">Fallingwater</a>, a house designed by Frank Lloyd Wright in 1935.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-chalkboard.JPG"
+    alt="Calligraphy done on a chalkboard"><figcaption>
+      <p>&hellip;enough, it wouldn&rsquo;t be the minimum.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-relativity.jpg"
+    alt="A doodle I did in class"><figcaption>
+      <p>I particularly like black ink drawings with that bold, all-black shading style, though it&rsquo;s very hard to get right.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-eagle.jpg"
+    alt="A doodle of an eagle"><figcaption>
+      <p>On the flip side of that other doodle, I tried some pencil drawing, HB mechanicals don&rsquo;t get very dark&hellip;</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-spartan.jpg"
+    alt="A doodle of a spartan warrior"><figcaption>
+      <p>Digital logic class was getting boring.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-ship.jpg"
+    alt="A doodle of a ship"><figcaption>
+      <p>&ldquo;There are good ships and wood ships, ships that sail the sea, but the best ships are friendships, may they always be!&rdquo;</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-helicopter.jpg"
+    alt="CAD drawing of a RC helicopter"><figcaption>
+      <p>Okay, a computer-aided drawing, but it looks dope.</p>
+    </figcaption>
+</figure>
+
 <h2 id="sharpie-on-the-walls">Sharpie on the Walls</h2>
 <p>Something about finals week always gave me bursts of creative energy. This time, two of my best friends and I decorated my frat house bedroom walls.</p>
 <p>Fun anecdotes about that house:</p>
@@ -195,38 +181,68 @@ window.MathJax = {
 <li>The house apparently didn&rsquo;t have heat, my bedroom stayed a cool 55 degF during the winter.</li>
 <li>During the summer, there was obviously no air conditioning, so the dudes that stayed there filled up a truck bed with ice, water, and natural lights to survive.</li>
 </ul>
-<p><img src="drawing-frat-walls.jpg" alt="Doodles on my college bedroom wall">
-<em>Can you tell what my priorities were back then?</em></p>
-<p> </p>
-<p><img src="drawing-frat-walls3.jpg" alt="Doodles on my college bedroom wall">
-<em>The pennants were done by Biggs.</em></p>
-<p> </p>
-<p><img src="drawing-frat-walls2.jpg" alt="Doodles on my college bedroom wall">
-<em>Why study when you can just give yourself the diploma already?</em></p>
-<p> </p>
-<hr>
+<figure><img src="/notes/drawings/drawing-frat-walls.JPG"
+    alt="Doodles on my college bedroom wall"><figcaption>
+      <p>Can you tell what my priorities were back then?</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-frat-walls3.jpg"
+    alt="Doodles on my college bedroom wall"><figcaption>
+      <p>The pennants were done by Biggs.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-frat-walls2.JPG"
+    alt="Doodles on my college bedroom wall"><figcaption>
+      <p>Why study when you can just give yourself the diploma already?</p>
+    </figcaption>
+</figure>
+
 <h2 id="bday-card-series">Bday card series</h2>
 <p>Ink on paper, doesn&rsquo;t get better than that.</p>
-<p><img src="drawing-bday-balloon.jpg" alt="Bday card doodle with balloon">
-<em>Red balloons only</em></p>
-<p> </p>
-<p><img src="drawing-bday-beer.jpg" alt="Bday card of a beer can">
-<em>Bud Select is a family tradition, and STL staple.</em></p>
-<p> </p>
-<p><img src="drawing-bday-flowers.jpg" alt="Bday card of flowers">
-<em>One line, then three more in red.</em></p>
-<p> </p>
-<p><img src="drawing-bday-fishing.jpg" alt="Bday card of dude fishing">
-<em>I need a boat.</em></p>
-<p> </p>
-<p><img src="drawing-bday-cat.jpg" alt="Bday card of a hooded cat">
-<em>I copied a tattoo artist and added color, never making that mistake again.</em></p>
-<p> </p>
-<p><img src="drawing-bday-spotify.jpg" alt="Bday card of a spotify song">
-<em>Haha, get it? Like spotify&hellip;</em></p>
-<p> </p>
-<p><img src="drawing-bday-hbd.jpg" alt="Bday card hbd">
-<em>Keep it simple :)</em></p>
+<figure><img src="/notes/drawings/drawing-bday-balloon.jpg"
+    alt="Bday card doodle with balloon"><figcaption>
+      <p>Red balloons only</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-bday-beer.jpg"
+    alt="Bday card of a beer can"><figcaption>
+      <p>Bud Select is a family tradition, and STL staple.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-bday-flowers.jpg"
+    alt="Bday card of flowers"><figcaption>
+      <p>One line, then three more in red.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-bday-fishing.jpg"
+    alt="Bday card of dude fishing"><figcaption>
+      <p>I need a boat.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-bday-cat.jpg"
+    alt="Bday card of a hooded cat"><figcaption>
+      <p>I copied a tattoo artist and added color, never making that mistake again.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-bday-spotify.jpg"
+    alt="Bday card of a spotify song"><figcaption>
+      <p>Haha, get it? Like spotify&hellip;</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/notes/drawings/drawing-bday-hbd.jpg"
+    alt="Bday card hbd"><figcaption>
+      <p>Keep it simple :)</p>
+    </figcaption>
+</figure>
+
 
     </div>
 </article>
@@ -235,13 +251,16 @@ window.MathJax = {
 
 <footer>
   <div class="main-links">
-    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="/less">Less</a>
+    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="https://substack.com/@BlakeRuprecht">Newsletter</a>
   </div>
   <div class="social-links">
     <a href="mailto:blakecruprecht@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
     <a href="https://github.com/BlakeRuprecht" title="GitHub"><i class="fab fa-github"></i></a>
     <a href="https://linkedin.com/in/BlakeRuprecht" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     <a href="https://instagram.com/BlakeRuprecht" title="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
+  <div class="subscribe">
+    <a href="https://substack.com/@BlakeRuprecht" class="newsletter-button">Subscribe</a>
   </div>
 </footer>
 
