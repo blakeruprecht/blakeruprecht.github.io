@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   <meta charset="UTF-8" />
   
@@ -15,11 +15,10 @@
 
   <meta name="description" content="&#34;Growth mindset is a great way to re-frame problems and incorporate some of the most useful parts of Stoicism and other philosophies to keep moving forward and growing in life.&#34;">
 
-  <link rel="canonical" href="http://localhost:1313/notes/growth-mindset/" />  
+  <link rel="canonical" href="https://blakeruprecht.com/notes/growth-mindset/" />  
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
@@ -36,9 +35,6 @@ if (!doNotTrack) {
 </script>
 
 
-
-
-
 </head>
 
 <body>
@@ -46,16 +42,13 @@ if (!doNotTrack) {
 <header class="site-header">
   <nav class="site-nav">
     <div class="logo">
-      <li>
-        <a href="/">Blake Ruprecht</a>
-      </li>
+      <a href="/">Blake Ruprecht</a>
     </div>
 
     <div class="menu-container">
       <ul class="menu">
-        <li><a href="/notes/">notes</a></li>
-        <li><a href="/research/">AI</a></li>
-        <li><a href="/bookshelf/">bookshelf</a></li>
+        <li><a href="/notes/">Notes</a></li>
+        <li><a href="/bookshelf/">Bookshelf</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -70,92 +63,87 @@ if (!doNotTrack) {
 
 
 <script>
-document.querySelector('.menu-toggle').addEventListener('click', function() {
-  document.querySelector('.site-nav').classList.toggle('expanded'); 
-});
-</script>
-
-
-<script>
-  
   document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme');
-    const body = document.body;
-    const themeIcon = document.getElementById("theme-icon");
-
-    if (savedTheme === 'dark') {
-      body.classList.add('dark-mode');
-      themeIcon.classList.remove('fa-sun');
-      themeIcon.classList.add('fa-moon');
-    } else {
-      body.classList.remove('dark-mode');
-      themeIcon.classList.remove('fa-moon');
-      themeIcon.classList.add('fa-sun');
-    }
+    
+    initializeTheme();
+    
+    
+    initializeMenuToggle();
+    
+    
+    initializeActiveLinks();
   });
 
   
-  function toggleTheme() {
+  function initializeTheme() {
+    const savedTheme = localStorage.getItem('theme');
     const body = document.body;
     const themeIcon = document.getElementById("theme-icon");
-
-    if (body.classList.toggle("dark-mode")) {
-      themeIcon.classList.remove("fa-sun"); 
-      themeIcon.classList.add("fa-moon");
-      localStorage.setItem('theme', 'dark'); 
-    } else {
-      themeIcon.classList.remove("fa-moon"); 
-      themeIcon.classList.add("fa-sun");
-      localStorage.setItem('theme', 'light'); 
-    }
+    
+    updateTheme(savedTheme === 'dark');
   }
-</script>
 
+  function toggleTheme() {
+    const isDarkMode = document.body.classList.toggle("dark-mode");
+    updateTheme(isDarkMode);
+  }
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const currentPath = window.location.pathname.replace(/\/$/, ''); 
+  function updateTheme(isDarkMode) {
+    const themeIcon = document.getElementById("theme-icon");
+    themeIcon.classList.remove(isDarkMode ? "fa-sun" : "fa-moon");
+    themeIcon.classList.add(isDarkMode ? "fa-moon" : "fa-sun");
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+  }
+
+  
+  function initializeMenuToggle() {
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('.site-nav').classList.toggle('expanded');
+    });
+  }
+
+  
+  function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');
     const menuItems = document.querySelectorAll('.menu a');
     const logo = document.querySelector('.logo a');
-
-    
     const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
 
-    
     menuItems.forEach(item => {
-        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
-        if (currentPath.startsWith(itemPath)) {
-            item.classList.add('active');
-        }
+      const itemPath = item.getAttribute('href').replace(/\/$/, '');
+      if (currentPath.startsWith(itemPath)) {
+        item.classList.add('active');
+      }
     });
 
-    
     if (homePaths.includes(currentPath)) {
-        logo.classList.add('active');
+      logo.classList.add('active');
     }
-});
+  }
 </script>
 
 <main class="content">
 
-
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
-</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
 <script type="text/javascript">
 window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$']],
-    displayMath: [['$$', '$$']],
-    processEscapes: true
-  }
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
 };
 </script>
 
-<h1>Growth Mindset</h1>
 
+<article>
+    <header>
+        <h1>Growth Mindset</h1>
+    </header>
 
-  <aside class="toc">
-    <nav id="TableOfContents">
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
   <ul>
     <li><a href="#praise-effort-not-identity">Praise effort, not identity</a></li>
     <li><a href="#stop-trying-to-be-perfect">Stop trying to be perfect</a></li>
@@ -163,10 +151,11 @@ window.MathJax = {
     <li><a href="#references">References</a></li>
   </ul>
 </nav>
-  </aside>
+        </aside>
+    
 
-
-<p><strong>Summary</strong>: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don&rsquo;t try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.</p>
+    <div class="post-content">
+        <p><strong>Summary</strong>: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don&rsquo;t try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.</p>
 <p><strong>Growth mindset</strong> is when you believe you can improve at anything with time and effort.
 Instead of seeing challenges as an internal problem, you see them as a chance to get better and improve. When facing challenges, you get excited about the <em>learning process</em>. This mentality makes you less likely to quit, and much more likely to hit your goals. Basically, challenge your beliefs about yourself, and switch your <em>fixed mindset</em> (e.g. I&rsquo;m slow, mediocre at lifting, stupid at writing) to a <em>growth mindset</em> (e.g. I can get faster, I try hard at dating, I&rsquo;m learning how to write).</p>
 <h2 id="praise-effort-not-identity">Praise effort, not identity</h2>
@@ -206,12 +195,21 @@ Instead of seeing challenges as an internal problem, you see them as a chance to
 <li>Hindu wisdom advocates for dealing with emotions <em>in order</em>: starting by facing your fear, and choosing to act when you want to. Next, address shame, and channel your energy into creative outlets rather than addictions. Next, teach your mind to overcome impulse by accomplishing small wins.</li>
 </ul>
 
+    </div>
+</article>
 
 </main>
 
 <footer>
-  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
-
+  <div class="main-links">
+    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="/less">Less</a>
+  </div>
+  <div class="social-links">
+    <a href="mailto:blakecruprecht@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/BlakeRuprecht" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/BlakeRuprecht" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://instagram.com/BlakeRuprecht" title="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
 </footer>
 
 </body>

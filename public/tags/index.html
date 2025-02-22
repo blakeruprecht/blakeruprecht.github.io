@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   <meta charset="UTF-8" />
   
@@ -15,15 +15,14 @@
 
   <meta name="description" content="">
 
-  <link rel="canonical" href="http://localhost:1313/tags/" />  
+  <link rel="canonical" href="https://blakeruprecht.com/tags/" />  
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
-  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/index.xml" title="Blake Ruprecht" />
+  <link rel="alternate" type="application/rss+xml" href="https://blakeruprecht.com/tags/index.xml" title="Blake Ruprecht" />
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
 <script>
@@ -37,9 +36,6 @@ if (!doNotTrack) {
 </script>
 
 
-
-
-
 </head>
 
 <body>
@@ -47,16 +43,13 @@ if (!doNotTrack) {
 <header class="site-header">
   <nav class="site-nav">
     <div class="logo">
-      <li>
-        <a href="/">Blake Ruprecht</a>
-      </li>
+      <a href="/">Blake Ruprecht</a>
     </div>
 
     <div class="menu-container">
       <ul class="menu">
-        <li><a href="/notes/">notes</a></li>
-        <li><a href="/research/">AI</a></li>
-        <li><a href="/bookshelf/">bookshelf</a></li>
+        <li><a href="/notes/">Notes</a></li>
+        <li><a href="/bookshelf/">Bookshelf</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -71,70 +64,63 @@ if (!doNotTrack) {
 
 
 <script>
-document.querySelector('.menu-toggle').addEventListener('click', function() {
-  document.querySelector('.site-nav').classList.toggle('expanded'); 
-});
-</script>
-
-
-<script>
-  
   document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme');
-    const body = document.body;
-    const themeIcon = document.getElementById("theme-icon");
-
-    if (savedTheme === 'dark') {
-      body.classList.add('dark-mode');
-      themeIcon.classList.remove('fa-sun');
-      themeIcon.classList.add('fa-moon');
-    } else {
-      body.classList.remove('dark-mode');
-      themeIcon.classList.remove('fa-moon');
-      themeIcon.classList.add('fa-sun');
-    }
+    
+    initializeTheme();
+    
+    
+    initializeMenuToggle();
+    
+    
+    initializeActiveLinks();
   });
 
   
-  function toggleTheme() {
+  function initializeTheme() {
+    const savedTheme = localStorage.getItem('theme');
     const body = document.body;
     const themeIcon = document.getElementById("theme-icon");
-
-    if (body.classList.toggle("dark-mode")) {
-      themeIcon.classList.remove("fa-sun"); 
-      themeIcon.classList.add("fa-moon");
-      localStorage.setItem('theme', 'dark'); 
-    } else {
-      themeIcon.classList.remove("fa-moon"); 
-      themeIcon.classList.add("fa-sun");
-      localStorage.setItem('theme', 'light'); 
-    }
+    
+    updateTheme(savedTheme === 'dark');
   }
-</script>
 
+  function toggleTheme() {
+    const isDarkMode = document.body.classList.toggle("dark-mode");
+    updateTheme(isDarkMode);
+  }
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const currentPath = window.location.pathname.replace(/\/$/, ''); 
+  function updateTheme(isDarkMode) {
+    const themeIcon = document.getElementById("theme-icon");
+    themeIcon.classList.remove(isDarkMode ? "fa-sun" : "fa-moon");
+    themeIcon.classList.add(isDarkMode ? "fa-moon" : "fa-sun");
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+  }
+
+  
+  function initializeMenuToggle() {
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('.site-nav').classList.toggle('expanded');
+    });
+  }
+
+  
+  function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');
     const menuItems = document.querySelectorAll('.menu a');
     const logo = document.querySelector('.logo a');
-
-    
     const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
 
-    
     menuItems.forEach(item => {
-        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
-        if (currentPath.startsWith(itemPath)) {
-            item.classList.add('active');
-        }
+      const itemPath = item.getAttribute('href').replace(/\/$/, '');
+      if (currentPath.startsWith(itemPath)) {
+        item.classList.add('active');
+      }
     });
 
-    
     if (homePaths.includes(currentPath)) {
-        logo.classList.add('active');
+      logo.classList.add('active');
     }
-});
+  }
 </script>
 
 <main class="content">
@@ -147,8 +133,15 @@ document.addEventListener('DOMContentLoaded', () => {
 </main>
 
 <footer>
-  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
-
+  <div class="main-links">
+    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="/less">Less</a>
+  </div>
+  <div class="social-links">
+    <a href="mailto:blakecruprecht@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/BlakeRuprecht" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/BlakeRuprecht" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://instagram.com/BlakeRuprecht" title="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
 </footer>
 
 </body>

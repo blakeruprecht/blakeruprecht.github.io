@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   <meta charset="UTF-8" />
   
@@ -15,11 +15,10 @@
 
   <meta name="description" content="&#34;Insects are a great source of amino acids, fatty acids, vitamins, minerals, and fiber, while also being sustainable to grow because they require less land and water. They also taste great!&#34;">
 
-  <link rel="canonical" href="http://localhost:1313/notes/insect-farming/" />  
+  <link rel="canonical" href="https://blakeruprecht.com/notes/insect-farming/" />  
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
@@ -36,9 +35,6 @@ if (!doNotTrack) {
 </script>
 
 
-
-
-
 </head>
 
 <body>
@@ -46,16 +42,13 @@ if (!doNotTrack) {
 <header class="site-header">
   <nav class="site-nav">
     <div class="logo">
-      <li>
-        <a href="/">Blake Ruprecht</a>
-      </li>
+      <a href="/">Blake Ruprecht</a>
     </div>
 
     <div class="menu-container">
       <ul class="menu">
-        <li><a href="/notes/">notes</a></li>
-        <li><a href="/research/">AI</a></li>
-        <li><a href="/bookshelf/">bookshelf</a></li>
+        <li><a href="/notes/">Notes</a></li>
+        <li><a href="/bookshelf/">Bookshelf</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -70,96 +63,92 @@ if (!doNotTrack) {
 
 
 <script>
-document.querySelector('.menu-toggle').addEventListener('click', function() {
-  document.querySelector('.site-nav').classList.toggle('expanded'); 
-});
-</script>
-
-
-<script>
-  
   document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme');
-    const body = document.body;
-    const themeIcon = document.getElementById("theme-icon");
-
-    if (savedTheme === 'dark') {
-      body.classList.add('dark-mode');
-      themeIcon.classList.remove('fa-sun');
-      themeIcon.classList.add('fa-moon');
-    } else {
-      body.classList.remove('dark-mode');
-      themeIcon.classList.remove('fa-moon');
-      themeIcon.classList.add('fa-sun');
-    }
+    
+    initializeTheme();
+    
+    
+    initializeMenuToggle();
+    
+    
+    initializeActiveLinks();
   });
 
   
-  function toggleTheme() {
+  function initializeTheme() {
+    const savedTheme = localStorage.getItem('theme');
     const body = document.body;
     const themeIcon = document.getElementById("theme-icon");
-
-    if (body.classList.toggle("dark-mode")) {
-      themeIcon.classList.remove("fa-sun"); 
-      themeIcon.classList.add("fa-moon");
-      localStorage.setItem('theme', 'dark'); 
-    } else {
-      themeIcon.classList.remove("fa-moon"); 
-      themeIcon.classList.add("fa-sun");
-      localStorage.setItem('theme', 'light'); 
-    }
+    
+    updateTheme(savedTheme === 'dark');
   }
-</script>
 
+  function toggleTheme() {
+    const isDarkMode = document.body.classList.toggle("dark-mode");
+    updateTheme(isDarkMode);
+  }
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const currentPath = window.location.pathname.replace(/\/$/, ''); 
+  function updateTheme(isDarkMode) {
+    const themeIcon = document.getElementById("theme-icon");
+    themeIcon.classList.remove(isDarkMode ? "fa-sun" : "fa-moon");
+    themeIcon.classList.add(isDarkMode ? "fa-moon" : "fa-sun");
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+  }
+
+  
+  function initializeMenuToggle() {
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('.site-nav').classList.toggle('expanded');
+    });
+  }
+
+  
+  function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');
     const menuItems = document.querySelectorAll('.menu a');
     const logo = document.querySelector('.logo a');
-
-    
     const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
 
-    
     menuItems.forEach(item => {
-        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
-        if (currentPath.startsWith(itemPath)) {
-            item.classList.add('active');
-        }
+      const itemPath = item.getAttribute('href').replace(/\/$/, '');
+      if (currentPath.startsWith(itemPath)) {
+        item.classList.add('active');
+      }
     });
 
-    
     if (homePaths.includes(currentPath)) {
-        logo.classList.add('active');
+      logo.classList.add('active');
     }
-});
+  }
 </script>
 
 <main class="content">
 
-
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
-</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
 <script type="text/javascript">
 window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$']],
-    displayMath: [['$$', '$$']],
-    processEscapes: true
-  }
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
 };
 </script>
 
-<h1>Insect farming</h1>
 
+<article>
+    <header>
+        <h1>Insect farming</h1>
+    </header>
 
-  <aside class="toc">
-    <nav id="TableOfContents"></nav>
-  </aside>
+    
+        <aside class="toc">
+            <nav id="TableOfContents"></nav>
+        </aside>
+    
 
-
-<p>I ate a scorpion in Bangkok and it wasn&rsquo;t good. The outer shell dominated the texture, and the meat tasted vaguely stale. Would not recommend.</p>
+    <div class="post-content">
+        <p>I ate a scorpion in Bangkok and it wasn&rsquo;t good. The outer shell dominated the texture, and the meat tasted vaguely stale. Would not recommend.</p>
 <p>I also ate grasshoppers, crickets, mealworms, and bamboo worms. I liked them all, and liked the mealworms so much I bought them many more times for a crunchy snack. They reminded me of a meatier cheese puff &ndash; salty, crunchy, and airy. The crickets had much more substance to them, but were suprisingly good, with a roasted, fishy flavor. The grasshoppers were huge and intimidating to eat, but I sucked it up and popped them in, and really enjoyed them once I got over the fact that I was eating hairy exoskeleton. At least it was <em>fried</em> exoskeleton. And the crunch made it all worthwhile. A protein chip? Sign me up!</p>
 <p>Turns out, that&rsquo;s not a popular opinion in the United States, but it should be. Insects aren&rsquo;t just delicious, they&rsquo;re a great source of nutrients, just like cow and chicken meat. Many insects are a complete source of protein (meaning they have all 10 essential amino acids), plus they have unsaturated fats (omega-3 and omega-6), vitamins (A, B2, B12), and minerals (Ca, Fe, Mg, Zn, Cu, Mn). Unlike most meat, insects like crickets are also a great source of dietary fiber due to their chitinous shells (which also provide that satisfying crunch when snacking).</p>
 <p>Insects are everywhere. They are by far the most common animals on the planet. Almost 80% of animals alive today are insects, and on average, 1 in every 5 animals is a beetle. Even by weight, these small little guys account for half of the total biomass of animals on earth. There are 10 quintillion insects alive today, or roughly 1.4 billion insects <em>per person</em>.</p>
@@ -167,12 +156,21 @@ window.MathJax = {
 <p>Insects are perfectly safe to grow and eat. They&rsquo;ve been eaten by humans for 30,000 years. The FDA already regulates the production and sale of insects as a food product, so standards are just as high for insects as they are for beef in the US. Of course, just like any meat, insects must be cooked before human consumption because certain species are liable to have chemical, parasitic, microbial, and allergen hazards, but this is nothing new.</p>
 <p>Insect meat can also be turned into a powder if you don&rsquo;t like eating crunchy bugs, maintaining most of the nutritional benefits. They&rsquo;re delicious, sustainable, and nutritious. Support your local cricket farmer, one day, they may end up on your dinner plate, and after the initial surprise, I don&rsquo;t think you&rsquo;ll be disappointed.</p>
 
+    </div>
+</article>
 
 </main>
 
 <footer>
-  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
-
+  <div class="main-links">
+    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="/less">Less</a>
+  </div>
+  <div class="social-links">
+    <a href="mailto:blakecruprecht@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/BlakeRuprecht" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/BlakeRuprecht" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://instagram.com/BlakeRuprecht" title="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
 </footer>
 
 </body>

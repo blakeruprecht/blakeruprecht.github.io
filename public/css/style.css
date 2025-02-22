@@ -1,19 +1,18 @@
-/* ########################################################## */
-/* GLOBAL VARIABLES */
+/* CSS VARIABLES */
 :root {
   /* Light Mode Colors */
-  --fg-color: #333;      /* Text color */
-  --bg-color: #fff;      /* Background color */
-  --mg-color: #777;   /* Miscellaneous color (default) */
-  --ul-color: #777;   /* Underline color */
-  --link-color: #d00;
+  --fg-color: #333;
+  --bg-color: #fff;
+  --mg-color: #666;
+  --red-color: #dd0000;
+  --blue-color: #1874b1;
 
   /* Dark Mode Colors */
-  --dark-fg-color: #ccc; /* Text color for dark mode */
-  --dark-bg-color: #111; /* Background color for dark mode */
-  --dark-mg-color: #888;  /* Miscellaneous color for dark mode */
-  --dark-ul-color: #888;  /* Underline color for dark mode */
-  --dark-link-color: #d00;
+  --dark-fg-color: #ccc;
+  --dark-bg-color: #111;
+  --dark-mg-color: #999;
+  --dark-red-color: #dd0000;
+  --dark-blue-color: #1874b1;
 
   /* Fonts */
   --font-serif: "Georgia", serif;
@@ -21,7 +20,7 @@
   --font-mono: "Hack", mono;
 }
 
-/* BODY */
+/* BASE ELEMENTS */
 body {
   background-color: var(--bg-color);
   color: var(--fg-color);
@@ -32,33 +31,19 @@ body {
   padding: 1rem;
 }
 
-.content {
-  max-width: 38rem;
-  margin: 0 auto;
-}
-
+/* Dark Mode */
 body.dark-mode {
   --fg-color: var(--dark-fg-color);
   --bg-color: var(--dark-bg-color);
   --mg-color: var(--dark-mg-color);
-  --ul-color: var(--dark-ul-color);
   --link-color: var(--dark-link-color);
 }
 
-/* LINKS */
-a {
-  color: var(--fg-color);
-  text-decoration: underline 1px var(--mg-color);
-  border-bottom: none 2px var(--mg-color); /* Using the same variable */
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0 0.5em 0;
 }
 
-a:hover {
-  color: var(--fg-color);
-  text-decoration: underline 2px var(--link-color);
-  border-bottom: none 2px var(--fg-color); /* Color shifts to fg-color on hover */
-}
-
-/* HEADERS */
 h1 {
   font-family: var(--font-serif);
   font-weight: bold;
@@ -72,14 +57,11 @@ h2 {
   font-family: var(--font-sans);
   font-weight: bold;
   font-size: 1.5rem;
-  margin: 1em 0 0.5em 0;
-  padding-bottom: 0.25em;
 }
 
 h3, h4, h5, h6 {
   font-family: var(--font-sans);
   font-weight: bold;
-  margin: 1em 0 0.5em 0;
 }
 
 h3 { font-size: 1.3rem; }
@@ -87,120 +69,68 @@ h4 { font-size: 1.2rem; }
 h5 { font-size: 1.1rem; }
 h6 { font-size: 1rem; }
 
-/* TABLE OF CONTENTS */
-.toc {
-  background: var(--bg-color);
-  padding: 0.75rem;
-  margin: 0.75rem 0;
+p, ul, ol {
+  margin-bottom: 1em;
 }
 
-.toc ul {
-  list-style-type: none;
-  padding-left: 0.5rem;
-  margin: 0.25rem 0;
+/* LINKS */
+a {
+  color: var(--fg-color);
+  text-decoration: underline 1px var(--mg-color);
+  transition: all 0.2s ease;
 }
 
-.toc li {
-  margin: 0.25rem 0;
-  line-height: 1.2;
-  font-family: var(--font-mono);
-}
-
-.toc a {
-  color: var(--mg-color);
-  text-decoration: none;
-  border-bottom: none;
-  transition: color 0.2s ease;
-}
-
-.toc a:hover {
+a:hover {
   color: var(--fg-color);
   text-decoration: underline 2px var(--fg-color);
 }
 
-.toc > ul:first-child {
-  padding-left: 0;
+/* LAYOUT STRUCTURE */
+main {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-/* Style for different heading levels */
-.toc ul ul {
-  margin-left: 0.5rem;
+article header {
+  margin-bottom: 2rem;
 }
 
-/* Optional: Add a title to the TOC */
-.toc::before {
-  content: "Contents";
-  display: block;
-  font-weight: bold;
-  font-family: var(--font-mono);
-  margin-bottom: 0.5rem;
-  color: var(--mg-color);
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  width: 100%;
-  position: relative;
-  bottom: 0;
-  padding-top: 1rem;
-  color: var(--mg-color);
-}
-
-footer a {
-  font-family: var(--font-sans);
-  color: var(--mg-color);
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: var(--fg-color);
-  text-decoration: underline 2px var(--fg-color);
-}
-
-
-/* MISC */
-
-ul, li {
-  margin-bottom: 0.5rem;
-}
-
-time {
-  color: var(--mg-color);
-}
-
-code {
-  color: var(--fg-color);
-  font-family: var(--font-mono);
-  border: solid 1px var(--mg-color);
-}
-
-blockquote {
-  border-left: 1px solid var(--link-color);
-  margin: 0;
-  padding: 0 1em;
-}
-
-hr {
-  border: 1px solid var(--mg-color);
-}
-
+/* IMAGES */
 img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
 }
 
-img[alt=headshot] {
-  width: 250px;
+/* Specific size for headshot */
+img[src="/headshot.jpg"] {
+  max-width: 200px;  /* or whatever size you prefer */
+  border-radius: 50%;  /* optional: makes it circular */
 }
 
-/* ################################################## */
-/* NAVBAR */
+figure {
+  margin: 1em 0;
+  text-align: center;
+}
+
+figcaption {
+  color: var(--mg-color);
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+/* NAVIGATION */
+.site-header {
+  margin-bottom: 2rem;
+}
 
 .site-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem;
+  padding: 0;
 }
 
 .logo {
@@ -213,17 +143,10 @@ img[alt=headshot] {
 
 .logo a {
   font-family: var(--font-sans);
-  color: #1874b1;
-  /*font-variant: small-caps;*/
+  color: var(--blue-color);
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
-  border-bottom: none;
-}
-
-.logo a:hover {
-  color: var(--link-color);
-  text-decoration: underline 2px var(--link-color);
 }
 
 .menu-container {
@@ -243,12 +166,9 @@ img[alt=headshot] {
 
 .menu a {
   font-family: var(--font-sans);
-  font-size: 1em;
   color: var(--mg-color);
-  text-decoration: none;
-  border-bottom: none;
-  text-transform: capitalize;
-  font-variant: none;
+  text-decoration: underline 1px var(--mg-color);
+  transition: all 0.2s ease;
 }
 
 .menu a:hover {
@@ -256,78 +176,49 @@ img[alt=headshot] {
   text-decoration: underline 2px var(--fg-color);
 }
 
+/* Hide menu toggle by default */
+.menu-toggle {
+  display: none;
+}
+
+/* Theme toggle button */
 .toggle-theme {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--mg-color);
   display: flex;
   align-items: center;
-  color: var(--mg-color);
-  border: none;
-  background: none;
-  cursor: pointer;
+  justify-content: center;
+  transition: all 0.2s ease;
 }
 
-.toggle-theme:hover,
-.toggle-theme:focus {
-  color: var(--fg-color); /* Change color on hover/focus */
+.toggle-theme:hover {
+  color: var(--fg-color);
+  text-decoration: underline 2px var(--fg-color);
 }
 
-.menu-toggle {
-  color: var(--mg-color);
-  display: none;
-  border: none;
-  background: none;
-  cursor: pointer;
+/* TABLE OF CONTENTS */
+.toc {
+  background: var(--bg-color);
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+  border-left: 2px solid var(--mg-color);
 }
 
-/* Media query for mobile screens */ 
-@media (max-width: 768px) {
-    .site-nav {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 0;
-      margin: 0;
-    }
+.toc ul {
+  list-style-type: none;
+  padding-left: 0.5rem;
+  margin: 0.25rem 0;
+}
 
-    .logo {
-      align-self: flex-start;
-      padding: 0;
-      margin: 0;
-    }
+.toc li {
+  margin: 0.25rem 0;
+  line-height: 1.2;
+  font-family: var(--font-mono);
+}
 
-    .menu-container {
-    }
-
-    .menu {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      gap: 0;
-      text-align: right;
-    }
-
-    .menu a {
-      text-align: left;
-    }
-
-    .menu-toggle {
-      font-size: 1.5rem;
-      display: flex;
-      cursor: pointer;  
-      align-self: flex-end;   
-      position: absolute;
-      color: var(--mg-color);
-    }
-
-    .site-nav.expanded .menu {
-      display: flex;
-      align-items: left;
-    }
-} 
-
-
-/* ################################################### */
-/* LISTS (MAINLY THE BLOG LIST) */
-
+/* BLOG LIST */
 ul.blog-list {
   list-style-type: none;
   display: flex;
@@ -346,13 +237,99 @@ ul.blog-list span {
   /*flex: 0 2 9rem;*/
 }  
 
-/* #################################################### */
+/* FOOTER */
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 2rem 0;
+  margin-top: 1rem;
+  border-top: 1px solid var(--mg-color);
+  color: var(--mg-color);
+}
+
+footer .main-links {
+  margin-bottom: 1.0rem;
+}
+
+footer .main-links a {
+  color: var(--mg-color);
+  text-decoration: underline 1px var(--mg-color);
+}
+
+footer .main-links a:hover {
+  color: var(--fg-color);
+  text-decoration: underline 2px var(--fg-color);
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+footer .social-links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer .social-links i {
+  font-size: 1.5rem;
+  color: var(--mg-color);
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    main {
+        padding: 0.5rem;
+    }
+
+    .site-header {
+        margin-bottom: 1rem;
+    }
+
+    .site-nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+    /* Show menu toggle in mobile view */
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+    }
+
+    .site-nav.expanded .menu {
+        display: flex;
+    }
+} 
+
+/* FONT FACES */
 /* Hack Font */
 @font-face {
-  font-family: Hack;
-  font-style: normal;
-  font-weight: normal;
-  src: url("/fonts/Hack-Regular.ttf") format("truetype");
+    font-family: Hack;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/Hack-Regular.ttf") format("truetype");
 }
 
 @font-face {

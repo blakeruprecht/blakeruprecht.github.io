@@ -1,25 +1,20 @@
 {{ partial "header.html" . }}
+{{ partial "mathjax.html" . }}
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
-</script>
-<script type="text/javascript">
-window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$']],
-    displayMath: [['$$', '$$']],
-    processEscapes: true
-  }
-};
-</script>
+<article>
+    <header>
+        <h1>{{ .Title }}</h1>
+    </header>
 
-<h1>{{ .Title }}</h1>
+    {{ if or (default true .Params.toc) (default true .Site.Params.blog.toc) }}
+        <aside class="toc">
+            {{ .TableOfContents }}
+        </aside>
+    {{ end }}
 
-{{ if or (default true .Params.toc) (default true .Site.Params.blog.toc) }}
-  <aside class="toc">
-    {{ .TableOfContents }}
-  </aside>
-{{ end }}
-
-{{ .Content | replaceRE "\\[\\[([^/]+)\\]\\]" "<a href=\"${1}.html\">$1</a>" | safeHTML }}
+    <div class="post-content">
+        {{ .Content | replaceRE "\\[\\[([^/]+)\\]\\]" "<a href=\"${1}.html\">$1</a>" | safeHTML }}
+    </div>
+</article>
 
 {{ partial "footer.html" . }}

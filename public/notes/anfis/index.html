@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   <meta charset="UTF-8" />
   
@@ -15,11 +15,10 @@
 
   <meta name="description" content="&#34;The Adaptive Neuro Fuzzy Inference System (ANFIS) suffers from dead, zero, and non-changing gradients during neural network style machine learning.&#34;">
 
-  <link rel="canonical" href="http://localhost:1313/notes/anfis/" />  
+  <link rel="canonical" href="https://blakeruprecht.com/notes/anfis/" />  
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
@@ -36,9 +35,6 @@ if (!doNotTrack) {
 </script>
 
 
-
-
-
 </head>
 
 <body>
@@ -46,16 +42,13 @@ if (!doNotTrack) {
 <header class="site-header">
   <nav class="site-nav">
     <div class="logo">
-      <li>
-        <a href="/">Blake Ruprecht</a>
-      </li>
+      <a href="/">Blake Ruprecht</a>
     </div>
 
     <div class="menu-container">
       <ul class="menu">
-        <li><a href="/notes/">notes</a></li>
-        <li><a href="/research/">AI</a></li>
-        <li><a href="/bookshelf/">bookshelf</a></li>
+        <li><a href="/notes/">Notes</a></li>
+        <li><a href="/bookshelf/">Bookshelf</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -70,92 +63,87 @@ if (!doNotTrack) {
 
 
 <script>
-document.querySelector('.menu-toggle').addEventListener('click', function() {
-  document.querySelector('.site-nav').classList.toggle('expanded'); 
-});
-</script>
-
-
-<script>
-  
   document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme');
-    const body = document.body;
-    const themeIcon = document.getElementById("theme-icon");
-
-    if (savedTheme === 'dark') {
-      body.classList.add('dark-mode');
-      themeIcon.classList.remove('fa-sun');
-      themeIcon.classList.add('fa-moon');
-    } else {
-      body.classList.remove('dark-mode');
-      themeIcon.classList.remove('fa-moon');
-      themeIcon.classList.add('fa-sun');
-    }
+    
+    initializeTheme();
+    
+    
+    initializeMenuToggle();
+    
+    
+    initializeActiveLinks();
   });
 
   
-  function toggleTheme() {
+  function initializeTheme() {
+    const savedTheme = localStorage.getItem('theme');
     const body = document.body;
     const themeIcon = document.getElementById("theme-icon");
-
-    if (body.classList.toggle("dark-mode")) {
-      themeIcon.classList.remove("fa-sun"); 
-      themeIcon.classList.add("fa-moon");
-      localStorage.setItem('theme', 'dark'); 
-    } else {
-      themeIcon.classList.remove("fa-moon"); 
-      themeIcon.classList.add("fa-sun");
-      localStorage.setItem('theme', 'light'); 
-    }
+    
+    updateTheme(savedTheme === 'dark');
   }
-</script>
 
+  function toggleTheme() {
+    const isDarkMode = document.body.classList.toggle("dark-mode");
+    updateTheme(isDarkMode);
+  }
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const currentPath = window.location.pathname.replace(/\/$/, ''); 
+  function updateTheme(isDarkMode) {
+    const themeIcon = document.getElementById("theme-icon");
+    themeIcon.classList.remove(isDarkMode ? "fa-sun" : "fa-moon");
+    themeIcon.classList.add(isDarkMode ? "fa-moon" : "fa-sun");
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+  }
+
+  
+  function initializeMenuToggle() {
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('.site-nav').classList.toggle('expanded');
+    });
+  }
+
+  
+  function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');
     const menuItems = document.querySelectorAll('.menu a');
     const logo = document.querySelector('.logo a');
-
-    
     const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
 
-    
     menuItems.forEach(item => {
-        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
-        if (currentPath.startsWith(itemPath)) {
-            item.classList.add('active');
-        }
+      const itemPath = item.getAttribute('href').replace(/\/$/, '');
+      if (currentPath.startsWith(itemPath)) {
+        item.classList.add('active');
+      }
     });
 
-    
     if (homePaths.includes(currentPath)) {
-        logo.classList.add('active');
+      logo.classList.add('active');
     }
-});
+  }
 </script>
 
 <main class="content">
 
-
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
-</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
 <script type="text/javascript">
 window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$']],
-    displayMath: [['$$', '$$']],
-    processEscapes: true
-  }
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
 };
 </script>
 
-<h1>ANFIS has gradient problems</h1>
 
+<article>
+    <header>
+        <h1>ANFIS has gradient problems</h1>
+    </header>
 
-  <aside class="toc">
-    <nav id="TableOfContents">
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
   <ul>
     <li><a href="#its-a-neural-network-that-incorporates-fuzzy-sets">It&rsquo;s a Neural Network that incorporates Fuzzy Sets</a></li>
     <li><a href="#its-only-three-equations">It&rsquo;s only three equations</a></li>
@@ -163,10 +151,11 @@ window.MathJax = {
     <li><a href="#gradient-problems">Gradient Problems</a></li>
   </ul>
 </nav>
-  </aside>
+        </aside>
+    
 
-
-<h2 id="its-a-neural-network-that-incorporates-fuzzy-sets">It&rsquo;s a Neural Network that incorporates Fuzzy Sets</h2>
+    <div class="post-content">
+        <h2 id="its-a-neural-network-that-incorporates-fuzzy-sets">It&rsquo;s a Neural Network that incorporates Fuzzy Sets</h2>
 <p>The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in <a href="python-install.md">Python</a>, specifically utilizing the <a href="/python-scipy">PyTorch</a> package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn&rsquo;t you know it, PyTorch knows what it&rsquo;s doing.</p>
 <p>ANFIS is a type of artificial <a href="neural-network.md">neural network</a> that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of <a href="multilayer-perceptron.md">multilayer perceptrons</a>. Similar to a typical neural network, the input, $x_n(k)$, is a vector of scalars of length $n$ with features $k$.</p>
 <h2 id="its-only-three-equations">It&rsquo;s only three equations</h2>
@@ -200,12 +189,21 @@ $$e = \frac{1}{2}(\hat{y} - y)^2$$
 <li><em>Note</em>: It always feels nice to be recognized for your work, especially by such as esteemed blogger as yourself.</li>
 </ul>
 
+    </div>
+</article>
 
 </main>
 
 <footer>
-  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
-
+  <div class="main-links">
+    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="/less">Less</a>
+  </div>
+  <div class="social-links">
+    <a href="mailto:blakecruprecht@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/BlakeRuprecht" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/BlakeRuprecht" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://instagram.com/BlakeRuprecht" title="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
 </footer>
 
 </body>

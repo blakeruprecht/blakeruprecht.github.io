@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   <meta charset="UTF-8" />
   
@@ -15,11 +15,10 @@
 
   <meta name="description" content="&#34;Machines learn by correlating input to output. In supervised learning, this output is an array of numbers. In unsupervised learning, this output is a group of sets. In reinforcement learning, this output is one reward value and tons of negative rewards.&#34;">
 
-  <link rel="canonical" href="http://localhost:1313/notes/ml-paradigms/" />  
+  <link rel="canonical" href="https://blakeruprecht.com/notes/ml-paradigms/" />  
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
@@ -36,9 +35,6 @@ if (!doNotTrack) {
 </script>
 
 
-
-
-
 </head>
 
 <body>
@@ -46,16 +42,13 @@ if (!doNotTrack) {
 <header class="site-header">
   <nav class="site-nav">
     <div class="logo">
-      <li>
-        <a href="/">Blake Ruprecht</a>
-      </li>
+      <a href="/">Blake Ruprecht</a>
     </div>
 
     <div class="menu-container">
       <ul class="menu">
-        <li><a href="/notes/">notes</a></li>
-        <li><a href="/research/">AI</a></li>
-        <li><a href="/bookshelf/">bookshelf</a></li>
+        <li><a href="/notes/">Notes</a></li>
+        <li><a href="/bookshelf/">Bookshelf</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -70,92 +63,87 @@ if (!doNotTrack) {
 
 
 <script>
-document.querySelector('.menu-toggle').addEventListener('click', function() {
-  document.querySelector('.site-nav').classList.toggle('expanded'); 
-});
-</script>
-
-
-<script>
-  
   document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme');
-    const body = document.body;
-    const themeIcon = document.getElementById("theme-icon");
-
-    if (savedTheme === 'dark') {
-      body.classList.add('dark-mode');
-      themeIcon.classList.remove('fa-sun');
-      themeIcon.classList.add('fa-moon');
-    } else {
-      body.classList.remove('dark-mode');
-      themeIcon.classList.remove('fa-moon');
-      themeIcon.classList.add('fa-sun');
-    }
+    
+    initializeTheme();
+    
+    
+    initializeMenuToggle();
+    
+    
+    initializeActiveLinks();
   });
 
   
-  function toggleTheme() {
+  function initializeTheme() {
+    const savedTheme = localStorage.getItem('theme');
     const body = document.body;
     const themeIcon = document.getElementById("theme-icon");
-
-    if (body.classList.toggle("dark-mode")) {
-      themeIcon.classList.remove("fa-sun"); 
-      themeIcon.classList.add("fa-moon");
-      localStorage.setItem('theme', 'dark'); 
-    } else {
-      themeIcon.classList.remove("fa-moon"); 
-      themeIcon.classList.add("fa-sun");
-      localStorage.setItem('theme', 'light'); 
-    }
+    
+    updateTheme(savedTheme === 'dark');
   }
-</script>
 
+  function toggleTheme() {
+    const isDarkMode = document.body.classList.toggle("dark-mode");
+    updateTheme(isDarkMode);
+  }
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const currentPath = window.location.pathname.replace(/\/$/, ''); 
+  function updateTheme(isDarkMode) {
+    const themeIcon = document.getElementById("theme-icon");
+    themeIcon.classList.remove(isDarkMode ? "fa-sun" : "fa-moon");
+    themeIcon.classList.add(isDarkMode ? "fa-moon" : "fa-sun");
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+  }
+
+  
+  function initializeMenuToggle() {
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('.site-nav').classList.toggle('expanded');
+    });
+  }
+
+  
+  function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');
     const menuItems = document.querySelectorAll('.menu a');
     const logo = document.querySelector('.logo a');
-
-    
     const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
 
-    
     menuItems.forEach(item => {
-        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
-        if (currentPath.startsWith(itemPath)) {
-            item.classList.add('active');
-        }
+      const itemPath = item.getAttribute('href').replace(/\/$/, '');
+      if (currentPath.startsWith(itemPath)) {
+        item.classList.add('active');
+      }
     });
 
-    
     if (homePaths.includes(currentPath)) {
-        logo.classList.add('active');
+      logo.classList.add('active');
     }
-});
+  }
 </script>
 
 <main class="content">
 
-
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
-</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
 <script type="text/javascript">
 window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$']],
-    displayMath: [['$$', '$$']],
-    processEscapes: true
-  }
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
 };
 </script>
 
-<h1>Machine Learning paradigms</h1>
 
+<article>
+    <header>
+        <h1>Machine Learning paradigms</h1>
+    </header>
 
-  <aside class="toc">
-    <nav id="TableOfContents">
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
   <ul>
     <li><a href="#supervised-learning-sl">Supervised Learning (SL)</a></li>
     <li><a href="#unsupervised-learning-ul">Unsupervised Learning (UL)</a></li>
@@ -163,10 +151,11 @@ window.MathJax = {
     <li><a href="#reinforcement-learning-rl">Reinforcement Learning (RL)</a></li>
   </ul>
 </nav>
-  </aside>
+        </aside>
+    
 
-
-<p>At the highest level, machines learn very similarly to how humans learn. Data is given to the <a href="neural-network.md">neural network</a>, and then the robot does some calculations and tests it&rsquo;s performance against the environment.</p>
+    <div class="post-content">
+        <p>At the highest level, machines learn very similarly to how humans learn. Data is given to the <a href="neural-network.md">neural network</a>, and then the robot does some calculations and tests it&rsquo;s performance against the environment.</p>
 <h2 id="supervised-learning-sl">Supervised Learning (SL)</h2>
 <p>Data comes with labels. The network makes an initial random guess at what the labels should be. Then, it compares the guesses to the actual labels, and determines how off it was (total error). It updates the network according to this error. If it&rsquo;s really wrong, it updates a lot; similarly, if it&rsquo;s close, not so much update. Every time it makes a guess, it updates the network. Well, roughly, but that&rsquo;s TMI.</p>
 <p>The network in times learns correlations between the data and the labels. This is why NNs are statistical in nature &ndash; they&rsquo;re just making guesses based on averages. The more data, the better. It works pretty well if you actually cover all of the possible scenarios with your data and labels. Otherwise, expect a lot of false positives (FP) and false negatives (FN).</p>
@@ -193,12 +182,21 @@ window.MathJax = {
 <p>A technique to learn an approximation of an optimal policy to achieve rewards in a game environment. The environment is a game, which basically just means a subset of the universe, which includes states that can change over time. We have a robot in the environment, and it can perform actions to change the state of the environment. Eventually, some states in the environment can be defined as a &ldquo;reward&rdquo;. The whole point of RL is to find some policy that maps states and actions to figure out how to get more reward by being in the &ldquo;reward state&rdquo; as much as possible.</p>
 <p>For example, if you train a robot to play basketball, you can reward it only after it successfully plays a game and wins (robot score &gt; opponent score). The robot will probably lose a thousand times first, and most likely will only win by random chance, but hey, that&rsquo;s how most of us get our first wins in anything.</p>
 
+    </div>
+</article>
 
 </main>
 
 <footer>
-  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
-
+  <div class="main-links">
+    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="/less">Less</a>
+  </div>
+  <div class="social-links">
+    <a href="mailto:blakecruprecht@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/BlakeRuprecht" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/BlakeRuprecht" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://instagram.com/BlakeRuprecht" title="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
 </footer>
 
 </body>

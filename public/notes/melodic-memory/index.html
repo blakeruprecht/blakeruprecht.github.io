@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   <meta charset="UTF-8" />
   
@@ -15,11 +15,10 @@
 
   <meta name="description" content="&#34;Some musings on different songs that take me back to vivid memories.&#34;">
 
-  <link rel="canonical" href="http://localhost:1313/notes/melodic-memory/" />  
+  <link rel="canonical" href="https://blakeruprecht.com/notes/melodic-memory/" />  
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
@@ -36,9 +35,6 @@ if (!doNotTrack) {
 </script>
 
 
-
-
-
 </head>
 
 <body>
@@ -46,16 +42,13 @@ if (!doNotTrack) {
 <header class="site-header">
   <nav class="site-nav">
     <div class="logo">
-      <li>
-        <a href="/">Blake Ruprecht</a>
-      </li>
+      <a href="/">Blake Ruprecht</a>
     </div>
 
     <div class="menu-container">
       <ul class="menu">
-        <li><a href="/notes/">notes</a></li>
-        <li><a href="/research/">AI</a></li>
-        <li><a href="/bookshelf/">bookshelf</a></li>
+        <li><a href="/notes/">Notes</a></li>
+        <li><a href="/bookshelf/">Bookshelf</a></li>
         <li>
           <button class="toggle-theme" onclick="toggleTheme()">
             <i id="theme-icon" class="fa fa-sun"></i>
@@ -70,92 +63,87 @@ if (!doNotTrack) {
 
 
 <script>
-document.querySelector('.menu-toggle').addEventListener('click', function() {
-  document.querySelector('.site-nav').classList.toggle('expanded'); 
-});
-</script>
-
-
-<script>
-  
   document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme');
-    const body = document.body;
-    const themeIcon = document.getElementById("theme-icon");
-
-    if (savedTheme === 'dark') {
-      body.classList.add('dark-mode');
-      themeIcon.classList.remove('fa-sun');
-      themeIcon.classList.add('fa-moon');
-    } else {
-      body.classList.remove('dark-mode');
-      themeIcon.classList.remove('fa-moon');
-      themeIcon.classList.add('fa-sun');
-    }
+    
+    initializeTheme();
+    
+    
+    initializeMenuToggle();
+    
+    
+    initializeActiveLinks();
   });
 
   
-  function toggleTheme() {
+  function initializeTheme() {
+    const savedTheme = localStorage.getItem('theme');
     const body = document.body;
     const themeIcon = document.getElementById("theme-icon");
-
-    if (body.classList.toggle("dark-mode")) {
-      themeIcon.classList.remove("fa-sun"); 
-      themeIcon.classList.add("fa-moon");
-      localStorage.setItem('theme', 'dark'); 
-    } else {
-      themeIcon.classList.remove("fa-moon"); 
-      themeIcon.classList.add("fa-sun");
-      localStorage.setItem('theme', 'light'); 
-    }
+    
+    updateTheme(savedTheme === 'dark');
   }
-</script>
 
+  function toggleTheme() {
+    const isDarkMode = document.body.classList.toggle("dark-mode");
+    updateTheme(isDarkMode);
+  }
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const currentPath = window.location.pathname.replace(/\/$/, ''); 
+  function updateTheme(isDarkMode) {
+    const themeIcon = document.getElementById("theme-icon");
+    themeIcon.classList.remove(isDarkMode ? "fa-sun" : "fa-moon");
+    themeIcon.classList.add(isDarkMode ? "fa-moon" : "fa-sun");
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+  }
+
+  
+  function initializeMenuToggle() {
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('.site-nav').classList.toggle('expanded');
+    });
+  }
+
+  
+  function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');
     const menuItems = document.querySelectorAll('.menu a');
     const logo = document.querySelector('.logo a');
-
-    
     const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
 
-    
     menuItems.forEach(item => {
-        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
-        if (currentPath.startsWith(itemPath)) {
-            item.classList.add('active');
-        }
+      const itemPath = item.getAttribute('href').replace(/\/$/, '');
+      if (currentPath.startsWith(itemPath)) {
+        item.classList.add('active');
+      }
     });
 
-    
     if (homePaths.includes(currentPath)) {
-        logo.classList.add('active');
+      logo.classList.add('active');
     }
-});
+  }
 </script>
 
 <main class="content">
 
-
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
-</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
 <script type="text/javascript">
 window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$']],
-    displayMath: [['$$', '$$']],
-    processEscapes: true
-  }
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
 };
 </script>
 
-<h1>My memories are stored in melodies</h1>
 
+<article>
+    <header>
+        <h1>My memories are stored in melodies</h1>
+    </header>
 
-  <aside class="toc">
-    <nav id="TableOfContents">
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
   <ul>
     <li><a href="#somewhere-in-the-middle">Somewhere in the Middle</a></li>
     <li><a href="#sleep-on-the-floor">Sleep on the Floor</a></li>
@@ -164,10 +152,11 @@ window.MathJax = {
     <li><a href="#crossroad">Crossroad</a></li>
   </ul>
 </nav>
-  </aside>
+        </aside>
+    
 
-
-<p>The greatest distance between two places is through time. When I listen to music, occasionally a song will play that instantly transports me back to a specific moment in time, filling me with vivid memories of a moment I&rsquo;ll never forget. When I play through these songs, I relive moments like they just happened.</p>
+    <div class="post-content">
+        <p>The greatest distance between two places is through time. When I listen to music, occasionally a song will play that instantly transports me back to a specific moment in time, filling me with vivid memories of a moment I&rsquo;ll never forget. When I play through these songs, I relive moments like they just happened.</p>
 <h2 id="somewhere-in-the-middle">Somewhere in the Middle</h2>
 <p>One moment, it&rsquo;s a hot and humid day somewhere in the middle of a damp Missouri summer. I&rsquo;m driving in my silver sports car, shifting gears, and blasting down a windy back road. Lush greenery towers overhead, filtering sunlight randomly down to my open windows. A modern day Jack Keruoac belts over the speakers in the small cockpit, drowning out wind noise with musings about wandering around, never really fitting in anywhere. I&rsquo;m restless. As beautiful as this place is, I can&rsquo;t help but peer around the next corner, wondering what&rsquo;s waiting for me around the next bend. The call of the wild is too strong. I can&rsquo;t stay in this town forever. My heart always wins on these matters, and besides, reverse is the slowest gear on this car. New plans have been swirling around in my head, tempting me with visions of unexplored places, people, and oppportunities. For now, I&rsquo;m here, but I can&rsquo;t help but feel like I&rsquo;m already moving there. I&rsquo;ve driven this car long enough to know that the best option is to hit the accelerator.</p>
 <h2 id="sleep-on-the-floor">Sleep on the Floor</h2>
@@ -179,12 +168,21 @@ window.MathJax = {
 <h2 id="crossroad">Crossroad</h2>
 <p>(WIP)</p>
 
+    </div>
+</article>
 
 </main>
 
 <footer>
-  <a href="/notes">more</a> :: <a href="/">home</a> :: <a href="/less">less</a>
-
+  <div class="main-links">
+    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="/less">Less</a>
+  </div>
+  <div class="social-links">
+    <a href="mailto:blakecruprecht@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/BlakeRuprecht" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/BlakeRuprecht" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://instagram.com/BlakeRuprecht" title="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
 </footer>
 
 </body>
