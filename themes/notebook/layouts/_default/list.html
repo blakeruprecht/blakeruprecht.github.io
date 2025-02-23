@@ -1,22 +1,11 @@
 {{ partial "header.html" . }}
-
 {{ .Content }}
-
+<ul class="blog-list">
 {{ range.Data.Pages }}
-
-<article class="post-snippet">
-  <ul class="blog-list">
-    <span>
-      <i>
-        <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
-          {{ .Date.Format "2006-01-02" }}
-        </time>
-      </i>
-    </span>
+  <li>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </ul>
-</article>
-
+    <span>{{ .Date.Format "2006.01.02" }}</span>
+  </li>
 {{ end }}
-
+</ul>
 {{ partial "footer.html" . }}

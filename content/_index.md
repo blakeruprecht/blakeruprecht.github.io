@@ -4,22 +4,15 @@ date: 2023-07-24T15:29:23-04:00
 description: "I'm Blake, I write about A.I., open-source science, and nature."
 ---
 
-# Welcome!
+# About
 
-{{< figure 
+<!-- {{< figure 
   src="/headshot.jpg" 
   alt="headshot" 
->}}
+>}} -->
 
-Some samples of my writing can be found in the [notes](/notes) section of this website, which includes [some](/notes/build-your-own-computer) [samples](/notes/insect-farming) [of](/notes/python) [content](/notes/growth-mindset) writing across domains and a lot of notes about AI/computers.
+I am a writer and computer scientist based in Colorado. I'm broadly interested in science, history, artificial intelligence, simple living, and staying human in an increasingly machine world.
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+Since high school, I've earned my BSc in Mechanical Engineering, my MSc in Computer Science (both from Mizzou). I've worked as a Digital Marketer, AI Researcher, and Freelance Writer.
+
+Contact me through [Email](mailto:blakecruprecht@gmail.com), [Linkedin](https://linkedin.com/in/BlakeRuprecht), [Github](https://github.com/blakeruprecht).

@@ -2,6 +2,7 @@
   <nav class="site-nav">
     <div class="logo">
       <a href="/">{{ .Site.Title }}</a>
+      <!-- <a href="/">About</a> -->
     </div>
     <div class="menu-container">
       <ul class="menu">
@@ -26,20 +27,20 @@
  }
  
  function initializeActiveLinks() {
-   const currentPath = window.location.pathname.replace(/\/$/, '');
-   const menuItems = document.querySelectorAll('.menu a');
-   const logo = document.querySelector('.logo a');
-   const homePaths = ['/', '/index.html', '/home.html', '/default.html'];
-   
-   menuItems.forEach(item => {
-     const itemPath = item.getAttribute('href').replace(/\/$/, '');
-     if (currentPath.startsWith(itemPath)) {
-       item.classList.add('active');
-     }
-   });
-   
-   if (homePaths.includes(currentPath)) {
-     logo.classList.add('active');
-   }
- }
+    const currentPath = window.location.pathname.replace(/\/$/, '');  // Fixed regex
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  // Fixed regex
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
  </script>
