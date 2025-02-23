@@ -61,13 +61,17 @@ p, ul, ol {
 /* LINKS */
 a {
   color: var(--fg-color);
-  text-decoration: underline 1px var(--fg-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--mg-color);
   transition: all 0.2s ease;
 }
 
 a:hover {
   color: var(--blue-color);
-  text-decoration: underline 2px var(--blue-color);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--fg-color);
 }
 
 /* LAYOUT STRUCTURE */
