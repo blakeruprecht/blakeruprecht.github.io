@@ -3,34 +3,58 @@ date: 2024-03-29
 title: My quest for the perfect bowl of Noodle Soup
 description: "\"I've craved the perfect bowl of noodle soup since I saw Kung Fu Panda as a kid, and it took going halfway around the world and then returning to my hometown to realize what that dish is. Now that I know, it's my cooking quest to learn how to make it.\""
 ---
+
 Holy shit, it's all coming together. After watching *Kung Fu Panda* as a kid, I've been craving a delicious Asian nooodle-soup dish. Instant ramen is a good solution for $1 and a heart attack, but I want something fresh, wholesome, and delicious. Before this journey, ramen never did it for me, and other dishes like Pad Thai and Lo Mein just didn't hit the spot.
 
 I never liked Thai food, and I'm a serious food explorer. I force myself to like everything, which has paid off in spades over the years, but I just couldn't get over the black licorice taste of Thai basil. Then I found myself in Thailand and Laos for 64 days, and it was really a "sink or swim" flavor experience. Eating fresh street food helped me gain an appreciation for all of the flavors Thai cuisine has to offer. I started off with many dishes of Pad Thai, but quickly realized that Thailand has much more to offer than boring peanut noodles. Here's the journey, in brief.
 
+{{< figure 
+ src="/khao-soi.jpg" 
+ caption="*Khao Soi* from Chaing Mai, Thailand." 
+ alt="Khao Soi from" 
+>}}
 
-![Khao Soi from ](/khao-soi.jpg)
-*Khao Soi* from any place in Chaing Mai, Thailand. After eating delicious chicken noodle soup and lots of Pad Thai in Bangkok, my sister and I traveled north to Chaing Mai, a college town very similar to my own, Columbia, MO. I fell in love with their famous dish, Khao Soi, which is all over the place, and every single version was great. It's a chicken coconut curry noodle soup, and while that may sound like a lot going on, it's perfectly balanced and freakishly delicious. I'd never really enjoyed ramen before, but this dish showed how good a noodle soup could be. 
+After eating delicious chicken noodle soup and lots of Pad Thai in Bangkok, my sister and I traveled north to Chaing Mai, a college town very similar to my own, Columbia, MO. I fell in love with their famous dish, Khao Soi, which is all over the place, and every single version was great. It's a chicken coconut curry noodle soup, and while that may sound like a lot going on, it's perfectly balanced and freakishly delicious. I'd never really enjoyed ramen before, but this dish showed how good a noodle soup could be.
 
+{{< figure 
+ src="/pad-kra-pao.jpg" 
+ caption="*Pad Kra Pao*, homemade by my friend James." 
+ alt="The dish my friend at Pak Up taught me to make." 
+>}}
 
-![The dish my friend at Pak Up taught me to make.](/pad-kra-pao.jpg)
-*Pad Kra Pao*, homemade by my friend James. This is a delicious stir fry of minced pork, Thai holy basil, red chilis, and a fishy sauce served on rice. Yes, after eating enough Thai food, I came to love their basil, and this dish really exemplifies the "holy basil" name. My friend at *Pak Up Hostel* (100% recommend) taught me how to make it. It's a surprisingly simple recipe that packs a serious flavor punch. I loved it almost everywhere I got it, but the homemade version was hands-down the best.
+This is a delicious stir fry of minced pork, Thai holy basil, red chilis, and a fishy sauce served on rice. Yes, after eating enough Thai food, I came to love their basil, and this dish really exemplifies the "holy basil" name. My friend at *Pak Up Hostel* (100% recommend) taught me how to make it. It's a surprisingly simple recipe that packs a serious flavor punch. I loved it almost everywhere I got it, but the homemade version was hands-down the best.
 
+{{< figure 
+ src="/fried-mussels.png" 
+ caption="*Mussel Stir Fry* from the Krabi City Night Market." 
+ alt="The stand that sold fried mussels." 
+>}}
 
-![The stand that sold fried mussels.](/fried-mussels.png)
-*Mussel Stir Fry* from a small stand in the Krabi City Night Market, Thailand. The stand only sold two things: Pad Thai, which was the best version I had in all of Thailand, and another dish that included stir fried eggs and fried mussels, which I only ever saw at this one place. I don't really know what mussels are, and I don't care, this was the best tasting stir fry I've ever had. Whatever this chef is doing, he's doing it all right.
+The stand only sold two things: Pad Thai, which was the best version I had in all of Thailand, and another dish that included stir fried eggs and fried mussels, which I only ever saw at this one place. I don't really know what mussels are, and I don't care, this was the best tasting stir fry I've ever had. Whatever this chef is doing, he's doing it all right.
 
+{{< figure 
+ src="/pork-noodles.jpg" 
+ caption="*Szechuan-Thai Pork Stew* from Easy Cafe in Krabi." 
+ alt="The Sichuan Pork Noodles from Easy Cafe in Krabi" 
+>}}
 
-![The Sichuan Pork Noodles from Easy Cafe in Krabi](/pork-noodles.jpg)
-*Szechuan-Thai Pork Stew* from Easy Cafe in Krabi, Thailand. became the gold standard of curries. I found a place in Krabi called *Easy Cafe* that served this dish, which consisted of thick wheat noodles, almost like udon, served alongside a pork curry with a dark red Sichuan sauce. This started my hunt for more Sichuan flavors, which really felt like the missing ingredient in Thai food. This gravy combined Thai flavors with Sichuan peppercorns and Indian-style sauce, which reminded me of home. I loved it, but couldn't find it anywhere else.
+This became the gold standard of curries. I found a place in Krabi called *Easy Cafe* that served this dish, which consisted of thick wheat noodles, almost like udon, served alongside a pork curry with a dark red Sichuan sauce. This started my hunt for more Sichuan flavors, which really felt like the missing ingredient in Thai food. This gravy combined Thai flavors with Sichuan peppercorns and Indian-style sauce, which reminded me of home. I loved it, but couldn't find it anywhere else.
 
+{{< figure 
+ src="/sichuan-ramen.jpg" 
+ caption="*Mala Ramen* from Noodle Station in Luang Prabang, Laos." 
+ alt="Sichuan ramen from a stall at the Luang Prabang night market" 
+>}}
 
-![Sichuan ramen from a stall at the Luang Prabang night market](/sichuan-ramen.jpg)
+This is the dish I have taken back with me in my heart. I want to eat it everyday, which is what I did after discovery, eating it 10 times in the eight-days I was around. I found a [video](https://www.youtube.com/watch?v=UOrtUFHEWcE) of the night market stand. I asked the owner for his recipe, and all he did was laugh and say it was made with "love", and by god he is right. What's in ramen? I have no idea, but this soup was umami, salty, savory, with a punch of spice, and my favorite, Szechuan/Sichuan peppercorns for that tingly feeling. The pork wasn't even that good in here, but the broth and noodles more than made up for it. After eating this, the light bulb for ramen went off in my head -- I get it now.
 
-*Mala Ramen* from Noodle Station in Luang Prabang, Laos. This is the dish I have taken back with me in my heart. I want to eat it everyday, which is what I did after discovery, eating it 10 times in the eight-days I was around. I found a [video](https://www.youtube.com/watch?v=UOrtUFHEWcE) of the night market stand. I asked the owner for his recipe, and all he did was laugh and say it was made with "love", and by god he is right. What's in ramen? I have no idea, but this soup was umami, salty, savory, with a punch of spice, and my favorite, Szechuan/Sichuan peppercorns for that tingly feeling. The pork wasn't even that good in here, but the broth and noodles more than made up for it. After eating this, the light bulb for ramen went off in my head -- I get it now.
+{{< figure 
+ src="/menya-rui.jpeg" 
+ caption="*Tantanmen Ramen* from Menya Rui in St. Louis." 
+ alt="Tantanmen ramen from Menya Rui" 
+>}}
 
-![Tantanmen ramen from Menya Rui](/menya-rui.jpeg)
-
-*Tantanmen Ramen* from [Menya Rui](https://www.menyarui.com/) in St. Louis, MO. One of the all time best dishes I've ever had. After standing in line for 2.5 hours in the middle of Missouri winter, I took one bite and was instantly transported back to the 95 degree swamp heat of Laos. Except this version was even better (at 10x the price). Time seemed to stop ticking as I slurped up the noodles and soup. It doesn't say it on the menu, but this dish also had Sichuan peppercorns. Menya Rui is ridiculous. A hole in the wall ramen shop seemingly imported from Japan, with the red lanterns and paper walls to match, situated in a random strip mall in the St. Louis suburbs. Ten months after traveling around the world, I find the best noodle soup ever in my own backyard. Isn't that just the way? 
+One of the all time best dishes I've ever had. After standing in line for 2.5 hours in the middle of Missouri winter, I took one bite and was instantly transported back to the 95 degree swamp heat of Laos. Except this version was even better (at 10x the price). Time seemed to stop ticking as I slurped up the noodles and soup. It doesn't say it on the menu, but this dish also had Sichuan peppercorns. Menya Rui is ridiculous. A hole in the wall ramen shop seemingly imported from Japan, with the red lanterns and paper walls to match, situated in a random strip mall in the St. Louis suburbs. Ten months after traveling around the world, I find the best noodle soup ever in my own backyard. Isn't that just the way?
 
 ## Do it myself
 So I found it, at least until I try Pho and reevalute. But for now, it's Tantanmen Ramen, and I just need to learn how to make it. Luckily for me, ramen is one of the hardest dishes to make, so this shouldn't be easy.
@@ -83,4 +107,3 @@ Many different **toppings** can be added to ramen, this is the least important p
 
 ## Tantanmen Ramen attempts
 (WIP)
-

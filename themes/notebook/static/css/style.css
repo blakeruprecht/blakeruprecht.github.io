@@ -1,11 +1,12 @@
 /* CSS VARIABLES */
 :root {
-  /* Light Mode Colors */
+  /* Colors */
   --fg-color: #333;
   --bg-color: #fff;
   --mg-color: #666;
-  --red-color: #dd0000;
+  --red-color: #f5000b;
   --blue-color: #1874b1;
+  --border-color: #66666626;
   
   /* Fonts */
   --font-serif: "Georgia", serif;
@@ -19,8 +20,7 @@
     --fg-color: #ccc;
     --bg-color: #111;
     --mg-color: #999;
-    --red-color: #dd0000;
-    --blue-color: #1874b1;
+    --border-color: #99999926;
   }
 }
 
@@ -37,59 +37,48 @@ body {
 
 /* TYPOGRAPHY */
 h1, h2, h3, h4, h5, h6 {
-  margin: 1em 0 0.5em 0;
+  margin: 2em 0 1em 0;
+  font-family: var(--font-sans);
+  font-weight: bold;
 }
 
 h1 {
   font-family: var(--font-serif);
-  font-weight: bold;
   font-size: 2rem;
-  line-height: 1.5em;
-  margin: 1em 0 0.5em 0;
-  padding-bottom: 0.25em;
+  margin-top: 1em;
 }
 
-h2 {
-  font-family: var(--font-sans);
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-h3, h4, h5, h6 {
-  font-family: var(--font-sans);
-  font-weight: bold;
-}
-
+h2 { font-size: 1.5rem; }
 h3 { font-size: 1.3rem; }
 h4 { font-size: 1.2rem; }
 h5 { font-size: 1.1rem; }
 h6 { font-size: 1rem; }
 
 p, ul, ol {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 /* LINKS */
 a {
   color: var(--fg-color);
-  text-decoration: underline 1px var(--mg-color);
+  text-decoration: underline 1px var(--fg-color);
   transition: all 0.2s ease;
 }
 
 a:hover {
-  color: var(--fg-color);
-  text-decoration: underline 2px var(--fg-color);
+  color: var(--blue-color);
+  text-decoration: underline 2px var(--blue-color);
 }
 
 /* LAYOUT STRUCTURE */
 main {
   max-width: 38rem;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 
 article header {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 /* IMAGES */
@@ -97,36 +86,30 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 1em auto;
+  margin: 2em auto;
 }
 
-/* Specific size for headshot */
 img[src="/headshot.jpg"] {
-  max-width: 200px;  /* or whatever size you prefer */
-  border-radius: 50%;  /* optional: makes it circular */
+  max-width: 200px;
+  border-radius: 50%;
 }
 
 figure {
-  margin: 0 0 1.5em 0;
+  margin: 2em 0;
   text-align: center;
 }
 
 figure img {
-  max-width: 100%;      /* Responsive images */
+  max-width: 100%;
   height: auto;
+  margin-bottom: 0;
 }
 
 figcaption {
   color: var(--mg-color);
-  font-size: 0.9em;     /* Slightly smaller text */
-  line-height: 1.4;     /* Better readability for captions */
+  font-size: 0.9em;
+  line-height: 1.4;
 }
-
-
-
-
-
-
 
 /* NAVIGATION */
 .site-header {
@@ -134,10 +117,11 @@ figcaption {
 }
 
 .site-nav {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
+  margin-bottom: 2rem;
 }
 
 .logo {
@@ -150,8 +134,8 @@ figcaption {
 
 .logo a {
   font-family: var(--font-sans);
-  color: var(--blue-color);
   font-size: 1.2rem;
+  color: var(--blue-color);
   font-weight: bold;
   text-decoration: none;
 }
@@ -172,47 +156,63 @@ figcaption {
 }
 
 .menu a {
-  text-transform: none;
   font-weight: bold;
-  font-family: var(--font-sans);
   color: var(--mg-color);
-  text-decoration: none 1px var(--mg-color);
+  text-decoration: none;
   transition: all 0.2s ease;
 }
 
 .menu a:hover {
   color: var(--fg-color);
-  text-decoration: underline 2px var(--fg-color);
 }
 
-/* Hide menu toggle by default */
 .menu-toggle {
   display: none;
-}
-
-/* Theme toggle button */
-.toggle-theme {
-  background: none;
-  border: none;
-  cursor: pointer;
   color: var(--mg-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease;
 }
 
-.toggle-theme:hover {
-  color: var(--fg-color);
-  text-decoration: underline 2px var(--fg-color);
+code {
+  border: solid 1px var(--border-color);
+  font-family: var(--font-mono);
+}
+
+/* BLOG LIST */
+ul.blog-list {
+  list-style-type: none;
+  font-size: 1.2em;
+  margin: 0.5rem 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+ul.blog-list span {
+  flex: 0 0 7rem;
+  color: var(--mg-color);
+  font-family: var(--font-mono);
+  font-size: 16px;
+}
+
+ul.blog-list i {
+  font-style: normal;
+}
+
+ul.blog-list a {
+  flex: 1;
+  min-width: 0;
+}
+
+.post-snippet {
+  margin-bottom: 1.5rem;
 }
 
 /* TABLE OF CONTENTS */
 .toc {
   background: var(--bg-color);
-  padding: 0.75rem;
-  margin: 0.75rem 0;
-  border-left: 2px solid var(--mg-color);
+  padding: 1rem;
+  margin: 2rem 0;
+  border-left: 2px solid var(--border-color);
 }
 
 .toc ul {
@@ -222,47 +222,28 @@ figcaption {
 }
 
 .toc li {
-  margin: 0.25rem 0;
+  margin: 0.5rem 0;
   line-height: 1.2;
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
 }
-
-/* BLOG LIST */
-ul.blog-list {
-  list-style-type: none;
-  display: flex;
-  font-size: 1.2em;
-  margin: 1rem 0;
-  padding: 0;
-}
-
-ul.blog-list li {
-  display: flex;
-  align-items: flex-start;
-}
-
-ul.blog-list span {
-  flex: 0 0 9rem;
-  /*flex: 0 2 9rem;*/
-}  
 
 /* FOOTER */
 footer {
   text-align: center;
   width: 100%;
   padding-top: 2rem;
-  margin-top: 1rem;
-  border-top: 1px solid var(--mg-color);
+  margin-top: 2rem;
+  border-top: 1px solid var(--border-color);
   color: var(--mg-color);
 }
 
 footer .main-links {
-  margin-bottom: 1.0rem;
+  margin-bottom: 1.5rem;
 }
 
 footer .main-links a {
   color: var(--mg-color);
-  text-decoration: underline 1px var(--mg-color);
+  text-decoration: none 1px var(--mg-color);
 }
 
 footer .main-links a:hover {
@@ -283,7 +264,6 @@ footer .social-links a {
   align-items: center;
   width: 1.5rem;
   height: 1.5rem;
-  text-align: center;
   text-decoration: none;
 }
 
@@ -291,80 +271,95 @@ footer .social-links i {
   font-size: 1.5rem;
   color: var(--mg-color);
   display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
-  line-height: 1.5rem;
 }
 
 footer .subscribe {
   margin-top: 1.5rem;
 }
 
+/*
 footer .newsletter-button {
   background-color: var(--bg-color);
-  color: var(--mg-color) !important;
-  border: solid 1px var(--red-color);
+  color: var(--blue-color) !important;
+  border: solid 1px var(--blue-color);
   border-radius: 4px;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 1rem;
   text-decoration: none !important;
-  transition: all 0.1s;
-  display: inline-block;  /* Ensure proper button sizing */
+  transition: all 0.2s ease;
+  display: inline-block;
 }
 
 footer .newsletter-button:hover {
   background-color: var(--red-color);
   color: var(--bg-color) !important;
-}
+} */
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
-    main {
-        padding: 0.5rem;
-    }
+  main {
+    padding: 1rem 0.5rem;
+  }
 
-    .site-header {
-        margin-bottom: 1rem;
-    }
+  .site-header {
+    margin-bottom: 1rem;
+  }
 
-    .site-nav {
-        flex-direction: column;
-    }
+  .menu-container {
+    position: relative;
+    margin-left: auto;
+  }
 
-    .menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        gap: 1rem;
-    }
+  .menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    background: var(--bg-color);
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    min-width: 200px;
+    gap: 1rem;
+    z-index: 100;
+  }
 
-    .menu a {
-        font-size: 1.2rem;
-        padding: 0.5rem 0;
-    }
+  .menu a {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+  }
 
-    /* Show menu toggle in mobile view */
-    .menu-toggle {
-        display: block;
-        cursor: pointer;
-        padding: 1rem;
-        margin: 0.5rem 0;
-        background: none;
-        border: none;
-        font-size: 1.5rem;
-    }
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+  }
 
-    .site-nav.expanded .menu {
-        display: flex;
-    }
+  .site-nav.expanded .menu {
+    display: flex;
+  }
+
+  ul.blog-list {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  ul.blog-list span {
+    flex: none;
+  }
 }
 
 /* FONT FACES */
 /* Hack Font */
 @font-face {
-    font-family: Hack;
-    font-style: normal;
-    font-weight: normal;
-    src: url("/fonts/Hack-Regular.ttf") format("truetype");
+  font-family: Hack;
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Hack-Regular.ttf") format("truetype");
 }
 
 @font-face {

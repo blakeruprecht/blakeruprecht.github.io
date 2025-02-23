@@ -12,3 +12,14 @@ description: "I'm Blake, I write about A.I., open-source science, and nature."
 >}}
 
 Some samples of my writing can be found in the [notes](/notes) section of this website, which includes [some](/notes/build-your-own-computer) [samples](/notes/insect-farming) [of](/notes/python) [content](/notes/growth-mindset) writing across domains and a lot of notes about AI/computers.
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;

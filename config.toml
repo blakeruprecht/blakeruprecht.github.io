@@ -15,7 +15,7 @@ enableRobotsTXT = true
   math = true
 
 [params.blog]
-  toc = false
+  toc = true
 
 [services]
   [services.googleAnalytics] 

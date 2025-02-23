@@ -6,7 +6,7 @@
         <h1>{{ .Title }}</h1>
     </header>
 
-    {{ if or (default true .Params.toc) (default true .Site.Params.blog.toc) }}
+    {{ if and (ne .Params.toc false) (ne .Site.Params.blog.toc false) }}
         <aside class="toc">
             {{ .TableOfContents }}
         </aside>

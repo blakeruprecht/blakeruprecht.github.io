@@ -1,7 +1,7 @@
 ---
 date: 2024-11-08
 title: The Most Beautiful Formula in Math
-toc: true
+toc: false
 description: Math is a language, and like all language, has some particularly beautiful formulae. I'm still fuzzy on what this one does, but it sure looks pretty.
 ---
 Why is it so pretty?
