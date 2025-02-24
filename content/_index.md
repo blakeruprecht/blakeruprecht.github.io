@@ -12,9 +12,9 @@ description: "I'm Blake, I write about A.I., open-source science, and nature."
 >}}
 
 XAI Technical Communications Specialist
-- 🖊️ Authored 8 technical research papers on XAI
-- 🌐 Published 20+ blog posts for non-technical audiences
-- 📰 Wrote 30+ newsletters and ad copies
+- 🖊️ Authored 8 [technical research papers](/notes/research) on XAI
+- 🌐 Published 20+ [blog posts](/notes) for non-technical audiences
+- 📰 Wrote 30+ newsletters and ad copies @Labyrinth.digital
 - 📣 Spoke at 3 international conferences about XAI
 - 📜 Experience writing documentation, guides, and seminars
 
@@ -24,7 +24,7 @@ Digital Marketing Generalist
 - 🔍 SEO: technical, robots, meta, alt, on-page, SEMRush
 - 🛠️ Web Dev: using HTML, CSS, JS, .md, Hugo, Shopify
 
-Master of eXplainable AI (XAI) Science
+[Master of eXplainable AI (XAI) Science](/notes/research)
 - 🎓 M.S. in Computer Science (3.9/4.0 GPA)
 - 🤖 5 years of AI Safety research experience @Mizzou
 - 💻 Developed novel XAI Fuzzy Concept Learning Algorithm using NNs, Fuzzy Logic, Python, PyTorch, MATLAB
