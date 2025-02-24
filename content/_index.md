@@ -11,20 +11,24 @@ description: "I'm Blake, I write about A.I., open-source science, and nature."
   alt="headshot" 
 >}}
 
-XAI Technical Communications Specialist | Fuzzy Logic Expert
+XAI Technical Communications Specialist
+- 🖊️ Authored 8 technical research papers on XAI
+- 🌐 Published 20+ blog posts for non-technical audiences
+- 📰 Wrote 30+ newsletters and ad copies
+- 📣 Spoke at 3 international conferences about XAI
+- 📜 Experience writing documentation, guides, and seminars
 
-Doing
-- Technical Communications, Content Writing, and Copywriting
-- eXplainable Neuro-Fuzzy Network design using NNs, Fuzzy, etc
-- Data Analysis using Python, PyTorch, SciPy
-- Web Dev using HTML, CSS, JS, .md, Hugo SSG
-- SEO (robots, speed, meta, alt, technical, SEMRush) 
+Digital Marketing Generalist
+- 📈 Data Analysis: Python, Excel, csv, APIs, AI integration
+- 📏 Analytics: Google Analytics, Shopify, Klaviyo, Pixels
+- 🔍 SEO: technical, robots, meta, alt, on-page, SEMRush
+- 🛠️ Web Dev: using HTML, CSS, JS, .md, Hugo, Shopify
 
-Done
-- Digital Marketing @Labyrinth.digital
-- Technical Communications @Freelance
-- XAI Safety Researcher @Mizzou INfo & Data FUsion Lab (MINDFUL)
-- M.S. in Computer Science S.C.L. @Mizzou
-- B.S. in Mechanical Engineering @Mizzou
+Master of eXplainable AI (XAI) Science
+- 🎓 M.S. in Computer Science (3.9/4.0 GPA)
+- 🤖 5 years of AI Safety research experience @Mizzou
+- 💻 Developed novel XAI Fuzzy Concept Learning Algorithm using NNs, Fuzzy Logic, Python, PyTorch, MATLAB
+- 💻 Coded Unreal 5 Drone Simulation data pipeline utilizing Python, ROS, and real-time C++ spatial relationship analysis
+- 🦾 B.S. in Mechanical Engineering, I've got the whole robot covered
 
 Contact me through [Email](mailto:blakecruprecht@gmail.com), [Linkedin](https://linkedin.com/in/BlakeRuprecht), [Github](https://github.com/blakeruprecht).

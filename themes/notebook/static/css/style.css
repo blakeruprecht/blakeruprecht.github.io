@@ -44,7 +44,7 @@ main {
   flex: 1 0 auto;
   margin: 0 auto;
   max-width: 38rem;
-  padding: 0.5rem 0.75rem;
+  padding: 1rem;
   width: 100%;
 }
 
@@ -98,8 +98,8 @@ img {
 }
 
 img[src="/headshot.jpg"] {
-  border-radius: 50%;
   max-width: 200px;
+  margin: 0 0;  /* Top/bottom margin only */
 }
 
 figure {
@@ -137,9 +137,9 @@ figcaption {
   display: flex;
   gap: 1.5rem;
   justify-content: flex-start;
-  margin: 0 auto 1.5rem auto;
+  margin: 0 auto 1rem auto;
   max-width: 38rem;
-  padding: 1rem;
+  padding: 1rem 1rem;
 }
 
 .logo {
@@ -256,7 +256,7 @@ footer {
   font-style: italic;
   margin: 1rem auto;
   max-width: 38rem;
-  padding: 1.5rem 0.5rem;
+  padding: 1.5rem 1rem;
   text-align: center;
   text-transform: lowercase;
   width: 100%;
@@ -283,7 +283,8 @@ footer .social-links {
   .site-nav {
     flex-direction: row;
     gap: 1.25rem;
-    padding: 0 0.5rem 0.75rem 0.5rem;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.75rem;
   }
 
   .menu {
@@ -296,7 +297,7 @@ footer .social-links {
   }
 
   main {
-    padding: 0.5rem 0.5rem;
+    padding: 0.75rem 1rem;
   }
 }
 
