@@ -6,13 +6,25 @@ description: "I'm Blake, I write about A.I., open-source science, and nature."
 
 # About
 
-<!-- {{< figure 
+{{< figure 
   src="/headshot.jpg" 
   alt="headshot" 
->}} -->
+>}}
 
-I am a writer and computer scientist based in Colorado. I'm broadly interested in science, history, artificial intelligence, simple living, and staying human in an increasingly machine world.
+XAI Technical Communications Specialist | Fuzzy Logic Expert
 
-Since high school, I've earned my BSc in Mechanical Engineering, my MSc in Computer Science (both from Mizzou). I've worked as a Digital Marketer, AI Researcher, and Freelance Writer.
+Doing
+- Technical Communications, Content Writing, and Copywriting
+- eXplainable Neuro-Fuzzy Network design using NNs, Fuzzy, etc
+- Data Analysis using Python, PyTorch, SciPy
+- Web Dev using HTML, CSS, JS, .md, Hugo SSG
+- SEO (robots, speed, meta, alt, technical, SEMRush) 
+
+Done
+- Digital Marketing @Labyrinth.digital
+- Technical Communications @Freelance
+- XAI Safety Researcher @Mizzou INfo & Data FUsion Lab (MINDFUL)
+- M.S. in Computer Science S.C.L. @Mizzou
+- B.S. in Mechanical Engineering @Mizzou
 
 Contact me through [Email](mailto:blakecruprecht@gmail.com), [Linkedin](https://linkedin.com/in/BlakeRuprecht), [Github](https://github.com/blakeruprecht).
