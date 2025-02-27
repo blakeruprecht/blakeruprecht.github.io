@@ -6,9 +6,9 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]] 
-    identifier = "notes"
-    name = "notes"
-    url = "/notes"
+    identifier = "blog"
+    name = "blog"
+    url = "/blog"
     weight = 10
 
 [params]

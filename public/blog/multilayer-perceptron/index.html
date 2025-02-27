@@ -6,16 +6,16 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Photo Journal | Blake Ruprecht</title>
+  <title>Multilayer Perceptrons are the basic unit of a NN | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <meta name="description" content="">
+  <meta name="description" content="&#34;Multilayer Perceptrons are the foundational algorithm at the basis of all modern neural networks. Here, I describe them simply using a few basic equations.&#34;">
 
-  <link rel="canonical" href="https://blakeruprecht.com/photojournal/" />  
+  <link rel="canonical" href="https://blakeruprecht.com/blog/multilayer-perceptron/" />  
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
@@ -102,7 +102,7 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Photo Journal</h1>
+        <h1>Multilayer Perceptrons are the basic unit of a NN</h1>
     </header>
 
     
@@ -112,19 +112,29 @@ window.MathJax = {
     
 
     <div class="post-content">
-        <link rel="stylesheet" href="static/grid.css">
-<div class="photo-grid">
-  <a href="photo1.md">
-    <img src="static/photo1.jpg" alt="Photo 1 description">
-  </a>
-  <a href="photo2.md">
-    <img src="static/photo2.jpg" alt="Photo 2 description">
-  </a>
-  <a href="photo3.md">
-    <img src="static/photo3.jpg" alt="Photo 3 description">
-  </a>
-  <!-- Add more photos as needed -->
-</div>
+        <p>A type of NN that implements multiple layers of the basic perceptron.</p>
+<ul>
+<li>
+<p>$\mathbf{x}$ = input vector (e.g. $\mathbf{x}=[0.3, 5.4, 156.1]$) of length $N$ ($N=3$ in this e.g.), $\mathbf{x} \in [-\infty,\infty]$, can be normalized to [-1,1]$ or $[0,1]$</p>
+</li>
+<li>
+<p>$\mathbf{w}$ = weight vector of length $N$ in the range $[0,1]$</p>
+</li>
+<li>
+<p>$\sigma$ = activation function (typically ReLU, tanh, sigmoid, etc.)</p>
+</li>
+<li>
+<p>$y$ = output scalar</p>
+</li>
+<li>
+<p>$\hat{y}$ = label scalar</p>
+</li>
+<li>
+<p>$e$ = error or loss function (typically Mean Squared Error as shown here)</p>
+</li>
+</ul>
+$$ y = \sigma(w^T \cdot x) $$
+$$ e = \frac{1}{2}(\hat{y} - y)^2$$
 
     </div>
 </article>

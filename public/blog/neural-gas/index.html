@@ -6,16 +6,16 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Photo Journal | Blake Ruprecht</title>
+  <title>Neural gas learns a self-organizing map | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <meta name="description" content="">
+  <meta name="description" content="&#34;This algorithm learns a self-organizing map using neural network techniques. They&#39;re really cool to look at in simulation.&#34;">
 
-  <link rel="canonical" href="https://blakeruprecht.com/photojournal/" />  
+  <link rel="canonical" href="https://blakeruprecht.com/blog/neural-gas/" />  
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
@@ -102,29 +102,51 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Photo Journal</h1>
+        <h1>Neural gas learns a self-organizing map</h1>
     </header>
 
     
         <aside class="toc">
-            <nav id="TableOfContents"></nav>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#algorithm">Algorithm</a></li>
+  </ul>
+</nav>
         </aside>
     
 
     <div class="post-content">
-        <link rel="stylesheet" href="static/grid.css">
-<div class="photo-grid">
-  <a href="photo1.md">
-    <img src="static/photo1.jpg" alt="Photo 1 description">
-  </a>
-  <a href="photo2.md">
-    <img src="static/photo2.jpg" alt="Photo 2 description">
-  </a>
-  <a href="photo3.md">
-    <img src="static/photo3.jpg" alt="Photo 3 description">
-  </a>
-  <!-- Add more photos as needed -->
-</div>
+        <p>Similar to a Kohonen map, another self-organing map, but this time the topology is <em>learned</em>. Goal is to learn a topological structure to relate &ldquo;close&rdquo; datapoints to each other. Winner-takes-<em>most</em>. Growing neural gas starts with two-neurons and keeps adding a bisecting neuron until the stopping criteria is met (e.g. performance measure below threshold)</p>
+<h2 id="algorithm">Algorithm</h2>
+<ul>
+<li>Given an input dataset $x \in \mathbb{R}^n$</li>
+<li>Init &ldquo;weights&rdquo; $w_i \in \mathbb{R}^n$</li>
+<li>Pick a datapoint $v$ from $x$,
+<ul>
+<li>For each weight $w_i$, calculate the distance to $v$</li>
+<li>For each weight, determine the number (cardinality?) of how many other weights are closer to $v$ than $w_i$, which is $k_i$ -&gt; closest weight is $w_{i0}$</li>
+<li>Then, update the weights to better match the data
+<ul>
+<li>$w^{new}_i = w^{old}_i + (\epsilon) (exp(-k_i/\lambda)(v-w^{old}_i )$</li>
+<li>basically, the new position is the old position moved closer to $v$, decreased by $\epsilon$, decreased by the number of weights ahead of it in line, $\exp(-k_i/\lambda)$, in the direction of the point$v$, -&gt; $(v-w_i^{old})$</li>
+</ul>
+</li>
+<li>Create an edge between the two closest points to $v$, $C_{i0,i1} = 1$ set the timer to 0 for this edge
+<ul>
+<li>If the edge is already there, reset the timer to 0</li>
+</ul>
+</li>
+<li>Add 1 to each timer of all connections to $w_{i0}$</li>
+<li>Remove old connections with time over threshold $T$</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="references">References</h1>
+<ul>
+<li>Fritzke, B. <em>A Growing Neural Gas Network Learns Topologies</em>. NeurIPS. 1994.</li>
+<li>T. Martinetz, S. Berkovich, and K. Schulten. <em>&ldquo;Neural-gas&rdquo; Network for Vector Quantization and its Application to Time-Series Prediction</em>. IEEE-Transactions on Neural Networks, 4(4):558-569, 1993.</li>
+</ul>
 
     </div>
 </article>

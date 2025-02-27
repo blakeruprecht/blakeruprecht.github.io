@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>EV charger installation | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="&#34;EV Chargers are typically installed by professionals, but if you understand the electricity requirements of the charger, you can calculate the power requirements of your own home and install it yourself.&#34;">
+
+  <link rel="canonical" href="https://blakeruprecht.com/blog/ev-charger-install/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      
+    </div>
+    <div class="menu-container">
+      <ul class="menu">
+        <li><a href="/notes/">Notes</a></li>
+        <li><a href="https://blakeruprecht.substack.com/">Blog</a></li>
+      </ul>
+      <button class="menu-toggle">☰</button>
+    </div>
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+ });
+ 
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>EV charger installation</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-much-does-it-cost">How much does it cost?</a></li>
+    <li><a href="#load-and-capacity">Load and Capacity</a></li>
+    <li><a href="#breaker-capacity">Breaker Capacity</a></li>
+    <li><a href="#distance-between-the-charger-and-panel">Distance between the charger and panel</a></li>
+    <li><a href="#power-of-the-charger">Power of the charger</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>For the record, I wouldn&rsquo;t recommend you install an EV charger yourself if you have no electrical experience. It&rsquo;s extremely dangerous, and if you mess up, you can very easily catch your house on fire, or worse. However, it&rsquo;s cool to at least now the process in theory, and this way, you can see if your electrician is doing it properly as well.</p>
+<h2 id="how-much-does-it-cost">How much does it cost?</h2>
+<p>If it was free, everyone would do it. A 120 Volt outlet already exists in most homes, so that&rsquo;s probably free. Most Americans will spend between $1,000 to $3,000 to purchase and install a 240 Volt charging station. A good charger costs $400 to $900 or so, and install from an electrician costs anywhere from $800 to $2,000. The price charged by the electrician varies based on a few factors:</p>
+<ul>
+<li>the overall electric power capacity of the house</li>
+<li>the breaker capacity of the existing electrical panel</li>
+<li>the power of the charger</li>
+<li>the distance between charger and electrical panel</li>
+<li>the cost of electrical labor where you live</li>
+</ul>
+<h2 id="load-and-capacity">Load and Capacity</h2>
+<p>Adding a new 240 Volt outlet will increase the total power usage of the house, otherwise called the load. The capacity of the house is dependent on the breaker panel you have, which will shut the main breaker if your electric <em>load</em> exceeds total <em>capacity</em>. If this new power requirement exceeds your existing electrical service, you will need to upgrade your service. This requires contacting the electrical company to upgrade your service capacity amperage and replace the wires running from the exterior main power lines to your house. This typically happens in older homes which have lower service ratings like 60 or 100 Amps. Of course, large homes may also need this done depending on how close your existing usage is to the total load capacity.</p>
+<p>Before purchasing an EV charger, it makes sense to calculate your current electrical load capacity to determine how much money the upgrade will cost you. If you can purchase a charger that doesn&rsquo;t require you to upgrade electrical service or your electrical panel, that can save thousands of dollars.</p>
+<p>First, calculate the existing load capacity of your house and compare it to your existing electrical capacity. This calculation is quite difficult, and typically on of the things you would pay a trained electrician to do, but there are online calculators that can help you get an estimate. Read <a href="https://www.familyhandyman.com/article/electrical-load-calculation/">this</a> article, and checkout a calculator like <a href="https://homeinspectioninsider.com/electrical-load-calculation/">this</a>for an idea of how this is done.</p>
+<p>Electricity comes into houses at a fixed voltage of 240 volts, so the electrical service is measured in amps, with 100, 150, and 200 amps being the most common service capacities. Power = Current (in amps) x Voltage (in volts), so those three electrical services have power capacities of 24, 36, and 48 kilowatts, respectively. Since voltage is constant, it&rsquo;s the same discussion whether we discuss electric power or electric current.</p>
+<p>An EV charger will add typically 7.2 to 11.5 kilowatts of load, potentially more for the large truck EVs. This is equivalent to 30 to 48 amps. If your existing electrical service is enough already, you&rsquo;ll save money not having to upgrade your electric service. If not, the lines running from the main power lines to your house will need to be upgraded to deal with the higher current, as well as the lines running from the exterior of your house to your interior breaker panel.</p>
+<h2 id="breaker-capacity">Breaker Capacity</h2>
+<p>If your breaker panel doesn&rsquo;t have enough space for another 40-60 amp breaker, you will need to upgrade to a bigger breaker panel. Breakers for charging stations are installed at an amperage 125% bigger than the circuit will be using, so for a 40 amp EV charger, a 50 amp breaker will be used.</p>
+<p>Optionally, you can choose to hardwire the EV charger to the breaker panel, removing the need for a 240 volt electrical outlet in the middle. This reduces the number of ground-fault protections in the system, potentially reducing the amount of time they trip and leave your car uncharged overnight. If you do this, check to make sure your EV charger comes equipped with ground-fault protection. If you go with a plug, make sure you use a commerical grade plug, which probably adds $90 to the cost of the plug, but is much safer to use continuously for 8-12 hours (overnight charging).</p>
+<h2 id="distance-between-the-charger-and-panel">Distance between the charger and panel</h2>
+<p>Regardless of if you go the outlet or hard-wired route, you&rsquo;ll need to run wires from the breaker panel to the location of the electric charger, whether that be in a garage or next to a driveway or anywhere else your heart desires. Longer distances obviously requires more wire, which costs more money. Since most cars are 15 or so feet long, determine where your charging port is on your car, and the length of the chargign plug on the EV charger you&rsquo;re looking at, and space the charging station accordingly. Take into account the possibility of car change in the future, since a longer cord and better charger position will accomodate more potential vehicles.</p>
+<h2 id="power-of-the-charger">Power of the charger</h2>
+<p>Now that you&rsquo;ve evaluated the existing electrical circuit in your home, you can choose an EV charger that is as powerful as your budget will allow. If you plan on hiring an electrician, it will probably be beneficial to have this discussion with them to determine the maximum power charger you can afford to buy. Of course, if you current car limits charging to below 11.5 kilowatts, you may not even need a more expensive charger right now.</p>
+
+    </div>
+</article>
+
+</main>
+<footer>
+  <div class="main-links">
+    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="https://blakeruprecht.substack.com/">Blog</a>
+  </div>
+  
+  
+</footer>
+</body>
+</html>
