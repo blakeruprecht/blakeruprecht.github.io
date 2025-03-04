@@ -1,6 +1,6 @@
 ---
 title: "Blake Ruprecht's Home Page"
-date: 2023-07-24T15:29:23-04:00
+date: 2025-03-04T18:16:42-06:00
 description: "I'm Blake, I write about A.I., open-source science, and nature."
 ---
 
