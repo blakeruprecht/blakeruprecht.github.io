@@ -5,7 +5,7 @@ descript: '"Probably the main underlying reason behind the success of neural net
 ---
 
 
-Neural networks are universal function approximators, according to the Universal function approximation theorem. [[multilayer perceptrons]]. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.
+Neural networks are universal function approximators, according to the Universal function approximation theorem. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.
 
 ## Activation Functions
 - ReLU

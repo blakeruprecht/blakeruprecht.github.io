@@ -4,7 +4,7 @@ date: 2024-02-18
 description: "\"Modern operating systems are all pretty good, but only Linux is free, open-source, and fastest. While you may have to DIY some software, it's not hard if you use ChatGPT and Youtube to guide you.\""
 ---
 
-I recently posted about my [Linux setup](simple-software.md), and I've come to a shocking realization -- any OS is fine. Strengths and drawbacks, right?
+I recently posted about my [Linux setup](/blog/simple-software.md), and I've come to a shocking realization -- any OS is fine. Strengths and drawbacks, right?
 
 - Linux:
 	- Cost: FREE

@@ -230,7 +230,7 @@
       <link>https://blakeruprecht.com/blog/neural-network/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/blog/neural-network/</guid>
-      <description>Neural networks are universal function approximators, according to the Universal function approximation theorem. [[multilayer perceptrons]]. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.&#xA;Activation Functions ReLU TanH Sigmoid Loss Functions (1/2)e^2 Softmax $$ \sigma(z)_i = \frac{\exp{z_i}}{\Sigma_{j=1}^K \exp{z_j}} $$ $z$ is the input vector, $\in \{-\infty,\infty\}$, can be pos, neg, zero. $\exp{z}$ is applied to each element of the input vector, gives a pos.</description>
+      <description>Neural networks are universal function approximators, according to the Universal function approximation theorem. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.&#xA;Activation Functions ReLU TanH Sigmoid Loss Functions (1/2)e^2 Softmax $$ \sigma(z)_i = \frac{\exp{z_i}}{\Sigma_{j=1}^K \exp{z_j}} $$ $z$ is the input vector, $\in \{-\infty,\infty\}$, can be pos, neg, zero. $\exp{z}$ is applied to each element of the input vector, gives a pos. value above 0, which will be small if the input was neg.</description>
     </item>
     <item>
       <title>Full Flavor, 99 Calories</title>

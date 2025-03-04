@@ -23,7 +23,7 @@ I'm still baffled by all of the packing lists I see online. People seem to alway
 - [iPhone SE 2020](https://www.apple.com/iphone-se/). With stick-on wallet, a smartphone is the best travel companion, and probably the only essential tool for traveling the modern world, along with a debit card. When traveling, this thing is my map, translator, travel tickets, and accomodation finder, so pretty crucial. 
 	- APPS: Google Maps, Google Translate, misc airline apps, Hostel World (to find hostels), Spotify, Venmo, etc.
 	- CARDS: generic Visa debit card, generic Visa credit card. My credit union had a $6 international ATM fee, so I wasted a bunch of money on that, but whatever. My credit card worked randomly in random countries, I don't get it, but I didn't do much research on the whole situation.
-- Dell XPS 13 9370. Purchased used on ebay for $300, this is the best laptop I've ever owned. Super small, super light, I barely notice I'm carrying it around. I've got [Debian 12](/kiss-software) installed on it to make the performance even faster.
+- Dell XPS 13 9370. Purchased used on ebay for $300, this is the best laptop I've ever owned. Super small, super light, I barely notice I'm carrying it around.
 	- APPS: Obsidian, Firefox
 - [Panasonic Earbuds](https://www.apple.com/iphone-se/). I spent $9 on these five years ago and they're still kicking, and the sound is awesome. Never have to charge these puppies.
 - [Charger](none). A USB brick, 1 meter lightning cable, 1 meter usb-c cable to charge laptop and phone. Pretty easy. I brought a universal travel adapter, but I lost part of it. USB bricks are like $5 in any country.

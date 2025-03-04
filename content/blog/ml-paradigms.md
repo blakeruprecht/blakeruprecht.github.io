@@ -4,21 +4,21 @@ title: Machine Learning paradigms
 description: '"Machines learn by correlating input to output. In supervised learning, this output is an array of numbers. In unsupervised learning, this output is a group of sets. In reinforcement learning, this output is one reward value and tons of negative rewards."'
 ---
 
-At the highest level, machines learn very similarly to how humans learn. Data is given to the [neural network](neural-network.md), and then the robot does some calculations and tests it's performance against the environment.
+At the highest level, machines learn very similarly to how humans learn. Data is given to the [neural network](/blog/neural-network.md), and then the robot does some calculations and tests it's performance against the environment.
 
 ## Supervised Learning (SL)
 Data comes with labels. The network makes an initial random guess at what the labels should be. Then, it compares the guesses to the actual labels, and determines how off it was (total error). It updates the network according to this error. If it's really wrong, it updates a lot; similarly, if it's close, not so much update. Every time it makes a guess, it updates the network. Well, roughly, but that's TMI.
 
 The network in times learns correlations between the data and the labels. This is why NNs are statistical in nature -- they're just making guesses based on averages. The more data, the better. It works pretty well if you actually cover all of the possible scenarios with your data and labels. Otherwise, expect a lot of false positives (FP) and false negatives (FN).
 
-*Examples*: The o.g. GOAT [Multilayer Perceptron](multilayer-perceptron.md), Linear Regression, Logistic Regression, Decision Trees (there are a lot of methods of each of these that are much more efficient and easier to get running than Neural Networks, so don't start thinking NNs are the end-all be-all of math/stats)
+*Examples*: The o.g. GOAT [Multilayer Perceptron](/blog/multilayer-perceptron.md), Linear Regression, Logistic Regression, Decision Trees (there are a lot of methods of each of these that are much more efficient and easier to get running than Neural Networks, so don't start thinking NNs are the end-all be-all of math/stats)
 
 ## Unsupervised Learning (UL)
 This is basically a whole different branch of math. These include a bunch of different algorithms that use some crazy math to guess at the underlying structure of the data. That is, if the data has multiple different variables (like height, position, mass, intensity, etc.), which could be coming from sensors, all of the variables are treated mathematically as different axis, or dimensions. So sometimes we're talking about data that has an input of length 50, and you're doing high-dimensional math to try to figure out its structure. 
 
 The problem with this is true underlying structure probably doesn't exist, so we're still just correlating to data.
 
-*Examples*: K-Means Clustering, Autoencoders, Hidden Markov Models, [Neural Gas](neural-gas.md)
+*Examples*: K-Means Clustering, Autoencoders, Hidden Markov Models, [Neural Gas](/blog/neural-gas.md)
 
 ## Self-supervised Learning (SSL)
 This is a great combo of the two above. SSL enables a NN to learn from the data itself about the data by using some creative methods. For example, with an image dataset, you can "mask off", or cover up, parts of the image, and have the network try to predict what is covered up. If you can imagine, after viewing thousands of images of similar scenes, the network gets pretty good at predicting missing parts from images. 

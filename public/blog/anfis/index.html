@@ -42,13 +42,12 @@ if (!doNotTrack) {
 <header class="site-header">
   <nav class="site-nav">
     <div class="logo">
-      <a href="/">Blake Ruprecht</a>
+      <a href="/">/// Blake Ruprecht</a>
       
     </div>
     <div class="menu-container">
       <ul class="menu">
-        <li><a href="/notes/">Notes</a></li>
-        <li><a href="https://blakeruprecht.substack.com/">Blog</a></li>
+        
       </ul>
       <button class="menu-toggle">☰</button>
     </div>
@@ -120,8 +119,8 @@ window.MathJax = {
 
     <div class="post-content">
         <h2 id="its-a-neural-network-that-incorporates-fuzzy-sets">It&rsquo;s a Neural Network that incorporates Fuzzy Sets</h2>
-<p>The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in <a href="python-install.md">Python</a>, specifically utilizing the <a href="/python-scipy">PyTorch</a> package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn&rsquo;t you know it, PyTorch knows what it&rsquo;s doing.</p>
-<p>ANFIS is a type of artificial <a href="neural-network.md">neural network</a> that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of <a href="multilayer-perceptron.md">multilayer perceptrons</a>. Similar to a typical neural network, the input, $x_n(k)$, is a vector of scalars of length $n$ with features $k$.</p>
+<p>The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in <a href="/blog/python-install.md">Python</a>, specifically utilizing the <a href="/blog/python-scipy">PyTorch</a> package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn&rsquo;t you know it, PyTorch knows what it&rsquo;s doing.</p>
+<p>ANFIS is a type of artificial <a href="/blog/neural-network.md">neural network</a> that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of <a href="/blog/multilayer-perceptron.md">multilayer perceptrons</a>. Similar to a typical neural network, the input, $x_n(k)$, is a vector of scalars of length $n$ with features $k$.</p>
 <h2 id="its-only-three-equations">It&rsquo;s only three equations</h2>
 <p>The antecedent, $w$, represents the fuzzy logic statement &ldquo;If $x$ fits this rule well, then the rule matching strength, $w$, should be high.&rdquo; In this equation, the $A$ term is a function that takes in $x$ and returns $A(x)$, the membership value of the fuzzy set, which I called the rule-matching strength. ANFIS learns the $A(x)$ membership functions.
 </p>
@@ -158,11 +157,12 @@ $$e = \frac{1}{2}(\hat{y} - y)^2$$
 
 </main>
 <footer>
-  <div class="main-links">
-    <a href="/">Home</a> :: <a href="/notes">Notes</a> :: <a href="https://blakeruprecht.substack.com/">Blog</a>
+  <div class="subscribe">
+    <a href="https://blakeruprecht.substack.com/">Subscribe</a>
   </div>
-  
-  
+  <div class="main-links">
+    <a href="/blog">100% human-written</a> | <a href="https://linkedin.com/in/BlakeRuprecht">linkedin</a> | <a href="https://github.com/BlakeRuprecht">github</a> | <a href="https://instagram.com/BlakeRuprecht">insta</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a>
+  </div>
 </footer>
 </body>
 </html>

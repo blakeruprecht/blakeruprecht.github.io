@@ -56,9 +56,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: var(--font-serif);
-  font-size: 2rem;
-  margin-top: 1em;
+  font-size: 2em;
+  margin-top: 0em;
 }
 
 h2 { font-size: 1.5rem; }
@@ -85,10 +84,6 @@ a:hover {
   text-decoration-color: var(--hg-color);
 }
 
-article header {
-  margin-bottom: 1.5rem;
-}
-
 /* IMAGES */
 img {
   display: block;
@@ -103,7 +98,7 @@ img[src="/headshot.jpg"] {
 }
 
 figure {
-  margin: 1.5em 0;
+  margin: 1em 0;
   text-align: center;
 }
 
@@ -119,32 +114,25 @@ figcaption {
   line-height: 1.4;
 }
 
-.social-links {
-  display: flex;
-  gap: 1rem;
-  justify-content: flex-start;
-  margin: 0.75rem 0;
-}
-
-.social-links i {
-  font-size: 1.5rem;
+blockquote {
+  border-left: 2px solid var(--ul-color);
+  margin: 1.5em 0;
+  padding: 0 0 0 1em;
 }
 
 /* NAVIGATION */
 .site-nav {
-  border-bottom: 1px solid var(--ul-color);
+  border-bottom: 1px none var(--ul-color);
   box-sizing: border-box;
   display: flex;
   gap: 1.5rem;
   justify-content: flex-start;
-  margin: 0 auto 1rem auto;
+  margin: 1rem auto 0rem auto;
   max-width: 38rem;
   padding: 1rem 1rem;
 }
 
 .logo {
-  font-family: var(--font-serif);
-  font-style: italic;
   margin: 0;
   padding: 0;
   text-transform: none;
@@ -152,7 +140,7 @@ figcaption {
 
 .logo a {
   color: var(--mg-color);
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   text-decoration: none;
 }
 
@@ -163,6 +151,7 @@ figcaption {
 .logo a.active {
   color: var(--fg-color);
   text-decoration: none 2px var(--fg-color);
+  font-weight: bold;
 }
 
 .menu {
@@ -250,22 +239,15 @@ footer {
   border-top: 1px none var(--ul-color);
   box-sizing: border-box;
   color: var(--mg-color);
-  display: none;
   flex-shrink: 0;
-  font-family: var(--font-serif);
-  font-style: italic;
   margin: 1rem auto;
   max-width: 38rem;
   padding: 1.5rem 1rem;
-  text-align: center;
-  text-transform: lowercase;
   width: 100%;
 }
 
 footer a {
   color: var(--mg-color);
-  font-size: 1.2rem;
-  text-decoration: none;
 }
 
 footer a:hover {
@@ -277,6 +259,8 @@ footer .social-links {
   display: flex;
   justify-content: center;
 }
+
+
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
