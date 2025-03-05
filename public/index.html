@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.124.1">
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="I&#39;m Blake, I write about A.I., open-source science, and nature.">
+
+  <link rel="canonical" href="https://blakeruprecht.com/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  <link rel="alternate" type="application/rss+xml" href="https://blakeruprecht.com/index.xml" title="Blake Ruprecht" />
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      
+    </div>
+    <div class="menu-container">
+      <ul class="menu">
+        
+        
+        
+      </ul>
+      <button class="menu-toggle">☰</button>
+    </div>
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+ });
+ 
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+ </script>
+
+<main class="content">
+
+
+<figure><img src="/headshot.jpg"
+    alt="headshot">
+</figure>
+
+<p>Technical Communicator</p>
+<p>Writing</p>
+<ul>
+<li>Published 20+ <a href="/blog">blog posts</a></li>
+<li>Authored 8 <a href="/blog/research">technical research papers</a> on XAI</li>
+<li>Wrote 30+ newsletters and ad copies @<a href="https://labyrinth.digital/">Labyrinth.digital</a></li>
+<li>Experience writing technical documentation, guides, how-tos, etc</li>
+<li>Presented at 3 internationl conferences &amp; multiple seminars</li>
+</ul>
+<p>Technical</p>
+<ul>
+<li>M.S. in Comp Sci, thesis on Explainable AI @Mizzou</li>
+<li>5 YOE AI Safety Research (XAI, Neuro-symbolic, RL, LLMs)</li>
+<li>Python data analysis, PyTorch, SciPy</li>
+<li>Web dev using HTML/CSS/JS, markdown, Hugo, Shopify</li>
+<li>Linux, Terminal, Bash, Git, GitHub, Terminal</li>
+<li>SEO: technical, on-page, meta, robots, SEMRush, Google Analytics</li>
+<li>BS in Mechanical Engineering @Mizzou</li>
+</ul>
+
+
+</main>
+<footer>
+  <div class="subscribe">
+    <a href="https://blakeruprecht.substack.com/">Subscribe</a>
+  </div>
+  <div class="main-links">
+    <a href="/blog">100% human-written</a> | <a href="https://linkedin.com/in/BlakeRuprecht">linkedin</a> | <a href="https://github.com/BlakeRuprecht">github</a> | <a href="https://instagram.com/BlakeRuprecht">insta</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a>
+  </div>
+</footer>
+</body>
+</html>
