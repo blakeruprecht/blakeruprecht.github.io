@@ -4,28 +4,6 @@ date: 2025-04-03
 description: AI Alignment is the most important challenge humans have ever faced. Mess it up, and we may lose everything.
 draft: false
 ---
-## Actions
-1. Earn
-	- [ ] Apply to 3-5 online tutoring platforms to earn immediately
-	- [ ] Set up profiles on Wyzant, Fiverr
-	- [ ] Join local facebook/community groups to advertise tutoring
-2. Write
-	- [ ] Develop a Branded template for your content with:
-		- [ ] Header: consistent centered logo and badge on the left/tab thingy, menus on the right
-		- [ ] Footer: consistent across substack/website
-		- [ ] Illustrations: standardized placement (centered on substack, right on website)
-			- [ ] Hand-drawn, Black & White, Red accents
-		- [ ] Fonts: default serif, sans-serif (who cares about specifics)
-	- [ ] 2-3 portfolio pieces showcasing my Writing/Drawing style:
-	    - "What My AI Risk Research Taught Me About Explaining Complex Systems"
-	    - "Beyond the Equations: Visualizing AI Concepts"
-	    - "The Human Side of AI Development"
-	- [ ] Create targeted outreach emails for:
-		- AI startups needing technical writers
-		- Tech publications seeking contributors
-		- AI Safety/ethics organizations
-
-
 ## Highlights
 - "What My AI Risk Research Taught Me About Explaining Complex Systems"
 - "Beyond the Equations: Visualizing AI Concepts"
