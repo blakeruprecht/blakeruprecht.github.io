@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title> | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/simplicity/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      
+    </div>
+    <div class="menu-container">
+      <ul class="menu">
+        
+        
+        
+      </ul>
+      <button class="menu-toggle">☰</button>
+    </div>
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+ });
+ 
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1></h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#nature">Nature</a></li>
+    <li><a href="#theory-of-universal-inductive-inference">Theory of Universal Inductive Inference</a></li>
+    <li><a href="#the-society-of-friends">The Society of Friends</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <blockquote>
+<p>&ldquo;The simple way really is the best way to do things.&rdquo; -<em>Nick Saban</em></p>
+</blockquote>
+<blockquote>
+<p>&ldquo;Nature prefers the shortest path from A to B&rdquo;</p>
+</blockquote>
+<blockquote>
+<p>&ldquo;Nature operates in the shortest way possible.&rdquo; -Aristotle</p>
+</blockquote>
+<blockquote>
+<p>&ldquo;Scientists must use the simplest means of arriving at their results and exclude everything not perceived by the senses.&rdquo; -Ernst Mach</p>
+</blockquote>
+<blockquote>
+<p>&ldquo;If a thing can be done adequately by means of one, it is superfluous to do it by means of several; for we observe that nature does not employ two instruments if one suffices.&rdquo; -Thomas Aquinas</p>
+</blockquote>
+<h2 id="nature">Nature</h2>
+<p>I want to confront only the essential facts of life. How do I do this? Think naturally.</p>
+<p>Every human being on earth requires a lot of the same things: warmth, clean air, clean water for drinking and bathing, access to quality nutrition, etc.</p>
+<p>It all starts with breathing. We&rsquo;re alive, things are changing. It&rsquo;s non-action, meditation, zen.</p>
+<p>First survival need is warmth/shelter. Then clean water for drinking and hygiene. Then food for eating, energy. We need fire to stay warm and cook. After that, we need social relationships, sleep, all of that stuff.</p>
+<p>Nature is simplicity &ndash; evolution, game theory, stats, efficiency.
+Science maps nature (science doesn&rsquo;t matter by itself)
+History is the story of the past.
+MechE taught me about heat and energy.
+CompSci taught me about information and computation.
+AI taught me about symbology, linguistics, anthropology, etc.
+Science is using history to predict the future.
+Information theory (bits), Logic, Math, Stats, computation, science</p>
+<h2 id="theory-of-universal-inductive-inference">Theory of Universal Inductive Inference</h2>
+<p>In the 1960s, Ray Solomonoff formalized Occam&rsquo;s Razor by creating a theory based on observations &ndash; for example, predicting the next symbol based upon a given series of symbols. The only assumption is that the environment follows some unknown but computable probability distribution.</p>
+<p>This is directly related to <a href="How-to-symbolize-any-relationship.md">Neural networks are universal function approximators</a>.</p>
+<p>One justification of Occam&rsquo;s razor is a direct result of basic probability theory. By definition, all assumptions introducve possibilities for error; if an assumption does not improve the accuracy of a theory, its only effect is to increase the probability that an overall theory is wrong.</p>
+<p>Basically, you can hold onto extra explanations if you want, but they&rsquo;ll probably be less successful when tested, i.e. you&rsquo;ll lose more.</p>
+<h2 id="the-society-of-friends">The Society of Friends</h2>
+<p>The Quakers used to take vows of integrity, truth, honesty, and simplicity.</p>
+<ul>
+<li><strong>Simple dress</strong>: plain clothes, no logos, no adornment, nothing that would make one human appear more worthy than another human.</li>
+<li><strong>Simple speech</strong>: I love this one, they wouldn&rsquo;t address anybody as &ldquo;Mr.&rdquo; or &ldquo;Dr.&rdquo; or any other bullshirt hierarchical speech like that. They would simply use &ldquo;Friend&rdquo; or &ldquo;John Smith&rdquo; (first and last name) to address somebody. This extended into honesty, as you can imagine, and they were not supposed to lie
+<ul>
+<li>Side note, I was in academia for a while, and there was a stark, obvious difference between those academics who were confident enough in themselves to go by their first names, versus the people who were desparate to be called &ldquo;Dr.&rdquo; to receive some validation</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</article>
+
+</main>
+<footer>
+  <div class="subscribe">
+    <a href="https://blakeruprecht.substack.com/">My Newsletter</a>
+  </div>
+  <div class="main-links">
+    100% human-written | <a href="mailto:blakecruprecht@gmail.com">email me</a>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blake Ruprecht&#39;s Home Page on Blake Ruprecht</title>
+    <title>Blake Ruprecht</title>
     <link>https://blakeruprecht.com/</link>
-    <description>Recent content in Blake Ruprecht&#39;s Home Page on Blake Ruprecht</description>
+    <description>Recent content on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blakeruprecht.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Most Beautiful Formula in Math</title>
-      <link>https://blakeruprecht.com/blog/eulers-identity/</link>
-      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/eulers-identity/</guid>
-      <description>Why is it so pretty?&#xA;$$ e^{i\pi} + 1 = 0 $$ $e$ is Euler&amp;rsquo;s number, the base of natural logarithms $i$ is the imaginary unit, which by definition satisfies $i^2 = -1$ $\pi$ is pi, the ratio of the circumference of a circle to its diameter Euler&amp;rsquo;s Identity is a special case of Euler&amp;rsquo;s formula evaluated for $x = \pi$: $$e^{ix} = \cos{x} + i\sin{x}$$ It is an especially beautiful result in math because it relates five fundamental numbers in mathematics ($0, 1, e, \pi, i$) with the three most common operators in math (addition, multiplication, exponentiation).</description>
+      <title>The Big Why</title>
+      <link>https://blakeruprecht.com/why/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/why/</guid>
+      <description>&amp;ldquo;There is no need to search; achievement leads to nowhere. It makes no difference at all, so just be happy now! Love is the only reality of the world, because it is all One, you see. And the only laws are paradox, humor and change. There is no problem, never was, and never will be. Release your struggle, let go of your mind, throw away your concerns, and relax into the world.</description>
+    </item>
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>https://blakeruprecht.com/ai/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/ai/</guid>
+      <description>Actions Earn Apply to 3-5 online tutoring platforms to earn immediately Set up profiles on Wyzant, Fiverr Join local facebook/community groups to advertise tutoring Write Develop a Branded template for your content with: Header: consistent centered logo and badge on the left/tab thingy, menus on the right Footer: consistent across substack/website Illustrations: standardized placement (centered on substack, right on website) Hand-drawn, Black &amp;amp; White, Red accents Fonts: default serif, sans-serif (who cares about specifics) 2-3 portfolio pieces showcasing my Writing/Drawing style: &amp;ldquo;What My AI Risk Research Taught Me About Explaining Complex Systems&amp;rdquo; &amp;ldquo;Beyond the Equations: Visualizing AI Concepts&amp;rdquo; &amp;ldquo;The Human Side of AI Development&amp;rdquo; Create targeted outreach emails for: AI startups needing technical writers Tech publications seeking contributors AI Safety/ethics organizations Highlights &amp;ldquo;What My AI Risk Research Taught Me About Explaining Complex Systems&amp;rdquo; &amp;ldquo;Beyond the Equations: Visualizing AI Concepts&amp;rdquo; &amp;ldquo;The Human Side of AI Development&amp;rdquo; [transformers] how transformers actually work, demystified [alignment] problem explained visually [ai-vs-bi] similarities and differences of NNs and human brains [information-theory]s role in modern AI Societal Implications of AI final-frontier we&amp;rsquo;re approaching a cliff, everything forever (smart life, utopia, etc), nothing ever again (dystopia, sadness, existential death) [alignment] AI alignment, future directions ai-vs-bi human vs machine minds, complementary intelligence types, compared [[AI Hallucinations]] The Evolution of Intelligence entropy the fundamental rule of the universe natural-selection 1 shapes intelligence homo-sapiens are S-tier language enables knowledge transfer civilization beats freedom WEIRD people are the ones that have pushed civilization farther than ever before western PIEs were the original Cowboys educated because of the decentralized movement of Protestantism industrious invention accelerates more theory/invention rich capitalistic business ventures out-compete all others democratic liberal values process Technical Foundations of AI turing-machine universal computation foundation think-with-light information theory and quantification binary binary systems and digital logic minimum stats thinking and optimization language-games meaning through use game-theory how to win games [ml-fundamentals] learning from data ml-paradigms reward - learning from rewards (RL) [self-supervised-learning] - finding structure without labels neural-networks statistics with breadth and depth multilayer-perceptron choquet-integral anfis lstm Modern AI Systems [deep-learning] [transformers] [attention] [large-language-models] Foundation models and transfer learning - generalist models and fine-tuning, plus multimodal [emergence] scale laws and emergent properties ai-architecture how these pieces fit together [ai-sota] current AI practical applications and capabilities Computing to Build AI computer-hardware build-your-own-computer computer-software open-source unix operating-systems python the Lingua Franca of AI/ML python-packages the Python Dialects of AI/ML terminal digital-minimalism Supplementary Topics Societal Implications</description>
+    </item>
+    <item>
+      <title>Clothes Make the Man</title>
+      <link>https://blakeruprecht.com/clothes/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/clothes/</guid>
+      <description>ACCS: Sunnies(BRW), Glasses(BRW), Watch(BRW), Gloves(BLK) HATS: Ballcap(OLV), Beanie(OLV), Bandana(BLU), Brim(BRW) LYRS: Shell(TAN), Fleece(OLV/NVY), Puffer(OLV), Suit(NVY) NICE: Polo(NVY), Ssbd(NVY/OLV), Flannel(NVY/OLV), Bdown(NVY/BLK/WHT) TOPS: Tshirt(6NKW), Tank(4NKW), Sunhoodie(BLU) LEGS: Boxer(6), Bags(2DGR), Legs(DGR), Hikers(DGR) / Jorts(BLU/DGR), Jeans(BLU/DGR) FEET: Sox(6), Runners(LGR), Sandals(BRW), MocBoots(BRW) / Sneakers(WHT)</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://blakeruprecht.com/about/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/about/</guid>
+      <description>My Pages What I Learned Doing AI Safety Research Bookshelf: My favorite blogs, articles, and books Drawings: Some of my black ink drawings Woodwork: Some boxes I&amp;rsquo;ve made out of wood Resume Skills&#xA;Writing Storytelling / Content Writing Technical Writing, Markdown, LaTeX Copywriting, Newsletters, Creative Teaching Tutoring Math &amp;amp; Science, Social Studies, Reading Camp Counseling, Crawdad catching, Sing a longs Graphics Drawing Web Development, HTML, CSS, JavaScript Data Python, Numpy, Pandas, Scipy, Matplotlib AI/ML, PyTorch, ROS, NLP, LLMs Experience</description>
+    </item>
+    <item>
+      <title>Civilization Outcompetes Freedom</title>
+      <link>https://blakeruprecht.com/civilization/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/civilization/</guid>
+      <description>Barbarian roots For most of human history, the Earth was not covered by political nations which controlled every patch of land, like they do now. The world domination by civilization was incomplete. Up until at least the 1500s AD, there were still huge swaths of territory controlled by nobody in particular. Sure, roving bands of hunter-gatherers controlled portions of territory, but with armies so small even the Roman Empire would blush.</description>
     </item>
     <item>
       <title>My Bookshelf</title>
@@ -24,227 +52,591 @@
     </item>
     <item>
       <title>What research taught me</title>
-      <link>https://blakeruprecht.com/blog/research/</link>
+      <link>https://blakeruprecht.com/research/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/research/</guid>
+      <guid>https://blakeruprecht.com/research/</guid>
       <description>I worked on the AI Risk problem with Derek Anderson @Mizzou (Columbia, MO) with the Center for Geospatial Intelligence, and we worked closely with the Naval Research Laboratory. Shoutout to Derek, Jim, Fred, Chris, Grant, Curt, Charlie, Bryce, Jeff, Matt, and many more who helped me along the way.&#xA;&amp;ldquo;I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory.</description>
     </item>
     <item>
       <title>Black and white thinking</title>
-      <link>https://blakeruprecht.com/blog/drawings/</link>
+      <link>https://blakeruprecht.com/drawings/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/drawings/</guid>
+      <guid>https://blakeruprecht.com/drawings/</guid>
       <description>Black ink on white paper, mostly.&#xA;Shadow is the big question with this medium &amp;ndash; how do you represent shades of gray?&#xA;You only have two colors, usually limited at the minimum in line thickness by the width of your pen nib (I typically use 0.5 mm).&#xA;You can use hasing, stippling, and other techniques to create texture and the appearance of shadow. The denser the ink in a given area, the darker the area will appear from afar.</description>
     </item>
     <item>
       <title>Inside-the-box thinking</title>
-      <link>https://blakeruprecht.com/blog/woodwork/</link>
+      <link>https://blakeruprecht.com/woodwork/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/woodwork/</guid>
+      <guid>https://blakeruprecht.com/woodwork/</guid>
       <description>If you can build a box, you can build almost anything out of wood. Heck, a lot of the challenge in woodworking is making the most right right angles possible (yeah, you read that right).&#xA;I took shop in middle school and it taught me three things: how to not cut off my finger (unlike my teacher), how to sand for hours by hand, and how to build boxes.&#xA;For example, furniture.</description>
     </item>
     <item>
       <title>How to build your own computer</title>
-      <link>https://blakeruprecht.com/blog/build-your-own-computer/</link>
+      <link>https://blakeruprecht.com/build-your-own-computer/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/build-your-own-computer/</guid>
+      <guid>https://blakeruprecht.com/build-your-own-computer/</guid>
       <description>Building a computer is a fun journey, especially with the plethora of YouTube tutorials at your fingertips, but the real challenge lies in ensuring your chosen components are compatible. Get this wrong and you may end up with a black screen or, worse, fried components. Here&amp;rsquo;s what you need to know about compatibility to avoid disaster.&#xA;Motherboard and CPU. Your motherboard is the cornerstone of your build. Think of it as the backbone that connects and supports all other components.</description>
     </item>
     <item>
       <title>DCBS hot sauce recipe</title>
-      <link>https://blakeruprecht.com/blog/dcbs/</link>
+      <link>https://blakeruprecht.com/recipes/dcbs/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/dcbs/</guid>
-      <description>Fresh Ingredients&#xA;1/2 cup Cashews soaked 25 Habaneros roughly chopped 1 Yellow Bell Pepper roughly chopped 10 Garlic Cloves smashed 1 Onion roughly chopped 1/2 Lemon juiced Pantry Ingredients&#xA;1 quart White Vinegar 2 Tbsp Apple Cider Vinegar 2 Tbsp Maple Syrup 2 Tbsp Soy Sauce 2 Tbsp Olive Oil 1 Tbsp Sesame Oil 4 tsp Mustard Powder 1 tsp Turmeric Powder Algorithm&#xA;Soak Cashews in water for 30 min Prep Habaneros, Yellow Bell Pepper, Garlic, Onion Saute Olive Oil, Onion, Garlic until softened Add Habaneros, Yellow Bell Pepper Add White Vinegar, Apple Cider Vinegar, Maple Syrup, Soy Sauce, Sesame Oil, Mustard Powder, Turmeric Powder Bring to a boil, then reduce to a simmer, simmer for 30-45 min (longer is less spicy) Taste and adjust for seasoning Blend in a food processor/blender Pour into sauce jars About Quantity: This makes a ton of hot sauce, like a big pots worth.</description>
+      <guid>https://blakeruprecht.com/recipes/dcbs/</guid>
+      <description>Ingredients&#xA;1/2 cup Cashews soaked&#xA;25 Habaneros roughly chopped&#xA;1 Yellow Bell Pepper roughly chopped&#xA;10 Garlic Cloves smashed&#xA;1 Onion roughly chopped&#xA;1/2 Lemon juiced&#xA;1 quart White Vinegar&#xA;2 Tbsp Apple Cider Vinegar&#xA;2 Tbsp Maple Syrup&#xA;2 Tbsp Soy Sauce&#xA;2 Tbsp Olive Oil&#xA;1 Tbsp Sesame Oil&#xA;4 tsp Mustard Powder&#xA;1 tsp Turmeric Powder&#xA;Steps&#xA;Soak Cashews in water for 30 min Prep Habaneros, Yellow Bell Pepper, Garlic, Onion Saute Olive Oil, Onion, Garlic until softened Add Habaneros, Yellow Bell Pepper Add White Vinegar, Apple Cider Vinegar, Maple Syrup, Soy Sauce, Sesame Oil, Mustard Powder, Turmeric Powder Bring to a boil, then reduce to a simmer, simmer for 30-45 min (longer is less spicy) Taste and adjust for seasoning Blend in a food processor/blender Pour into sauce jars About Quantity: This makes a ton of hot sauce, like a big pots worth.</description>
     </item>
     <item>
       <title>Perfectionism is tough to recognize</title>
-      <link>https://blakeruprecht.com/blog/perfectionism/</link>
+      <link>https://blakeruprecht.com/perfectionism/</link>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/perfectionism/</guid>
+      <guid>https://blakeruprecht.com/perfectionism/</guid>
       <description>What is it?&#xA;Procrastination Fear of failure leads to procrastination Creates a vicious cycle All-or-nothing thinking Strive for perfect or flawless, almost perfect is seen as a failure Focused only on results High achievers can enjoy the process of chasing a goal as much or more than the actual reaching of the goal itself. Conversely, perfectionists see the goal and nothing else. They’re so concerned with hitting the goal and avoiding failure that they can’t enjoy the process of growing and striving.</description>
     </item>
     <item>
       <title>My quest for the perfect bowl of Noodle Soup</title>
-      <link>https://blakeruprecht.com/blog/noodle-soup/</link>
+      <link>https://blakeruprecht.com/recipes/noodle-soup/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/noodle-soup/</guid>
+      <guid>https://blakeruprecht.com/recipes/noodle-soup/</guid>
       <description>Holy shit, it&amp;rsquo;s all coming together. After watching Kung Fu Panda as a kid, I&amp;rsquo;ve been craving a delicious Asian nooodle-soup dish. Instant ramen is a good solution for $1 and a heart attack, but I want something fresh, wholesome, and delicious. Before this journey, ramen never did it for me, and other dishes like Pad Thai and Lo Mein just didn&amp;rsquo;t hit the spot.&#xA;I never liked Thai food, and I&amp;rsquo;m a serious food explorer.</description>
     </item>
     <item>
-      <title>EV charger installation</title>
-      <link>https://blakeruprecht.com/blog/ev-charger-install/</link>
+      <title>My quest for the perfect bowl of Noodle Soup</title>
+      <link>https://blakeruprecht.com/recipes/tantanmen-ramen/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/recipes/tantanmen-ramen/</guid>
+      <description>Holy shit, it&amp;rsquo;s all coming together. After watching Kung Fu Panda as a kid, I&amp;rsquo;ve been craving a delicious Asian nooodle-soup dish. Instant ramen is a good solution for $1 and a heart attack, but I want something fresh, wholesome, and delicious. Before this journey, ramen never did it for me, and other dishes like Pad Thai and Lo Mein just didn&amp;rsquo;t hit the spot.&#xA;I never liked Thai food, and I&amp;rsquo;m a serious food explorer.</description>
+    </item>
+    <item>
+      <title>How to Install an EV Charger</title>
+      <link>https://blakeruprecht.com/ev-charger-install/</link>
       <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/ev-charger-install/</guid>
+      <guid>https://blakeruprecht.com/ev-charger-install/</guid>
       <description>For the record, I wouldn&amp;rsquo;t recommend you install an EV charger yourself if you have no electrical experience. It&amp;rsquo;s extremely dangerous, and if you mess up, you can very easily catch your house on fire, or worse. However, it&amp;rsquo;s cool to at least now the process in theory, and this way, you can see if your electrician is doing it properly as well.&#xA;How much does it cost? If it was free, everyone would do it.</description>
     </item>
     <item>
-      <title>Insect farming</title>
-      <link>https://blakeruprecht.com/blog/insect-farming/</link>
+      <title>Insects are Sustainable Protein</title>
+      <link>https://blakeruprecht.com/insect-farming/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/insect-farming/</guid>
+      <guid>https://blakeruprecht.com/insect-farming/</guid>
       <description>I ate a scorpion in Bangkok and it wasn&amp;rsquo;t good. The outer shell dominated the texture, and the meat tasted vaguely stale. Would not recommend.&#xA;I also ate grasshoppers, crickets, mealworms, and bamboo worms. I liked them all, and liked the mealworms so much I bought them many more times for a crunchy snack. They reminded me of a meatier cheese puff &amp;ndash; salty, crunchy, and airy. The crickets had much more substance to them, but were suprisingly good, with a roasted, fishy flavor.</description>
     </item>
     <item>
       <title>Python scientific computing packages</title>
-      <link>https://blakeruprecht.com/blog/python-packages/</link>
+      <link>https://blakeruprecht.com/python-packages/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/python-packages/</guid>
+      <guid>https://blakeruprecht.com/python-packages/</guid>
       <description>I&amp;rsquo;ve done 5 years of science research and development using mainly Python, and have used the major scientific computing libraries. While this topic may seem intimidating, the actual usage of each library is typically pretty brief (a few lines of code), so you don&amp;rsquo;t need to be an expert in each library, you just need to generally know what they do so you can use them when you need to. Here&amp;rsquo;s a brief overview with some of the most common code explained.</description>
     </item>
     <item>
-      <title>How to install Python</title>
-      <link>https://blakeruprecht.com/blog/python-install/</link>
+      <title>How to Install Python</title>
+      <link>https://blakeruprecht.com/python/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/python-install/</guid>
+      <guid>https://blakeruprecht.com/python/</guid>
       <description>Python is the most useful general purpose programming language, probably because it is easy to use. Don&amp;rsquo;t let that fool you, it&amp;rsquo;s still difficult to get this anaconda up and running on your own computer.&#xA;Installation instructions Here&amp;rsquo;s what you&amp;rsquo;ll typically see, as concisely as possible. Bold terms are explained in the FAQ.&#xA;Download the latest version of Python from the official website for your operating system (Mac, Windows, Linux, etc.</description>
     </item>
     <item>
-      <title>The terminal can do almost everything</title>
-      <link>https://blakeruprecht.com/blog/terminal/</link>
+      <title>Open Source is Awesome</title>
+      <link>https://blakeruprecht.com/open-source/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/terminal/</guid>
+      <guid>https://blakeruprecht.com/open-source/</guid>
+      <description>Unix Philosophy Use the simplest tool for the job. If you don&amp;rsquo;t need to code new programs &amp;ndash; don&amp;rsquo;t. This is contrary to the modern ethos of solving invented problems.&#xA;Most everything program my laptop is running is 5-50 years old. Software has come a long way, but I&amp;rsquo;m also mostly operating as if my computer was from 1977 and it works just fine for the main things a computer does &amp;ndash; write, code.</description>
+    </item>
+    <item>
+      <title>The terminal can do almost everything</title>
+      <link>https://blakeruprecht.com/terminal/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/terminal/</guid>
       <description>SUMMARY&#xA;Note: I use {curly brackets} to represent variables where you replace the text inside the brackets, and don&amp;rsquo;t type the brackets themselves. This is often used in documentation, but not explained, so be on the lookout. Note: I use code text to represent code that should be typed into the terminal command line. ls lists files; ls -la lists all files the long way cd changes directory, cd .. goes up one dir, cd {dir} takes you to the &amp;ldquo;dir&amp;rdquo; folder mv {dir1/old} {dir2/new} moves a file from the first dir position to the second dir position mv {dir1} {dir2} changes the name of the folder mkdir {dirname} creates a new directory touch {filename} creates a new empty file grep [options] pattern {files} searchs all the files in {files} for the &amp;ldquo;pattern&amp;rdquo; specified, e.</description>
     </item>
     <item>
       <title>Linux, MacOS, and Windows are all good</title>
-      <link>https://blakeruprecht.com/blog/os/</link>
+      <link>https://blakeruprecht.com/operating-systems/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/os/</guid>
+      <guid>https://blakeruprecht.com/operating-systems/</guid>
       <description>I recently posted about my Linux setup, and I&amp;rsquo;ve come to a shocking realization &amp;ndash; any OS is fine. Strengths and drawbacks, right?&#xA;Linux: Cost: FREE Ease of use: ADVANCED USERS, MOSTLY Coding: OTIMAL MacOS: Cost: EXPENSIVE (requires an expensive macbook) Ease of use: EASY TO USE Coding: EASY Windows: Cost: EXPENSIVE (requires a $100 license) Ease of use: FINE Coding: ANNOYING If you already have Windows, my recommendation is to just keep it until you get annoyed enough to need to switch, which could be never.</description>
     </item>
     <item>
       <title>Good computers to buy</title>
-      <link>https://blakeruprecht.com/blog/computer-hardware/</link>
+      <link>https://blakeruprecht.com/computer-hardware/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/computer-hardware/</guid>
+      <guid>https://blakeruprecht.com/computer-hardware/</guid>
       <description>I&amp;rsquo;m trained as a computer scientist, so technically I know nothing about computer hardware. That&amp;rsquo;s the domain of computer engineers. Still, I have a lot of experience with computers and can give some general recommendations. This is probably most applicable to people in the USA, but not too sure.&#xA;I recommend Apple Macbooks, Dell XPS 13s, and Lenovo Thinkpads in this article. There are many more good computers out there, but I don&amp;rsquo;t have personal experience with others, so I won&amp;rsquo;t recommend them.</description>
     </item>
     <item>
+      <title>Work to Earn Money</title>
+      <link>https://blakeruprecht.com/jobs/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/jobs/</guid>
+      <description>How to Get a Job Let&amp;rsquo;s work backwards &amp;ndash; you have probably heard about a Resume and Cover Letter. So that&amp;rsquo;s pretty much how you get a job these days.&#xA;A Resume is a quick summary of you relevant skills, experience, and qualifications for the job posting. This will show potential employers whether or not you would be a good fit for the job, and the reputation of your past employers/affiliations helps gives you credibility.</description>
+    </item>
+    <item>
       <title>Simple software follows Unix principles</title>
-      <link>https://blakeruprecht.com/blog/simple-software/</link>
+      <link>https://blakeruprecht.com/computer-software/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/simple-software/</guid>
+      <guid>https://blakeruprecht.com/computer-software/</guid>
       <description>Update 2024-09-27 Of course, I did this as a fun experiment to see if Linux was worth it. It&amp;rsquo;s been a few months of daily driving this setup on my computer, and I can confidently say that it works great. Maybe I&amp;rsquo;ll do it again, maybe I&amp;rsquo;ll install Linux Mint next, maybe I&amp;rsquo;ll go back to MacOS.&#xA;I appreciate being able to do this, I&amp;rsquo;m not sure I ever personally want to dedicate the time to this much coding again.</description>
     </item>
     <item>
       <title>My memories are stored in melodies</title>
-      <link>https://blakeruprecht.com/blog/melodic-memory/</link>
+      <link>https://blakeruprecht.com/melodic-memory/</link>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/melodic-memory/</guid>
+      <guid>https://blakeruprecht.com/melodic-memory/</guid>
       <description>The greatest distance between two places is through time. When I listen to music, occasionally a song will play that instantly transports me back to a specific moment in time, filling me with vivid memories of a moment I&amp;rsquo;ll never forget. When I play through these songs, I relive moments like they just happened.&#xA;Somewhere in the Middle One moment, it&amp;rsquo;s a hot and humid day somewhere in the middle of a damp Missouri summer.</description>
     </item>
     <item>
-      <title>Something I should say more</title>
-      <link>https://blakeruprecht.com/blog/ily/</link>
+      <title>Something I Should Say More</title>
+      <link>https://blakeruprecht.com/ily/</link>
       <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/ily/</guid>
+      <guid>https://blakeruprecht.com/ily/</guid>
       <description>The tattoo on my achilles heel is an X. If you squint, it kind of looks like an intersection, or a crossroad. To me, this represents indecision, my biggest weakness, and the thing I regret most in life &amp;ndash; not taking action to pursue love over fear. As I sit here at another crossroad, I can&amp;rsquo;t help but think of the lyrics from the song that inspired the ink:&#xA;I&amp;rsquo;m standing at the crossroad,</description>
     </item>
     <item>
-      <title>Onebag travel is the way to go</title>
-      <link>https://blakeruprecht.com/blog/onebag/</link>
+      <title>Build simple packs</title>
+      <link>https://blakeruprecht.com/backpacks/</link>
       <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/onebag/</guid>
-      <description>Since I became an adult, I&amp;rsquo;ve always set out to travel with just one backpack so I never have to wait at that stupid baggage carousel thing. It&amp;rsquo;s never been a problem.&#xA;I recently completed a four month trip around Southeast Asia and Europe lasting from February through June. Prior to this, I traveled around the USA pretty extensively for some months. I&amp;rsquo;ve traveled a lot over the past few years, but this was by far the most travel I&amp;rsquo;ve ever done in a one-year period.</description>
+      <guid>https://blakeruprecht.com/backpacks/</guid>
+      <description>Onebag for city travel Backpack28L, Daypack16L (packed in main bag) Smartphone, Wallet/IDs/Passport/Documents, Chargers Dopp bag, Glasses, case, contacts, solution, Toothbrush, paste, floss Shower bag, Beard Trimmer, Pack Towel, soap, deodorant Clothes bag, Tshirt(2), Boxer(2), Socks(2), Shorts(2), Sandals, Shell, Puffer, Ballcap (+) Notebook, Pen, Laptop, Earbuds, Earplugs, Water bottle, Skip rope, Rings I traveled the world with my school backpack and some stuff I had lying around. All those travel lists are stupid and full of overpriced gear.</description>
     </item>
     <item>
       <title>Game Theory calculates optimal strategies</title>
-      <link>https://blakeruprecht.com/blog/game-theory/</link>
+      <link>https://blakeruprecht.com/game-theory/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/game-theory/</guid>
+      <guid>https://blakeruprecht.com/game-theory/</guid>
       <description>&amp;ldquo;Intelligence is the ability to get what you want.&amp;rdquo;&#xA;As agents, we set goals and figure out how to achieve them. That&amp;rsquo;s what being smart is. Being intelligent is not the ability to learn 100 digits of Pi. That&amp;rsquo;s just pure computation. Being intelligent is reciting those digits to a girl you have a crush on, but only if it works. If she gets the ick, then that behavior was dumb, unless you were purely competing with yourself, in which case it&amp;rsquo;s back to being smart.</description>
     </item>
     <item>
-      <title>Growth Mindset</title>
-      <link>https://blakeruprecht.com/blog/growth-mindset/</link>
+      <title>Develop a Growth Mindset</title>
+      <link>https://blakeruprecht.com/growth-mindset/</link>
       <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/growth-mindset/</guid>
+      <guid>https://blakeruprecht.com/growth-mindset/</guid>
       <description>Summary: Change your mindset to prioritize growth by praising yourself for effort, hard-work, and learning. Talk to yourself like a friend, don&amp;rsquo;t try to be perfect, and engage in positive self-talk. Eventually, you will be making more progress than you ever were with a fixed mindset.&#xA;Growth mindset is when you believe you can improve at anything with time and effort. Instead of seeing challenges as an internal problem, you see them as a chance to get better and improve.</description>
     </item>
     <item>
       <title>How to make cold brew</title>
-      <link>https://blakeruprecht.com/blog/cold-brew/</link>
+      <link>https://blakeruprecht.com/recipes/cold-brew/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/cold-brew/</guid>
+      <guid>https://blakeruprecht.com/recipes/cold-brew/</guid>
       <description>I normally pay \$5-6 for cold brew out at a coffee shop. That&amp;rsquo;s about \$0.45/oz of coffee! I&amp;rsquo;m all for supporting local business, but I am also a local business and need to support myself, so here&amp;rsquo;s how to do it at home. The secrets won&amp;rsquo;t surprise you!&#xA;The Process Gather ingredients and tools. The total cost for the tools should be less than $40. Two big jars and a metal filter.</description>
     </item>
     <item>
       <title>Machine Learning paradigms</title>
-      <link>https://blakeruprecht.com/blog/ml-paradigms/</link>
+      <link>https://blakeruprecht.com/ml-paradigms/</link>
       <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/ml-paradigms/</guid>
+      <guid>https://blakeruprecht.com/ml-paradigms/</guid>
       <description>At the highest level, machines learn very similarly to how humans learn. Data is given to the neural network, and then the robot does some calculations and tests it&amp;rsquo;s performance against the environment.&#xA;Supervised Learning (SL) Data comes with labels. The network makes an initial random guess at what the labels should be. Then, it compares the guesses to the actual labels, and determines how off it was (total error). It updates the network according to this error.</description>
     </item>
     <item>
       <title>LSTM units incorporate temporal data into NNs</title>
-      <link>https://blakeruprecht.com/blog/lstm/</link>
+      <link>https://blakeruprecht.com/lstm/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/lstm/</guid>
+      <guid>https://blakeruprecht.com/lstm/</guid>
       <description>Utilizes temporal data, aka LSTM units can use previous information in their determination of current state.&#xA;The first sigmoid is the &amp;ldquo;forget-gate&amp;rdquo; $f_t$, the second sigmoid is the &amp;ldquo;input-gate&amp;rdquo;, $i_t$, the tanh is the &amp;ldquo;cell-update&amp;rdquo;, $\tilde{C}_t$. Forget-gate will determine how much of the previous cell-state we need to remember, input-gate determines how much of the new cell-state we need to remember, and cell-update gate normalizes the cell-state between [-1,1] because of the tanh.</description>
     </item>
     <item>
       <title>ANFIS has gradient problems</title>
-      <link>https://blakeruprecht.com/blog/anfis/</link>
+      <link>https://blakeruprecht.com/anfis/</link>
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/anfis/</guid>
+      <guid>https://blakeruprecht.com/anfis/</guid>
       <description>It&amp;rsquo;s a Neural Network that incorporates Fuzzy Sets The first major project I worked on was coding up the Adaptive Neuro Fuzzy Inference System (ANFIS) in Python, specifically utilizing the PyTorch package to calculate the gradients. I calculated the gradients by hand to validate PyTorch, but wouldn&amp;rsquo;t you know it, PyTorch knows what it&amp;rsquo;s doing.&#xA;ANFIS is a type of artificial neural network that combines the antecedent and consequent logic (fuzzy IF-THEN rules) of fuzzy logic with the backpropagation learning techniques of multilayer perceptrons.</description>
     </item>
     <item>
       <title>Reward drives behavior</title>
-      <link>https://blakeruprecht.com/blog/reward/</link>
+      <link>https://blakeruprecht.com/reward/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/reward/</guid>
+      <guid>https://blakeruprecht.com/reward/</guid>
       <description>It&amp;rsquo;s all about money. Or food.&#xA;Reward.&#xA;If you want to win a game, you should reward yourself only for winning. Not for time spent practicing, not for time spent reading, not for anything else besides winning. Don&amp;rsquo;t reward yourself for &amp;ldquo;playing hard&amp;rdquo;, or &amp;ldquo;trying&amp;rdquo;, or for &amp;ldquo;having fun&amp;rdquo;, or doing one aspect of the game well. Sure, these tricks may be helpful to keep you playing, but they don&amp;rsquo;t necessarily help you win.</description>
     </item>
     <item>
-      <title>Neural gas learns a self-organizing map</title>
-      <link>https://blakeruprecht.com/blog/neural-gas/</link>
-      <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/neural-gas/</guid>
-      <description>Similar to a Kohonen map, another self-organing map, but this time the topology is learned. Goal is to learn a topological structure to relate &amp;ldquo;close&amp;rdquo; datapoints to each other. Winner-takes-most. Growing neural gas starts with two-neurons and keeps adding a bisecting neuron until the stopping criteria is met (e.g. performance measure below threshold)&#xA;Algorithm Given an input dataset $x \in \mathbb{R}^n$ Init &amp;ldquo;weights&amp;rdquo; $w_i \in \mathbb{R}^n$ Pick a datapoint $v$ from $x$, For each weight $w_i$, calculate the distance to $v$ For each weight, determine the number (cardinality?</description>
-    </item>
-    <item>
-      <title>Algorithm to beat procrastination</title>
-      <link>https://blakeruprecht.com/blog/procrastination/</link>
+      <title>Algorithm to Beat Procrastination</title>
+      <link>https://blakeruprecht.com/procrastination/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/procrastination/</guid>
-      <description>$$ Motivation = \frac{Expectancy \cdot Value}{Impulsiveness \cdot Delay} $$ Step 1: Notice I&amp;rsquo;m procrastinating&#xA;I know I should do a task Step 2: Guess which unattacked part of the equation is causing me the most trouble.&#xA;Low Expectancy: am I likely to succeed? Is the task within my capabilities? Will I actually get the reward? Low Value: am I bored and distracted? Uncomfortable, onerous, or painful? Am I nervous or afraid of the outcome?</description>
+      <guid>https://blakeruprecht.com/procrastination/</guid>
+      <description>$$ Motivation = \frac{Expectancy \cdot Value}{Impulsiveness \cdot Delay} $$ Step 1: Notice I&amp;rsquo;m procrastinating&#xA;I know I should do a task Step 2: Guess which unattacked part of the equation is causing me the most trouble.&#xA;Low Expectancy: am I likely to succeed? Is the task within my capabilities? Will I actually get the reward? Low Value: am I bored and distracted? Uncomfortable, grumpy, or in pain? Am I nervous or afraid of the outcome?</description>
     </item>
     <item>
       <title>The Choquet Integral generalizes metric functions</title>
-      <link>https://blakeruprecht.com/blog/choquet-integral/</link>
+      <link>https://blakeruprecht.com/choquet-integral/</link>
       <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/choquet-integral/</guid>
+      <guid>https://blakeruprecht.com/choquet-integral/</guid>
       <description>This is a really cool integral that basically maps any metric function on sets like the MAXIMUM, MINIMUM, MEDIAN&#xA;Choquet Integral: The Math Where $\pi(j)$ sorts the inputs based on their output values, $h_{\pi(j)}$, which is the output for input $x_j$. Little g is a measure such that $g(A) &lt; g(B)$ if $A \subseteq B$, $g(\emptyset) = 0$, $g(\mathbf{X}) = 1$. ChI adheres to monotonicity, idempotency, subcontinuity, etc. This includes the Linear Order Statistic (LOS) the Order Weighted Average (OWA), Maximum, Minimum, etc.</description>
     </item>
     <item>
       <title>Multilayer Perceptrons are the basic unit of a NN</title>
-      <link>https://blakeruprecht.com/blog/multilayer-perceptron/</link>
+      <link>https://blakeruprecht.com/multilayer-perceptron/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/multilayer-perceptron/</guid>
+      <guid>https://blakeruprecht.com/multilayer-perceptron/</guid>
       <description>A type of NN that implements multiple layers of the basic perceptron.&#xA;$\mathbf{x}$ = input vector (e.g. $\mathbf{x}=[0.3, 5.4, 156.1]$) of length $N$ ($N=3$ in this e.g.), $\mathbf{x} \in [-\infty,\infty]$, can be normalized to [-1,1]$ or $[0,1]$&#xA;$\mathbf{w}$ = weight vector of length $N$ in the range $[0,1]$&#xA;$\sigma$ = activation function (typically ReLU, tanh, sigmoid, etc.)&#xA;$y$ = output scalar&#xA;$\hat{y}$ = label scalar&#xA;$e$ = error or loss function (typically Mean Squared Error as shown here)</description>
     </item>
     <item>
       <title>Neural Networks approximate any function</title>
-      <link>https://blakeruprecht.com/blog/neural-network/</link>
+      <link>https://blakeruprecht.com/neural-networks/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/neural-network/</guid>
+      <guid>https://blakeruprecht.com/neural-networks/</guid>
       <description>Neural networks are universal function approximators, according to the Universal function approximation theorem. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.&#xA;Activation Functions ReLU TanH Sigmoid Loss Functions (1/2)e^2 Softmax $$ \sigma(z)_i = \frac{\exp{z_i}}{\Sigma_{j=1}^K \exp{z_j}} $$ $z$ is the input vector, $\in \{-\infty,\infty\}$, can be pos, neg, zero. $\exp{z}$ is applied to each element of the input vector, gives a pos. value above 0, which will be small if the input was neg.</description>
     </item>
     <item>
       <title>Full Flavor, 99 Calories</title>
-      <link>https://blakeruprecht.com/blog/best-buds/</link>
+      <link>https://blakeruprecht.com/best-buds/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/blog/best-buds/</guid>
+      <guid>https://blakeruprecht.com/best-buds/</guid>
       <description>&amp;ldquo;I&amp;rsquo;ll have to check, we might be out of Bud Select today, what do you want instead —- Bud Light?&amp;rdquo; No, you can&amp;rsquo;t replace the best type of Bud&amp;hellip;&#xA;It seems so impossible before it happens. You see it approaching. You see all of the warning signs, all of the speed bumps preparing you for the abrupt stop ahead. Somber stories are repeated from old friends who are long past the days of sitting on rooftops at 2pm on a Tuesday, skipping class and drinking cold ones out of a squat, plastic cup, deciding that their responsibilities can be pushed off for at least two more hours, until they hit that Ballmer peak of &amp;ldquo;creativity&amp;rdquo; or whatever you&amp;rsquo;re supposed to call drunkenly typing meandering lines of thought and utilizing spell check way too much and re-doing it all the next morning anyway &amp;ndash; but that doesn&amp;rsquo;t matter.</description>
     </item>
     <item>
-      <title>Photo Journal</title>
-      <link>https://blakeruprecht.com/photojournal/</link>
+      <title>Full Flavor, 99 Calories</title>
+      <link>https://blakeruprecht.com/full-flavor/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/full-flavor/</guid>
+      <description>&amp;ldquo;I&amp;rsquo;ll have to check, we might be out of Bud Select today, what do you want instead —- Bud Light?&amp;rdquo; No, you can&amp;rsquo;t replace the best type of Bud&amp;hellip;&#xA;It seems so impossible before it happens. You see it approaching. You see all of the warning signs, all of the speed bumps preparing you for the abrupt stop ahead. Somber stories are repeated from old friends who are long past the days of sitting on rooftops at 2pm on a Tuesday, skipping class and drinking cold ones out of a squat, plastic cup, deciding that their responsibilities can be pushed off for at least two more hours, until they hit that Ballmer peak of &amp;ldquo;creativity&amp;rdquo; or whatever you&amp;rsquo;re supposed to call drunkenly typing meandering lines of thought and utilizing spell check way too much and re-doing it all the next morning anyway &amp;ndash; but that doesn&amp;rsquo;t matter.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/bicycles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/photojournal/</guid>
-      <description> </description>
+      <guid>https://blakeruprecht.com/bicycles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/chatgpt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/chatgpt/</guid>
+      <description>Chat Ask yourself: &amp;ldquo;What if nothing was broken right now? What if everything was just okay? If you felt good, what would you do?&amp;rdquo; Yes, you do need money, but the part where you&amp;rsquo;ve made earning a precondition to being alive &amp;ndash; that&amp;rsquo;s the lie I&amp;rsquo;m trying to build safety into my life, strength so I feel strong, income so I feel like I can finally rest The safety I&amp;rsquo;m chasing can come right now, by stopping and taking a breath You are allowed to live a full life now Even in suburbia, even while broke, even with the AI doomsday clock ticking You are allowed to go outside, feel the sun on your face, and not be designing your blog You are allowed to laugh with a friend without the internal clock saying &amp;ldquo;you should be working&amp;rdquo; You are allowed to say &amp;ldquo;This life is real.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/drink-water/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/drink-water/</guid>
+      <description>All humans require a different amount of water, based on genetics, how much you sweat, how much you pee/poop, how watery your breathing is, etc. So all humans need a different amount.&#xA;The current best scientific recommendation is to &amp;ldquo;drink as much as you&amp;rsquo;re thirsty for.&amp;rdquo;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/epiousion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/epiousion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/f/</guid>
+      <description>I think we all know what it means, but for those who don&amp;rsquo;t.&#xA;f.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/industrious/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/industrious/</guid>
+      <description>What is the origin of WEIRD work ethic?&#xA;should be renamed to the Energy Revolution, because the added energy in the system is the main catalyst for increased productivity. It basically just speeds up the two-pronged development of Theory/Experiment and Machine - We have been using [[the-art-of-science]] for hundreds of years &amp;ndash; experimentation, simplifying topics, and developing theory. This is nothing new, it&amp;rsquo;s basic trial and error with some obvious rules to make sure you&amp;rsquo;re not getting bad results - We don&amp;rsquo;t care about TRUTH in some amorphous sense, we care about being EFFECTIVE, because all scientific thought has been tested.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/language-games/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/language-games/</guid>
+      <description>AI has proved Wittgenstein right &amp;ndash; words do not have any meaning in themselves, they are just scribbles on a screen, or just a random combination of sounds. Listen to anybody speak a foreign language to you, and you&amp;rsquo;ll instantly understand that language is just a bunch of random noises.&#xA;We used our big brains to associate those random noises with certain things.&#xA;taught us how to use computers properly, because they showed us that words are not meaningful in themselves, they&amp;rsquo;re much more similar to variables and rough approximations &amp;ndash; which we can also use math variables for.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/life/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/life/</guid>
+      <description>What are we playing again? Living. Surviving. Breathing. Yup, just staying alive, keeping that heart beat going. That&amp;rsquo;s it. The biggest picture view of most of this wholel shin dig is people protecting their own lives, protecting those of the ones they love, and that not always working out between two people. Which leads to [[death]].</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/machines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/machines/</guid>
+      <description>Mechanical inventions are the most powerful tools humans have ever created. Why? Because they can utilize more energy faster than humans can.&#xA;The average human eats 2,000 calories per day. A gallon of gasoline is 28,746 calories.&#xA;The power of machines comes from converting useless materials (gasoline, coal, even wood, nuclear material) into mechanical energy.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/maktoub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/maktoub/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/moloch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/moloch/</guid>
+      <description>The tragedy of the commons.&#xA;The problem with living in community &amp;ndash; it inevitably becomes competitive, regardless of how hard we try to cooperate. The more we cooperate, the more chance there is to destroy others.&#xA;E.g. nuclear bombs&amp;hellip; are a result of trying to stop Nazis&amp;hellip; which is part of a long line of promoting democracy and individual right to choose. [[the-system]] encourages us to decentralize science.&#xA;The Poverty Trap The Malthusian Trap</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/move/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/move/</guid>
+      <description>Movement is the next most fundamental principle of human survival after breathing. Movement is a generic term to refer to how we utilize our bodies to interact with the world. Getting good at movement is fundamental to everything else humans do. We need to walk around and move our limbs to obtain resources to create shelter and find food for ourselves. We need to use our muscles to breathe properly, to hold us upright, and to perform every single routine task.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/natural-selection-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/natural-selection-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/nourish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/nourish/</guid>
+      <description>After breathing, movement, and shelter, water and food are the most important survival priorities. Humans can go about 3 days without water, and about 3 weeks without food.&#xA;nourish&#xA;drink-water eat cook gather, [garden], [hunt], [angle] drugs </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/old-ways/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/old-ways/</guid>
+      <description>The ways of magic, wonder, and mystery.&#xA;Conveniently, the Old Ways always seem to have happened 100 years ago.&#xA;The original ways humans lived, and the ways many humans still live.&#xA;Amistics&#xA;Horses over cars Carpentry, Metalwork, Stonework Local community Better than blue zones? </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/patriot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/patriot/</guid>
+      <description>&amp;ldquo;Pater&amp;rdquo; is the Latin word for father. Coincidentally, the [[proto-indo-european]] word for father is &amp;ldquo;phter&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/positive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/positive/</guid>
+      <description>The Two Wolves &amp;ndash; everyone has positive and negative inside of them They&amp;rsquo;re not separate &amp;ndash; it&amp;rsquo;s a spectrum of light.&#xA;Darkness is only a thing because of the presence of light.&#xA;Human morality is only a thing because somebody thought to be good one time.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/quanta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/quanta/</guid>
+      <description>Planck length Resolution of the [[universe]] Smallest possible things in existence</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/rainbow-road/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/rainbow-road/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/reciprocity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/reciprocity/</guid>
+      <description>&amp;ldquo;Now our minds are one.&amp;rdquo; -Haudenosaunee Thanksgiving Address&#xA;Relate with nature Connect with nature Love nature</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/relate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/relate/</guid>
+      <description>self-love relationships ily best-buds melodic-memory self-love &amp;ndash; the foundation the rock &amp;ndash; king &amp;amp; queen, father and mother, demonstrate what love is siblings &amp;ndash; ask kylie about sibling dynamics family &amp;ndash; ohana friendships community networks city / state / country global / civilization / humanity biosphere</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/relationships/</guid>
+      <description>The Rings of People Around You 1. Family 2. Friends 3. Village Local community, the people you live around “A fundamental paradox at the core of human life is that we are highly social and made better in every way by being around people, and yet over and over, we have opportunities to connect that we don’t take, or even actively reject, and it is a terrible mistake.” -Epley&#xA;The Social Gosepl in the early 20th century gave rise to the most social century in American history.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/religion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/religion/</guid>
+      <description>Christianity&#xA;Epiousion: The New Testament was originally written in Koine Greek. Many mis-translations and errors in interpretation stem from people not knowing Koine. This word is a famous part of the Sermon on the Mount, specifically the Lord&amp;rsquo;s Prayer. In the typical English translation, it&amp;rsquo;s part of the line &amp;ldquo;give us this day our daily bread&amp;rdquo;, and epiousion roughly translates to &amp;lsquo;daily bread,&amp;rsquo; but this doesn&amp;rsquo;t tell the whole story. I think back to this word all the time when I think about one of the key purposes of religion in general, and these teachings from Jesus in particular: have faith in the present moment, let go of your worries about your misgivings, and let go of your worries about future income (daily bread).</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/rich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/rich/</guid>
+      <description>What makes WEIRD people so Rich?&#xA;Capitalism enabled humans to escape the [[Poverty Trap]]. This was absolutely huge. It enabled this by creating a system where people could pool their money together to pay for risky ventures &amp;ndash; that could end disastrously or pay off big. This way, no single person has to take on the entire risk of a venture.&#xA;This idea, while obvious to us today, was not so obvious to humans as recently as 1650.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/self-love/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/self-love/</guid>
+      <description>I&amp;rsquo;m already good enough. I have more than enough.&#xA;I have a healthy, fit, athletic body. I have a sharp, intelligent, skilled mind. I have a positive, grateful, focused spirit.&#xA;I am surrounded by loving family and friends.&#xA;I have voice to talk to loved ones I have air to breathe I have energy to move I have food to eat I have water to drink and clean I have shelter to sleep in I have tools to work with</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/shelter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/shelter/</guid>
+      <description>Humans can survive roughly 3 minutes without oxygen. We survive roughly 3 hours without warmth, so it&amp;rsquo;s a major survival priority, above water and food (which also help keep humans warm).&#xA;The first way to maintain warmth in the body is to move. Moving the body will inevitably heat you up, but it is not sufficient in many environments, including anywhere it&amp;rsquo;s really cold. For long-term survival, shelter is necessary to provide humans with warmth, as well as safe places to rest and sleep.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/simplicity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/simplicity/</guid>
+      <description>&amp;ldquo;The simple way really is the best way to do things.&amp;rdquo; -Nick Saban&#xA;&amp;ldquo;Nature prefers the shortest path from A to B&amp;rdquo;&#xA;&amp;ldquo;Nature operates in the shortest way possible.&amp;rdquo; -Aristotle&#xA;&amp;ldquo;Scientists must use the simplest means of arriving at their results and exclude everything not perceived by the senses.&amp;rdquo; -Ernst Mach&#xA;&amp;ldquo;If a thing can be done adequately by means of one, it is superfluous to do it by means of several; for we observe that nature does not employ two instruments if one suffices.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/solarpunk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/solarpunk/</guid>
+      <description>Praxis Solarpunk is an optimistic look at the future that embraces both technology and nature. Focus on sustainable, regenerative practices. Community-oriented approaches to solving problems. Repurposing existing infrastructure </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/sports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/sports/</guid>
+      <description>Ball Sports Basketball Softball Soccer Volleyball Football Disc Sports Disc Golf Ultimate </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/sunlight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/sunlight/</guid>
+      <description>Sunlight is good. Digital light is bad.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/the-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/the-process/</guid>
+      <description>Over and over again until I get it right.&#xA;Commit to it. All-in on this practice. Dedicate yourself to focusing, paying attention, giving this your all, putting your entire bleeding heart into it.&#xA;As many reps as necessary.&#xA;For every new task, I understand what&amp;rsquo;s up. Play the long game. Forever.&#xA;Commit to becoming a student of the game. Humble yourself, let go of your pride, and open your eyes to the lessons that come with every failure.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/the-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/the-system/</guid>
+      <description>The System emerged from Wittenberg, Germany in the 1500s. We can still see correlation between distance from Wittenberg and literacy rates. Why Germany, of all places, and why then?&#xA;The human population left Africa, and as naturally does when populations spread out, it went from heterogenous to homogenous. In Europe and the Middle East, the human populations were somewhat different, but not as different as in Africa itself. Farther out, in India and China, the populations were more homogeneous, leading to more successful empires.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/timshel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/timshel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/travel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/travel/</guid>
+      <description>Walk The O.G. best form of human travel, also the slowest.&#xA;Personal vehicle Human-powered: the best human-powered vehicle is the bicycle, which increase human travel efficiency for minimal energy requirements (not much more than walking). A bicycle accomplishes this through mechanical-advantage, where it transmits vertical force (pushing down on the pedal) into rotational force (the gears powering the back wheel).&#xA;Bicycle, Skateboard, etc. Moped, motorbike, etc. Car&#xA;Public transportation Taxis Busses Trains Planes Boats</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/turing-machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/turing-machine/</guid>
+      <description>Summary of the Turing Machine&#xA;We can program a machine to function as a Turing Machine In-depth explanation of Turing Machines, why they&amp;rsquo;re so important, and how all modern computers are Turing Machines Basically, machines that can hold numbers, and manipulate numbers (even just 1s and 0s), can functionally computer almost anything in the world with abstraction The Ancient Texts Lovelace, Babbage, and thinking machines Goedel, Turing, and the great Theory of Computing The theories started in, you guessed it, math Incompleteness, and why this matters The revolutionary discovery by the 17 yr old wiz kid from England, Turing What can we use as tape?</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/universe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/universe/</guid>
+      <description>&amp;ldquo;In the beginning, the universe was created. This was widely regarded as a bad move.&amp;rdquo; -douglas adams&#xA;At the scale of the universe, what matters? Nothing from a humans perspective, that&amp;rsquo;s for sure, besides the potential threat of another planet hitting us, a black hole swallowing us up, or a random burst of energy acting like a galactic laser beam straight to our little rock.&#xA;The probability of an astrophysics-related catastrophe here on earth is probably 1%.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/unix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/unix/</guid>
+      <description>Unix is an entire philosophy of computing that stems historically from the 1970s. The basic principle is similar to that of science:&#xA;Have a program do one thing, do it completely, and don&amp;rsquo;t do other things. This way you can piece together a system based on what parts you need, and leave everything else off.&#xA;The Terminal The foundation of this philosophy is the Terminal, otherwise known as the Command Prompt, the Terminal Emulator, the Code Prompt, and more.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/walk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/walk/</guid>
+      <description>Walking is the most fundamental form of human movement after breathing. Walking has been the predominant mode of human travel for most of history.&#xA;Walking is also coincidentally probably the single best form of exercise for humans, since there is practically no upper limit to how much walking someone can do in a day.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/web-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/web-design/</guid>
+      <description>Keep It Simple, Stupid&#xA;Black ink on a white page. Minimal accent colors for links/highlights if need be. Focus on the content.&#xA;Today&amp;rsquo;s web is full of ugly, bloated websites that shove a bunch of crap in the users face. They are obviously marketing ploys designed to maximize engagement and revenue, not maximized for usability.&#xA;I made my website using HTML, CSS, JavaScript (not really), and Hugo, a static-site generator that produces fully built web pages, no fluff.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/web-dev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/web-dev/</guid>
+      <description>HTML CSS JavaScript&#xA;In the spirit of https://thebestmotherfucking.website/, websites should be as small as possible, load as little junk as possible, and get to the point.&#xA;A quality website is as simple as possible.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/what-is-love/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/what-is-love/</guid>
+      <description>If science and math are not the end goals of the human endeavor (they&amp;rsquo;re not), what is? Love.&#xA;That&amp;rsquo;s pretty vague though, does it mean relationships? Does it mean craft?&#xA;No, it means love of the process of living. Love of being alive.&#xA;We all only get X years to live, and we don&amp;rsquo;t know what that number is for ourselves. We could die at any moment.&#xA;The Great Mystery How do we go from our individual parts, to these great big biological machines?</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/work/</guid>
+      <description>Work is a fundamental survival priority for humans, and generally refers to the gathering and security of resources in order to provide for our own movement, shelter, and nourishment for sustained periods of time. In the modern world, this means either living off-grid and building your own shelters and growing and foraging your own food, or working to earn money in order to pay for shelter, food, etc.&#xA;jobs budget pro-writer </description>
+    </item>
+    <item>
+      <title>Build simple homes</title>
+      <link>https://blakeruprecht.com/homes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/homes/</guid>
+      <description>Apartments, townhouses, small houses &amp;ndash; typically less than 600 sqft for 1 person, a bit more per added person. Bigger than the dorm room I lived in, slightly smaller than the two houses I&amp;rsquo;ve rented. It&amp;rsquo;s what I would call the &amp;ldquo;average&amp;rdquo; home size that most people would reasonably expect to live in &amp;ndash; one that has a kitchen for cooking, a private bathroom, some type of bedroom or bed area, and space for living &amp;ndash; seating, mainly, like tables and chairs and couches.</description>
+    </item>
+    <item>
+      <title>God is all around us</title>
+      <link>https://blakeruprecht.com/spirit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/spirit/</guid>
+      <description>&amp;ldquo;He&amp;rdquo; just looks different nowadays after the fall of organized religion (at least within educated circles).&#xA;Nobody uses swords anymore, but I&amp;rsquo;m not talking about sharp metal sticks used to stab and slash. I&amp;rsquo;m talking about another type of sword &amp;ndash; the sword of meditation.&#xA;I&amp;rsquo;ve struggled with overthinking my whole life, and the only thing that has finally cut through all the crap is this:&#xA;Don&amp;rsquo;t try to untangle the messy web of thoughts in your brain.</description>
+    </item>
+    <item>
+      <title>Keep Training Simple</title>
+      <link>https://blakeruprecht.com/train/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/train/</guid>
+      <description>Anything is better than nothing. E.g. one squat. Start with walking and build up stamina. Once you can walk for 30 minutes, you can add in running. Start with 1 minute runs and build from there. Building up to running three miles is a good standard. Run more if you like, I run two miles, three times per week, and vary my intensity based on how I&amp;rsquo;m feeling. Train all of your muscles through the ranges of motions you want to keep for the rest of your life.</description>
+    </item>
+    <item>
+      <title>Natural Intelligence</title>
+      <link>https://blakeruprecht.com/ni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/ni/</guid>
+      <description>Humans are alive. We die if 3 minutes go by and we don&amp;rsquo;t have oxygen to breathe. 3 hours without warmth. 3 days without water. 3 weeks without food. Work is the way to make it all happen. Humans are pack animals, and require a team to make the work happen.&#xA;Action:&#xA;Who: YOU &amp;amp; EVERYONE ELSE When: NOW Where: HERE What &amp;amp; How in the posts themselves Why: Why Live</description>
+    </item>
+    <item>
+      <title>Nature rewards rationality</title>
+      <link>https://blakeruprecht.com/the-art-of-science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/the-art-of-science/</guid>
+      <description>Science, rationality, the art of winning &amp;ndash; call it whatever you want, I don&amp;rsquo;t really care about the name. The whole point is that most people don&amp;rsquo;t understand the point of science.&#xA;All of these laws, and rules, and difficult math equations &amp;ndash; why? Why should I listen to a scientist instead of my cousin on social media?&#xA;Because science is the art of problem solving.&#xA;It&amp;rsquo;s not the art of being righteous, or sounding cool, or even having fun.</description>
+    </item>
+    <item>
+      <title>Simple Happiness = Setpoints &#43; Conditions &#43; Actions</title>
+      <link>https://blakeruprecht.com/happiness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/happiness/</guid>
+      <description>Inclue [[Action]]&#xA;&amp;ldquo;Intelligence is the ability to get what you want.&amp;rdquo; -Naval Ravikant&#xA;Wisdom goes beyond science, and is about more than just winning. True wisdom is the pursuit of living well, which for most people, means being happy and brining happiness to others. How?&#xA;Happiness Happiness = Setpoints + Conditions + Voluntary actions&#xA;Happiness is our overall positive feeling about our lives. From the happiness research I have read, this mostly is a subjective rating, 0-10 or something like that.</description>
+    </item>
+    <item>
+      <title>Sleep Consistently</title>
+      <link>https://blakeruprecht.com/sleep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/sleep/</guid>
+      <description>Sleep is like the best Hygiene we can give ourselves. Rest to let the body do it&amp;rsquo;s natural recovery thing. Of course, it doesn&amp;rsquo;t solve everything, but it&amp;rsquo;s like a mirror of the general health of our lives.&#xA;Good sleep is indicative of low stress, general health, good heart and lungs, relaxed muscles, etc. And bad sleep messes up the rest of life.&#xA;In that sense, sleep is like the foundation of health for everything else.</description>
+    </item>
+    <item>
+      <title>Writers communicate ideas and tell stories</title>
+      <link>https://blakeruprecht.com/pro-writer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/pro-writer/</guid>
+      <description>A writer&amp;rsquo;s role can be understood in several ways, depending on the context and purpose of their work, but at the core, writers aim to communicate ideas, tell stories, and share information. Here&amp;rsquo;s a breakdown of what a writer does and the point of their work:&#xA;Communication of Ideas: Writers take complex or abstract ideas and make them accessible to a broader audience. Whether through articles, stories, or essays, they clarify thoughts, provoke reflection, and facilitate understanding.</description>
     </item>
   </channel>
 </rss>

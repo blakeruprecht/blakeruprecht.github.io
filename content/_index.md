@@ -1,28 +1,19 @@
 ---
-title: "Blake Ruprecht's Home Page"
-date: 2025-03-04T18:16:42-06:00
-description: "I'm Blake, I write about A.I., open-source science, and nature."
+title: "Blake Ruprecht"
+description: "Blake Ruprecht's personal website."
 ---
 
-{{< figure 
-  src="/headshot.jpg" 
-  alt="headshot" 
->}}
+![Alt text](/headshot.jpg)
 
-Technical Communicator
+Hey, I'm [Blake](/about). I'm writing a map.
 
-Writing
-- Published 20+ [blog posts](/blog)
-- Authored 8 [technical research papers](/blog/research) on XAI
-- Wrote 30+ newsletters and ad copies @[Labyrinth.digital](https://labyrinth.digital/)
-- Experience writing technical documentation, guides, how-tos, etc
-- Presented at 3 internationl conferences & multiple seminars
+[Natural Intelligence](/ni) & [Artificial Intelligence](/ai)
 
-Technical
-- M.S. in Comp Sci, thesis on Explainable AI @Mizzou
-- 5 YOE AI Safety Research (XAI, Neuro-symbolic, RL, LLMs)
-- Python data analysis, PyTorch, SciPy
-- Web dev using HTML/CSS/JS, markdown, Hugo, Shopify
-- Linux, Terminal, Bash, Git, GitHub, Terminal
-- SEO: technical, on-page, meta, robots, SEMRush, Google Analytics
-- BS in Mechanical Engineering @Mizzou
+Some writing samples:
+- [How to Build Your Own Computer](/build-your-own-computer)
+- [Civilization Beats Freedom](/civilization)
+- [How to Install an EV Charger](/ev-charger-install)
+- [Develop a Growth Mindset](/growth-mindset)
+- [Insects are Sustainable Protein](/insect-farming)
+
+Contact me: [email](mailto:blakecruprecht@gmail.com), [linkedin](https://linkedin.com/in/BlakeRuprecht), [github](https://github.com/BlakeRuprecht)

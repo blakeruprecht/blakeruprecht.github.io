@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "26722ad7644376cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "6919a93425cc1734",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30e15a5130727c2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/kiss.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "kiss"
+            }
+          },
+          {
+            "id": "d6a8e441c6de4c59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/_index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b1f2b47776d36816",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3a2b4528321d366",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16f888b02800977a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1b49aabc55aafdc5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bd597b70a77d7036",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "acc6ca8ad81f0626",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2e829a772695c3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e0f9b9620dc2703",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/kiss.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for kiss"
+            }
+          },
+          {
+            "id": "5c9dfe55e3825baa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/kiss.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from kiss"
+            }
+          },
+          {
+            "id": "8a57746f8c94d467",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cac4969bc4b95628",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/kiss.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of kiss"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "30e15a5130727c2d",
+  "lastOpenFiles": [
+    "blake-ruprecht.md",
+    "content/kiss.md",
+    "content/_index.md",
+    "content/process.md",
+    "content/positive.md",
+    "content/growth-mindset.md",
+    "content/entropy.md",
+    "content/universe.md",
+    "content/cook.md",
+    "public/recipes/noodle-soup/index.html",
+    "public/recipes/noodle-soup",
+    "content/choquet-integral.md",
+    "content/packs.md",
+    "content/walk.md",
+    "civilization-7500-BC.png",
+    "content/drugs.md",
+    "Excalidraw/map-7500-bc.md",
+    "content/blake-ruprecht-personality.md",
+    "content/blake-ruprecht.md",
+    "personality.md",
+    "drugs.md",
+    "training.md",
+    "public/walk/index.html",
+    "public/walk",
+    "content/lift.md",
+    "content/clothes.md",
+    "content/religion.md",
+    "content/civilization.md",
+    "public/timshel/index.html",
+    "public/timshel",
+    "public/rainbow-road/index.html",
+    "public/rainbow-road",
+    "public/natural-selection-1/index.html",
+    "public/natural-selection-1",
+    "content/recipes/pasta-con-broccoli.md",
+    "content/recipes/pasta-tutto-mare-diavoli.md",
+    "content/recipes/pasta-aglio-e-olio.md",
+    "public/drawn-Blake-Ruprecht-underlined.png",
+    "Pasted Image 20250408171413_832.png"
+  ]
+}

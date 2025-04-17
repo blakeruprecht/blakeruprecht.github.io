@@ -1,0 +1,155 @@
+---
+draft: true
+---
+
+One day I looked up some gravestones and was able to trace back certain lines of my family 20 generations, just from looking at a few websites. Crazy. Anyways, it didn't teach me much, since I'm only distantly related to anybody more than a few generations back. Still, it's cool to find out that I had family that fought for the Americans in the Revolutionary War.
+
+
+- My 16 Great-Great-Grandparents
+	- 5 GERMAN
+	- 4 ITALIAN
+	- 3 AMERICAN/ENGLISH
+	- 2 CROATIAN
+	- 1 IRISH
+	- 1 DELAWARE TRIBE
+
+- MOM: mix
+	- GMOM: mix
+		- GGMOM: American
+            - GGGMOM: American
+            - GGGDAD: American
+		- GGDAD: mix
+			- GGGMOM: German
+			- GGGDAD: Irish
+	- GDAD: mix
+		- GGMOM: mix
+			- GGGMOM: English
+			- GGGMOM: Mohican
+		- GGDAD: Croatian
+            - GGGMOM: Croatian
+            - GGGDAD: Croatian
+- DAD: mix
+	- GMOM: Italian
+        - GGMOM: Italian
+            - GGGMOM: Italian
+            - GGGDAD: Italian
+        - GGDAD: Italian
+            - GGGMOM: Italian
+            - GGGDAD: Italian
+	- GDAD: German
+        - GGMOM: German
+            - GGGMOM: German
+            - GGGDAD: German
+        - GGDAD: German
+            - GGGMOM: German
+            - GGGDAD: German
+
+
+- MOM: 1964-xxxx, **Beth Ruprecht**, (STL, MO), 37.5-ENGLISH, 25-CROATIAN, 12.5-GERMAN, 12.5-IRISH, 12.5-MOHICAN
+	- GMOM: **Sharon *O'Laughlin* Navarette**, 50-ENGLISH, 25-GERMAN, 25-IRISH, my GGDad was born in STL to two immigrant parents, Harvey who is Scotch-Irish and Stella who fled Germany. My GGMom, Lola Bella, comes from a long line of English that settled PA, then VA, then KY, then eventually Boone County, MO, where a ton of family are buried. If you go far enough back through the English line, there are Knights, Lords, Barons, Norman invaders, and Vikings.
+		- GGMOM: 1915-1984, **Lola Belle *Drake* Stiegemeyer** (STL, MO)
+			- GGGmom: 1879-1956, **Ada Irene Prowell** (Harrisburg, MO)
+				- GGGGMOM: 1858-1920, **Sally B. *Long* Prowell** (MO), buried in CoMo
+					- GGGGGMOM: 1838-1915, **Elizabeth "Bettie" *Thompson* Long**, buried in Harrisburg
+						- 6MOM: ? Thompson
+						- 6DAD: E. Thompson
+					- GGGGGDAD: 1835-1920, **John Milton Long** (Howard Co.), Farmer, buried in Harrisburg @Bethlehem
+						- 6MOM: 1811-1909, **Mahala *Short* Long** (Boyle Co. KY), moved to MO in 1818
+							- 7MOM: 1776-1847, **Isabel *Crane* Short**, buried in Harrisburg
+							- 7DAD: 1772-1836, **Josiah Short** (Boyle Co., KY), buried in Harrisburg
+						- 6DAD: 1811-1882, **Robert Long** (Mercer Co., KY), buried in Harrisburg
+							- 7MOM: 1791-1868, **Mary "Polly" *Rowland* Long** (Mercer Co., KY), buried in Harrisburg
+								- 8MOM: **Sarah Little Rowland**
+								- 8DAD: **Robert Rowland**
+							- 7DAD: 1782-1853, **Jesse Long** (Loudoun Co. VA) buried in Harrisburg
+								- 8MOM: 1765-1844, **Delila *Elliot* Long** (VA), buried in Harrison Co., IN
+								- 8DAD: 1755-1828, **John Edward Long** (Louisa Co., VA), buried in Harrison Co., IN, served in the Revolutionary War in the Eighth Virginia Regiment from 1776-1780, was a Private in the company of Cpt. William Lewis
+									- 9MOM: 1740-1821, (Loudon Co, VA), buried in Pittsylvania Co, VA**Jane S. *Jones* Long**
+									- 9DAD: 1737-1806, **Edward Long** (province of PA), buried in Pittsylvania Co, VA, served as Pvt. in Cpt. Chrystie's Co, 3rd PA Regt under Col. Craig. Went to Valley Forge.
+										- 10MOM: 1714-1808, **Martha *Thatcher* Long** (Chester, PA), buried in Philadelphia
+											- 11MOM: **Hannah Thatcher**
+											- 11DAD: 1667-1751, **Jonathan Thatcher** (Uffington, Berkshire, England), buried in Birmingham, PA (actually at sea)
+												- 12MOM: 1682-1728, **Hannah *Dicks* Thatcher**
+												- 13MOM: 1661-1709, **Hester Mendenhall Dix** (Chester, England), buried in Chester Co, PA
+												- 14MOM: Alice Maddock
+												- 14DAD: 1642-1680, **Nathan Maddock** (Newton, England), buried in Cheshire, England
+												- 15MOM: 1620-1685, **Elizabeth *Simcocke* Maddock** (Middlewich, England), dies in Chester
+												- 16MOM: 1597-1625, **Elizabeth Simcocke** (Middlewich, England), died in Cheshire
+												- 17MOM: 1568-1650, **Margaret Kinsey** (Cheshire, England)
+												- 18MOM: **Alice Smythe**
+												- 18DAD: 1536-1594, **Ralph Smythe** (Cheshire, England)
+												- 19MOM: 1500-1562, **Elianor *Bostock* Smythe** (Cheshire, England)
+												- 20MOM: Margaret Bostock
+												- 20DAD: Ralfe Norcroft Bostock
+												- 19DAD: 1481-1584, **Randall Smythe**, (Oldhaugh, England)
+												- 20MOM: 1460-1549, **Elizabeth Smythe** (Brereton, England)
+												- 21MOM: **Agnes Brereton**
+												- 21DAD: 1448-1527, **Sir Andrew Brereton Kt.** (Brereton, England)
+												- 22MOM: Philippa Brereton
+												- 22DAD: 1414-1485, **Sir William VII Brereton** (Brereton, England)
+												- ??DAD: Go far enough back, and you reach **[Gilbert de Venables](https://en.wikipedia.org/wiki/Gilbert_de_Venables)**, 1st Baron of Kinderton, part of the Norman conquest of England.
+												- 20DAD: 1466-1556, **John Smythe II** (Oldhaugh, England)
+												- 17DAD: 1566-1614, Hughe Kinsey of Tetton (Cheshire, England)
+												- 16DAD: Sir John Simcocke Kt.
+												- 15DAD: 1619-1690, **Thomas Maddock**, (Cheshire, England), buried in same place
+												- 16MOM: 1579-1622, **Jane Broster** (Chester, England)
+												- 17MOM: 1579-1618, **Margery Broster** (Chester, England)
+												- 18MOM:
+												- 18DAD: **Thomas Lyneall** (Hordley England)
+												- 17DAD: 1556-1618 **Richard Broster** (Chester, England), buried same place
+												- 18MOM: 1536-1562, **Agnes Ann Hall** (Chester, England)
+												- 18DAD: 1524-1579, **Richard Broster Sr.** (Chester, England)
+												- 19DAD: 1500-? **Hugh Broster**
+												- 19MOM: 1472-?**Elizabeth Elizabeth**
+												- 19DAD: 1470-1523, **Richard Broster** (Chester, England)
+												- 20DAD: 1450-? **John Broster** (Kerridge, England)
+												- 16DAD: 1572-1639, **John Maddock Jr.** (Chester, England), buried in Chester
+												- 17MOM: ?1519-1567, **Ellen Maddock** (Cheshire)
+												- 17DAD: ?1519-1567, **John Maddock Sr** (Cheshire)
+												- 13DAD: 1654-1704, **Peter Dickes I** (Eccleston, Cheshire, England), buried in Chester, PA
+												- 14MOM: 1630-1664, **Phyllis *Maddock* Dicks** (Chester, England), buried in Philadelphia
+												- 15MOM: 1607-1660, **Isabel Margaret *Ellem* Maddock** (Cheshire, England), buried in Philadelphia
+												- 15DAD: 1605-1664, **William Henry Maddock** (Chester, England), buried in Philadelphia
+												- 14DAD: 1626-1695, **James Dicks** (Cheshire, England), buried in Philadelphia
+												- 15MOM: 1600-1629, **Isabella *McKittrick* Dicks** (Cheshire, England)
+												- 15DAD: 1600-1629, **Hester Dicks** (Cheshire, England)
+												- 12DAD: 1648-1722, **Richard Thatcher IV** (Uffington, Bershire, England), died in Chester Co, PA
+										- 10DAD: 1717-1740, **Thomas Long** (West Riding, Yorkshire, England), buried in Somerset, PA
+				- GGGGDAD: **Henry Braxton Prowell** (Boone Co.), buried in CoMo
+					- GGGGGMOM: **Nancy Jane Prowell**
+					- GGGGGDAD: 1822-1859, **Lewis F Prowell** (Kentucky), buried in Harrisburg
+						- 6MOM: 1789-1848, **Margaret Linsey "Lucy" *Fletcher* Prowell** (Virginia), buried in Kentucky at [Margaret Prowell Burial Site](https://www.findagrave.com/memorial/94167843/margaret_linsey_prowell)
+						- 6DAD: 1775-1852, James Prowell Sr (Virginia), buried in Harrisburg
+							- 7MOM: ? Prowell
+							- 7DAD: William Prowell
+			- GGGdad: 1879-1954, **Charles Norris Drake** (STL, MO), steamboats, cattle dealer in the stockyards, etc.
+				- GGGGMOM: 1864-1938, **Camilla M. *Norriss* Drake** (Lexington, MO)
+					- GGGGGMOM: 1830-1897, **Louisa Norriss** (Maryland)
+					- GGGGGDAD: 1816-1892, **Charles A. Norriss** (Maryland)
+				- GGGGDAD: 1851-1923, **John Robert Drake** (Kentucky)
+					- GGGGGDAD: **David Drake**
+		- GGDAD: 1914-1960, **Harold Edward O'Laughlin** (STL, MO) 50-GERMAN 50-IRISH
+			- GGGmom: **Stella O'Laughlin** (GERMANY) fled during spanish flu
+			- GGGdad: **Harvey O'Laughlin** (IRELAND) moved to scotland, then usa
+	- GDAD: 193?-201?, **Bob Mudrovic**, 50-CROATIAN, 25-ENGLISH, 25-MOHICAN
+		- GGmom: **X X**, 50-ENGLISH, 50-MOHICAN
+			- GGGmom: **X X**, immigrant from ENGLAND
+			- GGGmom: **X X**, native MOHICAN
+		- GGdad: **X Mudrovic**, immigrant from CROATIA
+- DAD: 1964-xxxx, **Keith Ruprecht**, (STL, MO), 50-ITALIAN, 50-GERMAN
+	- GMOM: 1924-2019, **Lucille Mazine**, (Rome, ITALY)
+		- GGMOM: ????-???? (ITALY)
+		- GGDAD: ????-???? (ITALY)
+	- GDAD: 1924-2008, **William J. Ruprecht**, (STL, MO)
+		- GGMOM: 1897-1952 (USA), **Helen M Schaller**, born in STL
+			- GGGMOM: 1878-????, (USA), **Lena F Schaller**, born in STL
+				- GGGGMOM: 1835-1920, **Catherine *Frankenbach* Fey**, (Germany)
+				- GGGGDAD: 1832-1902, **Philip Christian Fey** (Nassau, Germany)
+			- GGGDAD: 1873-1938, (FRANCE), **Charles J Schaller**, born in Reichshoffen, Fr.
+		- GGDAD: 1898-1923 (USA), **William Ruprecht**, born in STL
+			- GGGMOM: 1873-1957 (USA), **Cecelia W Tranel**, born in STL
+				- GGGGMOM: 1835-1876 (GERMANY), **Maria Francesa Discher**, born in Hanover, Saxony
+				- GGGGDAD: 1818-1889 (GERMANY), **Johann Hermann Tranel**, born in Bramhar, Saxony
+			- GGGDAD: 1859-1930 (USA), **Joseph Michael Ruprecht**, born in STL
+				- GGGGMOM: 1831-1905 (GERMANY), **Barbara Kunkel**, born in Hemsbach, Baden (now Baden-Wurtemburg)
+				- GGGGDAD: 1822-1869 (GERMANY), **Joseph Ruprecht**, born in X, Bavaria

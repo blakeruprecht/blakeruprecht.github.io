@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Simple software follows Unix principles | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="The Unix philosophy of computer software is difficult to learn, but once you do, the rewards are well worth it because it makes using a computer much simpler.">
+
+  <link rel="canonical" href="https://blakeruprecht.com/computer-software/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      
+    </div>
+    <div class="menu-container">
+      <ul class="menu">
+        
+        
+        
+      </ul>
+      <button class="menu-toggle">☰</button>
+    </div>
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+ });
+ 
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Simple software follows Unix principles</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#update-2024-09-27">Update 2024-09-27</a></li>
+    <li><a href="#software-is-hard">Software is hard</a></li>
+    <li><a href="#first-principles">First Principles</a></li>
+    <li><a href="#unix-philosophy">Unix philosophy</a></li>
+    <li><a href="#a-note-on-social-media">A Note on Social Media</a></li>
+    <li><a href="#what-i-need">What I need</a></li>
+    <li><a href="#my-software-list">My Software List</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#about-this-website">About this website</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p><img src="/linux-setup.png" alt="Screenshot of my Linux env running DWM"></p>
+<h2 id="update-2024-09-27">Update 2024-09-27</h2>
+<p>Of course, I did this as a fun experiment to see if Linux was worth it. It&rsquo;s been a few months of daily driving this setup on my computer, and I can confidently say that it works great. Maybe I&rsquo;ll do it again, maybe I&rsquo;ll install Linux Mint next, maybe I&rsquo;ll go back to MacOS.</p>
+<p>I appreciate being able to do this, I&rsquo;m not sure I ever personally want to dedicate the time to this much coding again.</p>
+<h2 id="software-is-hard">Software is hard</h2>
+<p>I just want to say that I find software quite difficult to work with, and I in theory have a masters degree in computer science. My argument against that is my degree focuses on math, not programming, so anything to do with turning on a computer and getting it to work makes me feel like a monkey. Eventually, I learned that software is a lot like building Lego sets &ndash; the instructions tell you everything you need to know.</p>
+<p>After years of banging my head against the wall trying to get different computer programs to work with each other, I&rsquo;ve settled on using just a few essential programs to get all of my computing done. What does this mean for you?</p>
+<p>If you&rsquo;re a fellow computer scientist, AI researcher, or engineer who likes to dive into the weeds, read on! If you&rsquo;re an average person, I only recommend diving into this stuff if you love to tinker. It&rsquo;s rewarding and cool to learn, but all of the others spent learning how to do this could otherwise be spent drinking beer on a beach, so up to you.</p>
+<h2 id="first-principles">First Principles</h2>
+<p>As with anything, let&rsquo;s break it down to the bare requirements &ndash; why do I have a computer in the first place? For my requirements, it&rsquo;s basically 50% browsing the internet, and 50% editing text and code files and syncing those to the cloud. I don&rsquo;t need hardly anything on my laptop. Weather app? Nah, just go to weather.com. Excel? I just use Google Sheets. Texting? Hell no. I had a Mac, which came with a bunch of default crap that I didn&rsquo;t need on my computer. For example, the file manager &ndash; on MacOS, that thing is terrible, it never tells you your absolute file path, confuses different drives, etc. Windows and MacOS are great operating systems, but they also come with a lot of crap and bloat that every user doesn&rsquo;t need.</p>
+<p>Free and Open Source Software (FOSS) is software distributed by one or multiple people entirely for free, with all of the source code readily available for anyone to look at, and propose changes to, or change themselves. It&rsquo;s yours to do what you want with. If you buy a new laptop or phone today, chances are it runs a proprietary operating system like Windows/MacOS/Android/iOS. These are all good operating systems from a technical standpoint, but they are closed source and cost money. But wait, doesn&rsquo;t every product cost money?</p>
+<p>Not in the software world. I know, it&rsquo;s weird. Back in 1983 a wacky programmer named Richard Stallman set out to create an entire computing environment and make it free for every one to obtain and modify, called GNU (Gnu&rsquo;s Not Unix). In 1991, Linus Torvalds wrote the Linux kernel, and ever since, we&rsquo;ve had the totally FOSS combination of GNU and Linux to provide free software to the world.</p>
+<p>Since then, GNU &amp; Linux have been an integral part of coding culture. Free software isn&rsquo;t just the cheap alternative to good paid software, it&rsquo;s actually better in many scenarios. Open-source means more eyes are looking at the code, finding bugs, and improving it. Linux is a much safer operating system than Windows for this reason. Most of the tools work exceptionally well because they&rsquo;ve been refined by thousands of people over the course of decades. The wheel hasn&rsquo;t been reinvented over and over by private companies, it&rsquo;s just been made rounder by thousands of people.</p>
+<p>FOSS has been an integral part of coding culture. Many programmers willingly choose to give away their work. Often done as a way to gain influence and following, build resumes, and just contribute cool stuff to the wider community, it&rsquo;s an anomaly in the modern world that I rarely see elsewhere. The FOSS spirit is stronger in some than others, but most programmers use free &amp; open-source software in parts of their workflow. Even those who develop on Mac (closed source) computers often use VS Code (a FOSS text editor distributed by Microsoft of all people).</p>
+<h2 id="unix-philosophy">Unix philosophy</h2>
+<p>GNU, Linux, and most Free &amp; Open-source Software follows the Unix philosophy, summarized here by Peter H. Salus in <em>A Quarter-Century of Unix</em> (1994).</p>
+<ol>
+<li>Write programs that do one thing and do it well. (DOTADIW)</li>
+<li>Write programs to work together.</li>
+<li>Write programs to handle text streams, because that is a universal interface.</li>
+</ol>
+<h2 id="a-note-on-social-media">A Note on Social Media</h2>
+<p><em>The Social Dilemna</em> is a great documentary summing up the path the internet has taken the past two-decades. It went from a place built by nerds, for nerds, to a place now mostly run by large corporations harvesting our collective attention for profit. This is great for the companies, but devastating for the average person. I don&rsquo;t believe that the average person benefits from social media and the internet at large. It&rsquo;s turned into a distraction economy that profits from keeping people as engaged as possible, tuned into crap. The television&rsquo;s distracting powers have been amplified tenfold, since the computer now rests in everyone&rsquo;s pockets, just a click away from insane content.</p>
+<p>There&rsquo;s a solution besides abstension &ndash; and don&rsquo;t get me wrong, I think the Mennonites are doing much better with modern technology than the majority of western society because they have intentionally chosen to reject most modern computing in favor of maintaining their local communities.</p>
+<h2 id="what-i-need">What I need</h2>
+<p>The absolute basic requirements are an operating system to manage system resources, a window manager to draw pretty boxes on the screen, and a command prompt to navigate my file directories and perform basic scripting commands like viewing files (<code>ls -la</code>), deleting files (<code>rm</code>), moving files (<code>mv</code>), etc. Mac and Windows both achieve this excellently, but they come with a bunch of extra junk, so I installed a Linux distribution instead. A barebones Debian install comes with &ndash; an OS. I installed a window manager (dwm) and a command prompt/terminal (st), and boom, I&rsquo;m setup to computer.</p>
+<p>Beyond the core necessities, I need a few programming languages installed on my computer (C, Python, Go, HTML, CSS), all of which come on a normal Linux install except for Go, so I had to download that, as well as a few packages like &ldquo;git&rdquo;. After that, using the default text editors (Nano and Vim (okay, upgraded that to Neovim)), I can edit all of the code I want to my heart&rsquo;s content. Cool.</p>
+<p>And I installed a <em>web browser</em> (Firefox). Now, I can do everything I want on a computer &ndash; edit text, edit code, browse the web. That&rsquo;s it. I don&rsquo;t need a million other programs to do who knows what, just those few.</p>
+<h2 id="my-software-list">My Software List</h2>
+<p>In order of install, this is all of the major software I currently use on my laptop. I have not included the countless packages that are installed concurrently with these programs as necessary binaries and utilities, since I don&rsquo;t know what the heck those are. For reference, I have hardly anything installed on my laptop (seriously, less than 1GB of software), and still have around 1000 software packages.</p>
+<p>In order of install:</p>
+<ul>
+<li>Operating System: LINUX, barebones DEBIAN 12 distribution</li>
+<li>Window System: XORG</li>
+<li>Window Manager: DWM</li>
+<li>Terminal Emulator: ST</li>
+<li>Statusbar: .xinitrc script with &ldquo;xsetroot&rdquo; variable</li>
+<li>Shell Language: BASH</li>
+<li>Text Editor: NANO and NEOVIM (Still learning vim)</li>
+<li>File Browser: none (I just use cd/ls/mv unix utilities)</li>
+<li>Image Viewer: FEH</li>
+<li>Video Viewer: MPV</li>
+<li>PDF/EPUB Viewer: ZATHURA</li>
+<li>Scripting Language: PYTHON (My main language for all things coding)</li>
+<li>Markup Language: MARKDOWN</li>
+<li>Markdown Editor: OBSIDIAN (I use it just as a text editor)</li>
+<li>Website Language: GO (HUGO compiles Markdown into HTML)</li>
+<li>Design Language: CSS (used for Obsidian and Hugo)</li>
+<li>Web Browser: MOZILLA FIREFOX (this is the only alternative to Chromium (FOSS) browsers, trying to keep it alive)</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>Installing Debian, DWM, and ST are really the only tricky things to do here, once you have those, installing all of the other programs is as easy as <code>sudo apt install neovim</code>. If you need help with any of this, please email me, I&rsquo;m happy to help set you free!</p>
+<p><strong>Install Debian 12</strong></p>
+<ol>
+<li>Download the Debian .iso from Debian&rsquo;s website for your computer architecture. You need to put this .iso file on a flash drive, but the trick here is you have to make it &ldquo;bootable&rdquo;, which means you can plug it into a computer and the computer recognizes that the flash drive has an operating system on it.
+<ol>
+<li>I followed the <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview">Ubuntu Tutorial</a> to create a bootable flash drive using Balena Etcher. Of course, I downloaded the Debian .iso rather than the Ubuntu .iso, but the process is the same for either. Ubuntu is a fork of the Debian project with a bunch of extra crap included that I would just delete anyways, so I went with Debian because it has an installer and allows you to install nothing besides the OS (similar to Arch, which is another good option, but more labor intensive during install. The big difference is choosing between the &ldquo;pacman&rdquo; rolling-release package manager (bleeding edge, more likely to fail) and the &ldquo;apt&rdquo; stable debian package manager (fewer updates, more, well, stable)).</li>
+</ol>
+</li>
+<li>If your computer already has another OS installed (mine had windows), you&rsquo;ll have to go into your BIOS settings and fiddle with some stuff. This is a very tricky part of the process, and unique to every computer, so you&rsquo;ll probably have to look up &ldquo;Boot from flash drive on Dell XPS 9370&rdquo; (that&rsquo;s what I did). I had to enable booting from flash drive, and then change the default boot order to boot from flash drive before booting from windows.</li>
+<li>Once I got the computer to actually boot from the flash drive, the rest of the Debian install is a piece of cake &ndash; just follow the installer instructions. Make your passwords, don&rsquo;t install GNOME or any other crappy software, and wipe Windows from your hard drive for good! Woohoo! At the end of this process, you should be able to log into Debian using your credentials (username and password), and then it goes to a totally black screen with something like <code>blake@debian $</code> in the top left. This is now a fully functional computer, you can do anything you need on it. This almost blank screen is called the &ldquo;tty&rdquo;, the default terminal emulator on a Linux system. Every time you start the computer, you&rsquo;ll enter the tty, log in with your username and password, and then run the &ldquo;startx&rdquo; command to start your X window system which uses DWM to draw windows on the screen (you see where Windows OS got it&rsquo;s name?). We don&rsquo;t have X or DWM yet, so follow the next step.</li>
+</ol>
+<p><strong>Install DWM &amp; ST</strong>
+NOTE: You&rsquo;ll have to learn how to operate dwm, st, and dmenu, which are mostly keyboard driven. Don&rsquo;t be afraid, it&rsquo;s pretty simple once you get the hang of it.</p>
+<ol>
+<li>Okay, you probably want it to look pretty, which means we need to install a Window Manager to enable the computer to draw little boxes on the screen, like a box for your text editor, terminal, or web browser. Cool, to do this, first install Xorg window system by running <code>sudo apt install xorg</code>. Easy as pie.</li>
+<li>Then, install dwm from dwm.suckless.org by running <code>git clone https://git.suckless.org/dwm</code>. If you need to install git first, run <code>sudo apt install git</code>. This will clone the dwm folder into <code>~/dwm</code> on your computer. Add the line <code>exec dwm</code> into your .xinitrc file. If you don&rsquo;t have one, run <code>nano ~/.xinitrc</code> to create and open the file in nano, then add the exec dwm line to the top of the file. Close the file. Now you can run <code>startx</code>, and it should run the dwm window manager.</li>
+<li>You could have done this at the same time as the first git clone, but now run <code>git clone https://git.suckless.org/st</code> to install a terminal emulator and <code>git clone https://git.suckless.org/dmenu</code> to install a menu thingy to launch firefox and other apps (I literally only use it for firefox). I used ChatGPT to help me patch dwm and st, which is a bit of a tricky process if you&rsquo;re not used to C. If you&rsquo;re having trouble figuring out to patch dwm/st like I did (there are seriously no tutorials online), email me.
+<ol>
+<li>dwm pathces: &ldquo;alttagsdecoration&rdquo;, &ldquo;alwayscenter&rdquo;, &ldquo;truecenteredtitle&rdquo;, &ldquo;underlinetags&rdquo;, &ldquo;uselessgap&rdquo;</li>
+<li>st patches: &ldquo;font2&rdquo;</li>
+<li>dmenu patches: none</li>
+</ol>
+</li>
+<li>I spent a lot of time editing the &ldquo;config.h&rdquo; files for dwm and st to make them pretty (aka making it all black and white).</li>
+</ol>
+<p><strong>Install Everything Else</strong></p>
+<ol>
+<li>Install a web browser using <code>sudo apt install firefox</code>.</li>
+<li><code>sudo apt install feh</code>, then add <code>~/.fehbg</code> to your .xinitrc file, then run <code>feh --bg-fill wallpaper_name.jpg</code> using whatever jpg or png you&rsquo;ve donwloaded from the internet to set your wallpaper. Yeah, not super simple.</li>
+<li><code>sudo apt install neovim, mpv, zathura, hugo</code> and whatever other pieces of software you need.</li>
+<li>I created the statusbar in the top right of my screen to display the time and my current battery percentage, the only two things I care about using a little script in my .xinitrc file that utilizes the &ldquo;xsetroot&rdquo; variable. Ask ChatGPT how to do this.</li>
+<li>You connected to your default WiFi during Debian install, but if you ever want to go anywhere else and use WiFi, it&rsquo;s a little tricky on Debian. Sure, you can install some program to manage wifi for you, but I&rsquo;m too lazy, so I just add new SSIDs and passwords to the <code>/etc/wpa_supplicant/wpa_supplicant.conf</code> file and restart my computer every time I switch wifi networks. Elegant? No. Easy? Yes. Use <code>lspci | grep Network</code> to make sure Debian recognizes your laptop&rsquo;s wifi card, if it doesn&rsquo;t, GGs laptop. <code>sudo ip link</code> or <code>ping google.com</code> is a good way to check if your internet is working.</li>
+</ol>
+<p><strong>Congrats, you&rsquo;re a computer scientist now!</strong>
+Okay, not technically, but if you can go through all of these steps and fill in the gaps that I didn&rsquo;t explain, you&rsquo;ll easily be as skilled as me at Linux. The trickiest part of following software tutorials is nobody ever explains every single step, so please email me if you need help and I&rsquo;ll expand this page to cover everything, it&rsquo;s just hard to remember since I&rsquo;m writing this after the fact.</p>
+<h2 id="about-this-website">About this website</h2>
+<p>I built this site using Hugo, a static site generator written in Go. I write custom HTML and CSS for this site to learn the basics of web design and search engine optimization. This site is blazing fast (~1s load times), designed mobile-first, accessible, technically optimized, and on-page optimized. I host it on Github Pages, and use Github Actions to deploy the site locally from the command line.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="http://catb.org/~esr/writings/unix-koans/">http://catb.org/~esr/writings/unix-koans/</a></li>
+<li><a href="https://lukesmith.xyz/programs/">https://lukesmith.xyz/programs/</a></li>
+</ul>
+
+    </div>
+</article>
+
+</main>
+<footer>
+  <div class="subscribe">
+    <a href="https://blakeruprecht.substack.com/">My Newsletter</a>
+  </div>
+  <div class="main-links">
+    100% human-written | <a href="mailto:blakecruprecht@gmail.com">email me</a>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title> | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/turing-machine/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      
+    </div>
+    <div class="menu-container">
+      <ul class="menu">
+        
+        
+        
+      </ul>
+      <button class="menu-toggle">☰</button>
+    </div>
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+ });
+ 
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1></h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-ancient-texts">The Ancient Texts</a></li>
+    <li><a href="#lovelace-babbage-and-thinking-machines">Lovelace, Babbage, and thinking machines</a></li>
+    <li><a href="#goedel-turing-and-the-great-theory-of-computing">Goedel, Turing, and the great Theory of Computing</a></li>
+    <li><a href="#von-neumann-and-the-big-ol-boys">von Neumann and The Big ol&rsquo; Boys</a></li>
+    <li><a href="#personal-computing">Personal Computing</a></li>
+    <li><a href="#computers-go-mobile">Computers go mobile</a></li>
+    <li><a href="#the-modern-landscape">The Modern Landscape</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>Summary of the Turing Machine</p>
+<ul>
+<li>We can program a machine to function as a Turing Machine
+<ul>
+<li>In-depth explanation of Turing Machines, why they&rsquo;re so important, and how all modern computers are Turing Machines</li>
+<li>Basically, machines that can hold numbers, and manipulate numbers (even just 1s and 0s), can functionally computer almost anything in the world with abstraction</li>
+</ul>
+</li>
+</ul>
+<h2 id="the-ancient-texts">The Ancient Texts</h2>
+<h2 id="lovelace-babbage-and-thinking-machines">Lovelace, Babbage, and thinking machines</h2>
+<h2 id="goedel-turing-and-the-great-theory-of-computing">Goedel, Turing, and the great Theory of Computing</h2>
+<ul>
+<li>The theories started in, you guessed it, <a href="Euler.md">math</a></li>
+<li>Incompleteness, and why this matters</li>
+<li>The revolutionary discovery by the 17 yr old wiz kid from England, Turing</li>
+<li>What can we use as tape?</li>
+<li>How do we manipulate the tape?</li>
+</ul>
+<h2 id="von-neumann-and-the-big-ol-boys">von Neumann and The Big ol&rsquo; Boys</h2>
+<ul>
+<li>Beginning of computers, von Neumann architecture</li>
+<li>Development of memory</li>
+<li>Powering these puppies</li>
+<li>Original size x power ratios (to compare advances across this post)</li>
+<li>Original programs, programming languages, scripts, how does that shit all start?</li>
+<li>LISP, beginnings of AI</li>
+</ul>
+<h2 id="personal-computing">Personal Computing</h2>
+<ul>
+<li>Getting smaller</li>
+<li>Windows vs. Apple, Apple&rsquo;s 1984 ad</li>
+<li>How do programs evolve?</li>
+<li>More updates, how does AI co-evolve with this?</li>
+</ul>
+<h2 id="computers-go-mobile">Computers go mobile</h2>
+<h2 id="the-modern-landscape">The Modern Landscape</h2>
+<p>&ndash;&gt; link to FOSS</p>
+
+    </div>
+</article>
+
+</main>
+<footer>
+  <div class="subscribe">
+    <a href="https://blakeruprecht.substack.com/">My Newsletter</a>
+  </div>
+  <div class="main-links">
+    100% human-written | <a href="mailto:blakecruprecht@gmail.com">email me</a>
+  </div>
+</footer>
+</body>
+</html>

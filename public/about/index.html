@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>About Me | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="My about me page. Information about who I am as a person.">
+
+  <link rel="canonical" href="https://blakeruprecht.com/about/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      
+    </div>
+    <div class="menu-container">
+      <ul class="menu">
+        
+        
+        
+      </ul>
+      <button class="menu-toggle">☰</button>
+    </div>
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+ });
+ 
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#my-pages">My Pages</a></li>
+    <li><a href="#resume">Resume</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <h2 id="my-pages">My Pages</h2>
+<ul>
+<li><a href="/research">What I Learned Doing AI Safety Research</a></li>
+<li><a href="/bookshelf">Bookshelf</a>: My favorite blogs, articles, and books</li>
+<li><a href="/drawings">Drawings</a>: Some of my black ink drawings</li>
+<li><a href="/woodwork">Woodwork</a>: Some boxes I&rsquo;ve made out of wood</li>
+</ul>
+<h2 id="resume">Resume</h2>
+<p>Skills</p>
+<ul>
+<li>Writing
+<ul>
+<li>Storytelling / Content Writing</li>
+<li>Technical Writing, Markdown, LaTeX</li>
+<li>Copywriting, Newsletters, Creative</li>
+</ul>
+</li>
+<li>Teaching
+<ul>
+<li>Tutoring Math &amp; Science, Social Studies, Reading</li>
+<li>Camp Counseling, Crawdad catching, Sing a longs</li>
+</ul>
+</li>
+<li>Graphics
+<ul>
+<li><a href="/drawings">Drawing</a></li>
+<li>Web Development, HTML, CSS, JavaScript</li>
+</ul>
+</li>
+<li>Data
+<ul>
+<li><a href="/python">Python</a>, Numpy, Pandas, Scipy, Matplotlib</li>
+<li>AI/ML, PyTorch, ROS, NLP, LLMs</li>
+</ul>
+</li>
+</ul>
+<p>Experience</p>
+<ul>
+<li>Digital Marketing Specialist @Labyrinth.digital, 2024-2025</li>
+<li>Freelance Writer, 2023-2024</li>
+<li>Research Assistant @Mizzou, 2018-2023</li>
+<li>Freelance Tutor, 2014-2018</li>
+<li>Camp Counselor @Babler WiLD, 2017</li>
+</ul>
+<p>Education</p>
+<ul>
+<li>M.S. in Computer Science | University of Missouri | 2019-2023 | 3.9/4.0</li>
+<li>B.S. in Mechanical Engineering | University of Missouri | 2015-2019 | 3.9/4.0</li>
+</ul>
+
+    </div>
+</article>
+
+</main>
+<footer>
+  <div class="subscribe">
+    <a href="https://blakeruprecht.substack.com/">My Newsletter</a>
+  </div>
+  <div class="main-links">
+    100% human-written | <a href="mailto:blakecruprecht@gmail.com">email me</a>
+  </div>
+</footer>
+</body>
+</html>

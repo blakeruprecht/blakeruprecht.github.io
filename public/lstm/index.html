@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>LSTM units incorporate temporal data into NNs | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="&#34;Long Short-Term Memory (LSTM) units incorporate temporal data into a neural network using a series of four &#34;gates&#34;, or math operations on data.&#34;">
+
+  <link rel="canonical" href="https://blakeruprecht.com/lstm/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      
+    </div>
+    <div class="menu-container">
+      <ul class="menu">
+        
+        
+        
+      </ul>
+      <button class="menu-toggle">☰</button>
+    </div>
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+ });
+ 
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>LSTM units incorporate temporal data into NNs</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents"></nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>Utilizes temporal data, aka LSTM units can use previous information in their determination of current state.</p>
+<p>The first sigmoid is the &ldquo;forget-gate&rdquo; $f_t$, the second sigmoid is the &ldquo;input-gate&rdquo;, $i_t$, the tanh is the &ldquo;cell-update&rdquo;, $\tilde{C}_t$. Forget-gate will determine how much of the previous cell-state we need to remember, input-gate determines how much of the new cell-state we need to remember, and cell-update gate normalizes the cell-state between [-1,1] because of the tanh. The final sigmoid produces the &ldquo;output-gate&rdquo;, $O_t$, which is combined with the tanh of the new cell-state to produce the next hidden-state, $h_t$.</p>
+$$C_t = f_t * C_{t-1} + i_t * \tilde{C}_t$$
+$$ h_t = O_t * tanh(C_t)$$
+<p>
+Variants include:</p>
+<ul>
+<li>&ldquo;peephole connections&rdquo;, where $C_{t-1}$ feeds into every &ldquo;Layer&rdquo;</li>
+<li>&ldquo;coupled forget-input gates&rdquo;, where $i_t$ and $f_t$ are linked together</li>
+<li>&ldquo;Gated Recurrent Unit (GRU)&rdquo;,</li>
+</ul>
+
+    </div>
+</article>
+
+</main>
+<footer>
+  <div class="subscribe">
+    <a href="https://blakeruprecht.substack.com/">My Newsletter</a>
+  </div>
+  <div class="main-links">
+    100% human-written | <a href="mailto:blakecruprecht@gmail.com">email me</a>
+  </div>
+</footer>
+</body>
+</html>

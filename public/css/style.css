@@ -5,14 +5,15 @@
   --fg-color: #444;
   --mg-color: #888;
   --ul-color: #ccc;
-  --bg-color: #f5f5f5;
-  --red-color: #f5000b;
-  --blue-color: #1874b1;
+  --bg-color: #fff;
+  --red-color: #E63946;
+  --blue-color: #0645ad;
+  --green-color: #4f9d57;
   
   /* Fonts */
-  --font-serif: "Georgia", serif;
-  --font-sans: "NotoSans", "Helvetica", sans-serif;
-  --font-mono: "Hack", mono;
+  --font-serif: serif, "Georgia";
+  --font-sans: "NotoSans", sans-serif;
+  --font-mono: monospace, "Hack";
 }
 
 /* AUTO LIGHT/DARK MODE DETECTION */
@@ -22,7 +23,8 @@
     --fg-color: #bbb;
     --mg-color: #777;
     --ul-color: #555;
-    --bg-color: #1a1a1a;
+    --bg-color: #111;
+    --blue-color: #2a8ed1;
   }
 }
 
@@ -50,7 +52,7 @@ main {
 
 /* TYPOGRAPHY */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-weight: bold;
   margin: 1.5em 0 0.75em 0;
 }
@@ -81,7 +83,13 @@ a {
 
 a:hover {
   color: var(--hg-color);
-  text-decoration-color: var(--hg-color);
+  text-decoration: underline;
+  text-decoration-color: var(--red-color);
+  text-underline-offset: 2px;
+}
+
+a:visited {
+  color: #0b0080;
 }
 
 /* IMAGES */
@@ -139,25 +147,27 @@ blockquote {
 }
 
 .logo a {
-  color: var(--mg-color);
-  font-size: 1.0rem;
-  text-decoration: none;
+  font-family: var(--font-serif);
+  color: var(--fg-color);
+  font-variant: small-caps;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--red-color);
+  font-weight: bold;
 }
 
 .logo a:hover {
   color: var(--hg-color);
-}
-
-.logo a.active {
-  color: var(--fg-color);
-  text-decoration: none 2px var(--fg-color);
-  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--red-color);
 }
 
 .menu {
   display: flex;
   flex-shrink: 0;
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   gap: 1.5rem;
   list-style: none;
   margin: 0;
