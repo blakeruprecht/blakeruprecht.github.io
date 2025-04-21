@@ -1,9 +1,9 @@
 ---
-title: Build simple budgets
-description: "My notes on the art of budgeting."
+title: '"Money = Time"'
+description: My notes on the art of budgeting.
 draft: true
 ---
-## Time = Money
+## Time is Money
 Budgeting means accounting for both your time and money in life, since money is really a means of representing time.
 
 

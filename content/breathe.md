@@ -1,11 +1,22 @@
 ---
 draft: false
+title: Breathe
 ---
+Wherever you are, sit up as straight as you can. Try to stretch your spine to the sky. Imagine a string pulling up the spot your spine would leave your skull.
 
-Put your hand over your heart. Do you feel that? Bum, bum, bum, bum.
+Relax the shoulders. 
 
-You are alive. You are part of the process.
+Relax the legs. 
 
-You are good enough. You are a living creature, a sack of meat riding on a rock, hurtling through space.
+Keep your core lightly braced to hold you upright. 
+
+Close your mouth, breathe in thru the nose, out thru the nose.
+
+Don't think about anything. Anytime you have a thought, let it go as soon as you can. Let it drift away. 
+
+Focus on thinking about your breathing -- meditation.
+
+Focus on a single task -- flow.
+
 
 

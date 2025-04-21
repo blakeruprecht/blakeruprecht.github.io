@@ -290,13 +290,6 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/bicycles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bicycles/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
       <link>http://localhost:1313/breathe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/breathe/</guid>
@@ -311,10 +304,10 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/drink-water/</link>
+      <link>http://localhost:1313/eat-and-drink/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/drink-water/</guid>
-      <description>All humans require a different amount of water, based on genetics, how much you sweat, how much you pee/poop, how watery your breathing is, etc. So all humans need a different amount.&#xA;The current best scientific recommendation is to &amp;ldquo;drink as much as you&amp;rsquo;re thirsty for.&amp;rdquo;</description>
+      <guid>http://localhost:1313/eat-and-drink/</guid>
+      <description>PLANTS&#xA;Leaves: Spinach, Kale, Romaine, Spring Mix Crucifers: Broccoli, Broccolini Roots: Sweet Potato, Carrot, Garlic, Onion, Ginger Citrus: Chilis, Lemon, Lime, Tomato, Pineapple, Orange Berries: Avocado, Blackberry, Blueberry, Kiwi, Banana Fungi: Mushrooms, Nutritional Yeast Legumes: Edamame, Beans, Chickpeas, Tofu Nuts: Cashew, Almonds, Walnut, Pistachio Seeds: Sunflower, Sesame, Chia, Hemp, Flax Grains: Wheat, Oats, Corn (&amp;amp;Popcorn), Rice Oils: Olive oil, Veggie oil, Avocado oil, Peanut oil Spices: Kosher Salt, Whole Black Peppercorns, Cayenne Pepper, Red Pepper Flakes, Cumin Seeds, Cinammon Sticks Herbs: Cilantro, Basil, Thyme, Rosemary Condiments: Salsa Fresca/Verde/Roja, Hot Sauce, Pesto, Hummus, Mustard, Sauerkraut Drinks: Water, Coffee, Matcha/Green Tea, Black Tea ANIMALS</description>
     </item>
     <item>
       <title></title>
@@ -329,6 +322,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/f/</guid>
       <description>I think we all know what it means, but for those who don&amp;rsquo;t.&#xA;f.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/gather/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gather/</guid>
+      <description>Keep a durable grocery list.&#xA;On your phone / in a pocket notebook Use checkboxes Sort it by section: Meat &amp;amp; Dairy (fresh) Fruits &amp;amp; Vegetables (fresh and some frozen) Grains, Oils, Nuts, Seeds (the aisles) Grocery Store Markets, Co-ops, etc </description>
     </item>
     <item>
       <title></title>
@@ -472,13 +472,6 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/shelter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/shelter/</guid>
-      <description>Humans can survive roughly 3 minutes without oxygen. We survive roughly 3 hours without warmth, so it&amp;rsquo;s a major survival priority, above water and food (which also help keep humans warm).&#xA;The first way to maintain warmth in the body is to move. Moving the body will inevitably heat you up, but it is not sufficient in many environments, including anywhere it&amp;rsquo;s really cold. For long-term survival, shelter is necessary to provide humans with warmth, as well as safe places to rest and sleep.</description>
-    </item>
-    <item>
-      <title></title>
       <link>http://localhost:1313/simplicity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/simplicity/</guid>
@@ -597,6 +590,13 @@
       <description>Apartments, townhouses, small houses &amp;ndash; typically less than 600 sqft for 1 person, a bit more per added person. Bigger than the dorm room I lived in, slightly smaller than the two houses I&amp;rsquo;ve rented. It&amp;rsquo;s what I would call the &amp;ldquo;average&amp;rdquo; home size that most people would reasonably expect to live in &amp;ndash; one that has a kitchen for cooking, a private bathroom, some type of bedroom or bed area, and space for living &amp;ndash; seating, mainly, like tables and chairs and couches.</description>
     </item>
     <item>
+      <title>Cook simple meals over fire</title>
+      <link>http://localhost:1313/cook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cook/</guid>
+      <description>Salt, Fat, Acid, Heat. Read that book, it&amp;rsquo;ll teach you to cook. Watch the TV series for a shortcut to all of the passion and none of the knowledge. Still fun.&#xA;Breakfast smoothie cold brew coffee Lunch I mainly just snack on stuff for lunch Apples, Carrots, Mixed Nuts Bread, Cheese MISC hot sauce &amp;ndash; my favorite homemade Habanero hot sauce Dinners Name Form Cuisine Protein Tier [[Burrito Bowl]] Bowl Mexican any 1 [[Smashburger]] Sandwich American Beef-Ground 1 [[Pozole Verde Soup]] Soup Mexican Chicken 1 [[Tacos de Pescado]] Tacos Mexican Fish 1 [[Tacos Al Pastor]] Tacos Mexican Pork-Shoulder 1 noodle-soup Noodles East Asian Pork 1 [[Pepper Curry]] Stew Indian any 2 [[Spicy Chicken Sandwich]] Sandwich American Chicken 2 Garlic Chile Oil Soup Soup American Chicken 2 Dan Dan Mian Noodles Chinese any-Ground 2 [[Ol&amp;rsquo; Steak and Potatos]] Separates American Beef-Steak 2 [[Pho]] Soup Vietnamese Beef 3 [[Italian Beef Sandwich]] Sandwich American Beef-Roast 3 [[Lox Bagel Sandwich]] Sandwich American Lox 3 Pasta Aglio e Olio Noodles Italian x 3 [[Risotto]] Primo Italian x 3 [[Bruschetta]] App Italian x 3 [[Pasta Cacio e Pepe]] Primo Italian x 3 [[Tzatziki Bowl]] Bowl Greek any 4 [[BLT]] Sandwich American Pork-Bacon 4 [[Chile con Carne]] Stew Mexican Beef 4 [[Spaghetti and Meatballs]] Stew Italian Beef-Ground 4 [[Pesto Caprese Sandwich]] Sandwich Italian Chicken 4 [[Pasta alla Carbonara]] Noodles Italian Pork-Pancetta 4 FUTURE</description>
+    </item>
+    <item>
       <title>God is all around us</title>
       <link>http://localhost:1313/spirit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -609,6 +609,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/train/</guid>
       <description>Anything is better than nothing.&#xA;But if you&amp;rsquo;re going to do something, the simplest approach is to pick one form of muscular exercise and one form of cardio exercise to improve all nine physical adaptations the body can make to exercise:&#xA;Muscle Technique - basically, are your bones being moved through space by the correct muscles. Muscle Endurance - how many reps of a movement you can do. Muscle Strength - how much force the muscles can produce, aka how much tension they can resist.</description>
+    </item>
+    <item>
+      <title>Legal Documents</title>
+      <link>http://localhost:1313/legal-documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/legal-documents/</guid>
+      <description>Documents, paperwork, visas, IDs, taxes, all of this stuff falls in this category because if you don&amp;rsquo;t do it, you&amp;rsquo;ll get absolutely boned by a goverment.&#xA;Identification&#xA;Passport - necessary for international travel Driver&amp;rsquo;s License - necessary to operate a motor vehicle in the US Taxes&#xA;W-2, 1099, etc - necessary paperwork to file taxes File - in the USA, by April 15th every year </description>
     </item>
     <item>
       <title>Natural Intelligence</title>
@@ -625,6 +632,13 @@
       <description>Science, rationality, the art of winning &amp;ndash; call it whatever you want, I don&amp;rsquo;t really care about the name. The whole point is that most people don&amp;rsquo;t understand the point of science.&#xA;All of these laws, and rules, and difficult math equations &amp;ndash; why? Why should I listen to a scientist instead of my cousin on social media?&#xA;Because science is the art of problem solving.&#xA;It&amp;rsquo;s not the art of being righteous, or sounding cool, or even having fun.</description>
     </item>
     <item>
+      <title>Rest</title>
+      <link>http://localhost:1313/rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rest/</guid>
+      <description> sleep clean </description>
+    </item>
+    <item>
       <title>Simple Happiness = Setpoints &#43; Conditions &#43; Actions</title>
       <link>http://localhost:1313/happiness/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -637,6 +651,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/sleep/</guid>
       <description>Sleep is like the best Hygiene we can give ourselves. Rest to let the body do it&amp;rsquo;s natural recovery thing. Of course, it doesn&amp;rsquo;t solve everything, but it&amp;rsquo;s like a mirror of the general health of our lives.&#xA;Good sleep is indicative of low stress, general health, good heart and lungs, relaxed muscles, etc. And bad sleep messes up the rest of life.&#xA;In that sense, sleep is like the foundation of health for everything else.</description>
+    </item>
+    <item>
+      <title>Transport</title>
+      <link>http://localhost:1313/transport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/transport/</guid>
+      <description>The easiest form of human transportation is walking. We evolved to be bipedal to become efficient walkers and runners on the grasslands of Africa after our ancestors came down from the tree. As a result, our upper bodies got weaker, and our glutes got huge! Fun fact, humans have the biggest glute:weight ratio in the animal kingdom. We are defined by our asses.&#xA;The most efficient form of human transportation is the bicycle.</description>
     </item>
     <item>
       <title>Writers communicate ideas and tell stories</title>

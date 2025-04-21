@@ -13,23 +13,19 @@ draft: False
 
 ## Resume
 Skills
-- Writing
-    - Storytelling / Content Writing
-    - Technical Writing, Markdown, LaTeX
-    - Copywriting, Newsletters, Creative
-- Teaching
-    - Tutoring Math & Science, Social Studies, Reading
-    - Camp Counseling, Crawdad catching, Sing a longs
-- Graphics
-    - [Drawing](/drawings)
-    - Web Development, HTML, CSS, JavaScript
-- Data
-    - [Python](/python), Numpy, Pandas, Scipy, Matplotlib
-    - AI/ML, PyTorch, ROS, NLP, LLMs
+- Communication
+	- Teaching, Presentations, Seminars
+	- Writing, Content, Copywriting
+- AI & Data
+	- LLMs, NLP, CV, RL, Prompt Engineering, Data Analysis & Visualization
+	- Python, PyTorch, Numpy, Pandas, Scipy, Matplotlib, ROS
+- Web
+	- Git, Markdown, HTML, CSS, JavaScript
+	- SEO, SEMRush, Shopify, Google Analytics, Klaviyo
 
 Experience
 - Digital Marketing Specialist @Labyrinth.digital, 2024-2025
-- Freelance Writer, 2023-2024
+- Freelance AI Solutions Consultant, 2023-2024
 - Research Assistant @Mizzou, 2018-2023
 - Freelance Tutor, 2014-2018
 - Camp Counselor @Babler WiLD, 2017

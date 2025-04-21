@@ -22,17 +22,20 @@
             }
           },
           {
-            "id": "5ee320f8b5bf4d1c",
+            "id": "20026e9b4c3977d0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "ai.md",
-                "mode": "source",
-                "source": false
+                "file": "_1.canvas",
+                "viewState": {
+                  "x": -534.5785988086946,
+                  "y": 1304.385586494165,
+                  "zoom": -0.7366181088824594
+                }
               },
-              "icon": "lucide-file",
-              "title": "ai"
+              "icon": "lucide-layout-dashboard",
+              "title": "_1"
             }
           }
         ]
@@ -180,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 248.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,34 +199,34 @@
   },
   "active": "25205cf41b87c266",
   "lastOpenFiles": [
-    "ai.md",
-    "train.md",
+    "about.md",
+    "_index.md",
     "move.md",
+    "_1.canvas",
+    "train.md",
     "walk.md",
     "ni.md",
-    "breathe.md",
-    "_index.md",
-    "chatgpt.md",
-    "_1.canvas",
-    "recipes/garlic-chile-oil-soup.md",
-    "_1.md",
-    "about.md",
-    "web-design.md",
-    "Pasted image 20250416145035.png",
-    "Pasted image 20250415165213.png",
-    "procrastination.md",
-    "cook.md",
-    "recipes/smoothie.md",
-    "why.md",
-    "relate.md",
-    "bookshelf.md",
-    "the-process.md",
-    "around.md",
-    "nourish.md",
-    "action.md",
-    "shooters-shoot.md",
+    "dance.md",
+    "sports.md",
+    "fight.md",
+    "clothes.md",
     "work.md",
-    "pro-writer.md",
-    "jobs.md"
+    "Untitled.md",
+    "breathe.md",
+    "breathing.md",
+    "relate.md",
+    "nourish.md",
+    "rest.md",
+    "money.md",
+    "legal-documents.md",
+    "tools.md",
+    "transport.md",
+    "bicycles.md",
+    "cars.md",
+    "why.md",
+    "cook.md",
+    "eat-and-drink.md",
+    "Pasted image 20250416145035.png",
+    "Pasted image 20250415165213.png"
   ]
 }

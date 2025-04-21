@@ -5,15 +5,15 @@ description: "Blake Ruprecht's personal website."
 
 ![Alt text](/headshot.jpg)
 
-Hey, I'm [Blake](/about). I'm writing a map.
+Hey, I'm [Blake](/about). 
 
-[Natural Intelligence](/ni) & [Artificial Intelligence](/ai)
-
-Some writing samples:
+Some example posts:
 - [How to Build Your Own Computer](/build-your-own-computer)
 - [Civilization Beats Freedom](/civilization)
 - [How to Install an EV Charger](/ev-charger-install)
 - [Develop a Growth Mindset](/growth-mindset)
 - [Insects are Sustainable Protein](/insect-farming)
+
+[Natural Intelligence](/ni) & [Artificial Intelligence](/ai)
 
 Contact me: [email](mailto:blakecruprecht@gmail.com), [linkedin](https://linkedin.com/in/BlakeRuprecht), [github](https://github.com/BlakeRuprecht)

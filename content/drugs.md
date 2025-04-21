@@ -15,13 +15,13 @@ The OG best drug, at least in Western culture, stemming from the Dionysian orgia
 
 ## Psychedelics
 
-### 2018-??-??, Jame's house
+### 2018-??-??, Rolla
 I hate 90 degree angles, I hate boxes, I don't want to be inside, I want to be outside so badly ahhhhhh know we're in the grass, looking at trees, I finally enjoy myself and can relax. Outside is where I feel at home.
 
-### 2020-07-05
+### 2020-07-05, Backyard
 I just want to be me. Barefoot; going with the flow; playing music; chasing ohm; minimalist; connected to the earth, water, air, fire, and space/energy; unlock my chakras; exercise; meditate; do yoga; exist peacefully; promote wisdom; hermit/monk/warrior/gardener; grow food; be one with nature; spread the wisdom; cherish my family and friends; take videos and capture memories of the people I care about; enjoy the ride; all good things are wild and free; extreme minimalism, devote 100% of me to writing; appreciate the tea ritual; have minimal possessions; wear simple clothes; don't pollute; walk; drugs are not the answer; except for tea; Jedi Monk; Avatar; Siddhartha; Native American; Shaolin Warrior Monk; ground rest; plants; air quality; fermented foods; healthy lifestyle; open-minded; own your shit; learn from all the elements, take what is uniquely you; Bruce Lee; protest government, wars, discrimination; martial arts; Buddhism; Taoism; Hindu; All know the way, few actually walk it; start walking the path; take a leap of faith; stay peacefully centered; optimism; there is beauty in imperfection; experience emotions fully; live deeply; remember when all that you wanted is what you currently have (the gift of a new life after losing it); there's something sacred within all of us, within all life; live in the present; trust in the truth; eliminate everything that gets between you and the force; rob greenfield has the right idea; fragile v. strong; society v. nature; rich v. poor; high-tech v. simple; force is wise, simple, and natural; spray paint; art; photography; neon colors; drip; there's something bigger than me that I should be striving for everyday; empty your cup; fire is the life source; primordial; calm and at peace, zen; meditate; ohm; calm; at peace; zen; remove our limitations; do or do not, there is no try;
 
-### 2023-12-30
+### 2023-12-30, The Lake
 
 **The come up**
 We took shrooms after breakfast. I was hesitant to take a lot, but was interested in taking a few, so I settled on 1g of shrooms. Little did I know, Scoob grew those things strong as hell. It started off as most trips do, uneasy. I felt a bit of nausea when playing badminton, and turned into a total slacker when it came to the game. The whole crew was starting to fade away into laughter and frolicking. Biggs and I took a walk away from headquarters, and eventually started cracking up in the middle of the street. We walked home, around the side of the house, and towards the backyard, where we knew James and Sierra were waiting for us. 
