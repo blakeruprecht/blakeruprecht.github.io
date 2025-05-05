@@ -1,5 +1,5 @@
 +++
-title = "Black and white thinking"
+title = "Black and White Thinking"
 menu = "main"
 date = "2024-08-15"
 +++

@@ -1,5 +1,5 @@
 +++
-title = "Inside-the-box thinking"
+title = "Inside the Box Thinking"
 menu = "main"
 date = "2024-08-15"
 toc = "false"

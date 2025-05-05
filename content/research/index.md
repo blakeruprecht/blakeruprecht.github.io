@@ -1,5 +1,5 @@
 +++ 
-title = "What research taught me" 
+title = "What Research Taught Me" 
 menu = "main"
 date = "2024-10-17"
 +++
