@@ -37,9 +37,9 @@ Below is an incomplete catalog of the blogs and books that I love. They are gene
 - **Braiding Sweetgrass - Robin Wall Kimmerer** (nonfiction) A fantastic look at reciprocity from the perspective of a plant scientist, native Potawatomi, and mother. This book almost singularly describes me view of living naturally on this Earth, an absolute tour de force.
 - **Calvin and Hobbes - Bill Watterson** (comic_strip) Watterson transcended the panes of the comic strip and entered rarefied air with the likes of Nobel writers, great scientists, and prophets.
 - **East of Eden - John Steinbeck** (fiction) This took me a year to read, w>
-- **Candide - Voltaire** (fiction) Written in the 18th century, yet made me crack up. Relateable, chaotic, and just plain funny. What a ride, what a book.
+- **Candide - Voltaire** (fiction) Written in the 18th century, yet made me crack up. Relatable, chaotic, and just plain funny. What a ride, what a book.
 - **The Things They Carried - Tim O'Brien** (fiction) This could have been me, bright future, having to go to war, writing about it. Fuck.
-- **Slaughterhouse-Five - Kurt Vonnegut** (fiction) Didn't know what to expe>
+- **Slaughterhouse-Five - Kurt Vonnegut** (fiction) Didn't know what to expect
 - **Siddhartha - Herman Hesse** (fiction) Made me realize what ohm was.
 - **Animal Farm - George Orwell** (fiction) On the Rushmore of political commentary novels. Political satire done right, allegory of a farm is simple and perfect. Snowball and Napoleon are iconic swines.
 - **The Righetous Mind - Jonathan Haidt** (nonfiction) The book I wish I wrote, the science I wish I could do, Haidt introduces the elephant and rider concept, which explains who we really are -- not the conscious mind explaining the action, but the unconscious elephant actually driving all of the action.

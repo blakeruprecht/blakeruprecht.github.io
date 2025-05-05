@@ -4,36 +4,33 @@ date: 2025-04-03
 description: AI Alignment is the most important challenge humans have ever faced. Mess it up, and we may lose everything.
 draft: false
 ---
-## Highlights
-- "What My AI Risk Research Taught Me About Explaining Complex Systems"
-- "Beyond the Equations: Visualizing AI Concepts"
-- "The Human Side of AI Development"
-- [transformers] how transformers actually work, demystified
-- [alignment] problem explained visually
-- [ai-vs-bi] similarities and differences of NNs and human brains
-- [information-theory]s role in modern AI
 
-## Societal Implications of AI
-- [final-frontier](/final-frontier) we're approaching a cliff, everything forever (smart life, utopia, etc), nothing ever again (dystopia, sadness, existential death)
-- [alignment] AI alignment, future directions
-- [ai-vs-bi](/ai-vs-bi) human vs machine minds, complementary intelligence types, compared
-- [[AI Hallucinations]]
 
-## The Evolution of Intelligence
+### Highlights (basically just finished posts so far)
+- [My AI Alignment Research](/research)
+- [build-your-own-computer](/build-your-own-computer)
+- [procrastination](/procrastination)
+- [perfectionism](/perfectionism)
+
+
+---
+## Future Posts (all are a W.I.P. right now)
+
+### The Evolution of Intelligence
 - [entropy](/entropy) the fundamental rule of the [universe](/universe)
-- [natural-selection 1](natural-selection%201.md) shapes intelligence
+- [natural-selection](/natural-selection) shapes intelligence
 - [homo-sapiens](/homo-sapiens) are S-tier
 - [language](/language) enables knowledge transfer
 - [civilization](/civilization) beats freedom
-	- WEIRD people are the ones that have pushed civilization farther than ever before
-	- [western](/western) PIEs were the original Cowboys
-	- [educated](/educated) because of the decentralized movement of Protestantism
-	- [industrious](/industrious) invention accelerates more theory/invention
-	- [rich](/rich) capitalistic business ventures out-compete all others
-	- [democratic](/democratic) liberal values
+- Western civilization has dominated the world for the past few hundred years. Why? Well, westerners are WEIRD -- Western (obviously), Educated, Industrious, Rich, and Democratic. I'm not trying to say that this makes Western culture better in any moral sense, just trying to explain why they're so damn competitive as a culture.
+- [western](/western) PIEs were the original Cowboys
+- [educated](/educated) because of the decentralized movement of Protestantism
+- [industrious](/industrious) invention accelerates more theory/invention
+- [rich](/rich) capitalistic business ventures out-compete all others
+- [democratic](/democratic) liberal values
 - [process](/process)
 
-## Technical Foundations of AI
+### Technical Foundations of AI
 - [turing-machine](/turing-machine) universal computation foundation
 - [think-with-light](/information-theory) information theory and quantification
 - [binary](/binary) binary systems and digital logic
@@ -50,31 +47,33 @@ draft: false
 	- [anfis](/anfis)
 	- [lstm](/lstm)
 
-## Modern AI Systems
+### Computing to Develop AI
+- [computer-hardware](/computer-hardware)
+	- [build-your-own-computer](/build-your-own-computer)
+- [computer-software](/computer-software)
+	- [operating-systems](/operating-systems)
+	- [unix](/unix)
+	- [terminal](/terminal)
+	- [python](/python) the main coding language of AI/ML development
+	- [python-packages](/python-packages) the major packages for AI/ML development
+	- [open-source](/open-source)
+	- [digital-minimalism](/digital-minimalism)
+
+### Modern AI Systems
+- [ai-architecture](/ai-architecture.md) how these pieces fit together
 - [deep-learning]
 - [transformers]
 - [attention]
 - [large-language-models]
 - Foundation models and transfer learning - generalist models and fine-tuning, plus multimodal
 - [emergence] scale laws and emergent properties
-- [ai-architecture](/ai-architecture.md) how these pieces fit together
 - [ai-sota] current AI practical applications and capabilities
 
-## Computing to Build AI
-- [computer-hardware](/computer-hardware)
-	- [build-your-own-computer](/build-your-own-computer)
-- [computer-software](/computer-software)
-	- [open-source](/open-source)
-	- [unix](/unix)
-	- [operating-systems](/operating-systems)
-	- [python](/python) the Lingua Franca of AI/ML
-	- [python-packages](/python-packages) the Python Dialects of AI/ML
-	- [terminal](/terminal)
-- [digital-minimalism](/digital-minimalism)
-
-## Supplementary Topics
-
-Societal Implications
+### Societal Implications
+- [final-frontier](/final-frontier) we're approaching a cliff, everything forever (smart life, utopia, etc), nothing ever again (dystopia, sadness, existential death)
+- [alignment] AI alignment, future directions
+- [ai-vs-bi](/ai-vs-bi) human vs machine minds, complementary intelligence types, compared
+- [[AI Hallucinations]]
 - Social impact of advanced AI
 - Loss of Magic/Mystery with an OmniIntelligence
 - Distributed cognition - intelligence across groups
@@ -86,13 +85,13 @@ Societal Implications
 - Civilization as cognitive scaffolding - outsourcing thinking to culture
 - Intelligence explosion hypothesis - recursive self-improvement
 
-Historical AI Approaches
+### Historical AI Approaches
 - Logic-based AI and expert systems - formal reasoning systems, domain-specific rule creation for reasoning
 - Symbolic AI and knowledge representation
 - Early neural network concepts
 - Cybernetics and feedback systems
 
-Philosophy of Mind
+### Philosophy of Mind
 - Modularity of mind - specialized brain systems for different functions
 - Chinese room (Searle) - understanding vs. simulation
 - Multiple realizability - same mind, different substrates
@@ -100,7 +99,7 @@ Philosophy of Mind
 - Qualia and phenomenal consciousness - subjective experience
 - Free will and determinism - agency in natural systems
 
-Biological Intelligence
+### Biological Intelligence
 - [procrastination](/procrastination)
 - [perfectionism](/perfectionism)
 - Neuron doctrine
@@ -110,7 +109,7 @@ Biological Intelligence
 - Embodied cognition
 - Extended mind thesis
 
-Advanced Theoretical Concepts
+### Advanced Theoretical Concepts
 - Integrated information theory - measuring consciousness
 - Bayesian brain hypothesis - probabilistic inference in cognition
 - Active inference - perception-action loops for uncertainty reduction

@@ -5,9 +5,9 @@
   --fg-color: #444;
   --mg-color: #888;
   --ul-color: #ccc;
-  --bg-color: #fff;
+  --bg-color: #F0EEE6;
   --red-color: #E63946;
-  --blue-color: #0645ad;
+  --blue-color: #3b82f6;
   --green-color: #4f9d57;
   
   /* Fonts */
@@ -32,7 +32,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--fg-color);
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-top: 0em;
 }
 
@@ -77,15 +77,13 @@ p, ul, ol {
 a {
   color: var(--fg-color);
   text-decoration: underline;
-  text-decoration-color: var(--ul-color);
-  text-underline-offset: 2px;
+  text-decoration-color: var(--mg-color);
 }
 
 a:hover {
   color: var(--hg-color);
   text-decoration: underline;
   text-decoration-color: var(--red-color);
-  text-underline-offset: 2px;
 }
 
 /* IMAGES */

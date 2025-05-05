@@ -42,19 +42,12 @@ The thing I’ve learned, and it’s not some new truth but an old one that took
 Consider what changes:
 
 - You no longer feel dissatisfied with yourself or your life.
-    
 - You no longer spend so much time and energy wanting to change and trying to change.
-    
 - You no longer compare yourself to other people, and wish you were better.
-    
 - You can be happy, all the time, no matter what happens in the world around you.
-    
 - Instead of trying to improve yourself, you can spend your time helping others.
-    
 - You stop spending so much money on things that will supposedly improve your life.
-    
 - You can be smug about it, like me.
-    
 
 OK, the last bit was a joke, but the rest is true, in my experience.
 

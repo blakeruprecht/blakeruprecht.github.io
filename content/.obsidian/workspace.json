@@ -8,33 +8,44 @@
         "type": "tabs",
         "children": [
           {
-            "id": "25205cf41b87c266",
+            "id": "0438287247c7b910",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "burn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "burn"
             }
           },
           {
-            "id": "20026e9b4c3977d0",
+            "id": "24823d3bfda641bb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "_1.canvas",
-                "viewState": {
-                  "x": -534.5785988086946,
-                  "y": 1304.385586494165,
-                  "zoom": -0.7366181088824594
-                }
+                "file": "self-love.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
+              "icon": "lucide-file",
+              "title": "self-love"
+            }
+          },
+          {
+            "id": "63e29876af1fa61a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
               "title": "_1"
             }
           }
@@ -145,7 +156,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -159,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_1.canvas",
+                "file": "burn.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _1"
+              "title": "Outline of burn"
             }
           },
           {
@@ -179,12 +190,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 248.5,
-    "collapsed": true
+    "width": 316.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,35 +207,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25205cf41b87c266",
+  "active": "0438287247c7b910",
   "lastOpenFiles": [
-    "about.md",
-    "_index.md",
     "move.md",
+    "ni.md",
+    "_index.md",
+    "burn.md",
+    "_1.md",
+    "self-love.md",
+    "Untitled 1.md",
+    "keep-the-wolves-away.md",
+    "bookshelf.md",
+    "homo-sapiens.md",
+    "ai.md",
     "_1.canvas",
+    "western.md",
+    "natural-selection 1.md",
+    "entropy.md",
+    "digital-minimalism.md",
+    "open-source.md",
+    "computer-software.md",
+    "final-frontier.md",
+    "ai-architecture.md",
+    "breathe.md",
+    "zoo.md",
+    "nourish.md",
+    "about.md",
     "train.md",
     "walk.md",
-    "ni.md",
     "dance.md",
-    "sports.md",
-    "fight.md",
-    "clothes.md",
-    "work.md",
-    "Untitled.md",
-    "breathe.md",
-    "breathing.md",
-    "relate.md",
-    "nourish.md",
-    "rest.md",
-    "money.md",
-    "legal-documents.md",
-    "tools.md",
-    "transport.md",
-    "bicycles.md",
-    "cars.md",
-    "why.md",
-    "cook.md",
-    "eat-and-drink.md",
     "Pasted image 20250416145035.png",
     "Pasted image 20250415165213.png"
   ]
