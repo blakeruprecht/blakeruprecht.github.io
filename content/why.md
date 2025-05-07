@@ -26,4 +26,3 @@ how
 - [happiness], [simplicity], [enough](/enough), [epiousion](/epiousion), [timshel](/timshel), [maktoub](/maktoub)
 	- the process / growth mindset / nature values simplicity
 	- [the-process](/the-process)
-	- 

@@ -21,6 +21,16 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
 
   <link rel="alternate" type="application/rss+xml" href="https://blakeruprecht.com/recipes/index.xml" title="Blake Ruprecht" />
   
@@ -44,16 +54,8 @@ if (!doNotTrack) {
   <nav class="site-nav">
     <div class="logo">
       <a href="/">Blake Ruprecht</a>
-      
-    </div>
-    <div class="menu-container">
-      <ul class="menu">
-        
-        
-        
-      </ul>
-      <button class="menu-toggle">☰</button>
-    </div>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
   </nav>
 </header>
  
@@ -61,8 +63,11 @@ if (!doNotTrack) {
  document.addEventListener('DOMContentLoaded', () => {
    initializeMenuToggle();
    initializeActiveLinks();
+   initializeThemeToggle();
  });
  
+ document.documentElement.style.visibility = 'visible';
+
  function initializeMenuToggle() {
    document.querySelector('.menu-toggle').addEventListener('click', () => {
      document.querySelector('.site-nav').classList.toggle('expanded');
@@ -86,6 +91,31 @@ if (!doNotTrack) {
         logo.classList.add('active');
     }
 }
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
  </script>
 
 <main class="content">

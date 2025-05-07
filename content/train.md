@@ -1,7 +1,16 @@
 ---
 draft: false
-title: Keep Training Simple
+title: Simple Training Plan
+description: "\"There's a lot of information about training out there, but really, it's not that hard. Do some cardio a few times per week, do something to strengthen your muscles a few times per week and boom, you're fit as hell.\""
 ---
+## Recovery
+The first key to training has nothing to do with training itself. It's everything you do outside of training. Training, exercise, whatever you call it, is inherently stressful. You're basically tearing down your body to rebuild it stronger. The key point there is "rebuild."
+
+- Caloric surplus/deficit determines weight gain/loss, not exercise
+- Sleep builds muscle, exercise provides the stress to signal the body to build
+
+It doesn't matter if you have the best training program in the world, if you're not eating enough calories and protein, not drinking enough water, or not getting enough sleep, you won't make progress. Consistency and recovery are what matter. You can train for 15 mins per day and get fit as hell if you are consistent and recover well. You can train for 1 hour per day and lose muscle if you aren't eating enough food and sleeping enough.
+
 ## Consistency + Recovery > All Else
 Anything is better than nothing. So much information out there today is obsessed with optimal. Optimal routines, optimal splits, optimal exercises. You can always optimize. But the key to training is consistency, not optimal. Doing something is infinitely better than doing nothing. Keep training simple so that you'll do the one thing that matters -- train.
 
@@ -16,8 +25,6 @@ All training typically falls into two categories:
 	- Size: for show (a result of getting stronger/more enduring)
 
 All exercises hit both, but to varying degrees. Power lifting focuses on resistance to build strength, and hard sets build anaerobic cardio as well. Sprinting builds anaerobic cardio, and some muscle as well. Pushups build muscle, and sometimes muscular and anaerobic endurance. Jogging builds aerobic endurance.
-
-Consistency is the first key to training, and the second is recovery. It doesn't matter if you have the best training program in the world, if you're not eating enough calories and protein, not drinking enough water, or not getting enough sleep, you won't make progress. Consistency and recovery are what matter. You can train for 15 mins per day and get fit as hell if you are consistent and recover well. You can train for 1 hour per day and get out of shape if you aren't consistent and don't recover well.
 
 ## Simple Cardio Training:
 - Run two miles, 3x per week. Run at a slow pace where you can breathe using only your nose. If you're feeling really good, run faster if you want. Or don't. Add in a sprint or two at the end for an awesome boost.
@@ -43,4 +50,4 @@ Do three sets per exercise. Go as hard as you can, and take it easy whenever you
 
 Focus on nailing the form. Slowly add reps/weight over time. One consistent set of pushups per day, performed to close-to-failure, will be infinitely more beneficial than sporadically benching every couple of weeks.
 
-What about other exercises, isolation movements, etc? Sure, knock yourself out, but all those extras are for people that consistently hammer the basics: who train Push, Pull, and Legs, get plenty of sleep, eat super well, and have the free time and interest to do more exercises. For most people, they're just not necessary.
+What about other exercises, isolation movements, etc? Sure, knock yourself out, but all those extras are for people that consistently hammer the basics: who train Push, Pull, and Legs, get plenty of sleep, eat super well, and have the free time and interest to do more exercises. For most people, they're just not helpful, let alone necessary.

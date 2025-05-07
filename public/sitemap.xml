@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blakeruprecht.com/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blakeruprecht.com/cv/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/why/</loc>
     <lastmod>2025-04-14T00:00:00+00:00</lastmod>
@@ -13,12 +16,6 @@
   </url><url>
     <loc>https://blakeruprecht.com/ai/</loc>
     <lastmod>2025-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blakeruprecht.com/clothes/</loc>
-    <lastmod>2025-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blakeruprecht.com/about/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/civilization/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
@@ -211,9 +208,11 @@
   </url><url>
     <loc>https://blakeruprecht.com/web-design/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/web-dev/</loc>
-  </url><url>
     <loc>https://blakeruprecht.com/what-is-love/</loc>
+  </url><url>
+    <loc>https://blakeruprecht.com/money/</loc>
+  </url><url>
+    <loc>https://blakeruprecht.com/a-good-man/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/breathe/</loc>
   </url><url>
@@ -224,8 +223,6 @@
     <loc>https://blakeruprecht.com/cook/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/spirit/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.com/train/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/legal-documents/</loc>
   </url><url>
@@ -243,7 +240,13 @@
   </url><url>
     <loc>https://blakeruprecht.com/rest/</loc>
   </url><url>
+    <loc>https://blakeruprecht.com/y/</loc>
+  </url><url>
     <loc>https://blakeruprecht.com/happiness/</loc>
+  </url><url>
+    <loc>https://blakeruprecht.com/train/</loc>
+  </url><url>
+    <loc>https://blakeruprecht.com/web-development/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/sleep/</loc>
   </url><url>

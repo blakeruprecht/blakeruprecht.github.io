@@ -3,17 +3,22 @@ title: "Blake Ruprecht"
 description: "Blake Ruprecht's personal website."
 ---
 
-![Alt text](/headshot.jpg)
+Hey, I'm Blake, a human being living on this Earth with you. Currently, I'm alive. Professionally, check out my quick [resume](/cv).
 
-Hey, I'm [Blake](/about). 
-
-Some example posts:
+## Writing Samples
 - [How to Build Your Own Computer](/build-your-own-computer)
 - [Civilization Beats Freedom](/civilization)
 - [How to Install an EV Charger](/ev-charger-install)
 - [Develop a Growth Mindset](/growth-mindset)
 - [Insects are Sustainable Protein](/insect-farming)
 
-[Natural Intelligence](/ni) & [Artificial Intelligence](/ai)
+## Notes
+- [Natural Intelligence](/ni) 
+- [Artificial Intelligence](/ai)
+- [AI Safety Research](/research): What I learned doing research
+- [Bookshelf](/bookshelf): My favorite blogs, articles, and books
+- [Drawings](/drawings): Some of my black ink drawings
+- [Woodwork](/woodwork): Some boxes I've made out of wood
 
-Contact me: [email](mailto:blakecruprecht@gmail.com), [linkedin](https://linkedin.com/in/BlakeRuprecht), [github](https://github.com/BlakeRuprecht)
+## Contact Me
+[email](mailto:blakecruprecht@gmail.com), [linkedin](https://linkedin.com/in/BlakeRuprecht), [github](https://github.com/BlakeRuprecht)

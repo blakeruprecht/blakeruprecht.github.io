@@ -21,6 +21,16 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
 
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
@@ -43,16 +53,8 @@ if (!doNotTrack) {
   <nav class="site-nav">
     <div class="logo">
       <a href="/">Blake Ruprecht</a>
-      
-    </div>
-    <div class="menu-container">
-      <ul class="menu">
-        
-        
-        
-      </ul>
-      <button class="menu-toggle">☰</button>
-    </div>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
   </nav>
 </header>
  
@@ -60,8 +62,11 @@ if (!doNotTrack) {
  document.addEventListener('DOMContentLoaded', () => {
    initializeMenuToggle();
    initializeActiveLinks();
+   initializeThemeToggle();
  });
  
+ document.documentElement.style.visibility = 'visible';
+
  function initializeMenuToggle() {
    document.querySelector('.menu-toggle').addEventListener('click', () => {
      document.querySelector('.site-nav').classList.toggle('expanded');
@@ -85,6 +90,31 @@ if (!doNotTrack) {
         logo.classList.add('active');
     }
 }
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
  </script>
 
 <main class="content">
@@ -138,8 +168,17 @@ window.MathJax = {
 <p>During Roman times, a little lad by the name of Jesus got axed and started a whole new religion, whose in-fighting has defined modern Western culture.</p>
 <p>And finally, after the fall of the Romans to the Germans, the Germanic peoples just kept churning out new ideas and fighting over land, to the point that they became the most dominant empires in the world after the Renaissance. The Germans, Dutch, and British started to dominate the world, and that has continued into American global hegemony.</p>
 <h2 id="roman">Roman</h2>
+<ul>
+<li>+Greek, Persian</li>
+</ul>
 <h2 id="christian">Christian</h2>
+<ul>
+<li>+Islamic, Jewish, Zoro, etc&hellip;</li>
+</ul>
 <h2 id="germanic">Germanic</h2>
+<ul>
+<li>+Viking/Nordic, Slavic, Turkic, etc.</li>
+</ul>
 
     </div>
 </article>

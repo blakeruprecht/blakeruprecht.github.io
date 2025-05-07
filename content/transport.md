@@ -10,5 +10,9 @@ Public transportation is pretty cool, though heavily dependent on local infrastr
 
 > "A developed society isn't a place where the poor have cars. It's where the rich use public transportation."
 
-**Cars** are pretty cool, I will admit. In Thailand and Laos, I rode on mopeds/scooters, and those were really fun, way more dangerous, and way easier to maintain than a car. Cars are incredibly complex machines and require a ton of maintenance, like regular oil changes, and all of the other essential things they require to keep living. Luckily, quality reliable cars can be bought for under $10,000 in the USA, which is honestly still a fuck ton of money. New cars are a money pit due to rapid depreciation, they are one of the best assets to buy if you hate having [money](/money). The most sensible car to own is a +10 year old Honda/Toyota/Mazda hatchback. Anything else is bloat.
+**Cars** are pretty cool, I will admit. In Thailand and Laos, I rode on mopeds/scooters, and those were really fun, way more dangerous, and way easier to maintain than a car. Cars are incredibly complex machines and require a ton of maintenance, like regular oil changes, and all of the other essential things they require to keep living. Luckily, quality reliable cars can be bought for under $10,000 in the USA, which is honestly still a fuck ton of money.
+
+New cars are a money pit due to rapid depreciation, so they are one of the best assets to buy if you want to get rid of a lot of [money](/money). 
+
+Otherwise, the most sensible car to own is a +10 year old Honda/Toyota/Mazda hatchback that's still in good condition.
 

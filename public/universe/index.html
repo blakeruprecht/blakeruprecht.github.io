@@ -21,6 +21,16 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
 
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
@@ -43,16 +53,8 @@ if (!doNotTrack) {
   <nav class="site-nav">
     <div class="logo">
       <a href="/">Blake Ruprecht</a>
-      
-    </div>
-    <div class="menu-container">
-      <ul class="menu">
-        
-        
-        
-      </ul>
-      <button class="menu-toggle">☰</button>
-    </div>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
   </nav>
 </header>
  
@@ -60,8 +62,11 @@ if (!doNotTrack) {
  document.addEventListener('DOMContentLoaded', () => {
    initializeMenuToggle();
    initializeActiveLinks();
+   initializeThemeToggle();
  });
  
+ document.documentElement.style.visibility = 'visible';
+
  function initializeMenuToggle() {
    document.querySelector('.menu-toggle').addEventListener('click', () => {
      document.querySelector('.site-nav').classList.toggle('expanded');
@@ -85,6 +90,31 @@ if (!doNotTrack) {
         logo.classList.add('active');
     }
 }
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
  </script>
 
 <main class="content">
@@ -120,13 +150,16 @@ window.MathJax = {
 
     <div class="post-content">
         <blockquote>
-<p>&ldquo;In the beginning, the universe was created. This was widely regarded  as a bad move.&rdquo;
--douglas adams</p>
+<p><em>&ldquo;In the beginning the Universe was created. This had made many people very angry and has been widely regarded as a bad move.&rdquo;</em>
+<em>- Douglas Adams, The Restaurant at the End of the Universe</em></p>
 </blockquote>
 <p>At the scale of the universe, what matters? Nothing from a humans perspective, that&rsquo;s for sure, besides the potential threat of another planet hitting us, a black hole swallowing us up, or a random burst of energy acting like a galactic laser beam straight to our little rock.</p>
 <p>The probability of an astrophysics-related catastrophe here on earth is probably 1%.</p>
 <p>The scale of life is so huge</p>
 <h2 id="cosmic-scale----pale-blue-dot">Cosmic scale &ndash; pale blue dot</h2>
+<p>I am a bunch of electrical connections which animate jelly held in a sack of skin surrounding calcified rocks which can move.</p>
+<p>I live on a big rock hurtling millions of miles per hour through a backwater of space.</p>
+<p>My entire home is simple a mote of dust caught suspended in a sunbeam.</p>
 <h2 id="the-whole-universe-in-a-glass-of-wine">The whole universe in a glass of wine</h2>
 <h2 id="it-only-adds">It only adds!</h2>
 

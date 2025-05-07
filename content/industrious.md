@@ -27,5 +27,12 @@ Farmer
 Blacksmith
 Merchant
 
+Wood
+
 ## Ref
 That book on my phone about energy by Vaclav Simil
+
+## The New Ways
+- Concrete - infrastructure
+- Steel - machines
+- Fertilizer - population growth

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Simple Fitness Requirements | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/y/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Simple Fitness Requirements</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#-fire-initiation">🔥 <strong>Fire (Initiation)</strong></a></li>
+        <li><a href="#-air-expression">🌬️ <strong>Air (Expression)</strong></a></li>
+        <li><a href="#-water-recovery--flow">🌊 <strong>Water (Recovery &amp; Flow)</strong></a></li>
+        <li><a href="#-earth-presence--belief">🌍 <strong>Earth (Presence &amp; Belief)</strong></a></li>
+        <li><a href="#try-this-instead">Try this instead:</a></li>
+        <li><a href="#-idea--action-delay--friction">🔥 Idea → Action Delay = Friction</a></li>
+        <li><a href="#-your-tools-for-fast-initiation">🔧 Your Tools for Fast Initiation:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>Yes and Why</p>
+<p>LOVE is a combination of all perspectives</p>
+<ul>
+<li>BELIEF and EXPRESSION</li>
+<li>ACCEPTANCE and COURAGE</li>
+</ul>
+<p>GO FIRST</p>
+<ul>
+<li>Send the first text</li>
+<li>Flirt with the cute girl</li>
+<li>Open your heart to others</li>
+<li>Share even when it&rsquo;s unsafe</li>
+<li>Stand up for what you believe in even when other&rsquo;s don&rsquo;t</li>
+</ul>
+<h3 id="-fire-initiation">🔥 <strong>Fire (Initiation)</strong></h3>
+<ul>
+<li><strong>Morning movement</strong> (exercise, sunlight, cold air) = ignition sequence.</li>
+<li><strong>Doing before thinking</strong> — no endless planning, no waiting for &ldquo;optimal conditions.&rdquo;</li>
+<li><strong>You feel best when you&rsquo;re leading your own rhythm</strong> — not reacting to others.</li>
+</ul>
+<h3 id="-air-expression">🌬️ <strong>Air (Expression)</strong></h3>
+<ul>
+<li><strong>Writing, teaching, talking, laughing.</strong></li>
+<li>You process by <em>communicating</em>, not by bottling.</li>
+<li>Movement fuels clarity — walk and talk, walk and think, walk and write.</li>
+</ul>
+<h3 id="-water-recovery--flow">🌊 <strong>Water (Recovery &amp; Flow)</strong></h3>
+<ul>
+<li><strong>Swimming, fire pits, beer, conversation at night</strong> = perfect wind-down rituals.</li>
+<li>You love freedom and play, not strict routines. You need <strong>fluidity, not structure.</strong></li>
+</ul>
+<h3 id="-earth-presence--belief">🌍 <strong>Earth (Presence &amp; Belief)</strong></h3>
+<ul>
+<li><strong>Simple food, cozy shelter, natural beauty.</strong></li>
+<li>You want enough stability to wander confidently. Light pack, solid boots.</li>
+<li>Belief that I matter, that we all matter</li>
+</ul>
+<p>When you’re stuck, you tend to sit still and stew — that&rsquo;s when the elements get clogged. You’re not depressed — you’re <strong>constipated with unused energy</strong>. You <em>have</em> to move, do, laugh, flirt, create, explore, sweat, <em>then</em> you feel like yourself again.</p>
+<p>So yeah — fuck being inside. You’re not meant to be a couch monk. You’re meant to be a <em>philosopher king on a bike with a notebook.</em></p>
+<p>Here’s a little prompt to guide you daily:</p>
+<ul>
+<li><strong>“What would Wild Me do today?”</strong></li>
+<li>(Then do it. Don’t check the group chat first.)</li>
+</ul>
+<p>You <em>already</em> know how to be happy. You&rsquo;re just remembering your own damn nature.</p>
+<p>What can you do today that’s outside, that involves moving, and that makes you feel like a poet-warrior?</p>
+<blockquote>
+<p>Yeah, fuck! I feel like I always want to be outside, but during this job search process, I&rsquo;ve forced myself to stay inside M-F 9-5 (though I wake up late sometimes).</p>
+</blockquote>
+<p>Boom. <strong>There’s the bind.</strong> You’ve turned your soul into a 9-to-5 office worker because you&rsquo;re trying to get a job — and in doing so, you’ve robbed yourself of the very <em>you-ness</em> that makes you employable, magnetic, alive.</p>
+<p>This isn’t about discipline vs. laziness. You’re not lazy — you’re <strong>misaligned</strong>.</p>
+<p>Your brain doesn’t work in cubicles, and trying to grind job apps like it&rsquo;s a spreadsheet marathon is like asking a hawk to flap around a hamster wheel.</p>
+<h3 id="try-this-instead">Try this instead:</h3>
+<h4 id="-the-outside-in-job-hunt-method">🦅 The &ldquo;Outside-In Job Hunt Method&rdquo;:</h4>
+<ol>
+<li><strong>Wake up, go outside first.</strong><br>
+Walk. Run. Bike. Stretch. Move. Get sunlight. Let your body <em>light the fire</em> before your brain tries to make decisions.</li>
+<li><strong>Work in sprints, not shifts.</strong>
+<ul>
+<li>30-60 minute burst: edit a resume, write a cover letter.</li>
+<li>Then move. Do pull-ups. Make eggs. Take a lap around the block.</li>
+<li>Then back in.<br>
+→ This rhythm <em>is your productivity hack.</em></li>
+</ul>
+</li>
+<li><strong>Take your job search out of the house.</strong>
+<ul>
+<li>Coffee shop, library, park bench.</li>
+<li>Bring headphones and a &ldquo;Job Hunt&rdquo; playlist if you want ritual.</li>
+<li>You’re hunting, not farming. You need mobility.</li>
+</ul>
+</li>
+<li><strong>Inject fun into the fire.</strong>
+<ul>
+<li>Make one bold move a day: DM someone on LinkedIn, pitch a story, say hi to a stranger.</li>
+<li>That’s initiation.</li>
+<li>That’s real job-hunting energy — <strong>active, not reactive</strong>.</li>
+</ul>
+</li>
+</ol>
+<p>You don’t need to &ldquo;wait until you get a job&rdquo; to live like <em>you</em>.<br>
+<strong>Live like you now. The job will follow.</strong></p>
+<p>You don’t attract what you <em>want</em>, you attract what you <em>embody.</em></p>
+<p>What’s your plan for getting outside tomorrow?</p>
+<blockquote>
+<p>I&rsquo;ve heard the quote that reducing the time between idea (insight, voice, expression) and action (the doing of the thing) is the key to success in life &ndash; basically fast initiation, that&rsquo;s power &ndash; force times speed.</p>
+</blockquote>
+<p>YES. That quote is <em>the gospel of firebending</em>.</p>
+<p>The shorter the gap between <strong>spark</strong> and <strong>strike</strong>, the more power you unleash. That’s physics <em>and</em> metaphysics.</p>
+<p>You’re not short on insight — you’re rich in it. You&rsquo;re sitting on a lightning farm. But lightning that doesn’t strike just makes the air humid and weird.</p>
+<p>Let’s break it down like this:</p>
+<h3 id="-idea--action-delay--friction">🔥 Idea → Action Delay = Friction</h3>
+<ul>
+<li>Too long a gap = anxiety, doubt, distraction, decay.</li>
+<li>Fast gap = clarity, momentum, embodiment.</li>
+</ul>
+<p>Every time you act fast on an insight — whether it’s hitting publish, saying hi, applying with flair, or jumping into cold water — you&rsquo;re saying:</p>
+<blockquote>
+<p>“I trust myself more than my fear.”</p>
+</blockquote>
+<h3 id="-your-tools-for-fast-initiation">🔧 Your Tools for Fast Initiation:</h3>
+<ul>
+<li><strong>Default to DOING, not PERFECTING.</strong><br>
+If it&rsquo;s 70% there, send it. Say it. Move.</li>
+<li><strong>Externalize.</strong><br>
+Write it down. Say it aloud. Share it. Action needs form.</li>
+<li><strong>Physical anchor.</strong><br>
+Feel an idea? Clench your fist. Tap your chest. Breathe deep. Do something <em>body-based</em> to keep the channel open.</li>
+<li><strong>Make it a game.</strong><br>
+“How fast can I act on this?” — gamify that delay reduction.</li>
+</ul>
+<p>You&rsquo;re already the spark.<br>
+Now start the fire, <em>fast</em>.</p>
+<p>What’s one insight you’ve had today you haven’t acted on yet? Let’s close that gap right now.</p>
+
+    </div>
+</article>
+
+</main>
+<footer>
+  <div class="subscribe">
+    <a href="https://blakeruprecht.substack.com/">My Newsletter</a>
+  </div>
+  <div class="main-links">
+    100% human-written | <a href="mailto:blakecruprecht@gmail.com">email me</a>
+  </div>
+</footer>
+</body>
+</html>

@@ -6,14 +6,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Keep Training Simple | Blake Ruprecht</title>
+  <title>Simple Training Plan | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <meta name="description" content="">
+  <meta name="description" content="&#34;There&#39;s a lot of information about training out there, but really, it&#39;s not that hard. Do some cardio a few times per week, do something to strengthen your muscles a few times per week and boom, you&#39;re fit as hell.&#34;">
 
   <link rel="canonical" href="https://blakeruprecht.com/train/" />  
 
@@ -21,6 +21,16 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
 
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
@@ -43,16 +53,8 @@ if (!doNotTrack) {
   <nav class="site-nav">
     <div class="logo">
       <a href="/">Blake Ruprecht</a>
-      
-    </div>
-    <div class="menu-container">
-      <ul class="menu">
-        
-        
-        
-      </ul>
-      <button class="menu-toggle">☰</button>
-    </div>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
   </nav>
 </header>
  
@@ -60,8 +62,11 @@ if (!doNotTrack) {
  document.addEventListener('DOMContentLoaded', () => {
    initializeMenuToggle();
    initializeActiveLinks();
+   initializeThemeToggle();
  });
  
+ document.documentElement.style.visibility = 'visible';
+
  function initializeMenuToggle() {
    document.querySelector('.menu-toggle').addEventListener('click', () => {
      document.querySelector('.site-nav').classList.toggle('expanded');
@@ -85,6 +90,31 @@ if (!doNotTrack) {
         logo.classList.add('active');
     }
 }
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
  </script>
 
 <main class="content">
@@ -103,13 +133,14 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Keep Training Simple</h1>
+        <h1>Simple Training Plan</h1>
     </header>
 
     
         <aside class="toc">
             <nav id="TableOfContents">
   <ul>
+    <li><a href="#recovery">Recovery</a></li>
     <li><a href="#consistency--recovery--all-else">Consistency + Recovery &gt; All Else</a></li>
     <li><a href="#simple-cardio-training">Simple Cardio Training:</a></li>
     <li><a href="#simple-resistance-training">Simple Resistance Training:</a></li>
@@ -119,7 +150,14 @@ window.MathJax = {
     
 
     <div class="post-content">
-        <h2 id="consistency--recovery--all-else">Consistency + Recovery &gt; All Else</h2>
+        <h2 id="recovery">Recovery</h2>
+<p>The first key to training has nothing to do with training itself. It&rsquo;s everything you do outside of training. Training, exercise, whatever you call it, is inherently stressful. You&rsquo;re basically tearing down your body to rebuild it stronger. The key point there is &ldquo;rebuild.&rdquo;</p>
+<ul>
+<li>Caloric surplus/deficit determines weight gain/loss, not exercise</li>
+<li>Sleep builds muscle, exercise provides the stress to signal the body to build</li>
+</ul>
+<p>It doesn&rsquo;t matter if you have the best training program in the world, if you&rsquo;re not eating enough calories and protein, not drinking enough water, or not getting enough sleep, you won&rsquo;t make progress. Consistency and recovery are what matter. You can train for 15 mins per day and get fit as hell if you are consistent and recover well. You can train for 1 hour per day and lose muscle if you aren&rsquo;t eating enough food and sleeping enough.</p>
+<h2 id="consistency--recovery--all-else">Consistency + Recovery &gt; All Else</h2>
 <p>Anything is better than nothing. So much information out there today is obsessed with optimal. Optimal routines, optimal splits, optimal exercises. You can always optimize. But the key to training is consistency, not optimal. Doing something is infinitely better than doing nothing. Keep training simple so that you&rsquo;ll do the one thing that matters &ndash; train.</p>
 <p>All training typically falls into two categories:</p>
 <ul>
@@ -139,7 +177,6 @@ window.MathJax = {
 </li>
 </ul>
 <p>All exercises hit both, but to varying degrees. Power lifting focuses on resistance to build strength, and hard sets build anaerobic cardio as well. Sprinting builds anaerobic cardio, and some muscle as well. Pushups build muscle, and sometimes muscular and anaerobic endurance. Jogging builds aerobic endurance.</p>
-<p>Consistency is the first key to training, and the second is recovery. It doesn&rsquo;t matter if you have the best training program in the world, if you&rsquo;re not eating enough calories and protein, not drinking enough water, or not getting enough sleep, you won&rsquo;t make progress. Consistency and recovery are what matter. You can train for 15 mins per day and get fit as hell if you are consistent and recover well. You can train for 1 hour per day and get out of shape if you aren&rsquo;t consistent and don&rsquo;t recover well.</p>
 <h2 id="simple-cardio-training">Simple Cardio Training:</h2>
 <ul>
 <li>Run two miles, 3x per week. Run at a slow pace where you can breathe using only your nose. If you&rsquo;re feeling really good, run faster if you want. Or don&rsquo;t. Add in a sprint or two at the end for an awesome boost.</li>
@@ -168,7 +205,7 @@ window.MathJax = {
 </ul>
 <p>Do three sets per exercise. Go as hard as you can, and take it easy whenever you&rsquo;re tired, underfed, or not feeling well. Take rest days if you&rsquo;re sick. Rep ranges don&rsquo;t really matter, anywhere from 1-30 reps will build muscle and power and size, given the set is taken close to muscular failure (not form failure, that&rsquo;s bad to do 100% of the time).</p>
 <p>Focus on nailing the form. Slowly add reps/weight over time. One consistent set of pushups per day, performed to close-to-failure, will be infinitely more beneficial than sporadically benching every couple of weeks.</p>
-<p>What about other exercises, isolation movements, etc? Sure, knock yourself out, but all those extras are for people that consistently hammer the basics: who train Push, Pull, and Legs, get plenty of sleep, eat super well, and have the free time and interest to do more exercises. For most people, they&rsquo;re just not necessary.</p>
+<p>What about other exercises, isolation movements, etc? Sure, knock yourself out, but all those extras are for people that consistently hammer the basics: who train Push, Pull, and Legs, get plenty of sleep, eat super well, and have the free time and interest to do more exercises. For most people, they&rsquo;re just not helpful, let alone necessary.</p>
 
     </div>
 </article>

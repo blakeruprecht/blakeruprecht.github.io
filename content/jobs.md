@@ -1,7 +1,7 @@
 ---
 date: 2024-01-19
 title: Work to Earn Money
-description: '"My notes on the art of work."'
+description: '"Getting a job comes down to education, experience, skills, and how well you can communicate those things to potential employers."'
 ---
 ## How to Get a Job
 Let's work backwards -- you have probably heard about a Resume and Cover Letter. So that's pretty much how you get a job these days.
@@ -12,17 +12,18 @@ A Cover Letter is your chance to show off your personal communication skills. Th
 
 ## Resumes
 
-### Skills
+### Skills - what can you do?
 - The meat and potatoes, can you do the tasks required of the job?
+- Can only be learned by doing, demonstrated in the Experience section
 
-### Experience
+### Experience - where did you do it before?
 - Evidence that you have used the skills you claim to have in a professional setting with other people
 - Great skills are useless without great experience, and great experience can make up for lack of skills.
 - Sometimes who you know is more important than what you know.
 
-### Education
+### Education - random piece of paper
 - Evidence that you have verifiably studied the knowledge you claim to have
-- Least important part of the resume, but an essential little tidbit for many, many jobs
+- The most bullshit, unimportant part of any resume, for the most part this becomes little more than a checkbox for an employer.
 
 ## Cover Letters
 *Don't* just rehash what you wrote in the resume. This is a complement to the resume. This is your chance to talk like a real human, explain your career trajectory, and explain how this potential job fits into your plan. This gives you a chance to hype yourself up, tell your own story, and talk nice about the company you want to join.

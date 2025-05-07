@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Simple Fitness Requirements | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="http://localhost:1313/fitness/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Simple Fitness Requirements</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents"></nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>In order of <em>Homo sapiens</em> survival need:</p>
+<ul>
+<li><a href="/breathe">breathe</a> - recognition that we are alive, here and now, in this present moment</li>
+<li><a href="/move">move</a> - moving our legs and arms and bodies in general is fundamental</li>
+<li><a href="/rest">rest</a> - humans need sleep, hygiene, and medicine to keep moving forward</li>
+<li><a href="/nourish">nourish</a> - humans need water and food to survive</li>
+<li><a href="/relate">relate</a> - humans need teams/groups/tribes to produce enough food to survive</li>
+<li><a href="/work">work</a> - humans need a continual supply of resources to keep surviving</li>
+</ul>
+<p>^ You may be intimidate by my note list above. Anytime I see words I feel that too. So here&rsquo;s a quick summary:</p>
+<p>The goal of all life forms is to reproduce. Why?</p>
+<p>Because a few tiny particles formed structures due to physical forces. These structures formed other structures. With enough variance, these structures started to exhibit properties. These blobs were the first single-celled organisms &ndash; they built walls to protect the cell, roads to distribute energy, nerves to detect sensation from the environment, cells to process the electrical signals.</p>
+<p>These cells formed larger structures, which specialized over time.</p>
+<p>These structures kept evolving through the process of reproduction.</p>
+<p>These structures get more complex over time as more specialized cells are randomly reproduced because of genetic mutation.</p>
+<p>The structures that want to make more structures and successfully do become more plentiful. The structures that don&rsquo;t want to reproduce don&rsquo;t. Enough structures exist that eventually most of them want to reproduce, and the some that don&rsquo;t die off.</p>
+<p>The cycle continues.</p>
+<p>Most humans want to reproduce, and keep living. These are innate drives. Some don&rsquo;t feel them.</p>
+<p>For the humans that want to live, they accomplish this by:</p>
+<ul>
+<li>breathing deeply</li>
+<li>moving quickly</li>
+<li>resting plenty</li>
+<li>nourishing simply</li>
+<li>relating cooperatively</li>
+<li>working enough</li>
+</ul>
+
+    </div>
+</article>
+
+</main>
+<footer>
+  <div class="subscribe">
+    <a href="https://blakeruprecht.substack.com/">My Newsletter</a>
+  </div>
+  <div class="main-links">
+    100% human-written | <a href="mailto:blakecruprecht@gmail.com">email me</a>
+  </div>
+</footer>
+</body>
+</html>

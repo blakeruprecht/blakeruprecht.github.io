@@ -21,6 +21,16 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
 
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
@@ -43,16 +53,8 @@ if (!doNotTrack) {
   <nav class="site-nav">
     <div class="logo">
       <a href="/">Blake Ruprecht</a>
-      
-    </div>
-    <div class="menu-container">
-      <ul class="menu">
-        
-        
-        
-      </ul>
-      <button class="menu-toggle">☰</button>
-    </div>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
   </nav>
 </header>
  
@@ -60,8 +62,11 @@ if (!doNotTrack) {
  document.addEventListener('DOMContentLoaded', () => {
    initializeMenuToggle();
    initializeActiveLinks();
+   initializeThemeToggle();
  });
  
+ document.documentElement.style.visibility = 'visible';
+
  function initializeMenuToggle() {
    document.querySelector('.menu-toggle').addEventListener('click', () => {
      document.querySelector('.site-nav').classList.toggle('expanded');
@@ -85,6 +90,31 @@ if (!doNotTrack) {
         logo.classList.add('active');
     }
 }
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
  </script>
 
 <main class="content">
@@ -112,6 +142,7 @@ window.MathJax = {
   <ul>
     <li><a href="#the-old-ways">The Old Ways</a></li>
     <li><a href="#ref">Ref</a></li>
+    <li><a href="#the-new-ways">The New Ways</a></li>
   </ul>
 </nav>
         </aside>
@@ -141,8 +172,15 @@ window.MathJax = {
 <p>Farmer
 Blacksmith
 Merchant</p>
+<p>Wood</p>
 <h2 id="ref">Ref</h2>
 <p>That book on my phone about energy by Vaclav Simil</p>
+<h2 id="the-new-ways">The New Ways</h2>
+<ul>
+<li>Concrete - infrastructure</li>
+<li>Steel - machines</li>
+<li>Fertilizer - population growth</li>
+</ul>
 
     </div>
 </article>

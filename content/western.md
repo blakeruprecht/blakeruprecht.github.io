@@ -24,7 +24,10 @@ During Roman times, a little lad by the name of Jesus got axed and started a who
 
 And finally, after the fall of the Romans to the Germans, the Germanic peoples just kept churning out new ideas and fighting over land, to the point that they became the most dominant empires in the world after the Renaissance. The Germans, Dutch, and British started to dominate the world, and that has continued into American global hegemony.
 ## Roman
++ +Greek, Persian
 
 ## Christian
+- +Islamic, Jewish, Zoro, etc...
 
 ## Germanic
+- +Viking/Nordic, Slavic, Turkic, etc.

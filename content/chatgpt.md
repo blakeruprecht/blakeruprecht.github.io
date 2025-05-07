@@ -552,4 +552,4 @@ So cry, roar, laugh, write, flirt, fall, fly. The world doesn’t need another p
 
 Now go swing.
 
-![[Pasted image 20250415165213.png]]
+![[chatgpt-imagines-itself.png]]

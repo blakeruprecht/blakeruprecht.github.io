@@ -14,4 +14,4 @@ I made my website using HTML, CSS, JavaScript (not really), and Hugo, a static-s
 - https://deadsimplesites.com/
 - Wikipedia
 
-![[Pasted image 20250416145035.png]]
+![[wikipedia-web-design.png]]

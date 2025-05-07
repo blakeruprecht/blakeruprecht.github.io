@@ -1,26 +1,37 @@
-/* CSS VARIABLES */
 :root {
   /* Colors */
   --fg-color: #1f1e1d;
   --mg-color: #808080;
   --bg-color: #F0EEE6;
-  --red-color: #E63946;
-  --blue-color: #3b82f6;
-  --green-color: #4f9d57;
-  
+  --theme-color: #FF2400;
+
   /* Fonts */
-  --font-serif: serif, "Georgia";
+  --font-serif: "EB Garamond", Georgia, serif;
   --font-sans: "NotoSans", sans-serif;
   --font-mono: monospace, "Hack";
 }
 
+:root[data-theme='dark'] {
+  --fg-color: #F0EEE6;
+  --mg-color: #808080;
+  --bg-color: #1f1e1d;
+  --theme-color: #FF2400;
+}
+
+:root[data-theme='light'] {
+  --fg-color: #1f1e1d;
+  --mg-color: #808080;
+  --bg-color: #F0EEE6;
+  --theme-color: #FF2400;
+}
+
 /* AUTO LIGHT/DARK MODE DETECTION */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme]) {
     --fg-color: #F0EEE6;
     --mg-color: #808080;
     --bg-color: #1f1e1d;
-    --blue-color: #2a8ed1;
+    --theme-color: #FF2400;
   }
 }
 
@@ -33,13 +44,16 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease;
 }
 
 main {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  flex: 1 0 auto;
   margin: 1rem auto;
   max-width: 38rem;
   padding: 1rem;
@@ -48,7 +62,6 @@ main {
 
 /* TYPOGRAPHY */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-serif);
   font-weight: bold;
   margin: 1.5em 0 0.75em 0;
   line-height: 1.0em;
@@ -74,16 +87,20 @@ p, ul, ol {
 a {
   color: var(--fg-color);
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 3px;
   text-decoration-color: var(--mg-color);
 }
 
 a:hover {
   color: var(--mg-color);
   text-decoration: underline;
-  text-underline-offset: 2px;
-  text-decoration-color: var(--red-color);
+  text-decoration-color: var(--mg-color);
 }
+
+a:focus {
+  outline: 1px solid var(--mg-color);
+}
+
 
 /* IMAGES */
 img {
@@ -91,11 +108,6 @@ img {
   height: auto;
   margin: 1.5em auto;
   max-width: 100%;
-}
-
-img[src="/headshot.jpg"] {
-  max-width: 200px;
-  margin: 0 0;  /* Top/bottom margin only */
 }
 
 figure {
@@ -134,61 +146,44 @@ blockquote {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: var(--fg-color);
+  font-size: 1.5rem;
   margin: 0;
   padding: 0;
   text-transform: none;
 }
 
 .logo a {
-  font-family: var(--font-serif);
-  color: var(--fg-color);
-  font-size: 1.5rem;
-  text-decoration: underline;
-  text-decoration-color: var(--red-color);
-  text-decoration-thickness: 1px;
+  text-decoration: none;
   font-weight: bold;
 }
 
 .logo a:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  text-decoration-color: var(--red-color);
-}
-
-.menu {
-  display: flex;
-  flex-shrink: 0;
-  font-family: var(--font-mono);
-  gap: 1.5rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu a {
   color: var(--mg-color);
-  font-size: 1.2rem;
-  font-style: italic;
-  text-decoration: none;
-  text-transform: none;
 }
 
-.menu a:hover {
+#theme-toggle {
+  background-color: var(--bg-color);
   color: var(--fg-color);
+  border: none;
+  font-size: 1.25em;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 
+    color 0.4s ease,
+    background-color 0.4s ease;
 }
 
-.menu a.active {
-  color: var(--fg-color);
-  text-decoration: none 2px var(--fg-color);
-}
-
-.menu-toggle {
-  display: none;
+#theme-toggle:hover {
+  color: var(--theme-color);
 }
 
 code {
-  border: solid 1px var(--red-color);
-  font-family: var(--font-mono);
+  border: solid 1px var(--mg-color);
   padding: 0.1em 0.3em;
 }
 
@@ -230,7 +225,6 @@ ul.blog-list span {
 }
 
 .toc li {
-  font-family: var(--font-sans);
   line-height: 1.2;
   margin: 0.5rem 0;
 }
@@ -248,10 +242,12 @@ footer {
 
 footer a {
   color: var(--mg-color);
+  text-decoration-color: var(--mg-color);
 }
 
 footer a:hover {
   color: var(--fg-color);
+  text-decoration-color: var(--fg-color);
 }
 
 footer .social-links {
@@ -259,8 +255,6 @@ footer .social-links {
   display: flex;
   justify-content: center;
 }
-
-
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {

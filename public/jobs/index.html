@@ -13,7 +13,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <meta name="description" content="&#34;My notes on the art of work.&#34;">
+  <meta name="description" content="&#34;Getting a job comes down to education, experience, skills, and how well you can communicate those things to potential employers.&#34;">
 
   <link rel="canonical" href="https://blakeruprecht.com/jobs/" />  
 
@@ -21,6 +21,16 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
 
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
@@ -43,16 +53,8 @@ if (!doNotTrack) {
   <nav class="site-nav">
     <div class="logo">
       <a href="/">Blake Ruprecht</a>
-      
-    </div>
-    <div class="menu-container">
-      <ul class="menu">
-        
-        
-        
-      </ul>
-      <button class="menu-toggle">☰</button>
-    </div>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
   </nav>
 </header>
  
@@ -60,8 +62,11 @@ if (!doNotTrack) {
  document.addEventListener('DOMContentLoaded', () => {
    initializeMenuToggle();
    initializeActiveLinks();
+   initializeThemeToggle();
  });
  
+ document.documentElement.style.visibility = 'visible';
+
  function initializeMenuToggle() {
    document.querySelector('.menu-toggle').addEventListener('click', () => {
      document.querySelector('.site-nav').classList.toggle('expanded');
@@ -85,6 +90,31 @@ if (!doNotTrack) {
         logo.classList.add('active');
     }
 }
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
  </script>
 
 <main class="content">
@@ -113,9 +143,9 @@ window.MathJax = {
     <li><a href="#how-to-get-a-job">How to Get a Job</a></li>
     <li><a href="#resumes">Resumes</a>
       <ul>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
+        <li><a href="#skills---what-can-you-do">Skills - what can you do?</a></li>
+        <li><a href="#experience---where-did-you-do-it-before">Experience - where did you do it before?</a></li>
+        <li><a href="#education---random-piece-of-paper">Education - random piece of paper</a></li>
       </ul>
     </li>
     <li><a href="#cover-letters">Cover Letters</a></li>
@@ -134,20 +164,21 @@ window.MathJax = {
 <p>A Resume is a quick summary of you relevant skills, experience, and qualifications for the job posting. This will show potential employers whether or not you would be a good fit for the job, and the reputation of your past employers/affiliations helps gives you credibility.</p>
 <p>A Cover Letter is your chance to show off your personal communication skills. The digital environment requires people who can communicate effectively through the written word. This is your chance to show (rather than the telling of the resume) that you&rsquo;re a great fit for this job &ndash; explain where you&rsquo;re at career-wise, why you would be a good fit for this potential job, and why this job would be a good fit for you. The art of telling this story is the key of the cover letter.</p>
 <h2 id="resumes">Resumes</h2>
-<h3 id="skills">Skills</h3>
+<h3 id="skills---what-can-you-do">Skills - what can you do?</h3>
 <ul>
 <li>The meat and potatoes, can you do the tasks required of the job?</li>
+<li>Can only be learned by doing, demonstrated in the Experience section</li>
 </ul>
-<h3 id="experience">Experience</h3>
+<h3 id="experience---where-did-you-do-it-before">Experience - where did you do it before?</h3>
 <ul>
 <li>Evidence that you have used the skills you claim to have in a professional setting with other people</li>
 <li>Great skills are useless without great experience, and great experience can make up for lack of skills.</li>
 <li>Sometimes who you know is more important than what you know.</li>
 </ul>
-<h3 id="education">Education</h3>
+<h3 id="education---random-piece-of-paper">Education - random piece of paper</h3>
 <ul>
 <li>Evidence that you have verifiably studied the knowledge you claim to have</li>
-<li>Least important part of the resume, but an essential little tidbit for many, many jobs</li>
+<li>The most bullshit, unimportant part of any resume, for the most part this becomes little more than a checkbox for an employer.</li>
 </ul>
 <h2 id="cover-letters">Cover Letters</h2>
 <p><em>Don&rsquo;t</em> just rehash what you wrote in the resume. This is a complement to the resume. This is your chance to talk like a real human, explain your career trajectory, and explain how this potential job fits into your plan. This gives you a chance to hype yourself up, tell your own story, and talk nice about the company you want to join.</p>

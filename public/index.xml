@@ -6,8 +6,15 @@
     <description>Recent content on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blakeruprecht.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Resume</title>
+      <link>https://blakeruprecht.com/cv/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/cv/</guid>
+      <description>Skills Communication: Writing, Content, Copywriting Teaching: Presentations, Seminars AI/ML: LLMs, NLP, CV, RL, Prompting, Neuro-fuzzy Data: Data Analysis &amp;amp; Visualization Coding: Git, Python, PyTorch, Numpy, Pandas, Scipy, Matplotlib, ROS WebDev: Markdown, HTML, CSS, JavaScript, Hugo, WordPress Marketing: SEO, SEMRush, Shopify, Google Analytics, Klaviyo Experience Digital Marketing Specialist @ Labyrinth.digital, 2024-2025 Freelance AI Solutions Consultant, 2023-2024 Research Assistant @ University of Missouri, 2018-2023 Freelance Tutor, 2014-2018 Camp Counselor @ Babler WiLD, 2017 Education M.</description>
+    </item>
     <item>
       <title>The Big Why</title>
       <link>https://blakeruprecht.com/why/</link>
@@ -28,20 +35,6 @@
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/ai/</guid>
       <description>Highlights (basically just finished posts so far) My AI Alignment Research build-your-own-computer procrastination perfectionism Future Posts (all are a W.I.P. right now) The Evolution of Intelligence entropy the fundamental rule of the universe natural-selection shapes intelligence homo-sapiens are S-tier language enables knowledge transfer civilization beats freedom Western civilization has dominated the world for the past few hundred years. Why? Well, westerners are WEIRD &amp;ndash; Western (obviously), Educated, Industrious, Rich, and Democratic.</description>
-    </item>
-    <item>
-      <title>Clothes Make the Man</title>
-      <link>https://blakeruprecht.com/clothes/</link>
-      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/clothes/</guid>
-      <description>Clothes are somewhat important. They keep me warm, they determine the first impressions others have of me, but they are just tools.</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>https://blakeruprecht.com/about/</link>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/about/</guid>
-      <description>My Pages What I Learned Doing AI Safety Research Bookshelf: My favorite blogs, articles, and books Drawings: Some of my black ink drawings Woodwork: Some boxes I&amp;rsquo;ve made out of wood Resume Skills&#xA;Communication Teaching, Presentations, Seminars Writing, Content, Copywriting AI &amp;amp; Data LLMs, NLP, CV, RL, Prompt Engineering, Data Analysis &amp;amp; Visualization Python, PyTorch, Numpy, Pandas, Scipy, Matplotlib, ROS Web Git, Markdown, HTML, CSS, JavaScript SEO, SEMRush, Shopify, Google Analytics, Klaviyo Experience</description>
     </item>
     <item>
       <title>Civilization Outcompetes Freedom</title>
@@ -538,7 +531,7 @@
       <link>https://blakeruprecht.com/universe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/universe/</guid>
-      <description>&amp;ldquo;In the beginning, the universe was created. This was widely regarded as a bad move.&amp;rdquo; -douglas adams&#xA;At the scale of the universe, what matters? Nothing from a humans perspective, that&amp;rsquo;s for sure, besides the potential threat of another planet hitting us, a black hole swallowing us up, or a random burst of energy acting like a galactic laser beam straight to our little rock.&#xA;The probability of an astrophysics-related catastrophe here on earth is probably 1%.</description>
+      <description>&amp;ldquo;In the beginning the Universe was created. This had made many people very angry and has been widely regarded as a bad move.&amp;rdquo; - Douglas Adams, The Restaurant at the End of the Universe&#xA;At the scale of the universe, what matters? Nothing from a humans perspective, that&amp;rsquo;s for sure, besides the potential threat of another planet hitting us, a black hole swallowing us up, or a random burst of energy acting like a galactic laser beam straight to our little rock.</description>
     </item>
     <item>
       <title></title>
@@ -577,17 +570,24 @@
     </item>
     <item>
       <title></title>
-      <link>https://blakeruprecht.com/web-dev/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/web-dev/</guid>
-      <description>HTML CSS JavaScript&#xA;In the spirit of https://thebestmotherfucking.website/, websites should be as small as possible, load as little junk as possible, and get to the point.&#xA;A quality website is as simple as possible.</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://blakeruprecht.com/what-is-love/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/what-is-love/</guid>
       <description>If science and math are not the end goals of the human endeavor (they&amp;rsquo;re not), what is? Love.&#xA;That&amp;rsquo;s pretty vague though, does it mean relationships? Does it mean craft?&#xA;No, it means love of the process of living. Love of being alive.&#xA;We all only get X years to live, and we don&amp;rsquo;t know what that number is for ourselves. We could die at any moment.&#xA;The Great Mystery How do we go from our individual parts, to these great big biological machines?</description>
+    </item>
+    <item>
+      <title>&#34;Money = Time&#34;</title>
+      <link>https://blakeruprecht.com/money/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/money/</guid>
+      <description>Time is Money Budgeting means accounting for both your time and money in life, since money is really a means of representing time.&#xA;The simplest budgeting advice:&#xA;Maximize your savings rate Increase the total amount of you save, and this naturally limits spending. Who cares what you spend, if you can cut stuff out and save more, woohoo, if you can&amp;rsquo;t &amp;ndash; just focus on your savings rate. Keep it above 0% (don&amp;rsquo;t go into debt) Save 10% &amp;ndash; huge!</description>
+    </item>
+    <item>
+      <title>A Good Man</title>
+      <link>https://blakeruprecht.com/a-good-man/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/a-good-man/</guid>
+      <description>Being a good man has always been hard, our modern problems have not changed this.&#xA;Why strive to be the dark anti-hero when you can strive to be like Captain America, and do all of the same badass things the dark men do, but with a smile on your face?&#xA;Fictional Examples Captain America from the Marvel Cinematic Universe (MCU)&#xA;Aragorn from The Lord of the Rings by JRR Tolkien</description>
     </item>
     <item>
       <title>Breathe</title>
@@ -616,13 +616,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/spirit/</guid>
       <description>&amp;ldquo;He&amp;rdquo; just looks different nowadays after the fall of organized religion (at least within educated circles).&#xA;Nobody uses swords anymore, but I&amp;rsquo;m not talking about sharp metal sticks used to stab and slash. I&amp;rsquo;m talking about another type of sword &amp;ndash; the sword of meditation.&#xA;I&amp;rsquo;ve struggled with overthinking my whole life, and the only thing that has finally cut through all the crap is this:&#xA;Don&amp;rsquo;t try to untangle the messy web of thoughts in your brain.</description>
-    </item>
-    <item>
-      <title>Keep Training Simple</title>
-      <link>https://blakeruprecht.com/train/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/train/</guid>
-      <description>Consistency + Recovery &amp;gt; All Else Anything is better than nothing. So much information out there today is obsessed with optimal. Optimal routines, optimal splits, optimal exercises. You can always optimize. But the key to training is consistency, not optimal. Doing something is infinitely better than doing nothing. Keep training simple so that you&amp;rsquo;ll do the one thing that matters &amp;ndash; train.&#xA;All training typically falls into two categories:&#xA;Cardio: train the ability of the heart and lungs to deliver energy to the muscles Anaerobic: deliver glycogen during high-intensity movements Aerobic: deliver oxygen to the muscles during most exercise Long-duration: do aerobic exercise for a long time Resistance: train the muscles (form, strength, speed, power, endurance, size) Form/Technique: the most important thing to train to prevent injury Strength/Speed/Power/Endurance: the function of the muscles is to move the bones of the body through space Size: for show (a result of getting stronger/more enduring) All exercises hit both, but to varying degrees.</description>
     </item>
     <item>
       <title>Legal Documents</title>
@@ -681,11 +674,32 @@
       <description>After breathing and moving the body, humans need to rest, pretty much every day. Proper sleep requires that we maintain our core body temperature, which means we need sufficient tools like clothing, sleeping bags/blankets, and tents/buildings to keep us warm.&#xA;sleep clean </description>
     </item>
     <item>
+      <title>Simple Fitness Requirements</title>
+      <link>https://blakeruprecht.com/y/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/y/</guid>
+      <description>Yes and Why&#xA;LOVE is a combination of all perspectives&#xA;BELIEF and EXPRESSION ACCEPTANCE and COURAGE GO FIRST&#xA;Send the first text Flirt with the cute girl Open your heart to others Share even when it&amp;rsquo;s unsafe Stand up for what you believe in even when other&amp;rsquo;s don&amp;rsquo;t 🔥 Fire (Initiation) Morning movement (exercise, sunlight, cold air) = ignition sequence. Doing before thinking — no endless planning, no waiting for &amp;ldquo;optimal conditions.</description>
+    </item>
+    <item>
       <title>Simple Happiness = Setpoints &#43; Conditions &#43; Actions</title>
       <link>https://blakeruprecht.com/happiness/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/happiness/</guid>
       <description>Inclue [[Action]]&#xA;&amp;ldquo;Intelligence is the ability to get what you want.&amp;rdquo; -Naval Ravikant&#xA;Wisdom goes beyond science, and is about more than just winning. True wisdom is the pursuit of living well, which for most people, means being happy and brining happiness to others. How?&#xA;Happiness Happiness = Setpoints + Conditions + Voluntary actions&#xA;Happiness is our overall positive feeling about our lives. From the happiness research I have read, this mostly is a subjective rating, 0-10 or something like that.</description>
+    </item>
+    <item>
+      <title>Simple Training Plan</title>
+      <link>https://blakeruprecht.com/train/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/train/</guid>
+      <description>Recovery The first key to training has nothing to do with training itself. It&amp;rsquo;s everything you do outside of training. Training, exercise, whatever you call it, is inherently stressful. You&amp;rsquo;re basically tearing down your body to rebuild it stronger. The key point there is &amp;ldquo;rebuild.&amp;rdquo;&#xA;Caloric surplus/deficit determines weight gain/loss, not exercise Sleep builds muscle, exercise provides the stress to signal the body to build It doesn&amp;rsquo;t matter if you have the best training program in the world, if you&amp;rsquo;re not eating enough calories and protein, not drinking enough water, or not getting enough sleep, you won&amp;rsquo;t make progress.</description>
+    </item>
+    <item>
+      <title>Simple Web Development</title>
+      <link>https://blakeruprecht.com/web-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/web-development/</guid>
+      <description>Most everything on any given website is text.&#xA;HTML CSS JavaScript&#xA;In the spirit of https://thebestmotherfucking.website/, websites should be as small as possible, load as little junk as possible, and get to the point.&#xA;A quality website is as simple as possible.</description>
     </item>
     <item>
       <title>Sleep Consistently</title>

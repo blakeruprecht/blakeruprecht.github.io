@@ -1,3 +1,12 @@
+---
+title: Simple Web Development
+---
+Most everything on any given website is text.
+
+
+
+
+
 HTML
 CSS
 JavaScript
