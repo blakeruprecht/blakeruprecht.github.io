@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recipes on Blake Ruprecht</title>
-    <link>https://blakeruprecht.com/recipes/</link>
+    <link>http://localhost:40695/recipes/</link>
     <description>Recent content in Recipes on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blakeruprecht.com/recipes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:40695/recipes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DCBS hot sauce recipe</title>
-      <link>https://blakeruprecht.com/recipes/dcbs/</link>
+      <link>http://localhost:40695/recipes/dcbs/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/recipes/dcbs/</guid>
+      <guid>http://localhost:40695/recipes/dcbs/</guid>
       <description>Ingredients&#xA;1/2 cup Cashews soaked&#xA;25 Habaneros roughly chopped&#xA;1 Yellow Bell Pepper roughly chopped&#xA;10 Garlic Cloves smashed&#xA;1 Onion roughly chopped&#xA;1/2 Lemon juiced&#xA;1 quart White Vinegar&#xA;2 Tbsp Apple Cider Vinegar&#xA;2 Tbsp Maple Syrup&#xA;2 Tbsp Soy Sauce&#xA;2 Tbsp Olive Oil&#xA;1 Tbsp Sesame Oil&#xA;4 tsp Mustard Powder&#xA;1 tsp Turmeric Powder&#xA;Steps&#xA;Soak Cashews in water for 30 min Prep Habaneros, Yellow Bell Pepper, Garlic, Onion Saute Olive Oil, Onion, Garlic until softened Add Habaneros, Yellow Bell Pepper Add White Vinegar, Apple Cider Vinegar, Maple Syrup, Soy Sauce, Sesame Oil, Mustard Powder, Turmeric Powder Bring to a boil, then reduce to a simmer, simmer for 30-45 min (longer is less spicy) Taste and adjust for seasoning Blend in a food processor/blender Pour into sauce jars About Quantity: This makes a ton of hot sauce, like a big pots worth.</description>
     </item>
     <item>
       <title>My quest for the perfect bowl of Noodle Soup</title>
-      <link>https://blakeruprecht.com/recipes/noodle-soup/</link>
+      <link>http://localhost:40695/recipes/noodle-soup/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/recipes/noodle-soup/</guid>
+      <guid>http://localhost:40695/recipes/noodle-soup/</guid>
       <description>Holy shit, it&amp;rsquo;s all coming together. After watching Kung Fu Panda as a kid, I&amp;rsquo;ve been craving a delicious Asian nooodle-soup dish. Instant ramen is a good solution for $1 and a heart attack, but I want something fresh, wholesome, and delicious. Before this journey, ramen never did it for me, and other dishes like Pad Thai and Lo Mein just didn&amp;rsquo;t hit the spot.&#xA;I never liked Thai food, and I&amp;rsquo;m a serious food explorer.</description>
     </item>
     <item>
       <title>My quest for the perfect bowl of Noodle Soup</title>
-      <link>https://blakeruprecht.com/recipes/tantanmen-ramen/</link>
+      <link>http://localhost:40695/recipes/tantanmen-ramen/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/recipes/tantanmen-ramen/</guid>
+      <guid>http://localhost:40695/recipes/tantanmen-ramen/</guid>
       <description>Holy shit, it&amp;rsquo;s all coming together. After watching Kung Fu Panda as a kid, I&amp;rsquo;ve been craving a delicious Asian nooodle-soup dish. Instant ramen is a good solution for $1 and a heart attack, but I want something fresh, wholesome, and delicious. Before this journey, ramen never did it for me, and other dishes like Pad Thai and Lo Mein just didn&amp;rsquo;t hit the spot.&#xA;I never liked Thai food, and I&amp;rsquo;m a serious food explorer.</description>
     </item>
     <item>
       <title>How to make cold brew</title>
-      <link>https://blakeruprecht.com/recipes/cold-brew/</link>
+      <link>http://localhost:40695/recipes/cold-brew/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/recipes/cold-brew/</guid>
+      <guid>http://localhost:40695/recipes/cold-brew/</guid>
       <description>I normally pay \$5-6 for cold brew out at a coffee shop. That&amp;rsquo;s about \$0.45/oz of coffee! I&amp;rsquo;m all for supporting local business, but I am also a local business and need to support myself, so here&amp;rsquo;s how to do it at home. The secrets won&amp;rsquo;t surprise you!&#xA;The Process Gather ingredients and tools. The total cost for the tools should be less than $40. Two big jars and a metal filter.</description>
     </item>
   </channel>

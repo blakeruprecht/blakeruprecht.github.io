@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://blakeruprecht.com/sitemap.xml
+Sitemap: http://localhost:40695/sitemap.xml

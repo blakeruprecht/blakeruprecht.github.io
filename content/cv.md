@@ -5,13 +5,12 @@ date: 2025-05-07
 draft: false
 ---
 ## Skills
-- *Communication*: Writing, Content, Copywriting
-- *Teaching*: Presentations, Seminars
-- *AI/ML*: LLMs, NLP, CV, RL, Prompting, Neuro-fuzzy
-- *Data*: Data Analysis & Visualization
-- *Coding*: Git, Python, PyTorch, Numpy, Pandas, Scipy, Matplotlib, ROS
-- *WebDev*: Markdown, HTML, CSS, JavaScript, Hugo, WordPress
-- *Marketing*: SEO, SEMRush, Shopify, Google Analytics, Klaviyo
+- (Communication) Writing, Content Writing, Copywriting
+- (Teaching) Tutoring, Seminars, Presentations
+- (AI/ML) LLMs, NLP, CV, RL, Prompting, Neuro-Fuzzy
+- (Data) Analysis, Visualization
+- (Code) .md, .html, .css, .js, .py, .c, .m
+- (Tools) Unix, Git, Hugo, SEO, SEMRush, Google Analytics, Shopify, Klaviyo, WordPress, PyTorch, Numpy, Pandas, Scipy, ROS
 
 ## Experience
 - Digital Marketing Specialist @ Labyrinth.digital, 2024-2025

@@ -7,7 +7,7 @@ Hey, I'm Blake, a human being living on this Earth with you. Currently, I'm aliv
 
 ## Writing Samples
 - [How to Build Your Own Computer](/build-your-own-computer)
-- [Civilization Beats Freedom](/civilization)
+- [Civilization Outcompetes Freedom](/civilization)
 - [How to Install an EV Charger](/ev-charger-install)
 - [Develop a Growth Mindset](/growth-mindset)
 - [Insects are Sustainable Protein](/insect-farming)
