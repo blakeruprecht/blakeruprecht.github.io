@@ -1,7 +1,8 @@
 ---
-title: How to build your own computer
+title: How to Build Your Own Computer
 date: 2024-07-12
-description: "The actual building of your own DIY computer is the easy part. The hard part is picking parts that are all compatible with each other."
+description: The actual building of your own DIY computer is the easy part. The hard part is picking parts that are all compatible with each other.
+type: tree
 ---
 Building a computer is a fun journey, especially with the plethora of YouTube tutorials at your fingertips, but the real challenge lies in ensuring your chosen components are compatible. Get this wrong and you may end up with a black screen or, worse, fried components. Here's what you need to know about compatibility to avoid disaster.
 

@@ -2,6 +2,7 @@
 date: 2024-03-23
 title: Insects are Sustainable Protein
 description: '"Insects are a great source of amino acids, fatty acids, vitamins, minerals, and fiber, while also being sustainable to grow because they require less land and water. They also taste great!"'
+type: tree
 ---
 I ate a scorpion in Bangkok and it wasn't good. The outer shell dominated the texture, and the meat tasted vaguely stale. Would not recommend. 
 

@@ -4,17 +4,6 @@ title: "Blake Ruprecht"
 theme: "notebook"
 enableRobotsTXT: true
 
-menu:
-  main:
-    - identifier: "kiss"
-      name: "KISS"
-      url: "/KISS/"
-      weight: 10
-    - identifier: "archives"
-      name: "Archives"
-      url: "/archives/"
-      weight: 20
-
 params:
   math: true
   blog:

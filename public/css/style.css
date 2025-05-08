@@ -202,7 +202,6 @@ ul.blog-list li {
 }
 
 ul.blog-list a {
-  color: var(--fg-color);
   flex: 1;
 }
 

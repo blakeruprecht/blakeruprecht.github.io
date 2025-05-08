@@ -1,9 +1,8 @@
-+++
-title = "Black and White Thinking"
-menu = "main"
-date = "2024-08-15"
-+++
-
+---
+title: Black and White Thinking
+date: 2024-08-15
+type: tree
+---
 Black ink on white paper, mostly.
 
 Shadow is the big question with this medium -- how do you represent shades of gray?

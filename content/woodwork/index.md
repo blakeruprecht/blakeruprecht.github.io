@@ -1,10 +1,9 @@
-+++
-title = "Inside the Box Thinking"
-menu = "main"
-date = "2024-08-15"
-toc = "false"
-+++
-
+---
+title: Inside the Box Thinking
+date: 2024-08-14
+toc: "false"
+type: tree
+---
 If you can build a box, you can build almost anything out of wood. Heck, a lot of the challenge in woodworking is making the most right right angles possible (yeah, you read that right).
 
 I took shop in middle school and it taught me three things: how to not cut off my finger (unlike my teacher), how to sand for hours by hand, and how to build boxes.

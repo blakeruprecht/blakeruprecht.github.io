@@ -15,7 +15,7 @@ draft: false
 ## Experience
 - Digital Marketing Specialist @ Labyrinth.digital, 2024-2025
 - Freelance AI Solutions Consultant, 2023-2024
-- Research Assistant @ University of Missouri, 2018-2023
+- [Research Assistant](/research) @ University of Missouri, 2018-2023
 - Freelance Tutor, 2014-2018
 - Camp Counselor @ Babler WiLD, 2017
 

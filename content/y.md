@@ -106,4 +106,7 @@ Every time you act fast on an insight — whether it’s hitting publish, saying
 You're already the spark.  
 Now start the fire, _fast_.
 
-What’s one insight you’ve had today you haven’t acted on yet? Let’s close that gap right now.
+
+GO FIRST
+- COURAGE with ACCEPTANCE
+- EXPRESSION with CHOICE

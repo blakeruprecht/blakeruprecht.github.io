@@ -3,6 +3,7 @@ date: 2024-03-27
 title: How to Install an EV Charger
 description: '"EV Chargers are typically installed by professionals, but if you understand the electricity requirements of the charger, you can calculate the power requirements of your own home and install it yourself."'
 draft: false
+type: tree
 ---
 For the record, I wouldn't recommend you install an EV charger yourself if you have no electrical experience. It's extremely dangerous, and if you mess up, you can very easily catch your house on fire, or worse. However, it's cool to at least now the process in theory, and this way, you can see if your electrician is doing it properly as well.
 

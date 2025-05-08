@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a605624dd981cbb9",
+        "id": "ce7eb6e153d7e3d2",
         "type": "tabs",
         "children": [
           {
-            "id": "a134bcdb5341b84d",
+            "id": "48a8a9735e9d2234",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,17 +22,31 @@
             }
           },
           {
-            "id": "1cd63ca38037ce69",
+            "id": "4becd6e34b4f0d55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cv.md",
+                "file": "y.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cv"
+              "title": "y"
+            }
+          },
+          {
+            "id": "d3178c9882da6eb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_1"
             }
           }
         ]
@@ -156,13 +170,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _index"
+              "title": "Outline"
             }
           },
           {
@@ -194,13 +207,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a134bcdb5341b84d",
+  "active": "48a8a9735e9d2234",
   "lastOpenFiles": [
     "cv.md",
-    "research.md",
     "_index.md",
     "_1.md",
     "y.md",
+    "woodwork/index.md",
+    "research/index.md",
+    "drawings/index.md",
+    "drawings.md",
+    "build-your-own-computer.md",
+    "archive/_index.md",
+    "blog.md",
+    "insect-farming.md",
+    "growth-mindset.md",
+    "ev-charger-install.md",
+    "civilization.md",
+    "archive",
+    "Random Intermittent Reward Timing is the most powerful human reinforcement strategy.md",
+    "Untitled 1.md",
+    "clothes.md",
+    "research.md",
     "ai.md",
     "ni.md",
     "web-development.md",
@@ -208,22 +236,8 @@
     "industrious.md",
     "educated.md",
     "western.md",
-    "clothes.md",
-    "work.md",
-    "why.md",
-    "universe.md",
-    "chatgpt.md",
     "chatgpt-imagines-itself.png",
-    "web-design.md",
     "wikipedia-web-design.png",
-    "money.md",
-    "backpacks.md",
-    "transport.md",
-    "homes.md",
-    "legal-documents.md",
-    "jobs.md",
-    "relate.md",
-    "move.md",
     "_1.canvas"
   ]
 }

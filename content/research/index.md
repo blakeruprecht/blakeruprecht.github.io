@@ -1,9 +1,8 @@
-+++ 
-title = "What Research Taught Me" 
-menu = "main"
-date = "2024-10-17"
-+++
-
+---
+title: What My AI Safety Research Taught Me
+date: 2024-10-17
+type: tree
+---
 I worked on the AI Risk problem with [Derek Anderson](derektanderson.com) @Mizzou (Columbia, MO) with the [Center for Geospatial Intelligence](https://engineering.missouri.edu/research/featured/center-for-geospatial-intelligence-cgi/), and we worked closely with the [Naval Research Laboratory](https://www.nrl.navy.mil/). Shoutout to Derek, Jim, Fred, Chris, Grant, Curt, Charlie, Bryce, Jeff, Matt, and many more who helped me along the way.
 
 > "*I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I only love that which they defend.*" -J.R.R. Tolkien

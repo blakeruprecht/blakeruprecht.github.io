@@ -1,7 +1,8 @@
 {{ partial "header.html" . }}
+<h1>{{ .Title }}</h1>
 {{ .Content }}
 <ul class="blog-list">
-{{ range.Data.Pages }}
+{{ range where .Site.RegularPages "Params.type" "tree" }}  
   <li>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     <span>{{ .Date.Format "2006.01.02" }}</span>

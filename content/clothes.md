@@ -6,35 +6,12 @@ draft: true
 ---
 Clothes are somewhat important. They keep me warm, they determine the first impressions others have of me, but they are just tools.
 
-## Layers
-- Rain Shell
-- Fleece Jacket/Hoodie
-- Puffer Coat
+- Sunnies, Ballcap, Beanie, Bandana, Brimmer, Gloves
+- Shell, Fleece, Puffer
+- Tanks(2), Tshirt(6), Sunshirt
+- Baggies(2), Hikers, Legs, Boxers(6)
+- FlipFlops, Sandals, Runners, Boots, Socks(6)
 
-## Torso
-- Tshirt (6)
-- Tanks (2)
-- Long Sleeve/Sunhoodie
-- Button Downs (2)
-
-## Legs
-- Baggies (2)
-- Hiking Pants
-- Leggings
-- Jorts
-- Jeans
-- Boxers (6)
-
-## Feet
-- Sandals
-- Running Shoes
-- Boots
-- Nice Shoes (oxfords, leather sneakers, etc)
-- Socks (6)
-
-## Accessories
-- Sunglasses
-- Ballcap
-- Beanie
-- Bandana
-- Gloves
+- Blazer(NVY)
+- Polo(2), SSBD(2), Flannel(2), Bdown(2)
+- Jorts, Jeans, Slacks

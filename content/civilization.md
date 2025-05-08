@@ -3,6 +3,7 @@ title: Civilization Outcompetes Freedom
 date: 2025-04-02
 description: Authoritarian civilizations defeat barbarians in the long run. Even if society is no fun.
 draft: false
+type: tree
 ---
 ## Barbarian roots
 For most of human history, the Earth was not covered by political nations which controlled every patch of land, like they do now. The world domination by civilization was incomplete. Up until at least the 1500s AD, there were still huge swaths of territory controlled by nobody in particular. Sure, roving bands of hunter-gatherers controlled portions of territory, but with armies so small even the Roman Empire would blush.
