@@ -9,7 +9,7 @@ I can help with:
 - Explaining complex ideas through essays, tutorials, speaking, and more.
 - Website and landing page copywriting
 - Web development, technical SEO, and content strategy
-- AI coding and development (I used to be an [AI Safety Researcher](/research))
+- AI understanding (I used to be an [AI Safety Researcher](/research))
 
 ## Example Writing
 - [Civilization Outcompetes Freedom](/civilization): A brief discussion of civilization versus barbarism and which one inevitably wins. Hint, it's the farmers.
