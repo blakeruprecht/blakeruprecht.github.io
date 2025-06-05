@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title> | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="http://localhost:1313/_seeds/keep-the-wolves-away/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1></h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents"></nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>I feel hot breath on my neck as I run forward, bogged down by mud and debris. One nips at my shoes, opening up a whole in the left side of the upper. Another snatches a hole in my pants. One up them knocks dirt into my mouth, a problem that will have to be professionally repaired. I lose my vision as my contacts fall out from running, I have to rely on my old glasses which restrict my peripherals.</p>
+<p>Now they&rsquo;ve gotten to my house. I&rsquo;ve had to flee, and they&rsquo;re chewing away at the walls. One of them bit into my store of food, ruining days worth of provisions.</p>
+<p>They don&rsquo;t stop chasing me.</p>
+<p>I&rsquo;ve had to adjust my running form on the fly. Shorten my strides, rely less on outright power and plan for the long game.</p>
+<p>I thought the wolves would look scary, but they don&rsquo;t. I hardly even feel the fear, it&rsquo;s so subtle. Like a tapeworm undetected, I don&rsquo;t even know it&rsquo;s eating away at me until I look back at the decision and see the error.</p>
+<p>It&rsquo;s just groceries and rent. And medical costs. And tool maintenance.</p>
+<p>Maybe I&rsquo;ll just get a quick job to pay off my bills, and then I&rsquo;ll start living the life I want. Maybe I&rsquo;ll just get quick part-time job to stay afloat, and then I&rsquo;ll start living the life I want. Maybe I&rsquo;ll just sit in this house for a year and make no forward progress. Then I&rsquo;ll start living.</p>
+<p>I can see the hesitation all over my recent path. The indecision masking the fear that is so ugly and huge I haven&rsquo;t acknowledged it even to myself. I wanted permission, some sign that I was on the right path. A published essay. Somebody telling me they&rsquo;d never read better writing. A hawk crossing my path at just the right time.</p>
+<p>None of that happened.</p>
+<p>There have been no signs, no helpful hints, no tricks. Just doubt and uncertainty hanging over my head everyday. I keep going back to the same strategies that aren&rsquo;t working, sending out tons of applications just to receive hundreds of rejection emails. &ldquo;We&rsquo;re pursuing candidates who better fit this role.&rdquo; Where do I fit in?</p>
+<p>I&rsquo;ve been so confused at every turn, constantly reevaluating and coming up with new plans and stressing the fuck out every time the new plan doesn&rsquo;t work. I&rsquo;m so fucking sick of it, sick of grinding away to get positions I don&rsquo;t even want to keep living a lifestyle I hate. I don&rsquo;t know what the right answer for me is, but I know for sure it&rsquo;s not continuing to sit at this stupid desk in front of this window I can&rsquo;t open because of the car traffic in this house I don&rsquo;t like with roommates who don&rsquo;t get along in a city that screams against my soul.</p>
+<p>I&rsquo;ve been so <em>fearful</em> at every turn, constantly doubting myself and coming up with backup plans and stressing the fuck out every time the new plan doesn&rsquo;t align with my heart. I&rsquo;m sick of lying to myself and everyone else. I always knew this lifestyle wouldn&rsquo;t work for me. I left my parents house with no regrets. I left the house I shared with my first girlfriend, terrified of being tied down to a boring place. I moved into this boring place thinking things would be different since my friends were here. Now I&rsquo;m just bored by my friends.</p>
+<p>There are great adventures to be had in this life, just not sitting at this desk putting my life on hold to follow a path that was never meant for me.</p>
+<p>Lead</p>
+<ul>
+<li>job: pursue Writing &amp; Teaching with every action</li>
+<li>location: go wherever my path takes me</li>
+<li>fun: adventure, trying new things, thinking on my feet, camping, disc golf, adventure, parties with people who fill my soul</li>
+</ul>
+<p>Follow</p>
+<ul>
+<li>job: find any part-time job</li>
+<li>location: stay in Denver, CO</li>
+<li>fun: softball, disc golf, occasional parties</li>
+</ul>
+<p>Here&rsquo;s the truth &ndash; staying in Denver is a losing battle, and every day I stay is one day closer to my eventual demise. I&rsquo;m wasting my life away waffling in indecision.</p>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

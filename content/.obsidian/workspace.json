@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8699e5ad7fa50fcb",
+        "id": "b2a56320ac0d3f1f",
         "type": "tabs",
         "children": [
           {
-            "id": "a0fe87074f5f084f",
+            "id": "01ed8f2811b6adfc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_seeds/spirit.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "spirit"
+              "title": "New tab"
             }
           }
         ]
@@ -180,8 +176,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a0fe87074f5f084f",
+  "active": "95b6a591ed906e6d",
   "lastOpenFiles": [
+    "_seeds/spirit.md",
     "_seeds/shooters-shoot.md",
     "_seeds/reward.md",
     "_seeds/religion.md",
@@ -207,7 +204,6 @@
     "outfit.md",
     "vehicle.md",
     "sunbathing.md",
-    "sporting.md",
     "_seeds/Pasted image 20250513142116.png",
     "static/ukulele-chords.png",
     "Pasted image 20250602140246.png",
