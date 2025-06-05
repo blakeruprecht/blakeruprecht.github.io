@@ -1,27 +1,13 @@
 ---
-title: Language Enables Knowledge Transfer
-date: none
-description: none
-draft: "True"
+title: Language
 ---
+Language is a series of grunts, groans, and babbles that humans magically learn to associate with different states and actions of reality.
+
+If I say *blarg* and demonstrate skipping a rock to you, you'll pretty quickly learn that *blarg* either means "I skip", "you skip", "we skip", "skip" or something along those lines. Do *this action* whenever I say *blarg*.
 
 
-Language is the defining tool of humanity -- communication
-	-  [[proto-indo-european]] is discovered from comparitive linguistics
-
-We all know that communication uses arbitrary symbols. Listen to someone speak a foreign language, and everything just sounds like random noises. English is the same way for non-English speakers. Random noises.
-
-So how do we go from random noises to magically transferring ideas from head to head?
-
-## Speech
-Bargh. Floth.
-
-Say them out loud. They mean nothing. But they look like plausible English words.
-
-## Drawings
-
-
-## Writing
-
-
-## Natural Language Processing
+- [language] enables [information] and knowledge transfer
+	1) Speech leads to myth, song, drums, dance, and *stories*, which become the first...
+	2) Stories/myths/memes, culture passed from one mind to another
+	3) Writing - written language, can be passed down farther, and wider than ever before -- culture starts to spread, ideas start to spread
+	- [language-games](language-games.md) meaning through use

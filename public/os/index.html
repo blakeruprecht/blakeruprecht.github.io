@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Operating System | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="Modern operating systems are all pretty good, but only Linux is free, open-source, and fastest. While you may have to DIY some software, it&#39;s not hard if you use ChatGPT and Youtube to guide you.">
+
+  <link rel="canonical" href="https://blakeruprecht.com/os/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Operating System</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#linux---the-only-free-os">Linux - the only free OS</a></li>
+    <li><a href="#macos---if-you-dont-want-linux">MacOS - if you don&rsquo;t want Linux</a></li>
+    <li><a href="#windows---if-you-must">Windows - if you must</a></li>
+    <li><a href="#applications">Applications</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <blockquote>
+<p>&ldquo;Have a program do one thing, do it completely, and don&rsquo;t do other things.&rdquo; -<em>the Unix philosophy</em></p>
+</blockquote>
+<p>The operating system is a piece of computer software that controls all of the main functions of the computer &ndash; using the CPU and GPU to perform calculations, storing the results in RAM and Hard Drive memory, and displaying the results on screens and creating a feedback loop with the keyboard and mouse (or touchscreen).</p>
+<h2 id="linux---the-only-free-os">Linux - the only free OS</h2>
+<p>There are many flavors of Linux, but Ubuntu, Debian, and Linux Mint are great starting points (and end points) for most users. I&rsquo;ve used Debian for years now, and it&rsquo;s fantastic.</p>
+<p>Linux is free, like doesn&rsquo;t cost money to download, but also <a href="/open-source">open source</a>. You would think that would make Linux more prone to attack, but actually it makes Linux extremely safe and secure since basically every computer nerd uses Linux, and it has a very active community of maintainers.</p>
+<h2 id="macos---if-you-dont-want-linux">MacOS - if you don&rsquo;t want Linux</h2>
+<p>Generally follows the Unix philosophy of computing, easy to use, <a href="terminal.md">terminal</a> is baked in natively.</p>
+<h2 id="windows---if-you-must">Windows - if you must</h2>
+<p>You can do all the things on Windows, but only if you have to.</p>
+<h2 id="applications">Applications</h2>
+<blockquote>
+<p>&ldquo;If minimum wasn&rsquo;t good enough, it wouldn&rsquo;t be the minimum.&rdquo;</p>
+</blockquote>
+<p>I have the following applications installed on my laptop:</p>
+<ul>
+<li>Firefox (browser)</li>
+<li>Brave (browser)</li>
+<li>Blackbox (<a href="terminal.md">terminal</a>)</li>
+<li><a href="/python">Python</a> and <a href="/python-packges">packages</a> (programming language)</li>
+<li>Obsidian (text editor)</li>
+<li>VSCode (text editor)</li>
+<li>Cursor (text editor)</li>
+<li>Gimp (image editor)</li>
+<li>Zathura (pdf/epub reader)</li>
+<li>Hugo (<a href="/websites">static site generator</a>)</li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

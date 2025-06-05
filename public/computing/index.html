@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Computing | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/computing/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Computing</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#turning-on-hardware">Turning on hardware</a></li>
+    <li><a href="#installing-software">Installing software</a></li>
+    <li><a href="#navigating-files">Navigating files</a></li>
+    <li><a href="#editing-text">Editing text</a></li>
+    <li><a href="#browsing-the-internet">Browsing the internet</a></li>
+    <li><a href="#talking-to-chatbots">Talking to chatbots</a></li>
+    <li><a href="#related">Related</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <blockquote>
+<p><em>&ldquo;A computer is like a bicycle for the mind.&rdquo;</em> -Steve Jobs</p>
+</blockquote>
+<p>Computing is powerful because it&rsquo;s a direct extension of <a href="/thinking">thinking</a>. Just like language, it abstracts information into more easily transmittalbe forms to enable communication, the sharing of information from brain to brain.</p>
+<p>Computing is all about understanding layers of abstraction. A computer is powerful because it&rsquo;s not a fixed object, but rather a tool that changes itself through time, so it&rsquo;s a process.</p>
+<h2 id="turning-on-hardware">Turning on hardware</h2>
+<p>Is your <a href="/computers">computer</a> plugged in? Try turning it off, and then back on (that seriously usually fixes everything). These are the two most fundamental things to know about hardware &ndash; turning off a computer is like sleeping for humans. We&rsquo;re not really sure why you have to do it, but it helps the computer rest and reset and maintain focus when it&rsquo;s on.</p>
+<h2 id="installing-software">Installing software</h2>
+<p>Software is just like language &ndash; an abstraction used to represent a larger idea. E.g. that idea could be an on/off switch, represented by the abstraction of the binary numbers 0 and 1 (0=off, 1=on). I can represent that state of the switch as &ldquo;1&rdquo;, which tells you the light is on. You can&rsquo;t see the lightbulb in my house, but that single number tells you about the reality of the environment.</p>
+<p>To get a computer to &ldquo;turn on&rdquo;, aka make lights show up on the screen, the computer needs power and software to instruct the hardware on what to do. Codes/programs/software are the sequences of instructions which tell the computer to turn on after user presses the on button, tells the computer how to draw boxes on the screen, and most fundamentally, how to associate mouse position/clicks and keyboard clicks with the text/image representations on the screen.</p>
+<ul>
+<li><strong>Hardware</strong> - Okay, you don&rsquo;t install hardware, it comes from the factory complete, but hardware is the initial layer of abstraction. Digital circuits are arranged in specific ways to create hardware, so the &ldquo;code&rdquo; for how that hardware is arranged comes with each piece of hardware to integrate with more abstract layers of software.</li>
+<li><strong>Operating Systems</strong> - The generic term for all of the low-level programs that talk to hardware code and figure out how to turn hardware on, what signals correspond to what outputs, how many pixels the screen has, etc.</li>
+<li><strong>Programming Languages</strong>: All programming languages are themselves programs the calculate the relationship between the new language and whatever language/abstraction it is written in.
+<ul>
+<li><strong>Binary</strong>: the lowest-level language.</li>
+<li><strong>Assembly</strong>: written in binary, defines new words that help users connect hardware to software (OS-level).</li>
+<li><strong>C</strong>: written in Assembly, defines new words that help users write software to calculate equations (program level). A lot of the functions of modern opterating systems are written in C.</li>
+<li><strong>Bash</strong>: the generic shell language of most <a href="/terminal">terminals</a>, can be used to navigate, move, search, and analyze your file structure more efficiently.</li>
+<li><strong><a href="/python">Python</a></strong>: general purpose, can do a little bit of everything</li>
+<li><strong>HTML/CSS</strong>: the basic languages of all <a href="/websites">websites</a></li>
+</ul>
+</li>
+<li><strong>Programs</strong>: pieces of code written in a specific language</li>
+</ul>
+<h2 id="navigating-files">Navigating files</h2>
+<p>All codes/programs/software are stored on the computer in the hard-drive/storage/archives/file system. Every piece of code/software is stored as a file, and hierarchies of folders are used to organize these files.</p>
+<ul>
+<li>Good programs: the <a href="/terminal">terminal</a>, which can also run bash code</li>
+</ul>
+<h2 id="editing-text">Editing text</h2>
+<p>Enables you to write documents and essays, and also edit any programming language (which are all text-based abstractions of math). Text can be stored as a generic text file (.txt) or as code (.md, .html, .py, .c, basically everything else). Even a text file is code to transform 1s and 0s into pictures of letters on the screen.</p>
+<ul>
+<li>Good programs: Obsidian, Cursor, VSCode, Neovim</li>
+</ul>
+<h2 id="browsing-the-internet">Browsing the internet</h2>
+<p>Many modern programs exist only on the internet. All websites exist on the internet.</p>
+<ul>
+<li>Good programs: Firefox, Brave</li>
+</ul>
+<h2 id="talking-to-chatbots">Talking to chatbots</h2>
+<p>Talking to <a href="/chatbots">chatbots</a> is the current meta usage for <a href="/ai">AI</a>.</p>
+<ul>
+<li>Good programs: ChatGPT, Claude, DeepSeek, etc.</li>
+</ul>
+<h2 id="related">Related</h2>
+<ul>
+<li><a href="/computers">computers</a></li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

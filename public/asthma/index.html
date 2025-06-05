@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Asthma | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/asthma/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Asthma</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents"></nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>Asthmatics are very tuned in and sensitive to their environments.</p>
+<p>Teedie&rsquo;s attacks always came on Saturday nights, before church and boring crap, being forced in the box.</p>
+<p>To be with Papa, to have Papa&rsquo;s undivided attention, to be off and away on an adventure together, was the ultimate joy.</p>
+<p>&ldquo;Well, well, said Mr. Greatheart, let them that are most afraid, keep close to me.&rdquo;</p>
+<p>&hellip;whatever complex combination of feelings lay at the heart of his troubles</p>
+<p>Many of the same feelings and fears, perceptions of the world are shared by Asthmatics, and Teedie was no exception. For a child as acutely sensitive and intelligent as he, the impact of asthma could not have been anything but profound, affecting personality, outlook, self-regard, the whole course of young life.</p>
+<p>The asthmatic knows he is <em>different</em>, defective. But he also knows what its like to be the absolute center of attention, revered. The inclination is to demand more and more attention.</p>
+<p>Asthmatics are highly sensitized. Of necessity, he becomes acutely cognizant of the size and shape of rooms, the nearness of people and their comparative size, the whole look and feel and smell of spaces small and large, of fresh air, of skies and winds.</p>
+<p>Other ailments are taken with a notable stoicism.</p>
+<p>He has learned how vulnerable <em>he</em> is, how precarious and unpredictable life is &ndash; an early nihilist. He must always be <em>prepared for the worst</em>.</p>
+<p>The chief lesson &ndash; life quite literally is a battle. And the test is how he responds, in essence whether he sees himself as a helpless victim or decides to fight back, whether he becomes, as Teedie was to say of a particular variety of desert bird, &ldquo;extremely tenacious of life.&rdquo;</p>
+<p>Oftentimes, it is a question of which <em>parent</em> is chosen to identify with and emulate.</p>
+<p>Marcel Proust is the opposite example &ndash; identifies with his mom &ndash; becomes a total recluse, afraid of the world. His neurosis were his price to pay for his creative gifts. Proust&rsquo;s mother was a cultivated, sensitive woman. Had a different background. Has a stronger younger brother. His father was distant and indifferent. His devotion to his mother was intense, overwhelming. Some specialists see Asthma as a suppressed cry for the mother or father.</p>
+<p>Proust never saw himself as anything but a victim.</p>
+<p>Many children &ldquo;grow out&rdquo; of it.</p>
+<p>For Teedie, father and out of doors meant salvation. In all the ways Dad encourage confidence, gave diversion, companionship, set an example of strength &ndash; was the best possible approach.</p>
+<ul>
+<li>Confidence</li>
+<li>Played outside</li>
+<li>Gave companionship playing sports</li>
+<li>Set an example of strength!</li>
+</ul>
+<p>The goal is to make the child a participant, not a spectator in his own care. &ldquo;I am to do everything for myself&rdquo;, TR, 12</p>
+<p>&ldquo;Get action,&rdquo; Theodore had long preached.</p>
+<p>&ldquo;Organs are made for action&hellip;&rdquo; Salter wrote; &ldquo;they are made to <em>work</em>, not to <em>be</em>; and when they <em>work</em> well they can <em>be</em> well.&rdquo;</p>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

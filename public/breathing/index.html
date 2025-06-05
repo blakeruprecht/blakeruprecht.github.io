@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   <meta charset="UTF-8" />
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title> | Blake Ruprecht</title>
+  <title>Breathing | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -15,12 +15,22 @@
 
   <meta name="description" content="">
 
-  <link rel="canonical" href="http://localhost:1313/breathing/" />  
+  <link rel="canonical" href="https://blakeruprecht.com/breathing/" />  
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
 
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
@@ -43,16 +53,8 @@ if (!doNotTrack) {
   <nav class="site-nav">
     <div class="logo">
       <a href="/">Blake Ruprecht</a>
-      
-    </div>
-    <div class="menu-container">
-      <ul class="menu">
-        
-        
-        
-      </ul>
-      <button class="menu-toggle">☰</button>
-    </div>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
   </nav>
 </header>
  
@@ -60,8 +62,11 @@ if (!doNotTrack) {
  document.addEventListener('DOMContentLoaded', () => {
    initializeMenuToggle();
    initializeActiveLinks();
+   initializeThemeToggle();
  });
  
+ document.documentElement.style.visibility = 'visible';
+
  function initializeMenuToggle() {
    document.querySelector('.menu-toggle').addEventListener('click', () => {
      document.querySelector('.site-nav').classList.toggle('expanded');
@@ -85,6 +90,31 @@ if (!doNotTrack) {
         logo.classList.add('active');
     }
 }
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
  </script>
 
 <main class="content">
@@ -103,27 +133,55 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1></h1>
+        <h1>Breathing</h1>
     </header>
 
     
         <aside class="toc">
-            <nav id="TableOfContents"></nav>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#physical-posture">Physical Posture</a></li>
+    <li><a href="#the-sword">The Sword</a></li>
+  </ul>
+</nav>
         </aside>
     
 
     <div class="post-content">
-        
+        <ul>
+<li>Zen meditation is the art of doing nothing
+<ul>
+<li>The action of inaction</li>
+</ul>
+</li>
+</ul>
+<h2 id="physical-posture">Physical Posture</h2>
+<ol>
+<li>Sit comfortably. A chair is fine, or use the floor with a cushion.</li>
+<li>Sit tall and straight. Try to stretch the top of your spine towards the sky.</li>
+<li>Relax your muscles. Open your shoulders, relax your arms and legs.</li>
+<li>Close your mouth and breathe in through the nose, out through the nose.</li>
+<li>Focus on slowing down your breathing with each cycle.</li>
+<li>Eventually, you don&rsquo;t need to specifically sit to meditate, you can use the sword of meditation in any position your body is in &ndash; playing games, walking the dog, brushing your teeth, doing dishes. You can slash your thoughts and return home, to your body, the present moment.</li>
+</ol>
+<h2 id="the-sword">The Sword</h2>
+<p>Zen Meditation is a state of non-action and non-thinking. This is paradoxical, since it&rsquo;s impossible to stop thinking or stop acting (you&rsquo;re still breathing!).</p>
+<p>The challenge isn&rsquo;t to stop thinking.</p>
+<p>The challenge is to stop giving into your thoughts. Stop identifying with them, stop valuing them, stop going down rabbit holes of thought.</p>
+<p>Meditation will never stop the thoughts from coming. Meditation is a sword which slashes each new thought as it comes, letting you leave it in the past.</p>
+<p>Whatever you start thinking about, whether it be your surroundings, people in your life, what you&rsquo;re doing later, the whole point is to notice you&rsquo;re thinking about something, slash that thought with the sword of &ldquo;I don&rsquo;t care&rdquo;, and let that thought drift away out of your conscious mind.</p>
+<p>Then, the next thought comes in. Something different, maybe about burgers this time. Who cares, slash that thought and let it drift away.</p>
+
     </div>
 </article>
 
+
+
+
 </main>
 <footer>
-  <div class="subscribe">
-    <a href="https://blakeruprecht.substack.com/">My Newsletter</a>
-  </div>
-  <div class="main-links">
-    100% human-written | <a href="mailto:blakecruprecht@gmail.com">email me</a>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
   </div>
 </footer>
 </body>

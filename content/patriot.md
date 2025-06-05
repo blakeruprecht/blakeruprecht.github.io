@@ -1,1 +1,0 @@
-"Pater" is the Latin word for father. Coincidentally, the [[proto-indo-european]] word for father is "phter".

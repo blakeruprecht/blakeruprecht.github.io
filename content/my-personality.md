@@ -30,7 +30,9 @@ Main Challenges:
 - Less structured/organized approach
 - Might rush past important details
 
-## 2.2 Aperio Talent Insights, 2022
+## DiSC (iD), 2022
+From Aperio Talent Insights, 2022.
+
 The following is an in-depth look at your personal talents in the 3 main sections:
 - *Behaviors*: help you attain a greater knowledge of yourself as well as others.
 - *Motivators*: info on the "why" of your actions.
@@ -209,20 +211,19 @@ Overall Behavior:
 			- Founder, Entrepreneuer
 
 
-
 ---
 
-## 2.3 OCEAN: Big Five Personality, 2022
+## Big Five Personality, OCEAN (HMHML), 2022
 
 | MIN (0)      | MAX (100)     | ME  |
 | ------------ | ------------- | --- |
 | Shut         | Open          | 97  |
 | Un-          | Conscientious | 56  |
 | Introverted  | Extraverted   | 99  |
-| Disagreeable | Agreeable     | 94  |
+| Disagreeable | Agreeable     | 75  |
 | Neurotic     | Relaxed       | 16  |
 
-## 2.4 MBTI: ENTP Notes
+## MBTI (ENTP), 2021
 Fictional ENTP 
 - Dr. House / Rick Sanchez / Sokka / Bugs Bunny / Tony Stark / The Joker / Tyler Durden / Siddhartha / Hades / Robin Hood / Lucifer / Hank Moody
 
@@ -352,14 +353,14 @@ Strategies
 ### Stressors
 - Time spent alone or in silence
 
-## 2.5 StrengthsQuest, 2017
+## StrengthsQuest, 2017
 1. Learner
 2. Self-assurance
 3. Competition
 4. Achiever
 5. Ideation
 
-## 2.6 VIA Character Strengths, 2021
+## VIA Character Strengths, 2021
 There's 24 of these. At most, 12 can be strengths, but I think it's most likely fair to pick six of these as core strengths.
 1. **Curiosity**: Interested, explores new things, open to new ideas
 2. **Love of learning**: Masters new skills & topics, systematically adds knowledge
@@ -370,7 +371,7 @@ There's 24 of these. At most, 12 can be strengths, but I think it's most likely 
 7. **Leadership**: Organizes group activities, encourages a group to get things done.
 8. **Humor**: Playful, brings smiles to others, lighthearted
 
-## 2.7 Workplace Insights, 2024
+## Workplace Insights, 2024
 **NOTABLE TRAITS**
 - Work, Communication, and Interaction Style
 	- **Goal-oriented**: You tend to be goal-oriented and intent on meeting or exceeding the expectations set for you. You have good follow-through on tasks when engaged with your work.

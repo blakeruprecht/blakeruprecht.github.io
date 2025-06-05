@@ -1,5 +1,5 @@
 ---
-title: Civilization Outcompetes Freedom
+title: Civilizations outcompete barbarians
 date: 2025-04-02
 description: Authoritarian civilizations defeat barbarians in the long run. Even if society is no fun.
 draft: false

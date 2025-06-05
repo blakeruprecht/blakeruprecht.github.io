@@ -1,10 +1,13 @@
 ---
-title: The terminal can do almost everything
+title: Terminal
 date: 2024-02-27
 description: '"The terminal is an essential tool of the modern computer scientist, up there with the text editor and ChatGPT. Haha, at least the terminal has been around since the dawn of computing."'
 ---
+Once you're logged into your [computers](/computers) [os](/os), the most useful program is the **terminal**, a text-based application/program that enables you to navigate the storage of your computer and manipulate files and run programs directly through the terminal.
 
-SUMMARY
+The terminal is the single most useful application/program I've learned across Linux, Mac, and Windows. It enables you to search across your entire hard drive folder structure, as well as run code in any folder you wish. This code can be quite useful, from basic stuff like moving files around, to searching your files for keywords, to running programs to batch-edit entire folders of files.
+
+## Summary
 - *Note*: I use {curly brackets} to represent variables where you replace the text inside the brackets, and don't type the brackets themselves. This is often used in documentation, but not explained, so be on the lookout.
 - *Note*: I use `code text` to represent code that should be typed into the terminal command line.
 - `ls` lists files; `ls -la` lists all files the long way

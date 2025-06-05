@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Run two miles MWF | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/running/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Run two miles MWF</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why">Why</a></li>
+    <li><a href="#running-is-fun">Running is fun</a></li>
+    <li><a href="#recovery">Recovery</a></li>
+    <li><a href="#pace">Pace</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <h2 id="why">Why</h2>
+<p><strong>Cardio Endurance</strong> is what I shoot for on my runs to keep myself at an easy pace. Most cardio endurance work is focused on increasing aerobic capacity, which is basically how efficiently your body can use the oxygen your lungs are breathing in.</p>
+<ul>
+<li><em>Long-duration</em>: how long you can keep up easy activity. E.g. how long can you hike up a mountain for?</li>
+<li><em>Aerobic</em>: how much oxygen you can effectively use for intense activity that you can sustain for minutes at a time. E.g. how fast can you run 1.5 miles, or how far can you row in 10 minutes?</li>
+<li><em>Anaerobic</em>: maximal rate of force production you can sustain for seconds. E.g. how long can you keep up a max sprint?</li>
+</ul>
+<h2 id="running-is-fun">Running is fun</h2>
+<p>I choose running because it&rsquo;s the most practical modality for the real world (fight or flight anyone?), is readily accessible, and can be done anywhere. Plus, I love <a href="nature.md">being outside</a>, so running is perfect all around. I also enjoy swimming and skipping rope. I don&rsquo;t enjoy any cardio where I&rsquo;m sitting down, I already do enough of that.</p>
+<h2 id="recovery">Recovery</h2>
+<p><strong>3 runs/week</strong> enables me to balance joint and body recovery with my passion and desire to run around outside like a dog.</p>
+<p><strong>Two miles</strong> is similarly a short enough distance to keep me coming back for more each time, but not too short to feel like I&rsquo;m doing nothing. I typically enjoy the 1.5-3 mile range.</p>
+<h2 id="pace">Pace</h2>
+<p><strong>Nasal Breathing Pace</strong>. This is the pace I run only using my nose to breathe &ndash; it&rsquo;s pretty slow, and it&rsquo;s also a good approximation for Zone 2 running, which means low heart rate, easy pace, but still does a great job improving aerobic endurance. Also builds long-duration endurance.</p>
+<p><strong>Intervals</strong> can be used to increase aerobic training. Run 4 min slow as possible, then 4 min fast as possible, and repeat 4 times for a killer 4x4 interval workout. Improves aerobic big time, with some long-duration and anaerobic too.</p>
+<p><strong>Tempo/Timed</strong> runs can be an effective way to measure progress, but don&rsquo;t obsess over numbers! Many periods of running in my life have been killed by focusing too hard on increasing the number rather than enjoying the run. Improves aerobic big time, with some anaerobic too.</p>
+<p><strong>Sprinting</strong> all-out is probably the single best exercise for both running and <a href="/lifting">lifting</a> combined, since it trains both cardio endurance and muscular power. Improves aerobic and anerobic big time.</p>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

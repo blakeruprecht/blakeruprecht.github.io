@@ -1,5 +1,5 @@
 ---
-draft: true
+title: Asthma
 ---
 Asthmatics are very tuned in and sensitive to their environments.
 
@@ -42,8 +42,3 @@ The goal is to make the child a participant, not a spectator in his own care. "I
 "Get action," Theodore had long preached.
 
 "Organs are made for action..." Salter wrote; "they are made to *work*, not to *be*; and when they *work* well they can *be* well."
-
-
-
-
-

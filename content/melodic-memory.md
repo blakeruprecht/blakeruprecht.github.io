@@ -1,7 +1,7 @@
 ---
 date: 2023-11-09
 title: My memories are stored in melodies
-description: '"Some musings on different songs that take me back to vivid memories."'
+description: '"Some somes take me back to a different place in time."'
 ---
 The greatest distance between two places is through time. When I listen to music, occasionally a song will play that instantly transports me back to a specific moment in time, filling me with vivid memories of a moment I'll never forget. When I play through these songs, I relive moments like they just happened.
 
@@ -16,6 +16,3 @@ The dog days at the end of summer find me retreating towards the mountains for l
 
 ## I Ain't Worried
 I hang up the phone. My dad's right, I can't focus here. There is too much to do, too much to see, too many people to hangout with. I'm halfway around the world sitting in hot, sunny weather next to a pool. How am I supposed to get work done in this environment? I look next to the man sitting next to me, and he's got a huge grin on his face. He checks his watch, it's beer o'clock. Vinny walks up to the front desk and orders two Beerlaos and brings them back. How can I say no to that? Today's going to be a good day, and tonight's going to be a good night. We'll end up at the bowling alley, I'm sure, just like we do most nights. I mean hell, the place has a basketball hoop, a ping-pong table, and a free-for-all archery range. It's like they hand-selected all of my favorite games and put them in one place. It doesn't hurt that Vinny and I discuss everything under the sun while sweating under the sun. Beerlaos go down so easily when shared with a friend. The same thing with Changs in Ao Nang, Peronis in Rome, or Goessers in Linz. No matter where I find myself, cold beer and interesting people seem to find me. Who cares about work. This beer is empty, looks like it's my turn to buy.
-
-## Crossroad
-(WIP)

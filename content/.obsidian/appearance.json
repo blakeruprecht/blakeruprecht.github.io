@@ -1,6 +1,6 @@
 {
   "accentColor": "#dd0000",
-  "textFontFamily": "Noto Serif,Noto Color Emoji",
-  "interfaceFontFamily": "Noto Serif",
+  "textFontFamily": "Noto Sans,Noto Serif,Segoe UI Emoji,Noto Color Emoji",
+  "interfaceFontFamily": "Noto Sans,Noto Serif",
   "baseFontSize": 18
 }

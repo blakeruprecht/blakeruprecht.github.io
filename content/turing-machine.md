@@ -1,3 +1,6 @@
+---
+title: Turing Machine
+---
 
 Summary of the Turing Machine
 

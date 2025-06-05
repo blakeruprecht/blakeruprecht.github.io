@@ -1,6 +1,6 @@
 ---
-date: 2023-05-15
 title: Machine Learning paradigms
+date: 2023-05-15
 description: '"Machines learn by correlating input to output. In supervised learning, this output is an array of numbers. In unsupervised learning, this output is a group of sets. In reinforcement learning, this output is one reward value and tons of negative rewards."'
 ---
 

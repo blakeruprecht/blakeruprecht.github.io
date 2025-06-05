@@ -1,7 +1,7 @@
 ---
-draft: true
+title: Educated
+date: 2025-05-26
 ---
-
 What makes WEIRD people so educated?
 
 What changes from the [[civilization]] era? Emphasis on group education, going from the heroic intellectual feats of individuals (Plato, Descartes, Aquinas) who were all either rich fuckers who owned slaves and had time on their hands to devote to study, or they were monks who similarly had lots of time. Educating everyone means we get decentralized science and [[the-system]]

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Eating macronutrients | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/eating-macronutrients/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Eating macronutrients</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#water---0-calg">Water - (0 cal/g)</a></li>
+    <li><a href="#protein---4-calg"><strong>Protein</strong> - (4 cal/g)</a></li>
+    <li><a href="#fatslipids---9-calg">Fats/Lipids - (9 cal/g)</a></li>
+    <li><a href="#carbohydrates---4-calg"><strong>Carbohydrates</strong> - (4 cal/g)</a></li>
+    <li><a href="#alcohol---7-calg"><strong>Alcohol</strong> - (7 cal/g)</a></li>
+    <li><a href="#related">Related</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>Macronutrients refer to large chemical molecules which are the primary components of all the cells in our bodies. These molecules are composed of Carbon, Hydrogen, Oxygen, and more elements/atoms. These molecules all come in many different forms, but as a whole they are grouped into the following categories for ease of discussion and <a href="eating-calories.md">energy counting</a>.</p>
+<p>Macronutrients are the primary source of energy for the body, as well as the primary source of building material for the body (proteins, fats, and carbs form most of the cells of the body).</p>
+<p>For the macronutrients, the key is to eat enough of each required type:</p>
+<h2 id="water---0-calg">Water - (0 cal/g)</h2>
+<p>$H_2O$ is an essential macronutrient for humans, since we are primarily composed of water. Read more about <a href="/drinking">drinking water here</a>.</p>
+<h2 id="protein---4-calg"><strong>Protein</strong> - (4 cal/g)</h2>
+<p>The building block of all muscle in the body and many other cells. The right amount is somewhere between 0.4-1.0 grams per lound of lean body mass. I just try to make sure every meal I eat has a good source of protein, whether that be a piece of meat, eggs, tofu, or a strong combination of rice and beans.</p>
+<ul>
+<li>10 Amino Acids: 10 special types of proteins not produced by the human body, so we need to eat these as well.
+<ul>
+<li>Chicken has all 10 essential amino acids.</li>
+<li>Beans are deficient in a few; Rice/Wheat/Corn are deficient in a few; Beans + Rice/Wheat is a total protein makeup, no animal meat required.</li>
+</ul>
+</li>
+</ul>
+<h2 id="fatslipids---9-calg">Fats/Lipids - (9 cal/g)</h2>
+<p>Essential to build cells, neurons, etc.</p>
+<ul>
+<li><em>Unsaturated</em> - O3 and O6 are essential, the body doesn&rsquo;t make these.
+<ul>
+<li><strong>Omega-3</strong> - found in most unsaturated fats like Olive Oil, but in lower quantities. Fish are very high in Omega-3s, so that&rsquo;s why people recommend eating fish 2-3x per week or taking a fish oil supplement.</li>
+<li><strong>Omega-6</strong> - found in most unsaturated fats like Olive Oil, in abundance.</li>
+</ul>
+</li>
+<li><em>Saturated</em> - Not required.</li>
+<li><em>Trans</em> - Not required.</li>
+</ul>
+<p>These macronutrients aren&rsquo;t technically required, but still have useful energy.</p>
+<h2 id="carbohydrates---4-calg"><strong>Carbohydrates</strong> - (4 cal/g)</h2>
+<p>Technically not required, but practically a great source of energy. The typical macro-formula is to calculate how much protein to eat based on your lean body mass, then add in enough healthy fats, and fill up the rest of your caloric needs with carbs. Most foods have carbs in them.
+- <em>Simple</em> - Raw energy source, not bad, just lacking anything else like fiber or micronutrients. Added sugar is bad for <a href="/cleaning">teeth health</a>.
+- <em>Complex</em> - Typically has more fiber and micronutrients.
+- <strong>Fiber</strong> - (0 cal/g) Indigestible by the body, hence 0 cal/g, structures our poops.</p>
+<h2 id="alcohol---7-calg"><strong>Alcohol</strong> - (7 cal/g)</h2>
+<p>Another macro, but not essential for human bodies, functions similarly to carbs, put prioritized for energy usage above carbs.</p>
+<h2 id="related">Related</h2>
+<ul>
+<li><a href="/eating">eating</a></li>
+<li><a href="/eating-calories">eating-calories</a></li>
+<li><a href="/eating-micronutrients">eating-micronutrients</a></li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

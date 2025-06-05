@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Eating micronutrients | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/eating-micronutrients/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Eating micronutrients</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#list-of-great-nutritious-foods">List of Great Nutritious Foods</a></li>
+    <li><a href="#related">Related</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>Micronutrients refer to smaller chemical molecules and just individual atoms the body needs to ingest because we can&rsquo;t create these for nothing. They&rsquo;re part of the raw input to the human body.</p>
+<p>15-25 Minerals
+13 Vitamins: A, B2, B3, B4, etc.</p>
+<p>There are a lot of micronutrients, and it&rsquo;s relatively complicated to remember what micro is in what food, so that&rsquo;s why the general recommendation is to &ldquo;eat a variety of ingredients.&rdquo; It&rsquo;s kind of a shotgun versus rifle approach. If you got blood work done, or talked to a dietitian, they might be able to perfect your diet.</p>
+<h2 id="list-of-great-nutritious-foods">List of Great Nutritious Foods</h2>
+<p>PLANTS</p>
+<ul>
+<li><strong>Leaves</strong>: Spinach, Kale, Romaine, Spring Mix</li>
+<li><strong>Crucifers</strong>: Broccoli, Broccolini</li>
+<li><strong>Roots</strong>: Sweet Potato, Carrot, Garlic, Onion, Ginger</li>
+<li><strong>Citrus</strong>: Chilis, Lemon, Lime, Tomato, Pineapple, Orange</li>
+<li><strong>Berries</strong>: Avocado, Blackberry, Blueberry, Kiwi, Banana</li>
+<li><strong>Fungi</strong>: Mushrooms, Nutritional Yeast</li>
+<li><strong>Legumes</strong>: Edamame, Beans, Chickpeas, Tofu</li>
+<li><strong>Nuts</strong>: Cashew, Almonds, Walnut, Pistachio</li>
+<li><strong>Seeds</strong>: Sunflower, Sesame, Chia, Hemp, Flax</li>
+<li><strong>Grains</strong>: Wheat, Oats, Corn (&amp;Popcorn), Rice</li>
+<li><strong>Oils</strong>: Olive oil, Veggie oil, Avocado oil, Peanut oil</li>
+<li><strong>Spices</strong>: Kosher Salt, Whole Black Peppercorns, Cayenne Pepper, Red Pepper Flakes, Cumin Seeds, Cinammon Sticks</li>
+<li><strong>Herbs</strong>: Cilantro, Basil, Thyme, Rosemary</li>
+<li><strong>Condiments</strong>: Salsa Fresca/Verde/Roja, Hot Sauce, Pesto, Hummus, Mustard, Sauerkraut</li>
+<li><strong>Drinks</strong>: Water, Coffee, Matcha/Green Tea, Black Tea</li>
+</ul>
+<p>ANIMALS</p>
+<ul>
+<li><strong>Fish</strong>: Salmon, Trout, Canned Tuna, Char, Sardines, Anchovies, Eel, Oyster</li>
+<li><strong>White Meat</strong>: Eggs, Chicken Breast, Chicken Thigh, Turkey Breast</li>
+<li><strong>Red Meat</strong>: Ground Beef, Steak, Pork Shoulder, Beef Liver, Bison, Rabbit, Venison</li>
+<li><strong>Dairy</strong>: Yogurt, Milk, Cheese, Butter</li>
+</ul>
+<h2 id="related">Related</h2>
+<ul>
+<li><a href="/eating">eating</a></li>
+<li><a href="/eating-calories">eating-calories</a></li>
+<li><a href="/eating-macronutrients">eating-macronutrients</a></li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

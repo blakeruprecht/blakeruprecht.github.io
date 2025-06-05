@@ -1,3 +1,6 @@
+---
+title: Moloch
+---
 
 The tragedy of the commons.
 

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Lift full body STT and stretch daily | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/lifting/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Lift full body STT and stretch daily</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why">Why</a></li>
+    <li><a href="#movements-over-muscles">Movements over Muscles</a></li>
+    <li><a href="#training-split---3-full-body-lifts-per-week">Training Split - 3 full-body lifts per week</a></li>
+    <li><a href="#sets-and-reps">Sets and Reps</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p><strong>Stretch</strong> 60 sec per stretch after <a href="/running">running</a>, or short routine before lifting.</p>
+<ul>
+<li>(Long) Chin Tucks, Wall Slides, Dead Hangs, Thoracic, Couch Stretch, Deep Squat</li>
+<li>(Short) Band Pull-Apart/FacePull, Glute Bridge/Bird Dog, Deep Squats</li>
+</ul>
+<p><strong>Lift 3x/week full-body</strong>.</p>
+<ol>
+<li>LEG movement, 3x8-15</li>
+<li>PUSH movement, 3x8-15</li>
+<li>PULL movement, 3x8-15</li>
+<li>CORE movement, 3x8-15</li>
+</ol>
+<h2 id="why">Why</h2>
+<ul>
+<li><strong>Postural Alignment</strong>. Open shoulders, straight spine, neutral hips.
+<ul>
+<li>Neutral Neck
+<ul>
+<li>stretch neck (Chin Tucks)</li>
+<li>strengthen neck (?)</li>
+</ul>
+</li>
+<li>Open Shoulders
+<ul>
+<li>stretch shoulders (Wall Slide, Dead Hang)</li>
+<li>strengthen shoulders (Pulling, Pushing)</li>
+</ul>
+</li>
+<li>Straight Spine
+<ul>
+<li>stretch entire spine (Chin Tucks, Wall Slides, Dead Hangs, Thoracic)</li>
+<li>strengthen entire spine (Pulling, Pushing, Core, Squatting, Hinging)</li>
+</ul>
+</li>
+<li>Neutral Pelvis
+<ul>
+<li>stretch hip flexors (Couch) and lower back (Dead Hangs, Thoracics)</li>
+<li>strengthen hamstrings (Hinging) and abs (Core)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Athletic Power</strong>. The ultimate expression of muscularity and mobility is athletic power movements like jumping, sprinting, throwing, swinging, climbing, carrying, etc.
+<ul>
+<li>Jump/Sprint: strengthen core and legs (Hinging, Squatting, Core)</li>
+<li>Carry/Lift: strengthen core, legs, and back (Core, Hinging, Pulling)</li>
+<li>Throw/Swing/Climb: strengthen core, torso, and arms (Core, Pulling, Pushing)</li>
+</ul>
+</li>
+</ul>
+<h2 id="movements-over-muscles">Movements over Muscles</h2>
+<p>Muscles don&rsquo;t care about what exercise you choose, they only care about the load applied. Different modalities all do the same thing: apply load to the muscle. Compound movements are the most effective way to apply load to many muscles at once, increasing your exercise efficiency to get more bang for your buck.</p>
+<p>Fundamental human movements</p>
+<ul>
+<li><em>Squatting</em> with the knees and hips to rest, poop, jump, etc.</li>
+<li><em>Hinging</em> at the hips to lift heavy things off the ground</li>
+<li><em>Pulling</em> with the arms to lift stuff, climb, and pull body on top of stuff.</li>
+<li><em>Pushing</em> with the arms to resist force, punch, etc.</li>
+<li><em>Rotating and Stabilizing</em> with the core to carry, swing, throw, etc.</li>
+</ul>
+<h2 id="training-split---3-full-body-lifts-per-week">Training Split - 3 full-body lifts per week</h2>
+<ul>
+<li><strong>3 workouts/week</strong>. I&rsquo;ve done more and less. 1 to maintain, 2 is good to grow, 3 is optimal, 4 or more is too much time spent in the gym for my preferences.</li>
+<li><strong>Full-body split</strong>. A training split refers to how you space out different movement patterns throughout the week. Squatting and hinging are taxing on the body, most people require plenty of rest before they repeat exercises in a given week. Pulling, pushing, rotating, and stabilizing are easier on the body, so can be performed more times in a given week.</li>
+<li><strong>4 movements/workout</strong>: I only do 1 leg lift per workout since they&rsquo;re always hard and taxing. I do 1 pull supersetted with 1 push to get more upper-body volume, and I finish with 1 core movement to round it all out. This works every major muscle in my body every time I workout.
+<ul>
+<li><strong>1 Lower</strong>: Alternate the hardest movement patterns, prioritize glutes and hams with a 2:1 hinge:squat training ratio
+<ul>
+<li><em>Hinge</em>: RDL, Glute Bridge, KB Swing, Power Clean, Deadlift</li>
+<li><em>Squat</em>: BW Squat, Back Squat, Split Squat, Lunge</li>
+</ul>
+</li>
+<li><strong>1 Pull</strong>: Pullups are my priority, rows to supplement. Note, if you do a conventional heavy deadlift for your leg lift, you may want to skip your upper Pull, or go really light.
+<ul>
+<li><em>Pullup</em>: Pullup, Neutral-Grip, Chinup, Ring Pullup</li>
+<li><em>Row</em>: DB Row, Chest-Supported Row, Inverted Row</li>
+</ul>
+</li>
+<li><strong>1 Push</strong>: Prioritize dips, bench, and pushups, supplement with OHP, handstands, etc.
+<ul>
+<li><em>Horizontal</em>: Dip, Incline Bench Press, Pushup</li>
+<li><em>Vertical</em>: Dips, Overhead Press, Handstands</li>
+</ul>
+</li>
+<li><strong>1 Core</strong>: rotate between the categories to train all planes of the core, especially important for tall lanky people like me
+<ul>
+<li><em>AntiExtension</em>: Plank, Ab Rollout, Hanging Leg Raise</li>
+<li><em>AntiLateral</em>: Suitcase Deadlift, Side Plank</li>
+<li><em>AntiRotation</em>: Pallof Press</li>
+<li><em>Rotation</em>: Woodchopper, Russian Twist</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="sets-and-reps">Sets and Reps</h2>
+<p>Okay, so we&rsquo;ve got 3 leg lifts per week, 3 pushes per week, 3 pulls per week, and 3 core movements per week. At this frequency of lifting, I only need a few sets per workout to have enough total volume to keep growing.</p>
+<ul>
+<li><strong>3 sets/movement</strong>: arbitrary, I just find this easy to mentally remember and enjoyable to perform. I do 1-2 sets when I&rsquo;m tired and find that to be sufficient.</li>
+<li><strong>X reps/set</strong>: perfect form is more important than count, don&rsquo;t let numbers detract from quality. Instead of obsessing over reps per set, I try to obsess over RPE &ndash; Rate of Perceived Exertion. I try to take my sets to muscular failure, where my form is still perfect, but the muscles fail to move.
+<ul>
+<li>Over 30 reps = muscular endurance</li>
+<li>Under 30 = strength, power, speed, size</li>
+<li>1–5 fast reps for power, 2–10 heavy for strength, 8–20 for hypertrophy—rep ranges blur, so it mostly doesn’t matter (except power, kinda)</li>
+<li>I stick with 8–15 on most lifts. More reps helps me focus on form</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,24 +1,33 @@
 ---
-title: What is the Simplest True Statement?
-description: None
-draft: true
+title: Binary
+description: '"Binary logic, boolean logic, is the foundation of all modern computing."'
 ---
+At it's fundamental level, a [computer](/computers) is basically just adding and subtracting binary numbers using a trick of computer wiring called digital logic, where you use configurations of circuits to represent basic math equations. All of the lowest-level code is written in binary instructions to these math gates, and the results are "interpreted" by us humans to represent math equations.
 
-## What is logic
-• Boolean logic
-• Truth tables
-• Logical operations
+A binary question is a yes/no question that could be answered with the symbols:
+- **1** = Yes, true, on, light.
+- **0** = No, false, off, dark.
 
-## Formal systems
+A lightbulb with two wires and a battery:
+- Is **on** when the circuit is complete and lightbulb is *lit*.
+- Is **off** when the circuit is broken (e.g. a switch is flipped "off").
 
-## How does this help us determine Truth?
-Does it determine Truth? If not, what is Logic, and by extension all of science, helping us do?
+A lightbulb, two wires, a battery, and a *switch*:
+- **Negation**: y = NOT(X) = -x (only has one input)
 
-Basically, everything rational rests on shaky foundations. Instead of giving up on all of the ideas that have worked *so far* and seem generally true, why not just make some stuff up, and call it good.
+A lightbulb, many wires, a battery, and *two switches in series*:
+- **Conjuction**: y = AND(x1,x2) = x1 AND x2 = x1 * x2 
 
-In math, they call these things axioms.
+A lightbulb, many wires, a battery, and *two switches in parallel*:
+- **Disjuction**: y = OR(X1, X2) = x1 OR x2 = x1 + x2
 
-## This is useful because it enables us to use numbers and think about the world mathematically
-Most scientific advancements that have been made are due to math or big picture synthesis of ideas.
+Binary truth table for and/or
+- (x, y, **AND, OR**)
+- (0, 0, **0, 0**) both x and y are off, so AND and OR both produce off
+- (1, 0, **0, 1**) just x is on, y is off, so AND is off and OR is on
+- (0, 1, **0, 1**) just y is on, x is off this time, AND off, OR on
+- (1, 1, **1, 1**) x and y are both on, so AND and OR are on
 
-But science wise, it's a lot of math. Math enables us to use statistics so that anytime you [Statistical-thinking](Statistical-thinking.md).
+## Related
+- [computing](computing.md)
+- [computers](/computers)

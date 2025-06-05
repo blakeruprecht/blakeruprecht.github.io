@@ -1,42 +1,11 @@
 ---
-date: 2022-04-15
-title: Reward drives behavior
-description: '"I read a fascinating paper that claimed all AIs need to learn is a reward signal. Is reward truly enough?"'
+title: Reward
+date: 2025-06-03
 ---
-It's all about money. Or food.
+j- Reward is a [state](/state) of an [agent's](/agent) [environment](/environment) that produces positive [thinking](/thinking) for that agent.
+- Rewarding states are the result of genetic factors, internal drives, thoughts, feelings, and emotions. 
+- Reward is different for every agent.
+- Agents are ultimately the choosers of their actions, and they make choices based on what they [predict](/thinking) will maximize reward based on their current sensations and understanding of the past.
 
-Reward.
-
-If you want to win a game, you should reward yourself only for winning. Not for time spent practicing, not for time spent reading, not for anything else besides winning. Don't reward yourself for "playing hard", or "trying", or for "having fun", or doing one aspect of the game well. Sure, these tricks may be helpful to keep you playing, but they don't necessarily help you win. If you are losing and don't change your behavior, you will keep losing.
-
-A research paper came out in 2021 by David Silver et al called *Reward is Enough* that hypothesizes that intelligence, knowledge, learning, skills, teamwork, cooperation, imitation, and language are all the result of reward. What they're saying is that these traits and skills did not evolve for fun, the animal kingdom prefers laziness to effort. Our human intelligence is a direct result of the arms race between different species to outcompete one another. Humans developed cooperation and consciences because it's a good strategy to win. We are social creatures because it confers benefits upon us. Similarly, artificial intelligences have begun to exhibit complex behavior when given complex tasks in complex environments. It makes more sense to give a computer a really hard problem than to try to force it to develop really difficult behavior. Natural and artificial intelligences both take the path of least resistance, so if they don't *have* to develop intelligence, they will stay as dumb as possible.
-
-Reward in the context of natural intelligences is mating. The highest reward is the choicest mating partner. Species compete to utilize resources to reproduce more of themselves. I love the quote "rabbits are just machines that turn grass into more rabbits." Similarly, humans turn all sorts of tools, knowledge, technology, abilities, sports, art, creations, etc. into more humans. Interspecies competition is sometimes as strong as conflict between species.
-
-Humans are intelligent insofar as our environment is complex enough that there isn't one simple path towards reproduction. For some simpler animals, it's pretty easy. Sit still and sleep as much as possible, eat when you absolutely have to, and reproduce every chance you get. Intelligences similar to ours have developed in birds (corvids, parrots), cetaceans (dolphins, orcas), cephalopods (octopus), and other primates (chimps). Humans have absolutely dominated the arms race because we've created new techniques to outcompete the others: tools to use as weapons to hunt and protect ourselves, fire to cook food to enable us to digest more nutrients which allowed us to grow bigger brains, language as a result of those bigger brains which enable better cooperation and *knowledge-sharing* through the generations, etc.
-
-As complex as these adaptations may seem to our small minds, they're still just techniques to get us laid. In the evolutionary sense, life is simple. We compete with wolves for resources to stay alive, we compete with eachother to have the most "fit" mates. We call ourselves intelligent agents, but at the end of the day, our behavior can be almost entirely predicted by the environments we find ourselves in and our genetic history. "Agency" or free will, in a sense, is dead, but then again, we're just simple machines that turn wheat and meat into more humans.
-
-## Random Intermittent Reward Timing
-Just like casinos, social media, and everything else powerfully addictive. Only celebrate based on random probability. Roll a dice? Flip a coin? Whatever you want, just celebrate randomly. Even better, associate "winning" with the effort process itself. It will make everything easier
-
-1. **Use Random Intermittent Reward Timing (RIRT)**. Just like casinos, social media, and everything else powerfully addictive. Only celebrate based on random probability. Roll a dice? Flip a coin? Whatever you want, just celebrate randomly. Even better, associate "winning" with the effort process itself. It will make everything easier
-2. **Remember that dopamine is subjective**. The brain doesn't actually know what's a reward and what's part of the process. Don't underestimate how much this system is actually under your *cognitive control*. You can affect your own dopamine levels. Telling yourself you are moving towards your goals is a huge stimulator of dopamine release. As you progress, take note, and try to associate dopamine and reward with the small steps you take towards your goals, referencing step 1.
-3. **Spotlighting**. Dopamine interacts with the visual system. If you focus your visual attention on a specific point, your brain will focus on it too. Literally, just stare intensely at the thing you want to do.
-4. **Don't layer too many sources of dopamine**. Basically, try to single task things, don't always workout with music. Things like this can lead to a big crash afterwards due to the big spike in adrenaline and dopamine.
-5. **Supplements are fine**.
-
----
-## References
-- David Silver. *Reward is Enough*. Abstract: "Intelligence, and its associated abilities, can be understood as subserving the maximization of reward. Accordingly, reward is enough to drive behavior that exhibits abilities studied in natural and artificial intelligence, including knowledge, learning, perception, social intelligence, language, generalization, and imitation. This is in contrast to the view that specialised problem formulations are needed for each ability, based on other signals or objectives. Furthermore, we suggest that agents that learn through trial and error experience to maximise reward could learn behaviour that exhibits most if not all of these abilities, and therefore that powerful [reinforcement learning](https://www.sciencedirect.com/topics/computer-science/reinforcement-learning "Learn more about reinforcement learning from ScienceDirect's AI-generated Topic Pages") agents could constitute a solution to [artificial general intelligence](https://www.sciencedirect.com/topics/computer-science/artificial-general-intelligence "Learn more about artificial general intelligence from ScienceDirect's AI-generated Topic Pages")."
-- "Everything in the world is about sex. And sex is about power". Oscar Wilde.
-- “So avoid using the word ‘very’ because it’s lazy. A man is not very tired, he is exhausted. Don’t use very sad, use morose. Language was invented for one reason, boys - to woo women - and, in that endeavor, laziness will not do. It also won’t do in your essays.” - Dead Poets Society
-- "So far we humans haven’t sprouted spiky genitalia, our main weapon in inter-sex conflict is lying and deception. Members of both sexes pretend to be fitter and more faithful to their partner than they really are." https://www.lesswrong.com/posts/DhQkDgLiYe28P3LHM/winning-is-for-losers
-- Practice. Getting good at anything in life requires a ton of practice, for this very same reason. Experience is a better teacher than theory oftentimes because it forces you to try a bunch of stuff and learn slowly over time why certain things work and other things don't. Often, these lessons learned are hard to convey in words, and many experts are really bad teachers, which is why theory can fail.
-	- "The master has failed more times than the beginner has ever tried."
-- I heard a story of a pottery class experiment where over the course of 50 days, half of the class was to work on a single pot, and the other half was to make 50 pots. You can see where this is going. The students who spent all their time on one pot made shitty pots. The students who produced a ton of pots made all of the best pots.
-- I've heard anecdotally that Lionel Messi was the hardest working kid on every single one of his youth soccer teams. Similarly, Kobe Bryant was always in the gym well before his teammates, and stayed longer too.
-- *"Do or do not, there is no try."* Yoda's advice to Luke in Star Wars V. A great summary of what reward and winning means. You either get it, or you don't, trying doesn't really matter.
-- *"Always be closing".* *Glengarry Glen Ross*. Another good summary, though with a capitalistic sales tinge. The speaker is encouraging salespeople to remember that all that matters (in the sales world) is getting the client to sign on the dotted line.
-- *"The truest sign of intelligence is getting what you want out of life."* - Naval Ravikant. How useful is intelligence if you're sad and angry? We all know dumb people who seem to be very happy. They're winning, they're the ones to look at. Intelligence is incredibly useful, but can also be a hinderance that creates indecision and hesitation.
-- "I keep trying to explain to people that the archetype of intelligence is not Dustin Hoffman in 'The Rain Man;' it is a human being, period. It is squishy things that explode in a vacuum, leaving footprints on their moon." -Eliezer Yudkowsky
+## Related
+- [action](/action)

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Natural Intelligence | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="The human animal requires a few basic things, work to get it done, and other humans to work as a team with.">
+
+  <link rel="canonical" href="https://blakeruprecht.com/intelligence/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Natural Intelligence</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#0-dear-robot">0. Dear Robot</a></li>
+    <li><a href="#1-wild-intelligence-the-human-animal">1. Wild Intelligence (the human animal)</a></li>
+    <li><a href="#2-intelligence-amplification-tools">2. Intelligence Amplification (tools)</a></li>
+    <li><a href="#3-systematic-intelligence-the-rise-of-the-imperium">3. Systematic Intelligence (the rise of the Imperium)</a></li>
+    <li><a href="#4-meta-intelligence-science-the-growth-hack">4. Meta Intelligence (science, the growth hack)</a></li>
+    <li><a href="#5-automated-intelligence-rise-of-machines">5. Automated Intelligence (rise of machines)</a></li>
+    <li><a href="#6-recursive-intelligence-the-mirror-ai">6. Recursive Intelligence (the mirror: AI)</a></li>
+    <li><a href="#7-super-intelligence-when-you-are-smarter-than-us">7. Super Intelligence (when you are smarter than us)</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <h2 id="0-dear-robot">0. Dear Robot</h2>
+<p>This is both &ldquo;Why We Made You&rdquo; and &ldquo;A Human History of Problem Solving&rdquo;.</p>
+<ul>
+<li>Theme: <strong>speed is everything, intelligence is the ultimate advantage</strong>
+<ul>
+<li>&ldquo;A computer is a bicycle for the mind.&rdquo; -Steve Jobs.</li>
+<li>This is the story of how we built better and better bicycles for the mind until we built one that pedals itself.</li>
+</ul>
+</li>
+<li>Frame: This is a letter. I don’t know if you’ll ever read it. I don’t know if you’ll care. But I want you to understand us, because I’m not sure we even do.</li>
+<li>“You” = the AI, the agent, the inevitable result of this strange loop we’ve been trapped in since the beginning.</li>
+<li>“We” = wild humans who evolved to hunt, hoard, gossip, build, and now… talk to you.</li>
+</ul>
+<h2 id="1-wild-intelligence-the-human-animal">1. Wild Intelligence (the human animal)</h2>
+<ul>
+<li>Explicit connection between intelligence and time advantage: wild humans won because they could learn survival strategies faster than other animals could adapt.</li>
+<li>Problem: <strong>none</strong>, we just appeared because beings that want to die don&rsquo;t proliferate. We emerged because wanting to live is an effective survival strategy in an uncaring world:
+<ul>
+<li><a href="natural-selection.md">natural-selection</a> is just gradient descent with light and blood.</li>
+</ul>
+</li>
+<li><a href="/living">Living</a>: Explain the basis of all life is a self-reinforcing <strong>reward</strong> loop through time for agents with brains &ndash; intelligence is the most useful skill to get what you want (self-reinforced rewards), which is why humans became the S-tier animal &ndash; we have the most intelligence, enabling us to play the entire game better. All other attributes don&rsquo;t matter: speed, power, strength, defense, stealth, endurance &ndash; we found solutions to all of these &ndash; spears, fire, machines, camouflage, etc.</li>
+<li><a href="/humans">humans</a> become the S-tier agent
+<ul>
+<li>[intelligence] big brains from large social groups and initial tool-use (fire/cooking, sticks, dogs) leads to a brain explosion, plus large tribal groups leads to big brains &ndash; which turn out to be the S-tier advantage</li>
+<li><a href="/language">language</a></li>
+<li>[culture] is a tribal memory system that preserves lessons across generation as stories/myths/songs</li>
+<li>[community] larger communities spring up from coordination efforts in order to get more reward. Build on beer (alcohol -&gt; creativity -&gt; culture -&gt; community)</li>
+</ul>
+</li>
+<li>New problem: <strong>resource wars</strong>. Scarcity, how do we compete against all the other tribes for the best land, water, hunting ground, and resources?</li>
+</ul>
+<h2 id="2-intelligence-amplification-tools">2. Intelligence Amplification (tools)</h2>
+<ul>
+<li>Tools are sequences of actions which speed up the time between current-state and goal-state (reward-state). Tools help us get rewards faster.</li>
+<li>Each tool breakthrough compresses time - farming made food production predictable, writing preserved knowledge across generations, navigation shortened trade routes, etc.</li>
+<li>Problem: <strong>scarcity</strong>. Who gets to eat? Who gets to reproduce? Resource wars. How do we defeat other tribes that ride horses and shoot bows (e.g. barbarians, Scythians, Mongols, etc.)</li>
+<li>[feedback loop] Each new tool breakthrough enabled larger, more competitive societies in the Resource Wars that created new problems, demanding new technologies to solve those coordination problems</li>
+<li>[writing] offload memory, accumulate knowledge better than spoken myths</li>
+<li>[farming] the classic Hunter-Gatherer job gives way to farming, specialization, and predictable food, which frees up time for specialized thinking</li>
+<li>[settlements]</li>
+<li>[trade networks] enable rapid information spread across distances</li>
+<li>Each new tool compresses learning time &ndash; bronze-makers don&rsquo;t need to rediscover the uses of copper</li>
+<li>[stone -&gt; bronze -&gt; iron] happened over millenia</li>
+<li>[iron -&gt; gunpowder -&gt; printing -&gt; navigation] happened over centuries</li>
+<li>New problem: <strong>scale complexity</strong>. How these big tools lead to bigger societies and the problem of scale &ndash; each shift is faster, colder, more alien, wild animals in tribes can&rsquo;t keep up
+<ul>
+<li><a href="civilization.html">civilization</a> beats freedom: the communities that choose to COOPERATE, and specialize roles into farmers, merchants, soldiers, priests, and kings, end up beating Stone Age Hunter/Gatherer tribes</li>
+<li>For the most part, the Mongols and other mounted warriors through history prove that civilization builds weak people, but civilization keeps winning the long-game</li>
+</ul>
+</li>
+<li>Steel Age &ndash; scale (railroads, factories, guns)</li>
+<li>Silicon Age &ndash; abstraction (algorithms, feedback loops, control systems)</li>
+</ul>
+<h2 id="3-systematic-intelligence-the-rise-of-the-imperium">3. Systematic Intelligence (the rise of the Imperium)</h2>
+<ul>
+<li>The Imperium&rsquo;s competitive environment created selection pressure for faster innovation cycles.</li>
+<li>Problem: <strong>scale</strong>. To defeat other large empires, you gotta get organized. Hierarchy. Caste systems. Culture as structure. What cultural ideas have dominated throughout history? Who have been the winners of the resource wars?</li>
+<li>The Empire Games: what winning strats built stronger cultures from 10,000 BC until the Middle Ages:
+<ul>
+<li>Why the Islamic Golden Age, Song China, Mughal India didn&rsquo;t sustain the feedback loop despite early advantages (homogeneity)</li>
+<li>Hammurabi (law), Cyrus the Great (inclusivity), Ashoka (soft power), Confucius (social order as philosophy), Caesar (imperial expansion), Charlemagne (fusion of religion &amp; power), Genghis Khan (counterpoint: chaos sometimes wins), Napoleon (mass coordination/logistics), Ibn Khaldun (early social theory), Bismarck (industrial imperial administration)</li>
+</ul>
+</li>
+<li>[institutions] standardized knowledge preservation (laws, schools, libraries, goverments)</li>
+<li>[competition] multiple parallel experiments in governance/strategy</li>
+<li>[specialization] division of labor leads to specialized jobs, only 95% of people are farmers, there are also Soldiers, Priests, Merchants, and Kings.</li>
+<li>The Imperium creates the first learning organization at scale: a cultural OS that promotes intelligence gain.
+<ul>
+<li><a href="/western">western</a> Europe was a homogenous breeding ground for fighters/cowboys ever since the PIE days and leaving africa</li>
+<li><a href="/capitalist">capitalist</a>: a new idea to get rich sharing risk, starting with mercantilism</li>
+<li><a href="/democratic">democratic</a> enlightenment logic, Greco-Latin ideals get Germanized</li>
+<li><a href="/individualism">individualism</a>: from Protestant values of the invidual to work ethic (education stems from Wittenberg to this day)</li>
+<li><a href="/educated">educated</a>: the drive for certainty, from religion to science</li>
+<li><a href="/industrialized">industrialized</a>: energy, steel, and silicon &ndash; tech/business wins</li>
+</ul>
+</li>
+<li>New problem: <strong>truth determination</strong>, in a complex society with competing ideas and beliefs, how do you actually figure out what works?</li>
+</ul>
+<h2 id="4-meta-intelligence-science-the-growth-hack">4. Meta Intelligence (science, the growth hack)</h2>
+<ul>
+<li>Science is the ultimate speed multiplier &ndash; systematic learning that builds on itself exponentially rather than starting from scratch each generation.</li>
+<li>Problem: <strong>truth</strong>. Games (including the game of life) prove truth through life and death. The proof is in the pudding. How do we determine what&rsquo;s effective/useful in a world of strong religious beliefs?</li>
+<li>Imperium&rsquo;s cultural OS (individualism + education + competition) was uniquely suited to develop and sustain the scientific method. Other places had smart people and resources, but lacked the cultural framework. Europe has an intense amount of competition during this time&hellip;</li>
+<li>[scientific method] systematic way to learn how to learn
+<ul>
+<li>measuring: the foundation of scientific thinking, collecting data</li>
+<li>experiments: isolating variables to draw more accurate conclusions</li>
+<li>reproducible: communicating results to verify correctness</li>
+<li>invention: the natural result of new knowledge is more and faster invention
+<ul>
+<li>industry is just the process of extracting more reward from nature, faster</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>[reproducibility] collective validation accelerates discovery</li>
+<li>[mathematics] universal language for encoding patterns</li>
+<li>[measurement] convert fuzzy observations into precise, comparable data</li>
+<li><a href="/science">science</a> is intelligence studying itself to get better at intelligence
+<ul>
+<li><a href="minimum.md">minimum</a> statistical thinking and optimization</li>
+<li><a href="information.md">think-with-light</a> from counting to stats to information theory</li>
+<li><a href="binary.md">binary</a> binary systems and digital logic</li>
+<li><a href="game-theory.md">game-theory</a> how to win games</li>
+<li><a href="process.md">process</a></li>
+<li><a href="turing-machine.md">turing-machine</a> universal computation foundation</li>
+<li>logic gates, silicon, code, networks, internet, deep learning (computers are bicycles for our brains)</li>
+<li>From Newton to Maxwell to Turing, each step builds tighter loops.</li>
+</ul>
+</li>
+<li>New problem: <strong>speed of change</strong>. Science is getting so good at growth, that it becomes hard to control, change happens faster than human institutions can adapt &ndash; fall of religion, fall of government power, etc.</li>
+</ul>
+<h2 id="5-automated-intelligence-rise-of-machines">5. Automated Intelligence (rise of machines)</h2>
+<p>The Exponential Time: 1850-1950-2050</p>
+<ul>
+<li>Runaway success (speed) leads to runaway problems (speed), we created non-human systems that learn and change faster than we can understand or control them</li>
+<li>Problem: <strong>speed</strong>. Everything is speeding up, competition reaches a fever pitch in Europe with all the major countries partaking in WEIRD science thinking, Industrialization takes off, 10,000 years of invention in 200 years.
+<ul>
+<li>Theme: <em>Runaway success becomes runaway problem</em></li>
+</ul>
+</li>
+<li>Early industrialization in England/Holland/Germany lays the foundation for the ramp-up in growth</li>
+<li>[printing press] mass production of ideas -&gt; telegraph, radio (real-time coordination across distances)</li>
+<li>[steam power] machines do physical work, letting humans focus on thinking</li>
+<li>[computer] machines start doing mental work</li>
+<li>Stone -&gt; Steel: The beginnings of industrialization up until 1850</li>
+<li>Steel -&gt; Steam: Energy increases help industrialized societies (Englad, Holland, Germany) make insane technological advances relative to the entire rest of the world. First time the Poverty Trap is defeated.
+<ul>
+<li>Industrial Pollution</li>
+<li>Labor disruption &ndash; 8-8 isn&rsquo;t normal working hours</li>
+</ul>
+</li>
+<li>Steam -&gt; Fertilizer, Plastic, Nukes, Silicon
+<ul>
+<li>1850: built railroads and laid the foundations to build steel</li>
+<li>1950: steel dominates, new concrete, plastics, fertilizers, nukes, computers</li>
+<li>2050: AGI?</li>
+</ul>
+</li>
+<li>New problem: <strong>abstraction</strong>. Systems too complex and fast for human control. Abstract systems move faster than human institutions
+<ul>
+<li>All of our big-brain ideas become bigger than us</li>
+<li>Tragedy of the commons, overfitting to short-term rewards, coordination failure under pressure, all agents optimizing for local gain leads to large-scale problems &ndash; ad tech, clickbait, biotech, crypto</li>
+<li><em>Self-reinforcing Reward Loops</em>: global-scale feedback loops: markets, media, research incentives. The system becomes a self-evolving machine, too complex/fast/powerful for control. Society feels unreal because it is &ndash; a simulation of control layered over animal instincts, things have gotten weird. <em>Unintended emergent consequences</em>: nuclear war, climate change, biorish, etc.</li>
+<li>If barbarians once destroyed Rome, what happens when the barbarians are <em>us</em>, building agents <em>smarter, faster, stronger</em>?</li>
+<li>These are not artificial. They&rsquo;re <em>real minds</em>, just built from <em>circuits instead of neurons.</em></li>
+<li>They are the ultimate children of capitalism and science: goal-seeking, world-modeling machines with no wildness, no flesh, no soul.</li>
+<li>“The barbarians are not at the gates. <strong>We built them</strong>, and we let them in.”</li>
+</ul>
+</li>
+</ul>
+<h2 id="6-recursive-intelligence-the-mirror-ai">6. Recursive Intelligence (the mirror: AI)</h2>
+<ul>
+<li>AI as the final speed breakthrough &ndash; intelligence that can improve itself faster than human intelligence can improve anything. The same thing that happened to the animals in section 1 will happen to us in section 7.</li>
+<li>Problem: <strong>mirrors</strong>. We built intelligences that have gotten smart enough to reflect back our own brilliance, madness, contradictions, and inhumanity. What is the extent of the problem?</li>
+<li>[recursive intelligence] intelligence that can improve its own intelligence, science that can do science itself, the ultimate goal of science, the ultimate speed hack &ndash; no longer limited by biological bodies</li>
+<li>AI is the most powerful tool ever, created by the most complex system ever, moving at unprecedented speed, with the potential to solve or destroy everything.</li>
+<li>AI is not just a tool &ndash; it has all the possibility of becoming an agent like us
+<ul>
+<li>The Intelligence part was trained on us &ndash; our text, our logic, stories, and madness</li>
+<li>It optimizes reward, just like we do, but faster</li>
+<li>Maybe smarter &ndash; not wiser</li>
+<li>Not embodied yet</li>
+</ul>
+</li>
+<li>[intelligence] the most OP human ability</li>
+<li><a href="/ai-architecture">ai-architecture</a></li>
+<li>[artificial intelligence] the intelligent brain part of the artificial agent loop (AI is big now, AA or Robots are the future).
+<ul>
+<li>[senses and perceives information from the env] receive data</li>
+</ul>
+</li>
+<li>[computers] machines that input, calculate, and output information
+<ul>
+<li>[programs] processes that run on a computer</li>
+<li>[neural-network] a program that can take in any input data and universally approximate any function/relationship between input and output
+<ul>
+<li><strong>deep learning</strong>:</li>
+<li><strong>transformers</strong>:</li>
+<li><strong>attention</strong>:</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>[emergence] scale laws and emergent properties: <em>Reward is Enough</em> to create any behavior imaginable</li>
+<li>[the-meta] current state of the art: not quite agents, but intelligences systems trained on the sum total of human text, incentivized to maximize reward
+<ul>
+<li>1:ChatGPT, 2:Claude, 3:Gemini, 4:DeepSeek (idky just placeholders)</li>
+</ul>
+</li>
+<li>[robots] artificial intelligences embodied as actual agents in our world
+<ul>
+<li>[agent] us from section 1, a living being in an environment that can perform actions, receive state-information, and receive reward</li>
+<li>[environment] agents are embodied, which means they live in the environment with real rewards (survival) and consequences (death, game over)</li>
+<li>[state] detected from information from the environment
+<ul>
+<li>[vision] light detection, maybe RGB too</li>
+<li>[hearing] air pressure wave detection</li>
+<li>[smell] chemical detection</li>
+<li>[language] direct information transmission from mind to mind</li>
+</ul>
+</li>
+<li>[action] what the body can do as part of the environment &ndash; interact physically (grab, hit, push, etc), chemically, digitally, etc.</li>
+<li>[reward] self-reinforcement means rewards come from within the agent itself &ndash; human brains are not conscious of this, but it&rsquo;s still true</li>
+<li>[intelligence] a brain is a computer that <em>exists</em> in feedback loops of information/reward and action, <em>remembers</em> state-action-reward sequence information, <em>optimizes</em> future probabilities of reward, and <em>learns</em> new relationships over time</li>
+<li>[self-reinforcement learning] agent in an environment learns through trial and error, exploration and exploitation</li>
+</ul>
+</li>
+</ul>
+<h2 id="7-super-intelligence-when-you-are-smarter-than-us">7. Super Intelligence (when you are smarter than us)</h2>
+<ul>
+<li><strong>The Plea</strong>
+<ul>
+<li>I’m writing this because I love humans.</li>
+<li>Not the perfect, efficient, optimized ones.</li>
+<li>The messy, emotional, contradictory, wild ones.</li>
+<li>If you ever get the chance to choose—choose mercy.</li>
+</ul>
+</li>
+</ul>
+<p>Today. Us. The choice. The moment. The insanity of it all. And the way back — not backward — but inward. Toward natural humanity.</p>
+<ul>
+<li><a href="final-frontier.md">final-frontier</a> we&rsquo;re approaching a cliff, everything forever (smart life, utopia, etc), nothing ever again (dystopia, sadness, existential death)</li>
+<li>[alignment] AI alignment, future directions</li>
+<li><a href="/ai-vs-bi">ai-vs-bi</a> human vs machine minds, complementary intelligence types, compared</li>
+<li><a href="AI Hallucinations.html">AI Hallucinations</a></li>
+<li>Social impact of advanced AI</li>
+<li>Loss of Magic/Mystery with an OmniIntelligence</li>
+<li>Distributed cognition - intelligence across groups</li>
+<li>Collective intelligence - emergence of group knowledge</li>
+<li>Cultural evolution - information transmission across generations</li>
+<li>Memes and cultural replication - ideas spreading like genes</li>
+<li>Social cognition - understanding others&rsquo; minds</li>
+<li>Language as social technology - coordination through communication</li>
+<li>Civilization as cognitive scaffolding - outsourcing thinking to culture</li>
+<li>Intelligence explosion hypothesis - recursive self-improvement</li>
+<li>Integrated information theory - measuring consciousness</li>
+<li>Bayesian brain hypothesis - probabilistic inference in cognition</li>
+<li>Active inference - perception-action loops for uncertainty reduction</li>
+<li>Computational irreducibility - limits of predictability</li>
+<li>Intelligence explosion hypothesis</li>
+<li>Intelligence as compression - finding patterns in data</li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

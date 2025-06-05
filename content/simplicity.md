@@ -1,3 +1,8 @@
+---
+title: Simplicity
+date: 2024-04-22
+---
+
 > "The simple way really is the best way to do things." -*Nick Saban*
 
 > "Nature prefers the shortest path from A to B"

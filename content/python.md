@@ -1,10 +1,12 @@
 ---
 date: 2024-03-04
-title: How to Install Python
-description: "The hardest part of coding in Python is setting up the coding environment. Downloading all of the software and making sure it's all in the right place will stop your Python journey before you even start."
+title: Python install guide
+description: The hardest part of coding in Python is setting up the coding environment. Downloading all of the software and making sure it's all in the right place will stop your Python journey before you even start.
 ---
 
-Python is the most useful general purpose programming language, probably because it is easy to use. Don't let that fool you, it's still difficult to get this anaconda up and running on your own computer.
+Python is the most useful general purpose programming language, probably because it is easy to use. It's also the *lingua franca* of [AI research](/ai), because it has awesome [science packages](/python-packages) for free.
+
+Don't let that fool you, it's still difficult to get this anaconda up and running on your own computer.
 
 ## Installation instructions
 Here's what you'll typically see, as concisely as possible. Bold terms are explained in the FAQ.
@@ -31,5 +33,9 @@ Here's what you'll typically see, as concisely as possible. Bold terms are expla
 As always, the best way to learn about a piece of software -- read the docs!
 - For more Windows info: [Python 3.12.4 Documentation >> Python Setup and Usage >> 5. Using Python on Windows](https://docs.python.org/3/using/windows.html)
 - For more MacOS info: [Python 3.12.4 Documentation >> Python Setup and Usage >> 5. Using Python on a Mac](https://docs.python.org/3/using/mac.html)
+
+## Related
+- [python-packages](/python-packages)
+- [computers](/computers)
 
 

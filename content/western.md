@@ -1,9 +1,15 @@
 ---
-title: '"Proto-Indo-Europeans were the Original Cowboys"'
-date: 2025-04-03
-description: '"A discussion on the origin of Western culture, which originated in the cowboy steppe culture of the Proto-Indo-Europeans, and has been shaped by the Romans, Christians, and Germans."'
-draft: false
+title: Western
 ---
+
+
+- Initially, the Chinese and Mesopotamias dominate the world... then the Sinic and Indic civilizations become the most powerful for centuries, along with some competition from MidEast civs (Babylon, Persia, Islam). Europe is a backwater for a long time, Africa is too heterogeneous and hot to be successful, the Americas are isolated from other cultures/civilizations
+- Africa is very heterogeneous
+- India/China are very homogeneous
+- Mid-East and Europe are a mixture -- good for civilization turnover throughout history, bad for stability -- not as bad as Africa, not as good as China/India
+
+Europe is the most aggressive battleground on earth during the Middle Ages -- which makes it a fertile proving ground for *ideas*.
+
 
 What does being Western even mean?
 

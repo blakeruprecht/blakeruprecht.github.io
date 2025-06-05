@@ -15,9 +15,6 @@ Perfection is impossible to achieve.
 
 Minimum standars are achievable, measurable, and movable.
 
-
-
-
 • Search spaces
 • Local vs global optima
 • Natural selection

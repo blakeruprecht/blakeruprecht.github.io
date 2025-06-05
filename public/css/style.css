@@ -6,9 +6,9 @@
   --theme-color: #FF2400;
 
   /* Fonts */
-  --font-serif: "EB Garamond", Georgia, serif;
+  --font-serif: "EB Garamond",Georgia, serif;
   --font-sans: "NotoSans", sans-serif;
-  --font-mono: monospace, "Hack";
+  --font-mono: "Hack", monospace;
 }
 
 :root[data-theme='dark'] {
@@ -39,7 +39,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--fg-color);
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 18px;
   line-height: 1.5;
   margin: 0;
@@ -62,6 +62,7 @@ main {
 
 /* TYPOGRAPHY */
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
   font-weight: bold;
   margin: 1.5em 0 0.75em 0;
   line-height: 1.0em;
@@ -129,7 +130,6 @@ figcaption {
 
 blockquote {
   border-left: 1px solid var(--mg-color);
-  font-style: italic;
   margin: 1.5em 0;
   padding: 0.5em 0 0.1em 1em;
 }

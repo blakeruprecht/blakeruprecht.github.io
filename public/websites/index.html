@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Build Simple Websites | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/websites/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Build Simple Websites</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#html">HTML</a></li>
+    <li><a href="#css">CSS</a></li>
+    <li><a href="#javascript">JavaScript</a></li>
+    <li><a href="#frameworks----not-necessary">Frameworks &ndash; not necessary</a></li>
+    <li><a href="#hosting-site">Hosting Site</a></li>
+    <li><a href="#domain-name">Domain Name</a></li>
+    <li><a href="#examples">Examples</a></li>
+    <li><a href="#related">Related</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p><img src="/static/wikipedia-web-design.png" alt="Wikipedia&rsquo;s style inspiration sheet"></p>
+<blockquote>
+<p>&ldquo;Keep it simple, stupid.&rdquo;</p>
+</blockquote>
+<p>So you want to build a website, huh? Me too, so I learned the basic building blocks of any website.</p>
+<p>At it&rsquo;s core, every website is just text and images. Everything else is style.</p>
+<h2 id="html">HTML</h2>
+<p>HTML is the &ldquo;coding language&rdquo; that tells a web browser what words and pictures correspond to headings, paragraphs, navbars, captions, etc. HTML basically just tells a browser what words are &ldquo;paragraph&rdquo; text, &ldquo;headings&rdquo;, or more confusingly, part of the &ldquo;header&rdquo; and &ldquo;footer&rdquo; of a website, including the &ldquo;navbar&rdquo;. It does a little bit more explaining different elements on a page, but for the most part, it&rsquo;s pretty simple.</p>
+<h2 id="css">CSS</h2>
+<p>CSS is used to style websites. Basically, it treats every grouping of words as a box, and every image as a box, and it helps you arrange all the boxes on the screen, gives them color, and a few more stylistic elements.</p>
+<h2 id="javascript">JavaScript</h2>
+<p>Anything dynamic (that the user can move) on a website, like my &ldquo;light/dark&rdquo; mode switch at the top of the page is controlled using JavaScript. It&rsquo;s great for dropdown menus, dynamic styling, and making buttons.</p>
+<h2 id="frameworks----not-necessary">Frameworks &ndash; not necessary</h2>
+<p>If you have words in HTML files and CSS to style them, you have a complete website. Frameworks are typically used for convenience, to make sorting through posts simpler, and to add some dynamic elements to a web page, like a blog list that sorts all post by date. There are three major types of framework:</p>
+<ul>
+<li>JavaScript package like NextJS that does all dynamic stuff using JS, e.g. NextJS</li>
+<li>Static-Site Generator which uses a programming language to dynamically sort through posts and generate websites with blog lists, e.g. Hugo, Jekyll</li>
+<li>Content Management System which uses a programming language to dynamically sort through posts, and a GUI to edit pages with, e.g. WordPress.</li>
+</ul>
+<h2 id="hosting-site">Hosting Site</h2>
+<p>A website is just a bunch of HTML text files, a CSS style file, and any other files needed to make the website run. Those files are stored in a folder, and that folder is stored on a computer. If you open up the &ldquo;port&rdquo; to that computer and enable internet access to that port, than other people around the world can use their internet connections to view your files.</p>
+<p>I host my website using <a href="https://pages.github.com/">Github Pages</a>, which means I send my HTML/CSS files from my computer where I create them and edit them to Github, who stores the files on their own computers and use the domain name I purchased to point to those files on their computers.</p>
+<p>A &ldquo;server&rdquo; is just a fancy name for a computer that stores files and &ldquo;serves&rdquo; them up to the end user.</p>
+<h2 id="domain-name">Domain Name</h2>
+<p>A domain name, or URL, is a string of letters that acts as an address pointing to the HTML/CSS files stored on your host computer. This way you can type the address into a web browser and see those files.</p>
+<p>Whenever you types &ldquo;blakeruprecht.com/websites&rdquo; into a web browser, your computer will connect to the Github computer that stores my files and you will see this HTML file (these words and pictures), which is styled by a single CSS sheet stored on the server (host computer). That&rsquo;s basically all that is happening.</p>
+<h2 id="examples">Examples</h2>
+<ul>
+<li><a href="https://thebestmotherfucking.website/">https://thebestmotherfucking.website/</a></li>
+<li><a href="https://deadsimplesites.com/">https://deadsimplesites.com/</a></li>
+<li><a href="https://wikipedia.org/">https://wikipedia.org/</a></li>
+</ul>
+<h2 id="related">Related</h2>
+<ul>
+<li><a href="/computers">computers</a></li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>
