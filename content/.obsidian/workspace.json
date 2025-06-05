@@ -8,7 +8,11 @@
         "type": "tabs",
         "children": [
           {
+<<<<<<< HEAD
             "id": "01ed8f2811b6adfc",
+=======
+            "id": "9582a0326be8a123",
+>>>>>>> 506218b (fix)
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,7 +180,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
+<<<<<<< HEAD
   "active": "95b6a591ed906e6d",
+=======
+  "active": "9582a0326be8a123",
+>>>>>>> 506218b (fix)
   "lastOpenFiles": [
     "_seeds/spirit.md",
     "_seeds/shooters-shoot.md",
