@@ -10,11 +10,11 @@ $$ Motivation = \frac{Expectancy \cdot Value}{Impulsiveness \cdot Delay} $$
 ## Step 1: Notice I'm procrastinating
 - I know I *should* do a task
 
-## Step 2: Guess which unattacked part of the equation is causing me the most trouble.
-- Low Expectancy: am I likely to succeed? Is the task within my capabilities? Will I actually get the reward?
-- Low Value: am I bored and distracted? Uncomfortable, grumpy, or in pain? Am I nervous or afraid of the outcome? Do I care about the task?
-- Delay: how much reward is delayed, and for how long?
-- Impulsiveness: am I impatient? Distracted?
+## Step 2: Which part of the equation is the problem?
+- **Expectancy**: Do I not think I'll succeed? Is the task too hard? Will I actually get the reward?
+- **Value**: Am I bored/distracted/uncomfortable/grumpy/in pain? Am I nervous or afraid of the outcome? Do I care about the task?
+- **Impulsiveness**: am I impatient? Distracted?
+- **Delay**: how much reward is delayed, and for how long?
 - Should I drop/delegate this task?
 
 ## Step 3: Try several methods for attacking the specific problems.
