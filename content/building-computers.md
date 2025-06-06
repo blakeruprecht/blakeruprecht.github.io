@@ -2,7 +2,7 @@
 title: Building computers
 date: 2023-07-28
 ---
-You can build your own [computer](/computers). If you need a powerful laptop, I can't help you, I don't know the meta anymore. If you want to use a desktop, do it, since you can build your own and upgrade parts as they break, rather than having to get a whole new computer every 10 years. It's no harder than putting together a LEGO set. Watch a tutorial or three on Youtube and you'll be fine. 
+You can build your own [computer](computer.md). If you need a powerful laptop, I can't help you, I don't know the meta anymore. If you want to use a desktop, do it, since you can build your own and upgrade parts as they break, rather than having to get a whole new computer every 10 years. It's no harder than putting together a LEGO set. Watch a tutorial or three on Youtube and you'll be fine. 
 
 There are four components that determine the performance of a computer:
 - **Central Processing Unit (CPU)**: The main brain of the computer, this is the thing that does all the computationg, it processes math equations. The main component that determines how "fast" your computer is.

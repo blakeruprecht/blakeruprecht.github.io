@@ -11,7 +11,7 @@ If these are out of whack and making you unhappy, there are only three scientifi
 - **[Meditation](breathing.md)**: I'm not joking, meditation is literally one of the most powerful actions we have for improving our mental health, since it returns our bodies to our physiological baselines (read, it relaxes us).
 
 ## Conditions
-The enduring, but not permanent, factors of our life like our [jobs](working.md), where we [live](homes.md), and the environmental problems we face in day to day life. 
+The enduring, but not permanent, factors of our life like our [jobs](working.md), where we [live](home.md), and the environmental problems we face in day to day life. 
 
 The research shows that negative conditions can really impact our happiness, but positive conditions don't affect it much. Think about it like this -- the brain would much rather remove some pain from life than add in some new pleasures. Fixing an annoying leaky faucet or moving away from toxic neighbors does a lot more than upgrading to a luxury car for our happiness.
 

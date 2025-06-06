@@ -2,31 +2,28 @@
 title: Working
 date: 2025-06-01
 ---
-Working refers to gathering resources from the environment (tools, skills, knowledge) in order to perform the other actions of [living](/living). It's basically a meta-action that is done to support all the other actions.
+Working refers to all of the meta tasks of [living](/living) that need to be done to keep life moving. For example, eating is *not* work, but gathering food and building the tools of a kitchen *are* work. Generally, work can be grouped into the following categories:
+- **[maintaining](/maintaining)** resources, tools, and envs needed to live.
+- **laboring**: performing a sequence of actions to generate goods/services that you can then sell to an employer/customer for money
+	- [writing](/writing) is my profession/vocation/career/etc
+- **[selling](/selling)** labor to exchange for money or resources/tools/envs
+	- [applying](/applying) for jobs
+- **[learning](/learning)** to track actions, get feedback, and adapt continuously to learn new skills that are valuable in changing markets.
 
-- **laboring** at jobs if you have one
-	- *craftsmen*: merchants/sellers, designers/R&D, builders, maintenace, operators
-		- *resources*: farmers, loggers, miners, diggers, hunters
-		- *bodies*: nurses, doctors, surgeons, trainers
-		- *structures*: foundation, roads, carpentry, concrete, steel, fertilizers, plastics, pharmaceuticals
-		- *systems*: plumbing, electrical, hvac
-		- *machines*: roads, bicycles, cars, trains, planes
-	- *government*: legislative, executive/military, judicial, lawyers, accountants
-	- *media*: writers, journalists, podcasters, youtubers, tv-people, movie-people, porn-people, radio-people
-		- *journalists*: 
-		- *entertainers*: musicians, athletes
-	- *education/religion*: teachers, staff
-- **[applying](/applying)** to jobs if you want one.
-	- learning skills (sequences of [action](/action) that people will pay you to do)
-	- gaining experience to prove you have the skills
-	- gaining education to prove you have the skills
-- **[building](building.md)** money, tools, and envs to support the rest
-	- [computing](/computing) to support your [thinking](/thinking)
-
-- Laboring: trading specialized skills in exchange for resources
-	- **Energy**: harvest coal, gas, solar, etc. and turn it into electricity
+## Other forms of labor
+- *craftsmen*: merchants/sellers, designers/R&D, builders, maintenace, operators
+	- *resources*: farmers, loggers, miners, diggers, hunters
+	- *bodies*: nurses, doctors, surgeons, trainers
+	- *structures*: foundation, roads, carpentry, concrete, steel, fertilizers, plastics, pharmaceuticals
+	- *systems*: plumbing, electrical, hvac
+	- *machines*: roads, bicycles, cars, trains, planes
+- *government*: legislative, executive/military, judicial, lawyers, accountants
+- *media*: writers, journalists, podcasters, youtubers, tv-people, movie-people, porn-people, radio-people
+	- *journalists*: 
+	- *entertainers*: musicians, athletes
+- *education/religion*: teachers, staff
 
 ## Related
 - [communicating](/communicating)
-- [building](building.md)
+- [maintaining](maintaining.md)
 - [living](/living)

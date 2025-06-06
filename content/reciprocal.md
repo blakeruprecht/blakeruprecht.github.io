@@ -1,10 +1,10 @@
 ---
-title: Reciprocity
+title: Reciprocal
 ---
+AKA aligned, responsible, just, sporting
+
 > "Now our minds are one."
 > -Haudenosaunee Thanksgiving Address
-
-AKA Responsibility, Alignment, Ownership, Fairness, Sportsmanship, Righteousness
 
 - **Belief that I matter**. If my wants/needs matter more than anybody else, that means we all matter. If I don't matter, that means nobody matters. I know what side I want to be on -- mattering is more fun!
 - **Justice = Alignment + Responsibility.** It means aligning your actions with fairness, integrity, and regard for others and the world.

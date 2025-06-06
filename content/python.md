@@ -36,6 +36,6 @@ As always, the best way to learn about a piece of software -- read the docs!
 
 ## Related
 - [python-packages](/python-packages)
-- [computers](/computers)
+- [computer](computer.md)
 
 

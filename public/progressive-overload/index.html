@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Progressive Overload | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/progressive-overload/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Progressive Overload</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#muscle-adaptations-per-muscle">Muscle Adaptations (per muscle)</a></li>
+    <li><a href="#energy-system-adaptations">Energy System Adaptations</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>Any exercise causes a growth response. To keep improving, two conditions must be met:</p>
+<ul>
+<li><strong>Progressive Overload</strong> — The body adapts to repeated stress. To trigger further adaptation, you must increase the stimulus.
+<ul>
+<li><a href="/lifting">lifting</a>: increase sets, reps, or weight</li>
+<li><a href="/running">running</a>: increase pace, distance, or time under tension</li>
+</ul>
+</li>
+<li><strong>Sufficient Recovery</strong> — Adaptation only happens when the body has resources to rebuild.
+<ul>
+<li><a href="/sleeping">sleeping</a>: growth happens during deep sleep</li>
+<li><a href="/eating-anabolic">eating-anabolic</a>: protein + calories enable growth</li>
+<li><a href="/drinking">drinking</a>: hydration aids recovery and performance</li>
+</ul>
+</li>
+</ul>
+<h2 id="muscle-adaptations-per-muscle">Muscle Adaptations (per muscle)</h2>
+<ul>
+<li><strong>Technique</strong> - more efficient and precise movement</li>
+<li><strong>Strength</strong> - increased force output</li>
+<li><strong>Speed</strong> - faster execution of the movement</li>
+<li><strong>Power</strong> - strength x speed (explosiveness)</li>
+<li><strong>Endurance</strong> - ability to repeat the movement</li>
+<li><strong>Size</strong> - hypertrophy</li>
+</ul>
+<h2 id="energy-system-adaptations">Energy System Adaptations</h2>
+<ul>
+<li><strong>Anaerobic Endurance</strong> - short bursts (e.g. sprints, heavy lifts)</li>
+<li><strong>Aerobic Endurance</strong> - sustained, moderate effort (e.g. steady running)</li>
+<li><strong>Long-Duration Endurance</strong> - multi-hour efficiency (e.g. hiking)</li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

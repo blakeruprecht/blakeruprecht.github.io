@@ -1,25 +1,27 @@
 ---
-title: Run two miles MWF
+title: Running
 ---
+- **WHO**: Me
+- **WHEN**: 3 x/week, e.g. Tue, Thu, & Sun, for 10-60+ min
+- **WHERE**: [outside](/outside)
+- **HOW**:
+	0. Tools: [clothes](/clothes), watch & notebook or strava on phone
+	1. Run 2 miles at a zone 2 pace
+
 ## Why
-**Cardio Endurance** is what I shoot for on my runs to keep myself at an easy pace. Most cardio endurance work is focused on increasing aerobic capacity, which is basically how efficiently your body can use the oxygen your lungs are breathing in.
-- *Long-duration*: how long you can keep up easy activity. E.g. how long can you hike up a mountain for?
-- *Aerobic*: how much oxygen you can effectively use for intense activity that you can sustain for minutes at a time. E.g. how fast can you run 1.5 miles, or how far can you row in 10 minutes?
-- *Anaerobic*: maximal rate of force production you can sustain for seconds. E.g. how long can you keep up a max sprint?
+- Running is fun. It's great to get outside. I go slow, I go fast, I do what my body wants to do. It's fun to run at a fast pace and feel like a dog/deer/horse galloping through the woods.
+- You can run 3x/week slowly and be energetic for life.
+- Running is one modality that transfers to other sports and the rest of life, and can cover all cardio zones:
+	- Zone 1: [walking](/walking), still amazing for cardio endurance & having fun
+	- Zone 2: easy pace, or hiking, builds aerobic & long endurance
+	- Zone 3-4: tempo/interval pace, harder, aerobic builders
+		- Tempo: run 2 miles fast (timed)
+		- Intervals: S:F, S mins slow, F mins fast
+	- Zone 5: sprint pace, totally awesome, aerobic & anerobic builder
+- [progressive-overload](/progressive-overload) increase pace, distance, or time under tension to improve anaerobic endurance, aerobic endurance, and long-duration endurance
 
-## Running is fun
-I choose running because it's the most practical modality for the real world (fight or flight anyone?), is readily accessible, and can be done anywhere. Plus, I love [being outside](nature.md), so running is perfect all around. I also enjoy swimming and skipping rope. I don't enjoy any cardio where I'm sitting down, I already do enough of that.
+## Related
+- [lifting](/lifting)
 
-## Recovery
-**3 runs/week** enables me to balance joint and body recovery with my passion and desire to run around outside like a dog.
 
-**Two miles** is similarly a short enough distance to keep me coming back for more each time, but not too short to feel like I'm doing nothing. I typically enjoy the 1.5-3 mile range.
 
-## Pace
-**Nasal Breathing Pace**. This is the pace I run only using my nose to breathe -- it's pretty slow, and it's also a good approximation for Zone 2 running, which means low heart rate, easy pace, but still does a great job improving aerobic endurance. Also builds long-duration endurance.
-
-**Intervals** can be used to increase aerobic training. Run 4 min slow as possible, then 4 min fast as possible, and repeat 4 times for a killer 4x4 interval workout. Improves aerobic big time, with some long-duration and anaerobic too.
-
-**Tempo/Timed** runs can be an effective way to measure progress, but don't obsess over numbers! Many periods of running in my life have been killed by focusing too hard on increasing the number rather than enjoying the run. Improves aerobic big time, with some anaerobic too.
-
-**Sprinting** all-out is probably the single best exercise for both running and [lifting](/lifting) combined, since it trains both cardio endurance and muscular power. Improves aerobic and anerobic big time.

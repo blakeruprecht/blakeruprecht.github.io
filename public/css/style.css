@@ -4,9 +4,10 @@
   --mg-color: #808080;
   --bg-color: #F0EEE6;
   --theme-color: #FF2400;
+  --blue-color: #436EB1;
 
   /* Fonts */
-  --font-serif: "EB Garamond",Georgia, serif;
+  --font-serif: "EB Garamond", Georgia, serif;
   --font-sans: "NotoSans", sans-serif;
   --font-mono: "Hack", monospace;
 }
@@ -44,7 +45,6 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-
   transition:
     background-color 0.4s ease,
     color 0.4s ease;
@@ -69,15 +69,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-top: 0em;
 }
 
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.3rem; }
-h4 { font-size: 1.2rem; }
-h5 { font-size: 1.1rem; }
-h6 { font-size: 1rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1.3rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1.1rem; }
 
 p, ul, ol {
   margin-bottom: 1.25em;
@@ -164,6 +164,8 @@ blockquote {
 
 .logo a:hover {
   color: var(--mg-color);
+  text-decoration: underline;
+  text-decoration-color: var(--red-color);
 }
 
 #theme-toggle {

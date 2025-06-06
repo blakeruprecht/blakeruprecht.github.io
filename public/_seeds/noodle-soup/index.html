@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>My quest for the perfect bowl of Noodle Soup | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="&#34;I&#39;ve craved the perfect bowl of noodle soup since I saw Kung Fu Panda as a kid, and it took going halfway around the world and then returning to my hometown to realize what that dish is. Now that I know, it&#39;s my cooking quest to learn how to make it.&#34;">
+
+  <link rel="canonical" href="https://blakeruprecht.com/_seeds/noodle-soup/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>My quest for the perfect bowl of Noodle Soup</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#do-it-myself">Do it myself</a></li>
+    <li><a href="#dan-dan-noodles">Dan-dan Noodles</a></li>
+    <li><a href="#ramen-ingredients">Ramen Ingredients</a></li>
+    <li><a href="#tantanmen-ramen-attempts">Tantanmen Ramen attempts</a></li>
+  </ul>
+</nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>Holy shit, it&rsquo;s all coming together. After watching <em>Kung Fu Panda</em> as a kid, I&rsquo;ve been craving a delicious Asian nooodle-soup dish. Instant ramen is a good solution for $1 and a heart attack, but I want something fresh, wholesome, and delicious. Before this journey, ramen never did it for me, and other dishes like Pad Thai and Lo Mein just didn&rsquo;t hit the spot.</p>
+<p>I never liked Thai food, and I&rsquo;m a serious food explorer. I force myself to like everything, which has paid off in spades over the years, but I just couldn&rsquo;t get over the black licorice taste of Thai basil. Then I found myself in Thailand and Laos for 64 days, and it was really a &ldquo;sink or swim&rdquo; flavor experience. Eating fresh street food helped me gain an appreciation for all of the flavors Thai cuisine has to offer. I started off with many dishes of Pad Thai, but quickly realized that Thailand has much more to offer than boring peanut noodles. Here&rsquo;s the journey, in brief.</p>
+<figure><img src="/khao-soi.jpg"
+    alt="Khao Soi from"><figcaption>
+      <p><em>Khao Soi</em> from Chaing Mai, Thailand.</p>
+    </figcaption>
+</figure>
+
+<p>After eating delicious chicken noodle soup and lots of Pad Thai in Bangkok, my sister and I traveled north to Chaing Mai, a college town very similar to my own, Columbia, MO. I fell in love with their famous dish, Khao Soi, which is all over the place, and every single version was great. It&rsquo;s a chicken coconut curry noodle soup, and while that may sound like a lot going on, it&rsquo;s perfectly balanced and freakishly delicious. I&rsquo;d never really enjoyed ramen before, but this dish showed how good a noodle soup could be.</p>
+<figure><img src="/pad-kra-pao.jpg"
+    alt="The dish my friend at Pak Up taught me to make."><figcaption>
+      <p><em>Pad Kra Pao</em>, homemade by my friend James.</p>
+    </figcaption>
+</figure>
+
+<p>This is a delicious stir fry of minced pork, Thai holy basil, red chilis, and a fishy sauce served on rice. Yes, after eating enough Thai food, I came to love their basil, and this dish really exemplifies the &ldquo;holy basil&rdquo; name. My friend at <em>Pak Up Hostel</em> (100% recommend) taught me how to make it. It&rsquo;s a surprisingly simple recipe that packs a serious flavor punch. I loved it almost everywhere I got it, but the homemade version was hands-down the best.</p>
+<figure><img src="/fried-mussels.png"
+    alt="The stand that sold fried mussels."><figcaption>
+      <p><em>Mussel Stir Fry</em> from the Krabi City Night Market.</p>
+    </figcaption>
+</figure>
+
+<p>The stand only sold two things: Pad Thai, which was the best version I had in all of Thailand, and another dish that included stir fried eggs and fried mussels, which I only ever saw at this one place. I don&rsquo;t really know what mussels are, and I don&rsquo;t care, this was the best tasting stir fry I&rsquo;ve ever had. Whatever this chef is doing, he&rsquo;s doing it all right.</p>
+<figure><img src="/pork-noodles.jpg"
+    alt="The Sichuan Pork Noodles from Easy Cafe in Krabi"><figcaption>
+      <p><em>Szechuan-Thai Pork Stew</em> from Easy Cafe in Krabi.</p>
+    </figcaption>
+</figure>
+
+<p>This became the gold standard of curries. I found a place in Krabi called <em>Easy Cafe</em> that served this dish, which consisted of thick wheat noodles, almost like udon, served alongside a pork curry with a dark red Sichuan sauce. This started my hunt for more Sichuan flavors, which really felt like the missing ingredient in Thai food. This gravy combined Thai flavors with Sichuan peppercorns and Indian-style sauce, which reminded me of home. I loved it, but couldn&rsquo;t find it anywhere else.</p>
+<figure><img src="/sichuan-ramen.jpg"
+    alt="Sichuan ramen from a stall at the Luang Prabang night market"><figcaption>
+      <p><em>Mala Ramen</em> from Noodle Station in Luang Prabang, Laos.</p>
+    </figcaption>
+</figure>
+
+<p>This is the dish I have taken back with me in my heart. I want to eat it everyday, which is what I did after discovery, eating it 10 times in the eight-days I was around. I found a <a href="https://www.youtube.com/watch?v=UOrtUFHEWcE">video</a> of the night market stand. I asked the owner for his recipe, and all he did was laugh and say it was made with &ldquo;love&rdquo;, and by god he is right. What&rsquo;s in ramen? I have no idea, but this soup was umami, salty, savory, with a punch of spice, and my favorite, Szechuan/Sichuan peppercorns for that tingly feeling. The pork wasn&rsquo;t even that good in here, but the broth and noodles more than made up for it. After eating this, the light bulb for ramen went off in my head &ndash; I get it now.</p>
+<figure><img src="/menya-rui.jpeg"
+    alt="Tantanmen ramen from Menya Rui"><figcaption>
+      <p><em>Tantanmen Ramen</em> from Menya Rui in St. Louis.</p>
+    </figcaption>
+</figure>
+
+<p>One of the all time best dishes I&rsquo;ve ever had. After standing in line for 2.5 hours in the middle of Missouri winter, I took one bite and was instantly transported back to the 95 degree swamp heat of Laos. Except this version was even better (at 10x the price). Time seemed to stop ticking as I slurped up the noodles and soup. It doesn&rsquo;t say it on the menu, but this dish also had Sichuan peppercorns. Menya Rui is ridiculous. A hole in the wall ramen shop seemingly imported from Japan, with the red lanterns and paper walls to match, situated in a random strip mall in the St. Louis suburbs. Ten months after traveling around the world, I find the best noodle soup ever in my own backyard. Isn&rsquo;t that just the way?</p>
+<h2 id="do-it-myself">Do it myself</h2>
+<p>So I found it, at least until I try Pho and reevalute. But for now, it&rsquo;s Tantanmen Ramen, and I just need to learn how to make it. Luckily for me, ramen is one of the hardest dishes to make, so this shouldn&rsquo;t be easy.</p>
+<h2 id="dan-dan-noodles">Dan-dan Noodles</h2>
+<p>Since <em>Tantanmen</em> is the Japanese version of the Chinese <em>Dan Dan Mian</em> dish, let&rsquo;s take a quick look at what the original mainland dish is.</p>
+<p><em>Mian</em> means &ldquo;noodles&rdquo; in Chinese, and <em>dan dan</em> means &ldquo;peddler&rdquo; or &ldquo;street vendor.&rdquo; In Chengdu, where this dish originates, vendors used to carry a long wooden pole with two baskets on the end: one filled with noodles, the other with a mala pork sauce.</p>
+<p>This dish is pretty simple, broken down into three main parts:</p>
+<ul>
+<li>Sauce</li>
+<li>Noodles</li>
+<li>Toppings</li>
+</ul>
+<p>The <strong>sauce</strong> consists of Sichuan chili oil, which has Sichuan peppercorns fried in neutral oil with Five Spice (star anise, cloves, cinammon, fennel seeds, sichuan pepper!) and chili flakes. This oil is combined with soy sauce, shaoxing wine, sesame paste, and fresh garlic to create the noodle sauce.</p>
+<p>The <strong>noodles</strong> are pretty simple, wheat flour and water. The Chinese variety is similar to spaghetti.</p>
+<p>The <strong>toppings</strong> consist of minced pork fried with preserved mustard greens (<em>sui mi ya cai</em>), leafy greens, green onions, and chopped peanuts. Pretty simple stuff.</p>
+<h2 id="ramen-ingredients">Ramen Ingredients</h2>
+<p>Now let&rsquo;s look at what makes up a typical ramen. Ramen is a noodle soup generally divided into five major categories of ingredients, listed below:</p>
+<ul>
+<li>Noodles</li>
+<li>Broth/Soup</li>
+<li>Tare</li>
+<li>Oil</li>
+<li>Toppings</li>
+</ul>
+<p>The <strong>noodles</strong> are made from wheat flour, water, salt, and <em>kansui</em>, an alkaline mineral water containing sodium carbonate and potassium carbonate, and sometimes small amounts of phosphoric acid. This unique ingredient helps maintain texture and prevent ramen noodles from becoming weak when soaked in broth, and also give them their yellowish color. Adding broth to the dan dan noodles would typically destroy the noodles, so ramen uses a fortified noodle.</p>
+<p>Traditional ramen <strong>broth</strong> is heavily based on <em>dashi</em>, a holy combination of glutamate (from <em>kombu</em>, or dried kelp) and inosinate (from dried tuna/bonito flakes) which creates an umami bomb. Dried sardines or anchovies can be substituted for tuna/bonito. Combining two ingredients that are incredibly high in those two substances creates an umami experience that is much greater (8x in fact) than the sum of it&rsquo;s parts. The rest of the broth is usually made from meat/veggies.</p>
+<ul>
+<li><em>Chintan</em> soup is made by boiling chicken, pork, vegetables, and/or niboshi. Really, it&rsquo;s any generic version of broth. A simple example is whole chicken simmered for six hours.</li>
+<li><em>Paitan</em> soup is made by boiling pork or chicken bones over high heat for hours at a time, allowing the bones to emulsify into the soup, creating an opaque liquid. Pork broth is called <em>tonkotsu</em>, chicken broth is called <em>tori paitan</em>.</li>
+</ul>
+<p><strong>Tare</strong> provides the salt for ramen. There are three main types:</p>
+<ul>
+<li><em>Shio</em> (salt) tare is the simplest version, and the hardest to get right, apparently.</li>
+<li><em>Shoyu</em> (soy sauce) ramen is similar to <em>shio</em>, but with the addition of soy sauce to add a different salt flavor and more umami.</li>
+<li><em>Miso</em> tare is based on fermented bean paste.</li>
+</ul>
+<p>Any type of <strong>oil</strong> can be used as the fatty flavor base to the soup. For Tantanmen Ramen, and anything Mala or Sichuan flavored, Sichuan Chili Oil is the obvious choice. This is the same as the oil used in Dan Dan Mian.</p>
+<p>Many different <strong>toppings</strong> can be added to ramen, this is the least important part of the dish, but probably the most eye-catching. Some toppings are very famous, and almost a necessity, like the <em>chashu</em> pork and funny egg. In Laos, &ldquo;Noodle Station&rdquo; used the shittiest pork imaginable as a topping, no egg, and the dish was still S-tier. I rest my case.</p>
+<ul>
+<li><em>Chashu</em>: sliced barbecued/braised pork</li>
+<li><em>Ajitama</em>/<em>Ajitsuke tamago</em>: boiled egg soaked in a combination of soy sauce and vinegar for two days</li>
+<li><em>Negi</em>: green onion</li>
+<li><em>Menma</em>: lactate-fermented bamboo shoots</li>
+<li><em>Nori</em>: dried seaweed</li>
+<li><em>Takana-zuke</em>: pickled &amp; seasoned mustard leaves</li>
+<li>Bean sprouts</li>
+</ul>
+<h2 id="tantanmen-ramen-attempts">Tantanmen Ramen attempts</h2>
+<p>(WIP)</p>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

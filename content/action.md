@@ -10,7 +10,7 @@ date: 2022-06-15
 ## Related
 - [thinking](/thinking) - the bodily process in an [agent](/agent) that chooses action
 - **[working](/working)**: earn resources to keep living
-- **[building](building.md)** tools and envs to support the rest
+- **[maintaining](maintaining.md)** tools and envs to support the rest
 
 - [communicating](/communicating),talk to everyone, say hello, share my fire, laugh loudly, joke freely, flirt boldly, share ILYs, 
 - **[sharing](/sharing)** touch, time - celebration of togetherness (any get to gether with another brain might as well be a stinkin party! fuck yeah), gifts, service

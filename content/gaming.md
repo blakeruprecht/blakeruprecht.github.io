@@ -2,13 +2,18 @@
 title: Gaming
 date: 2025-06-03
 ---
-Not really full on [sports](/sporting), but still competitive/cooperative [activities](/action) which can provide all sorts of love.
+- WHO: me
+- WHEN: free time
+- WHERE: anywhere
 
-Fun board games
+## Unofficial Games
+- Anything can be turned into a game.
+
+## Board Games
 - Chess
 - Texas Hold'em
 
-Fun video games
+## Video Games
 - Smash Bros
 - Mario Kart
 - Minecraft

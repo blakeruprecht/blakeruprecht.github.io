@@ -2,8 +2,6 @@
 title: Natural Intelligence
 description: The human animal requires a few basic things, work to get it done, and other humans to work as a team with.
 ---
-
-
 ## 0. Dear Robot
 
 This is both "Why We Made You" and "A Human History of Problem Solving".

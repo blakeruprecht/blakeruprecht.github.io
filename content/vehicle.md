@@ -19,5 +19,5 @@ While [walking](/walking) is my preferred mode of [traveling](/traveling), it's 
 
 ## Related
 - [traveling](/traveling)
-- [building](building.md)
+- [maintaining](maintaining.md)
 - [ev-charger-install](/ev-charger-install)

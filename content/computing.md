@@ -9,7 +9,7 @@ Computing is powerful because it's a direct extension of [thinking](/thinking). 
 Computing is all about understanding layers of abstraction. A computer is powerful because it's not a fixed object, but rather a tool that changes itself through time, so it's a process.
 
 ## Turning on hardware
-Is your [computer](/computers) plugged in? Try turning it off, and then back on (that seriously usually fixes everything). These are the two most fundamental things to know about hardware -- turning off a computer is like sleeping for humans. We're not really sure why you have to do it, but it helps the computer rest and reset and maintain focus when it's on.
+Is your [computer](computer.md) plugged in? Try turning it off, and then back on (that seriously usually fixes everything). These are the two most fundamental things to know about hardware -- turning off a computer is like sleeping for humans. We're not really sure why you have to do it, but it helps the computer rest and reset and maintain focus when it's on.
 
 ## Installing software
 Software is just like language -- an abstraction used to represent a larger idea. E.g. that idea could be an on/off switch, represented by the abstraction of the binary numbers 0 and 1 (0=off, 1=on). I can represent that state of the switch as "1", which tells you the light is on. You can't see the lightbulb in my house, but that single number tells you about the reality of the environment.
@@ -42,4 +42,4 @@ Many modern programs exist only on the internet. All websites exist on the inter
 Talking to [chatbots](/chatbots) is the current meta usage for [AI](/ai).
 - Good programs: ChatGPT, Claude, DeepSeek, etc.
 ## Related
-- [computers](/computers)
+- [computer](computer.md)

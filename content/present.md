@@ -2,7 +2,7 @@
 title: Present
 date: 1776-07-04
 ---
-AKA Flow, Balance, Acceptance, Temperance, Calm
+AKA flowing, balanced, temperate, moderate, calm
 
 - **Presence = Attention + Balance**
 - **Love is attention.** Where you place your awareness reveals what you value.
@@ -15,7 +15,7 @@ AKA Flow, Balance, Acceptance, Temperance, Calm
 ## Related
 - [living](/living)
 - [breathing](/breathing)
-- [decisive](decisive.md)
+- [tenacious](tenacious.md)
 - [Happiness](/happiness) = S + C + V
 	- V = Flow + Relationships
 

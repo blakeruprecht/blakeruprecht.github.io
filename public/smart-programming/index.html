@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Smart Programming | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/smart-programming/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Smart Programming</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents"></nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>For <a href="/lifting">lifting</a>, it&rsquo;s all about quantity over quality. Since recovering from <a href="/progressive-overload">progressive-overload</a> is so difficult (it requires lots of sleep, calories, and protein), smart programming is the key to continually making progress with your lifts.</p>
+<p><strong>Track</strong> sets, reps, and weights lifted for every exercise</p>
+<ul>
+<li>The only way to ensure that you are <a href="/progressive-overload">progressively overloading</a> your muscles is to track the sets, reps, and weight lifted for each exercise you do. This way, you can easily verify that your numbers are going up.</li>
+</ul>
+<p><strong>Minimum Effective Dose</strong></p>
+<ul>
+<li>Recovery is where muscle is built, so overload the muscles as little as possible to stimulate a growth response, and then chill.</li>
+<li>It&rsquo;s better to start with too little lifting and gradually add in more volume, rather than starting with too much and never growing.</li>
+</ul>
+<p><strong>Pick a training split</strong> that makes sense for you</p>
+<ul>
+<li><em>Full-body</em>: lift 3-4 x/week with a day off between every lift. Every lift will hit the entire body, all the muscles, hence the name &ldquo;full-body&rdquo;. This stimulates the maximum growth response, since each session prioritizes big <a href="/compound-lifts">compound lifts</a>.</li>
+<li><em>Upper-Lower</em>: 3-4 x/week, alternate doing lower body (squat, hinge) or upper body (push, pull) lifts. Easier to get more leg isolation and upper isolation exercises in.</li>
+<li><em>Push-Pull-Legs</em>: 3-6 x/week, each workout focuses on one of the three categories and includes a lot more isolation lifts or compound variations.</li>
+<li><em>Bro Split</em>: focuses on one muscle group per workout, e.g. Chest, Back, Legs, Arms, Shoulders. Lots of upper body volume, this tends to be overkill for most lifters unless you just do 1-2 lifts per workout.</li>
+</ul>
+<p><strong>Good basic programs</strong></p>
+<ul>
+<li><em>Stronglifts 5x5</em> - The staple for newbies everywhere, but honestly great for any lifter. Great way to make gains if you respond well to high volume. E.g. alternate A and B every time, lift MWF, e.g. week 1 MF: A, W: B, and week 2 MF: B, W: A.
+<ul>
+<li>A: Squat 5x5, Bench 5x5, Row 5x5</li>
+<li>B: Squat 5x5, OHP 5x5, Deadlift 1x5</li>
+</ul>
+</li>
+<li><em>Wendler 5/3/1</em> - Very simple program with one heavy set per lift per week, great way to make gains for people who respond well to low volume.
+<ul>
+<li>A: Squat 5/3/1, Lunges 5x10</li>
+<li>B: Bench 5/3/1, Chinups 5x10, Triceps 5x10</li>
+<li>C: Deadlift 5/3/1</li>
+<li>D: OHP 5/3/1, Rows 5x10, Biceps 5x10</li>
+</ul>
+</li>
+<li><em>KBoges 50/75/100</em> - Even simpler than Wendler with a similar philosophy &ndash; two warm-up working sets per lift and one heavy all-out set. e.g.
+<ul>
+<li>M: Squat 50/75/100, Pushup 3x, Pullup 3x</li>
+<li>W: Bench 50/75/100, Pushup 3x, Pullup 3x</li>
+<li>F: Deadlift 50/75/100, Pushup 3x, Pullup 3x</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>

@@ -20,4 +20,4 @@ If character is a description of your overall enduring choices through time, vir
 - [rational](rational.md) - see clearly, know truly, choose well
 - [justice](justice.md) - carry what's yours, do what's right, own your role
 - [present](present.md) - be here, stay balanced, act with loving focus
-- [decisive](decisive.md) - step forward, keep moving, hold the line, take [action](/action)
+- [tenacious](tenacious.md) - step forward, keep moving, hold the line, take [action](/action)

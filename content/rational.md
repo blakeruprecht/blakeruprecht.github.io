@@ -1,8 +1,8 @@
 ---
-title: Rationality
+title: Rational
 date: 1776-07-04
 ---
-AKA Prudence, Discernment
+AKA wise, prudent, discerning
 
 - **Keep it simple stupid.** The fastest way to go from A to B is a straight line.
 - **Minimal**. If minimum wasn't good enough, it wouldn't be the minimum.

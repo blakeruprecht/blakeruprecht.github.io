@@ -1,24 +1,21 @@
 ---
-title: "Blake Ruprecht"
-description: "Blake Ruprecht's personal website."
+title: Blake Ruprecht
+description: Home of Blake Ruprecht
 ---
-## Hi
-I'm Blake. I write stuff to help people understand ideas. My [resume](/cv) and what I'm doing [now](/now).
+# Hi!
+I'm Blake. I write stuff to help people understand ideas. My current [resume](/static/cv.pdf) and what I'm doing [now](/now).
 
 I can help with:
 - Explaining complex ideas through essays/tutoring/teaching and more
 - Copywriting for websites, newsletters, landing pages
+- AI understanding, prompting, and integration
 - Website development, technical SEO, and content strategy
-- AI understanding, prompting, and integration (I used to [research AI safety](/researching))
 
-Examples:
+Example writing:
 - [Civilizations outcompete barbarians](/civilization)
 - [Growth mindset](/growth-mindset)
 - [What my AI safety research taught me](/research)
-
-## More
-- essays at the [archive](/archive)
-- read my latest thinking on [Substack](https://blakeruprecht.substack.com)
+- More short essays at my [archive](/archive).
 
 ## Contact Me
 [email](mailto:blakecruprecht@gmail.com), [linkedin](https://linkedin.com/in/BlakeRuprecht), [github](https://github.com/BlakeRuprecht)

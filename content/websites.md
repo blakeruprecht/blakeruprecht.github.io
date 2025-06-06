@@ -43,4 +43,4 @@ Whenever you types "blakeruprecht.com/websites" into a web browser, your compute
 - https://wikipedia.org/
 
 ## Related
-- [computers](/computers)
+- [computer](computer.md)

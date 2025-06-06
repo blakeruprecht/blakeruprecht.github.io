@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tacos al Pastor | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/tacos-al-pastor/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">Blake Ruprecht</a>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Tacos al Pastor</h1>
+    </header>
+
+    
+        <aside class="toc">
+            <nav id="TableOfContents"></nav>
+        </aside>
+    
+
+    <div class="post-content">
+        <p>Ingredients</p>
+<ul>
+<li>Pork Shoulder (3-4 lbs)</li>
+<li>Ancho Chilis (5ish)</li>
+<li>Guajillo Chilis (5ish)</li>
+<li>Chilis de Arbol (5ish)</li>
+<li>Chipotles in Adobo (5ish)</li>
+<li>Pineapple (1)</li>
+<li>White Onion (1)</li>
+<li>Garlic (5-10 cloves)</li>
+<li>Corn Tortilla</li>
+<li>Cilantro</li>
+<li>Limes</li>
+<li>Cheese (optional)</li>
+</ul>
+<p>Steps</p>
+<ol>
+<li>Toast and rehydrate the dried chilis</li>
+<li>Add the <strong>chilis</strong>, <strong>onion</strong>, <strong>garlic</strong>, 1/3 of the <strong>pineapple</strong> in chunks, and some of the <strong>water</strong> from rehydrating the chilis to a blender and blend smooth.</li>
+<li>Brown the <strong>pork shoulder</strong> in a dutch oven.</li>
+<li>Pour marinade over the pork</li>
+<li>Cook the pork mixture in the oven at 300 F for 2-4 hours (until a fork easily shreds the meat).</li>
+<li>Serve the pork on warm <strong>corn tortillas</strong> with <strong>cilantro</strong>, <strong>lime</strong>, maybe <strong>cheese</strong> (like monterrery jack), and some slices of grilled and/or fresh <strong>pineapple</strong>.</li>
+</ol>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+  </div>
+</footer>
+</body>
+</html>
