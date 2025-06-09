@@ -1,5 +1,5 @@
 ---
-title: How to cook Lunchbox
+title: Lunchbox
 ---
 [Gather](gathering.md)
 - 1 Apple, *pink lady*

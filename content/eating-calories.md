@@ -1,5 +1,6 @@
 ---
 title: Eating calories
+date: 2025-06-02
 ---
 Humans burn energy just by [breathing](/breathing), let alone all the energy required to work, think, run, hug, lift, cook, gather food, etc. Humans are biological machines that turn hamburgers and beer into more humans. In order to do that properly, we need to keep powering ourselves by ingesting food that we can digest for calories.
 

@@ -1,5 +1,6 @@
 ---
 title: Burrito
+date: 2025-05-19
 ---
 Ingredients
 - Chicken

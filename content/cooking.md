@@ -1,5 +1,6 @@
 ---
-title: Cook complete meals to maintain flavor
+title: Cooking
+date: 2025-06-03
 ---
 - **Who**: Anyone can cook.
 - **When**: Breakfast, Lunch, but mainly Dinner

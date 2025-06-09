@@ -1,5 +1,6 @@
 ---
 title: Lifting
+date: 2025-06-07
 ---
 Lifting is fun, primal, joyful movement. You can lift 3 x/week (e.g. MoWeFr) doing a few basic exercises and be strong for life. Focus on [compound lifts](/compound-lifts) over isolation fluff. [Increase weight](/progressive-overload) when you can do 3x12 (track your lifts). Stick with one program and focus on progression, not complexity. Recovery builds muscle, so don't overdo it.
 

@@ -1,5 +1,6 @@
 ---
 title: Disc golfing
+date: 2025-06-06
 ---
 Disc Golf is fun. It's played at courses that are usually free. It's a great sport to drink and smoke during.
 

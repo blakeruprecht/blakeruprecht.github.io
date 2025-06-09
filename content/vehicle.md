@@ -1,5 +1,6 @@
 ---
-title: Vehicles
+title: Vehicle
+date: 2025-06-06
 ---
 While [walking](/walking) is my preferred mode of [traveling](/traveling), it's by far the slowest. [Cycling](/cycling) is my preferred option for short distances, and [driving](/driving) when I need to go fast or far.
 

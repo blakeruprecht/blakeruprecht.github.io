@@ -1,7 +1,7 @@
 ---
 title: Writing
-description: Writing has always been a dubious profession from an income standpoint. Will I be able to go against the grain and make it as a pro?
 date: 2025-06-03
+description: Writing has always been a dubious profession from an income standpoint. Will I be able to go against the grain and make it as a pro?
 ---
 Writing refers to physical [pictures](/pictures) which represent our spoken [language](/language). These pictures take the form of letters and numbers, and a combination of these form words, which combine to form sentences and paragraphs, all of which is called text.
 

@@ -1,6 +1,7 @@
 ---
 title: Smoothie
 description: "\"I make this smoothie 350 days per year. It's delicious and nutritious.\""
+date: 2025-04-18
 ---
 Ingredients
 - ~100g **Banana** (1 normal sized one)

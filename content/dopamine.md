@@ -1,5 +1,6 @@
 ---
 title: Dopamine
+date: 2025-06-03
 ---
 One of the most important neurochemicals to regulate with behavior.
 

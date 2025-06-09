@@ -1,5 +1,5 @@
 ---
-title: United States of America
+title: USA
 ---
 I'm from [STL](/STL), [MO](/MO), USA.
 

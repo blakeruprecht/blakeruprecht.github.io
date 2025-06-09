@@ -1,6 +1,6 @@
 ---
-date: 2024-06-20
 title: DCBS hot sauce recipe
+date: 2024-06-20
 description: "\"My friend invented a hot sauce made from 25 habaneros. It's delicious, creamy, and full of brah.\""
 ---
 

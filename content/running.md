@@ -1,5 +1,6 @@
 ---
 title: Running
+date: 2025-06-07
 ---
 Running is fun. You can run 3 x/week (e.g. TuThSa) slowly and be fit for life. Go fast sometimes if you want. [Add speed or distance](/progressive-overload) to improve.
 

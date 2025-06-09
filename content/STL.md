@@ -1,5 +1,6 @@
 ---
-title: Saint Louis
+title: STL
+date: 2025-06-02
 ---
 I'm from STL, [MO](/MO), [USA](/USA).
 

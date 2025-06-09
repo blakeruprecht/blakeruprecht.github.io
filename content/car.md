@@ -1,5 +1,6 @@
 ---
 title: Car
+date: 2025-06-03
 ---
 - Engine
 - Four Wheels

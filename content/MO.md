@@ -1,5 +1,6 @@
 ---
-title: Missouri
+title: MO
+date: 2025-06-03
 ---
 I'm from [STL](/STL), MO, [USA](/USA).
 

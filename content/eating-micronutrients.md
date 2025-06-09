@@ -1,5 +1,6 @@
 ---
 title: Eating micronutrients
+date: 2025-06-03
 ---
 Micronutrients refer to smaller chemical molecules and just individual atoms the body needs to ingest because we can't create these for nothing. They're part of the raw input to the human body.
 

@@ -1,5 +1,6 @@
 ---
 title: My Menu
+date: 2025-06-06
 ---
 For my own inspiration, grouped roughly into categories based on dominant ingredient, NOT based on cuisine or tradition. Hence the -ish.
 

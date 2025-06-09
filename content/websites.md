@@ -1,6 +1,6 @@
 ---
-title: Build Simple Websites
-draft:
+title: Websites
+date: 2025-06-03
 ---
 ![Wikipedia's style inspiration sheet](/static/wikipedia-web-design.png)
 > "Keep it simple, stupid."

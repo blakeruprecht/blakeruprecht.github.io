@@ -1,5 +1,6 @@
 ---
 title: Eating anabolic
+date: 2025-06-03
 ---
 **Anabolism** refers to the body being in a state of growth. If you want to grow as a child, or build muscle as a child/adult, you will need to eat an excess of calories and protein to grow.
 

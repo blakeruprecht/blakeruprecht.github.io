@@ -1,5 +1,6 @@
 ---
 title: Balling
+date: 2025-06-06
 ---
 Play any ball sport the same way -- get the right ball, find a field to play on, and ideally, two teams to play with/against.
 ## Softball

@@ -1,5 +1,6 @@
 ---
 title: Fighting
+date: 2025-06-03
 ---
 - **WHO**: Me
 - **WHEN**: dunno yet

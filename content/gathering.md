@@ -1,5 +1,6 @@
 ---
 title: Gathering
+date: 2025-06-03
 ---
 ## Keep an enduring list
 I keep one Grocery List on my phone in the notes app, with checkboxes enabled. This way at the store, I check off everything I buy. During the week, whenever I run out of an ingredient, I uncheck that item on my phone list. This way, I always have a list I'm updating, and anytime I happen to enter into a grocery store, I can pull out my phone and know exactly what I need at that moment (or at least have a good guess).

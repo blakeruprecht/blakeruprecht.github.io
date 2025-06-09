@@ -1,5 +1,6 @@
 ---
 title: Breathing
+date: 2025-06-03
 ---
 
 - Zen meditation is the art of doing nothing

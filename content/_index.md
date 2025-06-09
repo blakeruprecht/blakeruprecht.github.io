@@ -3,13 +3,15 @@ title: Blake Ruprecht
 description: Home of Blake Ruprecht
 ---
 # Hi!
-I'm Blake. I write stuff to help people understand ideas. My current [resume](/static/cv.pdf) and what I'm doing [now](/now).
+I'm Blake. I write stuff to help people understand ideas.
+
+**Now seeking:** AI customer support, Technical writing, or content roles → [my resume](/cv.pdf) and [email me](mailto:blakecruprecht@gmail.com)
 
 I can help with:
-- Explaining complex ideas through essays/tutoring/teaching and more
-- Copywriting for websites, newsletters, landing pages
-- AI understanding, prompting, and integration
-- Website development, technical SEO, and content strategy
+- Explaining complex ideas through essays, docs, and tutorials
+- Writing clear copy for websites, newsletters, and product pages
+- Making AI tools understandable and useful (prompting, onboarding)
+- Technical SEO, web content, and simple site development
 
 Example writing:
 - [Civilizations outcompete barbarians](/civilization)
