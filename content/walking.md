@@ -2,17 +2,7 @@
 title: Walking
 date: 2025-06-03
 ---
-- **WHO**: Me
-- **WHEN**: whenever
-- **WHERE**: [outside](/outside)
-- **HOW**:
-	0. Tools: [clothes](/clothes)
-	1. Walk
+Walking is fun, and gets you [outside](/outside) consistently. It's the easiest way to travel from A to B, but also the slowest. Zero equipment needed. Slower than both [cycling](/cycling) and [driving](/driving), but this gives time to think and relax.
 
-## Why
-- Fun, love getting outside and hearing the birds
-- Easiest form of [traveling](/traveling)
+1. Walk daily, move at your natural pace.
 
-## Related
-- [traveling](/traveling)
-- [running](/running)

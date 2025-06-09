@@ -16,7 +16,7 @@ AKA wise, prudent, discerning
 
 ## Related
 - [thinking](/thinking)
-- [procrastination](/procrastination)
+- [procrastinating](/procrastinating)
 - [pefectionism](/perfectionism)
 - [growth-mindset](/growth-mindset)
 

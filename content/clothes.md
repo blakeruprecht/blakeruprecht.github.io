@@ -2,24 +2,22 @@
 title: Clothes
 date: 2025-05-23
 ---
-Clothes are useful for warmth and protection from the weather. As a man that lives in a [humid subtropical climate](/STL), I find that I need a wide range of clothing to keep myself comfortable year round.
+Useful for warmth, weather protection, and social conformity.
 
-Besides weather protection, clothes are also important for social conformity. For clarity, I bolded all of the clothing that I think is important for **weather protection**, and italicized all of the clothing that is optional for *social conformity*.
-
-## ACCS
+## Eyes/Head/Hands
 - **Sunglasses** - To [protect my eyes](/cleaning) from UV sunlight rays
 - **Ballcap/Brimmer** - A hat with a brim to shield my face from the sun, a full-brim is useful for being outside all day.
 - **Beanie** - A warm hat for winter since my hair is short.
 - **Gloves** - Warm gloves for winter for my hands.
 
-## LYRS
+## Layers
 - **Rain Shell** - Outerlayer, mainly protects against rain, provides lots of warmth.
 - **Fleece Jacket** - Midlayer for warmth during active movement.
 - **Puffer Coat** - Midlayer for warmth when chilling, or layering over the fleece.
 - *Blazer* - A specific type of nice fitted jacket for formal events.
 - *Suit* - Debatably necessary, depends on your [job](/working) and your social circle. A blazer, dress shirt, nice chinos, and sneakers/oxfords can replace a suit mostly.
 
-## TOPS
+## Shirt
 - **Tshirts** - Simple, well-fitted tshirts with no logos/designs are a classic staple. Cotton is the simplest and most stylish, polyester is good for activity.
 - **Tanks** - For wearing during hot weather.
 - *Polo* - Short sleeve shirt with partial button down front, good for warm weather.
@@ -27,7 +25,7 @@ Besides weather protection, clothes are also important for social conformity. Fo
 - *Flannel* - Button down shirt made of wool for warmth, good for winter.
 - *Dress Shirt* - Button down shirt that looks nice by itself or with a blazer.
 
-## LEGS
+## Pants
 - **Boxers** - Underwear to protect pants.
 - **Baggies** - Athletic shorts that are good for activities.
 - **Hikers** - Athletic pants that are good for activities.
@@ -35,7 +33,7 @@ Besides weather protection, clothes are also important for social conformity. Fo
 - *Jorts/Chorts* - Hot weather shorts for nice occasions.
 - *Jeans/Chinos* - Pants for work or nice occasions.
 
-## FEET
+## Shoes
 - **Socks** - Underwear for the feet.
 - **Runners** - A pair of running shoes for all activities, lifting, running, walking, etc, wide toe-boxes and no drop are my favorites.
 - **Sandals** - For hot weather, with straps around the ankles for foot health.

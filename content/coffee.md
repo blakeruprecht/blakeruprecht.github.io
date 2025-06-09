@@ -1,8 +1,5 @@
 ---
-title: I love Coffee
+title: Coffee
+date: 2022-09-13
 ---
-Seems like coffee is the most universally loved drug on Earth.
-
-Coffee seems to have positive effects on reducing rates of heart disease, high blood pressure, etc, but I'm not sure about this.
-
-My tutorial on [how to brew cold-brew coffee](/cold-brew).
+A magical little bean produces go-go juice. Coffee seems to be overall pretty healthy. Here's how I [brew cold-brew coffee](/cold-brew) at home.

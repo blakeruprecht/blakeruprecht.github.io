@@ -1,25 +1,22 @@
 ---
 title: Lifting
 ---
-- **WHO**: Me
-- **WHEN**: 3 x/week, e.g. Mon, Wed, Fri, for 10-60+ min
-- **WHERE**: [gym](/gym)
-- **HOW**: 
-	0. Tools: [clothes](/clothes), notebook or strong on phone
-	1. Stretch 60 sec per stretch after [running](/running), or short routine before lifting.
-		- (Long) Chin Tucks, Wall Slides, Dead Hangs, Thoracic, Couch Stretch, Deep Squat
-		- (Short) Band Pull-Apart/FacePull, Glute Bridge/Bird Dog, Deep Squats
-	2. Lift full-body, 1) 50, 75, 100. 2-4) 3x8-12.
-		- M: Hinge, Pullup, OHP, core
-		- W: Bench, Row, Glute, Core
-		- F:  Squat, Chinup, Dip, core
+Lifting is fun, primal, joyful movement. You can lift 3 x/week (e.g. MoWeFr) doing a few basic exercises and be strong for life. Focus on [compound lifts](/compound-lifts) over isolation fluff. [Increase weight](/progressive-overload) when you can do 3x12 (track your lifts). Stick with one program and focus on progression, not complexity. Recovery builds muscle, so don't overdo it.
 
-## Why
-- Lifting is fun. It's primal, joyful movement. Feel like a beast, grunt loudly, lift heavy rocks, blast tunes (e.g. AC/DC, Def Leppard, Matt Maeson).
-- You can lift 3x/week doing a few basic exercises and be strong for life.
-- [compound-lifts](/compound-lifts) (e.g. Squat, Hinge, Push, Pull, Core) > isolation fluff
-- [progressive-overload](/progressive-overload) increase sets/reps/weights  to build muscular technique, strength, speed, power, endurance, and size (per muscle)
-- [smart-programming](/smart-programming) ensures progressive overload on the compound lifts
+1. Warm up by starting light on your first exercise 
+2. 3x8-12 **Legs**: Hinge, Squat, or Split
+3. 3x8-12 **Pull**: Pullup/Chinup or Row
+4. 3x8-12 **Push**: Dip, Pushup/Bench, or Pike/OHP
+5. 3x8-12 **Core**: any variation
+
+- Stretching options to warm-up or add after [running](/running) to cool-down:
+	- Chin Tucks -- fix forward head tilt
+	- Wall Slides -- loosen up the shoulders (or Band Pull-Apart, Face Pull)
+	- Dead Hang -- loosen up the whole spine and shoulders
+	- Cobra -- loosen up the lower back and thoracic spine
+	- Couch Stretch -- loosen up tight hip flexors from sitting
+	- Deep Squat -- open up the hips
+	- Glute Bridge -- activate sleeping glutes (or Bird Dog)
 
 ## Related
 - [running](/running)

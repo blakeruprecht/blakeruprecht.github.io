@@ -1,14 +1,14 @@
 ---
-title: How to cook Smoothie
+title: Smoothie
+description: "\"I make this smoothie 350 days per year. It's delicious and nutritious.\""
 ---
-[Gather](gathering.md)
-- 1 large Banana
-- 150 g Frozen Berries
-- 60 g Oats, *old-fashioned*
-- 50 g Peanut Butter
-- 150 g Greek Yogurt, *always whole milk*
-- 300 g Whole Milk, *vitamin D enriched*
+Ingredients
+- ~100g **Banana** (1 normal sized one)
+- 150g **Frozen Berries** (black, blue, rasp, straw)
+- 60g **Oats** (old-fashioned)
+- 45g **Peanut Butter**
+- 150g **Greek Yogurt** (whole-milk)
+- 300g **Whole Milk** (vitamin D enhanced)
 
-[Cook](cooking.md)
-1. Combine all ingredients into a blender
-2. Blend until smooth
+Steps
+1. Put **ALL** into blender, blend

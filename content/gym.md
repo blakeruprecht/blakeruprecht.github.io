@@ -2,8 +2,12 @@
 title: Gym
 date: 2025-06-06
 ---
+ENV
+- Anywhere can be a gym, bodyweight works great.
+
+TOOLS
 - Gymanstics Rings
-- Jump Rope
+- Jump Rope 
 - DipBelt + Weights
 - Dumbbell + Weights
 - Adjustable Bench
@@ -11,12 +15,3 @@ date: 2025-06-06
 - Squat Rack
 - Kettlebells
 
-
-
-
-- Anywhere can be a gym.
-- Bodyweight exercise does the same thing as weighted exercise.
-- Tools to build a gym:
-	- **Gymnastics Rings**: for pullups, dips, rows, pushups, muscle-ups, leg raises, etc.
-	- **Weight Vest**: add weight to the above, and to squats, glute bridges, single-leg RDLs, etc.
-	- **DipBelt + Weights**: 

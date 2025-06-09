@@ -1,13 +1,15 @@
 ---
 title: Disc golfing
 ---
-Disc golf is an easy, accessible version of golf typically played at free courses, accompanied by user's choice of [beer](/beer) and [weed](/weed).
+Disc Golf is fun. It's played at courses that are usually free. It's a great sport to drink and smoke during.
 
-## Disc Golf discs
-The discs don't matter nearly as much as you might think, seeing people walk around with big bags full of 20+ discs. You really only need 1 to start (a putter), but you can add faster discs as you get better at throwing.
-- **Putter** - Mainly for short distance accuracy shots. Getting good at putting within 30 feet is one of the best upgrades any player can make for their game.
-- **Midrange Driver** - Easiest driver to throw, can get 300+ feet.
-- **Fairway Driver** - Harder to throw, goes farther than midrange.
-- **Distance Driver** - Very hard to throw, but can go the farthest.
+1. Chill out a bit.
+2. Get up there and rip it.
 
-When I was new to disc golf, I just stuck with a Putter and a Midrange for a long time, playing with only those two discs and getting really good at throwing the Midrange far and straight. Once I could do this reliably, I added a Fairway driver to my bag, and have only recently added a Distance driver after throwing a few sub-par games.
+- You don't need a million discs to play, just 1. Start with a midrange for everything, add a putter to improve your close game, add a fairway driver for drives over 300 feet, and finally, add a distance driver once you have the skill and speed to throw one.
+	- *Midrange*: The go-to disc for driving and every long shot. I played with just these two discs for years, until I got to the point where I could throw my midrange (5 speed) 300+ feet. 
+		- If I played with just one disc, it would be this one.
+	- *Putter*: The best way I've improved my game has been getting better at hitting putts within 30 feet. 
+	- *Fairway Driver* - The first upgrade to make is a faster driver for 300+ foot drives. I threw my first fairway driver into a lake and didn't throw another for two years.
+	- *Distance Driver* - Very fun to throw and get max distance. Need a lot of skill and arm speed to throw these.
+- Stable, overstable, understable -- just play with your discs to figure out how they fly, this stuff gets really complicated.

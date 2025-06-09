@@ -1,29 +1,11 @@
 ---
 title: Sleeping
+date: 2025-06-04
 ---
-- WHO: me
-- WHEN: daily, from 10pm-1am until 7am-10am
-- WHERE: [home](/home) - bedroom
-- HOW:
-	0. Make room dark, cool, and have blankets
-	1. Sleep when tired
-	2. Wake up at a consistent time
+Sleep is important for everything, I just don't know exactly what. Sleep for roughly 8 hours per night, but this number is unique to each person. Maintain cool temperatures in your sleeping room with plenty of blankets to get comfortable. [Sunlight](/sunbathing) is the main mechanism for waking up the body, and darkness is the main mechanism for telling the body to sleep. Wake a consistent time to set a sleep schedule and go to sleep when your body naturally feels tired.
 
-## Duration
-Sleep for one solid block roughly 8 hours in duration. The range is 6-10 hours for most healthy individuals, and it changes depending on genetics, age, etc. For most people, the smartest time to sleep is when it is dark out (night time) because sunlight controls the circadian rhythym of our bodies, a biological tool to tell our bodies to wind down when the sun goes down, and to wake up when the sun wakes up. Naturally, humans tend to sleep more in the winter, and less in the summer, just like the sun.
+1. Wake at a consistent time and view sunlight for 10+ mins (more if overcast)
+2. Sleep when tired
 
-## Cool Temperatures
-Not too hot, not too cold, just right is actually a little on the cool side, like a chilly cave. Use multiple blankets for layering options throughout the night.
-
-## Darkness
-Since the sun wakes us up, the absence of the sun also puts us to sleep. Make the place you sleep as dark as possible. Think cave lighting -- close to pitch black for a majority of the night.
-
-## Sleep in a safe place
-Duration, temperature, and lighting have a big impact on your sleep, but so does your mental sense of safety and security. No tips for this besides try to live in a safe place in general, lock your doors, carry bear spray, whatever you have to do.
-
-## Sunlight for waking
-[View sunlight](/sunbathing) early and often. Viewing morning sunlight for 10 minutes (up to 30 when it's overcast) is the most powerful way to set your sleeping rhythym. The body will start to naturally wind down 15 hours after viewing morning sunlight, putting you to sleep in time for roughly 8 hours of sleep. Note, both of those numbers change based on your bodies required duration.
-
-
-
-
+- Sunlight is the mechanism that signals the bodies natural wake/sleep rhythym. Bright sunlight upon waking (10-30 mins in duration,  regardless of time of day) signals the body to wake up at that same time the next day. More sunlight throughout the day, especially around sunset, helps this process.
+- Darkness at night (e.g. after sunset) helps the body wind-down for sleep. E.g. don't use bright overhead lights at night.

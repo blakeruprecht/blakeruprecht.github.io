@@ -1,6 +1,6 @@
 ---
 date: 2021-08-30
-title: Algorithm to Beat Procrastination
+title: Procrastinating
 description: '"A series of steps to help recognize and overcome procrastination. Mainly, address the expectancy, value, impulsiveness, and delay related to the action in question."'
 type: tree
 ---

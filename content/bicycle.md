@@ -1,7 +1,7 @@
 ---
 title: Bicycle
 ---
-A tool for [cycling](/cycling), the most efficient form of non-motorized human [travel](/traveling). 
+A tool for [cycling](/cycling). Don't overthink it, any bicycle works.
 
 Accessories you may want to add:
 - Helmet - to protect your head from deadly collisions

@@ -23,17 +23,16 @@ If you focus on the major movement patterns, you'll know how to switch out exerc
 
 ## Hinge
 - Movement: lift heavy thing off the ground
-- Main Muscles: hamstrings, glutes, 
-- Secondary Muscles: spinal erectors, lats, biceps
+- Muscles: hamstrings, glutes, spinal erectors, latissimus dorsi, biceps
 - Examples:
 	- *Hinge*: Romanian Deadlift (RDL), Deadlift, Kb Swing, Glute Bridge
-		- Targets the hamstrings really well.
+		- Targets the hamstrings really well. Deadlifts/RDL/Swings utilize the back heavily, specifically the lower back (erectors) and lats. Other hinge patterns like glute bridges don't use the back much.
 	- *Split*: One Leg RDL
 		- Same, but one side at a time, still hamstring dominant.
 
 ## Pull
 - Movement: pull the hands towards the body
-- Main Muscles: latissimus dorsi, trapezius (all 3), biceps, rear delts
+- Muscles: latissimus dorsi, trapezius (all 3), biceps, rear delts
 - Examples:
 	- *Vertical*: Pullup/Chinup, Cable Lat Pulldown
 		- Targets the lats more, and chinups are the best bicep grower.
@@ -41,9 +40,9 @@ If you focus on the major movement patterns, you'll know how to switch out exerc
 		- Targets the trapezius and rear delts more
 	- *Hinge*: there's a lot of overlap between Deadlifts/RDL/Swings and pulling, since the lower back, lats, traps, rear delts, and biceps are holding the weight in the hinge movement.
 
-## Push 
+## Push
 - Movement: push the hands away from the body.
-- Main Muscles: chest, front delts, triceps
+- Muscles: chest, front delts, triceps
 - Examples:
 	- *Horizontal*: Pushup, Ring Pushup, Db/Bb Bench Press, Db/Bb Incline Bench
 		- Targets chest, front delts, and triceps
@@ -51,7 +50,7 @@ If you focus on the major movement patterns, you'll know how to switch out exerc
 		- Targets mainly front delts and triceps
 	- *Dips*: targets both the lower chest and front delts really well, as well as being the best tricep exercise, the dip is GOATed.
 
-**Core** (lower-upper link)
+## Core 
 - Movement: stabilizes the entire body during every movement, rotates the body
 - Muscles: abs, obliques, spinal erectors, some weird internal muscles
 - Examples in the four different planes of motion
