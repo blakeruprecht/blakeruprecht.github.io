@@ -3,8 +3,7 @@
   --fg-color: #1f1e1d;
   --mg-color: #808080;
   --bg-color: #F0EEE6;
-  --theme-color: #FF2400;
-  --blue-color: #436EB1;
+  --theme-color: #436EB1;
 
   /* Fonts */
   --font-serif: "EB Garamond", Georgia, serif;
@@ -23,7 +22,7 @@
   --fg-color: #1f1e1d;
   --mg-color: #808080;
   --bg-color: #F0EEE6;
-  --theme-color: #FF2400;
+  --theme-color: #436EB1;
 }
 
 /* AUTO LIGHT/DARK MODE DETECTION */
@@ -45,6 +44,7 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  text-rendering: optimizeLegibility;
   transition:
     background-color 0.4s ease,
     color 0.4s ease;
@@ -54,8 +54,8 @@ main {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  margin: 1rem auto;
-  max-width: 38rem;
+  margin: 0 auto;
+  max-width: 42rem;
   padding: 1rem;
   width: 100%;
 }
@@ -64,8 +64,8 @@ main {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
   font-weight: bold;
-  margin: 1.5em 0 0.75em 0;
-  line-height: 1.0em;
+  margin: 1.5em 0 0.5em 0;
+  line-height: 1.2em;
 }
 
 h1 {
@@ -86,16 +86,17 @@ p, ul, ol {
 
 /* LINKS */
 a {
-  color: var(--fg-color);
+  color: var(--theme-color);
   text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-color: var(--mg-color);
+  text-underline-offset: 4px;
+  text-decoration-color: var(--theme-color);
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
 }
 
 a:hover {
-  color: var(--mg-color);
+  color: var(--fg-color);
   text-decoration: underline;
-  text-decoration-color: var(--mg-color);
+  text-decoration-color: var(--fg-color);
 }
 
 a:focus {
@@ -107,12 +108,12 @@ a:focus {
 img {
   display: block;
   height: auto;
-  margin: 1.5em auto;
+  margin: 1.5em 0;
   max-width: 100%;
 }
 
 figure {
-  margin: 1em 0;
+  margin: 1.5em 0;
   text-align: center;
 }
 
@@ -140,8 +141,8 @@ blockquote {
   display: flex;
   gap: 1.5rem;
   justify-content: flex-start;
-  margin: 1rem auto 0rem auto;
-  max-width: 38rem;
+  margin: 0 auto;
+  max-width: 42rem;
   padding: 1rem 1rem;
 }
 
@@ -152,29 +153,33 @@ blockquote {
   width: 100%;
   color: var(--fg-color);
   font-size: 1.5rem;
+  text-transform: none;
   margin: 0;
   padding: 0;
-  text-transform: none;
+  padding-bottom: 0.5rem;
 }
 
 .logo a {
+  color: var(--fg-color);
   text-decoration: none;
   font-weight: bold;
 }
 
 .logo a:hover {
-  color: var(--mg-color);
+  color: var(--theme-color);
   text-decoration: underline;
-  text-decoration-color: var(--red-color);
+  text-decoration-color: var(--theme-color);
 }
 
 #theme-toggle {
   background-color: var(--bg-color);
   color: var(--fg-color);
   border: none;
+  border-radius: 4px;
   font-size: 1.25em;
   font-family: inherit;
   cursor: pointer;
+  padding: 0.25em 0.5em;
   transition: 
     color 0.4s ease,
     background-color 0.4s ease;
@@ -185,8 +190,10 @@ blockquote {
 }
 
 code {
+  background-color: var(--bg-color);
   border: solid 1px var(--mg-color);
-  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  padding: 1px 4px;
 }
 
 /* BLOG LIST */
@@ -235,10 +242,11 @@ footer {
   box-sizing: border-box;
   color: var(--mg-color);
   flex-shrink: 0;
-  margin: 1rem auto;
-  max-width: 38rem;
-  padding: 1.5rem 1rem;
+  margin: 0 auto;
+  max-width: 42rem;
   width: 100%;
+  border-top: 1px solid var(--blue-color);
+  padding: 1rem;
 }
 
 footer a {
@@ -257,7 +265,6 @@ footer .social-links {
   justify-content: center;
 }
 
-/* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
   .site-nav {
     flex-direction: row;
@@ -276,7 +283,11 @@ footer .social-links {
   }
 
   main {
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 }
 

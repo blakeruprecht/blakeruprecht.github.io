@@ -4,8 +4,8 @@ date: 2018-09-17
 ---
 
 
-!["My old 'yota SUV laying on it's side"](/static/ron-wrecked.png)
-!["My old SUV on it's side"](/static/ron-wrecked-top.png)
+!["My old 'yota SUV laying on it's side"](ron-wrecked.png)
+!["My old SUV on it's side"](ron-wrecked-top.png)
 
 - "Stanley", 2001 *toyota 4runner* limited (3rd gen), silver, purchased by Parents from Maternal Grandparents, stock, luxury packages
 - "Ron", 1997 (3rd gen) *toyota 4runner* (3rd gen), silver, blacked out windows, upgraded head unit, no muffler -- thing rode hard and fun

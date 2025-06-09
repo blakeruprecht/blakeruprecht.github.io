@@ -2,7 +2,7 @@
 title: Websites
 date: 2025-06-03
 ---
-![Wikipedia's style inspiration sheet](/static/wikipedia-web-design.png)
+![Wikipedia's style inspiration sheet](wikipedia-web-design.png)
 > "Keep it simple, stupid."
 
 So you want to build a website, huh? Me too, so I learned the basic building blocks of any website.

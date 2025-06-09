@@ -2,15 +2,18 @@
 title: Working
 date: 2025-06-01
 ---
-Working refers to all of the meta tasks of [living](/living) that need to be done to keep life moving. For example, eating is *not* work, but gathering food and building the tools of a kitchen *are* work. Generally, work can be grouped into the following categories:
-- **[maintaining](/maintaining)** resources, tools, and envs needed to live.
-- **laboring**: performing a sequence of actions to generate goods/services that you can then sell to an employer/customer for money
-	- [writing](/writing) is my profession/vocation/career/etc
-- **[selling](/selling)** labor to exchange for money or resources/tools/envs
-	- [applying](/applying) for jobs
-- **[learning](/learning)** to track actions, get feedback, and adapt continuously to learn new skills that are valuable in changing markets.
+I'm working to become a writer/teacher, specifically:
+- Technical Writer / Content Writer
+- AI Customer Support / Enablement
 
-## Other forms of labor
+To do that, I need to
+- [selling](/selling) labor to exchange for money or resources/tools/envs
+	- [applying](/applying) for jobs
+- [writing](/writing) is my profession/vocation/career/etc
+- [maintaining](/maintaining) resources, tools, and envs needed to live.
+- [learning](/learning) to track actions, get feedback, and adapt continuously to learn new skills that are valuable in changing markets.
+
+## Other forms of labor besides writing
 - *craftsmen*: merchants/sellers, designers/R&D, builders, maintenace, operators
 	- *resources*: farmers, loggers, miners, diggers, hunters
 	- *bodies*: nurses, doctors, surgeons, trainers

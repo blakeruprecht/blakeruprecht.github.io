@@ -13,7 +13,7 @@ Texas started getting real flat, real fast. And hot. It was the middle of August
 
 Three shirtless dirty-blonde haired boy-men shat shirtless, sweat soaking into tan cloth seats. The overwhelming noise of the wind was drowned out by miraculously powerful speakers blasting *Rainbow Kitten Surpise* and three off-key baritones belting passionately.
 
-!["James *spectra* in Los Angeles"](static/kia-spectra-in-los-angeles.png)
+!["James *spectra* in Los Angeles"](kia-spectra-in-los-angeles.png)
 
 We kept flying.
 
