@@ -594,7 +594,7 @@
       <link>https://blakeruprecht.com/terminal/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/terminal/</guid>
-      <description>Once you&amp;rsquo;re logged into your computer os, the most useful program is the terminal, a text-based application/program that enables you to navigate the storage of your computer and manipulate files and run programs directly through the terminal.&#xA;The terminal is the single most useful application/program I&amp;rsquo;ve learned across Linux, Mac, and Windows. It enables you to search across your entire hard drive folder structure, as well as run code in any folder you wish.</description>
+      <description>Once you&amp;rsquo;re logged into your computer os, the most useful program is the terminal, a text-based application/program that enables you to navigate the storage of your computer and manipulate files and run programs directly through the terminal.&#xA;Why use it, isn&amp;rsquo;t it just a glorified folder navigator?&#xA;Yes, basically, I don&amp;rsquo;t recommend the terminal to anyone who isn&amp;rsquo;t trying to code. If you are trying to code, the terminal will remove a lot of headaches caused by paths &amp;ndash; it makes every path obvious, and helps you figure out where all your files are relative to each other, essential for coding.</description>
     </item>
     <item>
       <title>Operating System</title>
@@ -728,6 +728,13 @@
       <pubDate>Thu, 04 Jul 1776 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/tenacious/</guid>
       <description>AKA tenacious, courageous, gutsy, brave, game, confident, proactive, thumos, valiant, unyielding, resolute&#xA;Acting in the face of fear. It’s the will to move forward in the face of death, uncertainty, or resistance. Fear is natural. Life is scary. The future is especially scary. It comes from mortality, the unknown, and opposition—but must be faced. Kinetic. It&amp;rsquo;s speed, energy, and the shrinking of the gap between thought and action. Fast. Time is precious, don&amp;rsquo;t waste it.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/ai/</guid>
+      <description></description>
     </item>
     <item>
       <title>AI architecture</title>

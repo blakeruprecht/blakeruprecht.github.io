@@ -2,9 +2,7 @@
 title: Blake Ruprecht
 description: Home of Blake Ruprecht
 ---
-
-# Hi, I'm Blake
-I write stuff to help people understand ideas.
+Hi, I'm Blake. I write stuff to help people understand ideas.
 
 I write documentation, essays, tutorials, copy, newsletters, and web pages. I manage content end-to-end, writing docs-as-code, simple websites, and technical SEO. I have a BS in MechE and a MS in CompSci, and can explain technical concepts, especially AI. 
 
@@ -17,5 +15,4 @@ Example writing:
 - [Python](/python)
 - More at my [archive](/archive)
 
-## Contact Me
-[Email](mailto:blakecruprecht@gmail.com), [LinkedIn](https://linkedin.com/in/BlakeRuprecht), [GitHub](https://github.com/BlakeRuprecht), [Substack](https://blakeruprecht.substack.com/)
+**Contact me**: [Email](mailto:blakecruprecht@gmail.com), [LinkedIn](https://linkedin.com/in/BlakeRuprecht), [GitHub](https://github.com/BlakeRuprecht), [Substack](https://blakeruprecht.substack.com/)
