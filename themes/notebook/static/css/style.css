@@ -70,44 +70,38 @@ h1 {
   margin: 0 0 1em 0;
 }
 
-h2 { font-size: 2.0rem; }
-h3 { font-size: 1.5rem; }
-h4 { font-size: 1.3rem; }
-h5 { font-size: 1.2rem; }
-h6 { font-size: 1.1rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1.2rem; }
+h5 { font-size: 1.0rem; }
+h6 { font-size: 0.8rem; }
 
 p {
-  margin-bottom: 1.25em;
-  margin-top: 0;
+  margin: 0 0 1.25em 0;
 }
 
 ul, ol {
-  margin-bottom: 0.75em;
-  margin-top: 0;
+  margin: 0 0 0.75em 0;
   padding-left: 1.2em;
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
 }
 
 li ul, li ol {
-  margin-bottom: 0.25em;
-  margin-top: 0.25em;
+  margin: 0.25em 0;
   padding-left: 1.2em;
 }
 
-ul li::marker {
+ul li::marker, ol li::marker {
   color: var(--mg-color);
 }
 
-ol li::marker {
-  color: var(--mg-color);
-}
-
-ul {
-  list-style-type: disc; /* or try 'none' for no bullets */
-}
-
-/* For nested lists */
-ul ul {
-  list-style-type: disc;
+/* Reduce gap when paragraph is followed by list */
+p + ul, p + ol {
+  margin-top: -0.75em;
 }
 
 /* LINKS */
@@ -131,18 +125,6 @@ img {
   height: auto;
   margin: 1.5em auto;
   max-width: 100%;
-}
-
-img.sm {
-  max-width: 200px;
-}
-
-img.md {
-  max-width: 400px;
-}
-
-img.lg {
-  max-width: 600px;
 }
 
 figure {
@@ -260,25 +242,6 @@ ul.blog-list span {
   color: var(--mg-color);
 }
 
-/* TABLE OF CONTENTS */
-.toc {
-  background: var(--bg-color);
-  border-left: 1px solid var(--mg-color);
-  margin: 1.5rem 0;
-  padding: 0.75rem;
-}
-
-.toc ul {
-  list-style-type: none;
-  margin: 0.25rem 0;
-  padding-left: 0.5rem;
-}
-
-.toc li {
-  line-height: 1.2;
-  margin: 0.5rem 0;
-}
-
 /* FOOTER */
 footer {
   box-sizing: border-box;
@@ -301,22 +264,12 @@ footer a:hover {
   text-decoration-color: var(--fg-color);
 }
 
-footer .social-links {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
 @media (max-width: 768px) {
   .site-nav {
     flex-direction: row;
     gap: 1.25rem;
     padding: 0.75rem 1rem;
     margin-bottom: 0.75rem;
-  }
-
-  .menu {
-    gap: 1.25rem;
   }
   
   ul.blog-list li {
@@ -326,10 +279,6 @@ footer .social-links {
 
   main {
     padding: 0.5rem 1rem;
-  }
-
-  h1 {
-    font-size: 2rem;
   }
 }
 
