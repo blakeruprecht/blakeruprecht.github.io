@@ -2,8 +2,9 @@
 title: Blake Ruprecht
 description: Home of Blake Ruprecht
 ---
-# Hi!
-I'm Blake. I write stuff to help people understand ideas.
+
+# Hi, I'm Blake
+I write stuff to help people understand ideas.
 
 Now: seeking Technical Writing, AI Customer Support or Content roles → [my resume](/cv.pdf) and [email me](mailto:blakecruprecht@gmail.com).
 

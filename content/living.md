@@ -1,6 +1,7 @@
 ---
 title: Living
 date: 2025-06-06
+draft: true
 ---
 
 - ***[working](/working)***: to become a Writer/Teacher, [maintain](/maintaining)/[write](/writing)/[sell](/selling)/[learn](/learn)

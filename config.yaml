@@ -7,7 +7,8 @@ enableRobotsTXT: true
 params:
   math: true
   blog:
-    toc: true
+    toc: false
+  logo: "/logo.png"
 
 services:
   googleAnalytics:

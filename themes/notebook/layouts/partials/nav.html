@@ -1,8 +1,13 @@
 <header class="site-header">
   <nav class="site-nav">
     <div class="logo">
-      <a href="/">{{ .Site.Title }}</a>
-      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      <a href="/">
+        {{ if .Site.Params.logo }}
+          <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" class="logo-img">
+        {{ else }}
+          {{ .Site.Title }}
+        {{ end }}
+      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
     </div>    
   </nav>
 </header>

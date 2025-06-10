@@ -3,10 +3,10 @@
   --fg-color: #1f1e1d;
   --mg-color: #808080;
   --bg-color: #F0EEE6;
-  --theme-color: #436EB1;
+  --theme-color: #6699cc;
 
   /* Fonts */
-  --font-serif: "EB Garamond", Georgia, serif;
+  --font-serif: serif;
   --font-sans: "NotoSans", sans-serif;
   --font-mono: "Hack", monospace;
 }
@@ -62,15 +62,16 @@ main {
 
 /* TYPOGRAPHY */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-weight: bold;
   margin: 1.5em 0 0.5em 0;
   line-height: 1.2em;
 }
 
 h1 {
+  font-family: var(--font-serif);
   font-size: 2.5em;
-  margin-top: 0em;
+  margin: 0 0 1em 0;
 }
 
 h2 { font-size: 1.6rem; }
@@ -79,24 +80,37 @@ h4 { font-size: 1.3rem; }
 h5 { font-size: 1.2rem; }
 h6 { font-size: 1.1rem; }
 
-p, ul, ol {
+p {
   margin-bottom: 1.25em;
   margin-top: 0;
+}
+
+ul, ol {
+  margin-bottom: 0.75em;
+  margin-top: 0;
+}
+
+li ul, li ol {
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+}
+
+ul {
+  list-style-type: disc; /* or try 'none' for no bullets */
+}
+
+/* For nested lists */
+ul ul {
+  list-style-type: disc;
 }
 
 /* LINKS */
 a {
   color: var(--fg-color);
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-color: var(--mg-color);
-  transition: color 0.3s ease, text-decoration-color 0.3s ease;
 }
 
 a:hover {
   color: var(--mg-color);
-  text-decoration: underline;
-  text-decoration-color: var(--mg-color);
 }
 
 a:focus {
@@ -142,9 +156,9 @@ figcaption {
 }
 
 blockquote {
-  border-left: 1px solid var(--mg-color);
-  margin: 1.5em 0;
-  padding: 0.5em 0 0.1em 1em;
+  border-left: 1px dotted var(--mg-color);
+  margin: 0;
+  padding: 0 0 0 1em;
 }
 
 /* NAVIGATION */
@@ -163,12 +177,21 @@ blockquote {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  color: var(--fg-color);
-  font-size: 1.5rem;
-  text-transform: none;
+  font-size: 1.2rem;
   margin: 0;
   padding: 0;
   padding-bottom: 0.5rem;
+}
+
+.logo-img {
+  height: 2.5rem;
+  width: auto;
+  margin: 0;
+  display: block;
+}
+
+:root[data-theme='dark'] .logo-img {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 .logo a {
@@ -178,9 +201,9 @@ blockquote {
 }
 
 .logo a:hover {
-  color: var(--theme-color);
+  color: var(--mg-color);
   text-decoration: underline;
-  text-decoration-color: var(--theme-color);
+  text-decoration-color: var(--mg-color);
 }
 
 #theme-toggle {
@@ -257,8 +280,8 @@ footer {
   margin: 0 auto;
   max-width: 42rem;
   width: 100%;
-  border-top: 1px solid var(--blue-color);
   padding: 1rem;
+  text-align: center;
 }
 
 footer a {

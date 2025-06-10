@@ -2,8 +2,6 @@
 title: Civilizations outcompete barbarians
 date: 2025-04-02
 description: Authoritarian civilizations defeat barbarians in the long run. Even if society is no fun.
-draft: false
-type: tree
 ---
 ## Barbarian roots
 For most of human history, the Earth was not covered by political nations which controlled every patch of land, like they do now. The world domination by civilization was incomplete. Up until at least the 1500s AD, there were still huge swaths of territory controlled by nobody in particular. Sure, roving bands of hunter-gatherers controlled portions of territory, but with armies so small even the Roman Empire would blush.
@@ -20,8 +18,6 @@ Of course everybody wanted to live in the Mediterranean, or at least some place 
 So somebody probably grew some wheat in the ground, put a fence up, and decided he would die before letting somebody else farm within that fence. Say this person was already a local Chieftain, and had the influence to convince the rest of his tribe to protect this newly fenced in land. The best protectors were given the elite status of warrior, and the best talkers were given the status of priest. The Chief uses his influence to convince the rest of the band to build a large structure together, and this becomes the Chief's house, or castle.
 
 Land that was previously the backdrop to humanities fights, became the object of the fights themselves. Everybody wants to control the nicest territory.
-
-![[map-7500-bc]]
 
 ## Hard times
 There's a saying that goes something like "hard times make hard people, hard people make easy times, easy times make soft people, soft people make hard times." Living on shitty land makes your life hard. Living on the Mediterranean coast where food grows easily makes your life easy. Barbarians constantly pushing at your borders and trying to invade makes your life hard.
