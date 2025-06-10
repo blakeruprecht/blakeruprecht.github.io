@@ -86,17 +86,17 @@ p, ul, ol {
 
 /* LINKS */
 a {
-  color: var(--theme-color);
+  color: var(--fg-color);
   text-decoration: underline;
   text-underline-offset: 4px;
-  text-decoration-color: var(--theme-color);
+  text-decoration-color: var(--mg-color);
   transition: color 0.3s ease, text-decoration-color 0.3s ease;
 }
 
 a:hover {
-  color: var(--fg-color);
+  color: var(--mg-color);
   text-decoration: underline;
-  text-decoration-color: var(--fg-color);
+  text-decoration-color: var(--mg-color);
 }
 
 a:focus {
@@ -108,12 +108,24 @@ a:focus {
 img {
   display: block;
   height: auto;
-  margin: 1.5em 0;
+  margin: 1.5em auto;
   max-width: 100%;
 }
 
+img.sm {
+  max-width: 200px;
+}
+
+img.md {
+  max-width: 400px;
+}
+
+img.lg {
+  max-width: 600px;
+}
+
 figure {
-  margin: 1.5em 0;
+  margin: 1.5em auto;
   text-align: center;
 }
 

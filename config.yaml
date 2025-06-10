@@ -21,6 +21,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      attribute: true
     extensions:
       passthrough:
         enable: true

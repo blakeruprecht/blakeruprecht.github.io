@@ -48,37 +48,9 @@
               "icon": "lucide-file",
               "title": "running"
             }
-          },
-          {
-            "id": "ee7886ae7cecd4b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "working.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "working"
-            }
-          },
-          {
-            "id": "ab7b9a8dbec5b579",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sharing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "sharing"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -238,22 +210,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e9f9d2f27b121dab",
+  "active": "d352367affc9527f",
   "lastOpenFiles": [
+    "_index.md",
+    "Excalidraw/Drawing 2025-06-09 16.43.15.excalidraw.md",
     "living.md",
+    "running.md",
+    "working.md",
+    "sharing.md",
+    "img/running.png",
     "static/drawn-Blake-Ruprecht-underlined.png",
     "img/grocery-store-map.png",
     "img/ron-wrecked-top.png",
-    "img/running.png",
-    "running.md",
     "img",
     "static/img",
-    "Excalidraw/Drawing 2025-06-09 16.43.15.excalidraw.md",
     "Excalidraw",
-    "working.md",
     "communicating.md",
-    "_index.md",
-    "sharing.md",
     "Untitled.md",
     "thinking.md",
     "static/cv.pdf",
@@ -279,7 +251,6 @@
     "_seeds/Pasted image 20250513142116.png",
     "img/ukulele-chords.png",
     "Pasted image 20250602140246.png",
-    "img/logo-cardinals.png",
     "_seeds",
     "static/site.webmanifest",
     "static/favicon.ico",
