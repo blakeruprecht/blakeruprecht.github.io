@@ -35,7 +35,7 @@
     <loc>https://blakeruprecht.com/progressive-overload/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/sunbathing/</loc>
+    <loc>https://blakeruprecht.com/sunlight/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/vehicle/</loc>
@@ -71,9 +71,6 @@
     <loc>https://blakeruprecht.com/car/</loc>
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/character/</loc>
-    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blakeruprecht.com/computing/</loc>
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -104,7 +101,13 @@
     <loc>https://blakeruprecht.com/gathering/</loc>
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blakeruprecht.com/home/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blakeruprecht.com/mo/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blakeruprecht.com/packs/</loc>
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/policy/</loc>
@@ -308,14 +311,18 @@
     <loc>https://blakeruprecht.com/4runned/</loc>
     <lastmod>2018-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/present/</loc>
+    <loc>https://blakeruprecht.com/airbending/</loc>
     <lastmod>1776-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/rational/</loc>
+    <loc>https://blakeruprecht.com/firebending/</loc>
     <lastmod>1776-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/tenacious/</loc>
+    <loc>https://blakeruprecht.com/waterbending/</loc>
     <lastmod>1776-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blakeruprecht.com/fire/</loc>
+  </url><url>
+    <loc>https://blakeruprecht.com/maintain/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/ai-architecture/</loc>
   </url><url>
@@ -324,6 +331,8 @@
     <loc>https://blakeruprecht.com/asthma/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/binary/</loc>
+  </url><url>
+    <loc>https://blakeruprecht.com/building-homes/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/capitalist/</loc>
   </url><url>
@@ -335,9 +344,9 @@
   </url><url>
     <loc>https://blakeruprecht.com/democratic/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/farming/</loc>
+    <loc>https://blakeruprecht.com/earthbending/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/home/</loc>
+    <loc>https://blakeruprecht.com/farming/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/hunting/</loc>
   </url><url>
@@ -366,8 +375,6 @@
     <loc>https://blakeruprecht.com/playing/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/reading/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.com/reciprocal/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/selling/</loc>
   </url><url>

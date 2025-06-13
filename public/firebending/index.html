@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Firebending | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/firebending/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">
+        
+          <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
+        
+      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Firebending</h1>
+    </header>
+
+    
+
+    <div class="post-content">
+        <ul>
+<li><strong>Will</strong>: Desire to keep <a href="/living">living</a> means desire to take action.</li>
+<li><strong>Action</strong>. Life is action. Regret is worth than risk. You can recover from mistakes, you can&rsquo;t undo nothing. Action is living, inaction is a slow death.</li>
+<li><strong>Kinetic</strong>: Action expresses truth. Thought, dreams, intentions are all potential energy, not real until acted upon. If you&rsquo;re not taking action, then it isn&rsquo;t real.</li>
+<li><strong>Endurance</strong>: Keep going even when it gets hard, when you get tired, when things aren&rsquo;t easy.</li>
+<li><strong>Speed</strong>: <a href="/time">Time</a> is our limiting resource. Go faster and reduce the time between thought and action. Act before you think yourself out of it.</li>
+<li><em><strong>Memento mori</strong></em>. You&rsquo;re going to die. That truth should set you on fire, not shut you down. Every action is either aligned with death, or defiant against it. Death gives us context, it turns every moment into a question &ndash; what would this mean if this were my last? <em>Carpe diem</em>.</li>
+<li><strong>Courage</strong>: Keep taking action even when you&rsquo;re afraid. Life is scary &ndash; death, fear, uncertainty, failure, etc. Courage means acting anyway and continuing to live with the fear.</li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="/asthma">asthma</a></li>
+<li><a href="/perfectionism">pefectionism</a></li>
+<li><em>Thumos</em>. The spirited fire in the soul, source of courage, hunger, and glory.</li>
+</ul>
+<p><strong>Dan Millman</strong>, <em>The Way of the Peaceful Warrior</em>, and <em>The Journey of the Peaceful Warrior</em>.</p>
+<ul>
+<li><em>You are not your thoughts</em>. Your mind lies. It spins stories, fear, ego. But you, the awareness beyond the noise, are something deeper, calmer, truer.</li>
+<li><em>Be present</em>. &ldquo;There are no ordinary moments.&rdquo; Reality is always now. Regret, worry, memory, planning&ndash;all illusions. Truth lives in the present.</li>
+<li><em>Action is the path</em>. Knowing means nothing without doing. Act without hesitation. &ldquo;A warrior acts; only a fool reacts.&rdquo;</li>
+<li><em>Surrender the outcome.</em> “You don&rsquo;t have to control everything—you just have to do your best.” Train hard, give fully, then let go. The results aren&rsquo;t yours.</li>
+<li><em>Discipline and surrender coexist.</em> Train like a monk, move like a fighter, rest like a child. Strength without aggression. Surrender without weakness.</li>
+<li><em>Service and purpose over ego.</em> Your life is not about proving yourself. It’s about waking up—becoming a force of presence, clarity, and love in action.</li>
+<li><em>The warrior’s strength is internal.</em> Not control over others. But control over the only battlefield that matters: yourself.</li>
+<li>“The secret of change is to focus all of your energy not on fighting the old, but on building the new.”</li>
+</ul>
+<p><em>Dead Poets Society</em>.</p>
+<ul>
+<li>&ldquo;Carpe diem. Seize the day, boys. Make your lives extraordinary.&rdquo;</li>
+<li>&ldquo;No matter what anybody tells you, words and ideas can change the world.&rdquo;</li>
+<li>&ldquo;The powerful play goes on, and you may contribute a verse. What will your verse be?&rdquo;</li>
+</ul>
+<p><strong>Joe Delaney</strong>, YouTube</p>
+<ul>
+<li>It&rsquo;s not about making the right choice, it&rsquo;s about making the choice the right one.</li>
+</ul>
+<p><strong>Jocko Willink</strong>, <em>Extreme Ownership</em>.</p>
+<ul>
+<li><em>Own everything</em> - No one else is coming. No one else is responsible. Everything in your life &ndash; every win, failure, delay, excuse &ndash; is on you.</li>
+<li><em>There are no bad teams, only bad leaders</em> - If the people around you are weak, soft, lazy, confused &ndash; <em>you allowed it</em>. You set the tone. You show the standard.</li>
+<li><em>Discipline equals freedom</em> - You want freedom? Earn it. Discipline in the small things &ndash; waking up, training, planning &ndash; creates freedom in the big things.</li>
+<li><em>Check the ego</em> - Ego destroys awareness. When you&rsquo;re humble, you adapt. Whe you&rsquo;re arrogant, you die.</li>
+<li><em>Prioritize and execute</em> - Don&rsquo;t panic. Don&rsquo;t freeze. When shit gets chaotic: breathe, pick the most important target, crush it. Repeat.</li>
+<li><em>Cover and move</em> - Work as a unit, if you&rsquo;re doing it all alone, you&rsquo;re not leading. But if you&rsquo;re not pulling your weight, you&rsquo;re a liability.</li>
+</ul>
+<p><strong>Marcus Aurelius</strong>, <em>Meditations</em>.</p>
+<ul>
+<li>“You could leave life right now. Let that determine what you do and say and think.”</li>
+</ul>
+<p><strong>Derek Sivers</strong>, <em>Hell Yes or No</em>.</p>
+<ul>
+<li>Your actions reveal your real values.</li>
+<li>Two responses: 1) stop lying to yourself and admit your real priorities or 2) start doing what you say you want to do to see if it&rsquo;s really true</li>
+</ul>
+<p><strong>Better Ideas</strong> (Joey Schweizer), YouTube.</p>
+<ul>
+<li><em><a href="/https://www.youtube.com/watch?v=RIVVQkZtnAU">Inaction Is A Slow Death</a></em>.</li>
+</ul>
+<p><strong>Mike Tyson</strong>, professional boxer.</p>
+<ul>
+<li>“I would close my eyes and imagine the fights. I would imagine myself beating them—hurting them. I was never afraid.&quot;</li>
+<li>“Whatever you put out into the universe, it comes back to you. I always used to say: ‘I’m the best ever. I’m the most brutal and vicious, the most ruthless champion there’s ever been.’ And eventually… I believed it.”</li>
+<li>“Everyone has a plan until they get punched in the mouth.”</li>
+<li>&ldquo;Discipline is doing what you hate to do but doing it like you love it.&rdquo;</li>
+<li>&ldquo;Fear is your best friend or your worst enemy. It&rsquo;s like fire. If you can control it, it can cook for you; it can heat your house. If you can&rsquo;t control it, it will burn everything around you and destroy you.&rdquo;</li>
+<li>&ldquo;My style is impetuous, my defense is impregnable, and I’m just ferocious.&rdquo;</li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/archive">more</a> :: 100% human-written :: <a href="/">home</a>
+  </div>
+</footer>
+</body>
+</html>
+

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "01ed8f2811b6adfc",
+            "id": "0efa9ea4db1942f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,17 +36,101 @@
             }
           },
           {
-            "id": "9b94bb4620a52e1a",
+            "id": "f8f2bb2df9e7479a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maintaining.md",
+                "file": "running.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "maintaining"
+              "title": "running"
+            }
+          },
+          {
+            "id": "9b23135894be9bbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lifting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lifting"
+            }
+          },
+          {
+            "id": "00b8d22d1c4f441c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "breathing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "breathing"
+            }
+          },
+          {
+            "id": "85b690d0a37632e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "airbending.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "airbending"
+            }
+          },
+          {
+            "id": "b975ce02069bd8da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "earthbending.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "earthbending"
+            }
+          },
+          {
+            "id": "1fcd9d2e6f817ce6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "waterbending.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "waterbending"
+            }
+          },
+          {
+            "id": "868ba1181c42bc3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "firebending.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "firebending"
             }
           }
         ]
@@ -170,13 +254,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "running.md",
+                "file": "_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of running"
+              "title": "Outline of _index"
             }
           },
           {
@@ -194,8 +278,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5,
-    "collapsed": true
+    "width": 316.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,23 +292,34 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "95b6a591ed906e6d",
+  "active": "0efa9ea4db1942f9",
   "lastOpenFiles": [
-    "python.md",
-    "terminal.md",
-    "ai.md",
-    "python-packages.md",
-    "_index.md",
+    "thinking.md",
+    "firebending.md",
+    "airbending.md",
+    "waterbending.md",
+    "earthbending.md",
+    "breathing.md",
+    "lifting.md",
+    "running.md",
     "living.md",
+    "packs.md",
+    "traveling.md",
+    "power.md",
     "maintaining.md",
     "compound-lifts.md",
-    "running.md",
-    "lifting.md",
-    "civilization.md",
-    "research.md",
-    "Excalidraw/Drawing 2025-06-09 16.43.15.excalidraw.md",
-    "working.md",
-    "sharing.md",
+    "disc-golfing.md",
+    "home.md",
+    "clothes.md",
+    "building-homes.md",
+    "minimum.md",
+    "MO.md",
+    "car.md",
+    "procrastinating.md",
+    "perfectionism.md",
+    "dopamine.md",
+    "time.md",
+    "happiness.md",
     "img/running.png",
     "static/drawn-Blake-Ruprecht-underlined.png",
     "img/grocery-store-map.png",
@@ -233,18 +327,7 @@
     "img",
     "static/img",
     "Excalidraw",
-    "communicating.md",
-    "Untitled.md",
-    "thinking.md",
     "static/cv.pdf",
-    "cv.md",
-    "cv.pdf.md",
-    "ai-architecture.md",
-    "ai-vs-bi.md",
-    "applying.md",
-    "asthma.md",
-    "art.md",
-    "balling.md",
     "Pasted image 20250608004853.png",
     "Untitled.canvas",
     "Pasted image 20250608005009.png",

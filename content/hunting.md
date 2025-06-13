@@ -1,7 +1,14 @@
 ---
 title: Hunting
 ---
-Tools required:
-- Spear / Atlatl / Bow and Arrows / Rifle / Shotgun / Pistol
+Use sticks to gather meat from the wild.
 
-Bow/rifle hunt in the cold months when the [fish](/fishing) are chilling.
+A few math equations
+- stick = spear
+- string = sling
+- stone = projectile
+- stick + stone = better spear / arrow
+- stick + string = bow
+- stick + string + hook = fishing pole
+
+Fishing is good in warm weather.

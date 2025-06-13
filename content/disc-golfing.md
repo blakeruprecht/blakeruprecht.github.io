@@ -7,10 +7,17 @@ Disc Golf is fun. It's played at courses that are usually free. It's a great spo
 1. Chill out a bit.
 2. Get up there and rip it.
 
-- You don't need a million discs to play, just 1. Start with a midrange for everything, add a putter to improve your close game, add a fairway driver for drives over 300 feet, and finally, add a distance driver once you have the skill and speed to throw one.
-	- *Midrange*: The go-to disc for driving and every long shot. I played with just these two discs for years, until I got to the point where I could throw my midrange (5 speed) 300+ feet. 
-		- If I played with just one disc, it would be this one.
-	- *Putter*: The best way I've improved my game has been getting better at hitting putts within 30 feet. 
-	- *Fairway Driver* - The first upgrade to make is a faster driver for 300+ foot drives. I threw my first fairway driver into a lake and didn't throw another for two years.
-	- *Distance Driver* - Very fun to throw and get max distance. Need a lot of skill and arm speed to throw these.
-- Stable, overstable, understable -- just play with your discs to figure out how they fly, this stuff gets really complicated.
+Discs to use:
+1. **Midrange**. The most useful disc for all shots in disc golf.
+2. **Putter**. Good to improve your up-close putting consistency.
+3. **Fairway Driver**. First driver to add, for 300+ ft shots.
+4. **Distance Driver**. Very hard to throw, only use if you can overthrow a fairway.
+
+Disc Numbers A/B/C/D
+- A = [1,14] **Speed** you must throw for proper flight.
+- B = [1,7] **Glide**, how long the disc stays in the air.
+- C = [-5,1] **Turn**, how much it will go right on a RHBH shot
+	- -5 = *Understable*, it'll turn hard
+	- -1-0 = *Stable*
+	- +1 = *Overstable*, it'll resist turning
+- D = [0,5] **Fade**, once the disc slows down, how hard will it cut to the left

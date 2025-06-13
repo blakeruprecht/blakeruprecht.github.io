@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Boxing | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="http://localhost:1313/boxing/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">
+        
+          <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
+        
+      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Boxing</h1>
+    </header>
+
+    
+
+    <div class="post-content">
+        <p>Have only briefly trained boxing on a heavy bag &ndash; I loved it.</p>
+<h2 id="why">Why</h2>
+<ul>
+<li>I enjoyed hitting the heavy bag every time I&rsquo;ve had access to one. Punching feels good. Very fun. Great energy burner. Very hard on the muscles and endurance.</li>
+<li>&ldquo;Si vis pacem, para bellum.&rdquo;
+<ul>
+<li>If you wish for peace, prepare for war. Like Mr. Miyagi said, the best reason to learn to fight is so that you never have to.</li>
+</ul>
+</li>
+<li><strong>Pankration</strong> was the ancient Greek fighting art that combined boxing and wrestling into one mega-art. Modern <strong>Mixed Martial Arts</strong> replicate the same thing and create a proving ground for unarmed combat arts. From my limited knowledge, it seems like the MMA meta is specializing in one of the following, but becoming well-rounded in all aspects of unarmed fighting:
+<ol>
+<li><strong>Striking</strong> with arms and legs to damange opponent while standing. Muay Thai seems to dominate because it trains punching, elbowing, kicking, kneeing, and clinches.
+<ul>
+<li>e.g. <em>Muay Thai</em>, Boxing, Karate, Kung Fu, Dutch Kickboxing, Taekwondo</li>
+</ul>
+</li>
+<li><strong>Wrestling</strong> to takedown opponents from standing to ground. Seems pretty straightforward.
+<ul>
+<li>e.g. <em>Wrestling</em>, Judo</li>
+</ul>
+</li>
+<li><strong>Grappling</strong> for submission once on the ground. BJJ rocked the early MMA world and has been a staple ever since.
+<ul>
+<li>e.g. <em>Brazilian Jiu Jitsu</em>, Judo, Wrestling</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Armed fighting is totally different, and basically requires specific training with each weapon. Less generalizable.
+<ul>
+<li><strong>Rifle</strong> fighting is the modern small-arms meta for an individual soldier.</li>
+<li><strong>Pistol</strong> is the modern meta sidearm of choice.</li>
+<li><strong>Archery</strong> when guns aren&rsquo;t available.</li>
+<li><strong>Spears</strong> are the simplest weapon ever.</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/archive">more</a> :: 100% human-written :: <a href="/">home</a>
+  </div>
+</footer>
+</body>
+</html>
+

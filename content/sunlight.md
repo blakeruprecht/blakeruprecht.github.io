@@ -1,5 +1,5 @@
 ---
-title: Sunbathing
+title: Sunlight
 date: 2025-06-06
 ---
 View sunlight upon waking for 10 minutes (30 if it's overcast) to set your circadian rhythym, the bodies natural process to determine when to get tired and when to stay alert.

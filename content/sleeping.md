@@ -2,7 +2,7 @@
 title: Sleeping
 date: 2025-06-04
 ---
-Sleep is important for everything, I just don't know exactly what. Sleep for roughly 8 hours per night, but this number is unique to each person. Maintain cool temperatures in your sleeping room with plenty of blankets to get comfortable. [Sunlight](/sunbathing) is the main mechanism for waking up the body, and darkness is the main mechanism for telling the body to sleep. Wake a consistent time to set a sleep schedule and go to sleep when your body naturally feels tired.
+Sleep is important for everything, I just don't know exactly what. Sleep for roughly 8 hours per night, but this number is unique to each person. Maintain cool temperatures in your sleeping room with plenty of blankets to get comfortable. [Sunlight](sunlight.md) is the main mechanism for waking up the body, and darkness is the main mechanism for telling the body to sleep. Wake a consistent time to set a sleep schedule and go to sleep when your body naturally feels tired.
 
 1. Wake at a consistent time and view sunlight for 10+ mins (more if overcast)
 2. Sleep when tired

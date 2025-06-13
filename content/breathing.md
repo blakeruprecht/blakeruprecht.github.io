@@ -2,32 +2,29 @@
 title: Breathing
 date: 2025-06-03
 ---
+- [Earthbending](/earthbending): Breathe. Look at where you are. Feel your feet, your body, your breath. You are already enough.
+- [Airbending](/airbending): Now ask yourself: what do I want right now? Ignore everything else. Choose what you desire.
+- [Waterbending](/waterbending): Whatever it is -- give it your full attention. Focus wholeheartedly.
+- [Firebending](/firebending): Just do it. Doesn't matter what it is. Move with courage.
 
-- Zen meditation is the art of doing nothing
-	- The action of inaction
-
-## Physical Posture
-1. Sit comfortably. A chair is fine, or use the floor with a cushion.
-2. Sit tall and straight. Try to stretch the top of your spine towards the sky.
-3. Relax your muscles. Open your shoulders, relax your arms and legs.
-4. Close your mouth and breathe in through the nose, out through the nose.
-5. Focus on slowing down your breathing with each cycle.
-6. Eventually, you don't need to specifically sit to meditate, you can use the sword of meditation in any position your body is in -- playing games, walking the dog, brushing your teeth, doing dishes. You can slash your thoughts and return home, to your body, the present moment.
+Drop the analysis, the overthinking. No perfect planning, no perfect theory. Just [living](/living). You don't need to prove anything. You get to choose every action. Commit to it all in. And just go, through the fear, through the pain.
 
 ## The Sword
-Zen Meditation is a state of non-action and non-thinking. This is paradoxical, since it's impossible to stop thinking or stop acting (you're still breathing!).
+Meditation is a technique for slashing your thoughts.
 
-The challenge isn't to stop thinking.
+It's sometimes called a state of non-action, but this is not true, since you're still breathing! What is true is that you're not doing anything else, or once you are a pro, you're doing at most one thing will full focus and attention.
 
-The challenge is to stop giving into your thoughts. Stop identifying with them, stop valuing them, stop going down rabbit holes of thought.
+So the goal of meditation isn't to *stop* thinking -- that's impossible!
 
-Meditation will never stop the thoughts from coming. Meditation is a sword which slashes each new thought as it comes, letting you leave it in the past.
+Instead, think of meditation as a sword which can cut throught the *spaghetti loops* of thoughts in your head. All those thoughts easily get jumbled up, and each one vies for your attention, claiming it's the most important thought.
 
-Whatever you start thinking about, whether it be your surroundings, people in your life, what you're doing later, the whole point is to notice you're thinking about something, slash that thought with the sword of "I don't care", and let that thought drift away out of your conscious mind.
+Thoughts take us out of the present moment. They make us think about the past or future, two places which only exist in our minds.
+
+Whatever you start thinking about, whether it be your surroundings, people in your life, what you're doing later, the whole point is to notice you're thinking about something, slash that thought with the sword of "Not right now", and let that thought drift away out of your conscious mind.
+
+Return your focus to your breathing/the present moment.
 
 Then, the next thought comes in. Something different, maybe about burgers this time. Who cares, slash that thought and let it drift away.
-
-
 
 
 
