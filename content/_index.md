@@ -7,7 +7,7 @@ I write stuff to help people understand ideas.
 
 I write documentation, essays, tutorials, copy, newsletters, and web pages. I manage content end-to-end, writing docs-as-code, simple websites, and technical SEO. I have a BS in MechE and a MS in CompSci, and can explain technical concepts, especially AI. 
 
-Now seeking technical writing/support roles. My [resume](/Blake-Ruprecht-cv.pdf).
+Now seeking technical writing/support roles. My public [resume](/cv-Blake-Ruprecht.pdf).
 
 Example writing:
 - [What My AI Safety Research Taught Me](/research)
