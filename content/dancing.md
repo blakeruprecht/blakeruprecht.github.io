@@ -1,10 +1,5 @@
 ---
 title: Dancing
 ---
-AKA flailing, goofing, rolling, having a good-ass time
+Music makes almost every situation better. Dancing along to the tunes feels even better. Why not?
 
-While you technically don't need music to dance, music can be found anywhere.
-
-## Related
-- [singing](/singing)
-- [strumming](/strumming)

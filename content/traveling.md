@@ -6,7 +6,7 @@ Travel to get from one location to another across the map. I pick the funnest, c
 - [walking](/walking) - my preferred method
 - [cycling](/cycling) - somewhat fast, efficient, cheap, and fun
 - [driving](/driving) - fastest method, most expensive
-- [public-transportation](/public-transportation) - i'm in the [USA](/USA) so I mostly ride in taxis and airplanes
+- [public-transportation](/public-transportation) - i'm in the [USA](/USA) so I mostly ride in taxis and airplanes, if I could teleport, I would
 
 
 

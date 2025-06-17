@@ -31,7 +31,7 @@ All codes/programs/software are stored on the computer in the hard-drive/storage
 - Good programs: the [terminal](/terminal), which can also run bash code
 
 ## Editing text
-Enables you to write documents and essays, and also edit any programming language (which are all text-based abstractions of math). Text can be stored as a generic text file (.txt) or as code (.md, .html, .py, .c, basically everything else). Even a text file is code to transform 1s and 0s into pictures of letters on the screen.
+Enables you to write documents and essays, and also [edit programming language code](/coding) (which are all text-based abstractions of math). Text can be stored as a generic text file (.txt) or as code (.md, .html, .py, .c, basically everything else). Even a text file is code to transform 1s and 0s into pictures of letters on the screen.
 - Good programs: Obsidian, Cursor, VSCode, Neovim
 
 ## Browsing the internet
@@ -41,5 +41,6 @@ Many modern programs exist only on the internet. All websites exist on the inter
 ## Talking to chatbots
 Talking to [chatbots](/chatbots) is the current meta usage for [AI](/ai).
 - Good programs: ChatGPT, Claude, DeepSeek, etc.
+
 ## Related
 - [computer](computer.md)

@@ -3,13 +3,13 @@ title: Cleaning
 date: 2025-05-31
 ---
 Maintain medical health by cleaning the body. This comes down to cleaning the internals of the body, and the eyes, teeth, skin, and hair.
-
-1. Take medicine, pee/poo, wash hands as needed
+1. Urinate/defecate, wash hands, take medicine as needed
 2. Brush teeth 2x/day, floss 1x/day
 3. Wear sunglasses in the sun, contacts/glasses as needed
 4. Shower daily, wear sunscreen on skin exposed to sunlight
 5. Cut hair regularly
 
+**Cleaning/Medical Professionals**
 - *Physician* to check and fix internals.
 - *Dentist* to check and fix teeth.
 	- Flossing sucks but every single dentist I've ever talked to recommends it.
@@ -20,6 +20,3 @@ Maintain medical health by cleaning the body. This comes down to cleaning the in
 - *Dermatologist* to check and fix skin.
 	- Daily sunscreen to protect the skin from cancers.
 - *Barbers* are great but expensive. I bought a pair of hair clippers and have spent five years learning one haircut -- my own.
-
-
-![[my-beautiful-hair.png]]

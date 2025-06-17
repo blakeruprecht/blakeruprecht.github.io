@@ -1,5 +1,5 @@
 ---
-title: Sharing
+title: Loving
 date: 2024-08-10
 ---
 0. Yourself
