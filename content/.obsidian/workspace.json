@@ -8,21 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0efa9ea4db1942f9",
+            "id": "d51f0d2de45bcc8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "caveman-consulting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "caveman-consulting"
             }
           },
           {
-            "id": "d352367affc9527f",
+            "id": "a0d69e71997eb6fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,17 +36,73 @@
             }
           },
           {
-            "id": "15ddb4bca007991c",
+            "id": "89ea2f6b22bfe4e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "playing.md",
+                "file": "fire.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "playing"
+              "title": "fire"
+            }
+          },
+          {
+            "id": "199860f8a36761f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "computer"
+            }
+          },
+          {
+            "id": "63dd930afa3c36fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "computing"
+            }
+          },
+          {
+            "id": "c94bb0e1d050f4a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "0015337af92958ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exercising.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "exercising"
             }
           }
         ],
@@ -142,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "living.md",
+                "file": "lifting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from living"
+              "title": "Outgoing links from lifting"
             }
           },
           {
@@ -171,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "living.md",
+                "file": "lifting.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of living"
+              "title": "Outline of lifting"
             }
           },
           {
@@ -190,12 +246,12 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 316.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,34 +265,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d352367affc9527f",
+  "active": "a0d69e71997eb6fc",
   "lastOpenFiles": [
-    "playing.md",
-    "boxing.md",
-    "living.md",
-    "maintaining.md",
-    "packs.md",
-    "clothes.md",
-    "write.md",
-    "computer.md",
-    "running.md",
     "music.md",
-    "coding.md",
-    "computing.md",
-    "fishing.md",
-    "laboring.md",
-    "dancing.md",
-    "creating.md",
-    "learning.md",
-    "time.md",
-    "working.md",
+    "living.md",
+    "fire.md",
     "software.md",
-    "budget.md",
-    "earning.md",
-    "selling.md",
-    "hunting.md",
-    "applying.md",
-    "talking.md",
+    "write.md",
+    "maintain.md",
+    "thinking.md",
+    "computer.md",
+    "computing.md",
+    "Untitled.md",
+    "building-websites.md",
+    "python.md",
+    "python-packages.md",
+    "operating-system.md",
+    "terminal.md",
+    "building-computers.md",
+    "computer-hardware.md",
+    "exercising.md",
+    "_index.md",
+    "maintaining.md",
+    "fighting.md",
+    "playing.md",
+    "traveling.md",
+    "breathing.md",
+    "sunlight.md",
+    "dancing.md",
+    "img/my-haircut.png",
+    "img/my-haircut.png",
     "img/running.png",
     "static/drawn-Blake-Ruprecht-underlined.png",
     "img/grocery-store-map.png",
@@ -250,7 +308,6 @@
     "Pasted image 20250608005009.png",
     "_seeds/Pasted image 20250513142116.png",
     "img/ukulele-chords.png",
-    "Pasted image 20250602140246.png",
     "_seeds",
     "static/site.webmanifest",
     "static/favicon.ico",

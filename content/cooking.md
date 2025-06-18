@@ -2,28 +2,17 @@
 title: Cooking
 date: 2025-06-03
 ---
-- **Who**: Anyone can cook.
-- **When**: Breakfast, Lunch, but mainly Dinner
-- **Where**: [home](/home) - kitchen
-- **How**:
-	1. Blend [smoothie](/smoothie) for breakfast
-	2. Put together [lunchbox](/lunchbox) for lunch
-	3. Cook a dinner off my [menu](/menu)
+In order to [eat](/eating) enough [calories](/eating-calories), [protein](/eating-protein), and [micronutrients](/eating-micronutrients), I prefer tasty meals to get it all down. Call me crazy. Cooking comes down to a few basic steps, once you have [gathered](/gathering) the ingredients you plan to eat. Remember, there aren't really any shortcuts to cooking, it all comes down to sharp knives, high heat, plenty of seasoning, and cleaning as you go.
 
-## Flavor: Salt, Fat, Acid, Heat
-- *Salt, Fat, Acid, Heat* by Samin Nosrat, with awesome watercolor illustrations by Wendy MacNaughton, teaches the basics of flavorful dishes.
-	1. **Fresh, quality ingredients** - here's a helpful tip, if the ingredient doesn't taste good by itself, it's not gonna taste any better in a dish.
-	2. **Salt** - all food needs to be properly salted.
-	3. **Fat** - carries flavor compounds, fat makes everything taste better.
-	4. **Acid** - excites our taste buds, makes us salivates, balances out flavors.
-	5. **Heat** - properly cooking each ingredient is key to a balanced dish.
+**Prepping** ingredients mainly involves salting meat 30 mins before cooking time to give the salt a chance to seep into the middle parts of the meat, and cutting veggies for convenient heating. It's essential to maintain a sharp knife and non-moving cutting board, and cut with safe form.
 
-## Basic Cooking Skills
-1. **Prep Ingredients** - For meat, this means salting it 30 minutes to 1 day before hand (generally, fish needs less time, big cuts need more). It might mean marinating the meat in oil as well, with spices added if you like. For plants, this mainly means chopping, which requires only two things: a very sharp chef's knife, and a cutting board (ideally wood, plastic okay too). 
-2. **Cook Meat** - The hardest thing to cook, but simple once you get the gist. Basically, get a cast iron pan or dutch oven, preheat the pan, then turn the heat to medium-high or high (as hot as possible without smoking oil). Then, add a little oil to sear, more oil to saute or shallow-fry, and a ton to straight-up fry. I mostly do sears and sautes, with a ripping hot pan, and smack that meat down to cook it.
-3. **Cook Carbs** - Generally easy to cook because the package gives you directions, e.g. rice, pasta. Bread usually comes pre-cooked unless you're a wizard/baker. Tortillas are similar, usually cooked, very delicious. Bread and Tortillas and Pasta are not that hard to make by hand, either, they just take forever.
-4. **Cook Sauce** - Sure, you can make a fresh Pico de Gallo by chopping up and combining Tomatoes, Onions, Jalapenos, fresh Lime Juice, Salt, and Black Pepper in the right ratios, or you can cook the sauce. Every sauce pretty much follows the same order:
-	1. Saute Aromatics & Spices - onion first, garlic at the end. Each cuisine adds on to this with stuff like carrots, celery, peppers, ginger, etc, but the cooking is all the same. Add in spices at the end, or really whenever.
-	2. Add in Liquid Builders - tomatoes first and other bigger veg like broccoli, then liquids like stocks, broths, milks, creams, etc. Then let it simmer.
-	3. Finishers - add in fresh leafy greens if using.
-	4. Toppings - top with stuff like fresh herbs, yogurt/sour cream, cheese, etc.
+**Heating** ingredients makes them safe to consume. A cook controls how hot the cooking surface is, and how much food lube there is between the hot surface and the food.
+- *Heat* - The sweetspot for most cooking is medium-high, the magical point where the oil/fat is maximally hot, but not burning/smoking off the cooking surface. More heat leads to faster cooking and maybe burning. Less heat is good to keep hot things hot, e.g. "low" means super low.
+- *Fat* - Food lubrication used to prevent complete burning, and enable a nice technique called browning which tastes really good. Less oil leads to more browning, and eventually, burning. More oil leads to frying, still delicious, but less browning happens.
+
+**Seasoning** means balance the amount of salt in each ingredient to balance the overall dish, adding enough fat to bring out the flavor, and balancing the dish with acid to make the flavors pop.
+- *Salt sources*: Kosher Salt, Sea Salt, Soy Sauce
+- *Fat sources*: Olive Oil, Cheese, Avocado
+- *Acid sources*: Lemon, Lime, Vinegar, Tomatoes, Wine
+
+**Clean** as you go to finish all dishes by the end of cook time. Really, efficient cooking comes down to efficient time management, and most of the time is saved by cleaning during the cooking process.

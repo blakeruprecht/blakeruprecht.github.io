@@ -140,81 +140,46 @@ window.MathJax = {
     
 
     <div class="post-content">
-        <p>Once you&rsquo;re logged into your <a href="computer.md">computer</a> <a href="/os">os</a>, the most useful program is the <strong>terminal</strong>, a text-based application/program that enables you to navigate the storage of your computer and manipulate files and run programs directly through the terminal.</p>
-<p>Why use it, isn&rsquo;t it just a glorified folder navigator?</p>
+        <p>Ther Terminal is a simple program that uses a text-based interface (read, words) for file navigation and running programs.</p>
+<p><strong>Why use it</strong>: It makes file paths obvious, which is convenient for coding.</p>
+<p><strong>Essential commands:</strong></p>
 <ul>
-<li>Yes, basically, I don&rsquo;t recommend the terminal to anyone who isn&rsquo;t trying to code.</li>
-<li>If you are trying to code, the terminal will remove a lot of headaches caused by paths &ndash; it makes every path obvious, and helps you figure out where all your files are relative to each other, essential for coding.</li>
-<li>I don&rsquo;t code much and mainly use the Terminal as a folder navigator and simple script runner &ndash; not needed for most people.</li>
+<li><code>ls</code> = list files</li>
+<li><code>cd folder/</code> = change directory</li>
+<li><code>cd ..</code> = go up one level</li>
+<li><code>mv {old/file} {new/file}</code> = move file from old folder to new folder</li>
+<li><code>mv {old/} {new/}</code> = rename directory from old to new</li>
+<li><code>python file.py</code> = run Python script called file.py</li>
 </ul>
-<h2 id="usage">Usage</h2>
+<p><strong>Shortcuts:</strong></p>
 <ul>
-<li><em>Note</em>: I use {curly brackets} to represent the path to a file or folder. In terminal speak, there are absolute paths and relative paths. Every single file or folder has one absolute path, described using the complete path notation: from top-level folder all the way to that specific file/folder. There are a lot of shorthand techniques used in the terminal to avoid typing the full path every time.</li>
-<li>Opens up a command prompt in your home folder
+<li><code>$</code>, <code>%</code>, <code>&gt;</code> = command prompt, whenever you open the terminal, this is the last symbol displayed by the terminal, you type your commands after it
 <ul>
-<li><code>/</code> is shorthand for the top-level folder on your system &ndash; where the Operating System is installed. You can think of this as a folder with no name or a blank name, e.g. instead of <code>top/</code>, <code>everything/</code>, <code>blank/</code>, or anything like that, they just named this folder <code>/</code>.</li>
-<li><code>folderName/</code> any other folder is usually represented by it&rsquo;s name, and a slash afterward. You&rsquo;ll see directories/folders referenced with and without the slash, so it&rsquo;s not mandatory.</li>
-<li><code>fileName</code> &ndash; files never have a slash after them, but they may have a file ending, e.g. <code>fileName.txt</code>, <code>filename.png</code>, etc that doesn&rsquo;t always show up.</li>
-<li><code>~</code> is shorthand for your user folder&rsquo;s path (e.g. <code>/home/blake/</code>. A path is basically the location of any given folder or file on your system. E.g. if I save a file <code>ex.py</code> in my home folder, the path for that file will be <code>/home/blake/ex.py</code> or <code>~/ex.py</code>. This tells us that from the top folder, navigate to the home folder, then the blake folder, and then you&rsquo;ll find <code>ex.py</code> in the <code>blake/</code> folder.</li>
-</ul>
-</li>
-<li><strong>Navigate folders and files</strong>
-<ul>
-<li><code>ls</code> lists all the files in the current folder
-<ul>
-<li><code>ls -la</code> lists all files the long way</li>
-<li><code>ls /home/blake/dirName/</code> lists all files in the directory specified by the path, can be any directory, not just the one you are currently in</li>
+<li>Before the command prompt, terminals typically display the folder you are currently in.</li>
 </ul>
 </li>
-<li><code>cd {path/to/dir/}</code> changes directory to the one specified by the path, this is the main function I use to move around the folders
+<li><code>~</code> = your home folder, e.g. <code>/home/blake/</code> is equivalent</li>
+<li><code>/</code> = system root, the folder that contains all other folders</li>
+<li><code>.</code> = current folder</li>
+<li><code>..</code> = parent folder</li>
+<li><code>{x}</code> = curly brackets often represent the path to the folder or file you want to manipulate. You don&rsquo;t actually type the curly brackets into the terminal.
 <ul>
-<li><code>cd ..</code> takes you to the directory above you
+<li>A path is either the location of a folder, or the location of a file.</li>
+<li>The Documents folder in my home folder has the path:
 <ul>
-<li><code>..</code> is shorthand for the parent directory (above you),</li>
-<li><code>.</code> is shorthand for your current directory path</li>
+<li><code>~/Documents/</code></li>
+<li><code>/home/blake/Documents</code></li>
 </ul>
 </li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>Move files and folders around</strong>
+<li>A file in my Documents folder called <code>ex.py</code> has the path:
 <ul>
-<li><code>mv ..</code> moves to the folder above the current one</li>
-<li><code>mv {dir1/fileName} {dir2/fileName}</code> moves a file from the first dir position to the second dir position
-<ul>
-<li>You can change the fileName as well during this move, e.g. <code>mv folderOld/ folderNew/</code></li>
-</ul>
-</li>
-<li><code>mv {dir1} {dir2}</code> changes the name of the folder</li>
-</ul>
-</li>
-<li><strong>Create files and folders</strong>
-<ul>
-<li><code>touch {filename}</code> creates a new empty file</li>
-<li><code>mkdir {dirname}</code> creates a new directory</li>
-</ul>
-</li>
-<li><strong>Misc</strong>
-<ul>
-<li><code>grep [options] pattern {files}</code> searchs all the files in {files} for the &ldquo;pattern&rdquo; specified, e.g. <code>grep -r &quot;my random phrase&quot; ~/*</code> if you want to search all of your home directory (~/*) files recursively (-r) for the string &ldquo;my random phrase&rdquo;</li>
-<li><code>man {command}</code> pulls up the MANual (documentation) for any command, it&rsquo;s the best place to learn about what a command does</li>
+<li><code>~/Documents/ex.py</code></li>
+<li><code>/home/blake/Documents/ex.py</code></li>
 </ul>
 </li>
 </ul>
-<p><strong>Why text?</strong> It&rsquo;s pretty simple, and easy for us humans to remember key words that actually relate to what&rsquo;s going on. At least, that&rsquo;s the idea. The terminal is the place we give the computer commands. That&rsquo;s why it&rsquo;s also called the command line, or command prompt. The most minimal representation of the terminal/command line/command prompt is a special symbol that changes, I don&rsquo;t know why. Typically, the symbol is <code>$</code>, <code>&gt;</code>, <code>%</code>, <code>#</code>, or something like that. On my personal computer, I use a little ghost symbol that doesn&rsquo;t show up here.</p>
-<p><strong>What is a terminal?</strong> The terminal is a computer application that enables you to run commands, programs, executables, and navigate your folders and files (just like file explorer). You can do everything on your computer through the terminal. The alternative is to do everything through Graphical User Interfaces (GUIs), which are the windows that pop up when you click on an app. Oftentimes, GUIs are simpler and more intuitive since they have pictures and pretty colors, but if you learn how to use the Terminal, it unlocks many computing superpowers.</p>
-<ul>
-<li>On Mac, the default terminal app is called &ldquo;Terminal&rdquo;</li>
-<li>On Windows, the default app is called &ldquo;Command Prompt&rdquo;, but you can and should download &ldquo;PowerShell&rdquo;, a newer, better version.</li>
+</li>
 </ul>
-<p><strong>What does all this text mean when I open a terminal?</strong> If you&rsquo;re in a terminal, the key thing to know is the terminal prompt: this is a symbol like <code>$</code>, <code>%</code>, <code>&gt;</code> or something else, and it is just a random symbol that tells you to type your commands after the symbol. All of the text before the &ldquo;prompt&rdquo; is just for display.</p>
-<ul>
-<li>On Mac, you&rsquo;ll typically see something like <code>Blake@MyMac ~ $</code>. The <code>$</code> is the prompt, <code>Blake</code> is your username, <code>MyMac</code> is the name of your computer, and <code>~</code> represents the folder you&rsquo;re currently in. In this case, the tilde <code>~</code> is shorthand for <code>home/Blake/</code>, your home directory where most of your files live. The tilde is just shorthand used in the terminal for your home folder.</li>
-<li>On Windows, you&rsquo;ll typically just see the current folder, <code>C:\Users\Blake&gt;</code> with the prompt touching the folder name. In PowerShell, you&rsquo;ll see a &ldquo;PS&rdquo; attached to the front for no good reason, e.g. <code>PS C:\Users\Blake&gt;</code></li>
-</ul>
-<p><strong>What is a command?</strong> Typically, anything that you do in a terminal is called a &ldquo;command&rdquo;, rather ambiguously. These commands are mostly shell scripts, programs, and executables. You can use commands to directly open applications through the terminal, as well as manipulate files and folders.</p>
-<p><strong>What is the shell?</strong> The terminal comes with a &ldquo;shell&rdquo; interpreter that lets you use a shell scripting language, like Bash. Bash is a language that includes commands like <code>cd</code>, <code>ls</code>, <code>mv</code>, <code>grep</code>, and many more that you can run in a terminal. These do actions like change the current directory, list files in the current directory, move files and folders around, and many more.</p>
 
     </div>
 </article>

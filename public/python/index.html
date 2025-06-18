@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Python install guide | Blake Ruprecht</title>
+  <title>Python | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -134,39 +134,56 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Python install guide</h1>
+        <h1>Python</h1>
     </header>
 
     
 
     <div class="post-content">
-        <p>Python is the most useful general purpose programming language, probably because it is easy to use. It&rsquo;s also the <em>lingua franca</em> of <a href="/research">AI research</a>, because it has awesome <a href="/python-packages">science packages</a> for free.</p>
-<p>Don&rsquo;t let that fool you, it&rsquo;s still difficult to get this anaconda up and running on your own computer.</p>
-<h2 id="installation-instructions">Installation instructions</h2>
-<p>Here&rsquo;s what you&rsquo;ll typically see, as concisely as possible. Bold terms are explained in the FAQ.</p>
+        <p>General-purpose programming language. Easy to learn, widely used for AI/data science. Free to download, free packages, it&rsquo;s awesome</p>
+<p><strong>Install Python</strong></p>
 <ol>
-<li>Download the latest <strong>version</strong> of Python from the <a href="https://www.python.org/downloads/">official website</a> for your operating system (Mac, Windows, Linux, etc.)</li>
-<li>Follow the installer, making sure to &ldquo;add python.exe to <strong>PATH</strong>&rdquo;</li>
-<li>Open up a <strong>Terminal</strong> app and type the command <code>python --version</code> to verify you have Python installed correctly. It should print out something like <code>Python 3.11.2</code></li>
+<li>Download the latest version of Python from <a href="https://python.org/downloads">python.org/downloads</a></li>
+<li>Check &ldquo;add to PATH&rdquo; during install
+<ul>
+<li>Note, if you download python and it doesn&rsquo;t run, it&rsquo;s most like because the python executable file is not in your PATH variable.</li>
+</ul>
+</li>
+<li>Open a <a href="/terminal">terminal</a> and type <code>python --version</code> to verify installation
+<ul>
+<li>Some systems require you to type <code>python3</code> to run python, annoying.</li>
+</ul>
+</li>
 </ol>
-<h2 id="faq">FAQ</h2>
-<p><strong>What version should I get?</strong> Install the latest version, unless you know you need an earlier version. Typically, there&rsquo;s not too much difference, unless you need Python 2, which is older, and no longer updated and supported.</p>
-<p><strong>What is 32-bit versus 64-bit?</strong> This refers to a specific detail about your CPU architecture. Most modern computers use 64-bit, so you&rsquo;ll probably never need to use 32-bit.</p>
-<p><strong>What is PATH?</strong> This is the weirdest and hardest part of the install. You download python on your system, but to run python, your computer needs to know where to look &ndash; what folder python is in. PATH is a system-wide environment variable (wordsoup) that basically just lists all the <em>folders</em> that you (the user) have put executable <em>files</em> (like python.exe). This way, when you type <code>python</code> into the terminal, the terminal will look in all the folders contained in your PATH to try to find python.exe.</p>
-<p><strong>What is a directory?</strong> Computer nerds use a secret word called &ldquo;directory&rdquo; instead of just saying folder. I have no idea why we do this.</p>
-<p><strong>What is a <a href="/terminal">terminal</a>?</strong> It&rsquo;s basically an app that enables you to navigate files and run &ldquo;commands&rdquo; (scripts in languages like Bash) to manipulate files. For python, the terminal is what &ldquo;starts&rdquo; up the python interpreter, enabling you to run python code directly in the terminal. This is how all python code is run, except for some integrated dev environments (IDEs) which have a built-in terminal.</p>
-<p><strong>The</strong> <code>python</code> <strong>command didn&rsquo;t work?</strong> There&rsquo;s a chance you must type <code>python3</code> to run Python. Otherwise, if it&rsquo;s not working, you may not have the folder/directory location of the Python executable in your PATH.</p>
-<h2 id="references">References</h2>
-<p>As always, the best way to learn about a piece of software &ndash; read the docs!</p>
+<p><strong>Run Python code</strong></p>
+<ol>
+<li>Create a file with the .py extension, e.g. <code>test.py</code>
 <ul>
-<li>For more Windows info: <a href="https://docs.python.org/3/using/windows.html">Python 3.12.4 Documentation &raquo; Python Setup and Usage &raquo; 5. Using Python on Windows</a></li>
-<li>For more MacOS info: <a href="https://docs.python.org/3/using/mac.html">Python 3.12.4 Documentation &raquo; Python Setup and Usage &raquo; 5. Using Python on a Mac</a></li>
-</ul>
-<h2 id="related">Related</h2>
+<li>Use a text editor to write code in test.py, e.g. you could add:
 <ul>
-<li><a href="/python-packages">python-packages</a></li>
-<li><a href="computer.md">computer</a></li>
+<li><code>print(&quot;hello world!&quot;)</code> &lt;&ndash; that&rsquo;s python code right there</li>
 </ul>
+</li>
+</ul>
+</li>
+<li>In the <a href="/terminal">terminal</a>, navigate to the folder that contains test.py</li>
+<li>Run <code>python test.py</code> in the terminal to execute the python script.</li>
+</ol>
+<p><strong>Install Python packages</strong></p>
+<ul>
+<li>NOTE: A package is an extension of Python that adds more functionality. Most packages only really do 1 or 2 things and aren&rsquo;t very hard to learn.</li>
+</ul>
+<ol>
+<li>In a <a href="/terminal">terminal</a>, run the command <code>pip install name</code>, and replace name with the name of the package you want, which is often different from the marketing name of the package. Here are some solid starter packages for data analysis:
+<ul>
+<li><code>pandas</code> = for importing data (in .csv, etc) and using it</li>
+<li><code>numpy</code> = put imported data into an array/matrix and manipulate it</li>
+<li><code>matplotlib</code> = for plotting graphs</li>
+<li><code>scipy</code> = has fancy math equations</li>
+<li><code>torch</code> = huge package has all the modern AI/ML stuff (this is PyTorch)</li>
+</ul>
+</li>
+</ol>
 
     </div>
 </article>

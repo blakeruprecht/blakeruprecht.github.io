@@ -38,12 +38,12 @@ When the thoughts are cleared, we return to stillness, the ground truth.
 - **Reciprocity** - I'm in relationship with others, who also want to live, and have given me everything. I give back, I treat others how I want to be treated.
 - **Integrity** - My thoughts, words, and actions are the same. I am solid, grounded, trustworthy, and loving. Not perfect, but real.
 
-## Air: from Detachment to Radiance
+## Air: from Detachment to Play
 - **Detachment** - There's too much to think about. Let go, detach from all illusions. I can be free from any thought at any moment I choose.
 - **Curiosity** - From stillness, ask "what's true"? Look closer. Question everything, even your longest held beliefs.
 - **Adaptability** - Welcome being wrong. Update beliefs constantly. Stay intellectually flexible and light.
 - **Clarity** - Zoom out and see what really matters. Strip away everything but what matters. Keep it simple, the best signal is love.
-- **Radiance** - Delight in surprise and humor. Shine new ideas in service of love. Wit that warms. Insight that bonds people. Strategy becomes poetry. Precision becomes beauty.
+- **Play** - Delight in surprise and humor. Play everything. Shine new ideas in service of love. Wit that warms. Insight that bonds people. Strategy becomes poetry. Precision becomes beauty.
 
 ## Water: from Feeling to Surrender
 - **Feeling** - Raw, shifting, hard to pin down. Pleasure, pain, anxiety, desire.

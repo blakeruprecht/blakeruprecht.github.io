@@ -2,12 +2,13 @@
 title: Eating micronutrients
 date: 2025-06-03
 ---
-Micronutrients refer to smaller chemical molecules and just individual atoms the body needs to ingest because we can't create these for nothing. They're part of the raw input to the human body.
+Humans eat food for [energy](/eating-calories) first and foremost, but the body is also made of food. Food makes up our bones, organs, heart, lungs, skin, cells, tissues, etc. Everything in a human is made of food. The major building blocks of food/human are called [macronutrients](/eating-macronutrients). Besides the macro chemicals, there are a bunch of tiny chemicals and elements our bodies don't make, but still need to eat to make more body.
 
-15-25 Minerals
-13 Vitamins: A, B2, B3, B4, etc.
+There are:
+- 15-25 Minerals
+- 13 Vitamins: A, B2, B3, B4, etc.
 
-There are a lot of micronutrients, and it's relatively complicated to remember what micro is in what food, so that's why the general recommendation is to "eat a variety of ingredients." It's kind of a shotgun versus rifle approach. If you got blood work done, or talked to a dietitian, they might be able to perfect your diet.
+There are a lot of micronutrients, and it's relatively complicated to remember what micro is in what food, so that's why the general recommendation is to "eat a variety of ingredients." It's kind of a shotgun versus rifle approach. If you got blood work done, or talked to a dietitian, they might be able to perfect your diet, but in general, eat a large variety and you'll be okay.
 
 ## List of Great Nutritious Foods
 PLANTS

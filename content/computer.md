@@ -2,26 +2,28 @@
 title: Computer
 date: 2023-06-17
 ---
-A tool to improve thinking
+Here's my current computer setup for [computing](/computing).
 
-Here's my current computer setup:
-- [Hardware](/computer-hardware): Dell XPS 13 9370 laptop, iPhone 13 Mini smartphone
-- [Operating System](/os): Debian Linux (laptop), iOS 18 (phone)
+**Hardware**:
+- Dell XPS 13 9370 (my main laptop/general purpose computer)
+
+**Software**:
+- [Operating System](/operating-system): Debian Linux
 - Programs:
-	- Blackbox ([terminal](/terminal))
-	- Obsidian, VSCode, Cursor, Neovim, Nano (text editors)
-	- Firefox, Brave (browsers)
-	- Gimp (image editor)
-	- Zathura (pdf viewer)
-	- Discord (messaging)
-- Languages: 
-	- HTML, CSS, JavaScript (default for [websites](/websites))
+	- [Terminal](/terminal) (Blackbox)
+	- Text Editor (Obsidian, Cursor, VSCode, Neovim, Nano)
+	- Browser (Firefox, Brave)
+	- PDF Reader (Zathura)
+	- Image Editor (GIMP)
+- Development: 
+	- Git for version control
+	- HTML, CSS, JavaScript (default for [building-websites](building-websites.md))
+	- Go (for my website SSG)
 	- [Python](/python)
-	- Go (for Hugo)
 
-I also have a phone (iPhone 13 Mini) running iOS 18 which I don't use for any real computing.
+**What computer should I buy next?**
+- (Under $100) old Lenovo X220 -- still plenty good for modern computing with Linux installed
+- ($100-$400) used Dell XPS 13 or Macbook Air -- what I currently have, still more than enough computer for all of my work use cases. Not for gaming though.
+- ($400+) newer Dell XPS 13 or Macbook Air
+- ($1000+) [Build your own computer](/building-computers)
 
-## Why
-I'm a [computer science master](/research), so take these recommendations with a grain of salt. I've installed many different OSes, built my own computer, revived long-dormant old laptops, hand-built my own website, and coded in many different languages.
-## Related
-- [computing](/computing)

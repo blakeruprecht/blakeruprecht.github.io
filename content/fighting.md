@@ -1,12 +1,12 @@
 ---
-title: Boxing
+title: Fighting
 date: 2025-06-03
 ---
 > "Fighting is always the last answer to a problem."
 
-Boxing as spiritual practice. Self-defense. Martial art.
+I like the views of fighting as a spiritual practice, as a true art-form. Use it for self-defense. The best reason to learn to fight is so that you never have to.
 
-The best reason to learn to fight is so that you never have to.
+I'm still new to practicing fighting, so for now, I'm just picking a style: **boxing**.
 
 **Other modalities**
 MMA has been a proven ground for fighting styles. One thing is for sure, any one method is insufficient, all the good fighters combine the 3 big styles.

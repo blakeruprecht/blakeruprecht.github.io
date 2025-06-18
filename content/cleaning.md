@@ -9,7 +9,7 @@ Maintain medical health by cleaning the body. This comes down to cleaning the in
 4. Shower daily, wear sunscreen on skin exposed to sunlight
 5. Cut hair regularly
 
-**Cleaning/Medical Professionals**
+**Medical Professionals**
 - *Physician* to check and fix internals.
 - *Dentist* to check and fix teeth.
 	- Flossing sucks but every single dentist I've ever talked to recommends it.
@@ -19,4 +19,11 @@ Maintain medical health by cleaning the body. This comes down to cleaning the in
 	- Change eye focal length from close to middle to far to stretch the eyes. This is especially important for computer workers.
 - *Dermatologist* to check and fix skin.
 	- Daily sunscreen to protect the skin from cancers.
-- *Barbers* are great but expensive. I bought a pair of hair clippers and have spent five years learning one haircut -- my own.
+
+**Hair & Beard Trimming**
+- *Barbers* are great but expensive. I bought a pair of hair clippers and have spent five years learning one haircut -- my own. Here's what I do:
+	- Cut the sides short. 1/4" or 1/2". Taper the bottoms with shorter guards.
+	- Cut the top long. Start with 1" or so. Taper towards the front, leave the hair at the front as long as I like, 2-4".
+	- Cut the beard and the rest of my bodyhair short as hell, who needs it.
+
+![My usual haircut](/img/my-haircut.png)

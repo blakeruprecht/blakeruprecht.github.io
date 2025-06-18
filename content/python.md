@@ -1,41 +1,30 @@
 ---
 date: 2024-03-04
-title: Python install guide
+title: Python
 description: The hardest part of coding in Python is setting up the coding environment. Downloading all of the software and making sure it's all in the right place will stop your Python journey before you even start.
 ---
+General-purpose programming language. Easy to learn, widely used for AI/data science. Free to download, free packages, it's awesome
 
-Python is the most useful general purpose programming language, probably because it is easy to use. It's also the *lingua franca* of [AI research](/research), because it has awesome [science packages](/python-packages) for free.
+**Install Python**
+1. Download the latest version of Python from [python.org/downloads](https://python.org/downloads)
+2. Check "add to PATH" during install
+	- Note, if you download python and it doesn't run, it's most like because the python executable file is not in your PATH variable.
+3. Open a [terminal](/terminal) and type `python --version` to verify installation
+	- Some systems require you to type `python3` to run python, annoying.
 
-Don't let that fool you, it's still difficult to get this anaconda up and running on your own computer.
+**Run Python code**
+1. Create a file with the .py extension, e.g. `test.py`
+	- Use a text editor to write code in test.py, e.g. you could add:
+		- `print("hello world!")` <-- that's python code right there
+2. In the [terminal](/terminal), navigate to the folder that contains test.py
+3. Run `python test.py` in the terminal to execute the python script.
 
-## Installation instructions
-Here's what you'll typically see, as concisely as possible. Bold terms are explained in the FAQ.
-
-1. Download the latest **version** of Python from the [official website](https://www.python.org/downloads/) for your operating system (Mac, Windows, Linux, etc.)
-2. Follow the installer, making sure to "add python.exe to **PATH**"
-3. Open up a **Terminal** app and type the command `python --version` to verify you have Python installed correctly. It should print out something like `Python 3.11.2`
-
-## FAQ
-
-**What version should I get?** Install the latest version, unless you know you need an earlier version. Typically, there's not too much difference, unless you need Python 2, which is older, and no longer updated and supported.
-
-**What is 32-bit versus 64-bit?** This refers to a specific detail about your CPU architecture. Most modern computers use 64-bit, so you'll probably never need to use 32-bit.
-
-**What is PATH?** This is the weirdest and hardest part of the install. You download python on your system, but to run python, your computer needs to know where to look -- what folder python is in. PATH is a system-wide environment variable (wordsoup) that basically just lists all the *folders* that you (the user) have put executable *files* (like python.exe). This way, when you type `python` into the terminal, the terminal will look in all the folders contained in your PATH to try to find python.exe.
-
-**What is a directory?** Computer nerds use a secret word called "directory" instead of just saying folder. I have no idea why we do this.
-
-**What is a [terminal](/terminal)?** It's basically an app that enables you to navigate files and run "commands" (scripts in languages like Bash) to manipulate files. For python, the terminal is what "starts" up the python interpreter, enabling you to run python code directly in the terminal. This is how all python code is run, except for some integrated dev environments (IDEs) which have a built-in terminal.
-
-**The** `python` **command didn't work?** There's a chance you must type `python3` to run Python. Otherwise, if it's not working, you may not have the folder/directory location of the Python executable in your PATH.
-
-## References
-As always, the best way to learn about a piece of software -- read the docs!
-- For more Windows info: [Python 3.12.4 Documentation >> Python Setup and Usage >> 5. Using Python on Windows](https://docs.python.org/3/using/windows.html)
-- For more MacOS info: [Python 3.12.4 Documentation >> Python Setup and Usage >> 5. Using Python on a Mac](https://docs.python.org/3/using/mac.html)
-
-## Related
-- [python-packages](/python-packages)
-- [computer](computer.md)
-
+**Install Python packages**
+- NOTE: A package is an extension of Python that adds more functionality. Most packages only really do 1 or 2 things and aren't very hard to learn.
+1. In a [terminal](/terminal), run the command `pip install name`, and replace name with the name of the package you want, which is often different from the marketing name of the package. Here are some solid starter packages for data analysis:
+	- `pandas` = for importing data (in .csv, etc) and using it
+	- `numpy` = put imported data into an array/matrix and manipulate it
+	- `matplotlib` = for plotting graphs
+	- `scipy` = has fancy math equations
+	- `torch` = huge package has all the modern AI/ML stuff (this is PyTorch)
 

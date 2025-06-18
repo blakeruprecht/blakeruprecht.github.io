@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   <meta charset="UTF-8" />
   
@@ -15,13 +15,11 @@
 
   <meta name="description" content="">
 
-  <link rel="canonical" href="http://localhost:1313/untitled/" />  
+  <link rel="canonical" href="https://blakeruprecht.com/untitled/" />  
 
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 
   
   <style>
@@ -52,8 +50,11 @@ if (!doNotTrack) {
 <header class="site-header">
   <nav class="site-nav">
     <div class="logo">
-      <a href="/">Blake Ruprecht</a>
-      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      <a href="/">
+        
+          <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
+        
+      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
     </div>    
   </nav>
 </header>
@@ -137,13 +138,83 @@ window.MathJax = {
     </header>
 
     
-        <aside class="toc">
-            <nav id="TableOfContents"></nav>
-        </aside>
-    
 
     <div class="post-content">
-        
+        <h2 id="prerequisites">Prerequisites</h2>
+<p>Assuming that you already have Python installed, create a new virutal environment for this project (or use one you already have) and install the required Python packages to run this code.</p>
+<ul>
+<li><code>pip install torch torchvision opencv-python matplotlib</code></li>
+</ul>
+<p>That’s expected—ResNet18 pretrained on ImageNet isn’t trained to detect screws or defects specifically. The goal here was to show you can run the full pipeline end-to-end with images, annotations, and logging.</p>
+<p>If you want to push it closer to a real inspection system, the next step is to train or fine-tune a model on labeled images from your domain (e.g., screws, bolts, defects).</p>
+<p>For your technical writing sample, this demo shows you understand:</p>
+<ul>
+<li>Model loading and preprocessing</li>
+<li>Image processing and annotation</li>
+<li>Logging outputs</li>
+<li>Organizing code and results</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<p>This project demonstrates a simplified visual inspection pipeline using a pretrained convolutional neural network (CNN). The system classifies product images, overlays predicted labels, logs results, and simulates offline inspection and data capture. This kind of workflow mirrors foundational patterns in industrial computer vision: high-throughput analysis, process logging, and model-driven adaptation.</p>
+<hr>
+<h3 id="1-system-overview"><strong>1. System Overview</strong></h3>
+<p>This prototype mimics Boulder Imaging’s Vision Inspector pipeline at a conceptual level:</p>
+<ul>
+<li>A <strong>ResNet18 CNN</strong> classifies input images.</li>
+<li><strong>OpenCV</strong> handles image I/O and annotation.</li>
+<li><strong>Python scripting</strong> processes a batch of images and logs structured output.</li>
+<li>The system produces:
+<ul>
+<li>Annotated inspection results (image overlays)</li>
+<li>A CSV inspection log (filename, predicted class, confidence)</li>
+<li>A modular pipeline extensible for online/offline inspection</li>
+</ul>
+</li>
+</ul>
+<p>While the model used is pretrained on ImageNet, the structure supports fine-tuning or replacement with domain-specific architectures.</p>
+<p>While the model is trained on ResNet18 CNN, the structure supports fine-tuning or replacement with domain-specific architectures.</p>
+<hr>
+<h3 id="2-setup-instructions"><strong>2. Setup Instructions</strong></h3>
+<p>Clone the repository and set up a Python environment:
+<code>git clone {your repo}</code>
+<code>cd compvis-inspector</code>
+<code>python3 -m venv venv</code>
+<code>source venv/bin/activate</code>
+<code>pip install torch torchvision opencv-python matplotlib</code></p>
+<p>Place <code>.jpg</code> or <code>.png</code> product images into the <code>images/</code> folder. Then run:
+<code>python look.py</code>
+Results will appear in <code>outputs/</code>.</p>
+<hr>
+<h3 id="3-code-walkthrough"><strong>3. Code Walkthrough</strong></h3>
+<h4 id="a-load-model--transform">a. Load Model &amp; Transform</h4>
+<p>Using <code>torchvision.models.resnet18(weights=ResNet18_Weights.DEFAULT)</code>, we load a pretrained CNN and use the matching transformation pipeline to normalize input images for inference.</p>
+<h4 id="b-batch-processing">b. Batch Processing</h4>
+<p>We iterate over files in <code>images/</code>, applying the transform and passing each image through the model. We extract the highest-probability class and confidence score.</p>
+<h4 id="c-visual-feedback">c. Visual Feedback</h4>
+<p>We use OpenCV to overlay the prediction directly on the image for fast human-in-the-loop verification. This simulates real-time display of classification results on-screen.</p>
+<h4 id="d-logging">d. Logging</h4>
+<p>Each inference is written to a CSV file for later filtering, sorting, and analysis—mirroring the logging/auditing layer of many vision systems.</p>
+<hr>
+<h3 id="4-sample-results"><strong>4. Sample Results</strong></h3>
+<p><em>Show a screenshot of one or two annotated images from the <code>outputs/</code> folder here.</em><br>
+<em>You can also paste a few lines from <code>inspection_log.csv</code>.</em></p>
+<hr>
+<h3 id="5-conclusion"><strong>5. Conclusion</strong></h3>
+<p>This project showcases a minimal working version of an industrial inspection pipeline. Though pretrained on ImageNet and not domain-specific, it demonstrates core system behavior:</p>
+<ul>
+<li>Fast, automated classification</li>
+<li>Visual overlay of results</li>
+<li>Structured result logging</li>
+<li>Extensible Python-based implementation</li>
+</ul>
+<p>Further extensions could include:</p>
+<ul>
+<li>Confidence thresholding to flag potential defects</li>
+<li>Retraining on custom data</li>
+<li>Real-time video input (e.g. OpenCV + webcam stream)</li>
+<li>Integration with an offline “Studio” tool for simulation, replay, and recipe development</li>
+</ul>
+
     </div>
 </article>
 
@@ -153,8 +224,9 @@ window.MathJax = {
 </main>
 <footer>
   <div>
-    <a href="/">100% human-written</a> | <a href="mailto:blakecruprecht@gmail.com">email me</a> | <a href="https://blakeruprecht.substack.com/">subscribe</a>
+    <a href="/archive">more</a> :: 100% human-written :: <a href="/">home</a>
   </div>
 </footer>
 </body>
 </html>
+

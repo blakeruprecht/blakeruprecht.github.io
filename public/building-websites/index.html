@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Building Websites | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/building-websites/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">
+        
+          <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
+        
+      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Building Websites</h1>
+    </header>
+
+    
+
+    <div class="post-content">
+        <p>Every website is just text + images + style. That&rsquo;s it. There&rsquo;s an incredible amount of code that makes websites look all dynamic and pretty.</p>
+<p>Basic Website Workflow</p>
+<ol>
+<li>Write content in <strong>HTML</strong> files
+<ul>
+<li>HTML defines the structure, headings, paragraphs, links, etc.</li>
+</ul>
+</li>
+<li>Style with <strong>CSS</strong>
+<ul>
+<li>CSS defines the colors, layout, spacing, fonts, etc.</li>
+</ul>
+</li>
+<li>Add interactivity with <strong>JavaScript</strong> (optional)
+<ul>
+<li>JS creates buttons, forms, animations, etc.</li>
+</ul>
+</li>
+<li>Upload files to <strong>hosting service</strong>
+<ul>
+<li><em>Free</em>: GitHub Pages, Netlify, Vercel</li>
+<li><em>Paid</em>: Any web host, cloud provider</li>
+</ul>
+</li>
+<li>Point <strong>domain name</strong> to hosted files
+<ul>
+<li>Buy from registrar (Namecheap, Google Domains)</li>
+<li>Point to your hosting service via DNS</li>
+</ul>
+</li>
+</ol>
+<p>Frameworks (optional)</p>
+<ul>
+<li><strong>Static Site Generators</strong> &ndash; Enables the user to write in markdown, automatically converts markdown to HTML
+<ul>
+<li>e.g. Hugo, Jekyll, 11ty</li>
+</ul>
+</li>
+<li><strong>WYSIWYG</strong> &ndash; Enables the user to use a GUI to write in, automatically converts that to HTML
+<ul>
+<li>e.g. WordPress</li>
+</ul>
+</li>
+</ul>
+<h2 id="my-setup">My Setup</h2>
+<ul>
+<li>Write in Markdown</li>
+<li>Hugo generates HTML/CSS</li>
+<li>Host on GitHub Pages</li>
+<li>Domain from Namecheap</li>
+</ul>
+<h2 id="examples-of-simple-sites">Examples of simple sites</h2>
+<ul>
+<li><a href="https://thebestmotherfucking.website/">The Best Motherfucking Website</a></li>
+<li><a href="https://deadsimplesites.com/">Dead Simple Sites</a></li>
+<li>Wikipedia (simple, content-focused)</li>
+</ul>
+<p><img src="wikipedia-web-design.png" alt="Wikipedia&rsquo;s style inspiration sheet"></p>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/archive">more</a> :: 100% human-written :: <a href="/">home</a>
+  </div>
+</footer>
+</body>
+</html>
+

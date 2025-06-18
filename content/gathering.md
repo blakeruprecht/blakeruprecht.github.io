@@ -6,7 +6,23 @@ date: 2025-06-03
 I keep one Grocery List on my phone in the notes app, with checkboxes enabled. This way at the store, I check off everything I buy. During the week, whenever I run out of an ingredient, I uncheck that item on my phone list. This way, I always have a list I'm updating, and anytime I happen to enter into a grocery store, I can pull out my phone and know exactly what I need at that moment (or at least have a good guess).
 
 ## My Ingredient List
-I cook (roughly) the same [breakfast](/smoothie) and [lunch](/lunchbox) most days, and everything on my [dinner menu](/menu) uses basically the same ingredients, so my pantry is pretty simple to maintain:
+I eat mostly whole foods and stick to the ingredients I like, which are usually these:
+
+MEAT & DAIRY
+- Chicken Thigh or Breast
+- Ground Beef (or Fish or something else)
+- Greek Yogurt, whole milk
+- Milk, whole, vitamin D
+- Cheese, typically shredded or cream
+
+CARBS / FATS / AISLES
+- Oats, old-fashioned
+- Peanut Butter
+- Rice, usually white
+- Pasta, usually spaghetti and rigatoni
+- Beans, usually black and pinto
+- Fresh Bread, usually tortillas, buns, or sourdough
+- Fresh Olives, if I can find them for cheap...
 
 FRESH PRODUCE
 - Bananas
@@ -17,20 +33,12 @@ FRESH PRODUCE
 - Onion
 - Chili, usually jalapenos
 - Lemon / Lime / both
-- Tomatoes
+- Tomato
 - Greens / Broccoli ([micronutrient allstars](/eating))
+- Cilantro / Parsley / Basil / etc.
 
-DAIRY / MEAT
-- Greek Yogurt, whole milk
-- Milk, whole, vitamin D
-- Cheese, typically shredded or cream
-- Meat, usually chicken or ground beef depending on what dinners I want
-
-CARBS / FATS / AISLES
-- Oats, old-fashioned
-- Peanut Butter
-- Bread, sourdough
 
 ## Related
+- [fishing](/fishing)
 - [hunting](/hunting)
 - [farming](/farming)
