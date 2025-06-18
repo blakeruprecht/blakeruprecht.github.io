@@ -2,7 +2,7 @@
 title: Object Detection Pipeline using ResNet18
 date: 2025-06-18
 ---
-[GitHub Repo: blakeruprecht/object-detection](https://github.com/blakeruprecht/object-detection) 
+[GitHub Repo: object-detection](https://github.com/blakeruprecht/object-detection) 
 
 This project demonstrates a simple visual inspection pipeline using a pretrained convolutional neural network (CNN). Images are loaded and passed into the CNN model, which outputs a predicted class and confidence score. The class and score are then overlaid on each image using OpenCV, and saved for further inspection. All of the results are logged to a CSV file.
 

@@ -13,7 +13,7 @@
       <link>https://blakeruprecht.com/object-detection/</link>
       <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/object-detection/</guid>
-      <description>GitHub Repo: blakeruprecht/object-detection&#xA;This project demonstrates a simple visual inspection pipeline using a pretrained convolutional neural network (CNN). Images are loaded and passed into the CNN model, which outputs a predicted class and confidence score. The class and score are then overlaid on each image using OpenCV, and saved for further inspection. All of the results are logged to a CSV file.&#xA;Prerequisites github.com/blakeruprecht/object-detection Python Virtual environment (recommended): python3 -m venv venv source venv/bin/activate pip install torch torchvision opencv-python matplotlib System Overview compvis/ images/ example1.</description>
+      <description>GitHub Repo: object-detection&#xA;This project demonstrates a simple visual inspection pipeline using a pretrained convolutional neural network (CNN). Images are loaded and passed into the CNN model, which outputs a predicted class and confidence score. The class and score are then overlaid on each image using OpenCV, and saved for further inspection. All of the results are logged to a CSV file.&#xA;Prerequisites github.com/blakeruprecht/object-detection Python Virtual environment (recommended): python3 -m venv venv source venv/bin/activate pip install torch torchvision opencv-python matplotlib System Overview compvis/ images/ example1.</description>
     </item>
     <item>
       <title>Lifting</title>
