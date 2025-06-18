@@ -6,15 +6,8 @@
     <description>Recent content on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blakeruprecht.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Living</title>
-      <link>https://blakeruprecht.com/living/</link>
-      <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/living/</guid>
-      <description>This site is a personal notebook, written in the margins of my life. I&amp;rsquo;m on a mission to root out my own overthinking and replace it with action.&#xA;Loving: Talk/laugh, time, touch, give, serve&#xA;Working: laboring for money &amp;amp; maintaining the tools of life&#xA;Writing, Reading, Computing Apply 2 hr full-time (Technical Writer, AI Customer&amp;hellip;) Indeed: Outdoor Adventure Camp Counselor/Instructor, The Storyteller&amp;rsquo;s Project Indeed: Digital Marketing Coordinator, lakewood, co https://problogger.com/jobs/job/ai-blog-content-writer-freelance-paid/ Write example post for Boulder Imaging Pick something you know inside-out: Don&amp;rsquo;t choose a complex new topic.</description>
-    </item>
     <item>
       <title>Lifting</title>
       <link>https://blakeruprecht.com/lifting/</link>
@@ -90,7 +83,7 @@
       <link>https://blakeruprecht.com/laboring/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/laboring/</guid>
-      <description>Trading time for money. Currently:&#xA;Applying for jobs in writing/teaching/AI support.&#xA;Selling / Applying I am always selling:&#xA;Resume = proof of skills, experience, and education Skills - Match the job posting Experience - Of using skills, keep bullet points action oriented Education - Random piece of paper Cover Letter = your story and fit Emails = polite, clear, direct Meetings = calendars, follow-ups, TODOs Delivery Delivering value through work. For me, that’s mostly writing and computing.</description>
+      <description>Trading time for money. Currently:&#xA;Writing/teaching/AI support Selling / Applying I am always selling:&#xA;Resume = proof of skills, experience, and education Skills - Match the job posting Experience - Of using skills, keep bullet points action oriented Education - Random piece of paper Cover Letter = your story and fit Emails = polite, clear, direct Meetings = calendars, follow-ups, TODOs Delivery Delivering value through work. For me, that’s mostly writing and computing.</description>
     </item>
     <item>
       <title>My Menu</title>
@@ -405,7 +398,7 @@
       <link>https://blakeruprecht.com/working/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/working/</guid>
-      <description>What is working? Earning and sustaining the resources for life.&#xA;laboring: trading time for money maintaining: caring for the tools and systems of life </description>
+      <description>Earning and sustaining the resources for life.&#xA;laboring: earning money maintaining: caring for the tools and systems of life </description>
     </item>
     <item>
       <title>Cleaning</title>
@@ -748,7 +741,7 @@
       <link>https://blakeruprecht.com/untitled/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/untitled/</guid>
-      <description>Prerequisites Assuming that you already have Python installed, create a new virutal environment for this project (or use one you already have) and install the required Python packages to run this code.&#xA;pip install torch torchvision opencv-python matplotlib That’s expected—ResNet18 pretrained on ImageNet isn’t trained to detect screws or defects specifically. The goal here was to show you can run the full pipeline end-to-end with images, annotations, and logging.&#xA;If you want to push it closer to a real inspection system, the next step is to train or fine-tune a model on labeled images from your domain (e.</description>
+      <description>This repository demonstrates a simple visual inspection pipeline using a pretrained CNN. Images are loaded into the system, and then the CNN detects objects within the image. The script creates copies of the images, labeled with the predicted class and confidence outputs. The script also logs all of the results in a csv file for later inspection.&#xA;Prerequisites Python A python venv to download the packages for this code python3 -m venv venv source venv/bin/activate pip install torch torchvision opencv-python matplotlib System Overview compvis/ images/ example1.</description>
     </item>
     <item>
       <title>AI architecture</title>

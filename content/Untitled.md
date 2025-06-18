@@ -1,93 +1,82 @@
-
+This repository demonstrates a simple visual inspection pipeline using a pretrained CNN. Images are loaded into the system, and then the CNN detects objects within the image. The script creates copies of the images, labeled with the predicted class and confidence outputs. The script also logs all of the results in a csv file for later inspection.
 
 ## Prerequisites
-Assuming that you already have Python installed, create a new virutal environment for this project (or use one you already have) and install the required Python packages to run this code.
+- Python
+- A python venv to download the packages for this code
+- `python3 -m venv venv`
+- `source venv/bin/activate`
 - `pip install torch torchvision opencv-python matplotlib`
 
+## System Overview
+- `compvis/`
+	- `images/`
+		- `example1.png`
+		- `example2.jpg`
+	- `outputs/`
+		- `example1.png`
+		- `example2.jpg`
+		- `inspection_log.csv`
+	- `model.py`
+	- `look.py`
+
+## Workflow
+- Inputs
+	- Change the model used in `model.py` to anything you want. Just remember that the ResNet18 labels are used in both `model.py` and `look.py` to label the predicted classes.
+	- Add images to the `images/` folder to process. All images must be `.png`, `.jpg`, or `.jpeg`.
+- Running
+	- `python look.py`
+- Outputs
+	- The `outputs/` folder doesn't automatically clear between runs, so manually clear the outputs folder if you are re-running.
+	- Copies of all the images from `images/` labeled with predicted class and confidence levels
+	- A csv log of the image name, predicted class, and confidence level, stored as `inspection_log.csv`
+
+## Results
+
+**Example: `screws.jpg`** (input on left, output on right)
+<div style="display: flex; gap: 10px;">
+  <img src="/img/screws.jpg" alt="Before" width="300"/>
+  <img src="/img/screws-labeled.jpg" alt="After" width="300"/>
+</div>
+
+**Example: `broken-bottle.jpg`** (input on left, output on right)
+<div style="display: flex; gap: 10px;">
+  <img src="/img/broken-bottle.jpg" alt="Before" width="300"/>
+  <img src="/img/broken-bottle-labeled.jpg" alt="After" width="300"/>
+</div>
+
+**Example of the output log**: `inspection_log.csv`
+```
+filename,predicted_class,confidence
+broken-bottle.jpg,chocolate sauce,0.4199
+pill-blister-packs-boken.jpg,pencil sharpener,0.2043
+broken-cable.jpg,whistle,0.1151
+circuit-components.jpg,lighter,0.2302
+bolt-failure.png,screw,0.9955
+pills-blister-pack.jpg,remote control,0.5651
+random-weird-nuts.jpg,dumbbell,0.8688
+plug-on-fire.jpg,spotlight,0.2793
+screws.jpg,screw,0.9930
+bottle-conveyor.jpg,cleaver,0.4906
+```
 
 
-That’s expected—ResNet18 pretrained on ImageNet isn’t trained to detect screws or defects specifically. The goal here was to show you can run the full pipeline end-to-end with images, annotations, and logging.
+## Code Walkthrough
 
-If you want to push it closer to a real inspection system, the next step is to train or fine-tune a model on labeled images from your domain (e.g., screws, bolts, defects).
+**`model.py`**
+- Loads ResNet18, a CNN pretrained on ImageNet.
+	- a pretrained CNN from the PyTorch library.
 
-For your technical writing sample, this demo shows you understand:
-- Model loading and preprocessing
-- Image processing and annotation
-- Logging outputs
-- Organizing code and results
+**`look.py`**
+- Loads the model defined in `model.py`
+- Runs a loop to process each individual image from `images`/
+- For each file in `images/`:
+	- Opens the image and transforms it into a tensor
+	- Uses PyTorch to run the image through the previously defined model with no training
+	- The model outputs the predicted class and the confidence value for the highest confidence prediction
+	- OpenCV puts text over a copy of the image and saves the new image to the `outputs/` folder.
+	- A new line with the results is appended to the `inspection_log.csv`
 
-
-### Abstract
-
-This project demonstrates a simplified visual inspection pipeline using a pretrained convolutional neural network (CNN). The system classifies product images, overlays predicted labels, logs results, and simulates offline inspection and data capture. This kind of workflow mirrors foundational patterns in industrial computer vision: high-throughput analysis, process logging, and model-driven adaptation.
-
----
-### **1. System Overview**
-
-This prototype mimics Boulder Imaging’s Vision Inspector pipeline at a conceptual level:
-- A **ResNet18 CNN** classifies input images.
-- **OpenCV** handles image I/O and annotation.
-- **Python scripting** processes a batch of images and logs structured output.
-- The system produces:
-    - Annotated inspection results (image overlays)
-    - A CSV inspection log (filename, predicted class, confidence)        
-    - A modular pipeline extensible for online/offline inspection
-
-While the model used is pretrained on ImageNet, the structure supports fine-tuning or replacement with domain-specific architectures.
-
-While the model is trained on ResNet18 CNN, the structure supports fine-tuning or replacement with domain-specific architectures.
-
----
-### **2. Setup Instructions**
-
-Clone the repository and set up a Python environment:
-`git clone {your repo}`
-`cd compvis-inspector`
-`python3 -m venv venv`
-`source venv/bin/activate`
-`pip install torch torchvision opencv-python matplotlib`
-
-Place `.jpg` or `.png` product images into the `images/` folder. Then run:
-`python look.py`
-Results will appear in `outputs/`.
-
----
-### **3. Code Walkthrough**
-
-#### a. Load Model & Transform
-
-Using `torchvision.models.resnet18(weights=ResNet18_Weights.DEFAULT)`, we load a pretrained CNN and use the matching transformation pipeline to normalize input images for inference.
-
-#### b. Batch Processing
-
-We iterate over files in `images/`, applying the transform and passing each image through the model. We extract the highest-probability class and confidence score.
-
-#### c. Visual Feedback
-
-We use OpenCV to overlay the prediction directly on the image for fast human-in-the-loop verification. This simulates real-time display of classification results on-screen.
-
-#### d. Logging
-
-Each inference is written to a CSV file for later filtering, sorting, and analysis—mirroring the logging/auditing layer of many vision systems.
-
----
-### **4. Sample Results**
-
-_Show a screenshot of one or two annotated images from the `outputs/` folder here._  
-_You can also paste a few lines from `inspection_log.csv`._
-
----
-### **5. Conclusion**
-
-This project showcases a minimal working version of an industrial inspection pipeline. Though pretrained on ImageNet and not domain-specific, it demonstrates core system behavior:
-
-- Fast, automated classification
-- Visual overlay of results
-- Structured result logging
-- Extensible Python-based implementation
-
-Further extensions could include:
-- Confidence thresholding to flag potential defects
-- Retraining on custom data
-- Real-time video input (e.g. OpenCV + webcam stream)
-- Integration with an offline “Studio” tool for simulation, replay, and recipe development
+**Further extensions could include:**
+- Confidence thresholding at e.g. 0.5 to prevent bad detections.
+- Replacing ResNet18 with a different model.
+- Real-time video input using OpenCV and a video stream.

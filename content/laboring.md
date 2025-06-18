@@ -3,7 +3,7 @@ title: Laboring
 date: 2025-06-06
 ---
 Trading time for money. Currently:  
-_Applying for jobs in writing/teaching/AI support._
+- *Writing/teaching/AI support*
 
 **Selling / Applying**
 I am always selling:

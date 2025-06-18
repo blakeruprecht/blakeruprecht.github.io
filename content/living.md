@@ -1,7 +1,7 @@
 ---
 title: Living
 date: 2025-06-08
-draft: false
+draft: true
 ---
 This site is a personal notebook, written in the margins of my life. I'm on a mission to root out my own overthinking and replace it with action.
 
