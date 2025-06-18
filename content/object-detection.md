@@ -1,13 +1,21 @@
+---
+title: Object Detection Pipeline using ResNet18
+date: 2025-06-17
+---
+
+
 This repository demonstrates a simple visual inspection pipeline using a pretrained CNN. Images are loaded into the system, and then the CNN detects objects within the image. The script creates copies of the images, labeled with the predicted class and confidence outputs. The script also logs all of the results in a csv file for later inspection.
 
 ## Prerequisites
-- Python
+
+- [Python](/python)
 - A python venv to download the packages for this code
 - `python3 -m venv venv`
 - `source venv/bin/activate`
 - `pip install torch torchvision opencv-python matplotlib`
 
 ## System Overview
+
 - `compvis/`
 	- `images/`
 		- `example1.png`
@@ -20,15 +28,17 @@ This repository demonstrates a simple visual inspection pipeline using a pretrai
 	- `look.py`
 
 ## Workflow
-- Inputs
-	- Change the model used in `model.py` to anything you want. Just remember that the ResNet18 labels are used in both `model.py` and `look.py` to label the predicted classes.
-	- Add images to the `images/` folder to process. All images must be `.png`, `.jpg`, or `.jpeg`.
-- Running
-	- `python look.py`
-- Outputs
-	- The `outputs/` folder doesn't automatically clear between runs, so manually clear the outputs folder if you are re-running.
-	- Copies of all the images from `images/` labeled with predicted class and confidence levels
-	- A csv log of the image name, predicted class, and confidence level, stored as `inspection_log.csv`
+Inputs
+- Change the model used in `model.py` to anything you want. Just remember that the ResNet18 labels are used in both `model.py` and `look.py` to label the predicted classes.
+- Add images to the `images/` folder to process. All images must be `.png`, `.jpg`, or `.jpeg`.
+
+Running
+- `python look.py`
+
+Outputs
+- The `outputs/` folder doesn't automatically clear between runs, so manually clear the outputs folder if you are re-running.
+- Copies of all the images from `images/` labeled with predicted class and confidence levels
+- A csv log of the image name, predicted class, and confidence level, stored as `inspection_log.csv`
 
 ## Results
 

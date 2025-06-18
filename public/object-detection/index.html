@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Object Detection Pipeline using ResNet18 | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="">
+
+  <link rel="canonical" href="https://blakeruprecht.com/object-detection/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">
+        
+          <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
+        
+      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+function initializeThemeToggle() {
+  const toggleButton = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initializeThemeToggle);
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Object Detection Pipeline using ResNet18</h1>
+    </header>
+
+    
+
+    <div class="post-content">
+        <p>This repository demonstrates a simple visual inspection pipeline using a pretrained CNN. Images are loaded into the system, and then the CNN detects objects within the image. The script creates copies of the images, labeled with the predicted class and confidence outputs. The script also logs all of the results in a csv file for later inspection.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li><a href="/python">Python</a></li>
+<li>A python venv to download the packages for this code</li>
+<li><code>python3 -m venv venv</code></li>
+<li><code>source venv/bin/activate</code></li>
+<li><code>pip install torch torchvision opencv-python matplotlib</code></li>
+</ul>
+<h2 id="system-overview">System Overview</h2>
+<ul>
+<li><code>compvis/</code>
+<ul>
+<li><code>images/</code>
+<ul>
+<li><code>example1.png</code></li>
+<li><code>example2.jpg</code></li>
+</ul>
+</li>
+<li><code>outputs/</code>
+<ul>
+<li><code>example1.png</code></li>
+<li><code>example2.jpg</code></li>
+<li><code>inspection_log.csv</code></li>
+</ul>
+</li>
+<li><code>model.py</code></li>
+<li><code>look.py</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="workflow">Workflow</h2>
+<p>Inputs</p>
+<ul>
+<li>Change the model used in <code>model.py</code> to anything you want. Just remember that the ResNet18 labels are used in both <code>model.py</code> and <code>look.py</code> to label the predicted classes.</li>
+<li>Add images to the <code>images/</code> folder to process. All images must be <code>.png</code>, <code>.jpg</code>, or <code>.jpeg</code>.</li>
+</ul>
+<p>Running</p>
+<ul>
+<li><code>python look.py</code></li>
+</ul>
+<p>Outputs</p>
+<ul>
+<li>The <code>outputs/</code> folder doesn&rsquo;t automatically clear between runs, so manually clear the outputs folder if you are re-running.</li>
+<li>Copies of all the images from <code>images/</code> labeled with predicted class and confidence levels</li>
+<li>A csv log of the image name, predicted class, and confidence level, stored as <code>inspection_log.csv</code></li>
+</ul>
+<h2 id="results">Results</h2>
+<p><strong>Example: <code>screws.jpg</code></strong> (input on left, output on right)</p>
+<div style="display: flex; gap: 10px;">
+  <img src="/img/screws.jpg" alt="Before" width="300"/>
+  <img src="/img/screws-labeled.jpg" alt="After" width="300"/>
+</div>
+<p><strong>Example: <code>broken-bottle.jpg</code></strong> (input on left, output on right)</p>
+<div style="display: flex; gap: 10px;">
+  <img src="/img/broken-bottle.jpg" alt="Before" width="300"/>
+  <img src="/img/broken-bottle-labeled.jpg" alt="After" width="300"/>
+</div>
+<p><strong>Example of the output log</strong>: <code>inspection_log.csv</code></p>
+<pre tabindex="0"><code>filename,predicted_class,confidence
+broken-bottle.jpg,chocolate sauce,0.4199
+pill-blister-packs-boken.jpg,pencil sharpener,0.2043
+broken-cable.jpg,whistle,0.1151
+circuit-components.jpg,lighter,0.2302
+bolt-failure.png,screw,0.9955
+pills-blister-pack.jpg,remote control,0.5651
+random-weird-nuts.jpg,dumbbell,0.8688
+plug-on-fire.jpg,spotlight,0.2793
+screws.jpg,screw,0.9930
+bottle-conveyor.jpg,cleaver,0.4906
+</code></pre><h2 id="code-walkthrough">Code Walkthrough</h2>
+<p><strong><code>model.py</code></strong></p>
+<ul>
+<li>Loads ResNet18, a CNN pretrained on ImageNet.
+<ul>
+<li>a pretrained CNN from the PyTorch library.</li>
+</ul>
+</li>
+</ul>
+<p><strong><code>look.py</code></strong></p>
+<ul>
+<li>Loads the model defined in <code>model.py</code></li>
+<li>Runs a loop to process each individual image from <code>images</code>/</li>
+<li>For each file in <code>images/</code>:
+<ul>
+<li>Opens the image and transforms it into a tensor</li>
+<li>Uses PyTorch to run the image through the previously defined model with no training</li>
+<li>The model outputs the predicted class and the confidence value for the highest confidence prediction</li>
+<li>OpenCV puts text over a copy of the image and saves the new image to the <code>outputs/</code> folder.</li>
+<li>A new line with the results is appended to the <code>inspection_log.csv</code></li>
+</ul>
+</li>
+</ul>
+<p><strong>Further extensions could include:</strong></p>
+<ul>
+<li>Confidence thresholding at e.g. 0.5 to prevent bad detections.</li>
+<li>Replacing ResNet18 with a different model.</li>
+<li>Real-time video input using OpenCV and a video stream.</li>
+</ul>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/archive">more</a> :: 100% human-written :: <a href="/">home</a>
+  </div>
+</footer>
+</body>
+</html>
+
