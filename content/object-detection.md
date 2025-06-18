@@ -1,18 +1,19 @@
 ---
 title: Object Detection Pipeline using ResNet18
-date: 2025-06-17
+date: 2025-06-18
 ---
+[GitHub Repo: blakeruprecht/object-detection](https://github.com/blakeruprecht/object-detection) 
 
-
-This repository demonstrates a simple visual inspection pipeline using a pretrained CNN. Images are loaded into the system, and then the CNN detects objects within the image. The script creates copies of the images, labeled with the predicted class and confidence outputs. The script also logs all of the results in a csv file for later inspection.
+This project demonstrates a simple visual inspection pipeline using a pretrained convolutional neural network (CNN). Images are loaded and passed into the CNN model, which outputs a predicted class and confidence score. The class and score are then overlaid on each image using OpenCV, and saved for further inspection. All of the results are logged to a CSV file.
 
 ## Prerequisites
 
+- [github.com/blakeruprecht/object-detection](https://github.com/blakeruprecht/object-detection)
 - [Python](/python)
-- A python venv to download the packages for this code
-- `python3 -m venv venv`
-- `source venv/bin/activate`
-- `pip install torch torchvision opencv-python matplotlib`
+- Virtual environment (recommended):
+	- `python3 -m venv venv`
+	- `source venv/bin/activate`
+	- `pip install torch torchvision opencv-python matplotlib`
 
 ## System Overview
 
@@ -29,26 +30,27 @@ This repository demonstrates a simple visual inspection pipeline using a pretrai
 
 ## Workflow
 Inputs
+- Add `.png`, `.jpg`, or `.jpeg` images to the `images/` folder.
 - Change the model used in `model.py` to anything you want. Just remember that the ResNet18 labels are used in both `model.py` and `look.py` to label the predicted classes.
-- Add images to the `images/` folder to process. All images must be `.png`, `.jpg`, or `.jpeg`.
+- Swap out the model in `model.py`. By default, `model.py` and `look.py` use ResNet18 with ImageNet labels.
 
 Running
 - `python look.py`
 
 Outputs
-- The `outputs/` folder doesn't automatically clear between runs, so manually clear the outputs folder if you are re-running.
-- Copies of all the images from `images/` labeled with predicted class and confidence levels
-- A csv log of the image name, predicted class, and confidence level, stored as `inspection_log.csv`
+- Images labeled with class and score saved to `outputs/`
+- Results logged in `outputs/inspection_log.csv`
+- Note: `outputs/` doesn't get cleared between runs.
 
 ## Results
 
-**Example: `screws.jpg`** (input on left, output on right)
+**Example: `screws.jpg`**, Input (left) → Output (right)
 <div style="display: flex; gap: 10px;">
   <img src="/img/screws.jpg" alt="Before" width="300"/>
   <img src="/img/screws-labeled.jpg" alt="After" width="300"/>
 </div>
 
-**Example: `broken-bottle.jpg`** (input on left, output on right)
+**Example: `broken-bottle.jpg`**, Input (left) → Output (right)
 <div style="display: flex; gap: 10px;">
   <img src="/img/broken-bottle.jpg" alt="Before" width="300"/>
   <img src="/img/broken-bottle-labeled.jpg" alt="After" width="300"/>
@@ -73,20 +75,21 @@ bottle-conveyor.jpg,cleaver,0.4906
 ## Code Walkthrough
 
 **`model.py`**
-- Loads ResNet18, a CNN pretrained on ImageNet.
-	- a pretrained CNN from the PyTorch library.
+- Loads ResNet18, a CNN pretrained on ImageNet, from `torchvision.models`
+- Applies the models corresponding image transform
 
 **`look.py`**
-- Loads the model defined in `model.py`
-- Runs a loop to process each individual image from `images`/
-- For each file in `images/`:
-	- Opens the image and transforms it into a tensor
-	- Uses PyTorch to run the image through the previously defined model with no training
-	- The model outputs the predicted class and the confidence value for the highest confidence prediction
-	- OpenCV puts text over a copy of the image and saves the new image to the `outputs/` folder.
-	- A new line with the results is appended to the `inspection_log.csv`
+- Loads the model and transform defined in `model.py`
+- Iterates through all files in `images`/
+- For each .png/.jpg/.jpeg in `images/`:
+	- Opens the image and transforms it
+	- Runs the image through the PyTorch inference model
+	- Predicts the class and confidence score of the class
+	- Overlays the class and score over a copy of the original image using OpenCV
+	- Saves the annotated image to `outputs/`
+	- Appends the result to `outputs/inspection_log.csv`
 
-**Further extensions could include:**
-- Confidence thresholding at e.g. 0.5 to prevent bad detections.
+## Next Ideas
+- Confidence thresholding (e.g. 0.5 to prevent bad detections)
 - Replacing ResNet18 with a different model.
 - Real-time video input using OpenCV and a video stream.

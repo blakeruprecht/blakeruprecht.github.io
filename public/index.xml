@@ -6,14 +6,14 @@
     <description>Recent content on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blakeruprecht.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Object Detection Pipeline using ResNet18</title>
       <link>https://blakeruprecht.com/object-detection/</link>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/object-detection/</guid>
-      <description>This repository demonstrates a simple visual inspection pipeline using a pretrained CNN. Images are loaded into the system, and then the CNN detects objects within the image. The script creates copies of the images, labeled with the predicted class and confidence outputs. The script also logs all of the results in a csv file for later inspection.&#xA;Prerequisites Python A python venv to download the packages for this code python3 -m venv venv source venv/bin/activate pip install torch torchvision opencv-python matplotlib System Overview compvis/ images/ example1.</description>
+      <description>GitHub Repo: blakeruprecht/object-detection&#xA;This project demonstrates a simple visual inspection pipeline using a pretrained convolutional neural network (CNN). Images are loaded and passed into the CNN model, which outputs a predicted class and confidence score. The class and score are then overlaid on each image using OpenCV, and saved for further inspection. All of the results are logged to a CSV file.&#xA;Prerequisites github.com/blakeruprecht/object-detection Python Virtual environment (recommended): python3 -m venv venv source venv/bin/activate pip install torch torchvision opencv-python matplotlib System Overview compvis/ images/ example1.</description>
     </item>
     <item>
       <title>Lifting</title>

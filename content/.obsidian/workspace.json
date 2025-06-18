@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "living.md",
+                "file": "object-detection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for living"
+              "title": "Backlinks for object-detection"
             }
           },
           {
@@ -335,10 +335,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a0d69e71997eb6fc",
+  "active": "c94bb0e1d050f4a8",
   "lastOpenFiles": [
-    "coding.md",
+    "maintaining.md",
     "living.md",
+    "coding.md",
     "_index.md",
     "caveman-consulting.md",
     "object-detection.md",
@@ -346,7 +347,6 @@
     "1.md",
     "laboring.md",
     "working.md",
-    "maintaining.md",
     "img/broken-bottle-labeled.jpg",
     "img/broken-bottle.jpg",
     "img/screws-labeled.jpg",

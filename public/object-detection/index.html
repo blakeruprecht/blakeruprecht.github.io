@@ -140,14 +140,19 @@ window.MathJax = {
     
 
     <div class="post-content">
-        <p>This repository demonstrates a simple visual inspection pipeline using a pretrained CNN. Images are loaded into the system, and then the CNN detects objects within the image. The script creates copies of the images, labeled with the predicted class and confidence outputs. The script also logs all of the results in a csv file for later inspection.</p>
+        <p><a href="https://github.com/blakeruprecht/object-detection">GitHub Repo: blakeruprecht/object-detection</a></p>
+<p>This project demonstrates a simple visual inspection pipeline using a pretrained convolutional neural network (CNN). Images are loaded and passed into the CNN model, which outputs a predicted class and confidence score. The class and score are then overlaid on each image using OpenCV, and saved for further inspection. All of the results are logged to a CSV file.</p>
 <h2 id="prerequisites">Prerequisites</h2>
 <ul>
+<li><a href="https://github.com/blakeruprecht/object-detection">github.com/blakeruprecht/object-detection</a></li>
 <li><a href="/python">Python</a></li>
-<li>A python venv to download the packages for this code</li>
+<li>Virtual environment (recommended):
+<ul>
 <li><code>python3 -m venv venv</code></li>
 <li><code>source venv/bin/activate</code></li>
 <li><code>pip install torch torchvision opencv-python matplotlib</code></li>
+</ul>
+</li>
 </ul>
 <h2 id="system-overview">System Overview</h2>
 <ul>
@@ -174,8 +179,9 @@ window.MathJax = {
 <h2 id="workflow">Workflow</h2>
 <p>Inputs</p>
 <ul>
+<li>Add <code>.png</code>, <code>.jpg</code>, or <code>.jpeg</code> images to the <code>images/</code> folder.</li>
 <li>Change the model used in <code>model.py</code> to anything you want. Just remember that the ResNet18 labels are used in both <code>model.py</code> and <code>look.py</code> to label the predicted classes.</li>
-<li>Add images to the <code>images/</code> folder to process. All images must be <code>.png</code>, <code>.jpg</code>, or <code>.jpeg</code>.</li>
+<li>Swap out the model in <code>model.py</code>. By default, <code>model.py</code> and <code>look.py</code> use ResNet18 with ImageNet labels.</li>
 </ul>
 <p>Running</p>
 <ul>
@@ -183,17 +189,17 @@ window.MathJax = {
 </ul>
 <p>Outputs</p>
 <ul>
-<li>The <code>outputs/</code> folder doesn&rsquo;t automatically clear between runs, so manually clear the outputs folder if you are re-running.</li>
-<li>Copies of all the images from <code>images/</code> labeled with predicted class and confidence levels</li>
-<li>A csv log of the image name, predicted class, and confidence level, stored as <code>inspection_log.csv</code></li>
+<li>Images labeled with class and score saved to <code>outputs/</code></li>
+<li>Results logged in <code>outputs/inspection_log.csv</code></li>
+<li>Note: <code>outputs/</code> doesn&rsquo;t get cleared between runs.</li>
 </ul>
 <h2 id="results">Results</h2>
-<p><strong>Example: <code>screws.jpg</code></strong> (input on left, output on right)</p>
+<p><strong>Example: <code>screws.jpg</code></strong>, Input (left) → Output (right)</p>
 <div style="display: flex; gap: 10px;">
   <img src="/img/screws.jpg" alt="Before" width="300"/>
   <img src="/img/screws-labeled.jpg" alt="After" width="300"/>
 </div>
-<p><strong>Example: <code>broken-bottle.jpg</code></strong> (input on left, output on right)</p>
+<p><strong>Example: <code>broken-bottle.jpg</code></strong>, Input (left) → Output (right)</p>
 <div style="display: flex; gap: 10px;">
   <img src="/img/broken-bottle.jpg" alt="Before" width="300"/>
   <img src="/img/broken-bottle-labeled.jpg" alt="After" width="300"/>
@@ -213,29 +219,27 @@ bottle-conveyor.jpg,cleaver,0.4906
 </code></pre><h2 id="code-walkthrough">Code Walkthrough</h2>
 <p><strong><code>model.py</code></strong></p>
 <ul>
-<li>Loads ResNet18, a CNN pretrained on ImageNet.
-<ul>
-<li>a pretrained CNN from the PyTorch library.</li>
-</ul>
-</li>
+<li>Loads ResNet18, a CNN pretrained on ImageNet, from <code>torchvision.models</code></li>
+<li>Applies the models corresponding image transform</li>
 </ul>
 <p><strong><code>look.py</code></strong></p>
 <ul>
-<li>Loads the model defined in <code>model.py</code></li>
-<li>Runs a loop to process each individual image from <code>images</code>/</li>
-<li>For each file in <code>images/</code>:
+<li>Loads the model and transform defined in <code>model.py</code></li>
+<li>Iterates through all files in <code>images</code>/</li>
+<li>For each .png/.jpg/.jpeg in <code>images/</code>:
 <ul>
-<li>Opens the image and transforms it into a tensor</li>
-<li>Uses PyTorch to run the image through the previously defined model with no training</li>
-<li>The model outputs the predicted class and the confidence value for the highest confidence prediction</li>
-<li>OpenCV puts text over a copy of the image and saves the new image to the <code>outputs/</code> folder.</li>
-<li>A new line with the results is appended to the <code>inspection_log.csv</code></li>
+<li>Opens the image and transforms it</li>
+<li>Runs the image through the PyTorch inference model</li>
+<li>Predicts the class and confidence score of the class</li>
+<li>Overlays the class and score over a copy of the original image using OpenCV</li>
+<li>Saves the annotated image to <code>outputs/</code></li>
+<li>Appends the result to <code>outputs/inspection_log.csv</code></li>
 </ul>
 </li>
 </ul>
-<p><strong>Further extensions could include:</strong></p>
+<h2 id="next-ideas">Next Ideas</h2>
 <ul>
-<li>Confidence thresholding at e.g. 0.5 to prevent bad detections.</li>
+<li>Confidence thresholding (e.g. 0.5 to prevent bad detections)</li>
 <li>Replacing ResNet18 with a different model.</li>
 <li>Real-time video input using OpenCV and a video stream.</li>
 </ul>
