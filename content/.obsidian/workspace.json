@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "e1bcc587f978c7f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_index"
+            }
+          },
+          {
             "id": "1298f5ab72b59c2d",
             "type": "leaf",
             "state": {
@@ -92,6 +106,20 @@
             }
           },
           {
+            "id": "1f4a5234b569e783",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "coding.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "coding"
+            }
+          },
+          {
             "id": "199860f8a36761f3",
             "type": "leaf",
             "state": {
@@ -148,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -221,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "object-detection.md",
+                "file": "living.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +259,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for object-detection"
+              "title": "Backlinks for living"
             }
           },
           {
@@ -307,12 +335,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c94bb0e1d050f4a8",
+  "active": "a0d69e71997eb6fc",
   "lastOpenFiles": [
-    "python.md",
-    "object-detection.md",
-    "1.md",
+    "coding.md",
     "living.md",
+    "_index.md",
+    "caveman-consulting.md",
+    "object-detection.md",
+    "python.md",
+    "1.md",
     "laboring.md",
     "working.md",
     "maintaining.md",
@@ -335,10 +366,7 @@
     "terminal.md",
     "building-computers.md",
     "computer-hardware.md",
-    "_index.md",
     "fighting.md",
-    "playing.md",
-    "traveling.md",
     "img/my-haircut.png",
     "img/my-haircut.png",
     "img/running.png",

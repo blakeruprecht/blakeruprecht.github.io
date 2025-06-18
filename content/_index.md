@@ -14,7 +14,7 @@ Example writing:
 - [Growth Mindset](/growth-mindset)
 - [Civilizations Outcompete Barbarians](/civilization)
 - [Python](/python)
-- More at my [archive](/archive)
+- My unstructured notes at my [archive](/archive)
 
 Reach out anytime. I would love to hear from you! 
 
