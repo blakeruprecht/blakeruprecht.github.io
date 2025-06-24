@@ -27,7 +27,7 @@ body {
   background-color: var(--bg-color);
   color: var(--fg-color);
   font-family: var(--font-sans);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -42,7 +42,7 @@ main {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 42rem;
+  max-width: 38rem;
   padding: 1rem;
   width: 100%;
 }
@@ -60,7 +60,6 @@ h1 {
   font-size: 2.2em;
   margin: 1em 0 2em 0;
   text-align: center;
-  font-variant: small-caps;
 }
 
 h2 { font-size: 1.4rem; }
@@ -180,7 +179,7 @@ hr {
 }
 
 .logo-img {
-  height: 5.0rem;
+  height: 3.0rem;
   width: auto;
   margin: 0;
   display: block;
@@ -257,7 +256,7 @@ footer {
   box-sizing: border-box;
   color: var(--mg-color);
   flex-shrink: 0;
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
   max-width: 42rem;
   width: 100%;
   padding: 1rem;
@@ -266,11 +265,11 @@ footer {
 
 footer a {
   color: var(--mg-color);
-  text-decoration-color: var(--mg-color);
+  text-decoration: none;
 }
 
 footer a:hover {
-  color: var(--fg-color);
+  color: var(--hg-color);
   text-decoration-color: var(--fg-color);
 }
 
