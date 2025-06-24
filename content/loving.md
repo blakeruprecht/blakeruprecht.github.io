@@ -2,6 +2,15 @@
 title: Loving
 date: 2024-08-10
 ---
+Loving/Connecting/Relating
+- **Talk**
+- **Hangout**
+- **Touch**
+- **Give**
+- **Serve**
+
+[talking](/talking), [hanging-out](/hanging-out), [touching](/touching), [giving](/giving), [serving](/serving)
+
 ## My Self/Life
 - **Self** - self-love is the foundation of all love
 - [my-personality](/my-personality)
