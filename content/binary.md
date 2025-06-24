@@ -2,7 +2,7 @@
 title: Binary
 description: '"Binary logic, boolean logic, is the foundation of all modern computing."'
 ---
-At it's fundamental level, a [computer](computer.md) is basically just adding and subtracting binary numbers using a trick of computer wiring called digital logic, where you use configurations of circuits to represent basic math equations. All of the lowest-level code is written in binary instructions to these math gates, and the results are "interpreted" by us humans to represent math equations.
+At it's fundamental level, a [computer](computer.md) is basically just [adding and subtracting](/computing) binary numbers using some tricks of electrical wiring called digital logic, where you use configurations of circuits to represent basic math equations. All of the lowest-level code is written in binary instructions to these math gates, and the results are "interpreted" by us humans to represent math equations.
 
 A binary question is a yes/no question that could be answered with the symbols:
 - **1** = Yes, true, on, light.
@@ -27,7 +27,3 @@ Binary truth table for and/or
 - (1, 0, **0, 1**) just x is on, y is off, so AND is off and OR is on
 - (0, 1, **0, 1**) just y is on, x is off this time, AND off, OR on
 - (1, 1, **1, 1**) x and y are both on, so AND and OR are on
-
-## Related
-- [computing](computing.md)
-- [computer](computer.md)

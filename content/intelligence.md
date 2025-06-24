@@ -130,7 +130,7 @@ The Exponential Time: 1850-1950-2050
 	- Maybe smarter -- not wiser
 	- Not embodied yet
 - [intelligence] the most OP human ability
-- [ai-architecture](/ai-architecture)
+- [ai](ai.md)
 - [artificial intelligence] the intelligent brain part of the artificial agent loop (AI is big now, AA or Robots are the future).
 	- [senses and perceives information from the env] receive data
 - [computers] machines that input, calculate, and output information

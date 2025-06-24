@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Gathering | Blake Ruprecht</title>
+  <title>Gathering whole ingredients | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,25 +116,30 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Gathering</h1>
+        <h1>Gathering whole ingredients</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <h2 id="keep-an-enduring-list">Keep an enduring list</h2>
-<p>I keep one Grocery List on my phone in the notes app, with checkboxes enabled. This way at the store, I check off everything I buy. During the week, whenever I run out of an ingredient, I uncheck that item on my phone list. This way, I always have a list I&rsquo;m updating, and anytime I happen to enter into a grocery store, I can pull out my phone and know exactly what I need at that moment (or at least have a good guess).</p>
-<h2 id="my-ingredient-list">My Ingredient List</h2>
-<p>I eat mostly whole foods and stick to the ingredients I like, which are usually these:</p>
-<p>MEAT &amp; DAIRY</p>
+        <p>I gather whole ingredients, as minimally processed as possible.</p>
+<ul>
+<li>buying from the local grocery store or markets</li>
+<li><a href="/fishing">fishing</a> and <a href="/hunting">hunting</a> for wild meat</li>
+<li><a href="/farming">farming</a> in my backyard for fresh produce</li>
+</ul>
+<p>I keep this <strong>enduring list</strong> on my phone with checkboxes and uncheck ingredients I run out of throughout the week. This way, anytime I pop into a grocery store, I can remember what I&rsquo;m missing at home.</p>
+<ul>
+<li>MEAT &amp; DAIRY
 <ul>
 <li>Chicken Thigh or Breast</li>
-<li>Ground Beef (or Fish or something else)</li>
+<li>Ground Beef (or fish, or wild game)</li>
 <li>Greek Yogurt, whole milk</li>
 <li>Milk, whole, vitamin D</li>
 <li>Cheese, typically shredded or cream</li>
 </ul>
-<p>CARBS / FATS / AISLES</p>
+</li>
+<li>CARBS / FATS / AISLES
 <ul>
 <li>Oats, old-fashioned</li>
 <li>Peanut Butter</li>
@@ -162,7 +149,8 @@ window.MathJax = {
 <li>Fresh Bread, usually tortillas, buns, or sourdough</li>
 <li>Fresh Olives, if I can find them for cheap&hellip;</li>
 </ul>
-<p>FRESH PRODUCE</p>
+</li>
+<li>FRESH PRODUCE
 <ul>
 <li>Bananas</li>
 <li>Berry Medley, frozen</li>
@@ -173,14 +161,10 @@ window.MathJax = {
 <li>Chili, usually jalapenos</li>
 <li>Lemon / Lime / both</li>
 <li>Tomato</li>
-<li>Greens / Broccoli (<a href="/eating">micronutrient allstars</a>)</li>
+<li>Greens / Broccoli</li>
 <li>Cilantro / Parsley / Basil / etc.</li>
 </ul>
-<h2 id="related">Related</h2>
-<ul>
-<li><a href="/fishing">fishing</a></li>
-<li><a href="/hunting">hunting</a></li>
-<li><a href="/farming">farming</a></li>
+</li>
 </ul>
 
     </div>

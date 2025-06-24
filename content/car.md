@@ -2,10 +2,21 @@
 title: Car
 date: 2025-06-03
 ---
-## Car
-- 2004 Acura TL
-	- Engine, 4 wheels, Roof & Doors, 5 seats
+A tool for [driving](/driving).
 
-## Car Tool Kit
-- JumperCables, IceScraper, Reflector
-- Toolbag, Tape, Triangle, Hammer, Allens, Sockets, BitSet, Drill, Charger, **DuctTape, ElectricalTape, SuperGlue, ZipTies, PatchKit**
+REQUIREMENTS
+- Car
+- Driver's License, Car Insurance, Vehicle Registration & License Plates
+
+ESSENTIAL EXTRAS
+- Jumper Cables
+- Windshield Reflector
+- Ice Scraper
+
+ACTUAL EXTRAS
+- Toolbag, Tape, Triangle, Hammer, Allens, Sockets, BitSet, Drill, Charger, DuctTape, ***ElectricalTape***, ***SuperGlue***, ***ZipTies***, ***PatchKit***
+- ***WaterJug5gal***, ***trashbags***, WashBasin, ***Rags***
+- Cooler, ***Stove+fuel***, ***CuttingBoard***, ***Skillet***, ***oliveoil***, ***salt/pep/redpep***, ***Pourover***, Mug, ***Plate***, ***Bags/Tupperware***
+- WoolBlanket, ***Chair***
+
+My favorite car was the [1997 Toyota 4Runner](/4runned) that I accidentally tipped over.

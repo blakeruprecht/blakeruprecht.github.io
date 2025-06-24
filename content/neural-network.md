@@ -5,6 +5,12 @@ descript: '"The main underlying reason behind the success of neural networks is 
 ---
 
 
+The architecture behind all modern [artificial intelligences](/ai)
+
+
+
+
+
 Neural networks are universal function approximators, according to the Universal function approximation theorem. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.
 
 ## The Perceptron (I'm just P), basically a straight line

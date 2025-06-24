@@ -2,13 +2,7 @@
 title: 4runned
 date: 2018-09-17
 ---
-
-
-!["My old 'yota SUV laying on it's side"](ron-wrecked.png)
-!["My old SUV on it's side"](ron-wrecked-top.png)
-
-- "Stanley", 2001 *toyota 4runner* limited (3rd gen), silver, purchased by Parents from Maternal Grandparents, stock, luxury packages
-- "Ron", 1997 (3rd gen) *toyota 4runner* (3rd gen), silver, blacked out windows, upgraded head unit, no muffler -- thing rode hard and fun
+!["My old SUV on it's side"](/img/ron-wrecked-top.png)
 
 Dad and I fixed the tension on the gas pedal in the other 4Runner. We had two of the same car for a while -- silver third gen toyoat 4runners. Mine had blacked out windows, a custom head unit blasting loud music, and no muffler.
 
@@ -30,8 +24,10 @@ How do I get out? Crawl? Oh, just stand up and hop out.
 
 Roughly six seconds passed from the moment my eyes opened, and I was walking to the side of the road, mentally shaken but physically unscathed. The dude behind me already called 911 and was asking me if I was okay. I apologized for almost hitting him.
 
-Called my mom.
+Called my Mom. Oof.
 
 Went into an ambulance. Totally fine. A cop told me I wasn't getting a ticket, just a warning. Didn't know it was illegal to lose control of your vehicle.
 
-Still my favorite car I've owned.
+I miss that car.
+
+!["My old 'yota SUV laying on it's side"](/img/ron-wrecked.png)

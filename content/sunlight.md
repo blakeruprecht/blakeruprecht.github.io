@@ -2,6 +2,8 @@
 title: Sunlight
 date: 2025-06-06
 ---
+Can help warm up body and maintain 98.6 deg F (human body temp).
+
 View sunlight upon waking for 10 minutes (30 if it's overcast) to set your circadian rhythym, the bodies natural process to determine when to get tired and when to stay alert.
 
 View sunlight as much as possible throughout the day to keep yourself awake.

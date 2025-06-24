@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,13 +116,13 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Binary</h1>
+        <h1>Binary</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <p>At it&rsquo;s fundamental level, a <a href="computer.md">computer</a> is basically just adding and subtracting binary numbers using a trick of computer wiring called digital logic, where you use configurations of circuits to represent basic math equations. All of the lowest-level code is written in binary instructions to these math gates, and the results are &ldquo;interpreted&rdquo; by us humans to represent math equations.</p>
+        <p>At it&rsquo;s fundamental level, a <a href="computer.md">computer</a> is basically just <a href="/computing">adding and subtracting</a> binary numbers using some tricks of electrical wiring called digital logic, where you use configurations of circuits to represent basic math equations. All of the lowest-level code is written in binary instructions to these math gates, and the results are &ldquo;interpreted&rdquo; by us humans to represent math equations.</p>
 <p>A binary question is a yes/no question that could be answered with the symbols:</p>
 <ul>
 <li><strong>1</strong> = Yes, true, on, light.</li>
@@ -170,11 +152,6 @@ window.MathJax = {
 <li>(1, 0, <strong>0, 1</strong>) just x is on, y is off, so AND is off and OR is on</li>
 <li>(0, 1, <strong>0, 1</strong>) just y is on, x is off this time, AND off, OR on</li>
 <li>(1, 1, <strong>1, 1</strong>) x and y are both on, so AND and OR are on</li>
-</ul>
-<h2 id="related">Related</h2>
-<ul>
-<li><a href="computing.md">computing</a></li>
-<li><a href="computer.md">computer</a></li>
 </ul>
 
     </div>

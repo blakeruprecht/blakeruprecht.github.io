@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Black and White Thinking | Blake Ruprecht</title>
+  <title>Ink on Paper | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,7 +116,7 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Black and White Thinking</h1>
+        <h1>Ink on Paper</h1> 
     </header>
 
     
@@ -147,43 +129,43 @@ window.MathJax = {
 <p>You can go all in on solid-black.</p>
 <p>You can cheat and use pencil. Or chalk, or computer. Or colors.</p>
 <p>But I always come back to the same two extremes, yin and yang.</p>
-<figure><img src="/drawing/drawing-fallingwater.jpg"
+<figure><img src="/img/drawing-fallingwater.jpg"
     alt="Ink dip pen drawing of Frank Lloyd Wright&#39;s Fallingwater"><figcaption>
       <p>Done using a dip pen and black india ink. This is <a href="https://en.wikipedia.org/wiki/Fallingwater">Fallingwater</a>, a house designed by Frank Lloyd Wright in 1935.</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-chalkboard.JPG"
+<figure><img src="/img/drawing-chalkboard.jpg"
     alt="Calligraphy done on a chalkboard"><figcaption>
       <p>&hellip;enough, it wouldn&rsquo;t be the minimum.</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-relativity.jpg"
+<figure><img src="/img/drawing-relativity.jpg"
     alt="A doodle I did in class"><figcaption>
       <p>I particularly like black ink drawings with that bold, all-black shading style, though it&rsquo;s very hard to get right.</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-eagle.jpg"
+<figure><img src="/img/drawing-eagle.jpg"
     alt="A doodle of an eagle"><figcaption>
       <p>On the flip side of that other doodle, I tried some pencil drawing, HB mechanicals don&rsquo;t get very dark&hellip;</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-spartan.jpg"
+<figure><img src="/img/drawing-spartan.jpg"
     alt="A doodle of a spartan warrior"><figcaption>
       <p>Digital logic class was getting boring.</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-ship.jpg"
+<figure><img src="/img/drawing-ship.jpg"
     alt="A doodle of a ship"><figcaption>
-      <p>&ldquo;There are good ships and wood ships, ships that sail the sea, but the best ships are friendships, may they always be!&rdquo;</p>
+      <p>There are good ships and wood ships, ships that sail the sea, but the best ships are friendships, may they always be!</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-helicopter.jpg"
+<figure><img src="/img/drawing-helicopter.jpg"
     alt="CAD drawing of a RC helicopter"><figcaption>
       <p>Okay, a computer-aided drawing, but it looks dope.</p>
     </figcaption>
@@ -199,19 +181,19 @@ window.MathJax = {
 <li>The house apparently didn&rsquo;t have heat, my bedroom stayed a cool 55 degF during the winter.</li>
 <li>During the summer, there was obviously no air conditioning, so the dudes that stayed there filled up a truck bed with ice, water, and natural lights to survive.</li>
 </ul>
-<figure><img src="/drawing/drawing-frat-walls.JPG"
+<figure><img src="/img/drawing-frat-walls.jpg"
     alt="Doodles on my college bedroom wall"><figcaption>
       <p>Can you tell what my priorities were back then?</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-frat-walls3.jpg"
+<figure><img src="/img/drawing-frat-walls3.jpg"
     alt="Doodles on my college bedroom wall"><figcaption>
       <p>The pennants were done by Biggs.</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-frat-walls2.JPG"
+<figure><img src="/img/drawing-frat-walls2.jpg"
     alt="Doodles on my college bedroom wall"><figcaption>
       <p>Why study when you can just give yourself the diploma already?</p>
     </figcaption>
@@ -219,43 +201,43 @@ window.MathJax = {
 
 <h2 id="bday-card-series">Bday card series</h2>
 <p>Ink on paper, doesn&rsquo;t get better than that.</p>
-<figure><img src="/drawing/drawing-bday-balloon.jpg"
+<figure><img src="/img/drawing-bday-balloon.jpg"
     alt="Bday card doodle with balloon"><figcaption>
       <p>Red balloons only</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-bday-beer.jpg"
+<figure><img src="/img/drawing-bday-beer.jpg"
     alt="Bday card of a beer can"><figcaption>
       <p>Bud Select is a family tradition, and STL staple.</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-bday-flowers.jpg"
+<figure><img src="/img/drawing-bday-flowers.jpg"
     alt="Bday card of flowers"><figcaption>
       <p>One line, then three more in red.</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-bday-fishing.jpg"
+<figure><img src="/img/drawing-bday-fishing.jpg"
     alt="Bday card of dude fishing"><figcaption>
       <p>I need a boat.</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-bday-cat.jpg"
+<figure><img src="/img/drawing-bday-cat.jpg"
     alt="Bday card of a hooded cat"><figcaption>
       <p>I copied a tattoo artist and added color, never making that mistake again.</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-bday-spotify.jpg"
+<figure><img src="/img/drawing-bday-spotify.jpg"
     alt="Bday card of a spotify song"><figcaption>
       <p>Haha, get it? Like spotify&hellip;</p>
     </figcaption>
 </figure>
 
-<figure><img src="/drawing/drawing-bday-hbd.jpg"
+<figure><img src="/img/drawing-bday-hbd.jpg"
     alt="Bday card hbd"><figcaption>
       <p>Keep it simple :)</p>
     </figcaption>

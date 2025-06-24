@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Sleeping | Blake Ruprecht</title>
+  <title>Sleeping when tired until wakeup | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,21 +116,15 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Sleeping</h1>
+        <h1>Sleeping when tired until wakeup</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <p>Sleep is important for everything, I just don&rsquo;t know exactly what. Sleep for roughly 8 hours per night, but this number is unique to each person. Maintain cool temperatures in your sleeping room with plenty of blankets to get comfortable. <a href="sunlight.md">Sunlight</a> is the main mechanism for waking up the body, and darkness is the main mechanism for telling the body to sleep. Wake a consistent time to set a sleep schedule and go to sleep when your body naturally feels tired.</p>
-<ol>
-<li>Wake at a consistent time and view sunlight for 10+ mins (more if overcast)</li>
-<li>Sleep when tired</li>
-</ol>
-<ul>
-<li>Sunlight is the mechanism that signals the bodies natural wake/sleep rhythym. Bright sunlight upon waking (10-30 mins in duration,  regardless of time of day) signals the body to wake up at that same time the next day. More sunlight throughout the day, especially around sunset, helps this process.</li>
-<li>Darkness at night (e.g. after sunset) helps the body wind-down for sleep. E.g. don&rsquo;t use bright overhead lights at night.</li>
-</ul>
+        <p>Wake at a consistent time and view <a href="/sunlight">sunlight</a> for 10+ minutes. Sunlight is the main mechanism for waking the body, so this will make it easier to wake at that time. IN addition, view as much sunlight as possible throughout the day to improve wakefulness, and also help make you tired later. Avoid bright lights after sunset.</p>
+<p>Sleep when tired in a <a href="/home">bedroom</a>/<a href="backpack.md">tent</a> that is <strong>dark</strong>, relatively <strong>cool</strong>, has a softish mattress, and multiple <strong>blankets</strong> to layer on/off throughout the night. If you set a consistent wakeup time, you&rsquo;ll start to sleep naturally for however long your individual body needs. This also works with a consistent sleep time and variable wake time.</p>
+<p>Sleep is important for pretty much every bodily function. It&rsquo;s a big reset for the body.</p>
 
     </div>
 </article>

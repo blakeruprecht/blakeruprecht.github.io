@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,35 +116,32 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Computer</h1>
+        <h1>Computer</h1> 
     </header>
 
     
 
     <div class="post-content">
         <p>Here&rsquo;s my current computer setup for <a href="/computing">computing</a>.</p>
-<p><strong>Hardware</strong>:</p>
+<p><strong>Hardware</strong></p>
 <ul>
-<li>Dell XPS 13 9370 (my main laptop/general purpose computer)</li>
+<li>used Dell XPS 13 9370 from ebay</li>
+<li>self-built Desktop Computer</li>
 </ul>
-<p><strong>Software</strong>:</p>
+<p><strong>Software</strong>
+I use mostly free and open-source software on my laptops. My OS, Terminal, Editors, Browsers, everything, are free to download and don&rsquo;t cost anything to run.</p>
 <ul>
-<li><a href="/operating-system">Operating System</a>: Debian Linux</li>
-<li>Programs:
+<li><a href="/operating-system">operating system</a>: Debian Linux</li>
+<li><a href="/terminal">terminal</a>: Blackbox</li>
+<li>text editor: Obsidian, Cursor, Nano</li>
+<li>browser: Firefox, Brave</li>
+<li>pdf reader: Zathura</li>
+<li>image editor: GIMP</li>
+<li>development:
 <ul>
-<li><a href="/terminal">Terminal</a> (Blackbox)</li>
-<li>Text Editor (Obsidian, Cursor, VSCode, Neovim, Nano)</li>
-<li>Browser (Firefox, Brave)</li>
-<li>PDF Reader (Zathura)</li>
-<li>Image Editor (GIMP)</li>
-</ul>
-</li>
-<li>Development:
-<ul>
-<li>Git for version control</li>
-<li>HTML, CSS, JavaScript (default for <a href="building-websites.md">building-websites</a>)</li>
-<li>Go (for my website SSG)</li>
-<li><a href="/python">Python</a></li>
+<li>version control: Git</li>
+<li><a href="/building-websites">websites</a>: HTML, CSS, JavaScript, Go (for Hugo)</li>
+<li>data analysis: Python (pandas, numpy, torch, matplotlib)</li>
 </ul>
 </li>
 </ul>

@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,37 +116,38 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Loving</h1>
+        <h1>Loving</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <ol start="0">
-<li>Yourself</li>
-<li>Community - everybody you&rsquo;re around (home, work, 3rd places &ndash; neighborhood, etc)</li>
-<li>Family - those that depend on you, that you depend on</li>
-<li>Friends - everybody you like</li>
-<li>Network - everybody you know</li>
-<li>Humanity - everybody else</li>
-</ol>
-<h2 id="village">Village</h2>
+        <h2 id="my-selflife">My Self/Life</h2>
 <ul>
-<li>Local community, the people you live around</li>
+<li><strong>Self</strong> - self-love is the foundation of all love</li>
+<li><a href="/my-personality">my-personality</a></li>
+</ul>
+<h2 id="my-people">My People</h2>
+<ul>
+<li><a href="/ily">I.L.Y.</a></li>
+<li>Relating: <a href="/talking">talking</a>, <a href="/hanging-out">hanging-out</a>, <a href="/touching">touching</a>, <a href="/giving">giving</a>, <a href="/serving">serving</a></li>
+<li><strong>Partner</strong> - lifelong BFFs?</li>
+<li><strong>Family</strong> - those that depend on you, that you depend on, <a href="/my-family-tree">my-family-tree</a></li>
+<li><strong>Friends</strong> - everybody you like, <a href="/best-buds">best-buds</a></li>
+<li><strong>Community</strong> - e.g. teams, neighborhood, village, workplace, hobby group</li>
+<li><strong>Network</strong> - everybody you know in your different communities</li>
+<li><strong>Humanity</strong> - everybody else</li>
+</ul>
+<h2 id="my-places">My Places</h2>
+<ul>
+<li>Lived: <a href="/denver">Denver</a>, <a href="/atlanta">Atlanta</a>, <a href="/columbia">Columbia</a>, <a href="/saint-louis">Saint Louis</a>, <a href="/united-states-of-america">U.S.A.</a></li>
+<li>Traveled: <a href="/colorado">Colorado</a>, <a href="/missouri">Missouri</a>, <a href="/yosemite">Yosemite</a></li>
+<li>World Tour: <a href="/mexico">Mexico</a>, <a href="/thailand">Thailand</a>, <a href="/laos">Laos</a>, <a href="/italy">Italy</a>, <a href="/hungary">Hungary</a>, <a href="/austria">Austria</a></li>
 </ul>
 <blockquote>
 <p><em>“A fundamental paradox at the core of human life is that we are highly social and made better in every way by being around people, and yet over and over, we have opportunities to connect that we don’t take, or even actively reject, and it is a terrible mistake.”</em>
 -<a href="https://faculty.haas.berkeley.edu/jschroeder/Publications/Epley&amp;Schroeder2014.pdf">Epley</a></p>
 </blockquote>
-<p>The Social Gosepl in the early 20th century gave rise to the most social century in American history. The introduction of the car, and later the television, has hampered that.</p>
-<p>Gone are labor union meetings, gone are social hangouts done locally, gone are meetings at libraries.</p>
-<p>Here to stay are spending countless hours prostrated in front of a screen. Our lives are being designed at every step to accomodate screens, and to make screen-based living the default for all humans.</p>
-<h2 id="community">Community</h2>
-<ul>
-<li>Neighborhood resilience</li>
-<li>Local farm co-ops</li>
-<li>Mutual-aid networks</li>
-</ul>
 
     </div>
 </article>

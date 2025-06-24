@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,36 +116,44 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Disc golfing</h1>
+        <h1>Disc golfing</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <p>Disc Golf is fun. It&rsquo;s played at courses that are usually free. It&rsquo;s a great sport to drink and smoke during.</p>
+        <p>Disc Golf is hella fun and incredibly chill. It&rsquo;s a drinking sport! Usually free to play, and you only actually need a single disc, which costs about $10, and will last every throw up until you lose it!</p>
+<p>In three years, I went from a consistent +9-18 bogey player, to occasionally shooting under par (-3, -1, -1) and getting birdies. I&rsquo;ve gotten one ace! I&rsquo;m not saying I&rsquo;m that good, I play with absolute turkeys who throw -8, and drive 500 feet.</p>
+<h2 id="how-to-play-the-fundamentals">How to Play (the fundamentals)</h2>
+<p>Tools - you need one disc, the best single disc is a Midrange Driver.</p>
+<p>Envs - a basket, or a <em>Disc Golf Course</em> with baskets, to shoot at</p>
+<p>Process - for each hole:</p>
 <ol>
-<li>Chill out a bit.</li>
-<li>Get up there and rip it.</li>
+<li><strong>Drive</strong>: Throw the disc straight and far from the pad.</li>
+<li>Upshots: Usually either a short drive, or a long putt.</li>
+<li><strong>Putt</strong>: Use putting form to throw the disc straight at the basket.</li>
 </ol>
-<p>Discs to use:</p>
-<ol>
-<li><strong>Midrange</strong>. The most useful disc for all shots in disc golf.</li>
-<li><strong>Putter</strong>. Good to improve your up-close putting consistency.</li>
-<li><strong>Fairway Driver</strong>. First driver to add, for 300+ ft shots.</li>
-<li><strong>Distance Driver</strong>. Very hard to throw, only use if you can overthrow a fairway.</li>
-</ol>
-<p>Disc Numbers A/B/C/D</p>
+<h2 id="upgrades">Upgrades</h2>
+<p>You only technically need one disc, but a putter is pretty important, and once you can throw your first disc far, get faster discs to increase your skill ceiling.</p>
 <ul>
-<li>A = [1,14] <strong>Speed</strong> you must throw for proper flight.</li>
-<li>B = [1,7] <strong>Glide</strong>, how long the disc stays in the air.</li>
-<li>C = [-5,1] <strong>Turn</strong>, how much it will go right on a RHBH shot
+<li><strong>Putter</strong> - As soon as possible.</li>
+<li><strong>Fairway Driver</strong> - Once you can overthrow your midrange.</li>
+<li><strong>Distance Driver</strong> - Once you can overthrow your fairway.</li>
+</ul>
+<h2 id="my-current-bagbackpackmd">My current <a href="backpack.md">Bag</a></h2>
 <ul>
-<li>-5 = <em>Understable</em>, it&rsquo;ll turn hard</li>
-<li>-1-0 = <em>Stable</em></li>
-<li>+1 = <em>Overstable</em>, it&rsquo;ll resist turning</li>
+<li>Backpack (16L packable waterproof Matador)</li>
+<li>Discs
+<ul>
+<li><strong>Putter</strong> - Sensei, I also like the Judge, Aviar, and Luna</li>
+<li><strong>Midrange Driver</strong> - Lion, I also like the Truth</li>
+<li><strong>Fairway Driver</strong> - Escape</li>
+<li><strong>Distance Driver</strong> - XL</li>
 </ul>
 </li>
-<li>D = [0,5] <strong>Fade</strong>, once the disc slows down, how hard will it cut to the left</li>
+<li>Water Bottle - 24oz Hydroflask</li>
+<li>Beers - 2-3 depending on how I&rsquo;m feeling</li>
+<li>Joint + Lighter</li>
 </ul>
 
     </div>

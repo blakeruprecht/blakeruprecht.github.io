@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,59 +116,55 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Home</h1>
+        <h1>Home</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <h2 id="kitchen">Kitchen</h2>
+        <p><strong>BEDROOM</strong> - Used for sleeping and storing clothes.</p>
 <ul>
-<li>x</li>
+<li>(BED) Mattress, BedFrame, Sheets, Blankets, Pillows</li>
+<li>(STORAGE) NightStand, Lamp, AlarmClock</li>
+<li>(CLOSET) Hamper, Hangers, Baskets</li>
 </ul>
-<h2 id="bedroom">Bedroom</h2>
+<p><strong>BATHROOM</strong> - Used for toilet, washing, eyecare, teethcare, skincare, haircare.</p>
 <ul>
-<li>NightStand</li>
-<li>Desk, Chair</li>
-<li>GamingPC</li>
+<li>(TOILET) Toilet, Plunger, toiletpaper/Bidet</li>
+<li>(WASH_SINK) Sink, soap, HandTowels</li>
+<li>(WASH_SHOWER) Shower, Curtain, Mat, soap, BathTowels</li>
+<li>(WASH_LAUNDRY) WashingMachine, Dryer/Clothesline</li>
+<li>(EYECARE) Sunglasses, Glasses, contacts, Case, solution</li>
+<li>(TEETHCARE) Tootbrush, toothpaste, floss</li>
+<li>(SKINCARE) deodorant, sunscreen, moistrurizer</li>
+<li>(HAIRCARE) BeardTrimmer, HairTrimmer</li>
 </ul>
-<h2 id="bathroom">Bathroom</h2>
+<p><strong>KITCHEN</strong> - Used for storing food, prepping, cooking, and eating.</p>
 <ul>
-<li>Trimmer, deodorant</li>
+<li>(STORE) Pantry, Fridge, Containers</li>
+<li>(PREP) Counters, CuttingBoard, ChefKnife, BreadKnife, Scale</li>
+<li>(COOK) Stove, CastIronSkillet, DutchOven, PanSS, PotSS, BakingSheets, Tongs, Spatula, WoodSpoon, Thermometer, OveGloves</li>
+<li>(EAT) Forks, Spoons, Knives, Chopsticks, Plates, Bowls, Cups, Mugs, StorageContainers</li>
+<li>(CLEAN) Sink, soap, sponge</li>
 </ul>
-<h2 id="living">Living</h2>
+<p><strong>LIVING</strong> - Used for chilling and misc stuff (up to you)</p>
 <ul>
-<li>Wonderboom2</li>
+<li>(SIT) Chairs, Table, Couches</li>
+<li>(MUSIC) Wonderboom2</li>
+<li>(OFFICE) Desk, Chair, Keyboard+Mouse+Pad, Monitor+Webcam, Dock+Earbuds</li>
+<li>(GYM) GymRings, JumpRope, DipBelt, Weights, PullupBar, Barbell, Weights, SquatRack, Bench</li>
+<li>(GARDEN) ReelMower, Hose</li>
+<li>(PLAYING) Discs, Bball, Cleats, Glove, <em><strong>Bow+Arrow</strong>, <strong>Pole+Tackle</strong>, <strong>Pistol9</strong></em></li>
 </ul>
-<h2 id="old">Old</h2>
-<p>Kitchen</p>
+<h3 id="best-states-for-off-grid-homes">Best States for Off-Grid Homes</h3>
 <ul>
-<li>Pantry, Fridge, Containers</li>
-<li>Counters, CuttingBoard, ChefKnife, BreadKnife, Scale</li>
-<li>Stove, CastIronSkillet, DutchOven, PanSS, PotSS, BakingSheets, Tongs, Spatula, WoodSpoon, Thermometer, OveGloves</li>
-<li>Forks, Spoons, Knives, Chopsticks, Plates, Bowls, Cups, Mugs, StorageContainers</li>
-<li>Sink, soap, sponge</li>
-</ul>
-<p>Bedroom</p>
-<ul>
-<li>Mattress, Sheets, Blankets, Pillows</li>
-<li>BedFrame, SideTable, Lamp, AlarmClock</li>
-<li>Hamper, Hangers, SmallBaskets</li>
-</ul>
-<p>Bathroom</p>
-<ul>
-<li>Toilet, Plunger, toiletpaper</li>
-<li>Sink, Towel, soap</li>
-<li>Shower, Curtain, Mat, soap</li>
-<li>LaundryMachine, Dryer/Clothesline, soap</li>
-</ul>
-<p>Living</p>
-<ul>
-<li><a href="/bicycle">Bicycle</a>, Helmet, Lock</li>
-</ul>
-<h2 id="related">Related</h2>
-<ul>
-<li><a href="/building-homes">building-homes</a></li>
+<li>A: Idaho, Kentucky, <a href="missouri.md">Missouri</a>, Oregon</li>
+<li>B+: Alaska, Maine, Montana, Nebraska, New Mexico, Oklahoma, South Dakota, Tennessee, Utah, Washington, Wyoming</li>
+<li>B: Alabama, Arizona, Arkansas, Colorado, Georgia, Kansas, Michigan, Minnesota, Nevada, New Hampshire, North Carolina, North Dakota, South Carolina, West Virginia, Wisconsin</li>
+<li>C+: Florida, Illinois, Indiana, Iowa, Louisiana, Mississippi, Ohio, Pennsylvania, Texas, Vermont, Virginia</li>
+<li>C: California, Hawaii, Maryland, New York</li>
+<li>D: Connecticut, Delaware, Massachusetts, New Jersey, Rhode Island</li>
+<li>F: Washington DC</li>
 </ul>
 
     </div>

@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,7 +116,7 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Moloch</h1>
+        <h1>Moloch</h1> 
     </header>
 
     
@@ -142,7 +124,7 @@ window.MathJax = {
     <div class="post-content">
         <p>The tragedy of the commons.</p>
 <p>The problem with living in community &ndash; it inevitably becomes competitive, regardless of how hard we try to cooperate. The more we cooperate, the more chance there is to destroy others.</p>
-<p>E.g. nuclear bombs&hellip; are a result of trying to stop Nazis&hellip; which is part of a long line of promoting democracy and individual right to choose. <a href="the-system.html">the-system</a> encourages us to decentralize science.</p>
+<p>E.g. nuclear bombs&hellip; are a result of trying to stop Nazis&hellip; which is part of a long line of promoting democracy and individual right to choose. The system encourages us to decentralize science.</p>
 <p>The Poverty Trap
 The Malthusian Trap</p>
 

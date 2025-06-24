@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,27 +116,41 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Thinking</h1>
+        <h1>Thinking</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <blockquote>
-<p>The purpose of thinking is action, not more thinking.</p>
-</blockquote>
-<h2 id="process-to-act-not-think">Process to act, not think</h2>
-<p>Overthinking is a loop. Break the loop by pointing attention outward: What actually happens? What works?</p>
+        <p>You actions reveal your real values.</p>
+<p>Two responses:</p>
 <ol>
-<li><strong>Drop the story</strong>. Name it &ldquo;story.&rdquo; Stop analyzing motives. Stop trying to figure out why you do what you do. Your behavior comes from competing subsystems, not unified decisions. The narrator creates coherent stories after actions happen to maintain the <em>illusion of control.</em> Use emotions for social cues, logic for planning. Don&rsquo;t force agreement between systems.</li>
+<li>Stop lying to yourself and admit your real priorities.</li>
+<li>Start doing what you say you want to do to see if it&rsquo;s really true.</li>
+</ol>
+<p>Overthinking is a loop. Break the loop by:</p>
+<ol>
+<li><strong>Stop storytelling</strong>. Stop trying to figure it out. Behavior comes from competing subsystems, not unified decisions. E.g. use emotions for social cues, logic for planning, etc. Don&rsquo;t force agreement between systems. The narrator creates coherent stories after actions happen to maintain the <strong>illusion of control</strong> &ndash; the biggest illusion in life.</li>
 <li><strong>Act anyway</strong>. Build trigger-action systems that bypass willpower. Build systems and environments instead of motivation.</li>
 <li><strong>Track results</strong>. Log behavior. Measure outcomes. What was the action, what feelings did it lead to? Treat desire as data to track, not a mystery.</li>
-<li><strong>Adjust &amp; Repeat</strong>. Don&rsquo;t explain what you want. Optimize for getting it. Desire is input, not mystery. Identity is response pattersn in context. Optimize for results, not self-concept. Track what works. Build around actual tendencies. Operate first. Narrate only if useful.</li>
+<li><strong>Adjust &amp; Repeat</strong>. Don&rsquo;t explain what you want. Optimize for getting it anyway. Desire is input, not mystery. Identity is response patterns in context. Optimize for results, not self-concept. Track what works. Build around actual tendencies. Operate first. Narrate only if useful.</li>
 </ol>
 <p>No self. No why. Just what works.</p>
-<h2 id="taoism">Taoism</h2>
-<p><a href="https://www.reddit.com/r/taoism/comments/1i0il8q/if_taoism_had_a_tv_spot_the_original_post_with/">https://www.reddit.com/r/taoism/comments/1i0il8q/if_taoism_had_a_tv_spot_the_original_post_with/</a></p>
-<p>Of all the ancient wisdom traditions, Taoism gets the closest to figuring this out.</p>
+<p>Taoism gets closest (<a href="https://www.reddit.com/r/taoism/comments/1i0il8q/if_taoism_had_a_tv_spot_the_original_post_with/">video source</a>)</p>
+<blockquote>
+<p>The purpose of thinking is action, not more thinking.</p>
+</blockquote>
+<p><strong>Related</strong></p>
+<ul>
+<li><a href="/procrastinating">procrastination</a></li>
+<li><a href="/perfectionism">perfectionism</a></li>
+<li><a href="/dopamine">dopamine</a> balance to be happy</li>
+<li><a href="/happiness">happiness</a> = Setpoints + Conditions + Actions (Relationships &amp; Flow)</li>
+<li><a href="/growth-mindset">growth-mindset</a></li>
+<li><a href="/simplicity">simplicity</a></li>
+<li><a href="/universe">universe</a></li>
+<li><a href="/time">time</a></li>
+</ul>
 
     </div>
 </article>

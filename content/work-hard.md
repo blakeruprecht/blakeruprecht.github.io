@@ -2,6 +2,7 @@
 title: Work Hard
 ---
 There is no purpose or meaning to life, that we know of. Many people have come up with their own philosophies, which I see divided into three main categories.
+
 - Pleasure-seekers. Hedonists. Druggies. Whatever you want to call them, these people pursue pleasure above all else. Short term pleasure, here and now, instant gratification. These people want to chill and relax all day, doing nothing, soaking up the sunshine.
 - Ascetics. Avoiders. These people see the suffering and pain in the world and want no part in it. They try to distance themselves from anything dangerous, fun, difficult, or challenging, instead living a life of meditative bliss.
 - Workers. Players. Poetics. Hermetics. The people don't just pursue pleasure or pain, but both, and apply some meaning to the process. THey strive to create for the sake of creation itself.

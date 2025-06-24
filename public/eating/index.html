@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,19 +116,83 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Eating</h1>
+        <h1>Eating</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <p>Eat as many <a href="/eating-calories">calories</a> as used each day to maintain. Center eating around <a href="/eating-macronutrients">protein</a> sources. Eat a variety of ingredients, especially vegetables, to get enough <a href="/eating-micronutrients">micronutrients</a>. If cooking at home like me, <a href="/gathering">gather</a> whole ingredients, and <a href="/cooking">cook</a> simple tasty meals, preferably over a <a href="/fire">fire</a>. Also, <a href="/drinking">drink</a> lots of water all day.</p>
-<p>I break up my eating into three big meals centered around protein.</p>
-<ol>
-<li><a href="/smoothie">Smoothie</a> for breakfast, drinking calories helps me <a href="/eating-anabolic">gain weight</a></li>
-<li><a href="/lunchbox">Lunchbox</a>/<a href="/salad">Salad</a> for lunch</li>
-<li>Something off my <a href="/menu">menu</a> for dinner</li>
-</ol>
+        <p>I eat 3000 calories per day to maintain my energy, 150 g Protein per day to maintain my muscle, and a wide Variety of ingredients to maintain my micronutrient levels. I eat 3 meals per day.</p>
+<ul>
+<li><a href="/gathering">Gathering</a> whole ingredients throughout the week</li>
+<li><em>Breakfast</em>: <a href="/smoothie">smoothie</a></li>
+<li><em>Lunch</em>: <a href="/lunchbox">lunchbox</a> or <a href="/salad">salad</a></li>
+<li><em>Dinner</em>: <a href="/cooking">cooking</a> something from my personal <a href="/menu">menu</a></li>
+</ul>
+<h2 id="energy">Energy</h2>
+<p>Food is fuel for <a href="/living">living</a>. Get a rough estimate of how much you need daily with a <a href="https://tdeecalculator.net/">TDEE calculator</a>. Use a scale to measure weight gain/loss, and adjust caloric intake based on that. Drinking calories is easier than chewing them. Calorie/meal timing doesn&rsquo;t matter.</p>
+<ul>
+<li>IN = OUT → maintain</li>
+<li>IN &gt; OUT → gain weight</li>
+<li>IN &lt; OUT → lose weight</li>
+</ul>
+<h2 id="macronutrients">Macronutrients</h2>
+<p>Large chemical molecules we need in bulk to provide energy and structure for the body. The bones, organs, muscles, skin, cells, brain, etc were all once food.</p>
+<ul>
+<li><strong>Protein</strong> (4 cal/g): builds muscle, cells, tissue. <em>Most important macro</em>. Get from meat or any grain+legume combo for a complete amino acid profile.</li>
+<li><strong>Fats</strong> (9 cal/g): builds cells, hormones, nerves. Only omega-3 and 6 unsaturated fats are essential for the human body.
+<ul>
+<li><em>Omega-3</em>: found in fish, flax, walnuts, and small amounts in olive oil.</li>
+<li><em>Omega-6</em>: found in all veggie oils and seeds, e.g. olive oil.</li>
+</ul>
+</li>
+<li><strong>Carbs</strong> (4 cal/g): main energy source. Technically not essential, but useful.
+<ul>
+<li><em>Fiber</em> (0 cal/g): aids digestion, has no calories.</li>
+</ul>
+</li>
+<li><strong>Alcohol</strong> (7 cal/g): non-essential, gets burned first.</li>
+<li><strong>Water</strong> (0 cal/g): okay, actually the most important macronutrient since humans are mostly water, but there&rsquo;s a whole note about <a href="/drinking">drinking</a></li>
+</ul>
+<h2 id="micronutrients">Micronutrients</h2>
+<p>Small chemical molecules and elements we need in certain amounts because the body can&rsquo;t make them. Too complex to memorize. Just eat diverse whole foods. Here&rsquo;s a good list:</p>
+<ul>
+<li>Plants
+<ul>
+<li><em>Leaves</em>: spinach, kale, romaine, spring mix</li>
+<li><em>Herbs</em>: cilantro, basil, rosemary, thyme</li>
+<li><em>Crucifers</em>: broccoli, cabbage</li>
+<li><em>Roots</em>: carrot, sweet potato, garlic, onion, ginger</li>
+<li><em>Citrus</em>: lemon, lime, tomato, oranges, pineapple, chili peppers</li>
+<li><em>Berries</em>: banana, blueberry, blackberry, kiwi, avocado</li>
+<li><em>Fungi</em>: mushrooms, nutritional yeast</li>
+<li><em>Legumes</em>: beans, lentils, tofu, edamame</li>
+<li><em>Nuts</em>: cashews, almonds, walnuts, pistachios</li>
+<li><em>Seeds</em>: sunflower, sesame, chia, hemp, flax</li>
+<li><em>Grains</em>: pasta, rice, oats, corn, bread, tortilla</li>
+<li><em>Oils</em>: olive oil, veggie oil</li>
+<li><em>Spices</em>: kosher salt, whole black pepper, red pepper flakes, cumin, turmeric</li>
+<li><em>Condiments</em>: salsa, hot sauce, hummus, mustard, sauerkraut</li>
+<li><em>Drinks</em>: water, coffee, tea</li>
+</ul>
+</li>
+<li>Animals
+<ul>
+<li><em>Poultry</em>: eggs, chicken, turkey</li>
+<li><em>Fish</em>: tuna, salmon, trout</li>
+<li><em>Red Meat</em>: beef, pork, bison, rabbit, liver</li>
+<li><em>Dairy</em>: yogurt, milk, cheese, butter</li>
+</ul>
+</li>
+</ul>
+<h2 id="anabolism">Anabolism</h2>
+<p>The state of the body where it is capable of building muscle. In to do this, the body requires a few things:</p>
+<ul>
+<li><a href="/sleeping">Sleeping</a> plenty each night (this is where muscle is built)</li>
+<li><a href="/drinking">Drinking</a> plenty of water each day</li>
+<li><strong>Eating</strong> a surplus of <em>energy</em> and <em>protein</em>, and plenty of micronutrients</li>
+<li><a href="/lifting">Lifting</a> to progressively overload the muscles</li>
+</ul>
 
     </div>
 </article>

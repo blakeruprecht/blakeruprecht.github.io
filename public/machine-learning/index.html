@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Machine Learning | Blake Ruprecht</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="description" content="&#34;Machines learn by correlating input to output. In supervised learning, this output is an array of numbers. In unsupervised learning, this output is a group of sets. In reinforcement learning, this output is one reward value and tons of negative rewards.&#34;">
+
+  <link rel="canonical" href="https://blakeruprecht.com/machine-learning/" />  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  
+  <style>
+    html {
+      visibility: hidden;
+      transition: none !important;
+    }
+  </style>
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TL1K0T2Y4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3TL1K0T2Y4', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <div class="logo">
+      <a href="/">
+        
+          <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
+        
+      </a>      
+      
+    </div>    
+  </nav>
+</header>
+ 
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+   initializeMenuToggle();
+   initializeActiveLinks();
+   initializeThemeToggle();
+ });
+ 
+ document.documentElement.style.visibility = 'visible';
+
+ function initializeMenuToggle() {
+   document.querySelector('.menu-toggle').addEventListener('click', () => {
+     document.querySelector('.site-nav').classList.toggle('expanded');
+   });
+ }
+ 
+ 
+ function initializeActiveLinks() {
+    const currentPath = window.location.pathname.replace(/\/$/, '');  
+    const menuItems = document.querySelectorAll('.menu a');
+    const logo = document.querySelector('.logo a');
+    const homePaths = ['/'];
+
+    menuItems.forEach(item => {
+        const itemPath = item.getAttribute('href').replace(/\/$/, '');  
+        if (currentPath.startsWith(itemPath)) {
+            item.classList.add('active');
+        }
+    });
+
+    if (currentPath === '' || currentPath === '/') {
+        logo.classList.add('active');
+    }
+}
+
+
+
+
+
+ </script>
+
+<main class="content">
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+window.MathJax = {
+    tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+    }
+};
+</script>
+
+
+<article>
+    <header>
+        <h1>Machine Learning</h1> 
+    </header>
+
+    
+
+    <div class="post-content">
+        <p>At the highest level, machines learn very similarly to how humans learn. Data is given to the <a href="neural-network.md">neural network</a>, and then the robot does some calculations and tests it&rsquo;s performance against the environment.</p>
+<h2 id="supervised-learning-sl">Supervised Learning (SL)</h2>
+<p>Data comes with labels. The network makes an initial random guess at what the labels should be. Then, it compares the guesses to the actual labels, and determines how off it was (total error). It updates the network according to this error. If it&rsquo;s really wrong, it updates a lot; similarly, if it&rsquo;s close, not so much update. Every time it makes a guess, it updates the network. Well, roughly, but that&rsquo;s TMI.</p>
+<p>The network in times learns correlations between the data and the labels. This is why NNs are statistical in nature &ndash; they&rsquo;re just making guesses based on averages. The more data, the better. It works pretty well if you actually cover all of the possible scenarios with your data and labels. Otherwise, expect a lot of false positives (FP) and false negatives (FN).</p>
+<p><em>Examples</em>: The o.g. GOAT Multilayer Perceptron, Linear Regression, Logistic Regression, Decision Trees (there are a lot of methods of each of these that are much more efficient and easier to get running than Neural Networks, so don&rsquo;t start thinking NNs are the end-all be-all of math/stats)</p>
+<h2 id="unsupervised-learning-ul">Unsupervised Learning (UL)</h2>
+<p>This is basically a whole different branch of math. These include a bunch of different algorithms that use some crazy math to guess at the underlying structure of the data. That is, if the data has multiple different variables (like height, position, mass, intensity, etc.), which could be coming from sensors, all of the variables are treated mathematically as different axis, or dimensions. So sometimes we&rsquo;re talking about data that has an input of length 50, and you&rsquo;re doing high-dimensional math to try to figure out its structure.</p>
+<p>The problem with this is true underlying structure probably doesn&rsquo;t exist, so we&rsquo;re still just correlating to data.</p>
+<p><em>Examples</em>: K-Means Clustering, Autoencoders, Hidden Markov Models, Neural Gas</p>
+<h2 id="self-supervised-learning-ssl">Self-supervised Learning (SSL)</h2>
+<p>This is a great combo of the two above. SSL enables a NN to learn from the data itself about the data by using some creative methods. For example, with an image dataset, you can &ldquo;mask off&rdquo;, or cover up, parts of the image, and have the network try to predict what is covered up. If you can imagine, after viewing thousands of images of similar scenes, the network gets pretty good at predicting missing parts from images.</p>
+<p>Similarly, modern large language models (LLM) do something similar. Big ones like ChatGPT go through huge collections of text, like all of <a href="https://wikipedia.org">Wikipedia</a>, and try to predict missing words from sentences (knowing all along what the words are, just quizzin itself on the data it has).</p>
+<p><em>Examples</em>: ChatGPT, Claude, BERT (2018)</p>
+<h2 id="reinforcement-learning-rl">Reinforcement Learning (RL)</h2>
+<p>I saved the best for last. This one is awesome, and is literally about learning from your experiences (<a href="/growth-mindset">growth mindset!</a>).</p>
+<p>This paradigm considers:</p>
+<ul>
+<li>an Agent: e.g. a neural network controlling a robot</li>
+<li>an Environment: a video game, simulation, or the real world</li>
+</ul>
+<p>An Agent senses information from the Environment, giving it information about the current <em>state</em> (of the environment).</p>
+<p>An Agent then takes action in the Environment. This could be anything from waiting, to moving forward, to using it&rsquo;s hands, whatever this agent has access to.</p>
+<p>The agent keeps record of all of these (state, action) events in a thing called a <em>trajectory</em>, which can be thought of as the agent&rsquo;s memory. Eventually, at some time in the future, the agent may get a reward. It then uses RL math to associate that reward with particular (state,action) pairs, thus valuing those pairs higher than other ones.</p>
+<p>Done enough times, and the Agent learns how to get more Reward from the Environment.</p>
+<p>A technique to learn an approximation of an optimal policy to achieve rewards in a game environment. The environment is a game, which basically just means a subset of the universe, which includes states that can change over time. We have a robot in the environment, and it can perform actions to change the state of the environment. Eventually, some states in the environment can be defined as a &ldquo;reward&rdquo;. The whole point of RL is to find some policy that maps states and actions to figure out how to get more reward by being in the &ldquo;reward state&rdquo; as much as possible.</p>
+<p>For example, if you train a robot to play basketball, you can reward it only after it successfully plays a game and wins (robot score &gt; opponent score). The robot will probably lose a thousand times first, and most likely will only win by random chance, but hey, that&rsquo;s how most of us get our first wins in anything.</p>
+
+    </div>
+</article>
+
+
+
+
+</main>
+<footer>
+  <div>
+    <a href="/archive">more</a> :: 100% human-written :: <a href="/">home</a>
+  </div>
+</footer>
+</body>
+</html>
+

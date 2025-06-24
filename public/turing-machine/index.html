@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,50 +116,30 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Turing Machine</h1>
+        <h1>Turing Machine</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <p>Summary of the Turing Machine</p>
+        <p>A Turing Machine is relatively simple:</p>
 <ul>
-<li>We can program a machine to function as a Turing Machine
-<ul>
-<li>In-depth explanation of Turing Machines, why they&rsquo;re so important, and how all modern computers are Turing Machines</li>
-<li>Basically, machines that can hold numbers, and manipulate numbers (even just 1s and 0s), can functionally computer almost anything in the world with abstraction</li>
+<li><strong>Tape</strong> - a long thin piece of paper</li>
+<li><strong>Markings</strong> - on the tape which tell the machine to go left or right</li>
+<li><strong>Machine</strong> - that reads the markings and moves the tape accordingly</li>
 </ul>
-</li>
-</ul>
+<p>Turing proved in the 1940s that such a simple machine could realistically calculate the solution to any math problem in the world. With that mathematical proof (nerd paper), he invented the modern computer.</p>
 <h2 id="the-ancient-texts">The Ancient Texts</h2>
-<h2 id="lovelace-babbage-and-thinking-machines">Lovelace, Babbage, and thinking machines</h2>
-<h2 id="goedel-turing-and-the-great-theory-of-computing">Goedel, Turing, and the great Theory of Computing</h2>
+<h2 id="lovelace-and-babbage">Lovelace and Babbage</h2>
+<h2 id="goedel-and-incompleteness">Goedel and Incompleteness</h2>
 <ul>
-<li>The theories started in, you guessed it, <a href="Euler.md">math</a></li>
+<li>The theories started in, you guessed it, math</li>
 <li>Incompleteness, and why this matters</li>
 <li>The revolutionary discovery by the 17 yr old wiz kid from England, Turing</li>
 <li>What can we use as tape?</li>
 <li>How do we manipulate the tape?</li>
 </ul>
-<h2 id="von-neumann-and-the-big-ol-boys">von Neumann and The Big ol&rsquo; Boys</h2>
-<ul>
-<li>Beginning of computers, von Neumann architecture</li>
-<li>Development of memory</li>
-<li>Powering these puppies</li>
-<li>Original size x power ratios (to compare advances across this post)</li>
-<li>Original programs, programming languages, scripts, how does that shit all start?</li>
-<li>LISP, beginnings of AI</li>
-</ul>
-<h2 id="personal-computing">Personal Computing</h2>
-<ul>
-<li>Getting smaller</li>
-<li>Windows vs. Apple, Apple&rsquo;s 1984 ad</li>
-<li>How do programs evolve?</li>
-<li>More updates, how does AI co-evolve with this?</li>
-</ul>
-<h2 id="computers-go-mobile">Computers go mobile</h2>
-<h2 id="the-modern-landscape">The Modern Landscape</h2>
-<p>&ndash;&gt; link to FOSS</p>
+<h2 id="von-neumann-architecture">von Neumann Architecture</h2>
 
     </div>
 </article>

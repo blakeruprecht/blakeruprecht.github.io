@@ -55,7 +55,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -75,6 +76,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -93,27 +95,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -126,12 +108,27 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 <ul class="blog-list">
   
   <li>
+    <a href="/blogshelf/">Blogshelf</a>
+    <span>2025.06.19</span>
+  </li>
+  
+  <li>
     <a href="/object-detection/">Object Detection Pipeline using ResNet18</a>
     <span>2025.06.18</span>
   </li>
   
   <li>
+    <a href="/breathing/">Breathing</a>
+    <span>2025.06.13</span>
+  </li>
+  
+  <li>
     <a href="/lifting/">Lifting</a>
+    <span>2025.06.07</span>
+  </li>
+  
+  <li>
+    <a href="/moving/">Moving</a>
     <span>2025.06.07</span>
   </li>
   
@@ -156,16 +153,6 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/coding/">Coding</a>
-    <span>2025.06.06</span>
-  </li>
-  
-  <li>
-    <a href="/compound-lifts/">Compound Lifts</a>
-    <span>2025.06.06</span>
-  </li>
-  
-  <li>
     <a href="/cycling/">Cycling</a>
     <span>2025.06.06</span>
   </li>
@@ -176,22 +163,12 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/gym/">Gym</a>
+    <a href="/maintaining/">Maintaining</a>
     <span>2025.06.06</span>
   </li>
   
   <li>
-    <a href="/laboring/">Laboring</a>
-    <span>2025.06.06</span>
-  </li>
-  
-  <li>
-    <a href="/menu/">My Menu</a>
-    <span>2025.06.06</span>
-  </li>
-  
-  <li>
-    <a href="/progressive-overload/">Progressive Overload</a>
+    <a href="/menu/">Menu</a>
     <span>2025.06.06</span>
   </li>
   
@@ -201,7 +178,7 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/vehicle/">Vehicle</a>
+    <a href="/working/">Working</a>
     <span>2025.06.06</span>
   </li>
   
@@ -226,7 +203,7 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/sleeping/">Sleeping</a>
+    <a href="/sleeping/">Sleeping when tired until wakeup</a>
     <span>2025.06.04</span>
   </li>
   
@@ -236,12 +213,12 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/bicycle/">Bicycle</a>
+    <a href="/backpack/">Backpack</a>
     <span>2025.06.03</span>
   </li>
   
   <li>
-    <a href="/body-language/">Body language</a>
+    <a href="/bicycle/">Bicycle</a>
     <span>2025.06.03</span>
   </li>
   
@@ -261,7 +238,7 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/cooking/">Cooking</a>
+    <a href="/cooking/">Cooking simple tasty meals</a>
     <span>2025.06.03</span>
   </li>
   
@@ -272,16 +249,6 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   
   <li>
     <a href="/driving/">Driving</a>
-    <span>2025.06.03</span>
-  </li>
-  
-  <li>
-    <a href="/eating-anabolic/">Eating anabolic</a>
-    <span>2025.06.03</span>
-  </li>
-  
-  <li>
-    <a href="/eating-micronutrients/">Eating micronutrients</a>
     <span>2025.06.03</span>
   </li>
   
@@ -301,7 +268,7 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/gathering/">Gathering</a>
+    <a href="/gathering/">Gathering whole ingredients</a>
     <span>2025.06.03</span>
   </li>
   
@@ -311,12 +278,7 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/mo/">MO</a>
-    <span>2025.06.03</span>
-  </li>
-  
-  <li>
-    <a href="/packs/">Packs</a>
+    <a href="/missouri/">Missouri</a>
     <span>2025.06.03</span>
   </li>
   
@@ -371,17 +333,12 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/eating-calories/">Eating calories</a>
-    <span>2025.06.02</span>
-  </li>
-  
-  <li>
-    <a href="/eating-macronutrients/">Eating macronutrients</a>
-    <span>2025.06.02</span>
-  </li>
-  
-  <li>
     <a href="/humans/">Humans</a>
+    <span>2025.06.02</span>
+  </li>
+  
+  <li>
+    <a href="/saint-louis/">Saint Louis</a>
     <span>2025.06.02</span>
   </li>
   
@@ -391,23 +348,8 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/stl/">STL</a>
-    <span>2025.06.02</span>
-  </li>
-  
-  <li>
     <a href="/thinking/">Thinking</a>
     <span>2025.06.02</span>
-  </li>
-  
-  <li>
-    <a href="/traveling/">Traveling</a>
-    <span>2025.06.02</span>
-  </li>
-  
-  <li>
-    <a href="/working/">Working</a>
-    <span>2025.06.01</span>
   </li>
   
   <li>
@@ -446,16 +388,6 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/now/">Now</a>
-    <span>2025.05.15</span>
-  </li>
-  
-  <li>
-    <a href="/my-cv/">My Resume</a>
-    <span>2025.05.07</span>
-  </li>
-  
-  <li>
     <a href="/smoothie/">Smoothie</a>
     <span>2025.04.18</span>
   </li>
@@ -486,17 +418,12 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/bookshelf/">My Bookshelf</a>
-    <span>2024.10.17</span>
-  </li>
-  
-  <li>
     <a href="/research/">What my AI safety research taught me</a>
     <span>2024.10.17</span>
   </li>
   
   <li>
-    <a href="/drawing/">Black and White Thinking</a>
+    <a href="/drawing/">Ink on Paper</a>
     <span>2024.08.15</span>
   </li>
   
@@ -513,6 +440,11 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   <li>
     <a href="/dcbs/">DCBS hot sauce recipe</a>
     <span>2024.06.20</span>
+  </li>
+  
+  <li>
+    <a href="/bookshelf/">Bookshelf</a>
+    <span>2024.06.19</span>
   </li>
   
   <li>
@@ -591,7 +523,7 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/ml-paradigms/">Machine Learning paradigms</a>
+    <a href="/machine-learning/">Machine Learning</a>
     <span>2023.05.15</span>
   </li>
   
@@ -626,6 +558,11 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
+    <a href="/air/"></a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
     <a href="/austria/"></a>
     <span>0001.01.01</span>
   </li>
@@ -646,12 +583,22 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
+    <a href="/photographing/"></a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
+    <a href="/talking/"></a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
     <a href="/thailand/"></a>
     <span>0001.01.01</span>
   </li>
   
   <li>
-    <a href="/ai-architecture/">AI architecture</a>
+    <a href="/ai/">AI</a>
     <span>0001.01.01</span>
   </li>
   
@@ -662,11 +609,6 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   
   <li>
     <a href="/binary/">Binary</a>
-    <span>0001.01.01</span>
-  </li>
-  
-  <li>
-    <a href="/building-homes/">Building Homes</a>
     <span>0001.01.01</span>
   </li>
   
@@ -691,17 +633,22 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/exercising/">Exercising</a>
-    <span>0001.01.01</span>
-  </li>
-  
-  <li>
     <a href="/farming/">Farming</a>
     <span>0001.01.01</span>
   </li>
   
   <li>
     <a href="/fire/">Fire</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
+    <a href="/giving/">Giving</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
+    <a href="/hanging-out/">Hanging Out</a>
     <span>0001.01.01</span>
   </li>
   
@@ -721,17 +668,17 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
+    <a href="/inspiration/">Inspiration</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
     <a href="/language/">Language</a>
     <span>0001.01.01</span>
   </li>
   
   <li>
     <a href="/lunchbox/">Lunchbox</a>
-    <span>0001.01.01</span>
-  </li>
-  
-  <li>
-    <a href="/mindset/">Mindset</a>
     <span>0001.01.01</span>
   </li>
   
@@ -751,22 +698,22 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
-    <a href="/nature/">Nature</a>
-    <span>0001.01.01</span>
-  </li>
-  
-  <li>
-    <a href="/office/">Office</a>
-    <span>0001.01.01</span>
-  </li>
-  
-  <li>
-    <a href="/pictures/">Pictures</a>
-    <span>0001.01.01</span>
-  </li>
-  
-  <li>
     <a href="/reading/">Reading</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
+    <a href="/serving/">Serving</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
+    <a href="/skipping-rope/">Skipping Rope</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
+    <a href="/smartphone/">Smartphone</a>
     <span>0001.01.01</span>
   </li>
   
@@ -776,7 +723,22 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
+    <a href="/stretching/">Stretching</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
+    <a href="/the-process/">The Process</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
     <a href="/time/">Time</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
+    <a href="/touching/">Touching</a>
     <span>0001.01.01</span>
   </li>
   
@@ -786,12 +748,27 @@ document.addEventListener('DOMContentLoaded', initializeThemeToggle);
   </li>
   
   <li>
+    <a href="/united-states-of-america/">United States of America</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
     <a href="/universe/">Universe</a>
     <span>0001.01.01</span>
   </li>
   
   <li>
-    <a href="/usa/">USA</a>
+    <a href="/videoshelf/">Videoshelf</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
+    <a href="/watching/">Watching</a>
+    <span>0001.01.01</span>
+  </li>
+  
+  <li>
+    <a href="/weed/">Weed</a>
     <span>0001.01.01</span>
   </li>
   

@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,55 +116,48 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Lifting</h1>
+        <h1>Lifting</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <p>3 TIMES PER WEEK, ANY ORDER</p>
+        <p>Lifting is my main muscle training movement. I focus on progressive overload and fundamental compound lifts. Nothing fancy. Master the basics. Make number go up.</p>
+<p>The Fundamental Lifts:</p>
 <ul>
-<li>
-<p>3x8-12 Pull &ndash; mainly Pullups</p>
-</li>
-<li>
-<p>3x8-12 Push &ndash; mainly Dips and Pushups</p>
-</li>
-<li>
-<p>3x8-12 Legs &ndash; rotate variations</p>
-</li>
-<li>
-<p>3x8-12 Core &ndash; rotate variations</p>
-</li>
-<li>
-<p><a href="/compound-lifts">Compound Lifts</a> cover all major muscles. I rotate between a few I like:</p>
+<li><strong>Pull</strong> - Pullups, Chinups, Rows, etc</li>
+<li><strong>Push</strong> - Dips, Pushups, Incline Bench, etc</li>
+<li><strong>Squat</strong> - Squat, Split Squat, Lunge</li>
+<li><strong>Hinge</strong> - Deadlift, RDL, Glute Bridge</li>
+<li><strong>Core</strong> - Plank, Dead Bug, Side Plank, Bird Dog, Carry</li>
+</ul>
+<p>The only way to improve at lifting is by progressively overloading the muscles most times you lift to stimulate a growth response. Basically, lift more. Here&rsquo;s how:</p>
 <ul>
-<li>Pull - Pullup, Pullups with other grips, Rows</li>
-<li>Push - Dip, Pushup, Decline Pushup, Db Incline Bench</li>
-<li>Legs - Squat, RDL, Glute Bridge</li>
-<li>Core - Plank, Dead Bug, Side Plank, Bird Dog</li>
+<li>Add weight (same number of reps)</li>
+<li>Add reps (same weight)</li>
+<li>Add speed (increase lift speed or reduce rest between sets)</li>
+</ul>
+<p>The program you do doesn&rsquo;t matter. All that matters is whether or not you are adding weights/reps/speed over time. If the numbers are going down, your lifting is a waste of time. Here are some general guidelines:</p>
+<ul>
+<li><em>Form</em>: Perfect form every time, this is non-negotiable. Quality over quantity. Bad form leads to injury, not gains.</li>
+<li><em>Frequency</em>: 1-7 sessions/week (I&rsquo;m doing 3 full-body)</li>
+<li><em>Sets</em>: 5-20 sets per week (I&rsquo;m doing 3)</li>
+<li><em>Reps</em>: 1-30 for strength/power/speed, 30+ for endurance (I&rsquo;m doing 8-12)</li>
+<li><em>Recovery</em>: You can&rsquo;t improve the muscles without recovering. This means:
+<ul>
+<li><a href="/sleeping">Sleeping</a> plenty each night (this is where muscle is built)</li>
+<li><a href="/drinking">Drinking</a> plenty of water each day</li>
+<li><a href="/eating">Eating</a> a surplus of <strong>energy</strong> and <strong>protein</strong>, and plenty of micronutrients</li>
 </ul>
 </li>
-<li>
-<p><a href="/progressive-overload">Progressive Overload</a> is the key to strength, power, speed, endurance, size.</p>
-<ul>
-<li>Perfect form always, keep it consistent to measure properly.</li>
-<li>All that matters is that your Reps x Weight goes up
-<ul>
-<li>e.g. Pullup 10 reps x 0 lbs &ndash;&gt; improve reps or weight</li>
-<li>e.g. Squat 5 reps x 135 lbs &ndash;&gt; improve reps or weight</li>
-</ul>
+<li>My current program: 3 x/week full-body:
+<ol>
+<li>3x8-12 Pullups</li>
+<li>3x8-12 Dips or Pushups</li>
+<li>3x8-12 squat or hinge</li>
+<li>3x? core</li>
+</ol>
 </li>
-</ul>
-</li>
-</ul>
-<p>That&rsquo;s it. There&rsquo;s a ton of routines, programs, and all sorts of complications to see if your specific approach is working, but the weight doesn&rsquo;t lie. If your numbers go up across all four key lifts, you&rsquo;re lifting effectively.</p>
-<p>My routine is arbitrary:</p>
-<ul>
-<li>3 x/week for each of Pull/Push/Leg/Core &ndash; could do 1 time, 5 sets for each.</li>
-<li>3 sets &ndash; could do 1-6 per session</li>
-<li>8-12 reps &ndash; could do 1-30 for strength, power, speed, 30+ for endurance</li>
-<li>Full-Body &ndash; could do upper-lower, push-pull-legs, bro-split, etc.</li>
 </ul>
 
     </div>

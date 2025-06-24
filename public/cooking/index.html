@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Cooking | Blake Ruprecht</title>
+  <title>Cooking simple tasty meals | Blake Ruprecht</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,13 +116,13 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Cooking</h1>
+        <h1>Cooking simple tasty meals</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <p>In order to <a href="/eating">eat</a> enough <a href="/eating-calories">calories</a>, <a href="/eating-protein">protein</a>, and <a href="/eating-micronutrients">micronutrients</a>, I prefer tasty meals to get it all down. Call me crazy. Cooking comes down to a few basic steps, once you have <a href="/gathering">gathered</a> the ingredients you plan to eat. Remember, there aren&rsquo;t really any shortcuts to cooking, it all comes down to sharp knives, high heat, plenty of seasoning, and cleaning as you go.</p>
+        <p>In order to <a href="/eating">eat</a> enough calories, protein, and micronutrients, I prefer tasty meals to get it all down. Call me crazy. Cooking comes down to a few basic steps, once you have <a href="/gathering">gathered</a> the ingredients you plan to eat. Remember, there aren&rsquo;t really any shortcuts to cooking, it all comes down to sharp knives, high heat, plenty of seasoning, and cleaning as you go.</p>
 <p><strong>Prepping</strong> ingredients mainly involves salting meat 30 mins before cooking time to give the salt a chance to seep into the middle parts of the meat, and cutting veggies for convenient heating. It&rsquo;s essential to maintain a sharp knife and non-moving cutting board, and cut with safe form.</p>
 <p><strong>Heating</strong> ingredients makes them safe to consume. A cook controls how hot the cooking surface is, and how much food lube there is between the hot surface and the food.</p>
 <ul>

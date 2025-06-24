@@ -2,27 +2,31 @@
 title: Lifting
 date: 2025-06-07
 ---
-3 TIMES PER WEEK, ANY ORDER
-- 3x8-12 Pull -- mainly Pullups
-- 3x8-12 Push -- mainly Dips and Pushups
-- 3x8-12 Legs -- rotate variations
-- 3x8-12 Core -- rotate variations
+Lifting is my main muscle training movement. I focus on progressive overload and fundamental compound lifts. Nothing fancy. Master the basics. Make number go up.
 
-- [Compound Lifts](/compound-lifts) cover all major muscles. I rotate between a few I like:
-	- Pull - Pullup, Pullups with other grips, Rows
-	- Push - Dip, Pushup, Decline Pushup, Db Incline Bench
-	- Legs - Squat, RDL, Glute Bridge
-	- Core - Plank, Dead Bug, Side Plank, Bird Dog
-- [Progressive Overload](/progressive-overload) is the key to strength, power, speed, endurance, size.
-	- Perfect form always, keep it consistent to measure properly.
-	- All that matters is that your Reps x Weight goes up
-		- e.g. Pullup 10 reps x 0 lbs --> improve reps or weight
-		- e.g. Squat 5 reps x 135 lbs --> improve reps or weight
+The Fundamental Lifts:
+- **Pull** - Pullups, Chinups, Rows, etc
+- **Push** - Dips, Pushups, Incline Bench, etc
+- **Squat** - Squat, Split Squat, Lunge
+- **Hinge** - Deadlift, RDL, Glute Bridge
+- **Core** - Plank, Dead Bug, Side Plank, Bird Dog, Carry
 
-That's it. There's a ton of routines, programs, and all sorts of complications to see if your specific approach is working, but the weight doesn't lie. If your numbers go up across all four key lifts, you're lifting effectively.
+The only way to improve at lifting is by progressively overloading the muscles most times you lift to stimulate a growth response. Basically, lift more. Here's how:
+- Add weight (same number of reps)
+- Add reps (same weight)
+- Add speed (increase lift speed or reduce rest between sets)
 
-My routine is arbitrary:
-- 3 x/week for each of Pull/Push/Leg/Core -- could do 1 time, 5 sets for each.
-- 3 sets -- could do 1-6 per session
-- 8-12 reps -- could do 1-30 for strength, power, speed, 30+ for endurance
-- Full-Body -- could do upper-lower, push-pull-legs, bro-split, etc.
+The program you do doesn't matter. All that matters is whether or not you are adding weights/reps/speed over time. If the numbers are going down, your lifting is a waste of time. Here are some general guidelines:
+- *Form*: Perfect form every time, this is non-negotiable. Quality over quantity. Bad form leads to injury, not gains.
+- *Frequency*: 1-7 sessions/week (I'm doing 3 full-body)
+- *Sets*: 5-20 sets per week (I'm doing 3)
+- *Reps*: 1-30 for strength/power/speed, 30+ for endurance (I'm doing 8-12)
+- *Recovery*: You can't improve the muscles without recovering. This means:
+	- [Sleeping](/sleeping) plenty each night (this is where muscle is built)
+	- [Drinking](/drinking) plenty of water each day
+	- [Eating](/eating) a surplus of **energy** and **protein**, and plenty of micronutrients
+- My current program: 3 x/week full-body:
+	1. 3x8-12 Pullups
+	2. 3x8-12 Dips or Pushups
+	3. 3x8-12 squat or hinge
+	4. 3x? core

@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,52 +116,35 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Cleaning</h1>
+        <h1>Cleaning</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <p>Maintain medical health by cleaning the body. This comes down to cleaning the internals of the body, and the eyes, teeth, skin, and hair.</p>
-<ol>
-<li>Urinate/defecate, wash hands, take medicine as needed</li>
-<li>Brush teeth 2x/day, floss 1x/day</li>
-<li>Wear sunglasses in the sun, contacts/glasses as needed</li>
-<li>Shower daily, wear sunscreen on skin exposed to sunlight</li>
-<li>Cut hair regularly</li>
-</ol>
-<p><strong>Medical Professionals</strong></p>
+        <p>DAILY MAINTENANCE</p>
 <ul>
-<li><em>Physician</em> to check and fix internals.</li>
-<li><em>Dentist</em> to check and fix teeth.
+<li><strong>Sink ritual (wakeup)</strong> - Brush teeth, Floss teeth, Glasses/contacts</li>
+<li><strong>Sink ritual (bedtime)</strong> - Brush teeth, Floss teeth, Glasses/contacts</li>
+<li><strong>Shower ritual</strong> - Cut all short hairs, Cut long hair, Wash skin/hair/clothes</li>
+<li>as needed:
 <ul>
-<li>Flossing sucks but every single dentist I&rsquo;ve ever talked to recommends it.</li>
-</ul>
-</li>
-<li><em>Optometrist</em> to check and fix eyes.
-<ul>
-<li>Wearing glasses/contacts improves eye health by stopping degeneration where it&rsquo;s at. Squinting/straining the eyes only makes vision problems worse.</li>
-<li>Sunglasses are the best way to protect the eyes from damaging UV rays.</li>
-<li>Change eye focal length from close to middle to far to stretch the eyes. This is especially important for computer workers.</li>
-</ul>
-</li>
-<li><em>Dermatologist</em> to check and fix skin.
-<ul>
-<li>Daily sunscreen to protect the skin from cancers.</li>
+<li><strong>Toilet</strong> - Pee/Poo, Wash hands</li>
+<li><strong>Sunglasses</strong> - when outside</li>
+<li><strong>Sunscreen</strong> - when outside</li>
+<li><strong>Focal length stretches</strong> - when staring at screens</li>
 </ul>
 </li>
 </ul>
-<p><strong>Hair &amp; Beard Trimming</strong></p>
+<p>HEALTHCARE</p>
 <ul>
-<li><em>Barbers</em> are great but expensive. I bought a pair of hair clippers and have spent five years learning one haircut &ndash; my own. Here&rsquo;s what I do:
-<ul>
-<li>Cut the sides short. 1/4&quot; or 1/2&quot;. Taper the bottoms with shorter guards.</li>
-<li>Cut the top long. Start with 1&quot; or so. Taper towards the front, leave the hair at the front as long as I like, 2-4&quot;.</li>
-<li>Cut the beard and the rest of my bodyhair short as hell, who needs it.</li>
+<li><em>Physician</em> (general health) checkup every 1 year</li>
+<li><em>Dentist</em> (teeth) checkup every 6 months</li>
+<li><em>Dermatologist</em> (skin) checkup every 1 year</li>
+<li><em>Optometrist</em> (eyes) checkup every 1 year</li>
 </ul>
-</li>
-</ul>
-<p><img src="/img/my-haircut.png" alt="My usual haircut"></p>
+<p>For inspiration, look how good your hair can look when taken care of:
+<img src="/img/my-haircut.png" alt="My usual haircut"></p>
 
     </div>
 </article>

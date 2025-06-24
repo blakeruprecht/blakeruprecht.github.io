@@ -6,8 +6,15 @@
     <description>Recent content on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blakeruprecht.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogshelf</title>
+      <link>https://blakeruprecht.com/blogshelf/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/blogshelf/</guid>
+      <description>mnmlist: by Leo Babauata, great blog about minimalism, this post really hits home for me. zen habits: also by Leo B., covers zen and applying it to life, e.g. having no goals is fun! Wait But Why: Tim Urban does long-form better than anybody, and visualizes important things in fascinating ways. Mr Money Mustache: Pete writes about saving money, but for the purpose of living a better life. xkcd The best online comic strip to ever come out.</description>
+    </item>
     <item>
       <title>Object Detection Pipeline using ResNet18</title>
       <link>https://blakeruprecht.com/object-detection/</link>
@@ -16,18 +23,32 @@
       <description>GitHub Repo: object-detection&#xA;This project demonstrates a simple visual inspection pipeline using a pretrained convolutional neural network (CNN). Images are loaded and passed into the CNN model, which outputs a predicted class and confidence score. The class and score are then overlaid on each image using OpenCV, and saved for further inspection. All of the results are logged to a CSV file.&#xA;Prerequisites github.com/blakeruprecht/object-detection Python Virtual environment (recommended): python3 -m venv venv source venv/bin/activate pip install torch torchvision opencv-python matplotlib System Overview compvis/ images/ example1.</description>
     </item>
     <item>
+      <title>Breathing</title>
+      <link>https://blakeruprecht.com/breathing/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/breathing/</guid>
+      <description>One moment, one breath, in through the nose, out through the mouth. Every breath returns you to the present&#xA;TECHNIQUES&#xA;Zen - sit tall, relax, open shoulders, breathe naturally Box - 4s inhale, 4s hold, 4s exhale, 4s hold &amp;ndash; repeat Slow - extend each inhale and exhale as long as possible MEDITATION&#xA;The art of focusing Focus on your breath When focus wanders, return it to your breath Repeat over and over (this is the practice, that&amp;rsquo;s all it is) </description>
+    </item>
+    <item>
       <title>Lifting</title>
       <link>https://blakeruprecht.com/lifting/</link>
       <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/lifting/</guid>
-      <description>3 TIMES PER WEEK, ANY ORDER&#xA;3x8-12 Pull &amp;ndash; mainly Pullups&#xA;3x8-12 Push &amp;ndash; mainly Dips and Pushups&#xA;3x8-12 Legs &amp;ndash; rotate variations&#xA;3x8-12 Core &amp;ndash; rotate variations&#xA;Compound Lifts cover all major muscles. I rotate between a few I like:&#xA;Pull - Pullup, Pullups with other grips, Rows Push - Dip, Pushup, Decline Pushup, Db Incline Bench Legs - Squat, RDL, Glute Bridge Core - Plank, Dead Bug, Side Plank, Bird Dog Progressive Overload is the key to strength, power, speed, endurance, size.</description>
+      <description>Lifting is my main muscle training movement. I focus on progressive overload and fundamental compound lifts. Nothing fancy. Master the basics. Make number go up.&#xA;The Fundamental Lifts:&#xA;Pull - Pullups, Chinups, Rows, etc Push - Dips, Pushups, Incline Bench, etc Squat - Squat, Split Squat, Lunge Hinge - Deadlift, RDL, Glute Bridge Core - Plank, Dead Bug, Side Plank, Bird Dog, Carry The only way to improve at lifting is by progressively overloading the muscles most times you lift to stimulate a growth response.</description>
+    </item>
+    <item>
+      <title>Moving</title>
+      <link>https://blakeruprecht.com/moving/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/moving/</guid>
+      <description>Posture All movement starts with proper breathing. Deep, slow breathing engages the core, straightens the spine, opens the shoulders, and aligns the hips. Maintain this posture when laying, sitting, standing, or moving. w&#xA;Travel Locomotion transports the body. Maintain good posture. Natural forms include walking, swimming, crawling, and swinging. Vehicle-assisted forms include cycling, driving, and public transportation.&#xA;Train I practice the following movements to improve my overall movement ability.&#xA;Stretch before lifts and longer on run days Lifting daily pullups and pushups, barbells on MWF Running or Skipping Rope everyday Play balling disc-golfing fishing camping hunting fighting </description>
     </item>
     <item>
       <title>Running</title>
       <link>https://blakeruprecht.com/running/</link>
       <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/running/</guid>
-      <description>Running is fun. You can run 3 x/week (e.g. TuThWe) slowly and be fit for life. Go fast sometimes if you want. Add speed or distance to improve. Barefoot seems cool.&#xA;Run two miles at Zone 2 pace. Cardio zones&#xA;Zone 1: walking, still fun! Zone 2: easy pace (nose-breathing) Zone 3-4: tempo/intervals Zone 5: sprints Related lifting </description>
+      <description>Running is my chosen movement to train my cardio. It feels good, primal, and natural. I enjoy getting outside, listening to the birds, seeing the plants, sunlight, and feeling my lungs and muscles working. I don&amp;rsquo;t run for distance or speed, I run for the strain and joy.&#xA;Most of my runs are two miles at zone 2 (nose breathing) pace. Sometimes I go faster or longer to progressively overload my system, but only when I feel great.</description>
     </item>
     <item>
       <title>Balling</title>
@@ -51,20 +72,6 @@
       <description>Same as living at home. You need a few basic amenities:&#xA;Clothes to keep you warm and protected A place to sleep (e.g. Sleeping Pad with a Sleeping Bag in a Tent or Car) A water source, a water filter, and a water storage container Food to eat, and maybe a pot/pan to cook food with Utility tools like a knife, fire starters, light sources, navigation, etc. E.g. what I took backpacking in Yosemite Backpack55L ClothesBag, clothes (worn) Sunglasses, Hat, LSbaselayer, Hikers, Boxers, Socks, Runners (pack) Beanie, Shell, Puffer, LSbaselayer, Leggings, Baggies, Boxers, Socks, Sandals Tent, Quilt, Pad, paracord WaterFilter, WaterBottle2 FoodBag, Spoon (I ate all cold-soaked food, e.</description>
     </item>
     <item>
-      <title>Coding</title>
-      <link>https://blakeruprecht.com/coding/</link>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/coding/</guid>
-      <description>Websites&#xA;HTML: markup language CSS: styles everything as a box JS: adds dynamic elements Data Analysis and Visualization&#xA;excel, csv, python, python-packges </description>
-    </item>
-    <item>
-      <title>Compound Lifts</title>
-      <link>https://blakeruprecht.com/compound-lifts/</link>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/compound-lifts/</guid>
-      <description>All you really need are the basic compound lifts in order to build muscle.&#xA;There are a million and one different exercises using different equipment to target every muscle in a myriad of different ways. It&amp;rsquo;s overwhelming. Luckily, most of those options are useless for the average person. As with anything, the fundamental lifts are basic and provide most of the returns.&#xA;In general, the fundamental lifts can be broken up into the major movement patterns: the squat, the hinge/lift, the pull, and the push.</description>
-    </item>
-    <item>
       <title>Cycling</title>
       <link>https://blakeruprecht.com/cycling/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
@@ -76,49 +83,35 @@
       <link>https://blakeruprecht.com/disc-golfing/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/disc-golfing/</guid>
-      <description>Disc Golf is fun. It&amp;rsquo;s played at courses that are usually free. It&amp;rsquo;s a great sport to drink and smoke during.&#xA;Chill out a bit. Get up there and rip it. Discs to use:&#xA;Midrange. The most useful disc for all shots in disc golf. Putter. Good to improve your up-close putting consistency. Fairway Driver. First driver to add, for 300+ ft shots. Distance Driver. Very hard to throw, only use if you can overthrow a fairway.</description>
+      <description>Disc Golf is hella fun and incredibly chill. It&amp;rsquo;s a drinking sport! Usually free to play, and you only actually need a single disc, which costs about $10, and will last every throw up until you lose it!&#xA;In three years, I went from a consistent +9-18 bogey player, to occasionally shooting under par (-3, -1, -1) and getting birdies. I&amp;rsquo;ve gotten one ace! I&amp;rsquo;m not saying I&amp;rsquo;m that good, I play with absolute turkeys who throw -8, and drive 500 feet.</description>
     </item>
     <item>
-      <title>Gym</title>
-      <link>https://blakeruprecht.com/gym/</link>
+      <title>Maintaining</title>
+      <link>https://blakeruprecht.com/maintaining/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/gym/</guid>
-      <description>ENV&#xA;Anywhere can be a gym, bodyweight works great. TOOLS&#xA;Gymanstics Rings Jump Rope DipBelt + Weights Dumbbell + Weights Adjustable Bench Barbell + Weights Squat Rack Kettlebells </description>
+      <guid>https://blakeruprecht.com/maintaining/</guid>
+      <description>Envs: home, fire, sunlight/outside Tools: clothes backpack, car, bicycle Money: budget, bank, tax-info, passport, ID, health-insurance Time: exp-log, calendar, todo list How to identify your essentials Identify actual behaviors Track your daily actions, what do you actually do? Tools are not the end goal, they just help action happen. Eliminate non-essentials Instead of reducing what you have, start from nothing and add back what you need. If you can&amp;rsquo;t complete an action without the tool, the tool is essential.</description>
     </item>
     <item>
-      <title>Laboring</title>
-      <link>https://blakeruprecht.com/laboring/</link>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/laboring/</guid>
-      <description>Trading time for money. Currently:&#xA;Writing/teaching/AI support Selling / Applying I am always selling:&#xA;Resume = proof of skills, experience, and education Skills - Match the job posting Experience - Of using skills, keep bullet points action oriented Education - Random piece of paper Cover Letter = your story and fit Emails = polite, clear, direct Meetings = calendars, follow-ups, TODOs Delivery Delivering value through work. For me, that’s mostly writing and computing.</description>
-    </item>
-    <item>
-      <title>My Menu</title>
+      <title>Menu</title>
       <link>https://blakeruprecht.com/menu/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/menu/</guid>
-      <description>I keep the same basic grocery list each week, so I never have to rewrite it. Most recipes are actually very similar with a few minor changes/tweaks.&#xA;American-ish: Meat and buns plus LTOP&#xA;[club-sandwich] [smashburger] [hot-dog] [bratwurst] [steak-and-potatos] Mexican-ish: Salsa, salsa, salsa&#xA;[tacos], [baja-fish-tacos], tacos-al-pastor burrito [quesadilla] [chips-and-salsa] [pozole-verde-soup], [black-bean-soup], [red-chile] Italian-ish: Ingredient showcases&#xA;aglio-e-olio, [cacio-e-pepe], [marinara], [pesto], [carbonara] [risotto] [pizza-margherita], [pizza-romano], [doner-kebab] Sichuan-ish: Meat and Rice/Noodle&#xA;[teriyaki-bowl], [gochujang-bowl], [holy-basil-bowl] [pepper-curry], garlic-chile-oil-soup [dan-dan-mian], [garlic-noodles] </description>
-    </item>
-    <item>
-      <title>Progressive Overload</title>
-      <link>https://blakeruprecht.com/progressive-overload/</link>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/progressive-overload/</guid>
-      <description>Any exercise causes a growth response. To keep improving, two conditions must be met:&#xA;Progressive Overload — The body adapts to repeated stress. To trigger further adaptation, you must increase the stimulus. lifting: increase sets, reps, or weight running: increase pace, distance, or time under tension Sufficient Recovery — Adaptation only happens when the body has resources to rebuild. sleeping: growth happens during deep sleep eating-anabolic: protein + calories enable growth drinking: hydration aids recovery and performance Muscle Adaptations (per muscle) Technique - more efficient and precise movement Strength - increased force output Speed - faster execution of the movement Power - strength x speed (explosiveness) Endurance - ability to repeat the movement Size - hypertrophy Energy System Adaptations Anaerobic Endurance - short bursts (e.</description>
+      <description>I keep the same basic grocery list each week, so I never have to rewrite it. Most recipes are actually very similar with a few minor changes/tweaks.&#xA;American-ish: Meat and buns plus LTOP&#xA;[club-sandwich] [smashburger] [hot-dog] [bratwurst] [steak-and-potatos] Mexican-ish: Salsa, salsa, salsa&#xA;[tacos], [baja-fish-tacos], tacos-al-pastor burrito [quesadilla] [chips-and-salsa] [pozole-verde-soup], [black-bean-soup], [red-chile] Italian-ish: Ingredient showcases&#xA;aglio-e-olio, [cacio-e-pepe], [marinara], [pesto], [carbonara] [risotto] [pizza-margherita], [pizza-romano], [doner-kebab] Sichuan-ish: Meat and Rice/Noodle&#xA;[teriyaki-bowl], [gochujang-bowl], [holy-basil-bowl] [pepper-curry], garlic-chile-oil-soup [dan-dan-mian], [garlic-noodles] My Buddies and My Hot Sauce</description>
     </item>
     <item>
       <title>Sunlight</title>
       <link>https://blakeruprecht.com/sunlight/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/sunlight/</guid>
-      <description>View sunlight upon waking for 10 minutes (30 if it&amp;rsquo;s overcast) to set your circadian rhythym, the bodies natural process to determine when to get tired and when to stay alert.&#xA;View sunlight as much as possible throughout the day to keep yourself awake.&#xA;View sunlight right before sunset to help tell the body to start winding down for the evening.&#xA;Avoid viewing any bright lights after sundown if possible, and especially after 9pm when you&amp;rsquo;re ready to go to sleep.</description>
+      <description>Can help warm up body and maintain 98.6 deg F (human body temp).&#xA;View sunlight upon waking for 10 minutes (30 if it&amp;rsquo;s overcast) to set your circadian rhythym, the bodies natural process to determine when to get tired and when to stay alert.&#xA;View sunlight as much as possible throughout the day to keep yourself awake.&#xA;View sunlight right before sunset to help tell the body to start winding down for the evening.</description>
     </item>
     <item>
-      <title>Vehicle</title>
-      <link>https://blakeruprecht.com/vehicle/</link>
+      <title>Working</title>
+      <link>https://blakeruprecht.com/working/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/vehicle/</guid>
-      <description>While walking is my preferred mode of traveling, it&amp;rsquo;s by far the slowest. Cycling is my preferred option for short distances, and driving when I need to go fast or far.&#xA;Bicycles for cycling Any bicycle is pretty much fine Bicycles actually come in different sizes, so for my 1.92 m frame, I typically need a L or XL sized bicycle. Helmets are essential for not dying in a crash. Looks lame though.</description>
+      <guid>https://blakeruprecht.com/working/</guid>
+      <description>My current resume&#xA;WORK Apply 2 hr for full-time (Technical Writer, AI Customer&amp;hellip;) https://problogger.com/jobs/job/ai-blog-content-writer-freelance-paid/ Learn to pitch freelance work Write 1 polished writing sample this week (personal, useful, clear) Apply to 3 low-barrier paid writing gigs (ProBlogger, Craigslist, etc.) Pitch 3 small businesses directly (short, $100/article offer, link sample) Make a basic “Hire Me” page on your site with 1–2 samples and rate Set up PayPal or Stripe for easy payments Track contacts, samples used, and outcomes Applying to jobs Online Tutoring - Immediately start on Wyzant, Varsity Tutors, Chegg Tutors.</description>
     </item>
     <item>
       <title>Aglio e Olio</title>
@@ -149,11 +142,11 @@
       <description>Setpoints The biological basis of human happiness is our neurochemical setpoints, which is the resting level of things like dopamine, serotonin, epinephrine, etc in the brain. They are mostly genetic and very hard to change.&#xA;If these are out of whack and making you unhappy, there are only three scientifically proven interventions to fix them:&#xA;Cognitive-Behavioral Therapy: The most highly regarded type of therapy which helps us identify our cognitive biases and distortions (untruths) and correct them to alter our brain chemistry.</description>
     </item>
     <item>
-      <title>Sleeping</title>
+      <title>Sleeping when tired until wakeup</title>
       <link>https://blakeruprecht.com/sleeping/</link>
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/sleeping/</guid>
-      <description>Sleep is important for everything, I just don&amp;rsquo;t know exactly what. Sleep for roughly 8 hours per night, but this number is unique to each person. Maintain cool temperatures in your sleeping room with plenty of blankets to get comfortable. Sunlight is the main mechanism for waking up the body, and darkness is the main mechanism for telling the body to sleep. Wake a consistent time to set a sleep schedule and go to sleep when your body naturally feels tired.</description>
+      <description>Wake at a consistent time and view sunlight for 10+ minutes. Sunlight is the main mechanism for waking the body, so this will make it easier to wake at that time. IN addition, view as much sunlight as possible throughout the day to improve wakefulness, and also help make you tired later. Avoid bright lights after sunset.&#xA;Sleep when tired in a bedroom/tent that is dark, relatively cool, has a softish mattress, and multiple blankets to layer on/off throughout the night.</description>
     </item>
     <item>
       <title>Agent</title>
@@ -163,18 +156,18 @@
       <description>An agent is an active part of their environment. Action is something an agent does that changes the environment. Active - part of the environment that takes action (alive), e.g. humans, dogs, all animals and plants that do stuff. Passive - part of the environment that do nothing (dead), e.g. fire, stars, planets, moons, dirt, sand, water, air, etc. Agency refers to how active a part of the environment the agent is: something with high agency performs a lot of actions that change the environment.</description>
     </item>
     <item>
+      <title>Backpack</title>
+      <link>https://blakeruprecht.com/backpack/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/backpack/</guid>
+      <description>EDC - Minimal kit every time I leave my house.&#xA;Sunglasses, Smartphone, Wallet/ID/Passport ONEBAG - For city travel, I&amp;rsquo;ve been around the world with my backpack.&#xA;Backpack28L, Packable16L Laptop, Notebook, Pen, Chargers, Earbuds, GymRings, SkipRope SinkBag, Toothbrush, paste, floss, Glasses, case, contacts, solution ShowerBag, Trimmer, Towel, soap, deodorant, sunscreen, sanitizer ClothesBag, clothes (worn) Sunglasses, Tank/Tshirt, Jeans/Jorts, Boxers, Socks, Runners (pack) Hat, Shell, Puffer, ButtonDown, Tank/Tshirt2, Baggies, Leggings, Boxers2, Socks2, Sandals RUCKSACK - For wild camping or backpacking.</description>
+    </item>
+    <item>
       <title>Bicycle</title>
       <link>https://blakeruprecht.com/bicycle/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/bicycle/</guid>
-      <description>A tool for cycling. Don&amp;rsquo;t overthink it, any bicycle works.&#xA;Accessories you may want to add:&#xA;Helmet - to protect your head from deadly collisions Bike Lock Headlight Taillight Fenders Baskets/Racks Related cycling </description>
-    </item>
-    <item>
-      <title>Body language</title>
-      <link>https://blakeruprecht.com/body-language/</link>
-      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/body-language/</guid>
-      <description>A huge part of our real-life and video communication effectiveness comes down to body language.&#xA;Posture: Straight spine, head held high, open shoulders, neutral hips. Smile: Positive expression, look happy. </description>
+      <description>A tool for cycling. Don&amp;rsquo;t overthink it, any bicycle works.&#xA;REQUIREMENTS&#xA;Bicycle OPTIONAL EXTRAS&#xA;Helmet - to protect the ol&amp;rsquo; noggin Lock Headlight &amp;amp; Taillight Fenders Baskets/Racks </description>
     </item>
     <item>
       <title>Building Websites</title>
@@ -188,17 +181,17 @@
       <link>https://blakeruprecht.com/car/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/car/</guid>
-      <description>Car 2004 Acura TL Engine, 4 wheels, Roof &amp;amp; Doors, 5 seats Car Tool Kit JumperCables, IceScraper, Reflector Toolbag, Tape, Triangle, Hammer, Allens, Sockets, BitSet, Drill, Charger, DuctTape, ElectricalTape, SuperGlue, ZipTies, PatchKit </description>
+      <description>A tool for driving.&#xA;REQUIREMENTS&#xA;Car Driver&amp;rsquo;s License, Car Insurance, Vehicle Registration &amp;amp; License Plates ESSENTIAL EXTRAS&#xA;Jumper Cables Windshield Reflector Ice Scraper ACTUAL EXTRAS&#xA;Toolbag, Tape, Triangle, Hammer, Allens, Sockets, BitSet, Drill, Charger, DuctTape, ElectricalTape, SuperGlue, ZipTies, PatchKit WaterJug5gal, trashbags, WashBasin, Rags Cooler, Stove+fuel, CuttingBoard, Skillet, oliveoil, salt/pep/redpep, Pourover, Mug, Plate, Bags/Tupperware WoolBlanket, Chair My favorite car was the 1997 Toyota 4Runner that I accidentally tipped over.</description>
     </item>
     <item>
       <title>Computing</title>
       <link>https://blakeruprecht.com/computing/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/computing/</guid>
-      <description>Layers of abstraction that extend human thinking. Binary at the bottom, human language at the top, and code fills in all the gaps.&#xA;Software layers:&#xA;Hardware &amp;ndash; has code to make each piece run Operating System &amp;ndash; interfaces between hardware and programs Programs &amp;ndash; code that the OS runs on hardware Languages &amp;ndash; allow you to rewrite programs Basic troubleshooting:&#xA;Turn it off and on again Check if it&amp;rsquo;s plugged in Core activities:</description>
+      <description>Layers of abstraction that extend human thinking. Binary at the bottom, human language at the top, and code fills in all the gaps.&#xA;SOFTWARE LAYERS&#xA;Hardware &amp;ndash; has code to make each piece run turing-machine and binary Operating System &amp;ndash; interfaces between hardware and programs Programs &amp;ndash; code that the OS runs on hardware Languages &amp;ndash; allow you to rewrite programs BASIC TROUBLESHOOTING&#xA;Turn it off and on again Check if it&amp;rsquo;s plugged in CORE ACTIVITIES</description>
     </item>
     <item>
-      <title>Cooking</title>
+      <title>Cooking simple tasty meals</title>
       <link>https://blakeruprecht.com/cooking/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/cooking/</guid>
@@ -217,20 +210,6 @@
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/driving/</guid>
       <description>Drive for long-distance trips. Windows down, music up. Faster than both walking and cycling, but much more expensive. Budget for car insurance, gasoline, and regular maintenance, including an oil change every 3000 or so miles.</description>
-    </item>
-    <item>
-      <title>Eating anabolic</title>
-      <link>https://blakeruprecht.com/eating-anabolic/</link>
-      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/eating-anabolic/</guid>
-      <description>Anabolism refers to the body being in a state of growth. If you want to grow as a child, or build muscle as a child/adult, you will need to eat an excess of calories and protein to grow.&#xA;Eat more calories. Even +1 calorie per day over maintenance will increase your weight. +3500 calories corresponds to roughly 1 pound of weight gain. Do +500 per day is 3500 or a pound per week, a very rapid gaining schedule.</description>
-    </item>
-    <item>
-      <title>Eating micronutrients</title>
-      <link>https://blakeruprecht.com/eating-micronutrients/</link>
-      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/eating-micronutrients/</guid>
-      <description>Humans eat food for energy first and foremost, but the body is also made of food. Food makes up our bones, organs, heart, lungs, skin, cells, tissues, etc. Everything in a human is made of food. The major building blocks of food/human are called macronutrients. Besides the macro chemicals, there are a bunch of tiny chemicals and elements our bodies don&amp;rsquo;t make, but still need to eat to make more body.</description>
     </item>
     <item>
       <title>Environment</title>
@@ -254,32 +233,25 @@
       <description>Tools required:&#xA;Hooks Line Fishing Pole Bait, Bobbers, Weights Net Clippers, Forceps Steps&#xA;Get a hook, and some string (aka fishing line) to tie the hook onto. Optionally, get a reel, a circle thing to wind the line around. Optionally, get a pole that holds the string and/or reel in place. Put some bait on the hook. You can use worms, hot dogs, grubs you pick up from the ground, bugs you catch, or artificial lures/flies.</description>
     </item>
     <item>
-      <title>Gathering</title>
+      <title>Gathering whole ingredients</title>
       <link>https://blakeruprecht.com/gathering/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/gathering/</guid>
-      <description>Keep an enduring list I keep one Grocery List on my phone in the notes app, with checkboxes enabled. This way at the store, I check off everything I buy. During the week, whenever I run out of an ingredient, I uncheck that item on my phone list. This way, I always have a list I&amp;rsquo;m updating, and anytime I happen to enter into a grocery store, I can pull out my phone and know exactly what I need at that moment (or at least have a good guess).</description>
+      <description>I gather whole ingredients, as minimally processed as possible.&#xA;buying from the local grocery store or markets fishing and hunting for wild meat farming in my backyard for fresh produce I keep this enduring list on my phone with checkboxes and uncheck ingredients I run out of throughout the week. This way, anytime I pop into a grocery store, I can remember what I&amp;rsquo;m missing at home.&#xA;MEAT &amp;amp; DAIRY Chicken Thigh or Breast Ground Beef (or fish, or wild game) Greek Yogurt, whole milk Milk, whole, vitamin D Cheese, typically shredded or cream CARBS / FATS / AISLES Oats, old-fashioned Peanut Butter Rice, usually white Pasta, usually spaghetti and rigatoni Beans, usually black and pinto Fresh Bread, usually tortillas, buns, or sourdough Fresh Olives, if I can find them for cheap&amp;hellip; FRESH PRODUCE Bananas Berry Medley, frozen Apples / Grapes / Oranges (lunch options) Carrots / Bell Peppers (lunch options) Garlic Onion Chili, usually jalapenos Lemon / Lime / both Tomato Greens / Broccoli Cilantro / Parsley / Basil / etc.</description>
     </item>
     <item>
       <title>Home</title>
       <link>https://blakeruprecht.com/home/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/home/</guid>
-      <description>Kitchen x Bedroom NightStand Desk, Chair GamingPC Bathroom Trimmer, deodorant Living Wonderboom2 Old Kitchen&#xA;Pantry, Fridge, Containers Counters, CuttingBoard, ChefKnife, BreadKnife, Scale Stove, CastIronSkillet, DutchOven, PanSS, PotSS, BakingSheets, Tongs, Spatula, WoodSpoon, Thermometer, OveGloves Forks, Spoons, Knives, Chopsticks, Plates, Bowls, Cups, Mugs, StorageContainers Sink, soap, sponge Bedroom&#xA;Mattress, Sheets, Blankets, Pillows BedFrame, SideTable, Lamp, AlarmClock Hamper, Hangers, SmallBaskets Bathroom&#xA;Toilet, Plunger, toiletpaper Sink, Towel, soap Shower, Curtain, Mat, soap LaundryMachine, Dryer/Clothesline, soap Living</description>
+      <description>BEDROOM - Used for sleeping and storing clothes.&#xA;(BED) Mattress, BedFrame, Sheets, Blankets, Pillows (STORAGE) NightStand, Lamp, AlarmClock (CLOSET) Hamper, Hangers, Baskets BATHROOM - Used for toilet, washing, eyecare, teethcare, skincare, haircare.&#xA;(TOILET) Toilet, Plunger, toiletpaper/Bidet (WASH_SINK) Sink, soap, HandTowels (WASH_SHOWER) Shower, Curtain, Mat, soap, BathTowels (WASH_LAUNDRY) WashingMachine, Dryer/Clothesline (EYECARE) Sunglasses, Glasses, contacts, Case, solution (TEETHCARE) Tootbrush, toothpaste, floss (SKINCARE) deodorant, sunscreen, moistrurizer (HAIRCARE) BeardTrimmer, HairTrimmer KITCHEN - Used for storing food, prepping, cooking, and eating.</description>
     </item>
     <item>
-      <title>MO</title>
-      <link>https://blakeruprecht.com/mo/</link>
+      <title>Missouri</title>
+      <link>https://blakeruprecht.com/missouri/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/mo/</guid>
+      <guid>https://blakeruprecht.com/missouri/</guid>
       <description>I&amp;rsquo;m from STL, MO, USA.&#xA;Missouri doesn&amp;rsquo;t get much love outside of the state, but I love Missouri and think it deserves some more recognition.</description>
-    </item>
-    <item>
-      <title>Packs</title>
-      <link>https://blakeruprecht.com/packs/</link>
-      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/packs/</guid>
-      <description>EDC&#xA;Phone, Wallet/ID, Sunglasses ONEBAG&#xA;Backpack28L Laptop, Notebook, Pen, Chargers, Earbuds, GymRings, SkipRope SinkBag, Toothbrush, paste, floss, Glasses, case, contacts, solution ShowerBag, Trimmer, Towel, soap, deodorant, sunscreen, sanitizer ClothesBag, clothes (worn) Sunglasses, Tshirt, Jeans/Jorts, Boxers, Socks, Runners (pack) Hat, Shell, Puffer, ButtonDown, Tshirt2, Baggies, Boxers2, Socks2, Sandals RUCKSACK&#xA;Backpack55L ClothesBag, clothes (worn) Sunglasses, Hat, LSbaselayer, Hikers, Boxers, Socks, Runners (pack) Beanie, Shell, Puffer, LSbaselayer, Leggings, Baggies, Boxers, Socks, Sandals Tent, Quilt, Pad, Pillow, paracord WaterFilter, WaterBottle2, CuloBidet Stove+fuel, Spoon, Pot, Lid, foodbag Ferro, lighter2, Headlamp, Compass SAK, Folder, Mora, Hatchet CAR-CAMPING-KIT</description>
     </item>
     <item>
       <title>Policy</title>
@@ -300,7 +272,7 @@
       <link>https://blakeruprecht.com/public-transportation/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/public-transportation/</guid>
-      <description> Taxis - Uber, Lyft, call a taxi, usually somewhat expensive. Busses - Usually much cheaper Trains - Good in Europe, anywhere else if you can find them Boats - Pay for ferrying across water Airplanes - Expensive, only 20% of the world&amp;rsquo;s population has been on an airplane. </description>
+      <description>It&amp;rsquo;s pretty much the same process for all public transportation world-wide (at least USA, Europe, Asia)&#xA;Buy your ticket Taxis: use an app like Uber/Lyft, hail a cab, call a number Busses/Trains/Boats: show up slightly early and buy a ticket from the kiosk, either on the bus, at the train station, or at the boat dock. Airplanes: purchase online &amp;gt;3 weeks before the flight. By far the most expensive and difficult tickets to purchase world-wide.</description>
     </item>
     <item>
       <title>Reward</title>
@@ -352,20 +324,6 @@
       <description>Can AI do everything that human brains can do? They used to be dumb, but now, they&amp;rsquo;re smarter than your average bear.&#xA;Are minds just machines capable of searching the state-space of a Turing machine?&#xA;Memory of past state-action histories.&#xA;Attention to relevant parts of the state-action space.&#xA;Learning to improve predictions of reward-maximizing action.&#xA;Acting in the environment through time.</description>
     </item>
     <item>
-      <title>Eating calories</title>
-      <link>https://blakeruprecht.com/eating-calories/</link>
-      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/eating-calories/</guid>
-      <description>All humans need to eat food to gain energy to survive. Food is energy, and humans process food to get the power needed to keep living. Get a rough estimate of how much you need with a TDEE calculator. Use a scale to measure weight gain/loss, and adjust caloric intake based on that.&#xA;IN is energy eaten, OUT is energy burned through living&#xA;IN = OUT &amp;ndash; this will maintain the current amount of body you have IN &amp;gt; OUT &amp;ndash; gain more body IN &amp;lt; OUT &amp;ndash; lose some body </description>
-    </item>
-    <item>
-      <title>Eating macronutrients</title>
-      <link>https://blakeruprecht.com/eating-macronutrients/</link>
-      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/eating-macronutrients/</guid>
-      <description>Humans eat food for energy first and foremost, but the body is also made of food. Food makes up our bones, organs, heart, lungs, skin, cells, tissues, etc. Everything in a human is made of food. The major building blocks of food/human are called macronutrients. They are large chemical molecules which our bodies don&amp;rsquo;t make, and need to eat in order to make use of them for living.&#xA;The Macros:</description>
-    </item>
-    <item>
       <title>Humans</title>
       <link>https://blakeruprecht.com/humans/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
@@ -373,60 +331,46 @@
       <description>Humans are the S-tier most successful creature to ever walk this planet. It&amp;rsquo;s not even close. We named ourselves Homo sapiens in Latin, mean &amp;ldquo;man the wise.&amp;rdquo;&#xA;In the Game of [[life]], experience has shown that the group of animals that wield sharp sticks and even sharper brains are literally the Greatest Of All Time species to walk this Earth.&#xA;Man evolved from other primates, and for a long time, there were other humanoids walking the Earth, like the Neanderthals, Denisovans, H.</description>
     </item>
     <item>
+      <title>Saint Louis</title>
+      <link>https://blakeruprecht.com/saint-louis/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/saint-louis/</guid>
+      <description>I&amp;rsquo;m from STL, MO, USA.&#xA;It&amp;rsquo;s kind of Anywhere, USA, from the sense that it is so average as far as American cities go.&#xA;Midwestern roots STL&amp;rsquo;s two big rivers (the Missouri and Mississippi) means it&amp;rsquo;s a shipping hub of the interior USA. At the turn of the 20th century, STL was the 4th largest city in the USA. STL was strongly influenced by the presence of the then-largest brewery in the world (Anheuser-Busch) and shares a lot of Midwestern culture due to the large presence of German immigrants.</description>
+    </item>
+    <item>
       <title>Singing</title>
       <link>https://blakeruprecht.com/singing/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/singing/</guid>
-      <description>Singing I can make music anywhere I go with my portable music-maker.&#xA;Four chords and the truth The only instrument I know how to play is the Ukulele.&#xA;Like a true uker, I know like four chords and just like strumming and singing.&#xA;![[ukulele-chords.png]]&#xA;Related dancing melodic-memory </description>
-    </item>
-    <item>
-      <title>STL</title>
-      <link>https://blakeruprecht.com/stl/</link>
-      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/stl/</guid>
-      <description>I&amp;rsquo;m from STL, MO, USA.&#xA;It&amp;rsquo;s kind of Anywhere, USA, from the sense that it is so average as far as American cities go.&#xA;Midwestern roots STL&amp;rsquo;s two big rivers (the Missouri and Mississippi) means it&amp;rsquo;s a shipping hub of the interior USA. At the turn of the 20th century, STL was the 4th largest city in the USA. STL was strongly influenced by the presence of the then-largest brewery in the world (Anheuser-Busch) and shares a lot of Midwestern culture due to the large presence of German immigrants.</description>
+      <description>I can make music anywhere I go with my portable music-maker &amp;ndash; my voice box. Fortunately, I can&amp;rsquo;t tell how bad I am, so every time I sing in the car, I enjoy my own music.&#xA;Four chords and the truth I hardly know uke, just a few basic chords. In the spirit of country music, that&amp;rsquo;s enough.</description>
     </item>
     <item>
       <title>Thinking</title>
       <link>https://blakeruprecht.com/thinking/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/thinking/</guid>
-      <description>The purpose of thinking is action, not more thinking.&#xA;Process to act, not think Overthinking is a loop. Break the loop by pointing attention outward: What actually happens? What works?&#xA;Drop the story. Name it &amp;ldquo;story.&amp;rdquo; Stop analyzing motives. Stop trying to figure out why you do what you do. Your behavior comes from competing subsystems, not unified decisions. The narrator creates coherent stories after actions happen to maintain the illusion of control.</description>
-    </item>
-    <item>
-      <title>Traveling</title>
-      <link>https://blakeruprecht.com/traveling/</link>
-      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/traveling/</guid>
-      <description>Travel to get from one location to another across the map. I pick the funnest, cheapest form of transportation that I can for each trip. Usually, that goes in this order:&#xA;walking - my preferred method cycling - somewhat fast, efficient, cheap, and fun driving - fastest method, most expensive public-transportation - i&amp;rsquo;m in the USA so I mostly ride in taxis and airplanes, if I could teleport, I would Adventures I&amp;rsquo;ve been on in my home country, the USA:</description>
-    </item>
-    <item>
-      <title>Working</title>
-      <link>https://blakeruprecht.com/working/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/working/</guid>
-      <description>Earning and sustaining the resources for life.&#xA;laboring: earning money maintaining: caring for the tools and systems of life </description>
+      <description>You actions reveal your real values.&#xA;Two responses:&#xA;Stop lying to yourself and admit your real priorities. Start doing what you say you want to do to see if it&amp;rsquo;s really true. Overthinking is a loop. Break the loop by:&#xA;Stop storytelling. Stop trying to figure it out. Behavior comes from competing subsystems, not unified decisions. E.g. use emotions for social cues, logic for planning, etc. Don&amp;rsquo;t force agreement between systems.</description>
     </item>
     <item>
       <title>Cleaning</title>
       <link>https://blakeruprecht.com/cleaning/</link>
       <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/cleaning/</guid>
-      <description>Maintain medical health by cleaning the body. This comes down to cleaning the internals of the body, and the eyes, teeth, skin, and hair.&#xA;Urinate/defecate, wash hands, take medicine as needed Brush teeth 2x/day, floss 1x/day Wear sunglasses in the sun, contacts/glasses as needed Shower daily, wear sunscreen on skin exposed to sunlight Cut hair regularly Medical Professionals&#xA;Physician to check and fix internals. Dentist to check and fix teeth. Flossing sucks but every single dentist I&amp;rsquo;ve ever talked to recommends it.</description>
+      <description>DAILY MAINTENANCE&#xA;Sink ritual (wakeup) - Brush teeth, Floss teeth, Glasses/contacts Sink ritual (bedtime) - Brush teeth, Floss teeth, Glasses/contacts Shower ritual - Cut all short hairs, Cut long hair, Wash skin/hair/clothes as needed: Toilet - Pee/Poo, Wash hands Sunglasses - when outside Sunscreen - when outside Focal length stretches - when staring at screens HEALTHCARE&#xA;Physician (general health) checkup every 1 year Dentist (teeth) checkup every 6 months Dermatologist (skin) checkup every 1 year Optometrist (eyes) checkup every 1 year For inspiration, look how good your hair can look when taken care of: </description>
     </item>
     <item>
       <title>Drinking</title>
       <link>https://blakeruprecht.com/drinking/</link>
       <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/drinking/</guid>
-      <description>Drink water all day. Water is an essential macronutrient for the body. Each person needs a different amount of water, so drink when you are thirsty. The body can process roughly a Liter (33 oz) of water per hour, so no need to drink more than that.</description>
+      <description>Water is an essential macronutrient of the body &amp;ndash; a large chemical molecule (H2O) that makes up 50-80% of the entire human body. Every individual requires a different amount of water based on genetics, local weather, activity levels, etc.&#xA;Drink when you are thirsty. The body can process roughly a liter/32oz of water per hour, so no need to drink more than that.&#xA;Other drinks&#xA;Coffee Beer </description>
     </item>
     <item>
       <title>Eating</title>
       <link>https://blakeruprecht.com/eating/</link>
       <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/eating/</guid>
-      <description>Eat as many calories as used each day to maintain. Center eating around protein sources. Eat a variety of ingredients, especially vegetables, to get enough micronutrients. If cooking at home like me, gather whole ingredients, and cook simple tasty meals, preferably over a fire. Also, drink lots of water all day.&#xA;I break up my eating into three big meals centered around protein.&#xA;Smoothie for breakfast, drinking calories helps me gain weight Lunchbox/Salad for lunch Something off my menu for dinner </description>
+      <description>I eat 3000 calories per day to maintain my energy, 150 g Protein per day to maintain my muscle, and a wide Variety of ingredients to maintain my micronutrient levels. I eat 3 meals per day.&#xA;Gathering whole ingredients throughout the week Breakfast: smoothie Lunch: lunchbox or salad Dinner: cooking something from my personal menu Energy Food is fuel for living. Get a rough estimate of how much you need daily with a TDEE calculator.</description>
     </item>
     <item>
       <title>Dreams of the Back Country</title>
@@ -447,7 +391,7 @@
       <link>https://blakeruprecht.com/clothes/</link>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/clothes/</guid>
-      <description>For warmth, environmental protection, and the law says so in many countries. But don&amp;rsquo;t forget &amp;ndash; no shoes, no shirt, no problems.&#xA;Go&#xA;Sunglasses, Brimmer, Beanie, Gloves Shell, Fleece, Puffer Tanks(2), Tshirts(4) Baggies(2), Hikers, Leggings, Boxers(6) Sandals, Runners, Socks(6) Show&#xA;Ballcap Blazer, Suit Polo, SSBD, Flannel, DressShirt Chorts, Jeans Boots, WhiteSneakers, Oxfords </description>
+      <description>For warmth, environmental protection, and the law says so in many countries. But don&amp;rsquo;t forget &amp;ndash; no shoes, no shirt, no problems.&#xA;GO - Clothes for activity and outdoors.&#xA;Sunglasses, Brimmer, Beanie, Gloves Shell, Fleece, Puffer Tanks(2), Tshirts(4) Baggies(2), Hikers, Leggings, Boxers(6) Sandals, Runners, Socks(6) SHOW - Clothes to look nice in public.&#xA;Ballcap Blazer, Suit Polo, SSBD, Flannel, DressShirt Chorts, Jeans Boots, WhiteSneakers, Oxfords </description>
     </item>
     <item>
       <title>Burrito</title>
@@ -455,20 +399,6 @@
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/burrito/</guid>
       <description>Ingredients&#xA;Chicken Mayo White Rice Black Beans Jalapeno Tomato Onion Lime Cilantro Sour Cream Monterrey Jack Romaine Lettuce Steps&#xA;Marinate the Chicken in Mayo Prep a Salsa Fresca by dicing Tomato, Onion, Jalapeno; combine with Lime juice and Cilantro Boil the White Rice, top with Lime and Cilantro Grill the Chicken Saute the Black Beans with some Jalapeno Top with Salsa, Sour Cream, Monterrey Jack, Romaine Serve on: For tacos: small corn tortillas For burritos: large wheat tortillas For bowls: cilantro-lime white rice </description>
-    </item>
-    <item>
-      <title>Now</title>
-      <link>https://blakeruprecht.com/now/</link>
-      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/now/</guid>
-      <description>HOME&#xA;Living in Denver, CO By my best friends WORK&#xA;None Searching for Consulting/Teaching/Writing jobs. HOBBIES&#xA;Running Lifting Disc Golf Slowpitch Softball Cooking Fishing </description>
-    </item>
-    <item>
-      <title>My Resume</title>
-      <link>https://blakeruprecht.com/my-cv/</link>
-      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/my-cv/</guid>
-      <description>Skills (Communication) Writing, Content Writing, Copywriting (Teaching) Tutoring, Seminars, Presentations (AI/ML) LLMs, NLP, CV, RL, Prompting, Neuro-Fuzzy (Data) Analysis, Visualization (Code) .md, .html, .css, .js, .py, .c, .m (Tools) Unix, Git, Hugo, SEO, SEMRush, Google Analytics, Shopify, Klaviyo, WordPress, PyTorch, Numpy, Pandas, Scipy, ROS Experience Digital Marketing Specialist @ Labyrinth.digital, 2024-2025 Freelance AI Solutions Consultant, 2023-2024 Research Assistant @ University of Missouri, 2018-2023 Freelance Tutor, 2014-2018 Camp Counselor @ Babler WiLD, 2017 Education M.</description>
     </item>
     <item>
       <title>Smoothie</title>
@@ -513,21 +443,14 @@
       <description>References On the Origin of Species by Charles Darwin in 1859. &amp;ldquo;It is not the strongest of the species that survives, not the most intelligent that survives. It is the one that is the most adaptable to change.&amp;rdquo; </description>
     </item>
     <item>
-      <title>My Bookshelf</title>
-      <link>https://blakeruprecht.com/bookshelf/</link>
-      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/bookshelf/</guid>
-      <description>Below is an incomplete catalog of the blogs and books that I love. They are generally sorted in order of passion, but that&amp;rsquo;s harder to do than it seems.&#xA;Books The Sun Also Rises - Ernest Hemingway (fiction) The book where I finally got it. Hemingway takes you on this journey, and at no point tells you what to feel, but gives you all the raw material. What happens in this book?</description>
-    </item>
-    <item>
       <title>What my AI safety research taught me</title>
       <link>https://blakeruprecht.com/research/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/research/</guid>
-      <description>I worked on the AI Risk problem with Derek Anderson @Mizzou (Columbia, MO) with the Center for Geospatial Intelligence, and we worked closely with the Naval Research Laboratory. Shoutout to Derek, Jim, Fred, Chris, Grant, Curt, Charlie, Bryce, Jeff, Matt, and many more who helped me along the way.&#xA;&amp;ldquo;I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory.</description>
+      <description>I worked on the AI Risk problem with Prof. Derek Anderson @Mizzou (Columbia, MO) and the Center for Geospatial Intelligence, and we worked closely with the Naval Research Laboratory. Shoutout to Derek, Jim, Fred, Chris, Grant, Curt, Charlie, Bryce, Jeff, Matt, Tim, and many more who helped me along the way.&#xA;&amp;ldquo;I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory.</description>
     </item>
     <item>
-      <title>Black and White Thinking</title>
+      <title>Ink on Paper</title>
       <link>https://blakeruprecht.com/drawing/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/drawing/</guid>
@@ -545,7 +468,7 @@
       <link>https://blakeruprecht.com/loving/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/loving/</guid>
-      <description>Yourself Community - everybody you&amp;rsquo;re around (home, work, 3rd places &amp;ndash; neighborhood, etc) Family - those that depend on you, that you depend on Friends - everybody you like Network - everybody you know Humanity - everybody else Village Local community, the people you live around “A fundamental paradox at the core of human life is that we are highly social and made better in every way by being around people, and yet over and over, we have opportunities to connect that we don’t take, or even actively reject, and it is a terrible mistake.</description>
+      <description>My Self/Life Self - self-love is the foundation of all love my-personality My People I.L.Y. Relating: talking, hanging-out, touching, giving, serving Partner - lifelong BFFs? Family - those that depend on you, that you depend on, my-family-tree Friends - everybody you like, best-buds Community - e.g. teams, neighborhood, village, workplace, hobby group Network - everybody you know in your different communities Humanity - everybody else My Places Lived: Denver, Atlanta, Columbia, Saint Louis, U.</description>
     </item>
     <item>
       <title>DCBS hot sauce recipe</title>
@@ -553,6 +476,13 @@
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/dcbs/</guid>
       <description>Ingredients&#xA;1/2 cup Cashews soaked&#xA;25 Habaneros roughly chopped&#xA;1 Yellow Bell Pepper roughly chopped&#xA;10 Garlic Cloves smashed&#xA;1 Onion roughly chopped&#xA;1/2 Lemon juiced&#xA;1 quart White Vinegar&#xA;2 Tbsp Apple Cider Vinegar&#xA;2 Tbsp Maple Syrup&#xA;2 Tbsp Soy Sauce&#xA;2 Tbsp Olive Oil&#xA;1 Tbsp Sesame Oil&#xA;4 tsp Mustard Powder&#xA;1 tsp Turmeric Powder&#xA;Steps&#xA;Soak Cashews in water for 30 min Prep Habaneros, Yellow Bell Pepper, Garlic, Onion Saute Olive Oil, Onion, Garlic until softened Add Habaneros, Yellow Bell Pepper Add White Vinegar, Apple Cider Vinegar, Maple Syrup, Soy Sauce, Sesame Oil, Mustard Powder, Turmeric Powder Bring to a boil, then reduce to a simmer, simmer for 30-45 min (longer is less spicy) Taste and adjust for seasoning Blend in a food processor/blender Pour into sauce jars About Quantity: This makes a ton of hot sauce, like a big pots worth.</description>
+    </item>
+    <item>
+      <title>Bookshelf</title>
+      <link>https://blakeruprecht.com/bookshelf/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/bookshelf/</guid>
+      <description>The Sun Also Rises - Ernest Hemingway (fiction) The book where I finally got it. Hemingway takes you on this journey, and at no point tells you what to feel, but gives you all the raw material. What happens in this book? What happens in life, everything and nothing. Definitively, for all time, this book is about the journey, not the destination. Braiding Sweetgrass - Robin Wall Kimmerer (nonfiction) A fantastic look at reciprocity from the perspective of a plant scientist, native Potawatomi, and mother.</description>
     </item>
     <item>
       <title>Perfectionism is tough to recognize</title>
@@ -566,7 +496,7 @@
       <link>https://blakeruprecht.com/simplicity/</link>
       <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/simplicity/</guid>
-      <description>&amp;ldquo;The simple way really is the best way to do things.&amp;rdquo; -Nick Saban&#xA;&amp;ldquo;Nature prefers the shortest path from A to B&amp;rdquo;&#xA;&amp;ldquo;Nature operates in the shortest way possible.&amp;rdquo; -Aristotle&#xA;&amp;ldquo;Scientists must use the simplest means of arriving at their results and exclude everything not perceived by the senses.&amp;rdquo; -Ernst Mach&#xA;&amp;ldquo;If a thing can be done adequately by means of one, it is superfluous to do it by means of several; for we observe that nature does not employ two instruments if one suffices.</description>
+      <description>&amp;ldquo;The simple way really is the best way to do things.&amp;rdquo; -Nick Saban&#xA;&amp;ldquo;If minimum wasn&amp;rsquo;t good enough, it wouldn&amp;rsquo;t be the minimum.&amp;rdquo; -Col. Whetstone&#xA;&amp;ldquo;Nature prefers the shortest path from A to B&amp;rdquo;&#xA;&amp;ldquo;Nature operates in the shortest way possible.&amp;rdquo; -Aristotle&#xA;&amp;ldquo;Scientists must use the simplest means of arriving at their results and exclude everything not perceived by the senses.&amp;rdquo; -Ernst Mach&#xA;&amp;ldquo;If a thing can be done adequately by means of one, it is superfluous to do it by means of several; for we observe that nature does not employ two instruments if one suffices.</description>
     </item>
     <item>
       <title>My quest for the perfect bowl of Noodle Soup</title>
@@ -657,13 +587,13 @@
       <link>https://blakeruprecht.com/computer/</link>
       <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/computer/</guid>
-      <description>Here&amp;rsquo;s my current computer setup for computing.&#xA;Hardware:&#xA;Dell XPS 13 9370 (my main laptop/general purpose computer) Software:&#xA;Operating System: Debian Linux Programs: Terminal (Blackbox) Text Editor (Obsidian, Cursor, VSCode, Neovim, Nano) Browser (Firefox, Brave) PDF Reader (Zathura) Image Editor (GIMP) Development: Git for version control HTML, CSS, JavaScript (default for building-websites) Go (for my website SSG) Python What computer should I buy next?&#xA;(Under $100) old Lenovo X220 &amp;ndash; still plenty good for modern computing with Linux installed ($100-$400) used Dell XPS 13 or Macbook Air &amp;ndash; what I currently have, still more than enough computer for all of my work use cases.</description>
+      <description>Here&amp;rsquo;s my current computer setup for computing.&#xA;Hardware&#xA;used Dell XPS 13 9370 from ebay self-built Desktop Computer Software I use mostly free and open-source software on my laptops. My OS, Terminal, Editors, Browsers, everything, are free to download and don&amp;rsquo;t cost anything to run.&#xA;operating system: Debian Linux terminal: Blackbox text editor: Obsidian, Cursor, Nano browser: Firefox, Brave pdf reader: Zathura image editor: GIMP development: version control: Git websites: HTML, CSS, JavaScript, Go (for Hugo) data analysis: Python (pandas, numpy, torch, matplotlib) What computer should I buy next?</description>
     </item>
     <item>
-      <title>Machine Learning paradigms</title>
-      <link>https://blakeruprecht.com/ml-paradigms/</link>
+      <title>Machine Learning</title>
+      <link>https://blakeruprecht.com/machine-learning/</link>
       <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/ml-paradigms/</guid>
+      <guid>https://blakeruprecht.com/machine-learning/</guid>
       <description>At the highest level, machines learn very similarly to how humans learn. Data is given to the neural network, and then the robot does some calculations and tests it&amp;rsquo;s performance against the environment.&#xA;Supervised Learning (SL) Data comes with labels. The network makes an initial random guess at what the labels should be. Then, it compares the guesses to the actual labels, and determines how off it was (total error). It updates the network according to this error.</description>
     </item>
     <item>
@@ -692,7 +622,7 @@
       <link>https://blakeruprecht.com/neural-network/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/neural-network/</guid>
-      <description>Neural networks are universal function approximators, according to the Universal function approximation theorem. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.&#xA;The Perceptron (I&amp;rsquo;m just P), basically a straight line Similar to a brain neuron. The perceptron is basically a function that fits a straight-line relationship between a range of input values and some corresponding output values.&#xA;For example, to represent no relationship between input and output, you would have a neuron that outputs Y = 0 for every input value X.</description>
+      <description>The architecture behind all modern artificial intelligences&#xA;Neural networks are universal function approximators, according to the Universal function approximation theorem. Neural Networks eventually got deeper and more sophisticated, becoming the single most useful tool for artificial intelligence.&#xA;The Perceptron (I&amp;rsquo;m just P), basically a straight line Similar to a brain neuron. The perceptron is basically a function that fits a straight-line relationship between a range of input values and some corresponding output values.</description>
     </item>
     <item>
       <title>Full Flavor, 99 Calories</title>
@@ -706,7 +636,14 @@
       <link>https://blakeruprecht.com/4runned/</link>
       <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/4runned/</guid>
-      <description>&amp;ldquo;Stanley&amp;rdquo;, 2001 toyota 4runner limited (3rd gen), silver, purchased by Parents from Maternal Grandparents, stock, luxury packages &amp;ldquo;Ron&amp;rdquo;, 1997 (3rd gen) toyota 4runner (3rd gen), silver, blacked out windows, upgraded head unit, no muffler &amp;ndash; thing rode hard and fun Dad and I fixed the tension on the gas pedal in the other 4Runner. We had two of the same car for a while &amp;ndash; silver third gen toyoat 4runners.</description>
+      <description>Dad and I fixed the tension on the gas pedal in the other 4Runner. We had two of the same car for a while &amp;ndash; silver third gen toyoat 4runners. Mine had blacked out windows, a custom head unit blasting loud music, and no muffler.&#xA;Blasting down Old State Road after playing basketball, petrichor in the air after a sprinkling. Windows down, sunroof open, back window down. Went around the corner two fast, back wheels started slipping.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/air/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/air/</guid>
+      <description></description>
     </item>
     <item>
       <title></title>
@@ -738,17 +675,31 @@
     </item>
     <item>
       <title></title>
+      <link>https://blakeruprecht.com/photographing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/photographing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blakeruprecht.com/talking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/talking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
       <link>https://blakeruprecht.com/thailand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/thailand/</guid>
       <description></description>
     </item>
     <item>
-      <title>AI architecture</title>
-      <link>https://blakeruprecht.com/ai-architecture/</link>
+      <title>AI</title>
+      <link>https://blakeruprecht.com/ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/ai-architecture/</guid>
-      <description>Let&amp;rsquo;s discuss a modern chatbot like ChatGPT, Claude, Gemini, Mistral, etc.&#xA;At it&amp;rsquo;s foundation, an AI is a computer program. What this means is that an AI receives input data, calculates math equations in real time, and outputs actions, all in a continuous loop operating as fast as the computer it is running on.&#xA;So it&amp;rsquo;s a computer program &amp;ndash; it&amp;rsquo;s made out of code. It runs on computer: phones, tablets, laptops, desktops, supercomputers.</description>
+      <guid>https://blakeruprecht.com/ai/</guid>
+      <description>AI was originally created to be a thinking machine, capable of doing whatever the hell human brains do. We still don&amp;rsquo;t fully understand how human brains work, and now we don&amp;rsquo;t fully understand how AIs work, but we do know how they are built.&#xA;AI is a computer program, which means it takes in words as input, converts those words to numbers, calculates the statistical relationship between the input numbers and all other numbers it knows, and responds with the most relevant numbers, which it converts back into words and outputs to the user.</description>
     </item>
     <item>
       <title>Asthma</title>
@@ -762,14 +713,7 @@
       <link>https://blakeruprecht.com/binary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/binary/</guid>
-      <description>At it&amp;rsquo;s fundamental level, a computer is basically just adding and subtracting binary numbers using a trick of computer wiring called digital logic, where you use configurations of circuits to represent basic math equations. All of the lowest-level code is written in binary instructions to these math gates, and the results are &amp;ldquo;interpreted&amp;rdquo; by us humans to represent math equations.&#xA;A binary question is a yes/no question that could be answered with the symbols:</description>
-    </item>
-    <item>
-      <title>Building Homes</title>
-      <link>https://blakeruprecht.com/building-homes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/building-homes/</guid>
-      <description>Modern homes consist of the following structures:&#xA;Foundation. Usually a flat concrete slab and any other structurual components that support the weight of the entire house and everything inside of it. Roof and Walls. Usually made from timber sticks (2x4s), cinder blocks, concrete, bricks, etc. Air flow. Openings in the roof and walls that allow air to pass through are necessary. Includes things like windows and doors, and any heating and cooling systems installed in the house.</description>
+      <description>At it&amp;rsquo;s fundamental level, a computer is basically just adding and subtracting binary numbers using some tricks of electrical wiring called digital logic, where you use configurations of circuits to represent basic math equations. All of the lowest-level code is written in binary instructions to these math gates, and the results are &amp;ldquo;interpreted&amp;rdquo; by us humans to represent math equations.&#xA;A binary question is a yes/no question that could be answered with the symbols:</description>
     </item>
     <item>
       <title>Capitalist</title>
@@ -800,13 +744,6 @@
       <description>What are &amp;ldquo;democratic values&amp;rdquo;, in an age where nobody directly votes for their leaders?&#xA;Liberal values.&#xA;Individualist: moral primacy of each individual against th eclaims of any social collectivity Egalitarian: confers on all men the same moral status and denies the relevance to legal order of differences in moral worth among human beings Universalist: moral unity of the human species Meliorist: all social institutions can be improved Where did they come from?</description>
     </item>
     <item>
-      <title>Exercising</title>
-      <link>https://blakeruprecht.com/exercising/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/exercising/</guid>
-      <description>Exercise is physical hygiene to maintain the bodies cardio and muscular systems, as well as the skills to put the two together into movement/sport.&#xA;FOUNDATION&#xA;Running 3 x/week (TTS) to maintain the heart and lungs Lifting 3 x/week (MWF) to maintain all the muscles WILD SKILLS&#xA;Fighting as my main &amp;ldquo;sport&amp;rdquo; or &amp;ldquo;art&amp;rdquo; which verifies my strength, endurance, skill, strategy, and mental toughness Balling Disc Golfing Hunting Fishing Camping </description>
-    </item>
-    <item>
       <title>Farming</title>
       <link>https://blakeruprecht.com/farming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -819,6 +756,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/fire/</guid>
       <description>Get as much fire as possible, in controlled doses.&#xA;Campfires Bonfires Grill over fire Candles </description>
+    </item>
+    <item>
+      <title>Giving</title>
+      <link>https://blakeruprecht.com/giving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/giving/</guid>
+      <description>What is useful to write about giving?</description>
+    </item>
+    <item>
+      <title>Hanging Out</title>
+      <link>https://blakeruprecht.com/hanging-out/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/hanging-out/</guid>
+      <description>What is useful to write about this?&#xA;best-buds We&amp;rsquo;re still like a bunch of apes hanging around in trees eating bananas. Did you know humans are one of the few primates that can brachiate (aka swing from trees)!</description>
     </item>
     <item>
       <title>Hunting</title>
@@ -842,6 +793,13 @@
       <description>What is the origin of WEIRD work ethic?&#xA;should be renamed to the Energy Revolution, because the added energy in the system is the main catalyst for increased productivity. It basically just speeds up the two-pronged development of Theory/Experiment and Machine - We have been using [[rationality]] for hundreds of years &amp;ndash; experimentation, simplifying topics, and developing theory. This is nothing new, it&amp;rsquo;s basic trial and error with some obvious rules to make sure you&amp;rsquo;re not getting bad results - We don&amp;rsquo;t care about TRUTH in some amorphous sense, we care about being EFFECTIVE, because all scientific thought has been tested.</description>
     </item>
     <item>
+      <title>Inspiration</title>
+      <link>https://blakeruprecht.com/inspiration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/inspiration/</guid>
+      <description>The Sword Breathing is the sword that slashes thought.&#xA;There&amp;rsquo;s no way to figure it all out, so instead of trying to untanble the spaghetti loop of thinking, use breathing to slash it all up.&#xA;You will never stop the flow of thoughts.&#xA;That&amp;rsquo;s not the goal. The goal is training your attention muscle to refocus over and over and over. Focus on the breath &amp;ndash; in and out. Once you lose it and start focusing on something else (e.</description>
+    </item>
+    <item>
       <title>Language</title>
       <link>https://blakeruprecht.com/language/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -856,25 +814,18 @@
       <description>Gather&#xA;1 Apple, pink lady 1 handful Carrots, baby 1 handful Cashew 4 slices Bread, sourdough 2 oz Cheese, cream cheese Cook&#xA;Make sandwiches Combine all ingredients into a lunchbox Eat over the course of the workday </description>
     </item>
     <item>
-      <title>Mindset</title>
-      <link>https://blakeruprecht.com/mindset/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/mindset/</guid>
-      <description> waterbending Where am I? Here. What time is it? Now. What am I? This moment. airbending The purpose of thinking is action, not thinking. I simplify my thoughts to use only what matters. earthbending I love myself so fucking much and my life and my people. So I love others too, and believe that all living matters firebending Lead, go first, go fast, don&amp;rsquo;t wait to feel ready, for permission, or for approval from others </description>
-    </item>
-    <item>
       <title>Moloch</title>
       <link>https://blakeruprecht.com/moloch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/moloch/</guid>
-      <description>The tragedy of the commons.&#xA;The problem with living in community &amp;ndash; it inevitably becomes competitive, regardless of how hard we try to cooperate. The more we cooperate, the more chance there is to destroy others.&#xA;E.g. nuclear bombs&amp;hellip; are a result of trying to stop Nazis&amp;hellip; which is part of a long line of promoting democracy and individual right to choose. [[the-system]] encourages us to decentralize science.&#xA;The Poverty Trap The Malthusian Trap</description>
+      <description>The tragedy of the commons.&#xA;The problem with living in community &amp;ndash; it inevitably becomes competitive, regardless of how hard we try to cooperate. The more we cooperate, the more chance there is to destroy others.&#xA;E.g. nuclear bombs&amp;hellip; are a result of trying to stop Nazis&amp;hellip; which is part of a long line of promoting democracy and individual right to choose. The system encourages us to decentralize science.&#xA;The Poverty Trap The Malthusian Trap</description>
     </item>
     <item>
       <title>Music</title>
       <link>https://blakeruprecht.com/music/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/music/</guid>
-      <description>Music makes almost any situation better. Especially cooking with music playing, driving with the windows down and music turned up, and partying (obviously).</description>
+      <description>Music makes almost any situation better. Especially cooking with music playing, driving with the windows down and music turned up, and partying (obviously).&#xA;singing melodic-memory </description>
     </item>
     <item>
       <title>Natural Intelligence</title>
@@ -884,32 +835,32 @@
       <description>0. Dear Robot This is both &amp;ldquo;Why We Made You&amp;rdquo; and &amp;ldquo;A Human History of Problem Solving&amp;rdquo;.&#xA;Theme: speed is everything, intelligence is the ultimate advantage &amp;ldquo;A computer is a bicycle for the mind.&amp;rdquo; -Steve Jobs. This is the story of how we built better and better bicycles for the mind until we built one that pedals itself. Frame: This is a letter. I don’t know if you’ll ever read it.</description>
     </item>
     <item>
-      <title>Nature</title>
-      <link>https://blakeruprecht.com/nature/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/nature/</guid>
-      <description>Fresh Air Dirt, Stones, Sand Rain, Rivers, Lakes, Ocean Fire Plants Animals Chicken Cow Pig Goat Deer </description>
-    </item>
-    <item>
-      <title>Office</title>
-      <link>https://blakeruprecht.com/office/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/office/</guid>
-      <description>Office @REMOTE&#xA;Computer &amp;ndash; my work env is all digital Phone for comms Charging Cables Desk Desk Chair Monitor &amp;amp; Arm Keyboard Mouse Mousepad Webcam Earbuds Dock </description>
-    </item>
-    <item>
-      <title>Pictures</title>
-      <link>https://blakeruprecht.com/pictures/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/pictures/</guid>
-      <description>Pictures communicate information from brain to brain through analog or digital lines and other abstractions that represent boundaries of agents.</description>
-    </item>
-    <item>
       <title>Reading</title>
       <link>https://blakeruprecht.com/reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/reading/</guid>
-      <description>Reading is fun.&#xA;books blogs wikipedia </description>
+      <description>Reading is fun. And a fun way to keep learning new things.&#xA;My bookshelf of favorite books My blogshelf of favorite blogs and articles And the GOAT wikipedia.org! </description>
+    </item>
+    <item>
+      <title>Serving</title>
+      <link>https://blakeruprecht.com/serving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/serving/</guid>
+      <description>What is useful to write about service?</description>
+    </item>
+    <item>
+      <title>Skipping Rope</title>
+      <link>https://blakeruprecht.com/skipping-rope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/skipping-rope/</guid>
+      <description>I train my cardio sometimes by skipping rope. It&amp;rsquo;s a fun way to practice balance, coordination, and rhythym. It&amp;rsquo;s fantastic for cardio training, and also improves the calf and shoulder muscles, as well as the core.&#xA;I usually skip for 10-20 minutes. I started out by just doing 10 minutes every time and trying to do 100 skips each minute, and then resting the rest of the minute. Eventually, I have been able to add other types of skipping to my routine, and have made it more free flowing, but there&amp;rsquo;s no rules &amp;ndash; just bouncing up and down for 10 minutes will accomplish all of the magic.</description>
+    </item>
+    <item>
+      <title>Smartphone</title>
+      <link>https://blakeruprecht.com/smartphone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/smartphone/</guid>
+      <description>Possible the single most useful and most harmful tool of modern life. I have a lot to say about this&amp;hellip; later&#xA;Hardware:&#xA;used iPhone 13 Mini from ebay Software:&#xA;comms: Call, Messages, GMail, Facetime travel: Calendar, Weather, GMaps money: Banking App, Venmo photos: Camera, Photos, GPhotos util: Clock, Calculator, Flashlight, ToDo </description>
     </item>
     <item>
       <title>State</title>
@@ -919,6 +870,20 @@
       <description>All of the sensations, thoughts, feelings that an agent experiences in a moment of time in its environment.&#xA;the sensation data I take in through my body, this is the raw information that gets processed by my brain through the act of perception, which is basically just how my brain makes sense of the raw data from my eyes, ears, nose, mouth, skin, and other sensations (balance, etc.).&#xA;Senses&#xA;Seeing with eyes Hearing with ears Smelling with nose Tasting with tongue Touching with skin Balancing with ?</description>
     </item>
     <item>
+      <title>Stretching</title>
+      <link>https://blakeruprecht.com/stretching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/stretching/</guid>
+      <description>I stretch to loosen up my muscles and to fix imbalances in my posture. While lifting does the lions share of posture correction, I also target a few specific stretches to help with my weak points.&#xA;To fix my forward neck and forward shoulders:&#xA;Chin Tucks Wall Slides Cat Cows To fix my anteriorally-tilted hips:&#xA;Couch Stretch Deep Squat Glute Bridges (optional) Hamstrings, 9090/Fisherman Squat </description>
+    </item>
+    <item>
+      <title>The Process</title>
+      <link>https://blakeruprecht.com/the-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/the-process/</guid>
+      <description>The Process Ground yourself to align (elephant, king) Free yourself to simplify (crow, magician) Accept yourself to play (dog, lover) Choose yourself to create (tiger, warrior) EARTH 🐂 Integrity - Unshakable alignment of thought, word, and action.&#xA;Ground myself in being alive, here, now. That&amp;rsquo;s enough. Own everything. Stand firm. Reciprocate the love life gives. Align thoughts, words, and actions — especially when it’s hard. AIR 🐦‍⬛ Clarity - Undistorted perception and lightness of mind.</description>
+    </item>
+    <item>
       <title>Time</title>
       <link>https://blakeruprecht.com/time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -926,11 +891,25 @@
       <description>Time is the only non-renewable rersource in my life. We don&amp;rsquo;t have forever.</description>
     </item>
     <item>
+      <title>Touching</title>
+      <link>https://blakeruprecht.com/touching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/touching/</guid>
+      <description>What is useful to write about touching?&#xA;Body language, smiling, relaxed posture.&#xA;Hugs?</description>
+    </item>
+    <item>
       <title>Turing Machine</title>
       <link>https://blakeruprecht.com/turing-machine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/turing-machine/</guid>
-      <description>Summary of the Turing Machine&#xA;We can program a machine to function as a Turing Machine In-depth explanation of Turing Machines, why they&amp;rsquo;re so important, and how all modern computers are Turing Machines Basically, machines that can hold numbers, and manipulate numbers (even just 1s and 0s), can functionally computer almost anything in the world with abstraction The Ancient Texts Lovelace, Babbage, and thinking machines Goedel, Turing, and the great Theory of Computing The theories started in, you guessed it, math Incompleteness, and why this matters The revolutionary discovery by the 17 yr old wiz kid from England, Turing What can we use as tape?</description>
+      <description>A Turing Machine is relatively simple:&#xA;Tape - a long thin piece of paper Markings - on the tape which tell the machine to go left or right Machine - that reads the markings and moves the tape accordingly Turing proved in the 1940s that such a simple machine could realistically calculate the solution to any math problem in the world. With that mathematical proof (nerd paper), he invented the modern computer.</description>
+    </item>
+    <item>
+      <title>United States of America</title>
+      <link>https://blakeruprecht.com/united-states-of-america/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/united-states-of-america/</guid>
+      <description>I&amp;rsquo;m from STL, MO, USA.&#xA;America is a confusing place to live. It&amp;rsquo;s the wealthiest country in the world, but not for most. It&amp;rsquo;s the most beautiful country in the world, but difficult to travel through. It&amp;rsquo;s a land of extremes. Extremely big, extremely fast, extremely brutal.&#xA;Everybody knows the USA is great in a lot of ways, and evil in others.&#xA;American spirit I&amp;rsquo;m still a fan. No, it&amp;rsquo;s not perfect.</description>
     </item>
     <item>
       <title>Universe</title>
@@ -940,11 +919,25 @@
       <description>My environment is the entire universe, all of everything, reality.&#xA;Cosmic scale &amp;ndash; pale blue dot I am a bunch of electrical connections which animate jelly held in a sack of skin surrounding calcified rocks which can move.&#xA;I live on a big rock hurtling millions of miles per hour through a backwater of space.&#xA;My entire home is simple a mote of dust caught suspended in a sunbeam.&#xA;The whole universe in a glass of wine It only adds!</description>
     </item>
     <item>
-      <title>USA</title>
-      <link>https://blakeruprecht.com/usa/</link>
+      <title>Videoshelf</title>
+      <link>https://blakeruprecht.com/videoshelf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/usa/</guid>
-      <description>I&amp;rsquo;m from STL, MO, USA.&#xA;America is a confusing place to live. It&amp;rsquo;s the wealthiest country in the world, but not for most. It&amp;rsquo;s the most beautiful country in the world, but difficult to travel through. It&amp;rsquo;s a land of extremes. Extremely big, extremely fast, extremely brutal.&#xA;Everybody knows the USA is great in a lot of ways, and evil in others.&#xA;American spirit I&amp;rsquo;m still a fan. No, it&amp;rsquo;s not perfect.</description>
+      <guid>https://blakeruprecht.com/videoshelf/</guid>
+      <description>Movies Everything Everywhere All at Once - Waymond Wong is a great character. The Big Lebowski - Coen brothers (film) Dudeism has got to be one of the most relaxing philosophies ever espoused. Great movie, great ideas, let&amp;rsquo;s just chill and go bowling. V for Vendetta - James McTeigue (film) A revolutionary film that taught me about rebellion and what it means to live based on your own code. V fights for what is right, and his eloquent sobriquets leave me loving words even more.</description>
+    </item>
+    <item>
+      <title>Watching</title>
+      <link>https://blakeruprecht.com/watching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/watching/</guid>
+      <description>Reading is fun. And a fun way to keep learning new things.&#xA;My videoshelf of favorite movies, tv shows, etc My podshelf is just 1 right now: Hardcore History by Dan Carlin (podcast) - Carlin expands what podcasts can do with well-researched, multi-hour epics on topics like the First World War, Japan before WWII, and Painfotainment, the history of human torture as entertainment. My only gripe is that my travels aren&amp;rsquo;t long enough to finish an entire series in one trip.</description>
+    </item>
+    <item>
+      <title>Weed</title>
+      <link>https://blakeruprecht.com/weed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/weed/</guid>
+      <description>Weeds grow out of the ground and disintegrate if the air around them gets very hot.</description>
     </item>
     <item>
       <title>Western</title>

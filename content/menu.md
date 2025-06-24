@@ -1,5 +1,5 @@
 ---
-title: My Menu
+title: Menu
 date: 2025-06-06
 ---
 I keep the same basic [grocery list](/gathering) each week, so I never have to rewrite it. Most recipes are actually very similar with a few minor changes/tweaks.
@@ -27,3 +27,6 @@ I keep the same basic [grocery list](/gathering) each week, so I never have to r
 - [teriyaki-bowl], [gochujang-bowl], [holy-basil-bowl]
 - [pepper-curry], [garlic-chile-oil-soup](/garlic-chile-oil-soup)
 - [dan-dan-mian], [garlic-noodles]
+
+**My Buddies and My Hot Sauce**
+- [dcbs](/dcbs)

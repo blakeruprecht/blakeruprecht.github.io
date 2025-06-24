@@ -4,22 +4,22 @@ date: 2023-06-17
 ---
 Here's my current computer setup for [computing](/computing).
 
-**Hardware**:
-- Dell XPS 13 9370 (my main laptop/general purpose computer)
+**Hardware**
+- used Dell XPS 13 9370 from ebay
+- self-built Desktop Computer
 
-**Software**:
-- [Operating System](/operating-system): Debian Linux
-- Programs:
-	- [Terminal](/terminal) (Blackbox)
-	- Text Editor (Obsidian, Cursor, VSCode, Neovim, Nano)
-	- Browser (Firefox, Brave)
-	- PDF Reader (Zathura)
-	- Image Editor (GIMP)
-- Development: 
-	- Git for version control
-	- HTML, CSS, JavaScript (default for [building-websites](building-websites.md))
-	- Go (for my website SSG)
-	- [Python](/python)
+**Software**
+I use mostly free and open-source software on my laptops. My OS, Terminal, Editors, Browsers, everything, are free to download and don't cost anything to run.
+- [operating system](/operating-system): Debian Linux
+- [terminal](/terminal): Blackbox
+- text editor: Obsidian, Cursor, Nano
+- browser: Firefox, Brave
+- pdf reader: Zathura
+- image editor: GIMP
+- development:
+	- version control: Git
+	- [websites](/building-websites): HTML, CSS, JavaScript, Go (for Hugo)
+	- data analysis: Python (pandas, numpy, torch, matplotlib)
 
 **What computer should I buy next?**
 - (Under $100) old Lenovo X220 -- still plenty good for modern computing with Linux installed

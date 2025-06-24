@@ -2,7 +2,7 @@
 title: Psychedelics
 draft: true
 ---
-Psychedlics like LSD and Psilocybin (the active ingredient in hallucinogenic muschrooms) are way safer than most drugs, with a lower potential for immediate harm or long-term addiction than [alcohol](/alcohol), [weed](weed.md), cocaine, MDMA, or other party drugs.
+Psychedlics like LSD and Psilocybin (the active ingredient in hallucinogenic muschrooms) are way safer than most drugs, with a lower potential for immediate harm or long-term addiction than [beer](/beer), [weed](weed.md), cocaine, MDMA, or other party drugs.
 
 They are stigmatized for no good reason, there is no logical explanation for being against psychedlics.
 

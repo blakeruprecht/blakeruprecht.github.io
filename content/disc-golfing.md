@@ -2,22 +2,35 @@
 title: Disc golfing
 date: 2025-06-06
 ---
-Disc Golf is fun. It's played at courses that are usually free. It's a great sport to drink and smoke during.
+Disc Golf is hella fun and incredibly chill. It's a drinking sport! Usually free to play, and you only actually need a single disc, which costs about $10, and will last every throw up until you lose it!
 
-1. Chill out a bit.
-2. Get up there and rip it.
+In three years, I went from a consistent +9-18 bogey player, to occasionally shooting under par (-3, -1, -1) and getting birdies. I've gotten one ace! I'm not saying I'm that good, I play with absolute turkeys who throw -8, and drive 500 feet.
 
-Discs to use:
-1. **Midrange**. The most useful disc for all shots in disc golf.
-2. **Putter**. Good to improve your up-close putting consistency.
-3. **Fairway Driver**. First driver to add, for 300+ ft shots.
-4. **Distance Driver**. Very hard to throw, only use if you can overthrow a fairway.
+## How to Play (the fundamentals)
 
-Disc Numbers A/B/C/D
-- A = [1,14] **Speed** you must throw for proper flight.
-- B = [1,7] **Glide**, how long the disc stays in the air.
-- C = [-5,1] **Turn**, how much it will go right on a RHBH shot
-	- -5 = *Understable*, it'll turn hard
-	- -1-0 = *Stable*
-	- +1 = *Overstable*, it'll resist turning
-- D = [0,5] **Fade**, once the disc slows down, how hard will it cut to the left
+Tools - you need one disc, the best single disc is a Midrange Driver.
+
+Envs - a basket, or a *Disc Golf Course* with baskets, to shoot at
+
+Process - for each hole:
+1. **Drive**: Throw the disc straight and far from the pad.
+2. Upshots: Usually either a short drive, or a long putt.
+3. **Putt**: Use putting form to throw the disc straight at the basket.
+
+## Upgrades
+
+You only technically need one disc, but a putter is pretty important, and once you can throw your first disc far, get faster discs to increase your skill ceiling.
+- **Putter** - As soon as possible.
+- **Fairway Driver** - Once you can overthrow your midrange.
+- **Distance Driver** - Once you can overthrow your fairway.
+
+## My current [Bag](backpack.md)
+- Backpack (16L packable waterproof Matador)
+- Discs
+	- **Putter** - Sensei, I also like the Judge, Aviar, and Luna
+	- **Midrange Driver** - Lion, I also like the Truth
+	- **Fairway Driver** - Escape
+	- **Distance Driver** - XL
+- Water Bottle - 24oz Hydroflask
+- Beers - 2-3 depending on how I'm feeling
+- Joint + Lighter

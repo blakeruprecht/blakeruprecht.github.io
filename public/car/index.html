@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,25 +116,32 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Car</h1>
+        <h1>Car</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <h2 id="car">Car</h2>
+        <p>A tool for <a href="/driving">driving</a>.</p>
+<p>REQUIREMENTS</p>
 <ul>
-<li>2004 Acura TL
+<li>Car</li>
+<li>Driver&rsquo;s License, Car Insurance, Vehicle Registration &amp; License Plates</li>
+</ul>
+<p>ESSENTIAL EXTRAS</p>
 <ul>
-<li>Engine, 4 wheels, Roof &amp; Doors, 5 seats</li>
+<li>Jumper Cables</li>
+<li>Windshield Reflector</li>
+<li>Ice Scraper</li>
 </ul>
-</li>
-</ul>
-<h2 id="car-tool-kit">Car Tool Kit</h2>
+<p>ACTUAL EXTRAS</p>
 <ul>
-<li>JumperCables, IceScraper, Reflector</li>
-<li>Toolbag, Tape, Triangle, Hammer, Allens, Sockets, BitSet, Drill, Charger, <strong>DuctTape, ElectricalTape, SuperGlue, ZipTies, PatchKit</strong></li>
+<li>Toolbag, Tape, Triangle, Hammer, Allens, Sockets, BitSet, Drill, Charger, DuctTape, <em><strong>ElectricalTape</strong></em>, <em><strong>SuperGlue</strong></em>, <em><strong>ZipTies</strong></em>, <em><strong>PatchKit</strong></em></li>
+<li><em><strong>WaterJug5gal</strong></em>, <em><strong>trashbags</strong></em>, WashBasin, <em><strong>Rags</strong></em></li>
+<li>Cooler, <em><strong>Stove+fuel</strong></em>, <em><strong>CuttingBoard</strong></em>, <em><strong>Skillet</strong></em>, <em><strong>oliveoil</strong></em>, <em><strong>salt/pep/redpep</strong></em>, <em><strong>Pourover</strong></em>, Mug, <em><strong>Plate</strong></em>, <em><strong>Bags/Tupperware</strong></em></li>
+<li>WoolBlanket, <em><strong>Chair</strong></em></li>
 </ul>
+<p>My favorite car was the <a href="/4runned">1997 Toyota 4Runner</a> that I accidentally tipped over.</p>
 
     </div>
 </article>

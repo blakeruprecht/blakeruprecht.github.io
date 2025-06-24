@@ -7,7 +7,8 @@
         {{ else }}
           {{ .Site.Title }}
         {{ end }}
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      <!--<button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>-->
     </div>    
   </nav>
 </header>
@@ -27,6 +28,7 @@
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  // Fixed regex
     const menuItems = document.querySelectorAll('.menu a');
@@ -45,6 +47,7 @@
     }
 }
 
+/*
 function initializeThemeToggle() {
   const toggleButton = document.getElementById('theme-toggle');
   const savedTheme = localStorage.getItem('theme');
@@ -66,7 +69,7 @@ function initializeThemeToggle() {
 }
 
 document.addEventListener('DOMContentLoaded', initializeThemeToggle);
-
+*/
 
 
  </script>

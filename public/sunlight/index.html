@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,13 +116,14 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Sunlight</h1>
+        <h1>Sunlight</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <p>View sunlight upon waking for 10 minutes (30 if it&rsquo;s overcast) to set your circadian rhythym, the bodies natural process to determine when to get tired and when to stay alert.</p>
+        <p>Can help warm up body and maintain 98.6 deg F (human body temp).</p>
+<p>View sunlight upon waking for 10 minutes (30 if it&rsquo;s overcast) to set your circadian rhythym, the bodies natural process to determine when to get tired and when to stay alert.</p>
 <p>View sunlight as much as possible throughout the day to keep yourself awake.</p>
 <p>View sunlight right before sunset to help tell the body to start winding down for the evening.</p>
 <p>Avoid viewing any bright lights after sundown if possible, and especially after 9pm when you&rsquo;re ready to go to sleep.</p>

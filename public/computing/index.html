@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,26 +116,30 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Computing</h1>
+        <h1>Computing</h1> 
     </header>
 
     
 
     <div class="post-content">
         <p>Layers of abstraction that extend human thinking. Binary at the bottom, human language at the top, and code fills in all the gaps.</p>
-<p><strong>Software layers</strong>:</p>
+<p>SOFTWARE LAYERS</p>
 <ol>
-<li>Hardware &ndash; has code to make each piece run</li>
-<li><a href="/operating-system">Operating System</a> &ndash; interfaces between hardware and programs</li>
-<li>Programs &ndash; code that the OS runs on hardware</li>
-<li>Languages &ndash; allow you to rewrite programs</li>
+<li><strong>Hardware</strong> &ndash; has code to make each piece run
+<ol>
+<li><a href="/turing-machine">turing-machine</a> and <a href="/binary">binary</a></li>
 </ol>
-<p><strong>Basic troubleshooting:</strong></p>
+</li>
+<li><strong><a href="/operating-system">Operating System</a></strong> &ndash; interfaces between hardware and programs</li>
+<li><strong>Programs</strong> &ndash; code that the OS runs on hardware</li>
+<li><strong>Languages</strong> &ndash; allow you to rewrite programs</li>
+</ol>
+<p>BASIC TROUBLESHOOTING</p>
 <ul>
 <li>Turn it off and on again</li>
 <li>Check if it&rsquo;s plugged in</li>
 </ul>
-<p><strong>Core activities:</strong></p>
+<p>CORE ACTIVITIES</p>
 <ul>
 <li>Navigate files (terminal/file explorer)</li>
 <li>Edit text (code editors)</li>

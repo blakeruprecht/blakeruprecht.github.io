@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,14 +116,14 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Clothes</h1>
+        <h1>Clothes</h1> 
     </header>
 
     
 
     <div class="post-content">
         <p>For warmth, environmental protection, and the law says so in many countries. But don&rsquo;t forget &ndash; no shoes, no shirt, no problems.</p>
-<p><strong>Go</strong></p>
+<p><strong>GO</strong> - Clothes for activity and outdoors.</p>
 <ul>
 <li>Sunglasses, Brimmer, Beanie, Gloves</li>
 <li>Shell, Fleece, Puffer</li>
@@ -149,7 +131,7 @@ window.MathJax = {
 <li>Baggies(2), Hikers, Leggings, Boxers(6)</li>
 <li>Sandals, Runners, Socks(6)</li>
 </ul>
-<p><strong>Show</strong></p>
+<p><strong>SHOW</strong> - Clothes to look nice in public.</p>
 <ul>
 <li>Ballcap</li>
 <li>Blazer, Suit</li>

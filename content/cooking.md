@@ -1,8 +1,8 @@
 ---
-title: Cooking
+title: Cooking simple tasty meals
 date: 2025-06-03
 ---
-In order to [eat](/eating) enough [calories](/eating-calories), [protein](/eating-protein), and [micronutrients](/eating-micronutrients), I prefer tasty meals to get it all down. Call me crazy. Cooking comes down to a few basic steps, once you have [gathered](/gathering) the ingredients you plan to eat. Remember, there aren't really any shortcuts to cooking, it all comes down to sharp knives, high heat, plenty of seasoning, and cleaning as you go.
+In order to [eat](/eating) enough calories, protein, and micronutrients, I prefer tasty meals to get it all down. Call me crazy. Cooking comes down to a few basic steps, once you have [gathered](/gathering) the ingredients you plan to eat. Remember, there aren't really any shortcuts to cooking, it all comes down to sharp knives, high heat, plenty of seasoning, and cleaning as you go.
 
 **Prepping** ingredients mainly involves salting meat 30 mins before cooking time to give the salt a chance to seep into the middle parts of the meat, and cutting veggies for convenient heating. It's essential to maintain a sharp knife and non-moving cutting board, and cut with safe form.
 

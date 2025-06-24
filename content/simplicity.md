@@ -3,7 +3,9 @@ title: Simplicity
 date: 2024-04-22
 ---
 
-> "The simple way really is the best way to do things." -*Nick Saban*
+> "The simple way really is the best way to do things." -Nick Saban
+
+> "If minimum wasn't good enough, it wouldn't be the minimum." -Col. Whetstone
 
 > "Nature prefers the shortest path from A to B"
 
@@ -34,7 +36,7 @@ Information theory (bits), Logic, Math, Stats, computation, science
 ## Theory of Universal Inductive Inference
 In the 1960s, Ray Solomonoff formalized Occam's Razor by creating a theory based on observations -- for example, predicting the next symbol based upon a given series of symbols. The only assumption is that the environment follows some unknown but computable probability distribution. 
 
-This is directly related to [Neural networks are universal function approximators](How-to-symbolize-any-relationship.md).
+This is directly related to neural networks.
 
 One justification of Occam's razor is a direct result of basic probability theory. By definition, all assumptions introducve possibilities for error; if an assumption does not improve the accuracy of a theory, its only effect is to increase the probability that an overall theory is wrong.
 
@@ -45,3 +47,23 @@ The Quakers used to take vows of integrity, truth, honesty, and simplicity.
 - **Simple dress**: plain clothes, no logos, no adornment, nothing that would make one human appear more worthy than another human.
 - **Simple speech**: I love this one, they wouldn't address anybody as "Mr." or "Dr." or any other bullshirt hierarchical speech like that. They would simply use "Friend" or "John Smith" (first and last name) to address somebody. This extended into honesty, as you can imagine, and they were not supposed to lie
 	- Side note, I was in academia for a while, and there was a stark, obvious difference between those academics who were confident enough in themselves to go by their first names, versus the people who were desparate to be called "Dr." to receive some validation
+
+
+If you're trying to do better, optimize a system, or just improve, it's much more useful to set a minimum threshold that is "good enough" to be done, rather than endlessly striving for perfection.
+
+Perfection is impossible to achieve.
+
+Minimum standars are achievable, measurable, and movable.
+
+• Search spaces
+• Local vs global optima
+• Natural selection
+
+## Optimization Theory in Evolution
+
+## Why does nature prefer simplicity?
+
+## What "good enough" really means
+Big(O) notation, not everything is linear. Good enough is often finding a local maxima or a knee point.
+
+## 80/20 Principle (Pareto Principle)

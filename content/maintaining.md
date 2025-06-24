@@ -1,18 +1,19 @@
 ---
 title: Maintaining
 date: 2025-06-06
-draft: true
+draft: false
 ---
-Maintaining the essential tools and systems of life.
+- **Envs**: [home](/home), [fire](/fire), [sunlight](/sunlight)/outside
+- **Tools**: [clothes](/clothes) [backpack](/backpack), [car](/car), [bicycle](/bicycle)
+- **Money**: [budget](/budget), bank, tax-info, passport, ID, health-insurance
+- **Time**: exp-log, [calendar](/https://calendar.google.com), [todo list](https://tasks.google.com)
 
-**Survival Needs & Physical Tools**
-- *Shelter/Fire* - [clothes](/clothes), [packs](/packs), [home](/home)
-- *Transport* - [car](/car)
-- *Water* - sink, water source
-- *Food* - gather groceries
-
-**Abstract Systems**
-- *[Time](/time)*: [calendar](/https://calendar.google.com), [todo list](https://tasks.google.com) 
-- *Money*: bank, [budget](/budget), taxes
-- *Legal*: passport, ID, registration, car insurance
-- *Medical*: **health insurance, physician, teeth, skin, eyes**
+## How to identify your essentials
+1. Identify actual behaviors
+	- Track your daily actions, what do you actually do?
+	- Tools are not the end goal, they just help action happen.
+2. Eliminate non-essentials
+	- Instead of reducing what you have, start from nothing and add back what you need.
+	- If you can't complete an action without the tool, the tool is essential.
+3. Keep only the essentials.
+	- If it's not an important action, it's not an important tool.

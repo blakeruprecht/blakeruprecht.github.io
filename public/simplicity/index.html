@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,14 +116,17 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Simplicity</h1>
+        <h1>Simplicity</h1> 
     </header>
 
     
 
     <div class="post-content">
         <blockquote>
-<p>&ldquo;The simple way really is the best way to do things.&rdquo; -<em>Nick Saban</em></p>
+<p>&ldquo;The simple way really is the best way to do things.&rdquo; -Nick Saban</p>
+</blockquote>
+<blockquote>
+<p>&ldquo;If minimum wasn&rsquo;t good enough, it wouldn&rsquo;t be the minimum.&rdquo; -Col. Whetstone</p>
 </blockquote>
 <blockquote>
 <p>&ldquo;Nature prefers the shortest path from A to B&rdquo;</p>
@@ -170,7 +155,7 @@ Science is using history to predict the future.
 Information theory (bits), Logic, Math, Stats, computation, science</p>
 <h2 id="theory-of-universal-inductive-inference">Theory of Universal Inductive Inference</h2>
 <p>In the 1960s, Ray Solomonoff formalized Occam&rsquo;s Razor by creating a theory based on observations &ndash; for example, predicting the next symbol based upon a given series of symbols. The only assumption is that the environment follows some unknown but computable probability distribution.</p>
-<p>This is directly related to <a href="How-to-symbolize-any-relationship.md">Neural networks are universal function approximators</a>.</p>
+<p>This is directly related to neural networks.</p>
 <p>One justification of Occam&rsquo;s razor is a direct result of basic probability theory. By definition, all assumptions introducve possibilities for error; if an assumption does not improve the accuracy of a theory, its only effect is to increase the probability that an overall theory is wrong.</p>
 <p>Basically, you can hold onto extra explanations if you want, but they&rsquo;ll probably be less successful when tested, i.e. you&rsquo;ll lose more.</p>
 <h2 id="the-society-of-friends">The Society of Friends</h2>
@@ -183,6 +168,17 @@ Information theory (bits), Logic, Math, Stats, computation, science</p>
 </ul>
 </li>
 </ul>
+<p>If you&rsquo;re trying to do better, optimize a system, or just improve, it&rsquo;s much more useful to set a minimum threshold that is &ldquo;good enough&rdquo; to be done, rather than endlessly striving for perfection.</p>
+<p>Perfection is impossible to achieve.</p>
+<p>Minimum standars are achievable, measurable, and movable.</p>
+<p>• Search spaces
+• Local vs global optima
+• Natural selection</p>
+<h2 id="optimization-theory-in-evolution">Optimization Theory in Evolution</h2>
+<h2 id="why-does-nature-prefer-simplicity">Why does nature prefer simplicity?</h2>
+<h2 id="what-good-enough-really-means">What &ldquo;good enough&rdquo; really means</h2>
+<p>Big(O) notation, not everything is linear. Good enough is often finding a local maxima or a knee point.</p>
+<h2 id="8020-principle-pareto-principle">80/20 Principle (Pareto Principle)</h2>
 
     </div>
 </article>

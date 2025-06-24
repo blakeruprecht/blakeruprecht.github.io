@@ -54,7 +54,8 @@ if (!doNotTrack) {
         
           <img src="/logo.png" alt="Blake Ruprecht" class="logo-img">
         
-      </a>      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☕</button>
+      </a>      
+      
     </div>    
   </nav>
 </header>
@@ -74,6 +75,7 @@ if (!doNotTrack) {
    });
  }
  
+ 
  function initializeActiveLinks() {
     const currentPath = window.location.pathname.replace(/\/$/, '');  
     const menuItems = document.querySelectorAll('.menu a');
@@ -92,27 +94,7 @@ if (!doNotTrack) {
     }
 }
 
-function initializeThemeToggle() {
-  const toggleButton = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
 
-  
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-  document.documentElement.setAttribute('data-theme', initialTheme);
-  toggleButton.textContent = initialTheme === 'dark' ? '🍺' : '☕';
-
-  toggleButton.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleButton.textContent = newTheme === 'dark' ? '🍺' : '☕';
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initializeThemeToggle);
 
 
 
@@ -134,16 +116,14 @@ window.MathJax = {
 
 <article>
     <header>
-        <h1>Running</h1>
+        <h1>Running</h1> 
     </header>
 
     
 
     <div class="post-content">
-        <p>Running is fun. You can run 3 x/week (e.g. TuThWe) slowly and be fit for life. Go fast sometimes if you want. <a href="/progressive-overload">Add speed or distance</a> to improve. Barefoot seems cool.</p>
-<ol>
-<li><strong>Run</strong> two miles at Zone 2 pace.</li>
-</ol>
+        <p>Running is my chosen movement to train my <strong>cardio</strong>. It feels good, primal, and natural. I enjoy getting outside, listening to the birds, seeing the plants, <a href="/sunlight">sunlight</a>, and feeling my lungs and muscles working. I don&rsquo;t run for distance or speed, I run for the strain and joy.</p>
+<p>Most of my runs are two miles at zone 2 (nose breathing) pace. Sometimes I go faster or longer to progressively overload my system, but only when I feel great.</p>
 <p>Cardio zones</p>
 <ul>
 <li>Zone 1: <a href="/walking">walking</a>, still fun!</li>
@@ -151,9 +131,11 @@ window.MathJax = {
 <li>Zone 3-4: tempo/intervals</li>
 <li>Zone 5: sprints</li>
 </ul>
-<h2 id="related">Related</h2>
+<p>The only way to improve cardio endurance is to progressively overload the body</p>
 <ul>
-<li><a href="/lifting">lifting</a></li>
+<li>Run faster (e.g. tempo runs or interval runs)</li>
+<li>Run longer</li>
+<li>Run more often</li>
 </ul>
 
     </div>

@@ -1,11 +1,9 @@
 ---
-title: Sleeping
+title: Sleeping when tired until wakeup
 date: 2025-06-04
 ---
-Sleep is important for everything, I just don't know exactly what. Sleep for roughly 8 hours per night, but this number is unique to each person. Maintain cool temperatures in your sleeping room with plenty of blankets to get comfortable. [Sunlight](sunlight.md) is the main mechanism for waking up the body, and darkness is the main mechanism for telling the body to sleep. Wake a consistent time to set a sleep schedule and go to sleep when your body naturally feels tired.
+Wake at a consistent time and view [sunlight](/sunlight) for 10+ minutes. Sunlight is the main mechanism for waking the body, so this will make it easier to wake at that time. IN addition, view as much sunlight as possible throughout the day to improve wakefulness, and also help make you tired later. Avoid bright lights after sunset. 
 
-1. Wake at a consistent time and view sunlight for 10+ mins (more if overcast)
-2. Sleep when tired
+Sleep when tired in a [bedroom](/home)/[tent](backpack.md) that is **dark**, relatively **cool**, has a softish mattress, and multiple **blankets** to layer on/off throughout the night. If you set a consistent wakeup time, you'll start to sleep naturally for however long your individual body needs. This also works with a consistent sleep time and variable wake time.
 
-- Sunlight is the mechanism that signals the bodies natural wake/sleep rhythym. Bright sunlight upon waking (10-30 mins in duration,  regardless of time of day) signals the body to wake up at that same time the next day. More sunlight throughout the day, especially around sunset, helps this process.
-- Darkness at night (e.g. after sunset) helps the body wind-down for sleep. E.g. don't use bright overhead lights at night.
+Sleep is important for pretty much every bodily function. It's a big reset for the body.
