@@ -2,32 +2,11 @@
 title: Religion
 draft: true
 ---
-
-
-Christianity
-- *Epiousion*: The New Testament was originally written in Koine Greek. Many mis-translations and errors in interpretation stem from people not knowing Koine. This word is a famous part of the Sermon on the Mount, specifically the Lord's Prayer. In the typical English translation, it's part of the line "give us this day our daily bread", and epiousion roughly translates to 'daily bread,' but this doesn't tell the whole story.
-	- I think back to this word all the time when I think about one of the key purposes of religion in general, and these teachings from Jesus in particular: have faith in the present moment, let go of your worries about your misgivings, and let go of your worries about future income (daily bread). During my time without income, it's helped me relax.
-- Orthodox is the ancient religion, with a focus on maintaining the mystery and removing the individualism
-- Catholicism...
-- Protestantism broke from Catholicism in Wittenberg, Germany, and ever since, physical distance from Wittenberg correlates heavily with reading level (the closer, the more literate) since the 1500s. Arguably, Protestantism is the basis of the Scientific revolution.
-	- I feel like Protestantism promotes looking at humans like machines or worker bees, but this needs more depth.
-
-Islam
-- *Maktoub*: *The Alchemist* by Paulo Coehlo teaches the Arabic word *maktoub*, which means "it is written."
-
-Judaism
-- *Timshel*: My main exposure is through *East of Eden*, which invents a Hebrew word to explain the thesis of the book.
-
-Hinduism
-
-Buddhism
-Taoism
-Confucianism
-
-Native American religions
-
 ## Gratitude
-Instead of thinking about all of the stuff you don't have in life, think about how far you've come. Everything you currently have is everything you ever wanted.
+Gratitude practice is a mental trick to instantly calm down the body and improve feelings of relaxation and contentment. I don't know that for certain, but it feels right.
+
+Think about 1 thing you are grateful for. Sometimes it spirals.
+1. **Ground and look around** - The ground beneath my feet. The fresh air all around me. Clouds, rains, and rivers. The sun in the sky. Fires. Wild plants. Trees. Oaks. Food plants, chilis, onion, garlic, wheat, barley. Medicine plants. Bacteria and the tiny animals. Wild fish. Trout. Tuna. Insects. Amphibians. Reptiles. Birds. Crows. Hawks. Eagles. Songbirds. Big thanks to Chicken. Mammals. Squirrels. Deer. Wolves. Bears. Pigs. Horses. Big thanks to Cow. Big thanks to Cat and Dog. All of humanity. My people.
 
 ## Be Kind Anyway
 > “People are often unreasonable, irrational, and self-centered. Forgive them anyway.
@@ -69,7 +48,7 @@ Happiness isn't the goal, happiness is the path.
 
 Accept all humans.
 
-## The Way Peaceful Warrior
+## Peaceful Warrior
 > S: Are you happy?
 > D: I get laid, I get paid, I have friends...
 > S: I asked if you were happy.
@@ -190,28 +169,4 @@ This seems like an absolute call out to not give up writing, but to find the lov
 > happiness is the way.
 > There is no way to love,
 > love is the way.
-
-## Native Americans
-The Californian people prioritized cultivation of the *inner* self through discipline, earnest training, and hard work. Californian songs and poetry showed that disciplined training and work were ways connecting with what is authentic in life.
-
-## Cynicism
-
-## Stoicism
-
-## Epicureanism
-
-## Christianity
-A Christian says: “I believe in Heaven”, An atheist says: “I believe in science”, A Taoist says: “I believe I will have another cup of tea”
-
-“At all costs, the Christian must convince the heathen and the atheist that God exists, in order to save his soul. At all costs, the atheist must convince the Christian that the belief in God is but a childish and primitive superstition, doing enormous harm to the cause of true social progress. And so they battle and storm and bang away at each other. Meanwhile, the Taoist Sage sits quietly by the stream, perhaps with a book of poems, a cup of wine, and some painting materials, enjoying the Tao to his hearts content, without ever worrying whether or not Tao exists. The Sage has no need to affirm the Tao; he is far too busy enjoying it!”
-
-The Plain People's (Mennonites) sacrifice technology in favor of hard work and plain living.
-
-
-## Islam
-*Maktub*. The word from *The Alchemist* by Peter Coehlo which means "it is written", basically it is foretold by the gods
-
-## Judaism
-*Timshel*. Thou mayest from *East of Eden* by John Steinbeck.
-
 

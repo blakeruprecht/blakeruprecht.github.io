@@ -1,66 +1,42 @@
 ---
 title: Thinking
 date: 2025-06-02
+draft: true
 ---
-You actions reveal your real values.
+Think nothing. Do everything.
 
-Two responses:
-1. Stop lying to yourself and admit your real priorities.
-2. Start doing what you say you want to do to see if it's really true.
+If thinking doesn't lead directly to action, it's useless. Kill it. Thinking is stalling. Perfectionism is delay. Procrastination is fear. Strip it all. There is only [action](/living).
 
-Overthinking is a loop. Break the loop by:
-1. **Stop storytelling**. Stop trying to figure it out. Behavior comes from competing subsystems, not unified decisions. E.g. use emotions for social cues, logic for planning, etc. Don't force agreement between systems. The narrator creates coherent stories after actions happen to maintain the **illusion of control** -- the biggest illusion in life.
-2. **Act anyway**. Build trigger-action systems that bypass willpower. Build systems and environments instead of motivation.
-3. **Track results**. Log behavior. Measure outcomes. What was the action, what feelings did it lead to? Treat desire as data to track, not a mystery.
-4. **Adjust & Repeat**. Don't explain what you want. Optimize for getting it anyway. Desire is input, not mystery. Identity is response patterns in context. Optimize for results, not self-concept. Track what works. Build around actual tendencies. Operate first. Narrate only if useful.
+All time periods have been the most chaotic, most extreme, craziest time period ever. Life has always been survival, struggle, love, death. The basics are eternal -- movement, sleep, water, food, work. Master them. Ignore noise.
 
-No self. No why. Just what works.
+## How
+- Breathe, then move.
+- No hesitation. First impulse is final.
+- No stories. No evaluation. No identity. No self-concept. All are useless.
+- Done > perfect.
+- If unclear, simplify. If frozen, act smaller. If tired, act slower. But act.
 
-Taoism gets closest ([video source](https://www.reddit.com/r/taoism/comments/1i0il8q/if_taoism_had_a_tv_spot_the_original_post_with/))
+## Kill overthinking loops
+- "Should I...?" -- yes
+- "What if...?" -- irrelevant
+- "I don't feel like it..." -- do it anyway
+- "I need to think..." -- no, you need to move
 
-> The purpose of thinking is action, not more thinking.
+## Tools
+- **[Breathwork](/breathing)** – 2x inhale, 1x slow exhale. Reset.  
+- **Micro-goals** – Reduce task to smallest possible movement. Do only that.  
+- **Visualization** – See goal, then now. Let the gap push you.  
+- **Self-talk** – “Keep going.” “This is working.” Say it. Mean it.  
+- **[Tracking](/1)** – Count attempts, completions, frequency. Nothing else.  
+- **[Movement](/moving)** – Use the body to unlock the mind.
 
-**Related**
-- [procrastination](/procrastinating)
-- [perfectionism](/perfectionism)
-- [dopamine](/dopamine) balance to be happy
-- [happiness](/happiness) = Setpoints + Conditions + Actions (Relationships & Flow)
-- [growth-mindset](/growth-mindset)
-- [simplicity](/simplicity)
-- [universe](/universe)
+
+## Good
+- **Integrity**: I am alive, that's enough. I take full responsibility and own everything in my life. I serve only that which I love.
+- **Clarity**: I free myself from illusion, stories, destinations. I question everything. I adapt fluidly to new data. I simplify to only the signals that help what I love.
+- **Presence**: I accept what is, not what should be. I let go of the past and the future. I flow with my feelings. I love this moment with my whole heart.
+- **Courage**: I choose love over fear every time. I initiate, go first, hesitation kills. I go all-in, no holding back. I create love through steady, wild, rhythmic energy.
+
+## Related
 - [time](/time)
-
-
-## The Process
-- Ground yourself to align (elephant, king)
-- Free yourself to simplify (crow, magician)
-- Accept yourself to play (dog, lover)
-- Choose yourself to create (tiger, warrior)
-
-## EARTH 🐂
-> *Integrity* - Unshakable alignment of thought, word, and action.
-- **Ground** myself in being alive, here, now. That's enough.
-- **Own** everything. Stand firm.
-- **Reciprocate** the love life gives.
-- **Align** thoughts, words, and actions — especially when it’s hard.
-
-## AIR 🐦‍⬛
-> *Clarity* - Undistorted perception and lightness of mind.
-- **Free** myself from illusion -- past stories, future destinations.
-- **Question** everything. Nothing is sacred.
-- **Adapt** fluidly to new data.
-- **Simplify** to only the signals that matter (e.g. love).
-
-## WATER 🐶
-> *Presence* - Full surrender to the moment, feel everything, resist nothing.
-- **Accept** what is, not what should be.
-- **Feel** deeply. Let all sensations come and go.
-- **Open** myself up to experience with total vulnerability
-- **Play**, experience joy, and connect with others.
-
-## FIRE 🐯
-> *Courage* - Willingness to act through fear. Consistent, bold creation of life.
-- **Choose** what you want, ignore fear/doubt/uncertainty/permission/proof.
-- **Initiate** action, go first, lead the way, hesitation kills.
-- **Burn** with max intensity, full send, all-in, no holding back, shoot the shot.
-- **Create** life through steady, wild, rhythmic energy.
+- [inspiration](/inspiration) -- external sources I've learned a lot from

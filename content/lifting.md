@@ -2,31 +2,24 @@
 title: Lifting
 date: 2025-06-07
 ---
-Lifting is my main muscle training movement. I focus on progressive overload and fundamental compound lifts. Nothing fancy. Master the basics. Make number go up.
+I train my muscles using general calisthenic principles that apply regardless of what gym I have access to. Bodyweight, rings, barbells, dumbbells, anything. Nothing fancy. Master the basics. Make number go up.
 
-The Fundamental Lifts:
-- **Pull** - Pullups, Chinups, Rows, etc
-- **Push** - Dips, Pushups, Incline Bench, etc
-- **Squat** - Squat, Split Squat, Lunge
-- **Hinge** - Deadlift, RDL, Glute Bridge
-- **Core** - Plank, Dead Bug, Side Plank, Bird Dog, Carry
+The only way to imrpove at lifting is by *progressively overloading* the muscles. Basically, lift more. More weight (same reps), more reps (same weight), or more speed (lift faster or reduce rest). The program doesn't matter, just the results. All that matters is whether or not you are adding weights/reps/speed over time. If your numbers are going down, your program is a waste of time.
 
-The only way to improve at lifting is by progressively overloading the muscles most times you lift to stimulate a growth response. Basically, lift more. Here's how:
-- Add weight (same number of reps)
-- Add reps (same weight)
-- Add speed (increase lift speed or reduce rest between sets)
-
-The program you do doesn't matter. All that matters is whether or not you are adding weights/reps/speed over time. If the numbers are going down, your lifting is a waste of time. Here are some general guidelines:
-- *Form*: Perfect form every time, this is non-negotiable. Quality over quantity. Bad form leads to injury, not gains.
-- *Frequency*: 1-7 sessions/week (I'm doing 3 full-body)
-- *Sets*: 5-20 sets per week (I'm doing 3)
-- *Reps*: 1-30 for strength/power/speed, 30+ for endurance (I'm doing 8-12)
+Here are some general guidelines for lifting:
+- *Fundamental Lifts* - These five categories cover all muscles.
+	- *Pull* - back, shoulders, & biceps, e.g. Pullups, Rows
+	- *Push* - chest, shoulders, & triceps, e.g. Dips, Pushups, Bench Press
+	- *Squat* - quads, glutes, hams, e.g. Squat, Split Squat, Lunge
+	- *Hinge* - hams, glutes, low back, e.g. Deadlift, RDL
+	- *Core* - abs, obliques, low back, e.g. Plank, Dead Bug, Side Plank, Carry
+- *Form* - Perfect form every time, non-negotiable. Quality over quantity.
+- *Frequency* - 1-7 training sessions per lift per week
+- *Sets*: 5-20 sets per week
+- *Reps*: 1-30 for strength/power/speed, 30+ for endurance
 - *Recovery*: You can't improve the muscles without recovering. This means:
 	- [Sleeping](/sleeping) plenty each night (this is where muscle is built)
 	- [Drinking](/drinking) plenty of water each day
 	- [Eating](/eating) a surplus of **energy** and **protein**, and plenty of micronutrients
-- My current program: 3 x/week full-body:
-	1. 3x8-12 Pullups
-	2. 3x8-12 Dips or Pushups
-	3. 3x8-12 squat or hinge
-	4. 3x? core
+
+So yeah, in general, do one of each lift every week and add more sets/reps/frequency if numbers aren't going up. Most likely, sleeping/eating is the cause of poor performance, not bag programming.

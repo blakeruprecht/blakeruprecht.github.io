@@ -15,5 +15,5 @@ For warmth, environmental protection, and the law says so in many countries. But
 - Ballcap
 - Blazer, Suit
 - Polo, SSBD, Flannel, DressShirt
-- Chorts, Jeans
+- Jorts, Jeans
 - Boots, WhiteSneakers, Oxfords

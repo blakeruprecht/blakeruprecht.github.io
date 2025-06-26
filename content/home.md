@@ -2,10 +2,12 @@
 title: Home
 date: 2025-06-03
 ---
+Do some of it yourself, e.g. [Woodworking](/woodworking)
+
 **BEDROOM** - Used for sleeping and storing clothes.
 - (BED) Mattress, BedFrame, Sheets, Blankets, Pillows
-- (STORAGE) NightStand, Lamp, AlarmClock
-- (CLOSET) Hamper, Hangers, Baskets
+- (FURNITURE) NightStand, Lamp, AlarmClock
+- (CLOSET) [clothes](/clothes), Hangers20, Hamper, Basket2, ShoeRack
 
 **BATHROOM** - Used for toilet, washing, eyecare, teethcare, skincare, haircare.
 - (TOILET) Toilet, Plunger, toiletpaper/Bidet

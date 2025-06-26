@@ -9,7 +9,7 @@ date: 2025-06-06
 	- *Transportation*: insurance, gas money, car payment
 	- *Medical*: insurance, prescriptions, appointments
 	- *Food*: groceries, eating out
-	- *[Tools](/tools)*: clothes, packs, home, car, etc.
+	- *Tools*: cothes, packs, home, car, etc.
 	- *Fun*: drugs, partying, entertainment, sports, etc.
 - Build savings funds
 	1. Emergency fund with 3-6 months worth of expenses in a high-yield savings account (SoFi?)

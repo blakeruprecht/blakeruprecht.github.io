@@ -3,6 +3,11 @@ title: Writing
 date: 2025-06-03
 description: Writing has always been a dubious profession from an income standpoint. Will I be able to go against the grain and make it as a pro?
 ---
+Examples
+- [insect-protein](/insect-protein)
+- [ev-charger-install](/ev-charger-install)
+
+
 Writing refers to physical [pictures](/pictures) which represent our spoken [language](/language). These pictures take the form of letters and numbers, and a combination of these form words, which combine to form sentences and paragraphs, all of which is called text.
 
 Writing communicates thoughts in the form of written information to share ideas from brain to brain.
@@ -181,8 +186,3 @@ From the book *On Writing*
 8. **Be nice (the world is a small town)**. Make friends, ignore enemies. Write fan letters and keep an applause file. "The best way to get approval is not to need it."
 9. **Be boring (it's the only way to get work done).** It takes a lot of energy to be creative. 1) Take a nap 2) Stay out of debt 3) Keep a logbook 4) Take care of yourself.
 10. **Creativity is subtraction.** It is what the artist leaves out that makes art interesting. Choose wisely.
-
-## pictures
-![[Pasted image 20250513142448.png]]
-
-![[Pasted image 20250513142116.png]]

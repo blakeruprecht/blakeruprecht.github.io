@@ -3,7 +3,7 @@ title: Backpack
 date: 2025-06-03
 ---
 **EDC** - *Minimal kit every time I leave my house.*
-- [Sunglasses](/eyecare), [Smartphone](/smartphone), Wallet/ID/Passport
+- Sunglasses, [Smartphone](/smartphone), Wallet/ID/Passport
 
 **ONEBAG** - *For city travel, I've been around the world with my backpack*.
 - Backpack28L, Packable16L

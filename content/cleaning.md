@@ -12,12 +12,5 @@ DAILY MAINTENANCE
 	- **Sunscreen** - when outside
 	- **Focal length stretches** - when staring at screens
 
-HEALTHCARE
-- *Physician* (general health) checkup every 1 year
-- *Dentist* (teeth) checkup every 6 months
-- *Dermatologist* (skin) checkup every 1 year
-- *Optometrist* (eyes) checkup every 1 year
-
-
 For inspiration, look how good your hair can look when taken care of:
 ![My usual haircut](/img/my-haircut.png)

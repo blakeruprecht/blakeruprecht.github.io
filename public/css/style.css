@@ -4,7 +4,8 @@
   --fg-color: #404040;
   --mg-color: #808080;
   --bg-color: #fdfdfd;
-  --theme-color: #5080AF;
+  --link: #5080AF;
+  --link-hover: #749ac8;
 
   /* Fonts */
   --font-serif: serif;
@@ -19,6 +20,8 @@
     --fg-color: #bfbfbf;
     --mg-color: #808080;
     --bg-color: #0b0b0b;
+    --link: #749ac8;
+    --link-hover: #5080AF;
   }
 }
 
@@ -106,13 +109,15 @@ p + ul, p + ol {
 
 /* LINKS */
 a {
-  color: var(--fg-color);
-  text-decoration-color: var(--mg-color);
+  color: var(--link);
+  text-decoration: none;
+  text-decoration-color: var(--link);
   text-underline-offset: 2px;
 }
 
 a:hover {
-  color: var(--mg-color);
+  color: var(--link-hover);
+  text-decoration-color: var(--link-hover);
 }
 
 a:focus {
@@ -201,24 +206,6 @@ hr {
   color: var(--mg-color);
   text-decoration: underline;
   text-decoration-color: var(--mg-color);
-}
-
-#theme-toggle {
-  background-color: var(--bg-color);
-  color: var(--mg-color);
-  border: none;
-  border-radius: 4px;
-  font-size: 1.25em;
-  font-family: inherit;
-  cursor: pointer;
-  padding: 0.25em 0.5em;
-  transition: 
-    color 0.4s ease,
-    background-color 0.4s ease;
-}
-
-#theme-toggle:hover {
-  color: var(--theme-color);
 }
 
 code {

@@ -3,10 +3,15 @@ title: Maintaining
 date: 2025-06-06
 draft: false
 ---
-- **Envs**: [home](/home), [fire](/fire), [sunlight](/sunlight)/outside
-- **Tools**: [clothes](/clothes) [backpack](/backpack), [car](/car), [bicycle](/bicycle)
+- **Time**: [1](1.md), [calendar](/https://calendar.google.com), [todo list](https://tasks.google.com)
 - **Money**: [budget](/budget), bank, tax-info, passport, ID, health-insurance
-- **Time**: exp-log, [calendar](/https://calendar.google.com), [todo list](https://tasks.google.com)
+- **Healthcare**: professional [cleaning](/cleaning)
+	- *Physician* (general health) checkup every 1 year
+	- *Dentist* (teeth) checkup every 6 months
+	- *Dermatologist* (skin) checkup every 1 year
+	- *Optometrist* (eyes) checkup every 1 year
+- **Envs**: [home](/home), [outside](/outside)
+- **Tools**: [clothes](/clothes) [backpack](/backpack), [car](/car), [bicycle](/bicycle)
 
 ## How to identify your essentials
 1. Identify actual behaviors

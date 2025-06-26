@@ -1,6 +1,7 @@
 ---
-title: Caveman Consulting
+title: Consulting
 ---
+Name: *Caveman Consulting*, *Back to Basics Consulting*
 
 What I do
 - Freelance problem-solving
@@ -25,4 +26,13 @@ Why?
 - Most people mistake complexity for sophistication
 - They're afraid simple solutions make them replaceable
 - Inherit systems and never question the foundations
+
+- [ ] Learn to pitch freelance work
+	- Write 1 polished writing sample this week (personal, useful, clear)
+	- Apply to 3 low-barrier paid writing gigs (ProBlogger, Craigslist, etc.)
+	- Pitch 3 small businesses directly (short, $100/article offer, link sample)
+	- Make a basic “Hire Me” page on your site with 1–2 samples and rate
+	- Set up PayPal or Stripe for easy payments
+	- Track contacts, samples used, and outcomes
+
 

@@ -14,6 +14,9 @@
     <loc>https://blakeruprecht.com/breathing/</loc>
     <lastmod>2025-06-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blakeruprecht.com/living/</loc>
+    <lastmod>2025-06-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blakeruprecht.com/lifting/</loc>
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -59,9 +62,6 @@
     <loc>https://blakeruprecht.com/beer/</loc>
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/happiness/</loc>
-    <lastmod>2025-06-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blakeruprecht.com/sleeping/</loc>
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -72,6 +72,9 @@
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/bicycle/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blakeruprecht.com/boxing/</loc>
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/building-websites/</loc>
@@ -86,16 +89,10 @@
     <loc>https://blakeruprecht.com/cooking/</loc>
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/dopamine/</loc>
-    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blakeruprecht.com/driving/</loc>
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/environment/</loc>
-    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blakeruprecht.com/fighting/</loc>
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/fishing/</loc>
@@ -149,9 +146,6 @@
     <loc>https://blakeruprecht.com/singing/</loc>
     <lastmod>2025-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/thinking/</loc>
-    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blakeruprecht.com/cleaning/</loc>
     <lastmod>2025-05-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -200,7 +194,7 @@
     <loc>https://blakeruprecht.com/woodworking/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/loving/</loc>
+    <loc>https://blakeruprecht.com/relating/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/dcbs/</loc>
@@ -208,12 +202,6 @@
   </url><url>
     <loc>https://blakeruprecht.com/bookshelf/</loc>
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blakeruprecht.com/perfectionism/</loc>
-    <lastmod>2024-05-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blakeruprecht.com/simplicity/</loc>
-    <lastmod>2024-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/_seeds/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
@@ -245,9 +233,6 @@
     <loc>https://blakeruprecht.com/game-theory/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/growth-mindset/</loc>
-    <lastmod>2023-08-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blakeruprecht.com/building-computers/</loc>
     <lastmod>2023-07-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -265,9 +250,6 @@
   </url><url>
     <loc>https://blakeruprecht.com/action/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blakeruprecht.com/procrastinating/</loc>
-    <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/neural-network/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
@@ -290,25 +272,19 @@
   </url><url>
     <loc>https://blakeruprecht.com/photographing/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/talking/</loc>
-  </url><url>
     <loc>https://blakeruprecht.com/thailand/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/ai/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/archive/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/asthma/</loc>
-  </url><url>
     <loc>https://blakeruprecht.com/binary/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.com/brew/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/capitalist/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/categories/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/caveman-consulting/</loc>
+    <loc>https://blakeruprecht.com/consulting/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/culture/</loc>
   </url><url>
@@ -317,10 +293,6 @@
     <loc>https://blakeruprecht.com/farming/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/fire/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.com/giving/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.com/hanging-out/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/hunting/</loc>
   </url><url>
@@ -342,9 +314,9 @@
   </url><url>
     <loc>https://blakeruprecht.com/intelligence/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/reading/</loc>
+    <loc>https://blakeruprecht.com/outside/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/serving/</loc>
+    <loc>https://blakeruprecht.com/reading/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/skipping-rope/</loc>
   </url><url>
@@ -358,13 +330,9 @@
   </url><url>
     <loc>https://blakeruprecht.com/time/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/touching/</loc>
-  </url><url>
     <loc>https://blakeruprecht.com/turing-machine/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/united-states-of-america/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.com/universe/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/videoshelf/</loc>
   </url><url>
