@@ -27,7 +27,7 @@ All time periods have been the most chaotic, most extreme, craziest time period 
 - **Micro-goals** – Reduce task to smallest possible movement. Do only that.  
 - **Visualization** – See goal, then now. Let the gap push you.  
 - **Self-talk** – “Keep going.” “This is working.” Say it. Mean it.  
-- **[Tracking](/1)** – Count attempts, completions, frequency. Nothing else.  
+- **[Tracking](explog.md)** – Count attempts, completions, frequency. Nothing else.  
 - **[Movement](/moving)** – Use the body to unlock the mind.
 
 

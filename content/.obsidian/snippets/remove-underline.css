@@ -1,0 +1,21 @@
+/* Remove underlines from all links in edit mode */
+.cm-underline,
+.cm-hmd-internal-link,
+.cm-link,
+.cm-url {
+    text-decoration: none !important;
+}
+
+/* Remove underlines from all links in reading mode */
+.markdown-rendered a,
+.internal-link,
+.external-link,
+.markdown-preview-view a {
+    text-decoration: none !important;
+}
+
+/* Remove underlines from graph view and other UI elements */
+a.internal-link,
+a.external-link {
+    text-decoration: none !important;
+}

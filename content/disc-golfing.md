@@ -24,7 +24,7 @@ You only technically need one disc, but a putter is pretty important, and once y
 - **Fairway Driver** - Once you can overthrow your midrange.
 - **Distance Driver** - Once you can overthrow your fairway.
 
-## My current [Bag](backpack.md)
+## My current [Bag](/pack)
 - Backpack (16L packable waterproof Matador)
 - Discs
 	- **Putter** - Sensei, I also like the Judge, Aviar, and Luna

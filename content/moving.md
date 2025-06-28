@@ -2,23 +2,34 @@
 title: Moving
 date: 2025-06-07
 ---
-All movement starts with proper [breathing](/breathing). Deep, slow breathing engages the core, straightens the spine, opens the shoulders, and aligns the hips. Maintain this posture when laying, sitting, standing, or moving.
+PRACTICE
+- **Train** - my breath, muscles, and cardio each day
+- **Travel** - as needed to get from A to B
+- **Play** - some sport, anything just for fun
 
-Locomotion transports the body. Maintain good posture. Natural forms include [walking](/walking), swimming, crawling, and swinging. Vehicle-assisted forms include [cycling](/cycling), [driving](/driving), and [public transportation](/public-transportation).
+RESOURCES
+- TIME: 10-60+ mins for each, as much as possible
+- MONEY: free
+- TOOLS: [clothes](/clothes), Rings, JumpRope, Sandbag/KB/BB/DB, Discs, Glove/Balls, FishingRod, Bow, Backpack
+- ENVS: [HOME_GYM](/home), [PACK_UTILITY](/pack)
 
-## Train
-1. [Boxing](/boxing) = improved everything
-2. [Lifting](/lifting) + [Stretching](/stretching) = improved strength, speed, power, size
-3. [Running](/running) + [Skipping rope](/skipping-rope) = improved sprinting, endurance, duration
+**Moving** is maintenance, daily physical hygiene. Use it or lose it. Push slightly harder each week to grow. Add reps, weight, speed, etc over time. Track progress. Small increases equal big returns.
 
-## Sports
-- [balling](/balling)
-- [disc-golfing](/disc-golfing)
-- [hunting](/hunting)
-- [fishing](/fishing)
-- [camping](/camping)
+All movement starts with [breathing](/breathing). Deep, slow breaths engage the core, straighten the spine, relax the shoulders, and activate the glutes. Maintain this posture while moving.
 
-## My Travels and Places
-- Lived: [Denver](/denver), [Atlanta](/atlanta), [Columbia](/columbia), [Saint Louis](/saint-louis), [U.S.A.](/united-states-of-america)
-- Traveled: [Colorado](/colorado), [Missouri](/missouri), [Yosemite](/yosemite)
-- World Tour: [Mexico](/mexico), [Thailand](/thailand), [Laos](/laos), [Italy](/italy), [Hungary](/hungary), [Austria](/austria)
+Move in every way humans naturally do. Don’t specialize too early. Play everything. Walk, run, sprint, lift, carry, hang, crawl, swim, throw, kick, strike. Build a generalist movement foundation, strength follows.
+
+## Fundamental Movements
+- [Breathing](/breathing) - foundation of posture
+- [Walking](/walking) - core locomotion
+- [Running](/running) - fast locomotion, great cardio
+- [Lifting](/lifting) - practice pulling, pushing, squatting, lifting, carrying
+- [Stretching](/stretching) - mobilize tight areas
+- [Skipping Rope](/skipping-rope) - balance, rhythym, cardio
+- [Boxing](/boxing) - improved everything
+- [Balling](/balling) - explosive throws, kicks, jumps, sprints
+- [Disc Golfing](/disc-golfing) - explosive throws, aim
+- [Fishing](/fishing) - patience, strategy, wildness
+- [Hunting](/hunting) - patience, aim, wildness
+- [Camping](pack.md) - self-reliance, endurance
+- Vehicles: [Cycling](/cycling), [Driving](/driving), and [Public Transportation](/public-transportation).

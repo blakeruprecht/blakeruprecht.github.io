@@ -9,12 +9,12 @@ I gather whole ingredients, as minimally processed as possible.
 
 I keep this **enduring list** on my phone with checkboxes and uncheck ingredients I run out of throughout the week. This way, anytime I pop into a grocery store, I can remember what I'm missing at home.
 - MEAT & DAIRY
-	- Chicken Thigh or Breast
-	- Ground Beef (or fish, or wild game)
-	- Greek Yogurt, whole milk
-	- Milk, whole, vitamin D
-	- Cheese, typically shredded or cream
-- CARBS / FATS / AISLES
+	- Chicken (thigh or breast)
+	- Beef (ground) or Fish
+	- Greek Yogurt, whole
+	- Milk, whole
+	- Cheese
+- CARBS / FATS
 	- Oats, old-fashioned
 	- Peanut Butter
 	- Rice, usually white

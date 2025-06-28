@@ -2,14 +2,16 @@
 title: Home
 date: 2025-06-03
 ---
-Do some of it yourself, e.g. [Woodworking](/woodworking)
+## UTILITY
+- (TOOLS) Toolbag, Tape, Triangle, Hammer, Allens, Sockets, BitSet, Drill, Charger, 
+- (GARDEN) ReelMower, Hose
 
-**BEDROOM** - Used for sleeping and storing clothes.
+## BEDROOM 
 - (BED) Mattress, BedFrame, Sheets, Blankets, Pillows
 - (FURNITURE) NightStand, Lamp, AlarmClock
 - (CLOSET) [clothes](/clothes), Hangers20, Hamper, Basket2, ShoeRack
 
-**BATHROOM** - Used for toilet, washing, eyecare, teethcare, skincare, haircare.
+## BATHROOM
 - (TOILET) Toilet, Plunger, toiletpaper/Bidet
 - (WASH_SINK) Sink, soap, HandTowels
 - (WASH_SHOWER) Shower, Curtain, Mat, soap, BathTowels
@@ -19,20 +21,24 @@ Do some of it yourself, e.g. [Woodworking](/woodworking)
 - (SKINCARE) deodorant, sunscreen, moistrurizer
 - (HAIRCARE) BeardTrimmer, HairTrimmer
 
-**KITCHEN** - Used for storing food, prepping, cooking, and eating.
+## KITCHEN
 - (STORE) Pantry, Fridge, Containers
 - (PREP) Counters, CuttingBoard, ChefKnife, BreadKnife, Scale
 - (COOK) Stove, CastIronSkillet, DutchOven, PanSS, PotSS, BakingSheets, Tongs, Spatula, WoodSpoon, Thermometer, OveGloves
 - (EAT) Forks, Spoons, Knives, Chopsticks, Plates, Bowls, Cups, Mugs, StorageContainers
 - (CLEAN) Sink, soap, sponge
+- **storage, water/soap/sponge, Knife, Board, Skillet, Tongs, Meter, Gloves, Spoon, Bowl, Cup**
 
-**LIVING** - Used for chilling and misc stuff (up to you)
+## GYM
+- (GYM) GymRings, JumpRope, DipBelt, Weights, PullupBar, Barbell, Weights, SquatRack, Bench
+- (PLAY) Discs, Bball, Cleats, Glove, ***Bow+Arrow**, **Pole+Tackle**, **Pistol9***
+
+## LIVING
 - (SIT) Chairs, Table, Couches
 - (MUSIC) Wonderboom2
+
+## OFFICE
 - (OFFICE) Desk, Chair, Keyboard+Mouse+Pad, Monitor+Webcam, Dock+Earbuds
-- (GYM) GymRings, JumpRope, DipBelt, Weights, PullupBar, Barbell, Weights, SquatRack, Bench
-- (GARDEN) ReelMower, Hose
-- (PLAYING) Discs, Bball, Cleats, Glove, ***Bow+Arrow**, **Pole+Tackle**, **Pistol9***
 
 ### Best States for Off-Grid Homes
 - A: Idaho, Kentucky, [Missouri](missouri.md), Oregon 

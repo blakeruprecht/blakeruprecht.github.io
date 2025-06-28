@@ -1,6 +1,5 @@
 ---
-title: "1"
-draft: true
+title: explog
 ---
 EXP(LOG) = LOG(EXP) = 1 DAY AT A TIME
 

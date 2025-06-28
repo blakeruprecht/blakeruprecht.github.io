@@ -14,7 +14,7 @@ ESSENTIAL EXTRAS
 - Ice Scraper
 
 ACTUAL EXTRAS
-- Toolbag, Tape, Triangle, Hammer, Allens, Sockets, BitSet, Drill, Charger, DuctTape, ***ElectricalTape***, ***SuperGlue***, ***ZipTies***, ***PatchKit***
+- DuctTape, ***ElectricalTape***, ***SuperGlue***, ***ZipTies***, ***PatchKit***
 - ***WaterJug5gal***, ***trashbags***, WashBasin, ***Rags***
 - Cooler, ***Stove+fuel***, ***CuttingBoard***, ***Skillet***, ***oliveoil***, ***salt/pep/redpep***, ***Pourover***, Mug, ***Plate***, ***Bags/Tupperware***
 - WoolBlanket, ***Chair***

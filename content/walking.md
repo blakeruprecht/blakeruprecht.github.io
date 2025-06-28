@@ -2,7 +2,14 @@
 title: Walking
 date: 2025-06-03
 ---
-Walking is fun, and gets you [outside](/outside) consistently. It's the easiest way to travel from A to B, but also the slowest. Zero equipment needed. Slower than both [cycling](/cycling) and [driving](/driving), but this gives time to think and relax.
+PRACTICE
+- **Walk** daily
 
-1. Walk daily, move at your natural pace.
+RESOURCES
+- TIME: 1+ mins
+- MONEY: free
+- TOOLS: [clothes](/clothes)
+- ENVS: anywhere
+
+Walking is fun, and gets me outside consistently. It's the simplest way to travel from A to B, and the most human. I do it every single day. Hell, I do it for fun! Zero equipment needed. Slower than both [cycling](/cycling) and [driving](/driving), but walking gives me more time to observe and relax. Walking is great exercise to maintain cardio, muscles, joints, everything. Especially walking up hills (aka hiking).
 

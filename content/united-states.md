@@ -1,7 +1,7 @@
 ---
 title: United States of America
 ---
-I'm from [STL](/saint-louis), [MO](/missouri), USA.
+I'm from [STL](/st-louis), [MO](/missouri), USA.
 
 America is a confusing place to live. It's the wealthiest country in the world, but not for most. It's the most beautiful country in the world, but difficult to travel through. It's a land of extremes. Extremely big, extremely fast, extremely brutal.
 

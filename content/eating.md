@@ -2,11 +2,24 @@
 title: Eating
 date: 2025-05-30
 ---
-I eat 3000 calories per day to maintain my energy, 150 g Protein per day to maintain my muscle, and a wide Variety of ingredients to maintain my micronutrient levels. I eat 3 meals per day.
-- [Gathering](/gathering) whole ingredients throughout the week
-- *Breakfast*: [smoothie](/smoothie)
-- *Lunch*: [lunchbox](/lunchbox) or [salad](/salad)
-- *Dinner*: [cooking](/cooking) something from my personal [menu](/menu)
+PRACTICE
+- **Eat** meal 1, 1000cal, 50gP, +coffee
+- **Eat** meal 2, 1000cal, 50gP, +drink
+- **Eat** meal 3, 1000cal, 50gP, +beer
+- as needed
+	- **[Gather](/gathering)** whole ingredients
+	- **[Cook](/cooking)** simple meals
+		- Breakfast: [smoothie](/smoothie)
+		- Lunch: [lunchbox](/lunchbox), [salad](/salad)
+		- Dinner: [my menu](/menu)
+
+RESOURCES
+- TIME: breakfast 15-30 mins, lunch 30 mins, dinner 30-60 mins, gathering 30 mins
+- MONEY: [Budget-Utilities](/budget), [Budget-Food](/budget)
+- TOOLS: storage, water/soap/sponge, Knife, Board, Skillet, Tongs, Meter, Gloves, Spoon, Bowl, Cup
+- ENVS: [HOME-KITCHEN](/home), [PACK_FIRE](/pack)
+
+**Eating** maintains the energy needed for [living](/living). Food builds the human body, every part of me is made up of the things I eat. Eat plenty of macronutrients, mainly protein, and micronutrients from a wide variety of ingredients.
 
 ## Energy
 Food is fuel for [living](/living). Get a rough estimate of how much you need daily with a [TDEE calculator](https://tdeecalculator.net/). Use a scale to measure weight gain/loss, and adjust caloric intake based on that. Drinking calories is easier than chewing them. Calorie/meal timing doesn't matter.
@@ -27,7 +40,21 @@ Large chemical molecules we need in bulk to provide energy and structure for the
 
 ## Micronutrients
 Small chemical molecules and elements we need in certain amounts because the body can't make them. Too complex to memorize. Just eat diverse whole foods. Here's a good list:
-- Plants
+
+- Animal
+	- *Poultry*: eggs, chicken, turkey
+	- *Fish*: tuna, salmon, trout
+	- *Red Meat*: beef, pork, bison, rabbit, liver
+	- *Dairy*: yogurt, milk, cheese, butter
+- Carbs
+	- *Grains*: oats, wheat (bread/tortilla), corn, rice, pasta
+	- *Tubers*: potatoes, sweetPotatoes
+	- *Legumes*: beans, lentils, tofu, edamame (all have lots of protein too)
+- Fats
+	- *Oils*: olive oil, veggie oil
+	- *Nuts*: cashews, almonds, walnuts, pistachios
+	- *Seeds*: sunflower, sesame, chia, hemp, flax
+- Veggies & Fruits
 	- *Leaves*: spinach, kale, romaine, spring mix
 	- *Herbs*: cilantro, basil, rosemary, thyme
 	- *Crucifers*: broccoli, cabbage
@@ -35,19 +62,10 @@ Small chemical molecules and elements we need in certain amounts because the bod
 	- *Citrus*: lemon, lime, tomato, oranges, pineapple, chili peppers
 	- *Berries*: banana, blueberry, blackberry, kiwi, avocado
 	- *Fungi*: mushrooms, nutritional yeast
-	- *Legumes*: beans, lentils, tofu, edamame
-	- *Nuts*: cashews, almonds, walnuts, pistachios
-	- *Seeds*: sunflower, sesame, chia, hemp, flax
-	- *Grains*: pasta, rice, oats, corn, bread, tortilla
-	- *Oils*: olive oil, veggie oil
+- Misc
 	- *Spices*: kosher salt, whole black pepper, red pepper flakes, cumin, turmeric
-	- *Condiments*: salsa, hot sauce, hummus, mustard, sauerkraut
-	- *Drinks*: water, coffee, tea
-- Animals
-	- *Poultry*: eggs, chicken, turkey
-	- *Fish*: tuna, salmon, trout
-	- *Red Meat*: beef, pork, bison, rabbit, liver
-	- *Dairy*: yogurt, milk, cheese, butter
+	- *Condiments*: salsa, hot sauce, mustard, sauerkraut, pickles
+	- *Drinks*: coffee, tea, beer
 
 ## Anabolism
 The state of the body where it is capable of building muscle. In to do this, the body requires a few things:

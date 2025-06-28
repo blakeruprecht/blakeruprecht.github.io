@@ -1,8 +1,8 @@
 ---
-title: Saint Louis
+title: St. Louis
 date: 2025-06-02
 ---
-I'm from STL, [MO](/missouri), [USA](/united-states-of-america).
+I'm from STL, [MO](/missouri), [USA](/united-states).
 
 It's kind of Anywhere, USA, from the sense that it is so average as far as American cities go.
 

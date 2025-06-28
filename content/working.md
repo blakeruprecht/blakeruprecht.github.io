@@ -2,21 +2,28 @@
 title: Working
 date: 2025-06-06
 ---
+PRACTICE
+1. **Apply** to jobs
+2. **Do** the work
+3. **Get paid**
+
+RESOURCES
+- TIME: roughly 8 hours per day
+- MONEY: [Budget-Savings](/budget)
+- TOOLS: [Smartphone](/smartphone), Laptop, Chargers
+- ENVS: [HOME_OFFICE](/home), [PACK_UTILITY](/pack)
+
 **Working** is getting and doing jobs that generate income. Everything else (career, mission, skills, education) exists to support this. Secure income through jobs that use my abilities and align with my direction.
 
-## Core
-- **Find** jobs -- indeed.com, hiring.cafe, in-person
-- **Apply** to jobs
-	1. *Inventory* everything about my past work experience with quantified impact.
-	2. *Extract* my relevant transferable skills, experience, and education.
-	3. *Match* my skills/experience/education with a real job opportunity.
-	4. *Mirror* their language with my *resume* to get past AI bots.
-	5. *Prove* the fit with a cover letter, good emails, and interviewing well.
-		- *Cover Letters* show specific connection between your skills and their needs
-		- *Emails* are a chance to show that you are polite and responsive.
-		- *Interviews* are a change to talk about your skills and get a vibe check.
-- **Do** the work
-- **Get paid**
+**How to apply:**
+1. *Inventory* everything about my past work experience with quantified impact.
+2. *Extract* my relevant transferable skills, experience, and education.
+3. *Match* my skills/experience/education with a real job opportunity.
+4. *Mirror* their language with my *resume* to get past AI bots.
+5. *Prove* the fit with a cover letter, good emails, and interviewing well.
+	- *Cover Letters* show specific connection between your skills and their needs
+	- *Emails* are a chance to show that you are polite and responsive.
+	- *Interviews* are a change to talk about your skills and get a vibe check.
 
 ## My Mission
 I want to be a ***Technical Consultant***. I simplify complexity. I teach, write, and build tools that help people think clearly and act decisively.

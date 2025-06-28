@@ -32,9 +32,6 @@
     <loc>https://blakeruprecht.com/budget/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/camping/</loc>
-    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blakeruprecht.com/cycling/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -45,6 +42,9 @@
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/menu/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blakeruprecht.com/pack/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/sunlight/</loc>
@@ -66,9 +66,6 @@
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/agent/</loc>
-    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blakeruprecht.com/backpack/</loc>
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/bicycle/</loc>
@@ -140,10 +137,10 @@
     <loc>https://blakeruprecht.com/humans/</loc>
     <lastmod>2025-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/saint-louis/</loc>
+    <loc>https://blakeruprecht.com/singing/</loc>
     <lastmod>2025-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/singing/</loc>
+    <loc>https://blakeruprecht.com/st-louis/</loc>
     <lastmod>2025-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/cleaning/</loc>
@@ -260,8 +257,6 @@
     <loc>https://blakeruprecht.com/4runned/</loc>
     <lastmod>2018-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blakeruprecht.com/air/</loc>
-  </url><url>
     <loc>https://blakeruprecht.com/austria/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/hungary/</loc>
@@ -269,8 +264,6 @@
     <loc>https://blakeruprecht.com/italy/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/laos/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.com/photographing/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/thailand/</loc>
   </url><url>
@@ -289,6 +282,8 @@
     <loc>https://blakeruprecht.com/culture/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/democratic/</loc>
+  </url><url>
+    <loc>https://blakeruprecht.com/explog/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/farming/</loc>
   </url><url>
@@ -314,7 +309,7 @@
   </url><url>
     <loc>https://blakeruprecht.com/intelligence/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/outside/</loc>
+    <loc>https://blakeruprecht.com/photographing/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/reading/</loc>
   </url><url>
@@ -332,11 +327,13 @@
   </url><url>
     <loc>https://blakeruprecht.com/turing-machine/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/united-states-of-america/</loc>
+    <loc>https://blakeruprecht.com/united-states/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/videoshelf/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/watching/</loc>
+  </url><url>
+    <loc>https://blakeruprecht.com/water/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/weed/</loc>
   </url><url>
