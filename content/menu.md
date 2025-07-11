@@ -19,7 +19,7 @@ I keep the same basic [grocery list](/gathering) each week, so I never have to r
 - [pozole-verde-soup], [black-bean-soup], [red-chile]
 
 **Italian-ish: Ingredient showcases**
-- [aglio-e-olio](/aglio-e-olio), [cacio-e-pepe], [marinara], [pesto], [carbonara]
+- [pasta-aglio-e-olio](/pasta-aglio-e-olio), [pasta-cacio-e-pepe], [pasta-marinara], [pasta-pesto], [pasta-carbonara]
 - [risotto]
 - [pizza-margherita], [pizza-romano], [doner-kebab]
 

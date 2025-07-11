@@ -109,15 +109,14 @@ p + ul, p + ol {
 
 /* LINKS */
 a {
-  color: var(--link);
-  text-decoration: none;
-  text-decoration-color: var(--link);
+  color: var(--fg-color);
+  text-decoration-color: var(--mg-color);
   text-underline-offset: 2px;
 }
 
 a:hover {
-  color: var(--link-hover);
-  text-decoration-color: var(--link-hover);
+  color: var(--mg-color);
+  text-decoration-color: var(--mg-color);
 }
 
 a:focus {
@@ -179,8 +178,7 @@ hr {
   width: 100%;
   font-size: 1.2rem;
   margin: 0;
-  padding: 0;
-  padding-bottom: 0.5rem;
+  padding: 4rem 0 1rem 0;
 }
 
 .logo-img {

@@ -2,22 +2,15 @@
 title: Eating
 date: 2025-05-30
 ---
-PRACTICE
+## Practice
 - **Eat** meal 1, 1000cal, 50gP, +coffee
 - **Eat** meal 2, 1000cal, 50gP, +drink
 - **Eat** meal 3, 1000cal, 50gP, +beer
-- as needed
-	- **[Gather](/gathering)** whole ingredients
-	- **[Cook](/cooking)** simple meals
-		- Breakfast: [smoothie](/smoothie)
-		- Lunch: [lunchbox](/lunchbox), [salad](/salad)
-		- Dinner: [my menu](/menu)
-
-RESOURCES
-- TIME: breakfast 15-30 mins, lunch 30 mins, dinner 30-60 mins, gathering 30 mins
-- MONEY: [Budget-Utilities](/budget), [Budget-Food](/budget)
-- TOOLS: storage, water/soap/sponge, Knife, Board, Skillet, Tongs, Meter, Gloves, Spoon, Bowl, Cup
-- ENVS: [HOME-KITCHEN](/home), [PACK_FIRE](/pack)
+- **[Gather](/gathering)** whole ingredients
+- **[Cook](/cooking)** simple meals
+	- Breakfast: [smoothie](/smoothie)
+	- Lunch: [lunchbox](/lunchbox), [salad](/salad)
+	- Dinner: [my menu](/menu)
 
 **Eating** maintains the energy needed for [living](/living). Food builds the human body, every part of me is made up of the things I eat. Eat plenty of macronutrients, mainly protein, and micronutrients from a wide variety of ingredients.
 

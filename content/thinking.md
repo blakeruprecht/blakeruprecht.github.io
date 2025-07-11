@@ -30,7 +30,6 @@ All time periods have been the most chaotic, most extreme, craziest time period 
 - **[Tracking](explog.md)** – Count attempts, completions, frequency. Nothing else.  
 - **[Movement](/moving)** – Use the body to unlock the mind.
 
-
 ## Good
 - **Integrity**: I am alive, that's enough. I take full responsibility and own everything in my life. I serve only that which I love.
 - **Clarity**: I free myself from illusion, stories, destinations. I question everything. I adapt fluidly to new data. I simplify to only the signals that help what I love.

@@ -2,45 +2,25 @@
 title: Home
 date: 2025-06-03
 ---
-## UTILITY
-- (TOOLS) Toolbag, Tape, Triangle, Hammer, Allens, Sockets, BitSet, Drill, Charger, 
-- (GARDEN) ReelMower, Hose
+A **home** is basically a permanent shelter that you stay in. As homes get more complex, they include more and more tools for convenience. E.g. the simplest home is a cave or natural shelter. Expanding from there, you can add in artificial walls (like a tent, van, apartment, or house) to create an official bedroom. Add in some plumbed water, and you've got a bathroom. Setup a campfire or plumb some gas and you have a kitchen. 
 
-## BEDROOM 
-- (BED) Mattress, BedFrame, Sheets, Blankets, Pillows
-- (FURNITURE) NightStand, Lamp, AlarmClock
-- (CLOSET) [clothes](/clothes), Hangers20, Hamper, Basket2, ShoeRack
+## Bedroom
+The simplest bedroom consists of a roof and floor, maybe with walls. Like a cave, tent, apartment, or house.
 
-## BATHROOM
-- (TOILET) Toilet, Plunger, toiletpaper/Bidet
-- (WASH_SINK) Sink, soap, HandTowels
-- (WASH_SHOWER) Shower, Curtain, Mat, soap, BathTowels
-- (WASH_LAUNDRY) WashingMachine, Dryer/Clothesline
-- (EYECARE) Sunglasses, Glasses, contacts, Case, solution
-- (TEETHCARE) Tootbrush, toothpaste, floss
-- (SKINCARE) deodorant, sunscreen, moistrurizer
-- (HAIRCARE) BeardTrimmer, HairTrimmer
+## Bathroom
+The great outdoors still works as a toilet. A water source is needed for washing hands/sink work, showering, and laundry. Some tools are needed for each of those.
 
-## KITCHEN
-- (STORE) Pantry, Fridge, Containers
-- (PREP) Counters, CuttingBoard, ChefKnife, BreadKnife, Scale
-- (COOK) Stove, CastIronSkillet, DutchOven, PanSS, PotSS, BakingSheets, Tongs, Spatula, WoodSpoon, Thermometer, OveGloves
-- (EAT) Forks, Spoons, Knives, Chopsticks, Plates, Bowls, Cups, Mugs, StorageContainers
-- (CLEAN) Sink, soap, sponge
-- **storage, water/soap/sponge, Knife, Board, Skillet, Tongs, Meter, Gloves, Spoon, Bowl, Cup**
+## Kitchen
+The room that makes a place a home. A place to store food, cook, and eat it.
 
-## GYM
-- (GYM) GymRings, JumpRope, DipBelt, Weights, PullupBar, Barbell, Weights, SquatRack, Bench
-- (PLAY) Discs, Bball, Cleats, Glove, ***Bow+Arrow**, **Pole+Tackle**, **Pistol9***
+## Living
+Everything else done at home goes in the living section. This is the biggest differentiator in most homes. Every home has a bedroom, bathroom, and kitchen in different layouts, but then lots of tradeoffs are made to prioritize dining rooms, TV rooms, sitting rooms, outdoor space, garage space, etc.
+- Sitting/Eating
+- Outdoor Sitting/Eating
+- Home Gyms
+- Home Offices
 
-## LIVING
-- (SIT) Chairs, Table, Couches
-- (MUSIC) Wonderboom2
-
-## OFFICE
-- (OFFICE) Desk, Chair, Keyboard+Mouse+Pad, Monitor+Webcam, Dock+Earbuds
-
-### Best States for Off-Grid Homes
+## Best States for Off-Grid Homes
 - A: Idaho, Kentucky, [Missouri](missouri.md), Oregon 
 - B+: Alaska, Maine, Montana, Nebraska, New Mexico, Oklahoma, South Dakota, Tennessee, Utah, Washington, Wyoming 
 - B: Alabama, Arizona, Arkansas, Colorado, Georgia, Kansas, Michigan, Minnesota, Nevada, New Hampshire, North Carolina, North Dakota, South Carolina, West Virginia, Wisconsin 

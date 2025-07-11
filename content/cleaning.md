@@ -16,12 +16,6 @@ DAILY PRACTICE
 	- *Dermatologist* (skin) checkup every 1 year
 	- *Optometrist* (eyes) checkup every 1 year
 
-RESOURCES
-- TIME: 15min for morning/night, 30+ mins for shower
-- MONEY: [Budget-Utilities](/budget)
-- TOOLS: sink/soap/Towel, Contacts/Glasses, Toothbrush/paste/floss, shower/soap/Towel
-- ENVS: [HOME-BATHROOM](/home), [PACK_WATER](/pack)
-
 Cleaning is daily maintenance to keep the body free of disease. It's preventative maintenace for the body.
 
 For inspiration, look how good your hair can look when taken care of:

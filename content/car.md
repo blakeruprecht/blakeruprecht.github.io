@@ -2,21 +2,13 @@
 title: Car
 date: 2025-06-03
 ---
-A tool for [driving](/driving).
+A **car** is basically a complex tool for [traveling](/moving) from A to B. It's pretty essential when living in the [USA](/united-states), except for certain big cities.
 
-REQUIREMENTS
-- Car
-- Driver's License, Car Insurance, Vehicle Registration & License Plates
-
-ESSENTIAL EXTRAS
-- Jumper Cables
-- Windshield Reflector
-- Ice Scraper
-
-ACTUAL EXTRAS
-- DuctTape, ***ElectricalTape***, ***SuperGlue***, ***ZipTies***, ***PatchKit***
-- ***WaterJug5gal***, ***trashbags***, WashBasin, ***Rags***
-- Cooler, ***Stove+fuel***, ***CuttingBoard***, ***Skillet***, ***oliveoil***, ***salt/pep/redpep***, ***Pourover***, Mug, ***Plate***, ***Bags/Tupperware***
-- WoolBlanket, ***Chair***
-
-My favorite car was the [1997 Toyota 4Runner](/4runned) that I accidentally tipped over.
+## Car Tools
+- **Driver's License** - required to legally operate a car in most places
+- **Car Insurance** - ditto
+- **Car Registration/Plates** - ditto
+- *Jumper Cables* - used to jumpstart vehicles
+- *Spare & Jack* - used to replace a wheel & tire for short distances
+- *Ice Scraper* - clear car of ice and snow in the winter
+- *Windshield Reflector* - protect car interior from hot sun

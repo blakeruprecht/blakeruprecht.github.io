@@ -7,12 +7,6 @@ PRACTICE
 2. **Do** the work
 3. **Get paid**
 
-RESOURCES
-- TIME: roughly 8 hours per day
-- MONEY: [Budget-Savings](/budget)
-- TOOLS: [Smartphone](/smartphone), Laptop, Chargers
-- ENVS: [HOME_OFFICE](/home), [PACK_UTILITY](/pack)
-
 **Working** is getting and doing jobs that generate income. Everything else (career, mission, skills, education) exists to support this. Secure income through jobs that use my abilities and align with my direction.
 
 **How to apply:**
@@ -25,9 +19,6 @@ RESOURCES
 	- *Emails* are a chance to show that you are polite and responsive.
 	- *Interviews* are a change to talk about your skills and get a vibe check.
 
-## My Mission
-I want to be a ***Technical Consultant***. I simplify complexity. I teach, write, and build tools that help people think clearly and act decisively.
-
 ## [My Resume](/cv-Blake-Ruprecht.pdf) 
 What I can do, what I’ve done, how I learned
 
@@ -39,7 +30,7 @@ Skills
 - Bridging gaps between fields, teams, levels
 - Adapting across domains while holding core strengths
 
-## My Career
+## Career
 Dream jobs are a combination of mastery, autonomy, and purpose.
 - *Master* - of rare and valuable skills
 - *Autonomy* - leverage from mastery
