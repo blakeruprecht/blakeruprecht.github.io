@@ -20,8 +20,8 @@
     --fg-color: #bfbfbf;
     --mg-color: #808080;
     --bg-color: #0b0b0b;
-    --link: #749ac8;
-    --link-hover: #5080AF;
+    --link: #dd0000;
+    --link-hover: #dd0000;
   }
 }
 
@@ -115,8 +115,8 @@ a {
 }
 
 a:hover {
-  color: var(--mg-color);
-  text-decoration-color: var(--mg-color);
+  color: var(--link-hover);
+  text-decoration-color: var(--link-hover);
 }
 
 a:focus {
@@ -182,7 +182,7 @@ hr {
 }
 
 .logo-img {
-  height: 3.0rem;
+  height: 2.5rem;
   width: auto;
   margin: 0;
   display: block;
@@ -195,15 +195,15 @@ hr {
 }
 
 .logo a {
-  color: var(--fg-color);
+  color: var(--link);
   text-decoration: none;
   font-weight: bold;
 }
 
 .logo a:hover {
-  color: var(--mg-color);
+  color: var(--link-hover);
   text-decoration: underline;
-  text-decoration-color: var(--mg-color);
+  text-decoration-color: var(--link-hover);
 }
 
 code {
@@ -249,13 +249,14 @@ footer {
 }
 
 footer a {
-  color: var(--mg-color);
+  color: var(--link);
   text-decoration: none;
 }
 
 footer a:hover {
-  color: var(--hg-color);
-  text-decoration-color: var(--fg-color);
+  color: var(--link-hover);
+  text-decoration: underline;
+  text-decoration-color: var(--link-hover);
 }
 
 @media (max-width: 768px) {

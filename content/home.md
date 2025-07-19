@@ -2,26 +2,35 @@
 title: Home
 date: 2025-06-03
 ---
-A **home** is basically a permanent shelter that you stay in. As homes get more complex, they include more and more tools for convenience. E.g. the simplest home is a cave or natural shelter. Expanding from there, you can add in artificial walls (like a tent, van, apartment, or house) to create an official bedroom. Add in some plumbed water, and you've got a bathroom. Setup a campfire or plumb some gas and you have a kitchen. 
+## Kitchen
+- **Blender, Scale, Stove, CastIronSkillet, DutchOven, PanSS, PotSS, BakingSheets, Tongs, Spatula, WoodSpoon, Thermometer, OveGloves, 64ozJar2, ColdBrewFilter**
+- **CuttingBoard, ChefKnife, BreadKnife**
+- **Forks, Spoons, Knives, Chopsticks, Plates, Bowls, Cups, Mugs, StorageContainers**
+- **Towels, sponges, soap**
 
 ## Bedroom
-The simplest bedroom consists of a roof and floor, maybe with walls. Like a cave, tent, apartment, or house.
+- **Mattress, BedFrame, Sheets, Pillows, Blankets**, Nighstand, Lamp, Clock
+- Hanger20, Hamper, Basket2
 
 ## Bathroom
-The great outdoors still works as a toilet. A water source is needed for washing hands/sink work, showering, and laundry. Some tools are needed for each of those.
-
-## Kitchen
-The room that makes a place a home. A place to store food, cook, and eat it.
+- **Toilet, toiletpaper, Plunger**
+- **Sink, Towels, soap, Trashcan, trashbags**
+- **Shower, Curtain, Mat, soap**
+- **WashingMachine, Dryer/Clothesline**
 
 ## Living
-Everything else done at home goes in the living section. This is the biggest differentiator in most homes. Every home has a bedroom, bathroom, and kitchen in different layouts, but then lots of tradeoffs are made to prioritize dining rooms, TV rooms, sitting rooms, outdoor space, garage space, etc.
-- Sitting/Eating
-- Outdoor Sitting/Eating
-- Home Gyms
-- Home Offices
+- **Chairs, Tables, Couches,** MusicSpeaker
+- ToolBag, MeasureTape, Hammer, Allens, Sockets, Triangle, DrillBits, Drill, Charger, Batteries
+- Desk, Chair, Keyboard, Mouse, MousePad, Monitor, Webcam, Dock
+- GymRings, **Parallettes**, DipBelt, **Weights**, **Sandbag**
+- Discs, Cleats, Glove, Basketball, Football, Soccerball
+- **Pole, Reel, line, hooks, weights, lures, Clippers, Forceps, Net**
+- **Bow, Arrows**
 
-## Best States for Off-Grid Homes
-- A: Idaho, Kentucky, [Missouri](missouri.md), Oregon 
+## Notes on homes
+
+**Best States for Off-Grid Homes**
+- A: Idaho, Kentucky, [Missouri](/missouri), Oregon 
 - B+: Alaska, Maine, Montana, Nebraska, New Mexico, Oklahoma, South Dakota, Tennessee, Utah, Washington, Wyoming 
 - B: Alabama, Arizona, Arkansas, Colorado, Georgia, Kansas, Michigan, Minnesota, Nevada, New Hampshire, North Carolina, North Dakota, South Carolina, West Virginia, Wisconsin 
 - C+: Florida, Illinois, Indiana, Iowa, Louisiana, Mississippi, Ohio, Pennsylvania, Texas, Vermont, Virginia 

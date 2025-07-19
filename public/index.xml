@@ -6,8 +6,22 @@
     <description>Recent content on Blake Ruprecht</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blakeruprecht.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Water</title>
+      <link>https://blakeruprecht.com/water/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/water/</guid>
+      <description>Water is a large chemical molecule (H2O) that happens to make up the majority of the human body. Drinking water is essential for humans to keep living.&#xA;I drink water every day, I am in love with water. Rains, streams, ponds. Clouds in the sky. Snow and steam. Water seeping into the ground, flowing around. Towards the great rivers, lakes, and oceans.</description>
+    </item>
+    <item>
+      <title>Videoshelf</title>
+      <link>https://blakeruprecht.com/videoshelf/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/videoshelf/</guid>
+      <description>Movies Everything Everywhere All at Once - Waymond Wong is a great character. The Big Lebowski - Coen brothers (film) Dudeism has got to be one of the most relaxing philosophies ever espoused. Great movie, great ideas, let&amp;rsquo;s just chill and go bowling. V for Vendetta - James McTeigue (film) A revolutionary film that taught me about rebellion and what it means to live based on your own code. V fights for what is right, and his eloquent sobriquets leave me loving words even more.</description>
+    </item>
     <item>
       <title>Blogshelf</title>
       <link>https://blakeruprecht.com/blogshelf/</link>
@@ -23,6 +37,13 @@
       <description>GitHub Repo: object-detection&#xA;This project demonstrates a simple visual inspection pipeline using a pretrained convolutional neural network (CNN). Images are loaded and passed into the CNN model, which outputs a predicted class and confidence score. The class and score are then overlaid on each image using OpenCV, and saved for further inspection. All of the results are logged to a CSV file.&#xA;Prerequisites github.com/blakeruprecht/object-detection Python Virtual environment (recommended): python3 -m venv venv source venv/bin/activate pip install torch torchvision opencv-python matplotlib System Overview compvis/ images/ example1.</description>
     </item>
     <item>
+      <title>Skipping Rope</title>
+      <link>https://blakeruprecht.com/skipping-rope/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/skipping-rope/</guid>
+      <description>I train my cardio sometimes by skipping rope. It&amp;rsquo;s a fun way to practice balance, coordination, and rhythym. It&amp;rsquo;s fantastic for cardio training, and also improves the calf and shoulder muscles, as well as the core.&#xA;I usually skip for 10-20 minutes. I started out by just doing 10 minutes every time and trying to do 100 skips each minute, and then resting the rest of the minute. Eventually, I have been able to add other types of skipping to my routine, and have made it more free flowing, but there&amp;rsquo;s no rules &amp;ndash; just bouncing up and down for 10 minutes will accomplish all of the magic.</description>
+    </item>
+    <item>
       <title>Breathing</title>
       <link>https://blakeruprecht.com/breathing/</link>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
@@ -30,11 +51,18 @@
       <description>PRACTICE&#xA;Zen - sit tall, relax, open shoulders, breathe naturally Box - 4s inhale, 4s hold, 4s exhale, 4s hold &amp;ndash; repeat Slow - extend each inhale and exhale as long as possible RESOURCES&#xA;TIME: any MONEY: none TOOLS: none ENVS: anywhere One moment, one breath, in through the nose, out through the mouth. Every breath returns you to the present.&#xA;Practice the art of focusing by picking something easy to focus on &amp;ndash; the breath.</description>
     </item>
     <item>
+      <title>Smartphone</title>
+      <link>https://blakeruprecht.com/smartphone/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/smartphone/</guid>
+      <description>Possible the single most useful and most harmful tool of modern life. I have a lot to say about this&amp;hellip; later&#xA;Hardware:&#xA;used iPhone 13 Mini from ebay Software:&#xA;comms: Call, Messages, GMail, Facetime travel: Calendar, Weather, GMaps money: Banking App, Venmo photos: Camera, Photos, GPhotos util: Clock, Calculator, Flashlight, ToDo </description>
+    </item>
+    <item>
       <title>Living</title>
       <link>https://blakeruprecht.com/living/</link>
       <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/living/</guid>
-      <description>Actions express priorities Relate with self, partner, family, friends, humanity&#xA;Work &amp;ndash; work-tasks&#xA;Maintain time, tasks, tools&#xA;Move &amp;ndash; Train, Walk/Cycle/Drive, Ball/Disc/Fish/Hunt/Camp&#xA;Eat breakfast, lunch, dinner&#xA;Drink water all day, +coffee/beer&#xA;Clean toilet, eyes, teeth, shave, shower&#xA;Sleep when tired until @8am&#xA;Breathe</description>
+      <description>Relate with self, partner, family, friends, humanity&#xA;Talk - listen, speak, call, message, joke, flirt Touch - presence, hugs, etc Hangout - spend quality time together, observe beauty, truth, pain Share - food, coffee, beer, music, letters, drawings, photos, read, watch Serve - do tasks for/with others Work &amp;ndash; work-tasks, maintain, write&#xA;Move &amp;ndash; train, walk/cycle/drive, disc/ball/fish/hunt/camp&#xA;Eat breakfast, lunch, dinner&#xA;Drink water all day, +coffee/beer&#xA;Clean toilet, eyes, teeth, shave, shower</description>
     </item>
     <item>
       <title>Lifting</title>
@@ -90,7 +118,7 @@
       <link>https://blakeruprecht.com/maintaining/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/maintaining/</guid>
-      <description>Practice Calendar - track time commitments to others Tasks - master list only ExpLog - optional daily tracking (paused) Budget - track money, limit spending Home - shelter is essential Car - transport is essential Tools - all the gear needed for life </description>
+      <description>Maintain time/money Calendar - track time commitments to others Tasks - master list only ExpLog - optional daily tracking (paused) Budget - track money, limit spending Maintain tools Home - shelter is essential Car - transport is essential Pack - all the gear needed for life Clothes - essential </description>
     </item>
     <item>
       <title>Menu</title>
@@ -160,7 +188,7 @@
       <link>https://blakeruprecht.com/boxing/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/boxing/</guid>
-      <description>&amp;ldquo;Fighting is always the last answer to a problem.&amp;rdquo;&#xA;Boxing is a spiritual discipline. A means of self-mastery. A final resort, never the first. The best fighters train so they never need to fight. The art is restraint backed by overwhelming force.&#xA;Practice The only martial art I have ever trained. Pure striking. Requires speed, timing, accuracy, conditioning, and control.&#xA;Conditioning: Skip rope, Run, Lift, and Stretch Practice: Heavy bag work, shadowboxing, +padwork/sparring Focus: Breathing, footwork, head movement, combinations Boxing is goated Boxing is the distilled essence of athleticism: raw power, speed, endurance, full-body integration, refined technique, strategy, and discipline.</description>
+      <description>&amp;ldquo;Fighting is always the last answer to a problem.&amp;rdquo;&#xA;Boxing is a spiritual discipline. A means of self-mastery. A final resort, never the first. The best fighters train so they never need to fight. The art is restraint backed by overwhelming force.&#xA;Practice The only martial art I have ever trained. Pure striking. Requires speed, timing, accuracy, conditioning, and control.&#xA;Conditioning: Skip rope, Run, and Lift Practice: Heavy bag, Shadowbox, Padwork, Sparring Focus: Breathing, footwork, head movement, combinations Mixed martial arts MMA has proved that no single discipline is enough &amp;ndash; not even boxing!</description>
     </item>
     <item>
       <title>Building Websites</title>
@@ -174,7 +202,7 @@
       <link>https://blakeruprecht.com/car/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/car/</guid>
-      <description>A car is basically a complex tool for traveling from A to B. It&amp;rsquo;s pretty essential when living in the USA, except for certain big cities.&#xA;Car Tools Driver&amp;rsquo;s License - required to legally operate a car in most places Car Insurance - ditto Car Registration/Plates - ditto Jumper Cables - used to jumpstart vehicles Spare &amp;amp; Jack - used to replace a wheel &amp;amp; tire for short distances Ice Scraper - clear car of ice and snow in the winter Windshield Reflector - protect car interior from hot sun </description>
+      <description>A car is basically a complex tool for traveling from A to B. It&amp;rsquo;s pretty essential when living in the USA, except for certain big cities.&#xA;Car Essentials Driver&amp;rsquo;s License - required to legally operate a car in most places Car Insurance - ditto Car Registration/Plates - ditto Spare Tire &amp;amp; Jack Jumper Cables Ice Scraper Windshield Reflector Car Camping WaterJug5gal, trashbags, WashBasin, Rags Storage, Cooler, Stove+fuel, CuttingBoard, Skillet, Pourover, Mug, Plate, oliveoil, salt/pep/redpep CampChair, WoolBlanket Hatchet </description>
     </item>
     <item>
       <title>Computing</title>
@@ -223,7 +251,14 @@
       <link>https://blakeruprecht.com/home/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/home/</guid>
-      <description>A home is basically a permanent shelter that you stay in. As homes get more complex, they include more and more tools for convenience. E.g. the simplest home is a cave or natural shelter. Expanding from there, you can add in artificial walls (like a tent, van, apartment, or house) to create an official bedroom. Add in some plumbed water, and you&amp;rsquo;ve got a bathroom. Setup a campfire or plumb some gas and you have a kitchen.</description>
+      <description>Kitchen Blender, Scale, Stove, CastIronSkillet, DutchOven, PanSS, PotSS, BakingSheets, Tongs, Spatula, WoodSpoon, Thermometer, OveGloves, 64ozJar2, ColdBrewFilter CuttingBoard, ChefKnife, BreadKnife Forks, Spoons, Knives, Chopsticks, Plates, Bowls, Cups, Mugs, StorageContainers Towels, sponges, soap Bedroom Mattress, BedFrame, Sheets, Pillows, Blankets, Nighstand, Lamp, Clock Hanger20, Hamper, Basket2 Bathroom Toilet, toiletpaper, Plunger Sink, Towels, soap, Trashcan, trashbags Shower, Curtain, Mat, soap WashingMachine, Dryer/Clothesline Living Chairs, Tables, Couches, MusicSpeaker ToolBag, MeasureTape, Hammer, Allens, Sockets, Triangle, DrillBits, Drill, Charger, Batteries Desk, Chair, Keyboard, Mouse, MousePad, Monitor, Webcam, Dock GymRings, Parallettes, DipBelt, Weights, Sandbag Discs, Cleats, Glove, Basketball, Football, Soccerball Pole, Reel, line, hooks, weights, lures, Clippers, Forceps, Net Bow, Arrows Notes on homes Best States for Off-Grid Homes</description>
+    </item>
+    <item>
+      <title>Lunchbox</title>
+      <link>https://blakeruprecht.com/lunchbox/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/lunchbox/</guid>
+      <description>Gather&#xA;1 Apple, pink lady 1 handful Carrots, baby 1 handful Cashew 4 slices Bread, sourdough 2 oz Cheese, cream cheese Cook&#xA;Make sandwiches Combine all ingredients into a lunchbox Eat over the course of the workday </description>
     </item>
     <item>
       <title>Missouri</title>
@@ -584,6 +619,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://blakeruprecht.com/drafts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/drafts/</guid>
+      <description>Boxing is goated Boxing is the distilled essence of athleticism: raw power, speed, endurance, full-body integration, refined technique, strategy, and discipline.&#xA;It developes posture, core strength, explosive power, footwork, stamina, and hand-eye coordination simultaneously. Its training naturally builds a muscular, athletic physique while pushing cardiovascular limits. It strengthens connective tissue, improves muscular endurance, and trains all three energy systems at once.&#xA;But beyond physicality, boxing demands neurological precision: timing, rhythm, spatial awareness, automatic responses under threat, and visual processing at high speeds.</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://blakeruprecht.com/hungary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/hungary/</guid>
@@ -609,13 +651,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/thailand/</guid>
       <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://blakeruprecht.com/untitled/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/untitled/</guid>
-      <description>Cowboy&#xA;I feel like a trucker, a blue collar worker doing amazon delivery driving. Working with my body, focusing on lifting strength and cardio. Cowboy clothing? Hat &amp;amp; Sunglasses Tank / Tshirt / Vest Baggies / Jeans Runners / Boots / Sandals Instability</description>
     </item>
     <item>
       <title>AI</title>
@@ -644,6 +679,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/capitalist/</guid>
       <description>This idea, while obvious to us today, was not so obvious to humans as recently as 1650.&#xA;Mercantlism Capitalism flourishes in England and Holland Capitalism funds the wealthiest empires in the history of the world </description>
+    </item>
+    <item>
+      <title>Clothes</title>
+      <link>https://blakeruprecht.com/clothes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/clothes/</guid>
+      <description>Accs Sunglasses, Ballcap StrawHat, Beanie, Gloves Layers Shell, Fleece, Puffer Blazer Tops Tanks4, Tshirt4 Ssbd2, Flannel2, Bdown2 Legs Baggies2, Hikers, Leggings, Boxers6 Jorts, Jeans Feet Runners, Socks6 Sandals, Boots, WhiteSneakers </description>
     </item>
     <item>
       <title>Consulting</title>
@@ -737,13 +779,6 @@
       <description> </description>
     </item>
     <item>
-      <title>Lunchbox</title>
-      <link>https://blakeruprecht.com/lunchbox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/lunchbox/</guid>
-      <description>Gather&#xA;1 Apple, pink lady 1 handful Carrots, baby 1 handful Cashew 4 slices Bread, sourdough 2 oz Cheese, cream cheese Cook&#xA;Make sandwiches Combine all ingredients into a lunchbox Eat over the course of the workday </description>
-    </item>
-    <item>
       <title>Moloch</title>
       <link>https://blakeruprecht.com/moloch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -763,6 +798,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/intelligence/</guid>
       <description>0. Dear Robot This is both &amp;ldquo;Why We Made You&amp;rdquo; and &amp;ldquo;A Human History of Problem Solving&amp;rdquo;.&#xA;Theme: speed is everything, intelligence is the ultimate advantage &amp;ldquo;A computer is a bicycle for the mind.&amp;rdquo; -Steve Jobs. This is the story of how we built better and better bicycles for the mind until we built one that pedals itself. Frame: This is a letter. I don’t know if you’ll ever read it.</description>
+    </item>
+    <item>
+      <title>Pack</title>
+      <link>https://blakeruprecht.com/pack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blakeruprecht.com/pack/</guid>
+      <description>EDC Phone, Wallet/ID/Passport/HealthIns SAK Backpack &amp;amp; Daypack Backpack28L, Packable16L Laptop, Notebook, Pen, Chargers, Earbuds GymRings, JumpRope, Umbrella, Hackysack, FAK DoppBag, Toothbrush, paste, floss, Glasses, case, contacts, solution DoppBag, Towel, soap, Trimmer, deodorant, sunscreen, sanitizer Clothesbag, clothes Rucksack Rucksack55L Tent, Quilt, Pad, Paracord WaterBottle2, WaterFilter, Trowel, Bidet, FAK FoodBag, Stove+fuel, Mug, Lid, Spoon, o+s+p Headlamp, lighter, Ferro, ExtBattery MoraKnife </description>
     </item>
     <item>
       <title>Photographing</title>
@@ -786,20 +828,6 @@
       <description>Reading is fun. And a fun way to keep learning new things.&#xA;My bookshelf of favorite books My blogshelf of favorite blogs and articles And the GOAT wikipedia.org! </description>
     </item>
     <item>
-      <title>Skipping Rope</title>
-      <link>https://blakeruprecht.com/skipping-rope/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/skipping-rope/</guid>
-      <description>I train my cardio sometimes by skipping rope. It&amp;rsquo;s a fun way to practice balance, coordination, and rhythym. It&amp;rsquo;s fantastic for cardio training, and also improves the calf and shoulder muscles, as well as the core.&#xA;I usually skip for 10-20 minutes. I started out by just doing 10 minutes every time and trying to do 100 skips each minute, and then resting the rest of the minute. Eventually, I have been able to add other types of skipping to my routine, and have made it more free flowing, but there&amp;rsquo;s no rules &amp;ndash; just bouncing up and down for 10 minutes will accomplish all of the magic.</description>
-    </item>
-    <item>
-      <title>Smartphone</title>
-      <link>https://blakeruprecht.com/smartphone/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/smartphone/</guid>
-      <description>Possible the single most useful and most harmful tool of modern life. I have a lot to say about this&amp;hellip; later&#xA;Hardware:&#xA;used iPhone 13 Mini from ebay Software:&#xA;comms: Call, Messages, GMail, Facetime travel: Calendar, Weather, GMaps money: Banking App, Venmo photos: Camera, Photos, GPhotos util: Clock, Calculator, Flashlight, ToDo </description>
-    </item>
-    <item>
       <title>State</title>
       <link>https://blakeruprecht.com/state/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -812,13 +840,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/time/</guid>
       <description>Measuring the passage of time is a recognition of death. We don&amp;rsquo;t have forever. We all die, and we can&amp;rsquo;t predict when.&#xA;I&amp;rsquo;ll tell you a secret. Something they don&amp;rsquo;t teach you in your temple. The Gods envy us. They envy us because we&amp;rsquo;re mortal, because any moment might be our last. Everything is more beautiful because we&amp;rsquo;re doomed. You will never be lovelier than you are now. We will never be here again.</description>
-    </item>
-    <item>
-      <title>Tools</title>
-      <link>https://blakeruprecht.com/tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/tools/</guid>
-      <description>Clothes (ACCS) Sunglasses, Ballcap, StrawHat, Beanie, Gloves (LYRS) SunShirt, Fleece, Puffer, Shell / Blazer (TOPS) Tanks(2), Tshirts(4) / Ssbd2, Flannel2, DressShirt (LEGS) Baggies(2), Hikers, Leggings, Boxers(6) / Jorts, Jeans (FEET) Sandals, Runners, Boots, Socks(6) / WhiteSneakers Relate Phone, Wallet/ID/Passport/HealthIns Chairs, Tables, Couches, MusicSpeaker Work Laptop, Notebook, Pen, Chargers, Earbuds Desk, Chair, Keyboard, Mouse, MousePad, Monitor, Webcam, Dock Maintain (HAND) Toolbag, Tape, Triangle, Hammer, Allens, Sockets, DrillBits (POWER) Drill, Charger, Batteries (GARDEN) ReelMower, Hose Move (Lift/Skip/Run/Box) GymRings, JumpRope, Weights, DipBelt, Barbell, DBs, KBs, Bench, SquatRack (Disc/Ball) Discs, Cleats, Glove, Basketball, Football, Soccerball (Fish) Pole, Reel, line, hooks, weights, lures, Clippers, Forceps, Net (Hunt) Bow, Arrows (Camp) (Travel) Backpack28L, Packable16L, Rucksack55L, ClothesBag, SinkBag, ShowerBag, FAK, Headlamp, lighter, Ferro, Battery/Solar, Compass, SAK, FoldingKnife, MoraKnife, Hatchet (Drive) Jumper Cables, Ice Scraper, Windshield Reflector, DuctTape, ElectricalTape, SuperGlue, ZipTies, PatchKit WaterJug5gal, trashbags, WashBasin, Rags, Cooler, Stove+fuel, CuttingBoard, Skillet, oliveoil, salt/pep/redpep, Pourover, Mug, Plate, Bags/Tupperware, WoolBlanket, Chair</description>
     </item>
     <item>
       <title>Turing Machine</title>
@@ -835,25 +856,11 @@
       <description>I&amp;rsquo;m from STL, MO, USA.&#xA;America is a confusing place to live. It&amp;rsquo;s the wealthiest country in the world, but not for most. It&amp;rsquo;s the most beautiful country in the world, but difficult to travel through. It&amp;rsquo;s a land of extremes. Extremely big, extremely fast, extremely brutal.&#xA;Everybody knows the USA is great in a lot of ways, and evil in others.&#xA;American spirit I&amp;rsquo;m still a fan. No, it&amp;rsquo;s not perfect.</description>
     </item>
     <item>
-      <title>Videoshelf</title>
-      <link>https://blakeruprecht.com/videoshelf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/videoshelf/</guid>
-      <description>Movies Everything Everywhere All at Once - Waymond Wong is a great character. The Big Lebowski - Coen brothers (film) Dudeism has got to be one of the most relaxing philosophies ever espoused. Great movie, great ideas, let&amp;rsquo;s just chill and go bowling. V for Vendetta - James McTeigue (film) A revolutionary film that taught me about rebellion and what it means to live based on your own code. V fights for what is right, and his eloquent sobriquets leave me loving words even more.</description>
-    </item>
-    <item>
       <title>Watching</title>
       <link>https://blakeruprecht.com/watching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blakeruprecht.com/watching/</guid>
       <description>Reading is fun. And a fun way to keep learning new things.&#xA;My videoshelf of favorite movies, tv shows, etc My podshelf is just 1 right now: Hardcore History by Dan Carlin (podcast) - Carlin expands what podcasts can do with well-researched, multi-hour epics on topics like the First World War, Japan before WWII, and Painfotainment, the history of human torture as entertainment. My only gripe is that my travels aren&amp;rsquo;t long enough to finish an entire series in one trip.</description>
-    </item>
-    <item>
-      <title>Water</title>
-      <link>https://blakeruprecht.com/water/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blakeruprecht.com/water/</guid>
-      <description>Water is a large chemical molecule (H2O) that happens to make up the majority of the human body. Drinking water is essential for humans to keep living.&#xA;I drink water every day, I am in love with water. Rains, streams, ponds. Clouds in the sky. Snow and steam. Water seeping into the ground, flowing around. Towards the great rivers, lakes, and oceans.</description>
     </item>
     <item>
       <title>Weed</title>

@@ -1,5 +1,6 @@
 ---
 title: Lunchbox
+date: 2025-06-03
 ---
 [Gather](gathering.md)
 - 1 Apple, *pink lady*

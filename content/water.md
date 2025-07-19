@@ -1,5 +1,6 @@
 ---
 title: Water
+date: 2025-07-01
 ---
 **Water** is a large chemical molecule (H2O) that happens to make up the majority of the human body. [Drinking](/drinking) water is essential for humans to keep [living](/living).
 

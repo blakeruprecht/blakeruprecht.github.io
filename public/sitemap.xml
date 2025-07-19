@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blakeruprecht.com/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blakeruprecht.com/water/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blakeruprecht.com/videoshelf/</loc>
+    <lastmod>2025-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/blogshelf/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
@@ -11,8 +17,14 @@
     <loc>https://blakeruprecht.com/object-detection/</loc>
     <lastmod>2025-06-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blakeruprecht.com/skipping-rope/</loc>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blakeruprecht.com/breathing/</loc>
     <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blakeruprecht.com/smartphone/</loc>
+    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/living/</loc>
     <lastmod>2025-06-08T00:00:00+00:00</lastmod>
@@ -96,6 +108,9 @@
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/home/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blakeruprecht.com/lunchbox/</loc>
     <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blakeruprecht.com/missouri/</loc>
@@ -253,6 +268,8 @@
   </url><url>
     <loc>https://blakeruprecht.com/austria/</loc>
   </url><url>
+    <loc>https://blakeruprecht.com/drafts/</loc>
+  </url><url>
     <loc>https://blakeruprecht.com/hungary/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/italy/</loc>
@@ -260,8 +277,6 @@
     <loc>https://blakeruprecht.com/laos/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/thailand/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.com/untitled/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/ai/</loc>
   </url><url>
@@ -274,6 +289,8 @@
     <loc>https://blakeruprecht.com/capitalist/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/categories/</loc>
+  </url><url>
+    <loc>https://blakeruprecht.com/clothes/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/consulting/</loc>
   </url><url>
@@ -301,13 +318,13 @@
   </url><url>
     <loc>https://blakeruprecht.com/less/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/lunchbox/</loc>
-  </url><url>
     <loc>https://blakeruprecht.com/moloch/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/music/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/intelligence/</loc>
+  </url><url>
+    <loc>https://blakeruprecht.com/pack/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/photographing/</loc>
   </url><url>
@@ -315,27 +332,17 @@
   </url><url>
     <loc>https://blakeruprecht.com/reading/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/skipping-rope/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.com/smartphone/</loc>
-  </url><url>
     <loc>https://blakeruprecht.com/state/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/tags/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/time/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/tools/</loc>
-  </url><url>
     <loc>https://blakeruprecht.com/turing-machine/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/united-states/</loc>
   </url><url>
-    <loc>https://blakeruprecht.com/videoshelf/</loc>
-  </url><url>
     <loc>https://blakeruprecht.com/watching/</loc>
-  </url><url>
-    <loc>https://blakeruprecht.com/water/</loc>
   </url><url>
     <loc>https://blakeruprecht.com/weed/</loc>
   </url><url>

@@ -1,5 +1,6 @@
 ---
 title: Videoshelf
+date: 2025-06-24
 ---
 ## Movies
 - **Everything Everywhere All at Once** - Waymond Wong is a great character. 

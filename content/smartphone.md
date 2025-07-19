@@ -1,5 +1,6 @@
 ---
 title: Smartphone
+date: 2025-06-11
 ---
 Possible the single most useful and most harmful tool of modern life. I have a lot to say about this... later
 

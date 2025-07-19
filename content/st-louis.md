@@ -27,7 +27,3 @@ STL city proper has about 300k residents and is a very interesting place. Saint 
 ## Average Climate
 The climate of STL is *humid subtropical*, which basically means somewhat cold and occasionally snowy in the winter, and hot as balls in the summer. This means STL experiences some similar conditions to the rest of the country.
 
-
-
-
-![Logo of the STL Cardinals](logo-cardinals.png)

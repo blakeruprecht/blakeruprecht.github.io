@@ -1,5 +1,6 @@
 ---
 title: Skipping Rope
+date: 2025-06-15
 ---
 I train my cardio sometimes by skipping rope. It's a fun way to practice balance, coordination, and rhythym. It's fantastic for cardio training, and also improves the calf and shoulder muscles, as well as the core.
 
