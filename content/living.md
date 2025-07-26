@@ -10,12 +10,12 @@ draft: false
 	- **Share** - [food](/food), [coffee](/coffee), [beer](/beer), [music](/music), [letters](/writing), [drawings](/drawing), [photos](/photographing), [read](/reading), [watch](/watching)
 	- **Serve** - do [tasks](/living) for/with others
 
-- [Work](/working) -- [work-tasks](/work-tasks), [maintain](/maintaining), [write](/writing)
+- [Work](/working) for Amazon / [Write](/writing) for website
+- [Maintain](/maintaining) time, money, medical, home, car, packs, clothes
 
-- [Move](/moving) -- train, walk/cycle/drive, disc/ball/fish/hunt/camp
+- [Move](/moving) - train, travel, **box**/disc/ball/fish/**hunt**
 - [Eat](/eating) breakfast, lunch, dinner
 - [Drink](/drinking) water all day, +coffee/beer
-- [Clean](/cleaning) toilet, eyes, teeth, shave, shower
+- [Clean](/cleaning) toilet, eyes, teeth, skin, hair
 - [Sleep](/sleeping) when tired until @8am
 - [Breathe](/breathing)
-

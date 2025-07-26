@@ -21,4 +21,10 @@ title: Pack
 - Headlamp, lighter, Ferro, **ExtBattery**
 - MoraKnife
 
+## Sports Kits
+- DiscGolfDiscs
+- Cleats, BaseballGlove, Basketball, Football, Soccerball
+- **Pole, Reel, line, hooks, weights, lures, Clippers, Forceps, Net**
+- **Bow, Arrows**
+
 

@@ -18,5 +18,5 @@ DAILY PRACTICE
 
 Cleaning is daily maintenance to keep the body free of disease. It's preventative maintenace for the body.
 
-For inspiration, look how good your hair can look when taken care of:
+Inspiration, when taken care of, my hair can look good.
 ![My usual haircut](/img/my-haircut.png)

@@ -8,21 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fca63339f2a97e8a",
+            "id": "56a751293a9eaa90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pack.md",
+                "file": "living.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pack"
+              "title": "living"
             }
           },
           {
-            "id": "a953ddf3c35d47a6",
+            "id": "b3b18c49f0b511d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eating.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "eating"
+            }
+          },
+          {
+            "id": "4dc97f90384150a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maintaining.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "maintaining"
+            }
+          },
+          {
+            "id": "bced0ea18976241c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,17 +64,31 @@
             }
           },
           {
-            "id": "56a751293a9eaa90",
+            "id": "ed73dfeb9ffecf4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "relating.md",
+                "file": "pack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "relating"
+              "title": "pack"
+            }
+          },
+          {
+            "id": "2be8e8e662e10fe0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "clothes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "clothes"
             }
           }
         ]
@@ -140,12 +182,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pack.md",
+                "file": "relating.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from pack"
+              "title": "Outgoing links from relating"
             }
           },
           {
@@ -169,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pack.md",
+                "file": "living.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of pack"
+              "title": "Outline of living"
             }
           },
           {
@@ -207,10 +249,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fca63339f2a97e8a",
+  "active": "56a751293a9eaa90",
   "lastOpenFiles": [
+    "eating.md",
+    "maintaining.md",
     "home.md",
     "pack.md",
+    "clothes.md",
+    "living.md",
+    "car.md",
+    "drinking.md",
+    "cleaning.md",
+    "Untitled.md",
+    "writing.md",
+    "work-tasks.md",
+    "lifting.md",
+    "moving.md",
+    "explog.md",
+    "budget.md",
+    "relating.md",
     "lunchbox.md",
     "smartphone.md",
     "videoshelf.md",
@@ -220,21 +277,6 @@
     "united-states.md",
     "st-louis.md",
     "missouri.md",
-    "living.md",
-    "maintaining.md",
-    "clothes.md",
-    "relating.md",
-    "working.md",
-    "work-tasks.md",
-    "car.md",
-    "moving.md",
-    "boxing.md",
-    "my-personality.md",
-    "d-nut.md",
-    "lifting.md",
-    "stretching.md",
-    "camping.md",
-    "sleeping.md",
     "Pasted image 20250628120924.png",
     "vision.canvas",
     "1",

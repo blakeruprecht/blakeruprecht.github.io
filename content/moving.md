@@ -19,6 +19,8 @@ Move in every way humans naturally do. Don’t specialize too early. Play everyt
 - [Running](/running) - fast locomotion, great cardio
 - [Skipping Rope](/skipping-rope) - balance, rhythym, cardio
 - [Lifting](/lifting) - practice pulling, pushing, squatting, lifting, carrying
+
+## Athletics / Sports
 - [Boxing](/boxing) - improved everything
 - [Balling](/balling) - explosive throws, kicks, jumps, sprints
 - [Disc Golfing](/disc-golfing) - explosive throws, aim

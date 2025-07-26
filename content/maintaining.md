@@ -3,13 +3,9 @@ title: Maintaining
 date: 2025-06-06
 draft: false
 ---
-## Maintain time/money
-- [Calendar](https://calendar.google.com/) - track time commitments to others
-- [Tasks](https://tasks.google.com) - master list only
-- [ExpLog](/explog) - optional daily tracking (paused)
-- [Budget](/budget) - track money, limit spending
-
-## Maintain tools
+- **Time** - [Calendar](https://calendar.google.com/) and [Tasks](https://tasks.google.com)
+- **Money** - [Budget](/budget), TaxInfo, Passport, ID
+- **Medical** - Physician, Dentist, Derm, Opto
 - [Home](/home) - shelter is essential
 - [Car](/car) - transport is essential
 - [Pack](/pack) - all the gear needed for life

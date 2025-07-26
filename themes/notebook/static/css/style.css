@@ -4,8 +4,7 @@
   --fg-color: #404040;
   --mg-color: #808080;
   --bg-color: #fdfdfd;
-  --link: #5080AF;
-  --link-hover: #749ac8;
+  --link: #DD0000;
 
   /* Fonts */
   --font-serif: serif;
@@ -20,8 +19,7 @@
     --fg-color: #bfbfbf;
     --mg-color: #808080;
     --bg-color: #0b0b0b;
-    --link: #dd0000;
-    --link-hover: #dd0000;
+    --link: #DD0000;
   }
 }
 
@@ -115,8 +113,8 @@ a {
 }
 
 a:hover {
-  color: var(--link-hover);
-  text-decoration-color: var(--link-hover);
+  color: var(--mg-color);
+  text-decoration-color: var(--link);
 }
 
 a:focus {
@@ -195,15 +193,17 @@ hr {
 }
 
 .logo a {
-  color: var(--link);
-  text-decoration: none;
+  color: var(--fg-color);
+  font-variant: small-caps;
+  text-decoration: underline;
+  text-decoration-color: var(--link);
   font-weight: bold;
 }
 
 .logo a:hover {
-  color: var(--link-hover);
+  color: var(--mg-color);
   text-decoration: underline;
-  text-decoration-color: var(--link-hover);
+  text-decoration-color: var(--link);
 }
 
 code {
@@ -249,14 +249,14 @@ footer {
 }
 
 footer a {
-  color: var(--link);
+  color: var(--mg-color);
   text-decoration: none;
 }
 
 footer a:hover {
-  color: var(--link-hover);
+  color: var(--fg-color);
   text-decoration: underline;
-  text-decoration-color: var(--link-hover);
+  text-decoration-color: var(--link);
 }
 
 @media (max-width: 768px) {
